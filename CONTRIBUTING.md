@@ -2,13 +2,13 @@
 
 ## First-time GitHub setup (repository owner)
 
-1. Create a new repository on GitHub, for example `ml-capstone-team`.
+1. Create a new repository on GitHub, for example `mscf-doc-parsing-capstone`.
 2. Choose visibility appropriate for the project. A private repository can be shared with teammates and the mentor by invitation.
 3. Leave the README, .gitignore, and license initialization options unchecked: the local repository already has its starter files.
 4. In a terminal inside this folder, replace YOUR-USERNAME with the GitHub owner and run:
 
 ```sh
-git remote add origin https://github.com/YOUR-USERNAME/ml-capstone-team.git
+git remote add origin https://github.com/YOUR-USERNAME/mscf-doc-parsing-capstone.git
 git push -u origin main
 ```
 
@@ -21,11 +21,11 @@ Authenticate with GitHub when prompted using your configured credential manager,
 After accepting the invitation, clone the repository once:
 
 ```sh
-git clone https://github.com/YOUR-USERNAME/ml-capstone-team.git
-cd ml-capstone-team
+git clone https://github.com/YOUR-USERNAME/mscf-doc-parsing-capstone.git
+cd mscf-doc-parsing-capstone
 ```
 
-Rename your placeholder folder under `people/`, update its README, and update the team table in the root README. Coordinate those initial root README edits.
+Use your Andrew ID folder under `people/`: `samhu`, `mc8`, `oli2`, `yuyangso`, or `yujiezhu`. Update your personal README with your current focus. Coordinate edits to the team table in the root README.
 
 ## Everyday workflow
 
@@ -37,13 +37,13 @@ Start with a clean working tree and get the latest work:
 git pull --ff-only
 ```
 
-Work in your personal folder. Before a meeting, copy `weekly/update-template.md` to `weekly/YYYY-MM-DD/your-name.md` and fill it out. The meeting owner creates the dated folder and meeting notes using `weekly/meeting-template.md`.
+Work in your personal folder. Before a meeting, copy `weekly/update-template.md` to `weekly/YYYY-MM-DD/your-andrewid.md` and fill it out. The meeting owner creates the dated folder and meeting notes using `weekly/meeting-template.md`.
 
 Review and commit only your intended files (replace these example paths):
 
 ```sh
 git status
-git add people/person_a weekly/2026-09-19/person_a.md
+git add people/samhu weekly/2026-09-19/samhu.md
 git commit -m "Explore initial approach and record findings"
 git pull --rebase
 git push

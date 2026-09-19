@@ -1,4 +1,4 @@
-# Weekly update — Person A — 2026-09-19
+# Weekly update — yuyangso — 2026-09-19
 
 ## What I explored
 

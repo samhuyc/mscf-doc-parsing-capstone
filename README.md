@@ -1,11 +1,11 @@
-# ML Capstone — Team Exploration
+# MSCF Document Parsing Capstone
 
 A shared workspace for exploratory work, progress updates, and mentor discussions.
 
 ## Current agenda — September 19, 2026
 
 - Agree on the initial research questions and division of work.
-- Rename the personal folders and add each person's focus below.
+- Add each person's current focus below.
 - Record available data sources and access requirements.
 - Choose the next experiments and meeting date.
 
@@ -13,9 +13,11 @@ A shared workspace for exploratory work, progress updates, and mentor discussion
 
 | Member | Workspace | Current focus |
 | --- | --- | --- |
-| Person A | [Personal work](people/person_a/) | To be defined |
-| Person B | [Personal work](people/person_b/) | To be defined |
-| Person C | [Personal work](people/person_c/) | To be defined |
+| samhu | [Personal work](people/samhu/) | To be defined |
+| mc8 | [Personal work](people/mc8/) | To be defined |
+| oli2 | [Personal work](people/oli2/) | To be defined |
+| yuyangso | [Personal work](people/yuyangso/) | To be defined |
+| yujiezhu | [Personal work](people/yujiezhu/) | To be defined |
 
 ## Follow our progress
 

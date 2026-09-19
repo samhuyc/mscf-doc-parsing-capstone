@@ -1,6 +1,6 @@
-# Person C — Exploration
+# mc8 — Exploration
 
-Rename this folder to your name and update the team table in the root README.
+Personal workspace for `mc8`. Add your current focus and links to experiments below.
 
 ## Current focus
 

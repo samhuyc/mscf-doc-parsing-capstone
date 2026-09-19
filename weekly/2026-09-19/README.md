@@ -7,9 +7,11 @@
 
 ## Individual updates
 
-- [Person A](person_a.md)
-- [Person B](person_b.md)
-- [Person C](person_c.md)
+- [samhu](samhu.md)
+- [mc8](mc8.md)
+- [oli2](oli2.md)
+- [yuyangso](yuyangso.md)
+- [yujiezhu](yujiezhu.md)
 
 ## Findings and decisions
 

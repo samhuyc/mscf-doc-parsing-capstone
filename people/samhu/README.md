@@ -1,6 +1,6 @@
-# Person A — Exploration
+# samhu — Exploration
 
-Rename this folder to your name and update the team table in the root README.
+Personal workspace for `samhu`. Add your current focus and links to experiments below.
 
 ## Current focus
 

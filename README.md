@@ -12,7 +12,9 @@ people/              Individual experiments, notebooks, and findings
   yuyangso/
   yujiezhu/
 weekly/              Shared weekly notes, results, and discussion materials
-  2026-09-19/
+  2026-09-09/
+  2026-09-16/
+  2026-09-23/
 shared/              Joint experiments and reusable code
 data/                Data documentation and small, shareable samples
 ```
@@ -21,7 +23,7 @@ Use your Andrew ID folder for individual work. Add weekly materials under `weekl
 
 Coordinate edits to shared files to reduce conflicts. Keep credentials, restricted documents, and large datasets out of Git. Local datasets in `data/raw/` and `data/processed/` are ignored.
 
-## Current agenda
+## Next meeting — September 23, 2026
 
 - Agree on the initial research questions and division of work.
 - Confirm data sources and access.

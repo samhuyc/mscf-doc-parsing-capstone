@@ -1,0 +1,448 @@
+{
+  "metric_version": "prototype-1",
+  "note": "Custom diagnostics; not official leaderboard metrics. Higher is better.",
+  "run": {
+    "parser": "mineru",
+    "version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "input_kind": "image_pdf",
+    "device": "cpu",
+    "platform": "macOS-15.0.1-arm64-arm-64bit",
+    "manifest_sha256": "f7a14f44669dd5c0c9ca3e890b54d23d87068a68c70d26b50a88b253c9b386ed",
+    "started_utc": "2026-09-20T23:56:48.991424+00:00",
+    "config": {
+      "formulas": false,
+      "tables": true,
+      "image_analysis": false
+    },
+    "note": "Import runtime excludes original inference; PyMuPDF is native-text only, without OCR."
+  },
+  "provenance": {
+    "inputs": "f7a14f44669dd5c0c9ca3e890b54d23d87068a68c70d26b50a88b253c9b386ed",
+    "references": "345c309acc9c988f7f41324ef0a8933c3d1e8b333922e53f6c15cf40155a0de2",
+    "predictions": "d7b95b4509a9e5215f442f2d89dd9360c05d61849dbd4bb9725fc2c6eb4d1b8a"
+  },
+  "summary": {
+    "fincriticaled": {
+      "pages": 8,
+      "input_kind": "image_pdf",
+      "successful": 7,
+      "metrics": {
+        "text_similarity": {
+          "mean": 0.7788368326697066,
+          "scored_pages": 8
+        },
+        "numeric_precision": {
+          "mean": 0.7416446208112875,
+          "scored_pages": 8
+        },
+        "numeric_recall": {
+          "mean": 0.7003811950737123,
+          "scored_pages": 8
+        },
+        "numeric_f1": {
+          "mean": 0.7199278354349677,
+          "scored_pages": 8
+        },
+        "table_structure": {
+          "mean": null,
+          "scored_pages": 0
+        },
+        "table_content": {
+          "mean": null,
+          "scored_pages": 0
+        },
+        "table_numeric_cell_f1": {
+          "mean": null,
+          "scored_pages": 0
+        },
+        "critical_span_recall": {
+          "mean": 0.6105719494965819,
+          "scored_pages": 8
+        },
+        "critical_context_recall": {
+          "mean": 0.1567529284441049,
+          "scored_pages": 8
+        }
+      },
+      "total_seconds": 127.014
+    }
+  },
+  "pages": [
+    {
+      "id": "fin_334",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 18.645,
+      "output_sha256": "043fd3dfbc2df020f849c1a70f1dc6e0bb1647e1cc606c7ac5c9b5d88aca7dd3",
+      "metrics": {
+        "text_similarity": 0.8593961243803515,
+        "numeric_precision": 0.9714285714285714,
+        "numeric_recall": 0.9444444444444444,
+        "numeric_f1": 0.9577464788732394,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.7647058823529411,
+        "critical_context_recall": 0.10294117647058823
+      },
+      "details": {
+        "numeric_missing_count": 6,
+        "numeric_extra_count": 3,
+        "numeric_missing_examples": {
+          "2024": 2,
+          "$26,872,654,596": 1,
+          "$1,405,242,928": 1,
+          "5": 1,
+          "$100,000": 1
+        },
+        "numeric_extra_examples": {
+          "26,872,654,596": 1,
+          "1,405,242,928": 1,
+          "$100": 1
+        },
+        "critical_fields": {
+          "expected": 68,
+          "span_matched": 52,
+          "context_matched": 7
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "334",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_342",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 15.502,
+      "output_sha256": "e3ee3a3c4245985e0b73530386236b96c9b08b446b2a1aa028684e0802572e13",
+      "metrics": {
+        "text_similarity": 0.9317365269461078,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.9032258064516129,
+        "numeric_f1": 0.9491525423728814,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.5,
+        "critical_context_recall": 0.4
+      },
+      "details": {
+        "numeric_missing_count": 3,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "2024": 2,
+          "6": 1
+        },
+        "numeric_extra_examples": {},
+        "critical_fields": {
+          "expected": 20,
+          "span_matched": 10,
+          "context_matched": 8
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "342",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_344",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 20.651,
+      "output_sha256": "a439fe745a1ede43fc98b4b1695ce5541ae94fd5002d65434e1053a7d33aa4ed",
+      "metrics": {
+        "text_similarity": 0.8498269896193772,
+        "numeric_precision": 0.9135802469135802,
+        "numeric_recall": 0.7789473684210526,
+        "numeric_f1": 0.8409090909090909,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.65625,
+        "critical_context_recall": 0.0
+      },
+      "details": {
+        "numeric_missing_count": 21,
+        "numeric_extra_count": 7,
+        "numeric_missing_examples": {
+          "4": 4,
+          "(1)": 4,
+          "4)": 3,
+          "1": 2,
+          "8)": 2,
+          "5": 1,
+          "11": 1,
+          "2025": 1,
+          "3": 1,
+          "(2)": 1
+        },
+        "numeric_extra_examples": {
+          "1)": 6,
+          "2)": 1
+        },
+        "critical_fields": {
+          "expected": 32,
+          "span_matched": 21,
+          "context_matched": 0
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "344",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_348",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "empty",
+      "elapsed_seconds": 14.425,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metrics": {
+        "text_similarity": 0.0,
+        "numeric_precision": 0.0,
+        "numeric_recall": 0.0,
+        "numeric_f1": 0.0,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.0,
+        "critical_context_recall": 0.0
+      },
+      "details": {
+        "numeric_missing_count": 61,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "30": 3,
+          "2025": 3,
+          "31": 3,
+          "2024": 1,
+          "$72,156": 1,
+          "$44,333": 1,
+          "305,367": 1,
+          "286,472": 1,
+          "17,943": 1,
+          "15,364": 1
+        },
+        "numeric_extra_examples": {},
+        "critical_fields": {
+          "expected": 65,
+          "span_matched": 0,
+          "context_matched": 0
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "348",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_351",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 15.439,
+      "output_sha256": "d9710a0e51c51e8dcb2288413a60727d7779f9f3f96fa2464c6a18f7d18b0fea",
+      "metrics": {
+        "text_similarity": 0.8647619047619047,
+        "numeric_precision": 0.9,
+        "numeric_recall": 0.8852459016393442,
+        "numeric_f1": 0.8925619834710744,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.8214285714285714,
+        "critical_context_recall": 0.35714285714285715
+      },
+      "details": {
+        "numeric_missing_count": 7,
+        "numeric_extra_count": 6,
+        "numeric_missing_examples": {
+          "2024": 1,
+          "$30,864": 1,
+          "$26,480": 1,
+          "$47,993": 1,
+          "$69,810": 1,
+          "$30,168": 1,
+          "5": 1
+        },
+        "numeric_extra_examples": {
+          "$2024": 1,
+          "26,480": 1,
+          "47,993": 1,
+          "69,810": 1,
+          "30,864": 1,
+          "30,168": 1
+        },
+        "critical_fields": {
+          "expected": 28,
+          "span_matched": 23,
+          "context_matched": 10
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "351",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_356",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 16.562,
+      "output_sha256": "5da5551f2a40a89aa1858fc6f28f2585425d0080d48019aa82b62b0609760c4a",
+      "metrics": {
+        "text_similarity": 0.9929547395388557,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.9795918367346939,
+        "numeric_f1": 0.9896907216494846,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.7575757575757576,
+        "critical_context_recall": 0.3939393939393939
+      },
+      "details": {
+        "numeric_missing_count": 1,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "10": 1
+        },
+        "numeric_extra_examples": {},
+        "critical_fields": {
+          "expected": 33,
+          "span_matched": 25,
+          "context_matched": 13
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "356",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_367",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 12.402,
+      "output_sha256": "11cbe9f86dc604da8dbbb391d7abc20c76d59bade5734751ce9a551d507f4de3",
+      "metrics": {
+        "text_similarity": 0.8032258064516129,
+        "numeric_precision": 0.14814814814814814,
+        "numeric_recall": 0.13333333333333333,
+        "numeric_f1": 0.14035087719298245,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 0.38461538461538464,
+        "critical_context_recall": 0.0
+      },
+      "details": {
+        "numeric_missing_count": 26,
+        "numeric_extra_count": 23,
+        "numeric_missing_examples": {
+          "$0": 4,
+          "$316": 2,
+          "$711": 2,
+          "$180": 1,
+          "$685": 1,
+          "$923": 1,
+          "$1,180": 1,
+          "$1,911": 1,
+          "$192": 1,
+          "$601": 1
+        },
+        "numeric_extra_examples": {
+          "0": 4,
+          "316": 2,
+          "1": 2,
+          "685": 1,
+          "923": 1,
+          "1,180": 1,
+          "192": 1,
+          "601": 1,
+          "1,035": 1,
+          "2": 1
+        },
+        "critical_fields": {
+          "expected": 52,
+          "span_matched": 20,
+          "context_matched": 0
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "367",
+      "attributes": {
+        "language": "english"
+      }
+    },
+    {
+      "id": "fin_374",
+      "dataset": "fincriticaled",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 13.388,
+      "output_sha256": "b6a25f962a6d493e8be99a7127d93fe256a758ced2dd5c79d56126ef477dc33d",
+      "metrics": {
+        "text_similarity": 0.9287925696594427,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.9782608695652174,
+        "numeric_f1": 0.989010989010989,
+        "table_structure": null,
+        "table_content": null,
+        "table_numeric_cell_f1": null,
+        "critical_span_recall": 1.0,
+        "critical_context_recall": 0.0
+      },
+      "details": {
+        "numeric_missing_count": 1,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "1": 1
+        },
+        "numeric_extra_examples": {},
+        "critical_fields": {
+          "expected": 32,
+          "span_matched": 32,
+          "context_matched": 0
+        }
+      },
+      "flags": [
+        "table_labels_unavailable"
+      ],
+      "source_id": "374",
+      "attributes": {
+        "language": "english"
+      }
+    }
+  ]
+}

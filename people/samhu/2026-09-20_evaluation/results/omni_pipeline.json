@@ -1,0 +1,625 @@
+{
+  "metric_version": "prototype-1",
+  "note": "Custom diagnostics; not official leaderboard metrics. Higher is better.",
+  "run": {
+    "parser": "mineru",
+    "version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "input_kind": "image_pdf",
+    "device": "cpu",
+    "platform": "macOS-15.0.1-arm64-arm-64bit",
+    "manifest_sha256": "faaefb4b2b90cd286856336e4a9efba83e19d14a6f678ebd710ffae8faff74f6",
+    "started_utc": "2026-09-20T23:44:59.114417+00:00",
+    "config": {
+      "formulas": false,
+      "tables": true,
+      "image_analysis": false
+    },
+    "note": "Import runtime excludes original inference; PyMuPDF is native-text only, without OCR."
+  },
+  "provenance": {
+    "inputs": "faaefb4b2b90cd286856336e4a9efba83e19d14a6f678ebd710ffae8faff74f6",
+    "references": "7d4c3a73a529de34112df5dad1d90c0b68aff0efb39c4c9bf5c6248ec1354058",
+    "predictions": "6e573b375e9af57ca69a7cc93e98e64ec89446414fc9ae058f9fcfb2f42a8765"
+  },
+  "summary": {
+    "omnidocbench": {
+      "pages": 8,
+      "input_kind": "image_pdf",
+      "successful": 8,
+      "metrics": {
+        "text_similarity": {
+          "mean": 0.9042179179192543,
+          "scored_pages": 8
+        },
+        "numeric_precision": {
+          "mean": 0.9726145827827951,
+          "scored_pages": 8
+        },
+        "numeric_recall": {
+          "mean": 0.8883980550843023,
+          "scored_pages": 8
+        },
+        "numeric_f1": {
+          "mean": 0.9143194344153489,
+          "scored_pages": 8
+        },
+        "table_structure": {
+          "mean": 0.8570383319352204,
+          "scored_pages": 8
+        },
+        "table_content": {
+          "mean": 0.7919394121020064,
+          "scored_pages": 8
+        },
+        "table_numeric_cell_f1": {
+          "mean": 0.6034916416515891,
+          "scored_pages": 8
+        },
+        "critical_span_recall": {
+          "mean": null,
+          "scored_pages": 0
+        },
+        "critical_context_recall": {
+          "mean": null,
+          "scored_pages": 0
+        }
+      },
+      "total_seconds": 156.611
+    }
+  },
+  "pages": [
+    {
+      "id": "omni_b2dbf2b054e6",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 23.51,
+      "output_sha256": "3f211ade892386a21316d5052f8126d442890cf1679644289704b5d7a5bce3d3",
+      "metrics": {
+        "text_similarity": 0.9414240617327254,
+        "numeric_precision": 0.9930875576036866,
+        "numeric_recall": 0.9908045977011494,
+        "numeric_f1": 0.9919447640966629,
+        "table_structure": 1.0,
+        "table_content": 0.9939932513506613,
+        "table_numeric_cell_f1": 0.9953810623556582,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 4,
+        "numeric_extra_count": 3,
+        "numeric_missing_examples": {
+          "$25": 1,
+          "(8": 1,
+          "(10": 1,
+          "2": 1
+        },
+        "numeric_extra_examples": {
+          "25": 1,
+          "8": 1,
+          "10": 1
+        },
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 1.0,
+            "content": 0.9939932513506613,
+            "numeric_cell_f1": 0.9953810623556582,
+            "numeric_expected": 433,
+            "numeric_observed": 433,
+            "numeric_matched": 431
+          },
+          {
+            "gold_tables": 1,
+            "predicted_tables": 1,
+            "matched_tables": 1
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "page-458ab820-615f-42fe-af33-3a8fb15ad691.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "english",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      }
+    },
+    {
+      "id": "omni_0eaffab62e6a",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 19.759,
+      "output_sha256": "a16d2d1a842ac4b582b3da0e85f3facf179ea8b10900782142be9832ee5a6835",
+      "metrics": {
+        "text_similarity": 0.8509548206800186,
+        "numeric_precision": 0.9666666666666667,
+        "numeric_recall": 0.9354838709677419,
+        "numeric_f1": 0.9508196721311475,
+        "table_structure": 0.8298412698412698,
+        "table_content": 0.767865305923277,
+        "table_numeric_cell_f1": 0.7415730337078652,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 6,
+        "numeric_extra_count": 3,
+        "numeric_missing_examples": {
+          "603612": 1,
+          "3": 1,
+          "1": 1,
+          "2023": 1,
+          "866.6": 1,
+          "24": 1
+        },
+        "numeric_extra_examples": {
+          "(603612": 1,
+          "(3": 1,
+          "(+1": 1
+        },
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.6799999999999999,
+            "content": 0.563821987995901,
+            "numeric_cell_f1": 0.3333333333333333,
+            "numeric_expected": 3,
+            "numeric_observed": 3,
+            "numeric_matched": 1
+          },
+          {
+            "gold_table": 1,
+            "predicted_table": 1,
+            "structure": 0.8095238095238095,
+            "content": 0.7447089947089947,
+            "numeric_cell_f1": 0.0,
+            "numeric_expected": 9,
+            "numeric_observed": 9,
+            "numeric_matched": 0
+          },
+          {
+            "gold_table": 2,
+            "predicted_table": 2,
+            "structure": 1.0,
+            "content": 0.9950649350649351,
+            "numeric_cell_f1": 0.9846153846153847,
+            "numeric_expected": 32,
+            "numeric_observed": 33,
+            "numeric_matched": 32
+          },
+          {
+            "gold_tables": 3,
+            "predicted_tables": 3,
+            "matched_tables": 3
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "eastmoney_1885ca41425d245551f3482457304f78b48186bff625fa91e675eaf6bba5229f.pdf_0.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "1andmore_column",
+        "special_issue": [
+          "table_horizontal",
+          "table_wireless_line"
+        ],
+        "subset": "v1.5"
+      }
+    },
+    {
+      "id": "omni_59a2d4260bbd",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 15.636,
+      "output_sha256": "7ca2173c3c07f7e3071487b25fc5891b42fa012f4f9d92ae423bf2327614c9f3",
+      "metrics": {
+        "text_similarity": 0.8914373088685015,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.984375,
+        "numeric_f1": 0.9921259842519685,
+        "table_structure": 0.9411764705882353,
+        "table_content": 0.869301395771984,
+        "table_numeric_cell_f1": 1.0,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 1,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "3": 1
+        },
+        "numeric_extra_examples": {},
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.9411764705882353,
+            "content": 0.869301395771984,
+            "numeric_cell_f1": 1.0,
+            "numeric_expected": 60,
+            "numeric_observed": 60,
+            "numeric_matched": 60
+          },
+          {
+            "gold_tables": 1,
+            "predicted_tables": 1,
+            "matched_tables": 1
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "yanbaopptmerge_aec1bf4ddb8fb4996b0512e90b3bfb31c9b151919f5d7b4a4f658f4b1f762b9e.pdf_2.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "1andmore_column",
+        "special_issue": [
+          "table_fewer_line",
+          "table_horizontal",
+          "table_span"
+        ],
+        "subset": "v1.5"
+      }
+    },
+    {
+      "id": "omni_004b206c01d7",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 17.487,
+      "output_sha256": "2944c028064c3c65391b8bcbed3fcea73b73a735955f7c0ad44ca7c020e4340e",
+      "metrics": {
+        "text_similarity": 0.8980213089802132,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.9565217391304348,
+        "numeric_f1": 0.9777777777777777,
+        "table_structure": 0.641025641025641,
+        "table_content": 0.47128020635575973,
+        "table_numeric_cell_f1": 0.047619047619047616,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 2,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "2022": 1,
+          "94": 1
+        },
+        "numeric_extra_examples": {},
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.641025641025641,
+            "content": 0.47128020635575973,
+            "numeric_cell_f1": 0.047619047619047616,
+            "numeric_expected": 42,
+            "numeric_observed": 42,
+            "numeric_matched": 2
+          },
+          {
+            "gold_tables": 1,
+            "predicted_tables": 1,
+            "matched_tables": 1
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "page-8792f466-c570-468c-86dc-402a510e9bb7.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      }
+    },
+    {
+      "id": "omni_0da5ee88f572",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 18.579,
+      "output_sha256": "40068a5f866894a06d1b1afe3c26dc9a8f81a5a65bc66eef40edf2cefbfbdd01",
+      "metrics": {
+        "text_similarity": 0.856473345049795,
+        "numeric_precision": 0.8662790697674418,
+        "numeric_recall": 0.8869047619047619,
+        "numeric_f1": 0.8764705882352941,
+        "table_structure": 0.4855266151046406,
+        "table_content": 0.36981934475595635,
+        "table_numeric_cell_f1": 0.03582089552238806,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 19,
+        "numeric_extra_count": 23,
+        "numeric_missing_examples": {
+          "-1,504": 2,
+          "-1,691": 1,
+          "-339": 1,
+          "-10,365": 1,
+          "-32": 1,
+          "-506": 1,
+          "-272,557": 1,
+          "2.210": 1,
+          "-29": 1,
+          "-3,189": 1
+        },
+        "numeric_extra_examples": {
+          "1": 5,
+          "1,504": 2,
+          "1,691": 1,
+          "339": 1,
+          "10,365": 1,
+          "32": 1,
+          "506": 1,
+          "272,557": 1,
+          "2,210": 1,
+          "29": 1
+        },
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.694267515923567,
+            "content": 0.5260819541433237,
+            "numeric_cell_f1": 0.023255813953488372,
+            "numeric_expected": 85,
+            "numeric_observed": 87,
+            "numeric_matched": 2
+          },
+          {
+            "gold_table": 1,
+            "predicted_table": 1,
+            "structure": 0.2767857142857143,
+            "content": 0.213556735368589,
+            "numeric_cell_f1": 0.049079754601226995,
+            "numeric_expected": 80,
+            "numeric_observed": 83,
+            "numeric_matched": 4
+          },
+          {
+            "gold_tables": 2,
+            "predicted_tables": 2,
+            "matched_tables": 2
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "page-2abc2a95-d39a-48db-9b6d-f40410412694.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "traditional_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      }
+    },
+    {
+      "id": "omni_2ba78c71fa3a",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 14.629,
+      "output_sha256": "10e243b9be16fda5c4554b270461f0e1a8add54f4e4f233991c54382c12f884b",
+      "metrics": {
+        "text_similarity": 0.8955223880597015,
+        "numeric_precision": 1.0,
+        "numeric_recall": 0.4,
+        "numeric_f1": 0.5714285714285714,
+        "table_structure": 1.0,
+        "table_content": 0.9925673973293021,
+        "table_numeric_cell_f1": 1.0,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 3,
+        "numeric_extra_count": 0,
+        "numeric_missing_examples": {
+          "2016": 1,
+          "12": 1,
+          "31": 1
+        },
+        "numeric_extra_examples": {},
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 1.0,
+            "content": 0.9925673973293021,
+            "numeric_cell_f1": 1.0,
+            "numeric_expected": 2,
+            "numeric_observed": 2,
+            "numeric_matched": 2
+          },
+          {
+            "gold_tables": 1,
+            "predicted_tables": 1,
+            "matched_tables": 1
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "page-74749e1d-5239-4d8e-b89c-6d83f5e59374.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      }
+    },
+    {
+      "id": "omni_070b60900a6e",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 20.49,
+      "output_sha256": "627b9a3b58891cc22e020cdc968390b17a6c3261d7bd16ca5f8e995c70e0c2e7",
+      "metrics": {
+        "text_similarity": 0.9634517766497462,
+        "numeric_precision": 0.9566787003610109,
+        "numeric_recall": 0.9566787003610109,
+        "numeric_f1": 0.9566787003610109,
+        "table_structure": 0.9937888198757764,
+        "table_content": 0.9287267080745342,
+        "table_numeric_cell_f1": 0.03985507246376811,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 12,
+        "numeric_extra_count": 12,
+        "numeric_missing_examples": {
+          "-1": 4,
+          "-3": 3,
+          "-2": 2,
+          "-4": 1,
+          "1019": 1,
+          "78": 1
+        },
+        "numeric_extra_examples": {
+          "1": 4,
+          "3": 3,
+          "2": 2,
+          "4": 1,
+          "019": 1,
+          "–1": 1
+        },
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.9937888198757764,
+            "content": 0.9287267080745342,
+            "numeric_cell_f1": 0.03985507246376811,
+            "numeric_expected": 275,
+            "numeric_observed": 277,
+            "numeric_matched": 11
+          },
+          {
+            "gold_tables": 1,
+            "predicted_tables": 1,
+            "matched_tables": 1
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "yanbaor2_1492d25d79af850815ea449254ea62418c3c7fd582792b5191e1879671ba1219.pdf_88.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [
+          "table_veritical",
+          "colorful_backgroud",
+          "table_omission_line"
+        ],
+        "subset": "v1.5"
+      }
+    },
+    {
+      "id": "omni_0e041edf8bc9",
+      "dataset": "omnidocbench",
+      "input_kind": "image_pdf",
+      "status": "success",
+      "elapsed_seconds": 26.521,
+      "output_sha256": "e70edaad2ea192f10b39a464fc6d5d6541e71349ec4cb40e502fbfa2404dc800",
+      "metrics": {
+        "text_similarity": 0.9364583333333334,
+        "numeric_precision": 0.9982046678635548,
+        "numeric_recall": 0.996415770609319,
+        "numeric_f1": 0.9973094170403587,
+        "table_structure": 0.9649478390461997,
+        "table_content": 0.9419616872545762,
+        "table_numeric_cell_f1": 0.9676840215439856,
+        "critical_span_recall": null,
+        "critical_context_recall": null
+      },
+      "details": {
+        "numeric_missing_count": 2,
+        "numeric_extra_count": 1,
+        "numeric_missing_examples": {
+          "150%": 1,
+          "2": 1
+        },
+        "numeric_extra_examples": {
+          "150": 1
+        },
+        "table_matches": [
+          {
+            "gold_table": 0,
+            "predicted_table": 0,
+            "structure": 0.9745454545454545,
+            "content": 0.8842778433687525,
+            "numeric_cell_f1": 0.91,
+            "numeric_expected": 200,
+            "numeric_observed": 200,
+            "numeric_matched": 182
+          },
+          {
+            "gold_table": 1,
+            "predicted_table": 1,
+            "structure": 1.0,
+            "content": 1.0,
+            "numeric_cell_f1": 1.0,
+            "numeric_expected": 93,
+            "numeric_observed": 93,
+            "numeric_matched": 93
+          },
+          {
+            "gold_table": 2,
+            "predicted_table": 2,
+            "structure": 1.0,
+            "content": 0.9983230040102078,
+            "numeric_cell_f1": 1.0,
+            "numeric_expected": 153,
+            "numeric_observed": 153,
+            "numeric_matched": 153
+          },
+          {
+            "gold_table": 3,
+            "predicted_table": 3,
+            "structure": 0.8852459016393442,
+            "content": 0.8852459016393442,
+            "numeric_cell_f1": 1.0,
+            "numeric_expected": 111,
+            "numeric_observed": 111,
+            "numeric_matched": 111
+          },
+          {
+            "gold_tables": 4,
+            "predicted_tables": 4,
+            "matched_tables": 4
+          }
+        ]
+      },
+      "flags": [],
+      "source_id": "eastmoney_c1c12db90c6ecfae16a8eafa49caecfbc0e5f5654140320fe127f7c09bde96c9.pdf_1.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [
+          "table_fewer_line",
+          "table_horizontal"
+        ],
+        "subset": "v1.5"
+      }
+    }
+  ]
+}

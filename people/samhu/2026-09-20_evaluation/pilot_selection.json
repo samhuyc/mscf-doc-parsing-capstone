@@ -1,0 +1,119 @@
+{
+  "dataset": "opendatalab/OmniDocBench",
+  "revision": "aa1ee96d106dbe53d0ae59474d75c6e6d9b53fec",
+  "annotation_file_sha256": "a45cd84b04ad8b793e775089640e6b681209abea33ead54c1828ddca35fae496",
+  "eligible_pages": 130,
+  "selection": "sha256 filename ordering; English 1, multi-column 2, table_hard 3, then fill; deduplicate identifiable source names",
+  "samples": [
+    {
+      "id": "omni_b2dbf2b054e6",
+      "source_id": "page-458ab820-615f-42fe-af33-3a8fb15ad691.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "english",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      },
+      "image_sha256": "4ee0c19b89398647e93a49fc5b478d4b099c342c764936acd5db0b5b0b8e8d87"
+    },
+    {
+      "id": "omni_0eaffab62e6a",
+      "source_id": "eastmoney_1885ca41425d245551f3482457304f78b48186bff625fa91e675eaf6bba5229f.pdf_0.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "1andmore_column",
+        "special_issue": [
+          "table_horizontal",
+          "table_wireless_line"
+        ],
+        "subset": "v1.5"
+      },
+      "image_sha256": "e3c1aa1fbd52efd8288632232b08a52ff20a015ef7cbd8c52b1ee925038079c6"
+    },
+    {
+      "id": "omni_59a2d4260bbd",
+      "source_id": "yanbaopptmerge_aec1bf4ddb8fb4996b0512e90b3bfb31c9b151919f5d7b4a4f658f4b1f762b9e.pdf_2.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "1andmore_column",
+        "special_issue": [
+          "table_fewer_line",
+          "table_horizontal",
+          "table_span"
+        ],
+        "subset": "v1.5"
+      },
+      "image_sha256": "cb668cc30a931530e3c5c1ef825e8c7d6ae84b4b5f7b7eac690256fe7c42f1d8"
+    },
+    {
+      "id": "omni_004b206c01d7",
+      "source_id": "page-8792f466-c570-468c-86dc-402a510e9bb7.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      },
+      "image_sha256": "2fbec7e06b0cdc99b82714420236da3575d85a5ea614608e0d9644f414450f5c"
+    },
+    {
+      "id": "omni_0da5ee88f572",
+      "source_id": "page-2abc2a95-d39a-48db-9b6d-f40410412694.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "traditional_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      },
+      "image_sha256": "c8c9306b5ade9638819cd4a86972df0aef35d42ab24157e877fcd66441636358"
+    },
+    {
+      "id": "omni_2ba78c71fa3a",
+      "source_id": "page-74749e1d-5239-4d8e-b89c-6d83f5e59374.png",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [],
+        "subset": "table_hard"
+      },
+      "image_sha256": "a2e4041923904d70f826b8aacfeb805bc74871c83552476793222f41dcc1bff7"
+    },
+    {
+      "id": "omni_070b60900a6e",
+      "source_id": "yanbaor2_1492d25d79af850815ea449254ea62418c3c7fd582792b5191e1879671ba1219.pdf_88.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [
+          "table_veritical",
+          "colorful_backgroud",
+          "table_omission_line"
+        ],
+        "subset": "v1.5"
+      },
+      "image_sha256": "c1c5d753533e70438561f01e2f89bd5042e990f1d45fb935ee044c74e34af7b5"
+    },
+    {
+      "id": "omni_0e041edf8bc9",
+      "source_id": "eastmoney_c1c12db90c6ecfae16a8eafa49caecfbc0e5f5654140320fe127f7c09bde96c9.pdf_1.jpg",
+      "attributes": {
+        "data_source": "research_report",
+        "language": "simplified_chinese",
+        "layout": "single_column",
+        "special_issue": [
+          "table_fewer_line",
+          "table_horizontal"
+        ],
+        "subset": "v1.5"
+      },
+      "image_sha256": "16f1a8b1d3facb16f91314070c3f89b4b94d235fb18a553bba4a20e7ca75bdd5"
+    }
+  ]
+}

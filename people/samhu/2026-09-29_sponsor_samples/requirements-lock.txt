@@ -1,0 +1,9 @@
+beautifulsoup4==4.15.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pymupdf==1.28.2
+pymupdf4llm==0.2.9
+RapidFuzz==3.14.3
+soupsieve==2.10
+tabulate==0.10.0
+typing_extensions==4.16.0

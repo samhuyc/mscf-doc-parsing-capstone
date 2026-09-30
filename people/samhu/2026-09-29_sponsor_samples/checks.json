@@ -1,0 +1,23 @@
+{
+  "method": "18 rows transcribed by the assistant from rendered source PDF pages before inspecting parser predictions. Small diagnostic set, not independent expert gold. Physical page numbers are 1-based. Values are ordered left-to-right and preserve signs, currency marks and decimal formatting; a leading note column is excluded. Headers, units and cross-page associations require separate review.",
+  "checks": [
+    {"document":"cvs_2025q2","page":6,"label":"Total Revenues","values":["$98.9","$91.2"]},
+    {"document":"cvs_2025q2","page":6,"label":"GAAP Earnings per Share","values":["$0.80","$1.41"]},
+    {"document":"cvs_2025q2","page":6,"label":"Cash Flow from Operations","values":["$1.9","$3.1"]},
+    {"document":"edf_2024","page":3,"label":"Total revenue","values":["3,037.1","8,674.9","1,693.1","126.6","13,531.6"]},
+    {"document":"edf_2024","page":3,"label":"EBITDA","values":["174.9","192.7","(84.6)","10.4","293.4"]},
+    {"document":"edf_2024","page":3,"label":"EBIT","values":["164.2","150.1","(92.0)","6.4","228.7"]},
+    {"document":"hippodrome_2025","page":20,"label":"Turnover","values":["116,787,681","114,583,476"]},
+    {"document":"hippodrome_2025","page":20,"label":"Gross profit","values":["67,233,959","64,913,838"]},
+    {"document":"hippodrome_2025","page":20,"label":"Profit for the financial year","values":["2,727,857","12,484,952"]},
+    {"document":"peterborough_2025","page":2,"label":"Tangible assets","values":["967,756","992,467"]},
+    {"document":"peterborough_2025","page":2,"label":"Bank and cash balances","values":["2,751,541","821,700"]},
+    {"document":"peterborough_2025","page":2,"label":"Net assets","values":["4,484,956","5,194,638"]},
+    {"document":"rolls_royce_2026h1_presentation","page":9,"label":"Revenue","values":["11,279","9,057","2,310","26%"]},
+    {"document":"rolls_royce_2026h1_presentation","page":9,"label":"Operating profit","values":["2,534","1,733","796","46%"]},
+    {"document":"rolls_royce_2026h1_presentation","page":9,"label":"Free cash flow","values":["1,964","1,582","382"]},
+    {"document":"rolls_royce_2026h1_release","page":13,"label":"Revenue","values":["11,448","9,490"]},
+    {"document":"rolls_royce_2026h1_release","page":13,"label":"Cost of sales","values":["(8,021)","(6,563)"]},
+    {"document":"rolls_royce_2026h1_release","page":13,"label":"Profit for the period","values":["1,615","4,408"]}
+  ]
+}

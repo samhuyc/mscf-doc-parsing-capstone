@@ -28,3 +28,17 @@ Outputs cannot be silently overwritten. `--skip-existing` resumes completed, has
 - **PyMuPDF4LLM 0.2.9 / PyMuPDF 1.28.2**: native-text/geometry baseline, default `lines_strict` tables, no OCR or layout extension. Pinned to the same versions as the teammate's September 21 TAT-QA experiment. This is not a test of newer PyMuPDF4LLM layout/OCR features. Image-only inputs can produce images but no transcribed text and are explicitly reported as empty/partial.
 
 All inference is local. The adapter reads no benchmark labels. Scanned document failures must remain visible rather than being silently rescued by another parser. Results are a six-document case study, not a representative ranking.
+
+## Evaluate and review
+
+```bash
+.venv/bin/python people/samhu/2026-09-29_sponsor_samples/evaluate.py
+.venv/bin/python people/samhu/2026-09-29_sponsor_samples/review.py
+.venv/bin/python people/samhu/2026-09-29_sponsor_samples/verify.py
+```
+
+Open `evaluation/REVIEW.html` for source pages alongside the three predictions. `evaluation/metrics.csv` and `metrics.json` retain document-level values and individual failed-row evidence. Run unit tests from this folder with `../../../.venv/bin/python -m unittest -v`.
+
+The prototype is inspired by the existing [OmniDocBench/FinCriticalED experiment](../2026-09-20_evaluation/README.md) and the team's [TAT-QA experiment](../../mc8/2026-09-21_tatqa%20parsers%20evaluation/REPORT.md). These six sponsor PDFs do not have published page-aligned gold labels. The 18 manually inspected source rows are a small assistant-authored spot-check set, not official benchmark annotations or an independent expert assessment. Table structure/content benchmark scores need separate gold tables; no official TEDS or semantic finance score is claimed here.
+
+Useful primary documentation: [PyMuPDF4LLM](https://github.com/pymupdf/pymupdf4llm), [MinerU outputs](https://opendatalab.github.io/MinerU/reference/output_files/), [OmniDocBench](https://github.com/opendatalab/OmniDocBench), [FinCriticalED](https://github.com/The-FinAI/FinCriticalED).

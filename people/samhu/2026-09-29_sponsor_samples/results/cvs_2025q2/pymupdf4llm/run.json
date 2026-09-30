@@ -1,0 +1,36 @@
+{
+  "parser": "pymupdf4llm",
+  "document": "cvs_2025q2",
+  "input_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+  "expected_pages": 12,
+  "status": "partial",
+  "started_at_utc": "2026-09-30T00:06:46.504829+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+  "versions": {
+    "pymupdf4llm": "0.2.9",
+    "pymupdf": "1.28.2"
+  },
+  "settings": {
+    "ocr": false,
+    "page_chunks": true,
+    "write_images": true,
+    "dpi": 100,
+    "table_strategy": "lines_strict"
+  },
+  "command": [
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/.venv/bin/python",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/parse.py",
+    "--worker",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm"
+  ],
+  "elapsed_seconds": 1.528,
+  "parsed_pages": 12,
+  "nonempty_pages": 11,
+  "pages_per_second": 7.8534,
+  "document_sha256": "5d4752be957d63cac653ed59cec9c5c77bd1dcbebb2b914c962796988f52af83",
+  "exported_at_utc": "2026-09-30T00:07:09.333016+00:00"
+}

@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+  "parser": "pymupdf4llm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "![](images/edf_2024.pdf-0-0.png)\n# **EDF Consolidated** **Segmental Statement**\n\n## **for the year ended 31 December 2024**\n\nPage **1** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 1
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [
+          {
+            "number": 0,
+            "bbox": "Rect(443.5, 0.4499664306640625, 594.739990234375, 95.39996337890625)",
+            "transform": [
+              151.24000549316406,
+              0.0,
+              -0.0,
+              94.94999694824219,
+              443.5,
+              0.4499664306640625
+            ],
+            "width": 420,
+            "height": 263,
+            "colorspace": 3,
+            "cs-name": "DeviceRGB",
+            "xres": 96,
+            "yres": 96,
+            "bpc": 8,
+            "size": 17793,
+            "has-mask": true
+          }
+        ],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 84,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "![](images/edf_2024.pdf-1-full.png)\n\n**EXECUTIVE SUMMARY**\n\nThis Consolidated Segmental Statement (“CSS”) has been prepared in accordance with Standard Licence\nCondition 19A of the Gas and Electricity Supply Licences (“Financial Information Reporting”) and the\nassociated published Ofgem Guidance. The CSS provides transparency of the supply activities and\nprofitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December\n2024.\n\nEDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (“EDF UK\nGroup”) which holds electricity and gas supply licences used to supply energy to residential, commercial\nand industrial customers in the UK. This statement includes all supply licensed activities with the EDF\nEnergy Customers Limited as required under the license conditions. The other entities within the EDF\nUK Group are not in scope of the CSS.\n\nThe figures have been reconciled to the statutory accounts for the licensed entity EDF Energy Customers\nLimited for financial year ended 31 December 2024.\n\n\nPage **2** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 2
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1036,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "![](images/edf_2024.pdf-2-full.png)\n\n**CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024**\n\n<table>\n<thead>\n<tr>\n<th>Col1</th>\n<th>Unit</th>\n<th>Electricity supply</th>\n<th>Col4</th>\n<th>Gas supply</th>\n<th>Col6</th>\n<th>Aggregate<br>supply<br>business</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>** Unit**</td>\n<td><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n<td><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n</tr>\n<tr>\n<td><strong>Total revenue</strong><br>Revenue from sale of electricity and gas<br>Other revenues<br></td>\n<td><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong></td>\n<td><strong>3,037.1</strong><br>3,037.1<br>0.0<br></td>\n<td><strong>8,674.9</strong><br>8,674.9<br>0.0<br></td>\n<td><strong>1,693.1</strong><br>1,693.1<br>0.0<br></td>\n<td><strong>126.6</strong><br>126.6<br>0.0<br></td>\n<td><strong>13,531.6</strong><br>13,531.6<br>0.0<br></td>\n</tr>\n<tr>\n<td><br><strong>Total operating costs</strong><br>Direct fuel costs<br> <br><strong><em>Direct costs:</em></strong><br>Transportation costs<br>Environmental and social obligations costs<br>Other direct costs<br> <br><strong>Indirect costs</strong><br> <br><strong>EBITDA</strong><br>Depreciation and amortisation <br><strong>EBIT</strong><br></td>\n<td><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong></td>\n<td><br><strong>2,862.2</strong><br>1,065.1<br> <br><strong>1,373.0</strong><br>649.4<br>679.1<br>44.5<br> <br><strong>424.0</strong><br> <br><strong>174.9</strong><br>10.7<br><strong>164.2</strong><br></td>\n<td><br><strong>8,482.2</strong><br>4,556.2<br> <br><strong>3,713.3</strong><br>1,807.3<br>1,833.0<br>73.0<br> <br><strong>212.7</strong><br> <br><strong>192.7</strong><br>42.5<br><strong>150.1</strong><br></td>\n<td><br><strong>1,777.7</strong><br>1,046.1<br> <br><strong>459.9</strong><br>385.4<br>59.8<br>14.7<br> <br><strong>271.7</strong><br> <br><strong>(84.6)</strong><br>7.4<br><strong>(92.0)</strong><br></td>\n<td><br><strong>116.2</strong><br>72.1<br> <br><strong>24.0</strong><br>18.7<br>0.3<br>4.9<br> <br><strong>20.1</strong><br> <br><strong>10.4</strong><br>4.0<br><strong>6.4</strong><br></td>\n<td><br><strong>13,238.2</strong><br>6,739.4<br> <br><strong>5,570.2</strong><br>2,860.8<br>2,572.2<br>137.2<br> <br><strong>928.6</strong><br> <br><strong>293.4</strong><br>64.7<br><strong>228.7</strong><br></td>\n</tr>\n<tr>\n<td>Volume</td>\n<td><strong>TWh, m</strong><br><strong>therms</strong></td>\n<td>10.5</td>\n<td>34.5</td>\n<td>863.9</td>\n<td>61.6</td>\n<td></td>\n</tr>\n<tr>\n<td>WACO E/G</td>\n<td><strong>£/MWh,</strong><br><strong>p/th</strong></td>\n<td>101.2</td>\n<td>132.1</td>\n<td>121.1</td>\n<td>116.9</td>\n<td></td>\n</tr>\n<tr>\n<td>Meter Points</td>\n<td><strong>000s</strong></td>\n<td>3,113.3</td>\n<td>556.2</td>\n<td>2,168.0</td>\n<td>52.6</td>\n<td>5,890.1</td>\n</tr>\n</tbody>\n</table>\n\n\n\nNotes:\n\n  - All revenues, costs and depreciation are entered as positive values\n\n  - EBITDA and EBIT: positive figures indicate profit; negative figures indicate loss\n\n  - Volumes for electricity are reported in TWh to 1 decimal place\n\n  - Volumes for gas are reported in m therms to 1 decimal place\n\n  - WACOE calculated to the nearest pence in £/MWh\n\n  - WACOG calculated to nearest 1 decimal place in p/therm\n\n\nPage **3** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 3
+        },
+        "toc_items": [],
+        "tables": [
+          {
+            "bbox": [
+              34.420799255371094,
+              134.6999969482422,
+              576.4992065429688,
+              542.0499877929688
+            ],
+            "rows": 7,
+            "columns": 7
+          }
+        ],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1470,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "![](images/edf_2024.pdf-3-full.png)\n\n**ACCOUNTING STANDARDS**\n\nThe CSS for EDF has been prepared using financial data included in EDF Energy Customer’s Limited’s\nfinancial statements for year ended 31 December 2024, which have been prepared in accordance with\naccounting standards Financial Reporting Standard 101 Reduced Disclosure Framework (‘FRS 101’). The\nCSS has been reconciled at revenue and earnings (EBIT) to these financial statements on the same basis\ntaking into consideration the SLC 19A and associated Guidance issued by Ofgem.\n\n**DEFINITIONS AND METHODOLOGY**\n\n**Revenue from sale of electricity and gas:** Comprises electricity and gas sales to domestic and nondomestic customers for the respective retail supply segments. This includes support provided via\nGovernment schemes such as Energy Price Guarantee (“EPG”) and Energy Bills Discount Scheme\n(“EBDS”). Revenue is recognised on the basis of units supplied during the year and includes an estimate\nof units supplied between the last meter reading and year-end. Revenue for domestic supply is stated\nafter deducting Dual fuel discounts (allocated equally between electricity and gas) and Government\nmandated social tariff (e.g. Warm Home Discount rebates).\n\n\n**Direct fuel costs:** aggregate electricity, gas and imbalance costs.\n\n\n**Transportation costs:** includes Network transportation costs (TNUoS, DUoS); Balancing Services Use of\nSystem charges (BSUoS) and Gas transportation costs.\n\n\n**Environmental and social obligation costs:** policy related costs relating to net zero and other schemes\nnot limited to Renewable Obligation (RO); Feed-in-Tariff (FiT); Contracts for Difference (CfD); Capacity\nMarket (CM); Energy Company Obligation (ECO); Warm Home Discount (WHD) industry initiatives; Green\nGas Levy; GB Insulation Scheme and Assistance for Areas with High Electricity Distribution Costs\n(AAHEDC). £151m of costs associated with environmental and social obligation schemes have been\nclassified here in line with Ofgem guidance, in the statutory accounts these costs appear under Other\nOperating Expenses. This reclassification has no impact on EBIT.\n\n\n**Other direct costs:** other gross margin costs. Does not include customer or business support costs (e.g.\ncustomer service costs and HR costs, which are included in indirect costs). Includes: Third party\nintermediaries (TPI) costs; Aggregator element of acquisition costs; Broker costs and sales commissions\ndirectly attributable to sales; Market participation costs (Elexon, Xoserve); and Market stabilisation\ncharges. £123m of costs associated with direct costs have been classified here in line with Ofgem\nguidance, in the statutory accounts these costs appear under Other Operating Expenses. This\nreclassification has no impact on EBIT.\n\n\nPage **4** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 4
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 2712,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "![](images/edf_2024.pdf-4-full.png)\n\n**Indirect costs:** Includes operating costs not limited to sales and marketing costs; Bad debt; Central\nservices and corporate recharges; Customer service and billing; Costs to serve Priority Services Register\n(PSR) customers; IT, HR, property costs and metering related costs (including installations, rental,\nmaintenance etc). Where costs cannot be directly allocated to a fuel (Gas / Electricity) or market\n(Domestic / Non-Domestic), they have been allocated using appropriate activity drivers, such as\ncustomer contact volumes and account volumes.\n\n**HEDGING POLICY**\n\nEDF adopts hedging strategies which are designed to minimise the impact of energy market risk,\nconsistent with the guidelines of the EDF Group Energy Market Risk Policy. Energy requirements for fixed\nprice (active choice) products are hedged “back - to - back”, based on forecast demand at the start of the\ncontract. Standard variable (default) tariff products are hedged in line with the default price cap\nmethodology. The volume risk arising from demand volatility is carried by EDF Energy Customers Ltd\nand recognised within the CSS.\n\n**GLOSSARY OF TERMS**\n\n**EBIDTA:** Earnings before interest, tax, depreciation and amortisation.\n\n**EBIT:** Earnings before interest and tax.\n\n**Depreciation and amortisation:** Depreciation and amortisation is allocated between Electricity and\nGas on the basis of meter points.\n\n**Meter Points:** average number of electricity and gas, domestic and non-domestic meter points (MPANs\nand MPRNs) during the reporting year. Calculated by adding monthly close meter points and dividing by\n12.\n\n**WACO E/G:** Weighted average input cost of fuel (“WACO”) for supply of electricity/gas. Calculated as\n“Direct fuel costs” line divided by the “Volume” line, shown as £/MWh or p/th. It does not include other\ndirect costs such as distribution, transportation or environmental/social costs.\n\n**TWh:** Terawatt hours.\n\n**m Therms:** Million therms.\n\n**Volume:** Supplier volumes at the meter point (i.e. net of losses).\n\n\nPage **5** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 5
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1976,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "![](images/edf_2024.pdf-5-full.png)\n\n**RECONCILIATION TO STATUTORY ACCOUNTS**\n\nThe table below shows how the CSS reconciles with EBIT in EDF Energy Customers Limited’s Income\nStatement for the year ended 31 [st] December 2024:\n\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Unit</th>\n<th>Revenue</th>\n<th>EBIT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>EDF Supply CSS</strong></td>\n<td><strong>£’m</strong><br></td>\n<td><strong>13,531.6</strong></td>\n<td><strong>228.7</strong></td>\n</tr>\n<tr>\n<td><br><strong>Adjustments:</strong><br>Non-licensed activities<br>Impairment of non-current assets<br>Restructuring costs<br></td>\n<td><br> <br>£’m<br>£’m<br>£’m<br></td>\n<td><br> <br>120.6<br>- <br>- <br></td>\n<td><br> <br>213.4<br>(25.9)<br>(9.8)<br></td>\n</tr>\n<tr>\n<td><strong>EDF Energy Customers Limited Statutory Accounts</strong></td>\n<td><strong>£’m</strong></td>\n<td><strong>13,652.2</strong></td>\n<td><strong>406.4</strong></td>\n</tr>\n</tbody>\n</table>\n\n\n\n**Notes on reconciling items:**\n\nEDF Energy Customers Limited is also engaged in wider business activities beyond licensed energy\nsupply. To ensure the CSS only captures the licensed energy supply business, these wider activities are\nnot included in the figures reported within the CSS under the licensed energy supply activities (e.g. gas\nand electricity supply). Impairment charges and restructuring costs are also not included in the figures\nreported under gas and electricity supply in accordance with Ofgem guidelines.\n\n\nPage **6** of **6**\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "",
+          "author": "Perry, Alex",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® Word for Microsoft 365",
+          "producer": "Microsoft® Word for Microsoft 365",
+          "creationDate": "D:20260113180623+00'00'",
+          "modDate": "D:20260113180623+00'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
+          "page_count": 6,
+          "page": 6
+        },
+        "toc_items": [],
+        "tables": [
+          {
+            "bbox": [
+              34.44000244140625,
+              183.739990234375,
+              549.0999755859375,
+              352.25
+            ],
+            "rows": 4,
+            "columns": 4
+          }
+        ],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 970,
+      "confidence": null
+    }
+  ]
+}

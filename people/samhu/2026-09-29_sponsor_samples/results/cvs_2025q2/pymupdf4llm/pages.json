@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+  "parser": "pymupdf4llm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "![](images/cvs_2025q2.pdf-0-full.png)\n\nSecond Quarter 2025     July 31, 2025\n\n## **Earnings**\n##### Conference Call\n\n\n\n![](images/cvs_2025q2.pdf-0-0.png)\n\n**J. David Joyner**\nPresident and\nChief Executive Officer\n\n\n\n**Brian O. Newman**\nExecutive Vice President and\nChief Financial Officer\n\n\n\n1 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n![](images/cvs_2025q2.pdf-0-1.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 1
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 1",
+            1
+          ]
+        ],
+        "tables": [],
+        "images": [
+          {
+            "number": 7,
+            "bbox": "Rect(560.0, 173.0, 960.0, 540.0)",
+            "transform": [
+              400.0,
+              0.0,
+              0.0,
+              367.0,
+              560.0,
+              173.0
+            ],
+            "width": 400,
+            "height": 367,
+            "colorspace": 3,
+            "cs-name": "DeviceRGB",
+            "xres": 96,
+            "yres": 96,
+            "bpc": 8,
+            "size": 0,
+            "has-mask": false
+          }
+        ],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 260,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "![](images/cvs_2025q2.pdf-1-full.png)\n##### **Cautionary Statement**\n\nconcerning forward-looking statements\n\n\n**This presentation includes forward-looking statements.** The Private Securities Litigation Reform Act of 1995 provides a\nsafe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (“CVS Health”). By their nature,\nall forward-looking statements are not guarantees of future performance or results and are subject to risks and\nuncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated\nby the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission\nfilings, including those set forth in the Risk Factors section and under the heading “Cautionary Statement Concerning\nForward-Looking Statements” in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form\n10-Q, our recent Current Reports on Form 8-K, and this morning’s earnings press release.\n\n\nThis presentation includes non-GAAP financial measures that we use to describe our company’s performance. In\naccordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to\nthe most directly comparable GAAP measures, in our press release we issued in connection with the release of our results\nfor the second quarter of 2025 and our non-GAAP reconciliation document, which are both available on the Investor\nRelations portion of our website.\n\n\n2 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 2
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 2",
+            2
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1560,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "![](images/cvs_2025q2.pdf-2-full.png)\n##### **Enterprise Highlights**\n\nDelivered consolidated revenue growth of **8.4%** and adjusted EPS of **$1.81** in the second quarter of 2025.\n\nRaised 2025 adjusted EPS guidance to a range of **$6.30 to $6.40** .\n\n\n\nDelivering better experiences that\n###### **Build Trust**\n\n\n\nFull Year 2025\n###### **Company Guidance**\n\n\n**At least $391.5B**\n\nconsolidated revenue\n\n\n**$13.77 – $13.94B**\nconsolidated adjusted operating income\n\n\n**$6.30 – $6.40**\n\nadjusted EPS\n\n\n**At least $7.5B**\ncash flow from operations\n\n\n\nOur **integrated model** uniquely\npositions us to take on the largest\n\nchallenges in health care\n\n\n\nIn collaboration with CMS,\n**leading the industry forward** to\n\n\n\nstreamline, simplify and **reduce**\n\n\n\n**complexities** in health care\n\n\n\n**Committing $20B** to support our\n\n\n\nSecond Quarter\n###### **Financial Results**\n\n\n**8.4%**\nconsolidated revenue growth\n\n\n**$0.80**\nGAAP EPS\n\n\n**$1.81**\nadjusted EPS\n\n**$6.5B**\nyear-to-date cash flow\n\nfrom operations\n\n\n\ntransformation of health care\n\n\n\nthrough investments in\n\n\n\ntechnology\n\n\n\n3 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 3
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 3",
+            3
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 960,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "![](images/cvs_2025q2.pdf-3-full.png)\n\nOUR FOCUS\n\n\n# Becoming America’s\n\n\n# most trusted health\n\n\n# care company\n\n\n\n4 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 4
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 4",
+            4
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 140,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "![](images/cvs_2025q2.pdf-4-full.png)\n#### **Strategic Imperatives**\n\n**Drive** **sustainable growth** in our core businesses\n\n\n**Deliver** **enterprise value** across our assets\n\n\n**Engage patients and consumers** through\npersonalized experiences\n\n\n**Transform business operations** with technologyenabled capabilities\n\n\n**Invest in our colleagues** and strengthen our culture\n\n\n5 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n![](images/cvs_2025q2.pdf-4-1.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 5
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 5",
+            5
+          ]
+        ],
+        "tables": [],
+        "images": [
+          {
+            "number": 8,
+            "bbox": "Rect(560.0, 173.0, 960.0, 540.0)",
+            "transform": [
+              400.0,
+              0.0,
+              0.0,
+              367.0,
+              560.0,
+              173.0
+            ],
+            "width": 400,
+            "height": 367,
+            "colorspace": 3,
+            "cs-name": "DeviceRGB",
+            "xres": 96,
+            "yres": 96,
+            "bpc": 8,
+            "size": 0,
+            "has-mask": false
+          }
+        ],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 372,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "![](images/cvs_2025q2.pdf-5-full.png)\n##### **Consolidated Results**\n\n\n\n**Quarter Results**\nIn billions, except per share amounts\n\n\n\n**2Q 2025**\n\n\n\n**2Q 2024**\n\n\n\nReported a **second consecutive**\n**quarter of solid results** driven by the\nstrength of our execution. We are\ncontinuing to build positive momentum\nacross CVS Health as we work to\nbecome **America’s most trusted**\n**health care company** .\n\n\nWe continue to make meaningful\nprogress **driving improvements**\n**within our Aetna business** . This\nremains our top priority.\n\n\n**Returned $866 million to**\n**stockholders** through our quarterly\ndividend.\n\n\n\nTotal Revenues $98.9 $91.2\n\n\nAdjusted Operating Income $3.81 $3.74\n\n\nGAAP Earnings per Share $0.80 $1.41\n\n\nAdjusted Earnings per Share $1.81 $1.83\n\n\nCash Flow from Operations $1.9 $3.1\n\n\n6 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 6
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 6",
+            6
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 761,
+      "confidence": null
+    },
+    {
+      "page": 7,
+      "markdown": "![](images/cvs_2025q2.pdf-6-full.png)\n##### **Consolidated Guidance**\n\n\n\n**Full Year Guidance**\nIn billions, except per share amounts and tax rate\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\n**Raised** 2025 adjusted EPS guidance to\na **range of $6.30 to $6.40.**\n\n\nWe are **encouraged by our**\n**Enterprise performance and revised**\n**outlook** in a dynamic environment.\nOur updated expectations reflect\n**increases in our Health Care Benefits**\n**and Pharmacy and Consumer**\n**Wellness segments**, while\nrecognizing the impact of a higher\nmedical benefit ratio in our Health Care\nDelivery business. The outlook for our\nPharmacy Services business is\nunchanged.\n\n\nUpdated 2025 guidance continues to\nreflect our **focus on building trust** by\nsetting expectations that are\n**appropriate** and **achievable** with\n**opportunities for outperformance** .\n\n\n\nTotal Revenues At least $391.5 At least $382.6\n\n\nAdjusted Operating Income $13.77 to $13.94 $13.31 to $13.65\n\n\nGAAP Earnings per Share $3.84 to $3.94 $4.23 to $4.43\n\n\nAdjusted Earnings per Share $6.30 to $6.40 $6.00 to $6.20\n\n\nCash Flow from Operations At least $7.5 ~$7.0\n\n\nInterest Expense ~$3.11 ~$3.15\n\n\nCapital Expenditures $2.9 to $3.1 $2.8 to $3.0\n\n\nAdjusted Effective Tax Rate ~25.7% ~25.9%\n\n\nWeighted Average\n~1.270 ~1.270\nDiluted Share Count\n\n\n7 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 7
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 7",
+            7
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1282,
+      "confidence": null
+    },
+    {
+      "page": 8,
+      "markdown": "![](images/cvs_2025q2.pdf-7-full.png)\n\n![](images/cvs_2025q2.pdf-7-0.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 8
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 8",
+            8
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 9,
+      "markdown": "![](images/cvs_2025q2.pdf-8-full.png)\n##### **Health Care Benefits**\n\n\n\n**Quarter Results**\nIn billions, except MBR and membership\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $36.3 $32.5\n\n\nAdjusted Operating Income $1.31 $0.94\n\n\nTotal Medical Membership (millions) 26.7 27.0\n\n\nCommercial 18.8 18.8\n\n\nGovernment 7.9 8.2\n\n\nMedical Benefits Ratio (MBR) 89.9% 89.6%\n\n\n\n**Full Year Guidance**\nIn billions, except MBR and membership\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **increased by nearly 40%** year\nover year, driven by the favorable impact\nof changes to our **Individual Exchange**\n**risk adjustment estimates**, improved\n**underlying performance in our**\n**Government business** and higher\n**favorable prior period development** .\n\n\nDuring the second quarter, we established\na **~$470 million premium deficiency**\n**reserve recorded in the Group**\n**Medicare Advantage** product line\nrelated to anticipated losses for the\nremainder of the 2025 coverage year.\n\n\n**Raised** 2025 adjusted operating income\nguidance of **$2.42** **billion, at the low end,**\n**reflects a prudent view of medical cost**\n**trends** through the remainder of the year.\nThe biggest source of potential\noutperformance in our guidance will be\nmedical cost trends.\n\n\n\nTotal Revenues At least $139.9 At least $138.0\n\n\nAdjusted Operating Income $2.42 to $2.59 $1.91 to $2.25\n\n\nTotal Medical Membership (millions) ~26.4 ~26.4\n\n\n\n~91.0%\nMedical Benefits Ratio (MBR)\n(at the low-end)\n\n\n9 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n91.3%\n(at the low-end)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 9
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 9",
+            9
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1469,
+      "confidence": null
+    },
+    {
+      "page": 10,
+      "markdown": "![](images/cvs_2025q2.pdf-9-full.png)\n##### **Health Services**\n\n**Quarter Results**\nIn billions, except pharmacy claims\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $46.5 $42.2\n\n\nAdjusted Operating Income $1.58 $1.92\n\n\nPharmacy Claims Processed [1]\n469.0 471.2\n(millions)\n\n\n\n**Full Year Guidance**\nIn billions\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **decreased ~18%** year over year,\ndriven by continued **pharmacy client**\n**price improvements** and the impact of a\n**higher medical benefit ratio within our**\n**health care delivery business**, partially\noffset by improved purchasing economics\nand pharmacy drug mix.\n\n\nHealth Care Delivery experienced\n**continued** **strong patient growth at Oak**\n**Street** and **increased in-home health**\n**evaluation volumes** at Signify.\n\n\n**Updated** 2025 adjusted operating income\nguidance to **at least $7.34 billion**,\nreflecting a ~$200 million decrease in our\nHealth Care Delivery business driven by a\n**higher medical benefit ratio at Oak**\n**Street** . The outlook for our Pharmacy\nServices business is **unchanged** .\n\n\n\nTotal Revenues At least $183.5 At least $181.0\n\n\nAdjusted Operating Income At least $7.34 At least $7.54\n\n\nPharmacy Claims Processed [1] At least 1.91 At least 1.93\n\n\n10 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 10
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 10",
+            10
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1240,
+      "confidence": null
+    },
+    {
+      "page": 11,
+      "markdown": "![](images/cvs_2025q2.pdf-10-full.png)\n##### **Pharmacy & Consumer Wellness**\n\n\n\n**Quarter Results**\nIn billions, except prescriptions filled\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $33.6 $29.8\n\n\nAdjusted Operating Income $1.34 $1.24\n\n\nPrescriptions Filled [1]\n438.1 420.4\n(millions)\n\n\n\n**Full Year Guidance**\nIn billions\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **increased nearly 8%** year over\nyear, primarily driven by **increased**\n**prescription and front store volume**,\npartially offset by continued pharmacy\nreimbursement pressure.\n\n\nSame store pharmacy sales and same\nstore prescription volumes **increased by**\n**~18%** **[2]** **and ~6%** **[2]**, respectively, over the\nprior year quarter.\n\n\nContinued **growth in retail pharmacy**\n**script share**, reaching ~27.8% in the\nsecond quarter.\n\n\n**Raised** 2025 adjusted operating income\nguidance to **at least $5.68 billion**,\nreflecting a ~$200 million increase, driven\nby our strong first half performance, while\ncontinuing to maintain a **prudent outlook**\nfor the remainder of the year.\n\n\n\nTotal Revenues At least $137.5 At least $133.0\n\n\nAdjusted Operating Income At least $5.68 At least $5.48\n\n\nPrescriptions Filled [1] At least 1.80 At least 1.77\n\n\n11 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 11
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 11",
+            11
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1223,
+      "confidence": null
+    },
+    {
+      "page": 12,
+      "markdown": "![](images/cvs_2025q2.pdf-11-full.png)\n##### **Footnotes**\n\nSecond Quarter 2025\n\n\n1. Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.\n\n\n2. Same store sales and prescription volume represent the change in revenues and prescriptions filled in the\nCompany’s retail pharmacy stores that have been operating for greater than one year and digital sales initiated\nonline or through mobile applications and fulfilled through the Company’s distribution centers, expressed as a\npercentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics\nexclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics\nto evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding\nexisting stores and new locations. Same-store metrics provide management and investors with information\nuseful in understanding the portion of current revenues and prescriptions resulting from organic growth in\nexisting locations versus the portion resulting from opening new stores.\n\n\n12 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page": 12
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 12",
+            12
+          ]
+        ],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 1155,
+      "confidence": null
+    }
+  ]
+}

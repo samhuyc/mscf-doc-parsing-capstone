@@ -1,0 +1,270 @@
+{
+  "source": {
+    "id": "cvs_2025q2",
+    "title": "CVS Health 2025 Q2 Earnings Presentation",
+    "url": "https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf",
+    "status": "success",
+    "pages": 12,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "CVS Health Earnings Presentation",
+      "author": "CVS Health Investor Relations",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20250730145139-04'00'",
+      "modDate": "D:20250730145139-04'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "outline": [
+      [
+        1,
+        "Slide 1",
+        1
+      ],
+      [
+        1,
+        "Slide 2",
+        2
+      ],
+      [
+        1,
+        "Slide 3",
+        3
+      ],
+      [
+        1,
+        "Slide 4",
+        4
+      ],
+      [
+        1,
+        "Slide 5",
+        5
+      ],
+      [
+        1,
+        "Slide 6",
+        6
+      ],
+      [
+        1,
+        "Slide 7",
+        7
+      ],
+      [
+        1,
+        "Slide 8",
+        8
+      ],
+      [
+        1,
+        "Slide 9",
+        9
+      ],
+      [
+        1,
+        "Slide 10",
+        10
+      ],
+      [
+        1,
+        "Slide 11",
+        11
+      ],
+      [
+        1,
+        "Slide 12",
+        12
+      ]
+    ],
+    "native_text_chars": [
+      269,
+      1571,
+      968,
+      142,
+      375,
+      794,
+      1318,
+      141,
+      1506,
+      1269,
+      1244,
+      1169
+    ],
+    "sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+    "bytes": 224723,
+    "checked_at_utc": "2026-09-29T23:54:02.211403+00:00"
+  },
+  "parser": "pymupdf4llm",
+  "source_outline": [
+    [
+      1,
+      "Slide 1",
+      1
+    ],
+    [
+      1,
+      "Slide 2",
+      2
+    ],
+    [
+      1,
+      "Slide 3",
+      3
+    ],
+    [
+      1,
+      "Slide 4",
+      4
+    ],
+    [
+      1,
+      "Slide 5",
+      5
+    ],
+    [
+      1,
+      "Slide 6",
+      6
+    ],
+    [
+      1,
+      "Slide 7",
+      7
+    ],
+    [
+      1,
+      "Slide 8",
+      8
+    ],
+    [
+      1,
+      "Slide 9",
+      9
+    ],
+    [
+      1,
+      "Slide 10",
+      10
+    ],
+    [
+      1,
+      "Slide 11",
+      11
+    ],
+    [
+      1,
+      "Slide 12",
+      12
+    ]
+  ],
+  "generated_heading_index": [
+    {
+      "page": 1,
+      "level": 2,
+      "title": "**Earnings**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 1,
+      "level": 5,
+      "title": "Conference Call",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 5,
+      "title": "**Cautionary Statement**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 5,
+      "title": "**Enterprise Highlights**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 6,
+      "title": "**Build Trust**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 6,
+      "title": "**Company Guidance**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 6,
+      "title": "**Financial Results**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 1,
+      "title": "Becoming America’s",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 1,
+      "title": "most trusted health",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 1,
+      "title": "care company",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 4,
+      "title": "**Strategic Imperatives**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 5,
+      "title": "**Consolidated Results**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 5,
+      "title": "**Consolidated Guidance**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 5,
+      "title": "**Health Care Benefits**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 5,
+      "title": "**Health Services**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 5,
+      "title": "**Pharmacy & Consumer Wellness**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 5,
+      "title": "**Footnotes**",
+      "origin": "parser_heading"
+    }
+  ],
+  "confidence": null,
+  "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
+}

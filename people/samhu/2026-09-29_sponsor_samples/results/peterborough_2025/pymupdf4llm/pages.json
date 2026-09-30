@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+  "parser": "pymupdf4llm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "![](images/peterborough_2025.pdf-0-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 1
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "![](images/peterborough_2025.pdf-1-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 2
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "![](images/peterborough_2025.pdf-2-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 3
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "![](images/peterborough_2025.pdf-3-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 4
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "![](images/peterborough_2025.pdf-4-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 5
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "![](images/peterborough_2025.pdf-5-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 6
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 7,
+      "markdown": "![](images/peterborough_2025.pdf-6-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 7
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 8,
+      "markdown": "![](images/peterborough_2025.pdf-7-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 8
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 9,
+      "markdown": "![](images/peterborough_2025.pdf-8-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 9
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 10,
+      "markdown": "![](images/peterborough_2025.pdf-9-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 10
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 11,
+      "markdown": "![](images/peterborough_2025.pdf-10-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 11
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 12,
+      "markdown": "![](images/peterborough_2025.pdf-11-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20251222154702",
+          "modDate": "D:20251222154702",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+          "page_count": 12,
+          "page": 12
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    }
+  ]
+}

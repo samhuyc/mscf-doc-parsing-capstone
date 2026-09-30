@@ -1,0 +1,45 @@
+{
+  "source": {
+    "id": "peterborough_2025",
+    "title": "Peterborough Care Limited Unaudited Financial Statements 2025",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/01814662/filing-history/MzQ5NTc4NzAxMWFkaXF6a2N4/document?format=pdf&download=0",
+    "status": "success",
+    "pages": 12,
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null
+    },
+    "outline": [],
+    "native_text_chars": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+    "bytes": 207905,
+    "checked_at_utc": "2026-09-29T23:54:04.839388+00:00"
+  },
+  "parser": "pymupdf4llm",
+  "source_outline": [],
+  "generated_heading_index": [],
+  "confidence": null,
+  "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
+}

@@ -1,0 +1,36 @@
+{
+  "parser": "pymupdf4llm",
+  "document": "rolls_royce_2026h1_presentation",
+  "input_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+  "expected_pages": 19,
+  "status": "success",
+  "started_at_utc": "2026-09-30T00:06:54.100868+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+  "versions": {
+    "pymupdf4llm": "0.2.9",
+    "pymupdf": "1.28.2"
+  },
+  "settings": {
+    "ocr": false,
+    "page_chunks": true,
+    "write_images": true,
+    "dpi": 100,
+    "table_strategy": "lines_strict"
+  },
+  "command": [
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/.venv/bin/python",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/parse.py",
+    "--worker",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm"
+  ],
+  "elapsed_seconds": 2.798,
+  "parsed_pages": 19,
+  "nonempty_pages": 19,
+  "pages_per_second": 6.7906,
+  "document_sha256": "a7f942dcfb5ae7fcebb91ff5ca3a31d86dcc1aba35b4ea4fa345d17bdc8a31dd",
+  "exported_at_utc": "2026-09-30T00:07:09.577737+00:00"
+}

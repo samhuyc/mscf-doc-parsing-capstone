@@ -1,0 +1,849 @@
+[
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 1
+    },
+    "toc_items": [
+      [
+        1,
+        "Title Templates",
+        1
+      ],
+      [
+        2,
+        "Slide 1",
+        1
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-0-full.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-0-0.png)\n#### HALF YEAR\n###### **RESULTS**\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to\nauthorised recipients only – copying and onward distribution is prohibited other than for the purpose for\nwhich it was made available.\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 2
+    },
+    "toc_items": [
+      [
+        1,
+        "Safe Harbour Statement",
+        2
+      ],
+      [
+        2,
+        "Slide 2: Safe harbour statement",
+        2
+      ]
+    ],
+    "tables": [],
+    "images": [
+      {
+        "number": 2,
+        "bbox": "Rect(0.0, -6.103515625e-05, 329.75, 539.9999389648438)",
+        "transform": [
+          329.75,
+          0.0,
+          -0.0,
+          540.0,
+          0.0,
+          -6.103515625e-05
+        ],
+        "width": 915,
+        "height": 1499,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 159364,
+        "has-mask": false
+      }
+    ],
+    "graphics": [],
+    "text": "SAFE HARBOUR STATEMENT\n\n\nThis announcement contains certain forward-looking statements. These forward-looking\nstatements can be identified by the fact that they do not relate only to historical or current\nfacts. In particular, all statements that express forecasts, expectations and projections with\nrespect to future matters, including trends in results of operations, margins, growth rates,\noverall market trends, the impact of interest or exchange rates, the availability of financing\nto the Company, anticipated cost savings or synergies and the completion of the Company’s\nstrategic transactions, are forward-looking statements. By their nature, these statements\nand forecasts involve risk and uncertainty because they relate to events and depend on\ncircumstances that may or may not occur in the future. There are a number of factors that\ncould cause actual results or developments to differ materially from those expressed or\nimplied by these forward-looking statements and forecasts.\n\n\nThe forward-looking statements reflect the knowledge and information available at the date\nof preparation of this announcement and will not be updated during the year. Nothing in this\nannouncement should be construed as a profit forecast. All figures are on an underlying basis\nunless otherwise stated - for the definition see note 2 to the condensed consolidated financial\nstatements section of the 2026 Half Year Results Statement.\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n2\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-1-1.png)\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 3
+    },
+    "toc_items": [
+      [
+        1,
+        "Tufan's Introduction content",
+        3
+      ],
+      [
+        2,
+        "Slide 3: TUFAN ERGINBILGIC",
+        3
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-2-full.png)\n\nChief Executive Officer\n##### [TUFAN ERGINBILGIC]\n# 01\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 4
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 4: strong first half delivery; FY26 guidance raised",
+        4
+      ]
+    ],
+    "tables": [],
+    "images": [
+      {
+        "number": 1,
+        "bbox": "Rect(532.6799926757812, 146.36700439453125, 930.8800048828125, 489.5270080566406)",
+        "transform": [
+          398.20001220703125,
+          0.0,
+          -0.0,
+          343.1600036621094,
+          532.6799926757812,
+          146.36700439453125
+        ],
+        "width": 1257,
+        "height": 1083,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 357058,
+        "has-mask": false
+      }
+    ],
+    "graphics": [],
+    "text": "STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED\n\n\nTransforming Rolls-Royce into a high performing, competitive, resilient, and growing business\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-3-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-3-1.png)\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n4\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 5
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 5",
+        5
+      ]
+    ],
+    "tables": [],
+    "images": [
+      {
+        "number": 1,
+        "bbox": "Rect(497.5799865722656, 261.91998291015625, 677.4099731445312, 369.92999267578125)",
+        "transform": [
+          179.8300018310547,
+          0.0,
+          -0.0,
+          108.01000213623047,
+          497.5799865722656,
+          261.91998291015625
+        ],
+        "width": 611,
+        "height": 367,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 23915,
+        "has-mask": false
+      },
+      {
+        "number": 19,
+        "bbox": "Rect(497.5799865722656, 368.43499755859375, 679.9299926757812, 474.7349853515625)",
+        "transform": [
+          182.35000610351562,
+          0.0,
+          -0.0,
+          106.30000305175781,
+          497.5799865722656,
+          368.43499755859375
+        ],
+        "width": 506,
+        "height": 295,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 25958,
+        "has-mask": false
+      },
+      {
+        "number": 2,
+        "bbox": "Rect(497.5799865722656, 155.760009765625, 679.22998046875, 262.1700134277344)",
+        "transform": [
+          181.64999389648438,
+          0.0,
+          -0.0,
+          106.41000366210938,
+          497.5799865722656,
+          155.760009765625
+        ],
+        "width": 504,
+        "height": 295,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 31602,
+        "has-mask": false
+      }
+    ],
+    "graphics": [],
+    "text": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE\n\n\n\nKEY GROUP FINANCIAL METRICS DIVISIONAL OPERATING MARGIN1\n\n\n\n1\n\nOperating profit\n\n£2.5bn\n+46% yoy\n\n\nFree cash flow\n£2.0bn\n+24% yoy\n\n\n\n1\n\nOperating margin\n\n22.5%\n+3.1pts yoy\n\n\nReturn on capital\n22%\n+5.1pts yoy\n\n\n\n1\n\nOperating margin\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-4.png)\n\n\n\n\n\n\n\n1 Operating profit and operating margin shown on an underlying basis\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control 5\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-3.png)\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 6
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 6: CONTINUED strategic progress",
+        6
+      ]
+    ],
+    "tables": [],
+    "images": [
+      {
+        "number": 14,
+        "bbox": "Rect(734.0, 418.0, 904.0, 454.0)",
+        "transform": [
+          170.0,
+          0.0,
+          0.0,
+          36.0,
+          734.0,
+          418.0
+        ],
+        "width": 170,
+        "height": 36,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 0,
+        "has-mask": false
+      },
+      {
+        "number": 13,
+        "bbox": "Rect(665.0, 267.0, 781.0, 302.0)",
+        "transform": [
+          116.0,
+          0.0,
+          0.0,
+          35.0,
+          665.0,
+          267.0
+        ],
+        "width": 116,
+        "height": 35,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 0,
+        "has-mask": false
+      },
+      {
+        "number": 12,
+        "bbox": "Rect(649.0, 216.0, 729.0, 252.0)",
+        "transform": [
+          80.0,
+          0.0,
+          0.0,
+          36.0,
+          649.0,
+          216.0
+        ],
+        "width": 80,
+        "height": 36,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 0,
+        "has-mask": false
+      }
+    ],
+    "graphics": [],
+    "text": "CONTINUED STRATEGIC PROGRESS\n\n\nContract and LTSA margin improvement across\nin-production engines\n\n\n\nMore than 100% improvement in time on wing of in-production\nengines with cash benefits significantly beyond the mid-term\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-5.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-4.png)\n\n\n\n\n\n\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-3.png)\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n6\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 7
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 7: CONTINUED strategic PROGRESS",
+        7
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "CONTINUED STRATEGIC PROGRESS\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-1.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-4.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 Maintenance, Repair, and Overhaul; 2 For in-production engines; 3 Aircraft on Ground; 4 Group Business Services; 5 Sales, Inventory, Operational Planning © 2026 Rolls-Royce. Not Subject to Export Control 7\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 8
+    },
+    "toc_items": [
+      [
+        1,
+        "Helen's content",
+        8
+      ],
+      [
+        2,
+        "Slide 8: HELEN McCABE",
+        8
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-7-full.png)\n\nChief Financial Officer\n##### [HELEN McCABE]\n# 02\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 9
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 9: 2026 half Year underlying results",
+        9
+      ]
+    ],
+    "tables": [],
+    "images": [
+      {
+        "number": 6,
+        "bbox": "Rect(195.24000549316406, 107.27998352050781, 266.46002197265625, 276.29998779296875)",
+        "transform": [
+          71.22000122070312,
+          0.0,
+          -0.0,
+          169.02000427246094,
+          195.24000549316406,
+          107.27998352050781
+        ],
+        "width": 198,
+        "height": 470,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 4371,
+        "has-mask": true
+      },
+      {
+        "number": 1,
+        "bbox": "Rect(195.0, 381.4800109863281, 266.1000061035156, 478.1400146484375)",
+        "transform": [
+          71.0999984741211,
+          0.0,
+          -0.0,
+          96.66000366210938,
+          195.0,
+          381.4800109863281
+        ],
+        "width": 198,
+        "height": 269,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 2793,
+        "has-mask": true
+      },
+      {
+        "number": 7,
+        "bbox": "Rect(195.24000549316406, 291.3599853515625, 266.46002197265625, 366.17999267578125)",
+        "transform": [
+          71.22000122070312,
+          0.0,
+          -0.0,
+          74.81999969482422,
+          195.24000549316406,
+          291.3599853515625
+        ],
+        "width": 198,
+        "height": 208,
+        "colorspace": 3,
+        "cs-name": "DeviceRGB",
+        "xres": 96,
+        "yres": 96,
+        "bpc": 8,
+        "size": 2364,
+        "has-mask": true
+      }
+    ],
+    "graphics": [],
+    "text": "2026 HALF YEAR UNDERLYING RESULTS\n\n\n\n9\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-3.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-4.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-5.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-6.png)\n\n\n\n1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes\nM&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated\n\n\n\nStrong results - double-digit profit and\ncash growth across every division\n\n\nOperating profit growth of £0.8bn and\nfree cash flow growth of £0.4bn\n\n\nResilient balance sheet - net cash of £2.1bn\nInterim dividend of 6.0p per share\n\n\nBest-in-class return on capital\ndemonstrates significant value creation\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 10
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 10: CIVIL AEROSPACE",
+        10
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "CIVIL AEROSPACE\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-1.png)\n\n\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-4.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n10\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 11
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 11: DEFENCE",
+        11
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "DEFENCE\n\n\n\nKEY POINTS\n\n\n- 17% revenue growth, 57% profit growth\n\n- Higher aftermarket profit across transport\nand combat\n\n- Continued self-help benefits\n\n- Submarines growth\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-2.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n11\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 12
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 12: POWER SYSTEMS",
+        12
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "POWER SYSTEMS\n\n\n\nKEY POINTS\n\n\n- 28% revenue growth, 72% profit growth\n\n- Strong power generation profit growth, driven\nby data centres\n\n- Higher governmental profit\n\n- Continued cost control\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-4.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-3.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 Battery Energy Storage Systems\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n12\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 13
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 13: SUMMARY FUNDS FLOW",
+        13
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "SUMMARY FUNDS FLOW\n\n\n\n13\n\n\n\nKEY DRIVERS OF HIGHER YEAR ON YEAR FCF\n\n\n- Higher underlying operating profit\n\n\n- Higher net investments as we invest for future\nprofitable growth\n\n\n- Lower net LTSA balance growth due to more\nshop visits and business improvements\n\n\n- Broadly similar working capital performance\n\n\n- Movement in provisions reflects\nrenegotiations of onerous contracts\n\n\n- Higher cash tax costs\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-12-1.png)\n\n\n\n\n\n1 Net investments = D&A – capital element of lease payments – capital expenditure – investment  2 Risk and Revenue Sharing Arrangements\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 14
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 14: CAPITAL FRAMEWORK",
+        14
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "CAPITAL FRAMEWORK\n\nMaintaining resilience, investing strategically, and rewarding shareholders\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-13-1.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 As of 29 July 2026\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n14\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 15
+    },
+    "toc_items": [
+      [
+        1,
+        "Tufan's end content",
+        15
+      ],
+      [
+        2,
+        "Slide 15: TUFAN ERGINBILGIC",
+        15
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-14-full.png)\n\nChief Executive Officer\n##### [TUFAN ERGINBILGIC]\n# 03\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 16
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 16: Full year 2026 guidance raised",
+        16
+      ]
+    ],
+    "tables": [
+      {
+        "bbox": [
+          28.977500915527344,
+          426.75,
+          930.9500122070312,
+          507.12799072265625
+        ],
+        "rows": 3,
+        "columns": 2
+      }
+    ],
+    "images": [],
+    "graphics": [],
+    "text": "FULL YEAR 2026 GUIDANCE RAISED\n\nStrong delivery driven by transformation gives us confidence to raise our FY26 guidance\n\n\nOperating profit1 Free cash flow\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-15-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-15-2.png)\n\n\n\n\n\n\n\n\n\nCivil Aerospace drivers\n\n\n|Large engine EFH|Towards the lower end of the range of 115-120% of 2019|\n|---|---|\n|Total OE deliveries|550-600|\n|Total shop visits|1,480-1,550|\n\n\n\n16\n\n\n\n1 Underlying operating profit\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 17
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 17: Achieving the Rolls-Royce proposition",
+        17
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "ACHIEVING THE ROLLS-ROYCE PROPOSITION\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-16-1.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n17\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 18
+    },
+    "toc_items": [
+      [
+        1,
+        "End slides",
+        18
+      ],
+      [
+        2,
+        "Slide 18",
+        18
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-17-full.png)\n### Q&A\n\nPhoto courtesy of Boeing\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page": 19
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 19",
+        19
+      ]
+    ],
+    "tables": [],
+    "images": [],
+    "graphics": [],
+    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-18-1.png)\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients\n\nonly – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
+    "words": []
+  }
+]

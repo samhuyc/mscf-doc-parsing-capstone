@@ -1,0 +1,1139 @@
+{
+  "schema_version": 1,
+  "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+  "parser": "pymupdf4llm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "![](images/hippodrome_2025.pdf-0-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 1
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "![](images/hippodrome_2025.pdf-1-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 2
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "![](images/hippodrome_2025.pdf-2-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 3
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "![](images/hippodrome_2025.pdf-3-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 4
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "![](images/hippodrome_2025.pdf-4-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 5
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "![](images/hippodrome_2025.pdf-5-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 6
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 7,
+      "markdown": "![](images/hippodrome_2025.pdf-6-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 7
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 8,
+      "markdown": "![](images/hippodrome_2025.pdf-7-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 8
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 9,
+      "markdown": "![](images/hippodrome_2025.pdf-8-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 9
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 10,
+      "markdown": "![](images/hippodrome_2025.pdf-9-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 10
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 11,
+      "markdown": "![](images/hippodrome_2025.pdf-10-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 11
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 12,
+      "markdown": "![](images/hippodrome_2025.pdf-11-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 12
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 13,
+      "markdown": "![](images/hippodrome_2025.pdf-12-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 13
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 14,
+      "markdown": "![](images/hippodrome_2025.pdf-13-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 14
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 15,
+      "markdown": "![](images/hippodrome_2025.pdf-14-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 15
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 16,
+      "markdown": "![](images/hippodrome_2025.pdf-15-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 16
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 17,
+      "markdown": "![](images/hippodrome_2025.pdf-16-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 17
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 18,
+      "markdown": "![](images/hippodrome_2025.pdf-17-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 18
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 19,
+      "markdown": "![](images/hippodrome_2025.pdf-18-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 19
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 20,
+      "markdown": "![](images/hippodrome_2025.pdf-19-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 20
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 21,
+      "markdown": "![](images/hippodrome_2025.pdf-20-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 21
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 22,
+      "markdown": "![](images/hippodrome_2025.pdf-21-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 22
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 23,
+      "markdown": "![](images/hippodrome_2025.pdf-22-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 23
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 24,
+      "markdown": "![](images/hippodrome_2025.pdf-23-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 24
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 25,
+      "markdown": "![](images/hippodrome_2025.pdf-24-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 25
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 26,
+      "markdown": "![](images/hippodrome_2025.pdf-25-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 26
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 27,
+      "markdown": "![](images/hippodrome_2025.pdf-26-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 27
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 28,
+      "markdown": "![](images/hippodrome_2025.pdf-27-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 28
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 29,
+      "markdown": "![](images/hippodrome_2025.pdf-28-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 29
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 30,
+      "markdown": "![](images/hippodrome_2025.pdf-29-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 30
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 31,
+      "markdown": "![](images/hippodrome_2025.pdf-30-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 31
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 32,
+      "markdown": "![](images/hippodrome_2025.pdf-31-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 32
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 33,
+      "markdown": "![](images/hippodrome_2025.pdf-32-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 33
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 34,
+      "markdown": "![](images/hippodrome_2025.pdf-33-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 34
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 35,
+      "markdown": "![](images/hippodrome_2025.pdf-34-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 35
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 36,
+      "markdown": "![](images/hippodrome_2025.pdf-35-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 36
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 37,
+      "markdown": "![](images/hippodrome_2025.pdf-36-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 37
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 38,
+      "markdown": "![](images/hippodrome_2025.pdf-37-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 38
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    },
+    {
+      "page": 39,
+      "markdown": "![](images/hippodrome_2025.pdf-38-full.png)\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.1",
+          "title": "",
+          "author": "",
+          "subject": "",
+          "keywords": "",
+          "creator": "go-tiff2pdf",
+          "producer": "libtiff / tiff2pdf - 20150912",
+          "creationDate": "D:20260625225839",
+          "modDate": "D:20260625225839",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/hippodrome_2025.pdf",
+          "page_count": 39,
+          "page": 39
+        },
+        "toc_items": [],
+        "tables": [],
+        "images": [],
+        "graphics": [],
+        "words": []
+      },
+      "text_chars": 0,
+      "confidence": null
+    }
+  ]
+}

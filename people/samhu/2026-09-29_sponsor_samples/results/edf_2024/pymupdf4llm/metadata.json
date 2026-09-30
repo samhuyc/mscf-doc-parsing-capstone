@@ -1,0 +1,52 @@
+{
+  "source": {
+    "id": "edf_2024",
+    "title": "EDF Consolidated Segmental Statement 2024",
+    "url": "https://www.edfenergy.com/sites/default/files/2025-12/CSS-2024-Submission-Final.pdf",
+    "status": "success",
+    "pages": 6,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "Perry, Alex",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word for Microsoft 365",
+      "producer": "Microsoft® Word for Microsoft 365",
+      "creationDate": "D:20260113180623+00'00'",
+      "modDate": "D:20260113180623+00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "outline": [],
+    "native_text_chars": [
+      90,
+      1058,
+      1722,
+      2763,
+      2029,
+      1039
+    ],
+    "sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+    "bytes": 314548,
+    "checked_at_utc": "2026-09-29T23:54:02.314540+00:00"
+  },
+  "parser": "pymupdf4llm",
+  "source_outline": [],
+  "generated_heading_index": [
+    {
+      "page": 1,
+      "level": 1,
+      "title": "**EDF Consolidated** **Segmental Statement**",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 1,
+      "level": 2,
+      "title": "**for the year ended 31 December 2024**",
+      "origin": "parser_heading"
+    }
+  ],
+  "confidence": null,
+  "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
+}

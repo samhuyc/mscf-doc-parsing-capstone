@@ -66,7 +66,986 @@
   },
   "parser": "pymupdf4llm",
   "source_outline": [],
-  "generated_heading_index": [],
+  "generated_heading_index": [
+    {
+      "page": 2,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 5,
+      "title": "COMPANY INFORMATION ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 5,
+      "title": "STRATEGIC REPORT ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 6,
+      "title": "About The Hippodrome Casino ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 6,
+      "title": "Our Business ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 6,
+      "title": "Our Staff ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 1,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 6,
+      "title": "Our Partners and Suppliers ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 6,
+      "title": "Our Customers ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 6,
+      "title": "Our Shareholders ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 6,
+      "title": "People and Communities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 6,
+      "title": "Maximising Value and Efficiency ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 4,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 6,
+      "title": "Our Costs - What Are Our Outgoings? ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 6,
+      "title": "Regulation at The Hippodrome Casino ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 6,
+      "title": "Key developments during the year include: ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 6,
+      "title": "Capital Investment at The Hippodrome Casino ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 6,
+      "title": "Our Core Purpose ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 6,
+      "title": "Our Fundamental Principles ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 6,
+      "title": "Our Shared Values ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 3,
+      "title": "STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 6,
+      "title": "Section 172 (1) Statement ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 6,
+      "title": "b. The interests of the Company’s employees ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 6,
+      "title": "Principal Risks and Uncertainties ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 6,
+      "title": "Managing Risk ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED STRATEGIC REPORT (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 6,
+      "title": "Future considerations ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 6,
+      "title": "Risk ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 6,
+      "title": "Macroeconomic& Political Risk ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 6,
+      "title": "Risk Status / Mitigations ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 4,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 4,
+      "title": "STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 6,
+      "title": "Non-Financial Performance Measures ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 6,
+      "title": "Future Outlook ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 5,
+      "title": "DIRECTORS' REPORT ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 6,
+      "title": "Disabled persons ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 4,
+      "title": "DIRECTORS' REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 6,
+      "title": "Employee involvement ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 6,
+      "title": "Auditor ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 6,
+      "title": "Going concern ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 6,
+      "title": "Matters of strategic importance ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 6,
+      "title": "Streamlined Energy and Carbon Reporting ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 16,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 16,
+      "level": 5,
+      "title": "DIRECTORS' RESPONSIBILITIES STATEMENT ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 16,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 5,
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED. ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 6,
+      "title": "Basis for opinion ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 6,
+      "title": "Conclusions relating to going concern ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 6,
+      "title": "Other information ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 6,
+      "title": "Opinions on other matters prescribed by the Companies Act 2006 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 18,
+      "level": 5,
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 18,
+      "level": 6,
+      "title": "Responsibilities of directors ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 18,
+      "level": 6,
+      "title": "The extent to which the audit was considered capable of detecting irregularities, including fraud ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 18,
+      "level": 6,
+      "title": "engagement team: ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 19,
+      "level": 4,
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 19,
+      "level": 6,
+      "title": "N.C. Cattini ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 20,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 20,
+      "level": 5,
+      "title": "STATEMENT OF COMPREHENSIVE INCOME ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 20,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 21,
+      "level": 6,
+      "title": "Company registration number 05497987 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 21,
+      "level": 4,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 21,
+      "level": 5,
+      "title": "STATEMENT OF FINANCIAL POSITION ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 21,
+      "level": 4,
+      "title": "AS AT 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 22,
+      "level": 2,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 22,
+      "level": 5,
+      "title": "STATEMENT OF CHANGES IN EQUITY ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 22,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 23,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 23,
+      "level": 5,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 23,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 23,
+      "level": 6,
+      "title": "Accounting convention ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 24,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 24,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 24,
+      "level": 6,
+      "title": "Going concern ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 24,
+      "level": 6,
+      "title": "Gaming: ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 25,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 25,
+      "level": 6,
+      "title": "Fixed asset investments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 25,
+      "level": 6,
+      "title": "Impairment of fixed assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "1 Accounting policies (Continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "Financial instruments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "Basic financial assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "Impairment of financial assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "Derecognition of financial assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 26,
+      "level": 6,
+      "title": "Classification of financial liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 6,
+      "title": "1 Accounting policies (Continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 6,
+      "title": "Basic financial liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 6,
+      "title": "Derecognition of financial liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 6,
+      "title": "Equity instruments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 27,
+      "level": 6,
+      "title": "Taxation ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 28,
+      "level": 4,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 28,
+      "level": 6,
+      "title": "Employee benefits ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 28,
+      "level": 6,
+      "title": "Retirement benefits ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 6,
+      "title": "2 Judgements and key sources of estimation uncertainty ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 6,
+      "title": "Loyalty schemes ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 6,
+      "title": "Depreciation ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 6,
+      "title": "3 Turnover and other revenue ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 29,
+      "level": 6,
+      "title": "An analysis of the Company's turnover is as follows: ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 30,
+      "level": 4,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 30,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 30,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 30,
+      "level": 6,
+      "title": "4 Employees ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 31,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 31,
+      "level": 6,
+      "title": "6 Operating profit ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 31,
+      "level": 6,
+      "title": "8 Interest receivable and similar income ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 31,
+      "level": 6,
+      "title": "10 Other gains and losses ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 32,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 32,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 32,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 32,
+      "level": 6,
+      "title": "11. Taxation ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 6,
+      "title": "12 Intangible fixed assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 6,
+      "title": "13 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 33,
+      "level": 6,
+      "title": "Tangible fixed assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 6,
+      "title": "13 Tangible fixed assets (Continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 6,
+      "title": "14 Fixed asset investments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 34,
+      "level": 6,
+      "title": "15 Subsidiaries ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 35,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 35,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 35,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 36,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 36,
+      "level": 4,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 36,
+      "level": 6,
+      "title": "20 Borrowings ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 37,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 37,
+      "level": 5,
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 37,
+      "level": 6,
+      "title": "21 ~+Finance lease obligations ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 37,
+      "level": 6,
+      "title": "22 ~+ODeferred taxation ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 38,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 38,
+      "level": 6,
+      "title": "25 Profit and loss reserves ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 38,
+      "level": 5,
+      "title": "26 ~ Financial commitments, guarantees and contingent liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 3,
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 6,
+      "title": "27 ~=Related party transactions | ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 6,
+      "title": "28 Operating lease commitments ‘ ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 6,
+      "title": "Lessee ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 6,
+      "title": "29 ‘Directors’ transactions ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 39,
+      "level": 6,
+      "title": "30 Ultimate controlling party ; ",
+      "origin": "parser_heading"
+    }
+  ],
   "confidence": null,
   "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
 }

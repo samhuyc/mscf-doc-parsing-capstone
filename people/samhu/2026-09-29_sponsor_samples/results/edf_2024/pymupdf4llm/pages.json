@@ -6,7 +6,7 @@
   "pages": [
     {
       "page": 1,
-      "markdown": "![](images/edf_2024.pdf-0-0.png)\n# **EDF Consolidated** **Segmental Statement**\n\n## **for the year ended 31 December 2024**\n\nPage **1** of **6**\n",
+      "markdown": "![](images/edf_2024.pdf-0001-00.png)\n\n\n<!-- Start of picture text -->\n€<br>©, > CDF<br><!-- End of picture text -->\n\n# **EDF Consolidated Segmental Statement for the year ended 31 December 2024** \n\nPage **1** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -22,42 +22,60 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 1
+          "page_number": 1
         },
         "toc_items": [],
-        "tables": [],
-        "images": [
+        "page_boxes": [
           {
-            "number": 0,
-            "bbox": "Rect(443.5, 0.4499664306640625, 594.739990234375, 95.39996337890625)",
-            "transform": [
-              151.24000549316406,
-              0.0,
-              -0.0,
-              94.94999694824219,
-              443.5,
-              0.4499664306640625
+            "index": 0,
+            "class": "picture",
+            "bbox": [
+              443,
+              0,
+              595,
+              96
             ],
-            "width": 420,
-            "height": 263,
-            "colorspace": 3,
-            "cs-name": "DeviceRGB",
-            "xres": 96,
-            "yres": 96,
-            "bpc": 8,
-            "size": 17793,
-            "has-mask": true
+            "pos": [
+              0,
+              118
+            ]
+          },
+          {
+            "index": 1,
+            "class": "section-header",
+            "bbox": [
+              69,
+              207,
+              479,
+              332
+            ],
+            "pos": [
+              118,
+              199
+            ]
+          },
+          {
+            "index": 2,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              199,
+              221
+            ]
           }
-        ],
-        "graphics": [],
-        "words": []
+        ]
       },
-      "text_chars": 84,
+      "text_chars": 95,
       "confidence": null
     },
     {
       "page": 2,
-      "markdown": "![](images/edf_2024.pdf-1-full.png)\n\n**EXECUTIVE SUMMARY**\n\nThis Consolidated Segmental Statement (“CSS”) has been prepared in accordance with Standard Licence\nCondition 19A of the Gas and Electricity Supply Licences (“Financial Information Reporting”) and the\nassociated published Ofgem Guidance. The CSS provides transparency of the supply activities and\nprofitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December\n2024.\n\nEDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (“EDF UK\nGroup”) which holds electricity and gas supply licences used to supply energy to residential, commercial\nand industrial customers in the UK. This statement includes all supply licensed activities with the EDF\nEnergy Customers Limited as required under the license conditions. The other entities within the EDF\nUK Group are not in scope of the CSS.\n\nThe figures have been reconciled to the statutory accounts for the licensed entity EDF Energy Customers\nLimited for financial year ended 31 December 2024.\n\n\nPage **2** of **6**\n",
+      "markdown": "## **EXECUTIVE SUMMARY** \n\nThis Consolidated Segmental Statement (“CSS”) has been prepared in accordance with Standard Licence Condition 19A of the Gas and Electricity Supply Licences (“Financial Information Reporting”) and the associated published Ofgem Guidance. The CSS provides transparency of the supply activities and profitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December 2024. \n\nEDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (“EDF UK Group”) which holds electricity and gas supply licences used to supply energy to residential, commercial and industrial customers in the UK. This statement includes all supply licensed activities with the EDF Energy Customers Limited as required under the license conditions. The other entities within the EDF UK Group are not in scope of the CSS. \n\nThe figures have been reconciled to the statutory accounts for the licensed entity EDF Energy Customers Limited for financial year ended 31 December 2024. \n\nPage **2** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -73,20 +91,88 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 2
+          "page_number": 2
         },
         "toc_items": [],
-        "tables": [],
-        "images": [],
-        "graphics": [],
-        "words": []
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              33,
+              108,
+              166,
+              118
+            ],
+            "pos": [
+              0,
+              27
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              33,
+              136,
+              565,
+              205
+            ],
+            "pos": [
+              27,
+              436
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              33,
+              226,
+              565,
+              298
+            ],
+            "pos": [
+              436,
+              883
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              33,
+              315,
+              564,
+              343
+            ],
+            "pos": [
+              883,
+              1040
+            ]
+          },
+          {
+            "index": 4,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              1040,
+              1062
+            ]
+          }
+        ]
       },
       "text_chars": 1036,
       "confidence": null
     },
     {
       "page": 3,
-      "markdown": "![](images/edf_2024.pdf-2-full.png)\n\n**CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024**\n\n<table>\n<thead>\n<tr>\n<th>Col1</th>\n<th>Unit</th>\n<th>Electricity supply</th>\n<th>Col4</th>\n<th>Gas supply</th>\n<th>Col6</th>\n<th>Aggregate<br>supply<br>business</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>** Unit**</td>\n<td><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n<td><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n<td><strong>Non</strong><br><strong>Domestic</strong></td>\n</tr>\n<tr>\n<td><strong>Total revenue</strong><br>Revenue from sale of electricity and gas<br>Other revenues<br></td>\n<td><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong></td>\n<td><strong>3,037.1</strong><br>3,037.1<br>0.0<br></td>\n<td><strong>8,674.9</strong><br>8,674.9<br>0.0<br></td>\n<td><strong>1,693.1</strong><br>1,693.1<br>0.0<br></td>\n<td><strong>126.6</strong><br>126.6<br>0.0<br></td>\n<td><strong>13,531.6</strong><br>13,531.6<br>0.0<br></td>\n</tr>\n<tr>\n<td><br><strong>Total operating costs</strong><br>Direct fuel costs<br> <br><strong><em>Direct costs:</em></strong><br>Transportation costs<br>Environmental and social obligations costs<br>Other direct costs<br> <br><strong>Indirect costs</strong><br> <br><strong>EBITDA</strong><br>Depreciation and amortisation <br><strong>EBIT</strong><br></td>\n<td><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong><br><strong>£'M</strong></td>\n<td><br><strong>2,862.2</strong><br>1,065.1<br> <br><strong>1,373.0</strong><br>649.4<br>679.1<br>44.5<br> <br><strong>424.0</strong><br> <br><strong>174.9</strong><br>10.7<br><strong>164.2</strong><br></td>\n<td><br><strong>8,482.2</strong><br>4,556.2<br> <br><strong>3,713.3</strong><br>1,807.3<br>1,833.0<br>73.0<br> <br><strong>212.7</strong><br> <br><strong>192.7</strong><br>42.5<br><strong>150.1</strong><br></td>\n<td><br><strong>1,777.7</strong><br>1,046.1<br> <br><strong>459.9</strong><br>385.4<br>59.8<br>14.7<br> <br><strong>271.7</strong><br> <br><strong>(84.6)</strong><br>7.4<br><strong>(92.0)</strong><br></td>\n<td><br><strong>116.2</strong><br>72.1<br> <br><strong>24.0</strong><br>18.7<br>0.3<br>4.9<br> <br><strong>20.1</strong><br> <br><strong>10.4</strong><br>4.0<br><strong>6.4</strong><br></td>\n<td><br><strong>13,238.2</strong><br>6,739.4<br> <br><strong>5,570.2</strong><br>2,860.8<br>2,572.2<br>137.2<br> <br><strong>928.6</strong><br> <br><strong>293.4</strong><br>64.7<br><strong>228.7</strong><br></td>\n</tr>\n<tr>\n<td>Volume</td>\n<td><strong>TWh, m</strong><br><strong>therms</strong></td>\n<td>10.5</td>\n<td>34.5</td>\n<td>863.9</td>\n<td>61.6</td>\n<td></td>\n</tr>\n<tr>\n<td>WACO E/G</td>\n<td><strong>£/MWh,</strong><br><strong>p/th</strong></td>\n<td>101.2</td>\n<td>132.1</td>\n<td>121.1</td>\n<td>116.9</td>\n<td></td>\n</tr>\n<tr>\n<td>Meter Points</td>\n<td><strong>000s</strong></td>\n<td>3,113.3</td>\n<td>556.2</td>\n<td>2,168.0</td>\n<td>52.6</td>\n<td>5,890.1</td>\n</tr>\n</tbody>\n</table>\n\n\n\nNotes:\n\n  - All revenues, costs and depreciation are entered as positive values\n\n  - EBITDA and EBIT: positive figures indicate profit; negative figures indicate loss\n\n  - Volumes for electricity are reported in TWh to 1 decimal place\n\n  - Volumes for gas are reported in m therms to 1 decimal place\n\n  - WACOE calculated to the nearest pence in £/MWh\n\n  - WACOG calculated to nearest 1 decimal place in p/therm\n\n\nPage **3** of **6**\n",
+      "markdown": "## **EDF** EDF **CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024** \n\n<table><tr><th rowspan=\"2\"></th><th rowspan=\"2\">Unit</th><th colspan=\"2\">Electricity supply</th><th colspan=\"2\">Gas supply</th><th rowspan=\"2\">Aggregate<br/>supply<br/>business</th></tr><tr><th>Domestic</th><th>Non<br/>Domestic</th><th>Domestic</th><th>Non<br/>Domestic</th></tr><tr><td>Total revenue</td><td>£'M</td><td>3,037.1</td><td>8,674.9</td><td>1,693.1</td><td>126.6</td><td>13,531.6</td></tr><tr><td>Revenue from sale of electricity and gas<br/>Other revenues</td><td>£'M<br/>£'M</td><td>3,037.1<br/>0.0</td><td>8,674.9<br/>0.0</td><td>1,693.1<br/>0.0</td><td>126.6<br/>0.0</td><td>13,531.6<br/>0.0</td></tr><tr><td>Total operating costs</td><td>£'M</td><td>2,862.2</td><td>8,482.2</td><td>1,777.7</td><td>116.2</td><td>13,238.2</td></tr><tr><td>Direct fuel costs</td><td>£'M</td><td>1,065.1</td><td>4,556.2</td><td>1,046.1</td><td>72.1</td><td>6,739.4</td></tr><tr><td>Direct costs:</td><td>£'M</td><td>1,373.0</td><td>3,713.3</td><td>459.9</td><td>24.0</td><td>5,570.2</td></tr><tr><td>Transportation costs<br/>Environmental and social obligations costs<br/>Other direct costs<br/>Indirect costs</td><td>£'M<br/>£'M<br/>£'M<br/>£'M</td><td>649.4<br/>679.1<br/>44.5<br/>424.0</td><td>1,807.3<br/>1,833.0<br/>73.0<br/>212.7</td><td>385.4<br/>59.8<br/>14.7<br/>271.7</td><td>18.7<br/>0.3<br/>4.9<br/>20.1</td><td>2,860.8<br/>2,572.2<br/>137.2<br/>928.6</td></tr><tr><td>EBITDA</td><td>£'M</td><td>174.9</td><td>192.7</td><td>(84.6)</td><td>10.4</td><td>293.4</td></tr><tr><td>Depreciation and amortisation</td><td>£'M</td><td>10.7</td><td>42.5</td><td>7.4</td><td>4.0</td><td>64.7</td></tr><tr><td>EBIT</td><td>£'M</td><td>164.2</td><td>150.1</td><td>(92.0)</td><td>6.4</td><td>228.7</td></tr><tr><td>Volume</td><td>TWh, m<br/>therms</td><td>10.5</td><td>34.5</td><td>863.9</td><td>61.6</td><td></td></tr><tr><td>WACO E/G</td><td>£/MWh,<br/>p/th</td><td>101.2</td><td>132.1</td><td>121.1</td><td>116.9</td><td></td></tr><tr><td>Meter Points</td><td>000s</td><td>3,113.3</td><td>556.2</td><td>2,168.0</td><td>52.6</td><td>5,890.1</td></tr></table>\n\nNotes: \n\n- All revenues, costs and depreciation are entered as positive values \n\n- EBITDA and EBIT: positive figures indicate profit; negative figures indicate loss \n\n- Volumes for electricity are reported in TWh to 1 decimal place \n\n- Volumes for gas are reported in m therms to 1 decimal place \n\n- WACOE calculated to the nearest pence in £/MWh \n\n- WACOG calculated to nearest 1 decimal place in p/therm \n\nPage **3** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -102,31 +188,158 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 3
+          "page_number": 3
         },
         "toc_items": [],
-        "tables": [
+        "page_boxes": [
           {
+            "index": 0,
+            "class": "section-header",
             "bbox": [
-              34.420799255371094,
-              134.6999969482422,
-              576.4992065429688,
-              542.0499877929688
+              33,
+              108,
+              547,
+              118
             ],
-            "rows": 7,
-            "columns": 7
+            "pos": [
+              0,
+              90
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              39,
+              138,
+              574,
+              534
+            ],
+            "pos": [
+              90,
+              2146
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              33,
+              572,
+              70,
+              581
+            ],
+            "pos": [
+              2146,
+              2155
+            ]
+          },
+          {
+            "index": 3,
+            "class": "list-item",
+            "bbox": [
+              51,
+              587,
+              413,
+              599
+            ],
+            "pos": [
+              2155,
+              2227
+            ]
+          },
+          {
+            "index": 4,
+            "class": "list-item",
+            "bbox": [
+              51,
+              602,
+              470,
+              614
+            ],
+            "pos": [
+              2227,
+              2313
+            ]
+          },
+          {
+            "index": 5,
+            "class": "list-item",
+            "bbox": [
+              51,
+              617,
+              389,
+              629
+            ],
+            "pos": [
+              2313,
+              2380
+            ]
+          },
+          {
+            "index": 6,
+            "class": "list-item",
+            "bbox": [
+              51,
+              632,
+              384,
+              644
+            ],
+            "pos": [
+              2380,
+              2444
+            ]
+          },
+          {
+            "index": 7,
+            "class": "list-item",
+            "bbox": [
+              51,
+              647,
+              328,
+              659
+            ],
+            "pos": [
+              2444,
+              2495
+            ]
+          },
+          {
+            "index": 8,
+            "class": "list-item",
+            "bbox": [
+              51,
+              662,
+              361,
+              674
+            ],
+            "pos": [
+              2495,
+              2554
+            ]
+          },
+          {
+            "index": 9,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              2554,
+              2576
+            ]
           }
-        ],
-        "images": [],
-        "graphics": [],
-        "words": []
+        ]
       },
-      "text_chars": 1470,
+      "text_chars": 1440,
       "confidence": null
     },
     {
       "page": 4,
-      "markdown": "![](images/edf_2024.pdf-3-full.png)\n\n**ACCOUNTING STANDARDS**\n\nThe CSS for EDF has been prepared using financial data included in EDF Energy Customer’s Limited’s\nfinancial statements for year ended 31 December 2024, which have been prepared in accordance with\naccounting standards Financial Reporting Standard 101 Reduced Disclosure Framework (‘FRS 101’). The\nCSS has been reconciled at revenue and earnings (EBIT) to these financial statements on the same basis\ntaking into consideration the SLC 19A and associated Guidance issued by Ofgem.\n\n**DEFINITIONS AND METHODOLOGY**\n\n**Revenue from sale of electricity and gas:** Comprises electricity and gas sales to domestic and nondomestic customers for the respective retail supply segments. This includes support provided via\nGovernment schemes such as Energy Price Guarantee (“EPG”) and Energy Bills Discount Scheme\n(“EBDS”). Revenue is recognised on the basis of units supplied during the year and includes an estimate\nof units supplied between the last meter reading and year-end. Revenue for domestic supply is stated\nafter deducting Dual fuel discounts (allocated equally between electricity and gas) and Government\nmandated social tariff (e.g. Warm Home Discount rebates).\n\n\n**Direct fuel costs:** aggregate electricity, gas and imbalance costs.\n\n\n**Transportation costs:** includes Network transportation costs (TNUoS, DUoS); Balancing Services Use of\nSystem charges (BSUoS) and Gas transportation costs.\n\n\n**Environmental and social obligation costs:** policy related costs relating to net zero and other schemes\nnot limited to Renewable Obligation (RO); Feed-in-Tariff (FiT); Contracts for Difference (CfD); Capacity\nMarket (CM); Energy Company Obligation (ECO); Warm Home Discount (WHD) industry initiatives; Green\nGas Levy; GB Insulation Scheme and Assistance for Areas with High Electricity Distribution Costs\n(AAHEDC). £151m of costs associated with environmental and social obligation schemes have been\nclassified here in line with Ofgem guidance, in the statutory accounts these costs appear under Other\nOperating Expenses. This reclassification has no impact on EBIT.\n\n\n**Other direct costs:** other gross margin costs. Does not include customer or business support costs (e.g.\ncustomer service costs and HR costs, which are included in indirect costs). Includes: Third party\nintermediaries (TPI) costs; Aggregator element of acquisition costs; Broker costs and sales commissions\ndirectly attributable to sales; Market participation costs (Elexon, Xoserve); and Market stabilisation\ncharges. £123m of costs associated with direct costs have been classified here in line with Ofgem\nguidance, in the statutory accounts these costs appear under Other Operating Expenses. This\nreclassification has no impact on EBIT.\n\n\nPage **4** of **6**\n",
+      "markdown": "## **ACCOUNTING STANDARDS** \n\nThe CSS for EDF has been prepared using financial data included in EDF Energy Customer’s Limited’s financial statements for year ended 31 December 2024, which have been prepared in accordance with accounting standards Financial Reporting Standard 101 Reduced Disclosure Framework (‘FRS 101’). The CSS has been reconciled at revenue and earnings (EBIT) to these financial statements on the same basis taking into consideration the SLC 19A and associated Guidance issued by Ofgem. \n\n## **DEFINITIONS AND METHODOLOGY** \n\n**Revenue from sale of electricity and gas:** Comprises electricity and gas sales to domestic and nondomestic customers for the respective retail supply segments. This includes support provided via Government schemes such as Energy Price Guarantee (“EPG”) and Energy Bills Discount Scheme (“EBDS”). Revenue is recognised on the basis of units supplied during the year and includes an estimate of units supplied between the last meter reading and year-end. Revenue for domestic supply is stated after deducting Dual fuel discounts (allocated equally between electricity and gas) and Government mandated social tariff (e.g. Warm Home Discount rebates). \n\n**Direct fuel costs:** aggregate electricity, gas and imbalance costs. \n\n**Transportation costs:** includes Network transportation costs (TNUoS, DUoS); Balancing Services Use of System charges (BSUoS) and Gas transportation costs. \n\n**Environmental and social obligation costs:** policy related costs relating to net zero and other schemes not limited to Renewable Obligation (RO); Feed-in-Tariff (FiT); Contracts for Difference (CfD); Capacity Market (CM); Energy Company Obligation (ECO); Warm Home Discount (WHD) industry initiatives; Green Gas Levy; GB Insulation Scheme and Assistance for Areas with High Electricity Distribution Costs (AAHEDC). £151m of costs associated with environmental and social obligation schemes have been classified here in line with Ofgem guidance, in the statutory accounts these costs appear under Other Operating Expenses. This reclassification has no impact on EBIT. \n\n**Other direct costs:** other gross margin costs. Does not include customer or business support costs (e.g. customer service costs and HR costs, which are included in indirect costs). Includes: Third party intermediaries (TPI) costs; Aggregator element of acquisition costs; Broker costs and sales commissions directly attributable to sales; Market participation costs (Elexon, Xoserve); and Market stabilisation charges. £123m of costs associated with direct costs have been classified here in line with Ofgem guidance, in the statutory accounts these costs appear under Other Operating Expenses. This reclassification has no impact on EBIT. \n\nPage **4** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -142,20 +355,144 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 4
+          "page_number": 4
         },
         "toc_items": [],
-        "tables": [],
-        "images": [],
-        "graphics": [],
-        "words": []
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              33,
+              108,
+              191,
+              118
+            ],
+            "pos": [
+              0,
+              30
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              33,
+              137,
+              565,
+              209
+            ],
+            "pos": [
+              30,
+              511
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              33,
+              239,
+              239,
+              249
+            ],
+            "pos": [
+              511,
+              548
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              33,
+              269,
+              565,
+              371
+            ],
+            "pos": [
+              548,
+              1201
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              33,
+              381,
+              371,
+              393
+            ],
+            "pos": [
+              1201,
+              1274
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              33,
+              402,
+              565,
+              429
+            ],
+            "pos": [
+              1274,
+              1434
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              33,
+              439,
+              565,
+              541
+            ],
+            "pos": [
+              1434,
+              2106
+            ]
+          },
+          {
+            "index": 7,
+            "class": "text",
+            "bbox": [
+              33,
+              551,
+              565,
+              653
+            ],
+            "pos": [
+              2106,
+              2751
+            ]
+          },
+          {
+            "index": 8,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              2751,
+              2773
+            ]
+          }
+        ]
       },
       "text_chars": 2712,
       "confidence": null
     },
     {
       "page": 5,
-      "markdown": "![](images/edf_2024.pdf-4-full.png)\n\n**Indirect costs:** Includes operating costs not limited to sales and marketing costs; Bad debt; Central\nservices and corporate recharges; Customer service and billing; Costs to serve Priority Services Register\n(PSR) customers; IT, HR, property costs and metering related costs (including installations, rental,\nmaintenance etc). Where costs cannot be directly allocated to a fuel (Gas / Electricity) or market\n(Domestic / Non-Domestic), they have been allocated using appropriate activity drivers, such as\ncustomer contact volumes and account volumes.\n\n**HEDGING POLICY**\n\nEDF adopts hedging strategies which are designed to minimise the impact of energy market risk,\nconsistent with the guidelines of the EDF Group Energy Market Risk Policy. Energy requirements for fixed\nprice (active choice) products are hedged “back - to - back”, based on forecast demand at the start of the\ncontract. Standard variable (default) tariff products are hedged in line with the default price cap\nmethodology. The volume risk arising from demand volatility is carried by EDF Energy Customers Ltd\nand recognised within the CSS.\n\n**GLOSSARY OF TERMS**\n\n**EBIDTA:** Earnings before interest, tax, depreciation and amortisation.\n\n**EBIT:** Earnings before interest and tax.\n\n**Depreciation and amortisation:** Depreciation and amortisation is allocated between Electricity and\nGas on the basis of meter points.\n\n**Meter Points:** average number of electricity and gas, domestic and non-domestic meter points (MPANs\nand MPRNs) during the reporting year. Calculated by adding monthly close meter points and dividing by\n12.\n\n**WACO E/G:** Weighted average input cost of fuel (“WACO”) for supply of electricity/gas. Calculated as\n“Direct fuel costs” line divided by the “Volume” line, shown as £/MWh or p/th. It does not include other\ndirect costs such as distribution, transportation or environmental/social costs.\n\n**TWh:** Terawatt hours.\n\n**m Therms:** Million therms.\n\n**Volume:** Supplier volumes at the meter point (i.e. net of losses).\n\n\nPage **5** of **6**\n",
+      "markdown": "**Indirect costs:** Includes operating costs not limited to sales and marketing costs; Bad debt; Central services and corporate recharges; Customer service and billing; Costs to serve Priority Services Register (PSR) customers; IT, HR, property costs and metering related costs (including installations, rental, maintenance etc). Where costs cannot be directly allocated to a fuel (Gas / Electricity) or market (Domestic / Non-Domestic), they have been allocated using appropriate activity drivers, such as customer contact volumes and account volumes. \n\n## **HEDGING POLICY** \n\nEDF adopts hedging strategies which are designed to minimise the impact of energy market risk, consistent with the guidelines of the EDF Group Energy Market Risk Policy. Energy requirements for fixed price (active choice) products are hedged “back ‑ to ‑ back”, based on forecast demand at the start of the contract. Standard variable (default) tariff products are hedged in line with the default price cap methodology. The volume risk arising from demand volatility is carried by EDF Energy Customers Ltd and recognised within the CSS. \n\n## **GLOSSARY OF TERMS** \n\n**EBIDTA:** Earnings before interest, tax, depreciation and amortisation. \n\n**EBIT:** Earnings before interest and tax. \n\n**Depreciation and amortisation:** Depreciation and amortisation is allocated between Electricity and Gas on the basis of meter points. \n\n**Meter Points:** average number of electricity and gas, domestic and non-domestic meter points (MPANs and MPRNs) during the reporting year. Calculated by adding monthly close meter points and dividing by 12. \n\n**WACO E/G:** Weighted average input cost of fuel (“WACO”) for supply of electricity/gas. Calculated as “Direct fuel costs” line divided by the “Volume” line, shown as £/MWh or p/th. It does not include other direct costs such as distribution, transportation or environmental/social costs. \n\n**TWh:** Terawatt hours. \n\n**m Therms:** Million therms. \n\n**Volume:** Supplier volumes at the meter point (i.e. net of losses). \n\nPage **5** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -171,20 +508,200 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 5
+          "page_number": 5
         },
         "toc_items": [],
-        "tables": [],
-        "images": [],
-        "graphics": [],
-        "words": []
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "text",
+            "bbox": [
+              33,
+              110,
+              565,
+              195
+            ],
+            "pos": [
+              0,
+              555
+            ]
+          },
+          {
+            "index": 1,
+            "class": "section-header",
+            "bbox": [
+              33,
+              227,
+              140,
+              237
+            ],
+            "pos": [
+              555,
+              579
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              33,
+              257,
+              564,
+              344
+            ],
+            "pos": [
+              579,
+              1118
+            ]
+          },
+          {
+            "index": 3,
+            "class": "section-header",
+            "bbox": [
+              33,
+              370,
+              165,
+              380
+            ],
+            "pos": [
+              1118,
+              1145
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              33,
+              399,
+              391,
+              411
+            ],
+            "pos": [
+              1145,
+              1221
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              33,
+              429,
+              234,
+              441
+            ],
+            "pos": [
+              1221,
+              1267
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              33,
+              459,
+              564,
+              486
+            ],
+            "pos": [
+              1267,
+              1405
+            ]
+          },
+          {
+            "index": 7,
+            "class": "text",
+            "bbox": [
+              33,
+              504,
+              565,
+              544
+            ],
+            "pos": [
+              1405,
+              1616
+            ]
+          },
+          {
+            "index": 8,
+            "class": "text",
+            "bbox": [
+              33,
+              564,
+              564,
+              606
+            ],
+            "pos": [
+              1616,
+              1908
+            ]
+          },
+          {
+            "index": 9,
+            "class": "text",
+            "bbox": [
+              33,
+              624,
+              149,
+              634
+            ],
+            "pos": [
+              1908,
+              1935
+            ]
+          },
+          {
+            "index": 10,
+            "class": "text",
+            "bbox": [
+              33,
+              654,
+              175,
+              664
+            ],
+            "pos": [
+              1935,
+              1967
+            ]
+          },
+          {
+            "index": 11,
+            "class": "text",
+            "bbox": [
+              33,
+              684,
+              367,
+              696
+            ],
+            "pos": [
+              1967,
+              2039
+            ]
+          },
+          {
+            "index": 12,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              2039,
+              2061
+            ]
+          }
+        ]
       },
       "text_chars": 1976,
       "confidence": null
     },
     {
       "page": 6,
-      "markdown": "![](images/edf_2024.pdf-5-full.png)\n\n**RECONCILIATION TO STATUTORY ACCOUNTS**\n\nThe table below shows how the CSS reconciles with EBIT in EDF Energy Customers Limited’s Income\nStatement for the year ended 31 [st] December 2024:\n\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Unit</th>\n<th>Revenue</th>\n<th>EBIT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>EDF Supply CSS</strong></td>\n<td><strong>£’m</strong><br></td>\n<td><strong>13,531.6</strong></td>\n<td><strong>228.7</strong></td>\n</tr>\n<tr>\n<td><br><strong>Adjustments:</strong><br>Non-licensed activities<br>Impairment of non-current assets<br>Restructuring costs<br></td>\n<td><br> <br>£’m<br>£’m<br>£’m<br></td>\n<td><br> <br>120.6<br>- <br>- <br></td>\n<td><br> <br>213.4<br>(25.9)<br>(9.8)<br></td>\n</tr>\n<tr>\n<td><strong>EDF Energy Customers Limited Statutory Accounts</strong></td>\n<td><strong>£’m</strong></td>\n<td><strong>13,652.2</strong></td>\n<td><strong>406.4</strong></td>\n</tr>\n</tbody>\n</table>\n\n\n\n**Notes on reconciling items:**\n\nEDF Energy Customers Limited is also engaged in wider business activities beyond licensed energy\nsupply. To ensure the CSS only captures the licensed energy supply business, these wider activities are\nnot included in the figures reported within the CSS under the licensed energy supply activities (e.g. gas\nand electricity supply). Impairment charges and restructuring costs are also not included in the figures\nreported under gas and electricity supply in accordance with Ofgem guidelines.\n\n\nPage **6** of **6**\n",
+      "markdown": "## **RECONCILIATION TO STATUTORY ACCOUNTS** \n\nThe table below shows how the CSS reconciles with EBIT in EDF Energy Customers Limited’s Income Statement for the year ended 31<sup>st</sup> December 2024: \n\n<table><tr><th>Item</th><th>Unit</th><th>Revenue</th><th>EBIT</th></tr><tr><td>EDF Supply CSS</td><td>£’m</td><td>13,531.6</td><td>228.7</td></tr><tr><td>Adjustments:</td><td></td><td></td><td></td></tr><tr><td>Non-licensed activities</td><td>£’m</td><td>120.6</td><td>213.4</td></tr><tr><td>Impairment of non-current assets</td><td>£’m</td><td>-</td><td>(25.9)</td></tr><tr><td>Restructuring costs</td><td>£’m</td><td>-</td><td>(9.8)</td></tr><tr><td>EDF Energy Customers Limited Statutory Accounts</td><td>£’m</td><td>13,652.2</td><td>406.4</td></tr></table>\n\n### **Notes on reconciling items:** \n\nEDF Energy Customers Limited is also engaged in wider business activities beyond licensed energy supply. To ensure the CSS only captures the licensed energy supply business, these wider activities are not included in the figures reported within the CSS under the licensed energy supply activities (e.g. gas and electricity supply). Impairment charges and restructuring costs are also not included in the figures reported under gas and electricity supply in accordance with Ofgem guidelines. \n\nPage **6** of **6**\n",
       "native": {
         "metadata": {
           "format": "PDF 1.7",
@@ -200,26 +717,97 @@
           "encryption": null,
           "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/edf_2024.pdf",
           "page_count": 6,
-          "page": 6
+          "page_number": 6
         },
         "toc_items": [],
-        "tables": [
+        "page_boxes": [
           {
+            "index": 0,
+            "class": "section-header",
             "bbox": [
-              34.44000244140625,
-              183.739990234375,
-              549.0999755859375,
-              352.25
+              33,
+              111,
+              304,
+              121
             ],
-            "rows": 4,
-            "columns": 4
+            "pos": [
+              0,
+              46
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              33,
+              141,
+              546,
+              168
+            ],
+            "pos": [
+              46,
+              204
+            ]
+          },
+          {
+            "index": 2,
+            "class": "table",
+            "bbox": [
+              39,
+              193,
+              531,
+              348
+            ],
+            "pos": [
+              204,
+              766
+            ]
+          },
+          {
+            "index": 3,
+            "class": "section-header",
+            "bbox": [
+              33,
+              371,
+              190,
+              383
+            ],
+            "pos": [
+              766,
+              804
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              33,
+              401,
+              565,
+              473
+            ],
+            "pos": [
+              804,
+              1297
+            ]
+          },
+          {
+            "index": 5,
+            "class": "page-footer",
+            "bbox": [
+              277,
+              820,
+              319,
+              829
+            ],
+            "pos": [
+              1297,
+              1319
+            ]
           }
-        ],
-        "images": [],
-        "graphics": [],
-        "words": []
+        ]
       },
-      "text_chars": 970,
+      "text_chars": 968,
       "confidence": null
     }
   ]

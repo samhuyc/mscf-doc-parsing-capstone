@@ -1,0 +1,5 @@
+{
+  "engine": "PyMuPDF bundled Tesseract",
+  "mode": "automatic",
+  "pages": []
+}

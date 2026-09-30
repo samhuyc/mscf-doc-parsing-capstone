@@ -39,7 +39,320 @@
   },
   "parser": "pymupdf4llm",
   "source_outline": [],
-  "generated_heading_index": [],
+  "generated_heading_index": [
+    {
+      "page": 1,
+      "level": 1,
+      "title": "FINANCIAL STATEMENTS ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 2,
+      "title": "BALANCE SHEET ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 2,
+      "title": "AS AT 31 MARCH 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 4,
+      "title": "1. General information ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 3,
+      "title": "2.1 Basis of preparation of financial statements ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 3,
+      "title": "2.2 Revenue ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 2,
+      "title": "Rendering of services ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 3,
+      "title": "2.3 Tangible fixed assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 2,
+      "title": "2. Accounting policies (continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 3,
+      "title": "2.3 Tangible fixed assets (continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 3,
+      "title": "2.4 Debtors ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 2,
+      "title": "2.5 Cash and cash equivalents ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 4,
+      "title": "2.6 Financial instruments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 4,
+      "title": "Basic financial assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 2,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 2,
+      "title": "2. Accounting policies (continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 3,
+      "title": "2.6 Financial instruments (continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 4,
+      "title": "Basic financial liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 3,
+      "title": "Derecognition of financial instruments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 3,
+      "title": "Derecognition of financial assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 3,
+      "title": "Derecognition of financial liabilities ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 4,
+      "title": "2.7 Creditors ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 2,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 2,
+      "title": "2. Accounting policies (continued) ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 3,
+      "title": "2.8 Finance costs ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 3,
+      "title": "2.9 Pensions ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 3,
+      "title": "Defined contribution pension plan ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 3,
+      "title": "2.10 Interest income ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 2,
+      "title": "2.11 Borrowing costs ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 4,
+      "title": "2.12 Taxation ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 3,
+      "title": "2.13 Exceptional items ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 2,
+      "title": "Employees ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 2,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 3,
+      "title": "4. Tangible fixed assets ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 4,
+      "title": "5, Debtors ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 4,
+      "title": "6. ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 2,
+      "title": "Bank loans ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 2,
+      "title": "NOTES TO THE FINANCIAL STATEMENTS ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 2,
+      "title": "FOR THE YEAR ENDED 31 MARCH 2025 ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 3,
+      "title": "Loans ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 3,
+      "title": "Analysis of the maturity of loans is given below: ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 3,
+      "title": "9. Pension commitments ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 2,
+      "title": "PETERBOROUGH CARE LIMITED ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 3,
+      "title": "10. Related party transactions ",
+      "origin": "parser_heading"
+    }
+  ],
   "confidence": null,
   "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
 }

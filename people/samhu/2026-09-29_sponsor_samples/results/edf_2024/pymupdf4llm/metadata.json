@@ -37,13 +37,55 @@
     {
       "page": 1,
       "level": 1,
-      "title": "**EDF Consolidated** **Segmental Statement**",
+      "title": "**EDF Consolidated Segmental Statement for the year ended 31 December 2024** ",
       "origin": "parser_heading"
     },
     {
-      "page": 1,
+      "page": 2,
       "level": 2,
-      "title": "**for the year ended 31 December 2024**",
+      "title": "**EXECUTIVE SUMMARY** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 2,
+      "title": "**EDF** EDF **CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 2,
+      "title": "**ACCOUNTING STANDARDS** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 2,
+      "title": "**DEFINITIONS AND METHODOLOGY** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 2,
+      "title": "**HEDGING POLICY** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 2,
+      "title": "**GLOSSARY OF TERMS** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 2,
+      "title": "**RECONCILIATION TO STATUTORY ACCOUNTS** ",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 3,
+      "title": "**Notes on reconciling items:** ",
       "origin": "parser_heading"
     }
   ],

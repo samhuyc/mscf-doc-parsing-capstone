@@ -1,0 +1,36 @@
+{
+  "engine": "PyMuPDF bundled Tesseract",
+  "mode": "automatic",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars_before": 90,
+      "text_chars_after": 102
+    },
+    {
+      "page": 2,
+      "text_chars_before": 1058,
+      "text_chars_after": 1090
+    },
+    {
+      "page": 3,
+      "text_chars_before": 1722,
+      "text_chars_after": 1738
+    },
+    {
+      "page": 4,
+      "text_chars_before": 2763,
+      "text_chars_after": 2777
+    },
+    {
+      "page": 5,
+      "text_chars_before": 2029,
+      "text_chars_after": 2040
+    },
+    {
+      "page": 6,
+      "text_chars_before": 1039,
+      "text_chars_after": 1056
+    }
+  ]
+}

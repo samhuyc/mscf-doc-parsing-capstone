@@ -64,12 +64,29 @@ def export_pages(work, chunks, source, parser):
 
 
 def pymupdf_worker(pdf, work):
+    os.environ['TESSDATA_PREFIX'] = str(ROOT / 'cache' / 'tessdata')
     import pymupdf4llm
+    from pymupdf4llm.ocr import tesseract_api
+    if not tesseract_api.TESSDATA or not (Path(tesseract_api.TESSDATA) / 'eng.traineddata').is_file():
+        raise RuntimeError('English OCR data missing: run prepare_ocr.py first')
+    pymupdf4llm.use_layout(True)
+    ocr_pages = []
+
+    def recorded_ocr(page, **kwargs):
+        before = len(page.get_text().strip())
+        tesseract_api.exec_ocr(page, **kwargs)
+        ocr_pages.append(dict(page=page.number + 1, text_chars_before=before,
+                              text_chars_after=len(page.get_text().strip())))
+
     chunks = pymupdf4llm.to_markdown(str(pdf), page_chunks=True, write_images=True,
-                                   image_path=str(work / 'images'), dpi=100, show_progress=False)
+                                   image_path=str(work / 'images'), dpi=100, show_progress=False,
+                                   use_ocr=True, force_ocr=False, ocr_function=recorded_ocr,
+                                   ocr_language='eng', ocr_dpi=300, table_output='html')
     if not isinstance(chunks, list):
         raise ValueError('Expected page_chunks output')
     dump(work / 'raw_chunks.json', chunks)
+    dump(work / 'ocr_pages.json', dict(engine='PyMuPDF bundled Tesseract',
+                                      mode='automatic', pages=ocr_pages))
     (work / 'raw.md').write_text('\n\n'.join(c['text'] for c in chunks))
 
 
@@ -97,6 +114,12 @@ def parse_one(source, args):
         if args.skip_existing and (work / 'run.json').exists():
             prior = json.loads((work / 'run.json').read_text())
             if prior.get('status') in ('success', 'partial', 'empty') and prior.get('input_sha256') == source['sha256']:
+                if args.parser == 'pymupdf4llm' and (
+                    prior.get('versions', {}).get('pymupdf4llm') != importlib.metadata.version('pymupdf4llm')
+                    or not prior.get('settings', {}).get('ocr')
+                    or not prior.get('settings', {}).get('layout')
+                ):
+                    raise ValueError(f'{work} uses a different configuration; archive it before rerunning')
                 print('Skipping completed', work, flush=True)
                 return prior
         raise FileExistsError(f'{work} exists; archive it before rerunning')
@@ -113,8 +136,12 @@ def parse_one(source, args):
         env = os.environ.copy()
         if args.parser == 'pymupdf4llm':
             command = [sys.executable, str(Path(__file__).resolve()), '--worker', str(pdf), str(work)]
-            record['versions'] = {p: importlib.metadata.version(p) for p in ('pymupdf4llm', 'pymupdf')}
-            record['settings'] = dict(ocr=False, page_chunks=True, write_images=True, dpi=100, table_strategy='lines_strict')
+            record['versions'] = {p: importlib.metadata.version(p) for p in ('pymupdf4llm', 'pymupdf', 'pymupdf-layout', 'onnxruntime')}
+            tessdata = ROOT / 'cache' / 'tessdata' / 'eng.traineddata'
+            record['settings'] = dict(ocr=True, force_ocr=False, ocr_engine='PyMuPDF bundled Tesseract',
+                                      ocr_language='eng', ocr_dpi=300, layout=True, vlm=False,
+                                      table_output='html', page_chunks=True, write_images=True, dpi=100,
+                                      tessdata_sha256=hashlib.sha256(tessdata.read_bytes()).hexdigest())
         else:
             if not args.mineru or not args.model_config:
                 raise ValueError('--mineru and --model-config required')
@@ -147,6 +174,7 @@ def parse_one(source, args):
         if args.parser == 'pymupdf4llm':
             raw = json.loads((work / 'raw_chunks.json').read_text())
             chunks = [dict(text=c['text'], native={k:v for k,v in c.items() if k != 'text'}) for c in raw]
+            record['ocr_pages'] = [p['page'] for p in json.loads((work / 'ocr_pages.json').read_text())['pages']]
         else:
             middle = list((work / 'raw').rglob('*_middle.json'))
             lists = list((work / 'raw').rglob('*_content_list.json'))

@@ -10,9 +10,11 @@ OCR means recognizing text from page images. A VLM (vision-language model) reads
 |---|---|---|
 | **MinerU OCR** | Separate layout, text-recognition and table models process page images. OCR is forced even when the PDF already contains selectable text. | MinerU **3.4.5**, `pipeline` backend, local **PDF-Extract-Kit-1.0** models, CPU. Table recognition on; formula recognition off. |
 | **MinerU local VLM** | A vision-language model reads page regions and produces text and tables, including from scans. | MinerU **3.4.5**, `vlm-engine` backend, local **MinerU2.5-Pro-2605-1.2B** model, MLX runtime on Apple Silicon. Table recognition on; formula recognition and optional figure descriptions off. |
-| **PyMuPDF4LLM — native text** | Reads the PDF's existing text, positions, fonts and drawing lines; uses rules to arrange text and tables into Markdown. **No OCR, VLM or LLM runs in this configuration.** | PyMuPDF4LLM **0.2.9** + PyMuPDF **1.28.2**, `to_markdown(page_chunks=True)`, default `lines_strict` table detection, image crops saved at 100 DPI. No optional layout extension. |
+| **PyMuPDF4LLM + OCR** | Preserves usable PDF text; applies local Tesseract OCR where needed, then uses the layout model to organize headings, reading order and tables. **No VLM or LLM is used.** | PyMuPDF4LLM, PyMuPDF and PyMuPDF Layout **1.28.2**; automatic English OCR at **300 DPI**; native HTML table output; page chunks and image crops at 100 DPI. |
 
-**Does PyMuPDF support OCR?** Yes: PyMuPDF offers [Tesseract-based OCR](https://pymupdf.readthedocs.io/en/latest/recipes-ocr.html), and the [current PyMuPDF4LLM documentation](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) describes additional layout/OCR support. Those paths were **not enabled or evaluated here**. “4LLM” means the output is suitable for a downstream LLM; this tested pipeline does not call one. The two scanned filings therefore yield image crops without searchable text. Saving an image is not the same as reading its contents.
+**PyMuPDF OCR is enabled in these results.** The current pipeline uses the Tesseract engine bundled with PyMuPDF and pinned English `tessdata_fast` data. Good digital text is preserved; automatic OCR recovers text from scanned or unreadable content. OCR runs locally without an API. `ocr_pages.json` records each OCR callback and text character counts before/after it; `run.json` lists the affected physical pages. Layout analysis and table reconstruction are separate from recognizing characters, so OCR alone does not guarantee correct financial cells. See the [official pipeline documentation](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) and [OCR documentation](https://pymupdf.readthedocs.io/en/latest/recipes-ocr.html).
+
+These six PyMuPDF outputs replace the earlier 0.2.9 native-only baseline (retained in Git history at `9cbf66a`). The upgrade changes layout/table handling as well as OCR; improvements cannot be attributed to OCR alone. “4LLM” refers to the downstream use of its output, not an LLM call.
 
 **VLM setting clarification:** `--image-analysis false` disables optional descriptions of figures/charts; the VLM still reads page images to extract text and tables. The shared command includes `-m ocr`, but that switch does not select a separate OCR stage for the `vlm-engine` backend.
 
@@ -26,18 +28,20 @@ These are single-run local wall times on an Apple M1 Pro with 16 GiB RAM, includ
 |---|---:|---:|---:|---:|---:|
 | MinerU OCR | 6/6 | 140/140 | 654.6 | 10.91 | 0.21 |
 | MinerU local VLM | 6/6 | 140/140 | 3545.9 | 59.10 | 0.04 |
-| PyMuPDF4LLM (no OCR) | 6/6 | 88/140 | 24.1 | 0.40 | 5.80 |
+| PyMuPDF4LLM + OCR | 6/6 | 140/140 | 142.5 | 2.38 | 0.98 |
 
-Completion means the process returned a valid page export, not that its text is correct. PyMuPDF4LLM can complete an image-only document with no transcribed text. Its overall throughput therefore cannot be read as OCR throughput.
+Completion means the process returned a valid page export, not that its text is correct. PyMuPDF4LLM combines native extraction and automatic OCR, so its mixed-document throughput is not an all-pages OCR speed. MinerU OCR processes every page with OCR.
 
-| Document | Pages | MinerU OCR seconds | MinerU VLM seconds | PyMuPDF4LLM seconds |
-|---|---:|---:|---:|---:|
-| [CVS Health 2025 Q2 Earnings Presentation](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf) | 12 | 46.0 | 234.2 | 1.5 |
-| [EDF Consolidated Segmental Statement 2024](https://www.edfenergy.com/sites/default/files/2025-12/CSS-2024-Submission-Final.pdf) | 6 | 30.8 | 124.8 | 1.0 |
-| [Hippodrome Casino Limited 2025 Full Accounts](https://find-and-update.company-information.service.gov.uk/company/05497987/filing-history/MzUyNzI0MTgyOGFkaXF6a2N4/document?format=pdf&download=0) | 39 | 179.9 | 983.7 | 4.1 |
-| [Peterborough Care Limited Unaudited Financial Statements 2025](https://find-and-update.company-information.service.gov.uk/company/01814662/filing-history/MzQ5NTc4NzAxMWFkaXF6a2N4/document?format=pdf&download=0) | 12 | 48.1 | 241.4 | 0.8 |
-| [Rolls-Royce Holdings plc 2026 Half Year Results Presentation](https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-presentation.pdf) | 19 | 58.3 | 335.6 | 2.8 |
-| [Rolls-Royce Holdings plc 2026 Half Year Results Press Release](https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-press-release.pdf) | 52 | 291.5 | 1626.1 | 13.9 |
+| Document | Pages | MinerU OCR seconds | MinerU VLM seconds | PyMuPDF4LLM seconds | PyMuPDF pages routed to OCR |
+|---|---:|---:|---:|---:|---:|
+| [CVS Health 2025 Q2 Earnings Presentation](https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf) | 12 | 46.0 | 234.2 | 8.1 | 11/12 |
+| [EDF Consolidated Segmental Statement 2024](https://www.edfenergy.com/sites/default/files/2025-12/CSS-2024-Submission-Final.pdf) | 6 | 30.8 | 124.8 | 4.0 | 6/6 |
+| [Hippodrome Casino Limited 2025 Full Accounts](https://find-and-update.company-information.service.gov.uk/company/05497987/filing-history/MzUyNzI0MTgyOGFkaXF6a2N4/document?format=pdf&download=0) | 39 | 179.9 | 983.7 | 76.0 | 39/39 |
+| [Peterborough Care Limited Unaudited Financial Statements 2025](https://find-and-update.company-information.service.gov.uk/company/01814662/filing-history/MzQ5NTc4NzAxMWFkaXF6a2N4/document?format=pdf&download=0) | 12 | 48.1 | 241.4 | 15.5 | 12/12 |
+| [Rolls-Royce Holdings plc 2026 Half Year Results Presentation](https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-presentation.pdf) | 19 | 58.3 | 335.6 | 8.4 | 4/19 |
+| [Rolls-Royce Holdings plc 2026 Half Year Results Press Release](https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-press-release.pdf) | 52 | 291.5 | 1626.1 | 30.6 | 0/52 |
+
+OCR routing counts reflect callback invocations. The OCR plugin preserves legible digital text and can skip remnants with no readable content; routing a page does not mean every character was re-recognized. Both scanned filings received OCR on every page and now have text throughout.
 
 ## Initial quality checks
 
@@ -51,16 +55,16 @@ The assistant visually transcribed three financial rows per document from the or
 |---|---:|---:|
 | MinerU OCR | 49/50 (98%) | 12/18 (67%) |
 | MinerU local VLM | 50/50 (100%) | 18/18 (100%) |
-| PyMuPDF4LLM (no OCR) | 21/50 (42%) | 0/18 (0%) |
+| PyMuPDF4LLM + OCR | 50/50 (100%) | 15/18 (83%) |
 
 | Document | OCR values / rows | VLM values / rows | PyMuPDF4LLM values / rows |
 |---|---|---|---|
-| cvs_2025q2 | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 6/6 values; 0/3 rows |
-| edf_2024 | 15/15 values; 0/3 rows | 15/15 values; 3/3 rows | 15/15 values; 0/3 rows |
-| hippodrome_2025 | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 0/6 values; 0/3 rows |
-| peterborough_2025 | 5/6 values; 0/3 rows | 6/6 values; 3/3 rows | 0/6 values; 0/3 rows |
-| rolls_royce_2026h1_presentation | 11/11 values; 3/3 rows | 11/11 values; 3/3 rows | 0/11 values; 0/3 rows |
-| rolls_royce_2026h1_release | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 0/6 values; 0/3 rows |
+| cvs_2025q2 | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows |
+| edf_2024 | 15/15 values; 0/3 rows | 15/15 values; 3/3 rows | 15/15 values; 3/3 rows |
+| hippodrome_2025 | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows |
+| peterborough_2025 | 5/6 values; 0/3 rows | 6/6 values; 3/3 rows | 6/6 values; 0/3 rows |
+| rolls_royce_2026h1_presentation | 11/11 values; 3/3 rows | 11/11 values; 3/3 rows | 11/11 values; 3/3 rows |
+| rolls_royce_2026h1_release | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows | 6/6 values; 3/3 rows |
 
 Keep scan and digital-PDF results separate:
 
@@ -68,10 +72,10 @@ Keep scan and digital-PDF results separate:
 |---|---|---:|---:|---:|
 | Image-only | MinerU OCR | 51/51 | 11/12 | 3/6 |
 | Image-only | MinerU local VLM | 51/51 | 12/12 | 6/6 |
-| Image-only | PyMuPDF4LLM (no OCR) | 0/51 | 0/12 | 0/6 |
+| Image-only | PyMuPDF4LLM + OCR | 51/51 | 12/12 | 3/6 |
 | Digital PDF | MinerU OCR | 89/89 | 38/38 | 9/12 |
 | Digital PDF | MinerU local VLM | 89/89 | 38/38 | 12/12 |
-| Digital PDF | PyMuPDF4LLM (no OCR) | 88/89 | 21/38 | 0/12 |
+| Digital PDF | PyMuPDF4LLM + OCR | 89/89 | 38/38 | 12/12 |
 
 ## Text-layer diagnostics, not accuracy
 
@@ -96,7 +100,7 @@ Each link opens the common `document.md`. Adjacent `pages.json` retains 1-based 
 2. **Chunking:** use the exported physical page chunks as an auditable baseline. Next compare heading/paragraph chunks while keeping tables intact and carrying page, entity, period, unit and source hashes. Evaluate retrieval separately from transcription.
 3. **Financial statements:** table cells must preserve row labels, year/segment columns, signs and units. The selected-row checks expose association errors that page-level number recall misses. A future labeled sample should score cell positions and header paths, with no automatic numerical repair before evaluation.
 4. **Excel:** no spreadsheets were supplied, so no Excel results are claimed. A separate workbook sample should preserve sheets, ranges, formulas versus cached values, merged cells and units instead of treating Excel as a PDF.
-5. **Confidence:** common `confidence` is deliberately `null`. A model's OCR probability is not calibrated document accuracy and is not comparable to a rule-based parser. Begin with visible flags (empty text, missing table rows, numeric mismatches, inconsistent totals); calibrate any confidence estimate on held-out documents before publishing a percentage.
+5. **Confidence:** common `confidence` is deliberately `null`. An OCR probability is not calibrated document accuracy and is not directly comparable across engines. Begin with visible flags (empty text, missing table rows, numeric mismatches, inconsistent totals); calibrate any confidence estimate on held-out documents before publishing a percentage.
 6. **Benchmark aggregation:** keep text, table structure, numeric associations and runtime separate. For a larger labeled set, report per-document macro averages and totals, retain failures in denominators, stratify digital/scanned inputs and split by issuer/document. Bootstrap documents, not individual rows, for uncertainty.
 
 ## Connection to previous benchmarks
@@ -105,6 +109,6 @@ The earlier [OmniDocBench/FinCriticalED pilot](../2026-09-20_evaluation/REPORT.m
 
 ## Reproduction and limitations
 
-See [README](README.md), [pinned dependencies](requirements-lock.txt), [source manifest](source_manifest.json) and [validation](evaluation/validation.json). MinerU 3.4.5 uses the existing local PDF-Extract-Kit and MinerU2.5-Pro-2605-1.2B snapshots recorded in each run. OCR is forced on CPU; VLM uses local MLX. Formula recognition and generative image analysis are disabled. PyMuPDF4LLM 0.2.9 / PyMuPDF 1.28.2 uses native text, `lines_strict` tables and no OCR/layout extension, matching the teammate's version baseline; this is not a test of newer OCR-enabled PyMuPDF4LLM configurations.
+See [README](README.md), [pinned dependencies](requirements-lock.txt), [source manifest](source_manifest.json) and [validation](evaluation/validation.json). MinerU 3.4.5 uses the existing local PDF-Extract-Kit and MinerU2.5-Pro-2605-1.2B snapshots recorded in each run. OCR is forced on CPU; VLM uses local MLX. Formula recognition and generative image analysis are disabled. PyMuPDF4LLM / PyMuPDF / PyMuPDF Layout 1.28.2 uses automatic local Tesseract OCR at 300 DPI and native HTML tables. English language-data version and SHA-256 are pinned in `prepare_ocr.py` and each run. The parser explicitly selects Tesseract and fails if its language data is unavailable.
 
 Small sample, one run per configuration, no independent annotation adjudication, no complete document gold and no calibrated confidence. High selected-value retention alone cannot establish correct financial extraction. Full raw MinerU intermediates and source PDFs remain local and are reproducible from the manifest; portable Markdown/JSON, linked image assets and the six review-page images are tracked.

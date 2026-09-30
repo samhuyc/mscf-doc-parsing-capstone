@@ -12,7 +12,7 @@ from formats import MARKDOWN, plain_text
 from bs4 import BeautifulSoup
 
 LABELS = {'mineru_ocr': 'MinerU OCR', 'mineru_vlm': 'MinerU local VLM',
-          'pymupdf4llm': 'PyMuPDF4LLM — no OCR'}
+          'pymupdf4llm': 'PyMuPDF4LLM + OCR'}
 
 
 def main():
@@ -35,7 +35,7 @@ def main():
                 raise ValueError(f'Incomplete export: {name}/{parser}')
     parts = ['''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sponsor PDF parser comparison</title><style>
 body{font:15px/1.5 system-ui;margin:24px;color:#172a3a;background:#f3f5f7}h1{font-size:30px}section{margin:30px 0} .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.pane{background:white;padding:14px;border:1px solid #ccd3dc;overflow:auto;max-height:850px;min-width:0}.pane:target{outline:3px solid #2764ad}img{max-width:100%}table{border-collapse:collapse;font-size:11px}td,th{border:1px solid #abb6c3;padding:4px;min-width:35px}h3{font-size:17px}.checks{background:#e8edf4;padding:12px}.summary{font-size:14px}a{color:#17528c} @media(max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}} @media(max-width:650px){.grid{grid-template-columns:1fr}}
-</style><h1>Sponsor PDF parser comparison</h1><p>Review format v2 · Six source pages · Original parser predictions · Physical PDF page numbers. Values are not repaired. See <a href="../REPORT.md">REPORT.md</a> for pipeline setups, runtime and metric definitions.</p>''']
+</style><h1>Sponsor PDF parser comparison</h1><p>Review format v3 — PyMuPDF OCR enabled · Six source pages · Original parser predictions · Physical PDF page numbers. Values are not repaired. See <a href="../REPORT.md">REPORT.md</a> for pipeline setups, runtime and metric definitions.</p>''']
     parts.append(f'<p class="checks"><strong>{len(exports)}/{len(selections) * len(LABELS)} document/parser exports loaded, including all six MinerU VLM results.</strong> Text and tables are embedded in this HTML; only images use adjacent files. This review shows one checked page per document. Links below each parser heading open its full output.</p>')
     parts.append('<table class="summary"><thead><tr><th>Pipeline</th><th>Completed exports</th><th>Pages with extracted text</th></tr></thead><tbody>')
     for parser, label in LABELS.items():
@@ -43,7 +43,7 @@ body{font:15px/1.5 system-ui;margin:24px;color:#172a3a;background:#f3f5f7}h1{fon
         pages = [page for document in group for page in document]
         nonempty = sum(bool(plain_text(page['markdown']).strip()) for page in pages)
         parts.append(f'<tr><td>{label}</td><td>{len(group)}</td><td>{nonempty}/{len(pages)}</td></tr>')
-    parts.append('</tbody></table><p>Order: Source → MinerU OCR → MinerU VLM → PyMuPDF4LLM. On narrower windows, panels wrap onto more rows; each long panel scrolls independently. An image-only PyMuPDF result has no OCR transcription.</p>')
+    parts.append('</tbody></table><p>Order: Source → MinerU OCR → MinerU VLM → PyMuPDF4LLM. On narrower windows, panels wrap onto more rows; each long panel scrolls independently. PyMuPDF uses automatic local OCR; full run settings identify the configuration.</p>')
     for name, page in selections:
         image = images / f'{name}_{page:03d}.png'
         with pymupdf.open(ROOT / 'inputs' / (name+'.pdf')) as doc:

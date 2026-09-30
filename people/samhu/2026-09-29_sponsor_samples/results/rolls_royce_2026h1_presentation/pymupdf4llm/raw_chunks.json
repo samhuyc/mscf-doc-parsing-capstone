@@ -14,7 +14,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 1
+      "page_number": 1
     },
     "toc_items": [
       [
@@ -28,11 +28,65 @@
         1
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-0-full.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-0-0.png)\n#### HALF YEAR\n###### **RESULTS**\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to\nauthorised recipients only – copying and onward distribution is prohibited other than for the purpose for\nwhich it was made available.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          53,
+          39,
+          121,
+          153
+        ],
+        "pos": [
+          0,
+          129
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          50,
+          213,
+          440,
+          295
+        ],
+        "pos": [
+          129,
+          160
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          160,
+          298
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          52,
+          483,
+          486,
+          512
+        ],
+        "pos": [
+          298,
+          535
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0001-00.png)\n\n\n<!-- Start of picture text -->\n;<br><!-- End of picture text -->\n\n# HALF YEAR **RESULTS** 2026 \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0001-02.png)\n\n\n<!-- Start of picture text -->\nignrn enrm<br><!-- End of picture text -->\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available. \n\n"
   },
   {
     "metadata": {
@@ -49,7 +103,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 2
+      "page_number": 2
     },
     "toc_items": [
       [
@@ -63,33 +117,121 @@
         2
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 2,
-        "bbox": "Rect(0.0, -6.103515625e-05, 329.75, 539.9999389648438)",
-        "transform": [
-          329.75,
-          0.0,
-          -0.0,
-          540.0,
-          0.0,
-          -6.103515625e-05
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          0,
+          0,
+          330,
+          540
         ],
-        "width": 915,
-        "height": 1499,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 159364,
-        "has-mask": false
+        "pos": [
+          0,
+          63
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          63,
+          126
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          372,
+          67,
+          742,
+          94
+        ],
+        "pos": [
+          126,
+          155
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          372,
+          149,
+          880,
+          298
+        ],
+        "pos": [
+          155,
+          1124
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          372,
+          313,
+          890,
+          377
+        ],
+        "pos": [
+          1124,
+          1560
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          782,
+          394,
+          960,
+          474
+        ],
+        "pos": [
+          1560,
+          1623
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          1623,
+          1627
+        ]
+      },
+      {
+        "index": 7,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1627,
+          1679
+        ]
       }
     ],
-    "graphics": [],
-    "text": "SAFE HARBOUR STATEMENT\n\n\nThis announcement contains certain forward-looking statements. These forward-looking\nstatements can be identified by the fact that they do not relate only to historical or current\nfacts. In particular, all statements that express forecasts, expectations and projections with\nrespect to future matters, including trends in results of operations, margins, growth rates,\noverall market trends, the impact of interest or exchange rates, the availability of financing\nto the Company, anticipated cost savings or synergies and the completion of the Company’s\nstrategic transactions, are forward-looking statements. By their nature, these statements\nand forecasts involve risk and uncertainty because they relate to events and depend on\ncircumstances that may or may not occur in the future. There are a number of factors that\ncould cause actual results or developments to differ materially from those expressed or\nimplied by these forward-looking statements and forecasts.\n\n\nThe forward-looking statements reflect the knowledge and information available at the date\nof preparation of this announcement and will not be updated during the year. Nothing in this\nannouncement should be construed as a profit forecast. All figures are on an underlying basis\nunless otherwise stated - for the definition see note 2 to the condensed consolidated financial\nstatements section of the 2026 Half Year Results Statement.\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n2\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-1-1.png)\n",
-    "words": []
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0002-00.png)\n\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0002-01.png)\n\n\n### SAFE HARBOUR STATEMENT \n\nThis announcement contains certain forward-looking statements. These forward-looking statements can be identified by the fact that they do not relate only to historical or current facts. In particular, all statements that express forecasts, expectations and projections with respect to future matters, including trends in results of operations, margins, growth rates, overall market trends, the impact of interest or exchange rates, the availability of financing to the Company, anticipated cost savings or synergies and the completion of the Company’s strategic transactions, are forward-looking statements. By their nature, these statements and forecasts involve risk and uncertainty because they relate to events and depend on circumstances that may or may not occur in the future. There are a number of factors that could cause actual results or developments to differ materially from those expressed or implied by these forward-looking statements and forecasts. \n\nThe forward-looking statements reflect the knowledge and information available at the date of preparation of this announcement and will not be updated during the year. Nothing in this announcement should be construed as a profit forecast. All figures are on an underlying basis unless otherwise stated - for the definition see note 2 to the condensed consolidated financial statements section of the 2026 Half Year Results Statement. \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0002-05.png)\n\n\n2 \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -106,7 +248,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 3
+      "page_number": 3
     },
     "toc_items": [
       [
@@ -120,11 +262,65 @@
         3
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-2-full.png)\n\nChief Executive Officer\n##### [TUFAN ERGINBILGIC]\n# 01\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          131
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          39,
+          188,
+          517,
+          293
+        ],
+        "pos": [
+          131,
+          212
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          212,
+          350
+        ]
+      },
+      {
+        "index": 3,
+        "class": "page-footer",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          350,
+          402
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0003-00.png)\n\n\n<!-- Start of picture text -->\n[RO<br><!-- End of picture text -->\n\n“i “&) ys | fs su? > ll 01 Chief Executive Officer<sup>TUFAN ERGINBILGIC</sup> \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0003-02.png)\n\n\n<!-- Start of picture text -->\nuae SRS ||<br><!-- End of picture text -->\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -141,7 +337,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 4
+      "page_number": 4
     },
     "toc_items": [
       [
@@ -150,33 +346,149 @@
         4
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 1,
-        "bbox": "Rect(532.6799926757812, 146.36700439453125, 930.8800048828125, 489.5270080566406)",
-        "transform": [
-          398.20001220703125,
-          0.0,
-          -0.0,
-          343.1600036621094,
-          532.6799926757812,
-          146.36700439453125
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          760,
+          68
         ],
-        "width": 1257,
-        "height": 1083,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 357058,
-        "has-mask": false
+        "pos": [
+          0,
+          55
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          55,
+          118
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          29,
+          93,
+          765,
+          111
+        ],
+        "pos": [
+          118,
+          214
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          43,
+          184,
+          419,
+          264
+        ],
+        "pos": [
+          214,
+          348
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          43,
+          278,
+          225,
+          298
+        ],
+        "pos": [
+          348,
+          373
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          43,
+          311,
+          371,
+          331
+        ],
+        "pos": [
+          373,
+          417
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          43,
+          345,
+          310,
+          364
+        ],
+        "pos": [
+          417,
+          453
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          43,
+          378,
+          422,
+          459
+        ],
+        "pos": [
+          453,
+          575
+        ]
+      },
+      {
+        "index": 8,
+        "class": "picture",
+        "bbox": [
+          532,
+          146,
+          931,
+          490
+        ],
+        "pos": [
+          575,
+          1004
+        ]
+      },
+      {
+        "index": 9,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1004,
+          1060
+        ]
       }
     ],
-    "graphics": [],
-    "text": "STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED\n\n\nTransforming Rolls-Royce into a high performing, competitive, resilient, and growing business\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-3-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-3-1.png)\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n4\n\n\n",
-    "words": []
+    "text": "### STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0004-01.png)\n\n\nTransforming Rolls-Royce into a high performing, competitive, resilient, and growing business \n\n- Significant operational and strategic progress \n\n- ▪ Strong first half results driven by transformation and business improvements \n\n- FY26 guidance raised \n\n- Further confidence in mid-term guidance \n\n- 6.0p interim dividend announced \n\n- On track for £2.5bn share buyback in 2026 \n\n- ▪ Resilient and diversified portfolio with significant growth potential \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0004-08.png)\n\n\n<!-- Start of picture text -->\nPowe .jc ae eae Sees Hh Oe<br>ie ee yy PY axq i= = + 4 =<br>A 7 S &<br>Btn 1S<br>\"<br>| fi a > SS; nh ij ”* a Nits<br>j ) » OI ( S > _-<br><<br>3 )<br>ae) a 9. | i af. Ce<br>M i 1 z 7 s = y ~—l —ear e wy) ~ |e T 1 \\<br>z i a aan ae<br>ee ae<br>oie a = 4 |i<br>SS ie 7 jj <G wage Jere 7 he < eee ee aT)<br><!-- End of picture text -->\n\n> © 2026 Rolls-Royce. Not Subject to Export Control 4 \n\n"
   },
   {
     "metadata": {
@@ -193,7 +505,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 5
+      "page_number": 5
     },
     "toc_items": [
       [
@@ -202,75 +514,135 @@
         5
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 1,
-        "bbox": "Rect(497.5799865722656, 261.91998291015625, 677.4099731445312, 369.92999267578125)",
-        "transform": [
-          179.8300018310547,
-          0.0,
-          -0.0,
-          108.01000213623047,
-          497.5799865722656,
-          261.91998291015625
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          30,
+          40,
+          694,
+          68
         ],
-        "width": 611,
-        "height": 367,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 23915,
-        "has-mask": false
+        "pos": [
+          0,
+          51
+        ]
       },
       {
-        "number": 19,
-        "bbox": "Rect(497.5799865722656, 368.43499755859375, 679.9299926757812, 474.7349853515625)",
-        "transform": [
-          182.35000610351562,
-          0.0,
-          -0.0,
-          106.30000305175781,
-          497.5799865722656,
-          368.43499755859375
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
         ],
-        "width": 506,
-        "height": 295,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 25958,
-        "has-mask": false
+        "pos": [
+          51,
+          186
+        ]
       },
       {
-        "number": 2,
-        "bbox": "Rect(497.5799865722656, 155.760009765625, 679.22998046875, 262.1700134277344)",
-        "transform": [
-          181.64999389648438,
-          0.0,
-          -0.0,
-          106.41000366210938,
-          497.5799865722656,
-          155.760009765625
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          30,
+          113,
+          207,
+          125
         ],
-        "width": 504,
-        "height": 295,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 31602,
-        "has-mask": false
+        "pos": [
+          186,
+          223
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          495,
+          113,
+          672,
+          125
+        ],
+        "pos": [
+          223,
+          253
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          30,
+          154,
+          465,
+          475
+        ],
+        "pos": [
+          253,
+          531
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          497,
+          155,
+          930,
+          475
+        ],
+        "pos": [
+          531,
+          811
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          811,
+          815
+        ]
+      },
+      {
+        "index": 7,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          283,
+          528
+        ],
+        "pos": [
+          815,
+          886
+        ]
+      },
+      {
+        "index": 8,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          886,
+          938
+        ]
       }
     ],
-    "graphics": [],
-    "text": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE\n\n\n\nKEY GROUP FINANCIAL METRICS DIVISIONAL OPERATING MARGIN1\n\n\n\n1\n\nOperating profit\n\n£2.5bn\n+46% yoy\n\n\nFree cash flow\n£2.0bn\n+24% yoy\n\n\n\n1\n\nOperating margin\n\n22.5%\n+3.1pts yoy\n\n\nReturn on capital\n22%\n+5.1pts yoy\n\n\n\n1\n\nOperating margin\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-4.png)\n\n\n\n\n\n\n\n1 Operating profit and operating margin shown on an underlying basis\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control 5\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-4-3.png)\n",
-    "words": []
+    "text": "### STRONG OPERATIONAL AND FINANCIAL PERFORMANCE \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0005-01.png)\n\n\n<!-- Start of picture text -->\n[ROLLS]<br><!-- End of picture text -->\n\n###### KEY GROUP FINANCIAL METRICS \n\nDIVISIONAL OPERATING MARGIN \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0005-04.png)\n\n\n<!-- Start of picture text -->\nOperating profit1 Operating margin1<br>£2.5bn 22.5%<br>+46% yoy +3.1pts yoy<br>Free cash flow Return on capital<br>£2.0bn 22%<br>+24% yoy  +5.1pts yoy<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0005-05.png)\n\n\n<!-- Start of picture text -->\nCIVILAEROSPACE<br>: - 25.3%<br>+0.5pts<br><2“ : i y Vf Se<br>DEFENCE<br>21.0%<br>+5.4pts<br>.. <a<br>POWER SYSTEMS<br>> ee eae |<br>a al ry 20.3%+5.3pts<br><!-- End of picture text -->\n\n5 \n\n1 Operating profit and operating margin shown on an underlying basis \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -287,7 +659,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 6
+      "page_number": 6
     },
     "toc_items": [
       [
@@ -296,75 +668,107 @@
         6
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 14,
-        "bbox": "Rect(734.0, 418.0, 904.0, 454.0)",
-        "transform": [
-          170.0,
-          0.0,
-          0.0,
-          36.0,
-          734.0,
-          418.0
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          486,
+          64
         ],
-        "width": 170,
-        "height": 36,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 0,
-        "has-mask": false
+        "pos": [
+          0,
+          35
+        ]
       },
       {
-        "number": 13,
-        "bbox": "Rect(665.0, 267.0, 781.0, 302.0)",
-        "transform": [
-          116.0,
-          0.0,
-          0.0,
-          35.0,
-          665.0,
-          267.0
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          29,
+          112,
+          334,
+          140
         ],
-        "width": 116,
-        "height": 35,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 0,
-        "has-mask": false
+        "pos": [
+          35,
+          103
+        ]
       },
       {
-        "number": 12,
-        "bbox": "Rect(649.0, 216.0, 729.0, 252.0)",
-        "transform": [
-          80.0,
-          0.0,
-          0.0,
-          36.0,
-          649.0,
-          216.0
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          31,
+          151,
+          463,
+          506
         ],
-        "width": 80,
-        "height": 36,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 0,
-        "has-mask": false
+        "pos": [
+          103,
+          414
+        ]
+      },
+      {
+        "index": 3,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          414,
+          477
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          495,
+          112,
+          900,
+          140
+        ],
+        "pos": [
+          477,
+          600
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          496,
+          151,
+          929,
+          506
+        ],
+        "pos": [
+          600,
+          985
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          985,
+          1041
+        ]
       }
     ],
-    "graphics": [],
-    "text": "CONTINUED STRATEGIC PROGRESS\n\n\nContract and LTSA margin improvement across\nin-production engines\n\n\n\nMore than 100% improvement in time on wing of in-production\nengines with cash benefits significantly beyond the mid-term\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-5.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-4.png)\n\n\n\n\n\n\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-5-3.png)\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n6\n\n\n",
-    "words": []
+    "text": "### CONTINUED STRATEGIC PROGRESS \n\nContract and LTSA margin improvement across in-production engines \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0006-02.png)\n\n\n<!-- Start of picture text -->\n+19pts<br>~3 pts improvement<br> vs Feb 2026<br>~1 pt improvement<br> vs Feb 2026<br>+28pts<br>2022 2026 2028 2035<br>Contract margin as at Feb 2026 In-year LTSA margin as at Feb 2026<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0006-03.png)\n\n\nMore than 100% improvement in time on wing of in-production engines with cash benefits significantly beyond the mid-term \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0006-05.png)\n\n\n<!-- Start of picture text -->\n2025 2026 2027 2028 2029 2030 2031 2032+<br>Trent 1000<br>Phase 1<br>Trent 1000<br>Trent 7000<br>Phase 2<br>Trent XWB-84<br>EP engine type<br>Trent XWB-84<br>LLP life extension<br>Trent XWB-97<br>Phase 3<br>Design & certification Entry Into Service Roll-out<br><!-- End of picture text -->\n\n> © 2026 Rolls-Royce. Not Subject to Export Control 6 \n\n"
   },
   {
     "metadata": {
@@ -381,7 +785,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 7
+      "page_number": 7
     },
     "toc_items": [
       [
@@ -390,11 +794,359 @@
         7
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "CONTINUED STRATEGIC PROGRESS\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-1.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-6-4.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 Maintenance, Repair, and Overhaul; 2 For in-production engines; 3 Aircraft on Ground; 4 Group Business Services; 5 Sales, Inventory, Operational Planning © 2026 Rolls-Royce. Not Subject to Export Control 7\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          486,
+          64
+        ],
+        "pos": [
+          0,
+          35
+        ]
+      },
+      {
+        "index": 1,
+        "class": "list-item",
+        "bbox": [
+          37,
+          106,
+          121,
+          167
+        ],
+        "pos": [
+          35,
+          73
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          270,
+          106,
+          348,
+          142
+        ],
+        "pos": [
+          73,
+          100
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          503,
+          106,
+          597,
+          145
+        ],
+        "pos": [
+          100,
+          139
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          427,
+          199,
+          431,
+          205
+        ],
+        "pos": [
+          139,
+          143
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          267,
+          201,
+          427,
+          216
+        ],
+        "pos": [
+          143,
+          177
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          34,
+          202,
+          219,
+          257
+        ],
+        "pos": [
+          177,
+          262
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          500,
+          202,
+          647,
+          236
+        ],
+        "pos": [
+          262,
+          314
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          267,
+          227,
+          438,
+          260
+        ],
+        "pos": [
+          314,
+          365
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          500,
+          257,
+          664,
+          315
+        ],
+        "pos": [
+          365,
+          443
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          267,
+          269,
+          445,
+          300
+        ],
+        "pos": [
+          443,
+          502
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          34,
+          274,
+          213,
+          327
+        ],
+        "pos": [
+          502,
+          580
+        ]
+      },
+      {
+        "index": 12,
+        "class": "list-item",
+        "bbox": [
+          267,
+          314,
+          410,
+          343
+        ],
+        "pos": [
+          580,
+          625
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          500,
+          331,
+          675,
+          369
+        ],
+        "pos": [
+          625,
+          688
+        ]
+      },
+      {
+        "index": 14,
+        "class": "list-item",
+        "bbox": [
+          34,
+          345,
+          220,
+          382
+        ],
+        "pos": [
+          688,
+          753
+        ]
+      },
+      {
+        "index": 15,
+        "class": "list-item",
+        "bbox": [
+          267,
+          358,
+          425,
+          390
+        ],
+        "pos": [
+          753,
+          809
+        ]
+      },
+      {
+        "index": 16,
+        "class": "list-item",
+        "bbox": [
+          267,
+          388,
+          677,
+          451
+        ],
+        "pos": [
+          809,
+          968
+        ]
+      },
+      {
+        "index": 17,
+        "class": "list-item",
+        "bbox": [
+          34,
+          400,
+          218,
+          435
+        ],
+        "pos": [
+          968,
+          1038
+        ]
+      },
+      {
+        "index": 18,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1038,
+          1101
+        ]
+      },
+      {
+        "index": 19,
+        "class": "list-item",
+        "bbox": [
+          735,
+          106,
+          856,
+          163
+        ],
+        "pos": [
+          1101,
+          1150
+        ]
+      },
+      {
+        "index": 20,
+        "class": "list-item",
+        "bbox": [
+          732,
+          202,
+          919,
+          239
+        ],
+        "pos": [
+          1150,
+          1199
+        ]
+      },
+      {
+        "index": 21,
+        "class": "list-item",
+        "bbox": [
+          732,
+          257,
+          920,
+          314
+        ],
+        "pos": [
+          1199,
+          1283
+        ]
+      },
+      {
+        "index": 22,
+        "class": "list-item",
+        "bbox": [
+          732,
+          333,
+          908,
+          409
+        ],
+        "pos": [
+          1283,
+          1396
+        ]
+      },
+      {
+        "index": 23,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1396,
+          1452
+        ]
+      },
+      {
+        "index": 24,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          587,
+          528
+        ],
+        "pos": [
+          1452,
+          1610
+        ]
+      }
+    ],
+    "text": "### CONTINUED STRATEGIC PROGRESS \n\n1. Portfolio choices & partnerships \n\n2. Strategic initiatives \n\n##### 3. Efficiency & simplification \n\n2 \n\n   - Growing Civil LTSA margins \n\n- Power Systems capacity expansion and next generation engine development on track \n\n   - Further improvement of TCC/GM ratio to 0.27x \n\n- Continued progress towards Time on Wing target \n\n      - Second phase of efficiency programme to support disciplined growth… \n\n   - Best-in-class AOG3 benefitting us and our customers \n\n- Beneficiary of the UK Defence Investment Plan and NATO summit commitments \n\n- Strong Trent 1000 XE commercial momentum \n\n   - …including GBS4 scale-up and further SIOP5 improvements \n\n- Civil Aerospace - MRO1 capacity expansion across the network \n\n   - Defence - global leader in autonomous propulsion \n\n   - …alongside further digital and \n\n   - • Power Systems - capturing lean manufacturing benefits \n\n   - strong growth in power generation and governmental \n\n- Project Sunrise A350-1000ULR test flight; Falcon 10X first flight \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0007-18.png)\n\n\n4. Lower carbon & digitally enabled businesses \n\n- Trent XWB-84 EP fuel efficiency above target \n\n- Rolls-Royce SMR - selected in Sweden; contracts signed in UK and Czech Republic \n\n- Digital thread across engineering, MRO, and the supply chain to drive further efficiencies and effectiveness \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 7 \n\n1 Maintenance, Repair, and Overhaul; 2 For in-production engines; 3 Aircraft on Ground; 4 Group Business Services; 5 Sales, Inventory, Operational Planning \n\n"
   },
   {
     "metadata": {
@@ -411,7 +1163,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 8
+      "page_number": 8
     },
     "toc_items": [
       [
@@ -425,11 +1177,65 @@
         8
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-7-full.png)\n\nChief Financial Officer\n##### [HELEN McCABE]\n# 02\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          63
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          59,
+          191,
+          467,
+          293
+        ],
+        "pos": [
+          63,
+          115
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          115,
+          178
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          178,
+          230
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0008-00.png)\n\n\n02 Chief Financial Officer<sup>HELEN McCABE</sup> \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0008-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -446,7 +1252,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 9
+      "page_number": 9
     },
     "toc_items": [
       [
@@ -455,75 +1261,177 @@
         9
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 6,
-        "bbox": "Rect(195.24000549316406, 107.27998352050781, 266.46002197265625, 276.29998779296875)",
-        "transform": [
-          71.22000122070312,
-          0.0,
-          -0.0,
-          169.02000427246094,
-          195.24000549316406,
-          107.27998352050781
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          556,
+          64
         ],
-        "width": 198,
-        "height": 470,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 4371,
-        "has-mask": true
+        "pos": [
+          0,
+          40
+        ]
       },
       {
-        "number": 1,
-        "bbox": "Rect(195.0, 381.4800109863281, 266.1000061035156, 478.1400146484375)",
-        "transform": [
-          71.0999984741211,
-          0.0,
-          -0.0,
-          96.66000366210938,
-          195.0,
-          381.4800109863281
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          41,
+          129,
+          563,
+          269
         ],
-        "width": 198,
-        "height": 269,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 2793,
-        "has-mask": true
+        "pos": [
+          40,
+          602
+        ]
       },
       {
-        "number": 7,
-        "bbox": "Rect(195.24000549316406, 291.3599853515625, 266.46002197265625, 366.17999267578125)",
-        "transform": [
-          71.22000122070312,
-          0.0,
-          -0.0,
-          74.81999969482422,
-          195.24000549316406,
-          291.3599853515625
+        "index": 2,
+        "class": "table",
+        "bbox": [
+          41,
+          303,
+          562,
+          361
         ],
-        "width": 198,
-        "height": 208,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 2364,
-        "has-mask": true
+        "pos": [
+          602,
+          885
+        ]
+      },
+      {
+        "index": 3,
+        "class": "table",
+        "bbox": [
+          41,
+          391,
+          451,
+          471
+        ],
+        "pos": [
+          885,
+          1187
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          603,
+          132,
+          836,
+          171
+        ],
+        "pos": [
+          1187,
+          1264
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          603,
+          227,
+          833,
+          266
+        ],
+        "pos": [
+          1264,
+          1336
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          603,
+          320,
+          849,
+          361
+        ],
+        "pos": [
+          1336,
+          1418
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          603,
+          416,
+          839,
+          455
+        ],
+        "pos": [
+          1418,
+          1492
+        ]
+      },
+      {
+        "index": 8,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1492,
+          1555
+        ]
+      },
+      {
+        "index": 9,
+        "class": "footnote",
+        "bbox": [
+          30,
+          499,
+          569,
+          518
+        ],
+        "pos": [
+          1555,
+          1830
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          1830,
+          1834
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1834,
+          1886
+        ]
       }
     ],
-    "graphics": [],
-    "text": "2026 HALF YEAR UNDERLYING RESULTS\n\n\n\n9\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-2.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-3.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-4.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-5.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-6.png)\n\n\n\n1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes\nM&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated\n\n\n\nStrong results - double-digit profit and\ncash growth across every division\n\n\nOperating profit growth of £0.8bn and\nfree cash flow growth of £0.4bn\n\n\nResilient balance sheet - net cash of £2.1bn\nInterim dividend of 6.0p per share\n\n\nBest-in-class return on capital\ndemonstrates significant value creation\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "text": "### 2026 HALF YEAR UNDERLYING RESULTS \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change1</th><th>Organic Change %1</th></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>\n\n<table><tr><th>pence</th><th>H1 2026</th><th>H1 2025</th><th>Change</th><th>Change %</th></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>\n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>\n\nStrong results - double-digit profit and cash growth across every division \n\nOperating profit growth of £0.8bn and free cash flow growth of £0.4bn \n\nResilient balance sheet - net cash of £2.1bn Interim dividend of 6.0p per share \n\nBest-in-class return on capital demonstrates significant value creation \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0009-08.png)\n\n\n> 1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated \n\n9 \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -540,7 +1448,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 10
+      "page_number": 10
     },
     "toc_items": [
       [
@@ -549,11 +1457,191 @@
         10
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "CIVIL AEROSPACE\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-1.png)\n\n\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-9-4.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n10\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          265,
+          64
+        ],
+        "pos": [
+          0,
+          22
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          27,
+          113,
+          589,
+          312
+        ],
+        "pos": [
+          22,
+          670
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          80,
+          341,
+          575,
+          527
+        ],
+        "pos": [
+          670,
+          951
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          951,
+          986
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          137
+        ],
+        "pos": [
+          986,
+          1049
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          629,
+          129,
+          691,
+          140
+        ],
+        "pos": [
+          1049,
+          1069
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          629,
+          162,
+          863,
+          178
+        ],
+        "pos": [
+          1069,
+          1111
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          629,
+          187,
+          904,
+          219
+        ],
+        "pos": [
+          1111,
+          1189
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          629,
+          231,
+          903,
+          247
+        ],
+        "pos": [
+          1189,
+          1236
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          629,
+          255,
+          872,
+          271
+        ],
+        "pos": [
+          1236,
+          1279
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          621,
+          339,
+          919,
+          477
+        ],
+        "pos": [
+          1279,
+          1406
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          618,
+          424,
+          745,
+          434
+        ],
+        "pos": [
+          1406,
+          1433
+        ]
+      },
+      {
+        "index": 12,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1433,
+          1490
+        ]
+      }
+    ],
+    "text": "### CIVIL AEROSPACE \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>6,186</td><td>4,786</td><td>1,380</td><td>29%</td></tr><tr><td>Gross profit</td><td>1,857</td><td>1,477</td><td>378</td><td>26%</td></tr><tr><td>Gross margin %</td><td>30.0%</td><td>30.9%</td><td>(0.8)pts</td><td></td></tr><tr><td>Operating profit</td><td>1,567</td><td>1,193</td><td>374</td><td>31%</td></tr><tr><td>Operating margin %</td><td>25.3%</td><td>24.9%</td><td>0.5pts</td><td></td></tr><tr><td>Trading cash flow</td><td>1,458</td><td>1,111</td><td>347</td><td>31%</td></tr></table>\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0010-02.png)\n\n\n<!-- Start of picture text -->\nUNDERLYING REVENUE SPLITS<br>2%  3%<br>18%<br>33%<br>Large engines 37%<br>Business aviation 6%<br>67%<br>OE 35% 77% Regional 26%<br>Services 26% V2500 1%<br><!-- End of picture text -->\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0010-04.png)\n\n\n###### KEY POINTS \n\n- 29% revenue growth, 31% profit growth \n\n- Higher large engine aftermarket profit across LTSA and time and materials \n\n- Higher net contractual margin improvements \n\n- Stronger business aviation performance \n\nOE DELIVERIES LARGE ENGINE OE DELIVERIES 279 +18% 157 +29% LTSA ENGINE FLYING HOURS TOTAL LTSA SHOP VISITS 10.0m +5% 712 +2% \n\nLTSA ENGINE FLYING HOURS \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 10 \n\n"
   },
   {
     "metadata": {
@@ -570,7 +1658,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 11
+      "page_number": 11
     },
     "toc_items": [
       [
@@ -579,11 +1667,233 @@
         11
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "DEFENCE\n\n\n\nKEY POINTS\n\n\n- 17% revenue growth, 57% profit growth\n\n- Higher aftermarket profit across transport\nand combat\n\n- Continued self-help benefits\n\n- Submarines growth\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-3.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-10-2.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n11\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          149,
+          64
+        ],
+        "pos": [
+          0,
+          14
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          113,
+          588,
+          313
+        ],
+        "pos": [
+          14,
+          646
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          646,
+          681
+        ]
+      },
+      {
+        "index": 3,
+        "class": "picture",
+        "bbox": [
+          0,
+          350,
+          575,
+          540
+        ],
+        "pos": [
+          681,
+          950
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          631,
+          132,
+          692,
+          143
+        ],
+        "pos": [
+          950,
+          970
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          631,
+          166,
+          862,
+          182
+        ],
+        "pos": [
+          970,
+          1012
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          631,
+          190,
+          885,
+          222
+        ],
+        "pos": [
+          1012,
+          1070
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          631,
+          234,
+          810,
+          249
+        ],
+        "pos": [
+          1070,
+          1103
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          631,
+          258,
+          758,
+          274
+        ],
+        "pos": [
+          1103,
+          1125
+        ]
+      },
+      {
+        "index": 9,
+        "class": "picture",
+        "bbox": [
+          786,
+          340,
+          869,
+          351
+        ],
+        "pos": [
+          1125,
+          1266
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          624,
+          340,
+          695,
+          351
+        ],
+        "pos": [
+          1266,
+          1288
+        ]
+      },
+      {
+        "index": 11,
+        "class": "picture",
+        "bbox": [
+          624,
+          377,
+          740,
+          437
+        ],
+        "pos": [
+          1288,
+          1449
+        ]
+      },
+      {
+        "index": 12,
+        "class": "picture",
+        "bbox": [
+          788,
+          377,
+          886,
+          408
+        ],
+        "pos": [
+          1449,
+          1584
+        ]
+      },
+      {
+        "index": 13,
+        "class": "picture",
+        "bbox": [
+          790,
+          426,
+          813,
+          439
+        ],
+        "pos": [
+          1584,
+          1715
+        ]
+      },
+      {
+        "index": 14,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1715,
+          1778
+        ]
+      },
+      {
+        "index": 15,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1778,
+          1835
+        ]
+      }
+    ],
+    "text": "### DEFENCE \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>2,484</td><td>2,223</td><td>358</td><td>17%</td></tr><tr><td>Gross profit</td><td>639</td><td>462</td><td>192</td><td>42%</td></tr><tr><td>Gross margin %</td><td>25.7%</td><td>20.8%</td><td>4.6pts</td><td></td></tr><tr><td>Operating profit</td><td>522</td><td>342</td><td>192</td><td>57%</td></tr><tr><td>Operating margin %</td><td>21.0%</td><td>15.4%</td><td>5.4pts</td><td></td></tr><tr><td>Trading cash flow</td><td>615</td><td>327</td><td>288</td><td>88%</td></tr></table>\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-03.png)\n\n\n<!-- Start of picture text -->\n4%<br>6%<br>32%<br>45%<br>28%<br>55% Transport 14%<br>Combat 12%<br>Submarines 14%<br>OE 18% Naval 75%<br>30%<br>Services 16% Helicopters 29%<br><!-- End of picture text -->\n\n###### KEY POINTS \n\n- 17% revenue growth, 57% profit growth \n\n- Higher aftermarket profit across transport and combat \n\n- Continued self-help benefits \n\n- Submarines growth \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-09.png)\n\n\n<!-- Start of picture text -->\nORDER BACKLOG<br><!-- End of picture text -->\n\n###### ORDER INTAKE \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-11.png)\n\n\n<!-- Start of picture text -->\n£2.4bn<br>Book-to-bill ratio 1.0x<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-12.png)\n\n\n<!-- Start of picture text -->\n£17.5bn<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-13.png)\n\n\n<!-- Start of picture text -->\n-7%<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0011-14.png)\n\n\n> © 2026 Rolls-Royce. Not Subject to Export Control 11 \n\n"
   },
   {
     "metadata": {
@@ -600,7 +1910,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 12
+      "page_number": 12
     },
     "toc_items": [
       [
@@ -609,11 +1919,261 @@
         12
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "POWER SYSTEMS\n\n\n\nKEY POINTS\n\n\n- 28% revenue growth, 72% profit growth\n\n- Strong power generation profit growth, driven\nby data centres\n\n- Higher governmental profit\n\n- Continued cost control\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-4.png)\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-2.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-11-3.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 Battery Energy Storage Systems\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n12\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          255,
+          64
+        ],
+        "pos": [
+          0,
+          20
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          113,
+          588,
+          311
+        ],
+        "pos": [
+          20,
+          651
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          80,
+          338,
+          592,
+          540
+        ],
+        "pos": [
+          651,
+          983
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          983,
+          1018
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1018,
+          1081
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          631,
+          129,
+          692,
+          141
+        ],
+        "pos": [
+          1081,
+          1101
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          631,
+          163,
+          866,
+          179
+        ],
+        "pos": [
+          1101,
+          1143
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          631,
+          188,
+          910,
+          224
+        ],
+        "pos": [
+          1143,
+          1209
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          631,
+          234,
+          802,
+          250
+        ],
+        "pos": [
+          1209,
+          1240
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          631,
+          259,
+          777,
+          271
+        ],
+        "pos": [
+          1240,
+          1267
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          624,
+          340,
+          695,
+          351
+        ],
+        "pos": [
+          1267,
+          1289
+        ]
+      },
+      {
+        "index": 11,
+        "class": "section-header",
+        "bbox": [
+          786,
+          340,
+          869,
+          351
+        ],
+        "pos": [
+          1289,
+          1312
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          624,
+          377,
+          739,
+          407
+        ],
+        "pos": [
+          1312,
+          1321
+        ]
+      },
+      {
+        "index": 13,
+        "class": "text",
+        "bbox": [
+          788,
+          377,
+          906,
+          408
+        ],
+        "pos": [
+          1321,
+          1330
+        ]
+      },
+      {
+        "index": 14,
+        "class": "text",
+        "bbox": [
+          624,
+          425,
+          739,
+          437
+        ],
+        "pos": [
+          1330,
+          1356
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          790,
+          426,
+          821,
+          439
+        ],
+        "pos": [
+          1356,
+          1363
+        ]
+      },
+      {
+        "index": 16,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          512,
+          151,
+          521
+        ],
+        "pos": [
+          1363,
+          1399
+        ]
+      },
+      {
+        "index": 17,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1399,
+          1456
+        ]
+      }
+    ],
+    "text": "### POWER SYSTEMS \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>2,604</td><td>2,042</td><td>573</td><td>28%</td></tr><tr><td>Gross profit</td><td>901</td><td>635</td><td>267</td><td>42%</td></tr><tr><td>Gross margin %</td><td>34.6%</td><td>31.1%</td><td>3.4pts</td><td></td></tr><tr><td>Operating profit</td><td>528</td><td>313</td><td>224</td><td>72%</td></tr><tr><td>Operating margin %</td><td>20.3%</td><td>15.3%</td><td>5.3pts</td><td></td></tr><tr><td>Trading cash flow</td><td>507</td><td>425</td><td>82</td><td>19%</td></tr></table>\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0012-02.png)\n\n\n<!-- Start of picture text -->\nUNDERLYING REVENUE SPLITS<br>2%<br>8%<br>30% 8%<br>Power Generation 41%<br>24% 58% Governmental 25%<br>0%<br>70% Marine<br>OE 33% Industrial 13%<br>Services 17% BESS¹ 31%<br>Battery Energy Storage Systems<br><!-- End of picture text -->\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0012-04.png)\n\n\n###### KEY POINTS \n\n- 28% revenue growth, 72% profit growth \n\n- Strong power generation profit growth, driven by data centres \n\n- Higher governmental profit \n\n- Continued cost control \n\n###### ORDER INTAKE \n\n###### ORDER BACKLOG \n\n£4.6bn \n\n£8.0bn \n\nBook-to-bill ratio 1.8x \n\n+42% \n\n1  Battery Energy Storage Systems \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 12 \n\n"
   },
   {
     "metadata": {
@@ -630,7 +2190,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 13
+      "page_number": 13
     },
     "toc_items": [
       [
@@ -639,11 +2199,177 @@
         13
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "SUMMARY FUNDS FLOW\n\n\n\n13\n\n\n\nKEY DRIVERS OF HIGHER YEAR ON YEAR FCF\n\n\n- Higher underlying operating profit\n\n\n- Higher net investments as we invest for future\nprofitable growth\n\n\n- Lower net LTSA balance growth due to more\nshop visits and business improvements\n\n\n- Broadly similar working capital performance\n\n\n- Movement in provisions reflects\nrenegotiations of onerous contracts\n\n\n- Higher cash tax costs\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-12-1.png)\n\n\n\n\n\n1 Net investments = D&A – capital element of lease payments – capital expenditure – investment  2 Risk and Revenue Sharing Arrangements\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          347,
+          64
+        ],
+        "pos": [
+          0,
+          25
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          120,
+          595,
+          443
+        ],
+        "pos": [
+          25,
+          886
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          886,
+          949
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          635,
+          135,
+          908,
+          148
+        ],
+        "pos": [
+          949,
+          990
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          635,
+          173,
+          845,
+          189
+        ],
+        "pos": [
+          990,
+          1029
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          635,
+          207,
+          911,
+          245
+        ],
+        "pos": [
+          1029,
+          1098
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          635,
+          263,
+          904,
+          301
+        ],
+        "pos": [
+          1098,
+          1182
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          635,
+          319,
+          897,
+          335
+        ],
+        "pos": [
+          1182,
+          1230
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          635,
+          353,
+          854,
+          391
+        ],
+        "pos": [
+          1230,
+          1302
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          635,
+          409,
+          772,
+          425
+        ],
+        "pos": [
+          1302,
+          1328
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1328,
+          1385
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          520,
+          534,
+          529
+        ],
+        "pos": [
+          1385,
+          1524
+        ]
+      }
+    ],
+    "text": "### SUMMARY FUNDS FLOW \n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Underlying operating profit</td><td>2,534</td><td>1,733</td><td>801</td></tr><tr><td>Net investments1</td><td>(73)</td><td>37</td><td>(110)</td></tr><tr><td>Movement in Civil LTSA balance, net of RRSAs 2</td><td>86</td><td>472</td><td>(386)</td></tr><tr><td>Working capital, excluding Civil Net LTSA</td><td>65</td><td>(22)</td><td>87</td></tr><tr><td>Movement in provisions</td><td>(159)</td><td>(294)</td><td>135</td></tr><tr><td>Settlement of excess derivatives</td><td>(27)</td><td>(116)</td><td>89</td></tr><tr><td>Net interest</td><td>(7)</td><td>14</td><td>(21)</td></tr><tr><td>Tax</td><td>(525)</td><td>(259)</td><td>(266)</td></tr><tr><td>Other</td><td>70</td><td>17</td><td>53</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr></table>\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0013-02.png)\n\n\nKEY DRIVERS OF HIGHER YEAR ON YEAR FCF \n\n- Higher underlying operating profit \n\n- Higher net investments as we invest for future profitable growth \n\n- Lower net LTSA balance growth due to more shop visits and business improvements \n\n- Broadly similar working capital performance \n\n- Movement in provisions reflects renegotiations of onerous contracts \n\n- Higher cash tax costs \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 13 \n\n1 Net investments = D&A – capital element of lease payments – capital expenditure – investment   2 Risk and Revenue Sharing Arrangements \n\n"
   },
   {
     "metadata": {
@@ -660,7 +2386,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 14
+      "page_number": 14
     },
     "toc_items": [
       [
@@ -669,11 +2395,233 @@
         14
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "CAPITAL FRAMEWORK\n\nMaintaining resilience, investing strategically, and rewarding shareholders\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-13-1.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 As of 29 July 2026\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n14\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          319,
+          64
+        ],
+        "pos": [
+          0,
+          24
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          30,
+          73,
+          613,
+          91
+        ],
+        "pos": [
+          24,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          102,
+          165
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          525,
+          166,
+          694,
+          182
+        ],
+        "pos": [
+          165,
+          200
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          71,
+          187,
+          311,
+          222
+        ],
+        "pos": [
+          200,
+          231
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          525,
+          185,
+          728,
+          201
+        ],
+        "pos": [
+          231,
+          271
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          525,
+          203,
+          814,
+          219
+        ],
+        "pos": [
+          271,
+          325
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          525,
+          221,
+          801,
+          237
+        ],
+        "pos": [
+          325,
+          378
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          67,
+          292,
+          398,
+          327
+        ],
+        "pos": [
+          378,
+          418
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          525,
+          288,
+          681,
+          304
+        ],
+        "pos": [
+          418,
+          450
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          525,
+          310,
+          894,
+          326
+        ],
+        "pos": [
+          450,
+          520
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          66,
+          389,
+          356,
+          432
+        ],
+        "pos": [
+          520,
+          578
+        ]
+      },
+      {
+        "index": 12,
+        "class": "list-item",
+        "bbox": [
+          525,
+          392,
+          875,
+          408
+        ],
+        "pos": [
+          578,
+          646
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          525,
+          414,
+          903,
+          430
+        ],
+        "pos": [
+          646,
+          716
+        ]
+      },
+      {
+        "index": 14,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          504,
+          101,
+          513
+        ],
+        "pos": [
+          716,
+          739
+        ]
+      },
+      {
+        "index": 15,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          739,
+          796
+        ]
+      }
+    ],
+    "text": "### CAPITAL FRAMEWORK \n\nMaintaining resilience, investing strategically, and rewarding shareholders \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0014-02.png)\n\n\n   - Net cash position of £2.1bn \n\n- STRONG BALANCE SHEET \n\n- 1 \n\n   - £1.1bn of bonds repaid from cash \n\n   - €1bn of bonds issued maturing in 2031 and 2036 \n\n   - Upgraded to A3 / A- rating by Moody’s / Fitch \n\n- REGULAR AND GROWING DIVIDENDS \n\n- 2 \n\n   - Interim dividend of 6.0p \n\n   - Target annual payout of 30%-40% of underlying profit after tax \n\n- FURTHER INVESTMENTS & \n\n- 3 SHAREHOLDER DISTRIBUTIONS \n\n- 1 \n\n- • 2026 £2.5bn share buyback progressing: £1.4bn completed \n\n- Disciplined investments: strategically aligned and value creative \n\n1 As of 29 July 2026 \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 14 \n\n"
   },
   {
     "metadata": {
@@ -690,7 +2638,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 15
+      "page_number": 15
     },
     "toc_items": [
       [
@@ -704,11 +2652,65 @@
         15
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-14-full.png)\n\nChief Executive Officer\n##### [TUFAN ERGINBILGIC]\n# 03\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          63
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          60,
+          191,
+          539,
+          293
+        ],
+        "pos": [
+          63,
+          120
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          120,
+          183
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          183,
+          235
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0015-00.png)\n\n\n03 Chief Executive Officer<sup>TUFAN ERGINBILGIC</sup> \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0015-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -725,7 +2727,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 16
+      "page_number": 16
     },
     "toc_items": [
       [
@@ -734,22 +2736,177 @@
         16
       ]
     ],
-    "tables": [
+    "page_boxes": [
       {
+        "index": 0,
+        "class": "section-header",
         "bbox": [
-          28.977500915527344,
-          426.75,
-          930.9500122070312,
-          507.12799072265625
+          29,
+          37,
+          497,
+          64
         ],
-        "rows": 3,
-        "columns": 2
+        "pos": [
+          0,
+          37
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          30,
+          71,
+          657,
+          87
+        ],
+        "pos": [
+          37,
+          127
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          127,
+          190
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          29,
+          117,
+          128,
+          132
+        ],
+        "pos": [
+          190,
+          210
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          494,
+          118,
+          581,
+          130
+        ],
+        "pos": [
+          210,
+          234
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          28,
+          152,
+          463,
+          382
+        ],
+        "pos": [
+          234,
+          456
+        ]
+      },
+      {
+        "index": 6,
+        "class": "picture",
+        "bbox": [
+          494,
+          152,
+          931,
+          382
+        ],
+        "pos": [
+          456,
+          678
+        ]
+      },
+      {
+        "index": 7,
+        "class": "section-header",
+        "bbox": [
+          411,
+          396,
+          549,
+          410
+        ],
+        "pos": [
+          678,
+          711
+        ]
+      },
+      {
+        "index": 8,
+        "class": "table",
+        "bbox": [
+          28,
+          426,
+          931,
+          508
+        ],
+        "pos": [
+          711,
+          933
+        ]
+      },
+      {
+        "index": 9,
+        "class": "page-footer",
+        "bbox": [
+          926,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          933,
+          938
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          133,
+          528
+        ],
+        "pos": [
+          938,
+          970
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          970,
+          1022
+        ]
       }
     ],
-    "images": [],
-    "graphics": [],
-    "text": "FULL YEAR 2026 GUIDANCE RAISED\n\nStrong delivery driven by transformation gives us confidence to raise our FY26 guidance\n\n\nOperating profit1 Free cash flow\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-15-1.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-15-2.png)\n\n\n\n\n\n\n\n\n\nCivil Aerospace drivers\n\n\n|Large engine EFH|Towards the lower end of the range of 115-120% of 2019|\n|---|---|\n|Total OE deliveries|550-600|\n|Total shop visits|1,480-1,550|\n\n\n\n16\n\n\n\n1 Underlying operating profit\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "text": "### FULL YEAR 2026 GUIDANCE RAISED \n\nStrong delivery driven by transformation gives us confidence to raise our FY26 guidance \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0016-02.png)\n\n\nOperating profit1 \n\n###### Free cash flow \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0016-05.png)\n\n\n<!-- Start of picture text -->\n. £4.9-5.2bn<br>£4.7-4.9bn<br>2022 2023 2024 2025 2026 Mid-term<br>Mid-point of prior guidance<br><!-- End of picture text -->\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0016-06.png)\n\n\n<!-- Start of picture text -->\n. £5.0-5.3bn<br>£3.8-4.0bn<br>2022 2023 2024 2025 2026 Mid-term<br>Mid-point of prior guidance<br><!-- End of picture text -->\n\n###### Civil Aerospace drivers \n\n<table><tr><th>Large engine EFH</th><th>Towards the lower end of the range of 115-120% of 2019</th></tr><tr><td>Total OE deliveries</td><td>550-600</td></tr><tr><td>Total shop visits</td><td>1,480-1,550</td></tr></table>\n\n16 \n\n1 Underlying operating profit \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   },
   {
     "metadata": {
@@ -766,7 +2923,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 17
+      "page_number": 17
     },
     "toc_items": [
       [
@@ -775,11 +2932,219 @@
         17
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "ACHIEVING THE ROLLS-ROYCE PROPOSITION\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-16-1.png)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n\n17\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          616,
+          64
+        ],
+        "pos": [
+          0,
+          44
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          44,
+          107
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          155,
+          115,
+          329,
+          132
+        ],
+        "pos": [
+          107,
+          133
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          64,
+          179,
+          394,
+          196
+        ],
+        "pos": [
+          133,
+          184
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          590,
+          169,
+          838,
+          205
+        ],
+        "pos": [
+          184,
+          242
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          64,
+          209,
+          435,
+          251
+        ],
+        "pos": [
+          242,
+          323
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          64,
+          264,
+          232,
+          282
+        ],
+        "pos": [
+          323,
+          348
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          64,
+          295,
+          363,
+          313
+        ],
+        "pos": [
+          348,
+          392
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          585,
+          284,
+          782,
+          320
+        ],
+        "pos": [
+          392,
+          444
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          64,
+          326,
+          308,
+          343
+        ],
+        "pos": [
+          444,
+          480
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          64,
+          356,
+          365,
+          374
+        ],
+        "pos": [
+          480,
+          526
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          64,
+          387,
+          410,
+          429
+        ],
+        "pos": [
+          526,
+          600
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          585,
+          401,
+          614,
+          436
+        ],
+        "pos": [
+          600,
+          605
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          628,
+          399,
+          847,
+          435
+        ],
+        "pos": [
+          605,
+          662
+        ]
+      },
+      {
+        "index": 14,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          662,
+          719
+        ]
+      }
+    ],
+    "text": "### ACHIEVING THE ROLLS-ROYCE PROPOSITION \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0017-01.png)\n\n\n#### OUR TRANSFORMATION \n\n- Significant operational and strategic progress \n\nHIGH PERFORMING, COMPETITIVE, 1. AND RESILIENT BUSINESS \n\n- Strong first half results driven by transformation and business improvements \n\n- FY26 guidance raised \n\n- Further confidence in mid-term guidance \n\n   - GROWING SUSTAINABLE \n\n   - **2.** CASH FLOWS \n\n- 6.0p interim dividend announced \n\n- On track for £2.5bn share buyback in 2026 \n\n- Resilient and diversified portfolio with significant growth potential \n\n3. \n\n- STRONG BALANCE SHEET AND GROWING SHAREHOLDER RETURNS \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 17 \n\n"
   },
   {
     "metadata": {
@@ -796,7 +3161,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 18
+      "page_number": 18
     },
     "toc_items": [
       [
@@ -810,11 +3175,79 @@
         18
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-17-full.png)\n### Q&A\n\nPhoto courtesy of Boeing\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          63
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          60,
+          209,
+          191,
+          286
+        ],
+        "pos": [
+          63,
+          72
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          72,
+          135
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          135,
+          187
+        ]
+      },
+      {
+        "index": 4,
+        "class": "page-footer",
+        "bbox": [
+          4,
+          529,
+          110,
+          538
+        ],
+        "pos": [
+          187,
+          214
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0018-00.png)\n\n\n## Q&A \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0018-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\nPhoto courtesy of Boeing \n\n"
   },
   {
     "metadata": {
@@ -831,7 +3264,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
       "page_count": 19,
-      "page": 19
+      "page_number": 19
     },
     "toc_items": [
       [
@@ -840,10 +3273,78 @@
         19
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-18-1.png)\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients\n\nonly – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          0,
+          63
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          440,
+          98,
+          520,
+          232
+        ],
+        "pos": [
+          63,
+          126
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          126,
+          189
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          262,
+          480,
+          700,
+          498
+        ],
+        "pos": [
+          189,
+          426
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          426,
+          478
+        ]
+      }
+    ],
+    "text": "\n![](images/rolls_royce_2026h1_presentation.pdf-0019-00.png)\n\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0019-01.png)\n\n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0019-02.png)\n\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available. \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
   }
 ]

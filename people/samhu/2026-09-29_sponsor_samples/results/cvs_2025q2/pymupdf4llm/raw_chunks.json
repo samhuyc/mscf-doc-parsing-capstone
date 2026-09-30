@@ -14,7 +14,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 1
+      "page_number": 1
     },
     "toc_items": [
       [
@@ -23,33 +23,121 @@
         1
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 7,
-        "bbox": "Rect(560.0, 173.0, 960.0, 540.0)",
-        "transform": [
-          400.0,
-          0.0,
-          0.0,
-          367.0,
-          560.0,
-          173.0
+        "index": 0,
+        "class": "text",
+        "bbox": [
+          62,
+          70,
+          420,
+          93
         ],
-        "width": 400,
-        "height": 367,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 0,
-        "has-mask": false
+        "pos": [
+          0,
+          46
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          55,
+          508,
+          60,
+          515
+        ],
+        "pos": [
+          46,
+          50
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          62,
+          153,
+          336,
+          187
+        ],
+        "pos": [
+          50,
+          169
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          62,
+          215,
+          304,
+          289
+        ],
+        "pos": [
+          169,
+          200
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          69,
+          399,
+          221,
+          449
+        ],
+        "pos": [
+          200,
+          260
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          305,
+          399,
+          490,
+          449
+        ],
+        "pos": [
+          260,
+          335
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          335,
+          414
+        ]
+      },
+      {
+        "index": 7,
+        "class": "picture",
+        "bbox": [
+          560,
+          173,
+          960,
+          540
+        ],
+        "pos": [
+          414,
+          456
+        ]
       }
     ],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-0-full.png)\n\nSecond Quarter 2025     July 31, 2025\n\n## **Earnings**\n##### Conference Call\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-0-0.png)\n\n**J. David Joyner**\nPresident and\nChief Executive Officer\n\n\n\n**Brian O. Newman**\nExecutive Vice President and\nChief Financial Officer\n\n\n\n1 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-0-1.png)\n",
-    "words": []
+    "text": "Second Quarter 2025         July 31, 2025 | \n\n1 \n\n\n![](images/cvs_2025q2.pdf-0001-02.png)\n\n\n<!-- Start of picture text -->\n¥ CVSHealth.<br><!-- End of picture text -->\n\n**Earnings** Conference Call \n\n**J. David Joyner** President and Chief Executive Officer \n\n**Brian O. Newman** Executive Vice President and Chief Financial Officer \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n\n![](images/cvs_2025q2.pdf-0001-07.png)\n\n\n"
   },
   {
     "metadata": {
@@ -66,7 +154,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 2
+      "page_number": 2
     },
     "toc_items": [
       [
@@ -75,11 +163,79 @@
         2
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-1-full.png)\n##### **Cautionary Statement**\n\nconcerning forward-looking statements\n\n\n**This presentation includes forward-looking statements.** The Private Securities Litigation Reform Act of 1995 provides a\nsafe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (“CVS Health”). By their nature,\nall forward-looking statements are not guarantees of future performance or results and are subject to risks and\nuncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated\nby the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission\nfilings, including those set forth in the Risk Factors section and under the heading “Cautionary Statement Concerning\nForward-Looking Statements” in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form\n10-Q, our recent Current Reports on Form 8-K, and this morning’s earnings press release.\n\n\nThis presentation includes non-GAAP financial measures that we use to describe our company’s performance. In\naccordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to\nthe most directly comparable GAAP measures, in our press release we issued in connection with the release of our results\nfor the second quarter of 2025 and our non-GAAP reconciliation document, which are both available on the Investor\nRelations portion of our website.\n\n\n2 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "text",
+        "bbox": [
+          75,
+          83,
+          437,
+          139
+        ],
+        "pos": [
+          0,
+          65
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          74,
+          194,
+          861,
+          326
+        ],
+        "pos": [
+          65,
+          996
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          74,
+          347,
+          851,
+          428
+        ],
+        "pos": [
+          996,
+          1496
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1496,
+          1575
+        ]
+      },
+      {
+        "index": 4,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          61,
+          515
+        ],
+        "pos": [
+          1575,
+          1579
+        ]
+      }
+    ],
+    "text": "**Cautionary Statement** concerning forward-looking statements \n\n**This presentation includes forward-looking statements.** The Private Securities Litigation Reform Act of 1995 provides a safe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (“CVS Health”). By their nature, all forward-looking statements are not guarantees of future performance or results and are subject to risks and uncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated by the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission filings, including those set forth in the Risk Factors section and under the heading “Cautionary Statement Concerning Forward-Looking Statements” in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form 10-Q, our recent Current Reports on Form 8-K, and this morning’s earnings press release. \n\nThis presentation includes non-GAAP financial measures that we use to describe our company’s performance. In accordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to the most directly comparable GAAP measures, in our press release we issued in connection with the release of our results for the second quarter of 2025 and our non-GAAP reconciliation document, which are both available on the Investor Relations portion of our website. \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n2 \n\n"
   },
   {
     "metadata": {
@@ -96,7 +252,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 3
+      "page_number": 3
     },
     "toc_items": [
       [
@@ -105,11 +261,345 @@
         3
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-2-full.png)\n##### **Enterprise Highlights**\n\nDelivered consolidated revenue growth of **8.4%** and adjusted EPS of **$1.81** in the second quarter of 2025.\n\nRaised 2025 adjusted EPS guidance to a range of **$6.30 to $6.40** .\n\n\n\nDelivering better experiences that\n###### **Build Trust**\n\n\n\nFull Year 2025\n###### **Company Guidance**\n\n\n**At least $391.5B**\n\nconsolidated revenue\n\n\n**$13.77 – $13.94B**\nconsolidated adjusted operating income\n\n\n**$6.30 – $6.40**\n\nadjusted EPS\n\n\n**At least $7.5B**\ncash flow from operations\n\n\n\nOur **integrated model** uniquely\npositions us to take on the largest\n\nchallenges in health care\n\n\n\nIn collaboration with CMS,\n**leading the industry forward** to\n\n\n\nstreamline, simplify and **reduce**\n\n\n\n**complexities** in health care\n\n\n\n**Committing $20B** to support our\n\n\n\nSecond Quarter\n###### **Financial Results**\n\n\n**8.4%**\nconsolidated revenue growth\n\n\n**$0.80**\nGAAP EPS\n\n\n**$1.81**\nadjusted EPS\n\n**$6.5B**\nyear-to-date cash flow\n\nfrom operations\n\n\n\ntransformation of health care\n\n\n\nthrough investments in\n\n\n\ntechnology\n\n\n\n3 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          364,
+          64
+        ],
+        "pos": [
+          0,
+          34
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          27,
+          103,
+          933,
+          146
+        ],
+        "pos": [
+          34,
+          216
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          67,
+          177,
+          282,
+          191
+        ],
+        "pos": [
+          216,
+          253
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          111,
+          195,
+          239,
+          215
+        ],
+        "pos": [
+          253,
+          278
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          58,
+          248,
+          291,
+          299
+        ],
+        "pos": [
+          278,
+          376
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          60,
+          320,
+          289,
+          389
+        ],
+        "pos": [
+          376,
+          505
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          59,
+          409,
+          290,
+          479
+        ],
+        "pos": [
+          505,
+          606
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          434,
+          177,
+          536,
+          191
+        ],
+        "pos": [
+          606,
+          623
+        ]
+      },
+      {
+        "index": 8,
+        "class": "section-header",
+        "bbox": [
+          387,
+          195,
+          585,
+          215
+        ],
+        "pos": [
+          623,
+          654
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          391,
+          254,
+          578,
+          291
+        ],
+        "pos": [
+          654,
+          693
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          456,
+          309,
+          514,
+          329
+        ],
+        "pos": [
+          693,
+          705
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          451,
+          334,
+          519,
+          345
+        ],
+        "pos": [
+          705,
+          716
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          460,
+          367,
+          509,
+          387
+        ],
+        "pos": [
+          716,
+          728
+        ]
+      },
+      {
+        "index": 13,
+        "class": "text",
+        "bbox": [
+          442,
+          391,
+          527,
+          406
+        ],
+        "pos": [
+          728,
+          743
+        ]
+      },
+      {
+        "index": 14,
+        "class": "section-header",
+        "bbox": [
+          456,
+          416,
+          514,
+          436
+        ],
+        "pos": [
+          743,
+          762
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          413,
+          441,
+          557,
+          472
+        ],
+        "pos": [
+          762,
+          803
+        ]
+      },
+      {
+        "index": 16,
+        "class": "text",
+        "bbox": [
+          675,
+          176,
+          906,
+          217
+        ],
+        "pos": [
+          803,
+          841
+        ]
+      },
+      {
+        "index": 17,
+        "class": "text",
+        "bbox": [
+          712,
+          252,
+          868,
+          288
+        ],
+        "pos": [
+          841,
+          885
+        ]
+      },
+      {
+        "index": 18,
+        "class": "section-header",
+        "bbox": [
+          710,
+          309,
+          870,
+          329
+        ],
+        "pos": [
+          885,
+          915
+        ]
+      },
+      {
+        "index": 19,
+        "class": "text",
+        "bbox": [
+          662,
+          334,
+          918,
+          348
+        ],
+        "pos": [
+          915,
+          956
+        ]
+      },
+      {
+        "index": 20,
+        "class": "text",
+        "bbox": [
+          724,
+          367,
+          856,
+          406
+        ],
+        "pos": [
+          956,
+          989
+        ]
+      },
+      {
+        "index": 21,
+        "class": "section-header",
+        "bbox": [
+          722,
+          425,
+          858,
+          445
+        ],
+        "pos": [
+          989,
+          1017
+        ]
+      },
+      {
+        "index": 22,
+        "class": "text",
+        "bbox": [
+          707,
+          449,
+          873,
+          463
+        ],
+        "pos": [
+          1017,
+          1045
+        ]
+      },
+      {
+        "index": 23,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1045,
+          1126
+        ]
+      }
+    ],
+    "text": "##### **Enterprise Highlights** \n\nDelivered consolidated revenue growth of **8.4%** and adjusted EPS of **$1.81** in the second quarter of 2025. Raised 2025 adjusted EPS guidance to a range of **$6.30 to $6.40** . \n\nDelivering better experiences that \n\n###### **Build Trust** \n\nOur **integrated model** uniquely positions us to take on the largest challenges in health care \n\nIn collaboration with CMS, **leading the industry forward** to streamline, simplify and **reduce complexities** in health care \n\n**Committing $20B** to support our transformation of health care through investments in technology \n\nSecond Quarter \n\n###### **Financial Results** \n\n**8.4%** consolidated revenue growth \n\n**$0.80** \n\nGAAP EPS \n\n**$1.81** \n\nadjusted EPS \n\n###### **$6.5B** \n\nyear-to-date cash flow from operations \n\nFull Year 2025 **Company Guidance** \n\n**At least $391.5B** consolidated revenue \n\n###### **$13.77 – $13.94B** \n\nconsolidated adjusted operating income \n\n**$6.30 – $6.40** adjusted EPS \n\n###### **At least $7.5B** \n\ncash flow from operations \n\n3 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -126,7 +616,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 4
+      "page_number": 4
     },
     "toc_items": [
       [
@@ -135,11 +625,65 @@
         4
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-3-full.png)\n\nOUR FOCUS\n\n\n# Becoming America’s\n\n\n# most trusted health\n\n\n# care company\n\n\n\n4 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          440,
+          129,
+          522,
+          195
+        ],
+        "pos": [
+          0,
+          42
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          218,
+          210,
+          754,
+          423
+        ],
+        "pos": [
+          42,
+          108
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          108,
+          187
+        ]
+      },
+      {
+        "index": 3,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          508,
+          62,
+          515
+        ],
+        "pos": [
+          187,
+          191
+        ]
+      }
+    ],
+    "text": "\n![](images/cvs_2025q2.pdf-0004-00.png)\n\n\n# OUR FOCUS Becoming America’s most trusted health care company \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n4 \n\n"
   },
   {
     "metadata": {
@@ -156,7 +700,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 5
+      "page_number": 5
     },
     "toc_items": [
       [
@@ -165,33 +709,135 @@
         5
       ]
     ],
-    "tables": [],
-    "images": [
+    "page_boxes": [
       {
-        "number": 8,
-        "bbox": "Rect(560.0, 173.0, 960.0, 540.0)",
-        "transform": [
-          400.0,
-          0.0,
-          0.0,
-          367.0,
-          560.0,
-          173.0
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          68,
+          67,
+          448,
+          103
         ],
-        "width": 400,
-        "height": 367,
-        "colorspace": 3,
-        "cs-name": "DeviceRGB",
-        "xres": 96,
-        "yres": 96,
-        "bpc": 8,
-        "size": 0,
-        "has-mask": false
+        "pos": [
+          0,
+          33
+        ]
+      },
+      {
+        "index": 1,
+        "class": "list-item",
+        "bbox": [
+          86,
+          176,
+          494,
+          195
+        ],
+        "pos": [
+          33,
+          89
+        ]
+      },
+      {
+        "index": 2,
+        "class": "list-item",
+        "bbox": [
+          86,
+          241,
+          444,
+          259
+        ],
+        "pos": [
+          89,
+          140
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          86,
+          295,
+          441,
+          335
+        ],
+        "pos": [
+          140,
+          211
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          86,
+          359,
+          500,
+          399
+        ],
+        "pos": [
+          211,
+          285
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          86,
+          435,
+          518,
+          454
+        ],
+        "pos": [
+          285,
+          345
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          345,
+          424
+        ]
+      },
+      {
+        "index": 7,
+        "class": "picture",
+        "bbox": [
+          560,
+          173,
+          960,
+          540
+        ],
+        "pos": [
+          424,
+          543
+        ]
+      },
+      {
+        "index": 8,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          508,
+          61,
+          516
+        ],
+        "pos": [
+          543,
+          547
+        ]
       }
     ],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-4-full.png)\n#### **Strategic Imperatives**\n\n**Drive** **sustainable growth** in our core businesses\n\n\n**Deliver** **enterprise value** across our assets\n\n\n**Engage patients and consumers** through\npersonalized experiences\n\n\n**Transform business operations** with technologyenabled capabilities\n\n\n**Invest in our colleagues** and strengthen our culture\n\n\n5 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-4-1.png)\n",
-    "words": []
+    "text": "#### **Strategic Imperatives** \n\n- **Drive sustainable growth** in our core businesses \n\n- **Deliver enterprise value** across our assets \n\n- **Engage patients and consumers** through personalized experiences \n\n- **Transform business operations** with technologyenabled capabilities \n\n- **Invest in our colleagues** and strengthen our culture \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n\n![](images/cvs_2025q2.pdf-0005-07.png)\n\n\n<!-- Start of picture text -->\n'<br>Health.<br><!-- End of picture text -->\n\n5 \n\n"
   },
   {
     "metadata": {
@@ -208,7 +854,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 6
+      "page_number": 6
     },
     "toc_items": [
       [
@@ -217,11 +863,107 @@
         6
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-5-full.png)\n##### **Consolidated Results**\n\n\n\n**Quarter Results**\nIn billions, except per share amounts\n\n\n\n**2Q 2025**\n\n\n\n**2Q 2024**\n\n\n\nReported a **second consecutive**\n**quarter of solid results** driven by the\nstrength of our execution. We are\ncontinuing to build positive momentum\nacross CVS Health as we work to\nbecome **America’s most trusted**\n**health care company** .\n\n\nWe continue to make meaningful\nprogress **driving improvements**\n**within our Aetna business** . This\nremains our top priority.\n\n\n**Returned $866 million to**\n**stockholders** through our quarterly\ndividend.\n\n\n\nTotal Revenues $98.9 $91.2\n\n\nAdjusted Operating Income $3.81 $3.74\n\n\nGAAP Earnings per Share $0.80 $1.41\n\n\nAdjusted Earnings per Share $1.81 $1.83\n\n\nCash Flow from Operations $1.9 $3.1\n\n\n6 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          368,
+          58
+        ],
+        "pos": [
+          0,
+          33
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          43,
+          97,
+          554,
+          369
+        ],
+        "pos": [
+          33,
+          506
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          662,
+          111,
+          920,
+          149
+        ],
+        "pos": [
+          506,
+          549
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          663,
+          153,
+          916,
+          268
+        ],
+        "pos": [
+          549,
+          784
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          663,
+          289,
+          878,
+          353
+        ],
+        "pos": [
+          784,
+          910
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          663,
+          373,
+          896,
+          419
+        ],
+        "pos": [
+          910,
+          986
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          986,
+          1067
+        ]
+      }
+    ],
+    "text": "##### **Consolidated Results** \n\n<table><tr><th>Quarter Results<br/>&gt;Sn In billions, except per share amounts</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$98.9</td><td>$91.2</td></tr><tr><td>Adjusted Operating Income</td><td>$3.81</td><td>$3.74</td></tr><tr><td>GAAP Earnings per Share</td><td>$0.80</td><td>$1.41</td></tr><tr><td>Adjusted Earnings per Share</td><td>$1.81</td><td>$1.83</td></tr><tr><td>Cash Flow from Operations</td><td>$1.9</td><td>$3.1</td></tr></table>\n\n## **Business highlights** ~~_§__—_—§*~~ \n\nReported a **second consecutive quarter of solid results** driven by the strength of our execution. We are continuing to build positive momentum across CVS Health as we work to become **America’s most trusted health care company** . \n\nWe continue to make meaningful progress **driving improvements within our Aetna business** . This remains our top priority. \n\n**Returned $866 million to stockholders** through our quarterly dividend. \n\n6 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -238,7 +980,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 7
+      "page_number": 7
     },
     "toc_items": [
       [
@@ -247,11 +989,93 @@
         7
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-6-full.png)\n##### **Consolidated Guidance**\n\n\n\n**Full Year Guidance**\nIn billions, except per share amounts and tax rate\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\n**Raised** 2025 adjusted EPS guidance to\na **range of $6.30 to $6.40.**\n\n\nWe are **encouraged by our**\n**Enterprise performance and revised**\n**outlook** in a dynamic environment.\nOur updated expectations reflect\n**increases in our Health Care Benefits**\n**and Pharmacy and Consumer**\n**Wellness segments**, while\nrecognizing the impact of a higher\nmedical benefit ratio in our Health Care\nDelivery business. The outlook for our\nPharmacy Services business is\nunchanged.\n\n\nUpdated 2025 guidance continues to\nreflect our **focus on building trust** by\nsetting expectations that are\n**appropriate** and **achievable** with\n**opportunities for outperformance** .\n\n\n\nTotal Revenues At least $391.5 At least $382.6\n\n\nAdjusted Operating Income $13.77 to $13.94 $13.31 to $13.65\n\n\nGAAP Earnings per Share $3.84 to $3.94 $4.23 to $4.43\n\n\nAdjusted Earnings per Share $6.30 to $6.40 $6.00 to $6.20\n\n\nCash Flow from Operations At least $7.5 ~$7.0\n\n\nInterest Expense ~$3.11 ~$3.15\n\n\nCapital Expenditures $2.9 to $3.1 $2.8 to $3.0\n\n\nAdjusted Effective Tax Rate ~25.7% ~25.9%\n\n\nWeighted Average\n~1.270 ~1.270\nDiluted Share Count\n\n\n7 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          401,
+          58
+        ],
+        "pos": [
+          0,
+          34
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          43,
+          97,
+          577,
+          484
+        ],
+        "pos": [
+          34,
+          978
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          662,
+          111,
+          920,
+          180
+        ],
+        "pos": [
+          978,
+          1090
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          663,
+          198,
+          917,
+          397
+        ],
+        "pos": [
+          1090,
+          1473
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          663,
+          414,
+          907,
+          496
+        ],
+        "pos": [
+          1473,
+          1662
+        ]
+      },
+      {
+        "index": 5,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1662,
+          1743
+        ]
+      }
+    ],
+    "text": "##### **Consolidated Guidance** \n\n<table><tr><th>Full Year Guidance<br/>&gt;Sn In billions, except per share amounts and tax rate</th><th>Full Year 2025<br/>as of July 31, 2025</th><th>Full Year 2025<br/>as of May 1, 2025</th></tr><tr><th>Total Revenues</th><th>At least $391.5</th><th>At least $382.6</th></tr><tr><td>Adjusted Operating Income</td><td>$13.77 to $13.94</td><td>$13.31 to $13.65</td></tr><tr><td>GAAP Earnings per Share</td><td>$3.84 to $3.94</td><td>$4.23 to $4.43</td></tr><tr><td>Adjusted Earnings per Share</td><td>$6.30 to $6.40</td><td>$6.00 to $6.20</td></tr><tr><td>Cash Flow from Operations</td><td>At least $7.5</td><td>~$7.0</td></tr><tr><td>Interest Expense</td><td>~$3.11</td><td>~$3.15</td></tr><tr><td>Capital Expenditures</td><td>$2.9 to $3.1</td><td>$2.8 to $3.0</td></tr><tr><td>Adjusted Effective Tax Rate</td><td>~25.7%</td><td>~25.9%</td></tr><tr><td>Weighted Average<br/>Diluted Share Count</td><td>~1.270</td><td>~1.270</td></tr></table>\n\n**Business highlights** ~~_§__—_—§*~~ **Raised** 2025 adjusted EPS guidance to a **range of $6.30 to $6.40.** \n\nWe are **encouraged by our Enterprise performance and revised outlook** in a dynamic environment. Our updated expectations reflect **increases in our Health Care Benefits and Pharmacy and Consumer Wellness segments** , while recognizing the impact of a higher medical benefit ratio in our Health Care Delivery business. The outlook for our Pharmacy Services business is unchanged. \n\nUpdated 2025 guidance continues to reflect our **focus on building trust** by setting expectations that are **appropriate** and **achievable** with **opportunities for outperformance** . \n\n7 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -268,7 +1092,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 8
+      "page_number": 8
     },
     "toc_items": [
       [
@@ -277,11 +1101,51 @@
         8
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-7-full.png)\n\n![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-7-0.png)\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          57,
+          246,
+          898,
+          286
+        ],
+        "pos": [
+          0,
+          91
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          91,
+          170
+        ]
+      },
+      {
+        "index": 2,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          61,
+          516
+        ],
+        "pos": [
+          170,
+          174
+        ]
+      }
+    ],
+    "text": "### **Superior** assets. assets. **Superior care.** care. **Superior** value. **value.** \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n8 \n\n"
   },
   {
     "metadata": {
@@ -298,7 +1162,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 9
+      "page_number": 9
     },
     "toc_items": [
       [
@@ -307,11 +1171,93 @@
         9
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-8-full.png)\n##### **Health Care Benefits**\n\n\n\n**Quarter Results**\nIn billions, except MBR and membership\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $36.3 $32.5\n\n\nAdjusted Operating Income $1.31 $0.94\n\n\nTotal Medical Membership (millions) 26.7 27.0\n\n\nCommercial 18.8 18.8\n\n\nGovernment 7.9 8.2\n\n\nMedical Benefits Ratio (MBR) 89.9% 89.6%\n\n\n\n**Full Year Guidance**\nIn billions, except MBR and membership\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **increased by nearly 40%** year\nover year, driven by the favorable impact\nof changes to our **Individual Exchange**\n**risk adjustment estimates**, improved\n**underlying performance in our**\n**Government business** and higher\n**favorable prior period development** .\n\n\nDuring the second quarter, we established\na **~$470 million premium deficiency**\n**reserve recorded in the Group**\n**Medicare Advantage** product line\nrelated to anticipated losses for the\nremainder of the 2025 coverage year.\n\n\n**Raised** 2025 adjusted operating income\nguidance of **$2.42** **billion, at the low end,**\n**reflects a prudent view of medical cost**\n**trends** through the remainder of the year.\nThe biggest source of potential\noutperformance in our guidance will be\nmedical cost trends.\n\n\n\nTotal Revenues At least $139.9 At least $138.0\n\n\nAdjusted Operating Income $2.42 to $2.59 $1.91 to $2.25\n\n\nTotal Medical Membership (millions) ~26.4 ~26.4\n\n\n\n~91.0%\nMedical Benefits Ratio (MBR)\n(at the low-end)\n\n\n9 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n\n91.3%\n(at the low-end)\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          358,
+          58
+        ],
+        "pos": [
+          0,
+          33
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          52,
+          97,
+          922,
+          283
+        ],
+        "pos": [
+          33,
+          940
+        ]
+      },
+      {
+        "index": 2,
+        "class": "table",
+        "bbox": [
+          59,
+          310,
+          577,
+          461
+        ],
+        "pos": [
+          940,
+          1516
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          663,
+          290,
+          916,
+          381
+        ],
+        "pos": [
+          1516,
+          1736
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          663,
+          395,
+          915,
+          500
+        ],
+        "pos": [
+          1736,
+          2001
+        ]
+      },
+      {
+        "index": 5,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          2001,
+          2082
+        ]
+      }
+    ],
+    "text": "##### **Health Care Benefits** \n\n<table><tr><th>Quarter Results<br/>In billions, except MBR and membership<br/>Ss i</th><th>2Q 2025</th><th>2Q 2024<br/>__—\\</th><th>Business highlights<br/>wD</th></tr><tr><td>Total Revenues</td><td>$36.3</td><td>$32.5</td><td>Second quarter adjusted operating</td></tr><tr><td>Adjusted Operating Income</td><td>$1.31</td><td>$0.94</td><td>income increased by nearly 40% year</td></tr><tr><td>Total Medical Membership (millions)</td><td>26.7</td><td>27.0</td><td>over year, driven by the favorable impact<br/>of changes to our Individual Exchange</td></tr><tr><td>Commercial</td><td>18.8</td><td>18.8</td><td>risk adjustment estimates, improved<br/>underlying performance in our</td></tr><tr><td>Government</td><td>7.9</td><td>8.2</td><td>Government business and higher</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>89.9%</td><td>89.6%</td><td>favorable prior period development.</td></tr></table>\n\n<table><tr><th>Full Year Guidance</th><th>Full Year 2025</th><th>Full Year 2025</th></tr><tr><th>In billions, except MBR and membership</th><th>as of July 31, 2025</th><th>as of May 1, 2025</th></tr><tr><th>Total Revenues</th><th>At least $139.9</th><th>At least $138.0</th></tr><tr><td>Adjusted Operating Income</td><td>$2.42 to $2.59</td><td>$1.91 to $2.25</td></tr><tr><td>Total Medical Membership (millions)</td><td>~26.4</td><td>~26.4</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>~91.0%<br/>(at the low-end)</td><td>91.3%<br/>(at the low-end)</td></tr></table>\n\nDuring the second quarter, we established a **~$470 million premium deficiency reserve recorded in the Group Medicare Advantage** product line related to anticipated losses for the remainder of the 2025 coverage year. \n\n**Raised** 2025 adjusted operating income guidance of **$2.42 billion, at the low end, reflects a prudent view of medical cost trends** through the remainder of the year. The biggest source of potential outperformance in our guidance will be medical cost trends. \n\n9 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -328,7 +1274,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 10
+      "page_number": 10
     },
     "toc_items": [
       [
@@ -337,11 +1283,51 @@
         10
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-9-full.png)\n##### **Health Services**\n\n**Quarter Results**\nIn billions, except pharmacy claims\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $46.5 $42.2\n\n\nAdjusted Operating Income $1.58 $1.92\n\n\nPharmacy Claims Processed [1]\n469.0 471.2\n(millions)\n\n\n\n**Full Year Guidance**\nIn billions\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **decreased ~18%** year over year,\ndriven by continued **pharmacy client**\n**price improvements** and the impact of a\n**higher medical benefit ratio within our**\n**health care delivery business**, partially\noffset by improved purchasing economics\nand pharmacy drug mix.\n\n\nHealth Care Delivery experienced\n**continued** **strong patient growth at Oak**\n**Street** and **increased in-home health**\n**evaluation volumes** at Signify.\n\n\n**Updated** 2025 adjusted operating income\nguidance to **at least $7.34 billion**,\nreflecting a ~$200 million decrease in our\nHealth Care Delivery business driven by a\n**higher medical benefit ratio at Oak**\n**Street** . The outlook for our Pharmacy\nServices business is **unchanged** .\n\n\n\nTotal Revenues At least $183.5 At least $181.0\n\n\nAdjusted Operating Income At least $7.34 At least $7.54\n\n\nPharmacy Claims Processed [1] At least 1.91 At least 1.93\n\n\n10 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          282,
+          58
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          52,
+          97,
+          922,
+          485
+        ],
+        "pos": [
+          28,
+          1575
+        ]
+      },
+      {
+        "index": 2,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1575,
+          1657
+        ]
+      }
+    ],
+    "text": "##### **Health Services** \n\n<table><tr><th>Quarter Results<br/>In billions, except pharmacy claims<br/>Ss</th><th>2Q 2025<br/>i</th><th>2Q 2024<br/>__—\\</th><th>Business highlights<br/>wD</th></tr><tr><td>Total Revenues<br/>Adjusted Operating Income</td><td>$46.5<br/>$1.58</td><td>$42.2<br/>$1.92</td><td>Second quarter adjusted operating<br/>income decreased ~18% year over year,<br/>driven by continued pharmacy client<br/>price improvements and the impact of a<br/>higher medical benefit ratio within our<br/>health care delivery business, partially</td></tr><tr><td>Pharmacy Claims Processed1<br/>(millions)</td><td>469.0</td><td>471.2</td><td>offset by improved purchasing economics<br/>and pharmacy drug mix.</td></tr><tr><td>Full Year Guidance<br/>In billions</td><td>Full Year 2025<br/>as of July 31, 2025</td><td>Full Year 2025<br/>as of May 1, 2025</td><td>Health Care Delivery experienced<br/>continued strong patient growth at Oak<br/>Street and increased in-home health<br/>evaluation volumes at Signify.</td></tr><tr><td>Total Revenues<br/>Adjusted Operating Income</td><td>At least $183.5<br/>At least $7.34</td><td>At least $181.0<br/>At least $7.54</td><td>Updated 2025 adjusted operating income<br/>guidance to at least $7.34 billion,<br/>reflecting a ~$200 million decrease in our<br/>Health Care Delivery business driven by a<br/>higher medical benefit ratio at Oak<br/>Street. The outlook for our Pharmacy</td></tr><tr><td>Pharmacy Claims Processed1</td><td>At least 1.91</td><td>At least 1.93</td><td>Services business is unchanged.</td></tr></table>\n\n10 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -358,7 +1344,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 11
+      "page_number": 11
     },
     "toc_items": [
       [
@@ -367,11 +1353,51 @@
         11
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-10-full.png)\n##### **Pharmacy & Consumer Wellness**\n\n\n\n**Quarter Results**\nIn billions, except prescriptions filled\n\n\n\n**2Q 2025** **2Q 2024**\n\n\n\nTotal Revenues $33.6 $29.8\n\n\nAdjusted Operating Income $1.34 $1.24\n\n\nPrescriptions Filled [1]\n438.1 420.4\n(millions)\n\n\n\n**Full Year Guidance**\nIn billions\n\n\n\n**Full Year 2025**\n\nas of July 31, 2025\n\n\n\n**Full Year 2025**\n\nas of May 1, 2025\n\n\n\nSecond quarter adjusted operating\nincome **increased nearly 8%** year over\nyear, primarily driven by **increased**\n**prescription and front store volume**,\npartially offset by continued pharmacy\nreimbursement pressure.\n\n\nSame store pharmacy sales and same\nstore prescription volumes **increased by**\n**~18%** **[2]** **and ~6%** **[2]**, respectively, over the\nprior year quarter.\n\n\nContinued **growth in retail pharmacy**\n**script share**, reaching ~27.8% in the\nsecond quarter.\n\n\n**Raised** 2025 adjusted operating income\nguidance to **at least $5.68 billion**,\nreflecting a ~$200 million increase, driven\nby our strong first half performance, while\ncontinuing to maintain a **prudent outlook**\nfor the remainder of the year.\n\n\n\nTotal Revenues At least $137.5 At least $133.0\n\n\nAdjusted Operating Income At least $5.68 At least $5.48\n\n\nPrescriptions Filled [1] At least 1.80 At least 1.77\n\n\n11 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          36,
+          32,
+          545,
+          63
+        ],
+        "pos": [
+          0,
+          41
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          52,
+          97,
+          922,
+          485
+        ],
+        "pos": [
+          41,
+          1602
+        ]
+      },
+      {
+        "index": 2,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1602,
+          1684
+        ]
+      }
+    ],
+    "text": "##### **Pharmacy & Consumer Wellness** \n\n<table><tr><th>Quarter Results<br/>In billions, except prescriptions filled<br/>Ss</th><th>2Q 2025<br/>i</th><th>2Q 2024<br/>__—\\</th><th>Business highlights<br/>wD</th></tr><tr><td>Total Revenues<br/>Adjusted Operating Income</td><td>$33.6<br/>$1.34</td><td>$29.8<br/>$1.24</td><td>Second quarter adjusted operating<br/>income increased nearly 8% year over<br/>year, primarily driven by increased<br/>prescription and front store volume,<br/>partially offset by continued pharmacy<br/>reimbursement pressure.</td></tr><tr><td>Prescriptions Filled1<br/>(millions)</td><td>438.1</td><td>420.4</td><td>Same store pharmacy sales and same<br/>store prescription volumes increased by<br/>~18%2 and ~6%2, respectively, over the</td></tr><tr><td>Full Year Guidance</td><td>Full Year 2025</td><td>Full Year 2025</td><td>prior year quarter.</td></tr><tr><td>In billions</td><td>as of July 31, 2025</td><td>as of May 1, 2025</td><td>Continued growth in retail pharmacy</td></tr><tr><td>Total Revenues</td><td>At least $137.5</td><td>At least $133.0</td><td>script share, reaching ~27.8% in the<br/>second quarter.</td></tr><tr><td>Adjusted Operating Income</td><td>At least $5.68</td><td>At least $5.48</td><td>Raised 2025 adjusted operating income<br/>guidance to at least $5.68 billion,<br/>reflecting a ~$200 million increase, driven<br/>by our strong first half performance, while<br/>continuing to maintain a prudent outlook</td></tr><tr><td>Prescriptions Filled1</td><td>At least 1.80</td><td>At least 1.77</td><td>for the remainder of the year.</td></tr></table>\n\n11 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n"
   },
   {
     "metadata": {
@@ -388,7 +1414,7 @@
       "encryption": null,
       "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
       "page_count": 12,
-      "page": 12
+      "page_number": 12
     },
     "toc_items": [
       [
@@ -397,10 +1423,78 @@
         12
       ]
     ],
-    "tables": [],
-    "images": [],
-    "graphics": [],
-    "text": "![](/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-11-full.png)\n##### **Footnotes**\n\nSecond Quarter 2025\n\n\n1. Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.\n\n\n2. Same store sales and prescription volume represent the change in revenues and prescriptions filled in the\nCompany’s retail pharmacy stores that have been operating for greater than one year and digital sales initiated\nonline or through mobile applications and fulfilled through the Company’s distribution centers, expressed as a\npercentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics\nexclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics\nto evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding\nexisting stores and new locations. Same-store metrics provide management and investors with information\nuseful in understanding the portion of current revenues and prescriptions resulting from organic growth in\nexisting locations versus the portion resulting from opening new stores.\n\n\n12 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n\n\n",
-    "words": []
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          71,
+          89,
+          268,
+          144
+        ],
+        "pos": [
+          0,
+          42
+        ]
+      },
+      {
+        "index": 1,
+        "class": "list-item",
+        "bbox": [
+          77,
+          196,
+          758,
+          210
+        ],
+        "pos": [
+          42,
+          151
+        ]
+      },
+      {
+        "index": 2,
+        "class": "list-item",
+        "bbox": [
+          77,
+          231,
+          820,
+          380
+        ],
+        "pos": [
+          151,
+          1098
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          88,
+          507,
+          434,
+          518
+        ],
+        "pos": [
+          1098,
+          1177
+        ]
+      },
+      {
+        "index": 4,
+        "class": "page-footer",
+        "bbox": [
+          55,
+          507,
+          65,
+          515
+        ],
+        "pos": [
+          1177,
+          1182
+        ]
+      }
+    ],
+    "text": "##### **Footnotes** Second Quarter 2025 \n\n1. Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions. \n\n2. Same store sales and prescription volume represent the change in revenues and prescriptions filled in the Company’s retail pharmacy stores that have been operating for greater than one year and digital sales initiated online or through mobile applications and fulfilled through the Company’s distribution centers, expressed as a percentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics exclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics to evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding existing stores and new locations. Same-store metrics provide management and investors with information useful in understanding the portion of current revenues and prescriptions resulting from organic growth in existing locations versus the portion resulting from opening new stores. \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n12 \n\n"
   }
 ]

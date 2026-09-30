@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sponsor PDF parser comparison</title><style>
 body{font:15px/1.5 system-ui;margin:24px;color:#172a3a;background:#f3f5f7}h1{font-size:30px}section{margin:30px 0} .grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.pane{background:white;padding:14px;border:1px solid #ccd3dc;overflow:auto;max-height:850px;min-width:0}.pane:target{outline:3px solid #2764ad}img{max-width:100%}table{border-collapse:collapse;font-size:11px}td,th{border:1px solid #abb6c3;padding:4px;min-width:35px}h3{font-size:17px}.checks{background:#e8edf4;padding:12px}.summary{font-size:14px}a{color:#17528c} @media(max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}} @media(max-width:650px){.grid{grid-template-columns:1fr}}
-</style><h1>Sponsor PDF parser comparison</h1><p>Review format v2 · Six source pages · Original parser predictions · Physical PDF page numbers. Values are not repaired. See <a href="../REPORT.md">REPORT.md</a> for pipeline setups, runtime and metric definitions.</p><p class="checks"><strong>18/18 document/parser exports loaded, including all six MinerU VLM results.</strong> Text and tables are embedded in this HTML; only images use adjacent files. This review shows one checked page per document. Links below each parser heading open its full output.</p><table class="summary"><thead><tr><th>Pipeline</th><th>Completed exports</th><th>Pages with extracted text</th></tr></thead><tbody><tr><td>MinerU OCR</td><td>6</td><td>140/140</td></tr><tr><td>MinerU local VLM</td><td>6</td><td>140/140</td></tr><tr><td>PyMuPDF4LLM — no OCR</td><td>6</td><td>88/140</td></tr></tbody></table><p>Order: Source → MinerU OCR → MinerU VLM → PyMuPDF4LLM. On narrower windows, panels wrap onto more rows; each long panel scrolls independently. An image-only PyMuPDF result has no OCR transcription.</p><section><h2>cvs_2025q2 · page 6</h2><p><a href="#cvs_2025q2-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Total Revenues: $98.9, $91.2; GAAP Earnings per Share: $0.80, $1.41; Cash Flow from Operations: $1.9, $3.1</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/cvs_2025q2_006.png"><img src="source_pages/cvs_2025q2_006.png" alt="Source page 6"></a></div><div class="pane" id="cvs_2025q2-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/cvs_2025q2/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/cvs_2025q2/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/cvs_2025q2/mineru_ocr/run.json">Run settings</a></p><p class="checks">789 transcribed characters; 1 HTML tables.</p><h2>Consolidated Results</h2>
+</style><h1>Sponsor PDF parser comparison</h1><p>Review format v3 — PyMuPDF OCR enabled · Six source pages · Original parser predictions · Physical PDF page numbers. Values are not repaired. See <a href="../REPORT.md">REPORT.md</a> for pipeline setups, runtime and metric definitions.</p><p class="checks"><strong>18/18 document/parser exports loaded, including all six MinerU VLM results.</strong> Text and tables are embedded in this HTML; only images use adjacent files. This review shows one checked page per document. Links below each parser heading open its full output.</p><table class="summary"><thead><tr><th>Pipeline</th><th>Completed exports</th><th>Pages with extracted text</th></tr></thead><tbody><tr><td>MinerU OCR</td><td>6</td><td>140/140</td></tr><tr><td>MinerU local VLM</td><td>6</td><td>140/140</td></tr><tr><td>PyMuPDF4LLM + OCR</td><td>6</td><td>140/140</td></tr></tbody></table><p>Order: Source → MinerU OCR → MinerU VLM → PyMuPDF4LLM. On narrower windows, panels wrap onto more rows; each long panel scrolls independently. PyMuPDF uses automatic local OCR; full run settings identify the configuration.</p><section><h2>cvs_2025q2 · page 6</h2><p><a href="#cvs_2025q2-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Total Revenues: $98.9, $91.2; GAAP Earnings per Share: $0.80, $1.41; Cash Flow from Operations: $1.9, $3.1</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/cvs_2025q2_006.png"><img src="source_pages/cvs_2025q2_006.png" alt="Source page 6"></a></div><div class="pane" id="cvs_2025q2-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/cvs_2025q2/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/cvs_2025q2/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/cvs_2025q2/mineru_ocr/run.json">Run settings</a></p><p class="checks">789 transcribed characters; 1 HTML tables.</p><h2>Consolidated Results</h2>
 <table><tr><td>Quarter Results In billions, except per share amounts</td><td>2Q 2025</td><td>2Q 2024</td></tr><tr><td>Total Revenues</td><td>$98.9</td><td>$91.2</td></tr><tr><td>Adjusted Operating Income</td><td>$3.81</td><td>$3.74</td></tr><tr><td>GAAP Earnings per Share</td><td>$0.80</td><td>$1.41</td></tr><tr><td>Adjusted Earnings per Share</td><td>$1.81</td><td>$1.83</td></tr><tr><td>Cash Flow from Operations</td><td>$1.9</td><td>$3.1</td></tr></table>
 <h2>Business highlights</h2>
 <p>Reported a second consecutive quarter of solid results driven by the strength of our execution. We are continuing to build positive momentum across CVS Health as we work to become America's most trusted health care company.</p>
@@ -20,31 +20,12 @@ body{font:15px/1.5 system-ui;margin:24px;color:#172a3a;background:#f3f5f7}h1{fon
 <p>6</p>
 <p>©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.</p>
 <p>♥CVSHealth®</p>
-</div><div class="pane" id="cvs_2025q2-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/cvs_2025q2/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/cvs_2025q2/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/cvs_2025q2/pymupdf4llm/run.json">Run settings</a></p><p class="checks">761 transcribed characters; 0 HTML tables.</p><p><img alt="" src="../results/cvs_2025q2/pymupdf4llm/images/cvs_2025q2.pdf-5-full.png"/></p>
-<h5><strong>Consolidated Results</strong></h5>
-<p><strong>Quarter Results</strong>
-In billions, except per share amounts</p>
-<p><strong>2Q 2025</strong></p>
-<p><strong>2Q 2024</strong></p>
-<p>Reported a <strong>second consecutive</strong>
-<strong>quarter of solid results</strong> driven by the
-strength of our execution. We are
-continuing to build positive momentum
-across CVS Health as we work to
-become <strong>America’s most trusted</strong>
-<strong>health care company</strong> .</p>
-<p>We continue to make meaningful
-progress <strong>driving improvements</strong>
-<strong>within our Aetna business</strong> . This
-remains our top priority.</p>
-<p><strong>Returned $866 million to</strong>
-<strong>stockholders</strong> through our quarterly
-dividend.</p>
-<p>Total Revenues $98.9 $91.2</p>
-<p>Adjusted Operating Income $3.81 $3.74</p>
-<p>GAAP Earnings per Share $0.80 $1.41</p>
-<p>Adjusted Earnings per Share $1.81 $1.83</p>
-<p>Cash Flow from Operations $1.9 $3.1</p>
+</div><div class="pane" id="cvs_2025q2-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/cvs_2025q2/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/cvs_2025q2/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/cvs_2025q2/pymupdf4llm/run.json">Run settings</a></p><p class="checks">799 transcribed characters; 1 HTML tables.</p><h5><strong>Consolidated Results</strong></h5>
+<table><tr><th>Quarter Results<br/>&gt;Sn In billions, except per share amounts</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$98.9</td><td>$91.2</td></tr><tr><td>Adjusted Operating Income</td><td>$3.81</td><td>$3.74</td></tr><tr><td>GAAP Earnings per Share</td><td>$0.80</td><td>$1.41</td></tr><tr><td>Adjusted Earnings per Share</td><td>$1.81</td><td>$1.83</td></tr><tr><td>Cash Flow from Operations</td><td>$1.9</td><td>$3.1</td></tr></table>
+<h2><strong>Business highlights</strong> ~~<em>§__—</em>—§*~~</h2>
+<p>Reported a <strong>second consecutive quarter of solid results</strong> driven by the strength of our execution. We are continuing to build positive momentum across CVS Health as we work to become <strong>America’s most trusted health care company</strong> .</p>
+<p>We continue to make meaningful progress <strong>driving improvements within our Aetna business</strong> . This remains our top priority.</p>
+<p><strong>Returned $866 million to stockholders</strong> through our quarterly dividend.</p>
 <p>6 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.</p>
 </div></div></section><section><h2>edf_2024 · page 3</h2><p><a href="#edf_2024-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Total revenue: 3,037.1, 8,674.9, 1,693.1, 126.6, 13,531.6; EBITDA: 174.9, 192.7, (84.6), 10.4, 293.4; EBIT: 164.2, 150.1, (92.0), 6.4, 228.7</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/edf_2024_003.png"><img src="source_pages/edf_2024_003.png" alt="Source page 3"></a></div><div class="pane" id="edf_2024-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/edf_2024/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/edf_2024/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/edf_2024/mineru_ocr/run.json">Run settings</a></p><p class="checks">1,414 transcribed characters; 1 HTML tables.</p><p>EDF CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024</p>
 <table><tr><td colspan="1" rowspan="2"></td><td colspan="1" rowspan="2">Unit</td><td colspan="2" rowspan="1">Electricity supply</td><td colspan="2" rowspan="1">Gas supply</td><td colspan="1" rowspan="2">Aggregatesupplybusiness</td></tr><tr><td colspan="1" rowspan="1">Domestic</td><td colspan="1" rowspan="1">NonDomestic</td><td colspan="1" rowspan="1">Domestic</td><td colspan="1" rowspan="1">NonDomestic</td></tr><tr><td colspan="1" rowspan="2">Total revenueRevenue from sale of electricity and gasOther revenues</td><td colspan="1" rowspan="2">£'M£'M£'M</td><td colspan="1" rowspan="1">3,037.1</td><td colspan="1" rowspan="1">8,674.9</td><td colspan="1" rowspan="1">1,693.1</td><td colspan="1" rowspan="1">126.6</td><td colspan="1" rowspan="1">13,531.6</td></tr><tr><td colspan="1" rowspan="1">3,037.10.0</td><td colspan="1" rowspan="1">8,674.90.0</td><td colspan="1" rowspan="1">1,693.10.0</td><td colspan="1" rowspan="1">126.60.0</td><td colspan="1" rowspan="1">13,531.60.0</td></tr><tr><td colspan="1" rowspan="11">Total operating costsDirect fuel costsDirect costs:Transportation costsEnvironmental and social obligations costsOther direct costsIndirect costsEBITDADepreciation and amortisationEBIT</td><td colspan="1" rowspan="11">£'M£'M£'M£'M£'M£'M£'M£'M£'M£'M</td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">2,862.2</td><td colspan="1" rowspan="1">8,482.2</td><td colspan="1" rowspan="1">1,777.7</td><td colspan="1" rowspan="1">116.2</td><td colspan="1" rowspan="1">13,238.2</td></tr><tr><td colspan="1" rowspan="1">1,065.1</td><td colspan="1" rowspan="1">4,556.2</td><td colspan="1" rowspan="1">1,046.1</td><td colspan="1" rowspan="1">72.1</td><td colspan="1" rowspan="1">6,739.4</td></tr><tr><td colspan="1" rowspan="1">1,373.0</td><td colspan="1" rowspan="1">3,713.3</td><td colspan="1" rowspan="1">459.9</td><td colspan="1" rowspan="1">24.0</td><td colspan="1" rowspan="1">5,570.2</td></tr><tr><td colspan="1" rowspan="1">649.4</td><td colspan="1" rowspan="1">1,807.3</td><td colspan="1" rowspan="1">385.4</td><td colspan="1" rowspan="1">18.7</td><td colspan="1" rowspan="1">2,860.8</td></tr><tr><td colspan="1" rowspan="1">679.1</td><td colspan="1" rowspan="1">1,833.0</td><td colspan="1" rowspan="1">59.8</td><td colspan="1" rowspan="1">0.3</td><td colspan="1" rowspan="1">2,572.2</td></tr><tr><td colspan="1" rowspan="1">44.5424.0</td><td colspan="1" rowspan="1">73.0212.7</td><td colspan="1" rowspan="1">14.7271.7</td><td colspan="1" rowspan="1">4.920.1</td><td colspan="1" rowspan="1">137.2928.6</td></tr><tr><td colspan="1" rowspan="1">174.9</td><td colspan="1" rowspan="1">192.7</td><td colspan="1" rowspan="1">(84.6)</td><td colspan="1" rowspan="1">10.4</td><td colspan="1" rowspan="1">293.4</td></tr><tr><td colspan="1" rowspan="1">10.7</td><td colspan="1" rowspan="1">42.5</td><td colspan="1" rowspan="1">7.4</td><td colspan="1" rowspan="1">4.0</td><td colspan="1" rowspan="1">64.7</td></tr><tr><td colspan="1" rowspan="1">164.2</td><td colspan="1" rowspan="1">150.1</td><td colspan="1" rowspan="1">(92.0)</td><td colspan="1" rowspan="1">6.4</td><td colspan="1" rowspan="1">228.7</td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Volume</td><td colspan="1" rowspan="1">TWh, mtherms</td><td colspan="1" rowspan="1">10.5</td><td colspan="1" rowspan="1">34.5</td><td colspan="1" rowspan="1">863.9</td><td colspan="1" rowspan="1">61.6</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">WACO E/G</td><td colspan="1" rowspan="1">£/MWh,p/th</td><td colspan="1" rowspan="1">101.2</td><td colspan="1" rowspan="1">132.1</td><td colspan="1" rowspan="1">121.1</td><td colspan="1" rowspan="1">116.9</td><td colspan="1" rowspan="1"></td></tr><tr><td colspan="1" rowspan="1">Meter Points</td><td colspan="1" rowspan="1">000s</td><td colspan="1" rowspan="1">3,113.3</td><td colspan="1" rowspan="1">556.2</td><td colspan="1" rowspan="1">2,168.0</td><td colspan="1" rowspan="1">52.6</td><td colspan="1" rowspan="1">5,890.1</td></tr></table>
@@ -72,77 +53,8 @@ dividend.</p>
 </ul>
 <p>eDF</p>
 <p>Page 3 of 6</p>
-</div><div class="pane" id="edf_2024-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/edf_2024/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/edf_2024/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/edf_2024/pymupdf4llm/run.json">Run settings</a></p><p class="checks">1,470 transcribed characters; 1 HTML tables.</p><p><img alt="" src="../results/edf_2024/pymupdf4llm/images/edf_2024.pdf-2-full.png"/></p>
-<p><strong>CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024</strong></p>
-<table>
-<thead>
-<tr>
-<th>Col1</th>
-<th>Unit</th>
-<th>Electricity supply</th>
-<th>Col4</th>
-<th>Gas supply</th>
-<th>Col6</th>
-<th>Aggregate<br/>supply<br/>business</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td>** Unit**</td>
-<td><strong>Domestic</strong></td>
-<td><strong>Non</strong><br/><strong>Domestic</strong></td>
-<td><strong>Domestic</strong></td>
-<td><strong>Non</strong><br/><strong>Domestic</strong></td>
-<td><strong>Non</strong><br/><strong>Domestic</strong></td>
-</tr>
-<tr>
-<td><strong>Total revenue</strong><br/>Revenue from sale of electricity and gas<br/>Other revenues<br/></td>
-<td><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong></td>
-<td><strong>3,037.1</strong><br/>3,037.1<br/>0.0<br/></td>
-<td><strong>8,674.9</strong><br/>8,674.9<br/>0.0<br/></td>
-<td><strong>1,693.1</strong><br/>1,693.1<br/>0.0<br/></td>
-<td><strong>126.6</strong><br/>126.6<br/>0.0<br/></td>
-<td><strong>13,531.6</strong><br/>13,531.6<br/>0.0<br/></td>
-</tr>
-<tr>
-<td><br/><strong>Total operating costs</strong><br/>Direct fuel costs<br/> <br/><strong><em>Direct costs:</em></strong><br/>Transportation costs<br/>Environmental and social obligations costs<br/>Other direct costs<br/> <br/><strong>Indirect costs</strong><br/> <br/><strong>EBITDA</strong><br/>Depreciation and amortisation <br/><strong>EBIT</strong><br/></td>
-<td><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong><br/><strong>£'M</strong></td>
-<td><br/><strong>2,862.2</strong><br/>1,065.1<br/> <br/><strong>1,373.0</strong><br/>649.4<br/>679.1<br/>44.5<br/> <br/><strong>424.0</strong><br/> <br/><strong>174.9</strong><br/>10.7<br/><strong>164.2</strong><br/></td>
-<td><br/><strong>8,482.2</strong><br/>4,556.2<br/> <br/><strong>3,713.3</strong><br/>1,807.3<br/>1,833.0<br/>73.0<br/> <br/><strong>212.7</strong><br/> <br/><strong>192.7</strong><br/>42.5<br/><strong>150.1</strong><br/></td>
-<td><br/><strong>1,777.7</strong><br/>1,046.1<br/> <br/><strong>459.9</strong><br/>385.4<br/>59.8<br/>14.7<br/> <br/><strong>271.7</strong><br/> <br/><strong>(84.6)</strong><br/>7.4<br/><strong>(92.0)</strong><br/></td>
-<td><br/><strong>116.2</strong><br/>72.1<br/> <br/><strong>24.0</strong><br/>18.7<br/>0.3<br/>4.9<br/> <br/><strong>20.1</strong><br/> <br/><strong>10.4</strong><br/>4.0<br/><strong>6.4</strong><br/></td>
-<td><br/><strong>13,238.2</strong><br/>6,739.4<br/> <br/><strong>5,570.2</strong><br/>2,860.8<br/>2,572.2<br/>137.2<br/> <br/><strong>928.6</strong><br/> <br/><strong>293.4</strong><br/>64.7<br/><strong>228.7</strong><br/></td>
-</tr>
-<tr>
-<td>Volume</td>
-<td><strong>TWh, m</strong><br/><strong>therms</strong></td>
-<td>10.5</td>
-<td>34.5</td>
-<td>863.9</td>
-<td>61.6</td>
-<td></td>
-</tr>
-<tr>
-<td>WACO E/G</td>
-<td><strong>£/MWh,</strong><br/><strong>p/th</strong></td>
-<td>101.2</td>
-<td>132.1</td>
-<td>121.1</td>
-<td>116.9</td>
-<td></td>
-</tr>
-<tr>
-<td>Meter Points</td>
-<td><strong>000s</strong></td>
-<td>3,113.3</td>
-<td>556.2</td>
-<td>2,168.0</td>
-<td>52.6</td>
-<td>5,890.1</td>
-</tr>
-</tbody>
-</table>
+</div><div class="pane" id="edf_2024-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/edf_2024/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/edf_2024/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/edf_2024/pymupdf4llm/run.json">Run settings</a></p><p class="checks">1,440 transcribed characters; 1 HTML tables.</p><h2><strong>EDF</strong> EDF <strong>CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024</strong></h2>
+<table><tr><th rowspan="2"></th><th rowspan="2">Unit</th><th colspan="2">Electricity supply</th><th colspan="2">Gas supply</th><th rowspan="2">Aggregate<br/>supply<br/>business</th></tr><tr><th>Domestic</th><th>Non<br/>Domestic</th><th>Domestic</th><th>Non<br/>Domestic</th></tr><tr><td>Total revenue</td><td>£'M</td><td>3,037.1</td><td>8,674.9</td><td>1,693.1</td><td>126.6</td><td>13,531.6</td></tr><tr><td>Revenue from sale of electricity and gas<br/>Other revenues</td><td>£'M<br/>£'M</td><td>3,037.1<br/>0.0</td><td>8,674.9<br/>0.0</td><td>1,693.1<br/>0.0</td><td>126.6<br/>0.0</td><td>13,531.6<br/>0.0</td></tr><tr><td>Total operating costs</td><td>£'M</td><td>2,862.2</td><td>8,482.2</td><td>1,777.7</td><td>116.2</td><td>13,238.2</td></tr><tr><td>Direct fuel costs</td><td>£'M</td><td>1,065.1</td><td>4,556.2</td><td>1,046.1</td><td>72.1</td><td>6,739.4</td></tr><tr><td>Direct costs:</td><td>£'M</td><td>1,373.0</td><td>3,713.3</td><td>459.9</td><td>24.0</td><td>5,570.2</td></tr><tr><td>Transportation costs<br/>Environmental and social obligations costs<br/>Other direct costs<br/>Indirect costs</td><td>£'M<br/>£'M<br/>£'M<br/>£'M</td><td>649.4<br/>679.1<br/>44.5<br/>424.0</td><td>1,807.3<br/>1,833.0<br/>73.0<br/>212.7</td><td>385.4<br/>59.8<br/>14.7<br/>271.7</td><td>18.7<br/>0.3<br/>4.9<br/>20.1</td><td>2,860.8<br/>2,572.2<br/>137.2<br/>928.6</td></tr><tr><td>EBITDA</td><td>£'M</td><td>174.9</td><td>192.7</td><td>(84.6)</td><td>10.4</td><td>293.4</td></tr><tr><td>Depreciation and amortisation</td><td>£'M</td><td>10.7</td><td>42.5</td><td>7.4</td><td>4.0</td><td>64.7</td></tr><tr><td>EBIT</td><td>£'M</td><td>164.2</td><td>150.1</td><td>(92.0)</td><td>6.4</td><td>228.7</td></tr><tr><td>Volume</td><td>TWh, m<br/>therms</td><td>10.5</td><td>34.5</td><td>863.9</td><td>61.6</td><td></td></tr><tr><td>WACO E/G</td><td>£/MWh,<br/>p/th</td><td>101.2</td><td>132.1</td><td>121.1</td><td>116.9</td><td></td></tr><tr><td>Meter Points</td><td>000s</td><td>3,113.3</td><td>556.2</td><td>2,168.0</td><td>52.6</td><td>5,890.1</td></tr></table>
 <p>Notes:</p>
 <ul>
 <li>
@@ -174,7 +86,13 @@ dividend.</p>
 <h1>FOR THE YEAR ENDED 31 DECEMBER 2025</h1>
 <table><tr><td></td><td>Notes</td><td>2025£</td><td>2024£</td></tr><tr><td>Turnover</td><td>3</td><td>116,787,681</td><td>114,583,476</td></tr><tr><td>Cost of sales</td><td></td><td>(49,553,722)</td><td>(49,669,638)</td></tr><tr><td>Gross profit</td><td></td><td>67,233,959</td><td>64,913,838</td></tr><tr><td>Administrative expenses</td><td></td><td>(61,723,344)</td><td>(56,732,754)</td></tr><tr><td>Operating profit</td><td>6</td><td>5,510,615</td><td>8,181,084</td></tr><tr><td>Interest receivable and similar income</td><td>8</td><td>913,167</td><td>1,000,725</td></tr><tr><td>Interest payable and similar expenses</td><td>9</td><td>(2,809,776)</td><td>(3,288,591)</td></tr><tr><td>Other gains and losses</td><td>10</td><td>169,884</td><td>8,941,676</td></tr><tr><td>Profit before taxation</td><td></td><td>3,783,890</td><td>14,834,894</td></tr><tr><td>Tax on profit</td><td>11</td><td>(1,056,033)</td><td>(2,349,942)</td></tr><tr><td>Profit for the financial year</td><td></td><td>2,727,857</td><td>12,484,952</td></tr></table>
 <p>-18-</p>
-</div><div class="pane" id="hippodrome_2025-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/hippodrome_2025/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/hippodrome_2025/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/hippodrome_2025/pymupdf4llm/run.json">Run settings</a></p><p class="checks">No transcribed text. Any image below is a source crop, not OCR output.</p><p><img alt="" src="../results/hippodrome_2025/pymupdf4llm/images/hippodrome_2025.pdf-19-full.png"/></p>
+</div><div class="pane" id="hippodrome_2025-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/hippodrome_2025/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/hippodrome_2025/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/hippodrome_2025/pymupdf4llm/run.json">Run settings</a></p><p class="checks">624 transcribed characters; 1 HTML tables.</p><h3>HIPPODROME CASINO LIMITED</h3>
+<h5>STATEMENT OF COMPREHENSIVE INCOME</h5>
+<h5>FOR THE YEAR ENDED 31 DECEMBER 2025</h5>
+<table><tr><td>.</td><td>Notes</td><td>2025<br/>£</td><td>2024<br/>£</td></tr><tr><td>Turnover</td><td>3</td><td>116,787,681</td><td>114,583,476</td></tr><tr><td>Cost of sales</td><td></td><td>(49,553,722)</td><td>(49,669,638)</td></tr><tr><td>Gross profit</td><td></td><td>67,233,959</td><td>64,913,838</td></tr><tr><td>Administrative expenses</td><td></td><td>(61,723,344)</td><td>(56,732,754)</td></tr><tr><td>Operating profit</td><td>6</td><td>5,510,615</td><td>8,181,084</td></tr><tr><td>Interest receivable and similar income</td><td>8</td><td>913,167</td><td>1,000,725</td></tr><tr><td>Interest payable and similar expenses</td><td>9</td><td>(2,809,776)</td><td>(3,288,591)</td></tr><tr><td>Other gains and losses</td><td>10</td><td>169,884</td><td>8,941,676</td></tr><tr><td>Profit before taxation</td><td></td><td>3,783,890</td><td>14,834,894</td></tr><tr><td>Tax on profit</td><td>11</td><td>(1,056,033)</td><td>(2,349,942)</td></tr><tr><td>Profit for the financial year</td><td></td><td>2,727,857</td><td>12,484,952</td></tr></table>
+<ul>
+<li>18 -</li>
+</ul>
 </div></div></section><section><h2>peterborough_2025 · page 2</h2><p><a href="#peterborough_2025-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Tangible assets: 967,756, 992,467; Bank and cash balances: 2,751,541, 821,700; Net assets: 4,484,956, 5,194,638</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/peterborough_2025_002.png"><img src="source_pages/peterborough_2025_002.png" alt="Source page 2"></a></div><div class="pane" id="peterborough_2025-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/peterborough_2025/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/peterborough_2025/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/peterborough_2025/mineru_ocr/run.json">Run settings</a></p><p class="checks">719 transcribed characters; 1 HTML tables.</p><p>BALANCE SHEET AS AT 31 MARCH 2025</p>
 <table><tr><td>Note</td></tr><tr><td>2025 £</td></tr><tr><td>Fixed assets Tangible assets 4 967,756</td></tr><tr><td>Current assets</td></tr><tr><td>Debtors: amounts falling due within one year 5 2,278,941 4,936,255</td></tr><tr><td>Bank and cash balances 2,751,541 821,700</td></tr><tr><td>5,030,482 5,757,955 Creditors: amounts falling due within one year 6 (504,045) (508,936)</td></tr><tr><td>Net current assets 4,526,437</td></tr><tr><td>5,249,019</td></tr><tr><td>Total assets less current liabilities 5,494,193 6,241,486 Creditors: amounts falling due after more than one</td></tr><tr><td>year 7 (1,009,237) (1,046,848)</td></tr><tr><td>Net assets 4,484,956 5,194,638</td></tr><tr><td>Capital and reserves</td></tr><tr><td>Called up share capital 130 130</td></tr><tr><td>Share premium account 40,698 40,698</td></tr><tr><td>Profit and loss account 4,444,128 5,153,810</td></tr><tr><td>4,484,956 5,194,638</td></tr></table>
 <p>PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662</p>
@@ -185,7 +103,12 @@ dividend.</p>
 <p>PETERBOROUGH CARE LIMITED</p>
 <p>REGISTERED NUMBER:01814662</p>
 <p>Page 1</p>
-</div><div class="pane" id="peterborough_2025-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/peterborough_2025/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/peterborough_2025/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/peterborough_2025/pymupdf4llm/run.json">Run settings</a></p><p class="checks">No transcribed text. Any image below is a source crop, not OCR output.</p><p><img alt="" src="../results/peterborough_2025/pymupdf4llm/images/peterborough_2025.pdf-1-full.png"/></p>
+</div><div class="pane" id="peterborough_2025-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/peterborough_2025/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/peterborough_2025/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/peterborough_2025/pymupdf4llm/run.json">Run settings</a></p><p class="checks">734 transcribed characters; 1 HTML tables.</p><h2>PETERBOROUGH CARE LIMITED</h2>
+<p>REGISTERED NUMBER:01814662</p>
+<h2>BALANCE SHEET</h2>
+<h2>AS AT 31 MARCH 2025</h2>
+<table><tr><th></th><th>Note</th><th></th><th>2025<br/>£</th><th></th><th>2024<br/>£</th></tr><tr><td>Fixed assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Debtors: amounts falling due within one year</td><td>5</td><td>2,278,941</td><td></td><td>4,936,255</td><td></td></tr><tr><td>Bank and cash balances</td><td></td><td>2,751,541</td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one<br/>year</td><td>7</td><td></td><td>(1,009,237)</td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr></table>
+<p>Page 1</p>
 </div></div></section><section><h2>rolls_royce_2026h1_presentation · page 9</h2><p><a href="#rolls_royce_2026h1_presentation-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Revenue: 11,279, 9,057, 2,310, 26%; Operating profit: 2,534, 1,733, 796, 46%; Free cash flow: 1,964, 1,582, 382</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/rolls_royce_2026h1_presentation_009.png"><img src="source_pages/rolls_royce_2026h1_presentation_009.png" alt="Source page 9"></a></div><div class="pane" id="rolls_royce_2026h1_presentation-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/rolls_royce_2026h1_presentation/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_presentation/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_presentation/mineru_ocr/run.json">Run settings</a></p><p class="checks">1,150 transcribed characters; 3 HTML tables.</p><table><tr><td>Underlying results £m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change1</td><td>Organic Change %1</td></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>
 <table><tr><td>pence</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td>Change %</td></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>
 <table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>
@@ -214,24 +137,19 @@ ROYCE</p>
 <p>$^{1}$ Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&amp;A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated</p>
 <p>© 2026 Rolls-Royce. Not Subject to Export Control</p>
 <p>9</p>
-</div><div class="pane" id="rolls_royce_2026h1_presentation-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/run.json">Run settings</a></p><p class="checks">653 transcribed characters; 0 HTML tables.</p><p>2026 HALF YEAR UNDERLYING RESULTS</p>
+</div><div class="pane" id="rolls_royce_2026h1_presentation-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_presentation/pymupdf4llm/run.json">Run settings</a></p><p class="checks">1,138 transcribed characters; 3 HTML tables.</p><h3>2026 HALF YEAR UNDERLYING RESULTS</h3>
+<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change1</th><th>Organic Change %1</th></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>
+<table><tr><th>pence</th><th>H1 2026</th><th>H1 2025</th><th>Change</th><th>Change %</th></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>
+<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>
+<p>Strong results - double-digit profit and cash growth across every division</p>
+<p>Operating profit growth of £0.8bn and free cash flow growth of £0.4bn</p>
+<p>Resilient balance sheet - net cash of £2.1bn Interim dividend of 6.0p per share</p>
+<p>Best-in-class return on capital demonstrates significant value creation</p>
+<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-0009-08.png"/></p>
+<blockquote>
+<p>1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&amp;A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated</p>
+</blockquote>
 <p>9</p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-1.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-2.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-3.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-4.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-5.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_presentation/pymupdf4llm/images/rolls_royce_2026h1_presentation.pdf-8-6.png"/></p>
-<p>1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes
-M&amp;A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated</p>
-<p>Strong results - double-digit profit and
-cash growth across every division</p>
-<p>Operating profit growth of £0.8bn and
-free cash flow growth of £0.4bn</p>
-<p>Resilient balance sheet - net cash of £2.1bn
-Interim dividend of 6.0p per share</p>
-<p>Best-in-class return on capital
-demonstrates significant value creation</p>
 <p>© 2026 Rolls-Royce. Not Subject to Export Control</p>
 </div></div></section><section><h2>rolls_royce_2026h1_release · page 13</h2><p><a href="#rolls_royce_2026h1_release-mineru_vlm">Jump to this page’s VLM result</a></p><p class="checks">Source checks: Revenue: 11,448, 9,490; Cost of sales: (8,021), (6,563); Profit for the period: 1,615, 4,408</p><div class="grid"><div class="pane"><h3>Source</h3><a href="source_pages/rolls_royce_2026h1_release_013.png"><img src="source_pages/rolls_royce_2026h1_release_013.png" alt="Source page 13"></a></div><div class="pane" id="rolls_royce_2026h1_release-mineru_ocr"><h3>MinerU OCR</h3><p><a href="../results/rolls_royce_2026h1_release/mineru_ocr/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_release/mineru_ocr/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_release/mineru_ocr/run.json">Run settings</a></p><p class="checks">1,709 transcribed characters; 2 HTML tables.</p><h1>Condensed Consolidated Interim Financial Statements</h1>
 <h2>Condensed consolidated income statement For the half-year ended 30 June 2026</h2>
@@ -252,22 +170,15 @@ demonstrates significant value creation</p>
 <p>$^{3}$ In the period ended 30 June 2025, an exceptional gain on disposal was recognised as a result of the deconsolidation of Rolls-Royce SMR Limited</p>
 <p>$^{4}$ Included within net financing are fair value changes on derivative contracts. Further details can be found in notes 2, 4 and 16</p>
 <p>13</p>
-</div><div class="pane" id="rolls_royce_2026h1_release-pymupdf4llm"><h3>PyMuPDF4LLM — no OCR</h3><p><a href="../results/rolls_royce_2026h1_release/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_release/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_release/pymupdf4llm/run.json">Run settings</a></p><p class="checks">945 transcribed characters; 0 HTML tables.</p><h1><strong>Condensed Consolidated Interim Financial Statements</strong></h1>
-<p><strong>Condensed consolidated income statement</strong>
-For the half-year ended 30 June 2026</p>
-<p><strong>Half-year to</strong> Half-year to
-<strong>30 June 2026</strong> 30 June 2025</p>
-<p>Notes <strong>£m</strong> £m</p>
-<p><strong>Attributable to:</strong></p>
-<p><strong>Earnings per ordinary share attributable to ordinary shareholders:</strong> 6
-Basic <strong>19.32p</strong> 52.38p
-Diluted <strong>19.28p</strong> 52.15p</p>
-<p>1 Cost of sales includes a net charge for expected credit losses (ECLs) of £5m (30 June 2025: net release of £13m). Further detail can be found in note 12
-2 In the period ended 30 June 2025, an exceptional impairment reversal was included within both cost of sales, £176m, and research and development, £9m. Further
-details can be found in note 2
-3 In the period ended 30 June 2025, an exceptional gain on disposal was recognised as a result of the deconsolidation of Rolls-Royce SMR Limited
-4 Included within net financing are fair value changes on derivative contracts. Further details can be found in notes 2, 4 and 16</p>
+</div><div class="pane" id="rolls_royce_2026h1_release-pymupdf4llm"><h3>PyMuPDF4LLM + OCR</h3><p><a href="../results/rolls_royce_2026h1_release/pymupdf4llm/document.md">Full Markdown</a> · <a href="../results/rolls_royce_2026h1_release/pymupdf4llm/pages.json">Page JSON</a> · <a href="../results/rolls_royce_2026h1_release/pymupdf4llm/run.json">Run settings</a></p><p class="checks">1,715 transcribed characters; 1 HTML tables.</p><h1><strong>Condensed Consolidated Interim Financial Statements</strong></h1>
+<h3><strong>Condensed consolidated income statement</strong></h3>
+<p>For the half-year ended 30 June 2026</p>
+<table><tr><th></th><th>Notes</th><th>Half-year to<br/>30 June 2026<br/>£m</th><th>Half-year to<br/>30 June 2025<br/>£m</th></tr><tr><td>Revenue</td><td>2</td><td>11,448</td><td>9,490</td></tr><tr><td>Cost of sales 1, 2</td><td></td><td>(8,021)</td><td>(6,563)</td></tr><tr><td>Gross profit</td><td>2</td><td>3,427</td><td>2,927</td></tr><tr><td>Commercial and administrative costs</td><td>2</td><td>(797)</td><td>(631)</td></tr><tr><td>Research and development costs 2</td><td>2, 3</td><td>(228)</td><td>(246)</td></tr><tr><td>Share of results of joint ventures and associates</td><td></td><td>16</td><td>24</td></tr><tr><td>Operating profit</td><td></td><td>2,418</td><td>2,074</td></tr><tr><td>Gain arising on disposal of business 3</td><td></td><td>–</td><td>679</td></tr><tr><td>Profit before financing and taxation</td><td></td><td>2,418</td><td>2,753</td></tr><tr><td>Financing income</td><td>4</td><td>197</td><td>2,342</td></tr><tr><td>Financing costs</td><td>4</td><td>(684)</td><td>(254)</td></tr><tr><td>Net financing (costs)/income 4</td><td></td><td>(487)</td><td>2,088</td></tr><tr><td>Profit before taxation</td><td></td><td>1,931</td><td>4,841</td></tr><tr><td>Taxation</td><td>5</td><td>(316)</td><td>(433)</td></tr><tr><td>Profit for the period</td><td></td><td>1,615</td><td>4,408</td></tr><tr><td>Attributable to:</td><td></td><td></td><td></td></tr><tr><td>Ordinary shareholders</td><td></td><td>1,613</td><td>4,416</td></tr><tr><td>Non-controlling interests (NCI)</td><td></td><td>2</td><td>(8)</td></tr><tr><td>Profit for the period</td><td></td><td>1,615</td><td>4,408</td></tr><tr><td>Other comprehensive income/(expense) (OCI)</td><td></td><td>20</td><td>(330)</td></tr><tr><td>Total comprehensive income for the period</td><td></td><td>1,635</td><td>4,078</td></tr><tr><td>Earnings per ordinary share attributable to ordinary shareholders:</td><td>6</td><td></td><td></td></tr><tr><td>Basic</td><td></td><td>19.32p</td><td>52.38p</td></tr><tr><td>Diluted</td><td></td><td>19.28p</td><td>52.15p</td></tr></table>
+<blockquote>
+<p>1 Cost of sales includes a net charge for expected credit losses (ECLs) of £5m (30 June 2025: net release of £13m). Further detail can be found in note 12</p>
+</blockquote>
+<p>2 In the period ended 30 June 2025, an exceptional impairment reversal was included within both cost of sales, £176m, and research and development, £9m. Further details can be found in note 2</p>
+<p>3 In the period ended 30 June 2025, an exceptional gain on disposal was recognised as a result of the deconsolidation of Rolls-Royce SMR Limited</p>
+<p>4 Included within net financing are fair value changes on derivative contracts. Further details can be found in notes 2, 4 and 16</p>
 <p>13</p>
-<p><img alt="" src="../results/rolls_royce_2026h1_release/pymupdf4llm/images/rolls_royce_2026h1_release.pdf-12-0.png"/></p>
-<p><img alt="" src="../results/rolls_royce_2026h1_release/pymupdf4llm/images/rolls_royce_2026h1_release.pdf-12-3.png"/></p>
 </div></div></section></html>

@@ -23,6 +23,16 @@ def main():
                 assert [p['page'] for p in pages] == list(range(1,source['pages']+1))
                 assert len(pages) == run['parsed_pages'] == source['pages']
                 assert run['nonempty_pages'] == sum(p['text_chars']>0 for p in pages)
+                if parser == 'pymupdf4llm':
+                    assert run['settings']['ocr'] is True
+                    assert run['settings']['layout'] is True
+                    audit = json.loads((work/'ocr_pages.json').read_text())['pages']
+                    assert run['ocr_pages'] == [p['page'] for p in audit]
+                    assert len(set(run['ocr_pages'])) == len(audit)
+                    assert all(1 <= p['page'] <= source['pages'] for p in audit)
+                    if not any(source['native_text_chars']):
+                        assert run['ocr_pages'] == list(range(1, source['pages']+1)), 'Scan pages skipped OCR'
+                        assert all(p['text_chars_after'] > 0 for p in audit), 'OCR returned empty scan text'
                 for path in re.findall(r'!\[[^\]]*\]\(([^)]+)\)', md):
                     path = path.strip('<>')
                     assert not Path(path).is_absolute(), f'Nonportable image: {path}'

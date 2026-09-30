@@ -1,0 +1,52 @@
+{
+  "parser": "mineru_ocr",
+  "document": "cvs_2025q2",
+  "input_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+  "expected_pages": 12,
+  "status": "success",
+  "started_at_utc": "2026-09-29T23:55:35.349141+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+  "settings": {
+    "backend": "pipeline",
+    "method": "ocr",
+    "device": "cpu",
+    "formulas": false,
+    "tables": true,
+    "image_analysis": false
+  },
+  "versions": {
+    "mineru": "mineru, version 3.4.5"
+  },
+  "model_config": {
+    "config_version": "1.3.2",
+    "model-source": "huggingface",
+    "models-dir": {
+      "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+      "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+    }
+  },
+  "command": [
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/.venv/bin/mineru",
+    "-p",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+    "-o",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/raw",
+    "-b",
+    "pipeline",
+    "-m",
+    "ocr",
+    "-f",
+    "false",
+    "-t",
+    "true"
+  ],
+  "elapsed_seconds": 45.996,
+  "parsed_pages": 12,
+  "nonempty_pages": 12,
+  "pages_per_second": 0.2609,
+  "document_sha256": "494888ef1c351a4322bcf6a07d2fd686d0af27420d1dc0722abbbcd26cc5ef5e",
+  "exported_at_utc": "2026-09-30T00:07:09.296635+00:00"
+}

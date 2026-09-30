@@ -1,0 +1,1353 @@
+[
+    {
+        "type": "text",
+        "text": "♥CVSHealth®",
+        "text_level": 1,
+        "bbox": [
+            60,
+            277,
+            351,
+            350
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Earnings",
+        "text_level": 1,
+        "bbox": [
+            63,
+            394,
+            259,
+            481
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Conference Call",
+        "text_level": 1,
+        "bbox": [
+            63,
+            483,
+            309,
+            538
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "J. David Joyner",
+        "text_level": 1,
+        "bbox": [
+            69,
+            733,
+            231,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "President and",
+        "bbox": [
+            69,
+            777,
+            165,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chief Executive Officer",
+        "bbox": [
+            69,
+            805,
+            222,
+            831
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Brian O. Newman",
+        "text_level": 1,
+        "bbox": [
+            315,
+            733,
+            493,
+            770
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Executive Vice President and",
+        "bbox": [
+            315,
+            775,
+            509,
+            803
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Chief Financial Officer",
+        "bbox": [
+            315,
+            805,
+            463,
+            831
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Second Quarter 2025 | July 31, 2025",
+        "bbox": [
+            60,
+            129,
+            439,
+            172
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Cautionary Statement",
+        "text_level": 1,
+        "bbox": [
+            75,
+            150,
+            441,
+            211
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "concerning forward-looking statements",
+        "bbox": [
+            75,
+            216,
+            455,
+            259
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "This presentation includes forward-looking statements. The Private Securities Litigation Reform Act of 1995 provides a safe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (“CVS Health”). By their nature, all forward-looking statements are not guarantees of future performance or results and are subject to risks and uncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated by the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission filings, including those set forth in the Risk Factors section and under the heading “Cautionary Statement Concerning Forward-Looking Statements” in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form 10-Q, our recent Current Reports on Form 8-K, and this morning’s earnings press release.",
+        "bbox": [
+            71,
+            353,
+            895,
+            605
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "This presentation includes non-GAAP financial measures that we use to describe our company's performance. In accordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to the most directly comparable GAAP measures, in our press release we issued in connection with the release of our results for the second quarter of 2025 and our non-GAAP reconciliation document, which are both available on the Investor Relations portion of our website.",
+        "bbox": [
+            71,
+            637,
+            884,
+            792
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            955
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Enterprise Highlights",
+        "text_level": 1,
+        "bbox": [
+            34,
+            53,
+            381,
+            122
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Delivered consolidated revenue growth of 8.4% and adjusted EPS of \\$1.81 in the second quarter of 2025. Raised 2025 adjusted EPS guidance to a range of \\$6.30 to \\$6.40.",
+        "bbox": [
+            25,
+            187,
+            971,
+            272
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Delivering better experiences that",
+        "bbox": [
+            67,
+            322,
+            294,
+            353
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Build Trust",
+        "text_level": 1,
+        "bbox": [
+            113,
+            357,
+            250,
+            400
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Our integrated model uniquely positions us to take on the largest challenges in health care",
+        "bbox": [
+            58,
+            453,
+            300,
+            553
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "In collaboration with CMS, leading the industry forward to streamline, simplify and reduce complexities in health care",
+        "bbox": [
+            58,
+            587,
+            296,
+            720
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Committing \\$20B to support our transformation of health care through investments in technology",
+        "bbox": [
+            58,
+            753,
+            300,
+            888
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Second Quarter",
+        "bbox": [
+            450,
+            322,
+            559,
+            353
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Financial Results",
+        "text_level": 1,
+        "bbox": [
+            401,
+            357,
+            609,
+            400
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "8.4% consolidated revenue growth",
+        "bbox": [
+            405,
+            464,
+            602,
+            538
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "\\$0.80",
+        "bbox": [
+            470,
+            568,
+            535,
+            609
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GAAP EPS",
+        "bbox": [
+            468,
+            614,
+            540,
+            640
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "\\$1.81 adjusted EPS",
+        "bbox": [
+            458,
+            675,
+            550,
+            751
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "\\$6.5B year-to-date cash flow from operations",
+        "bbox": [
+            427,
+            766,
+            580,
+            874
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Full Year 2025",
+        "bbox": [
+            773,
+            322,
+            870,
+            350
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Company Guidance",
+        "text_level": 1,
+        "bbox": [
+            701,
+            353,
+            943,
+            401
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "At least \\$391.5B",
+        "bbox": [
+            738,
+            462,
+            904,
+            503
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "consolidated revenue",
+        "bbox": [
+            750,
+            507,
+            894,
+            533
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$13.77 - 13.94B$ consolidated adjusted operating income",
+        "bbox": [
+            687,
+            568,
+            956,
+            646
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "\\$6.30 - \\$6.40",
+        "bbox": [
+            751,
+            675,
+            891,
+            718
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "adjusted EPS",
+        "bbox": [
+            776,
+            720,
+            867,
+            751
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "At least \\$7.5B",
+        "bbox": [
+            750,
+            783,
+            893,
+            824
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "cash flow from operations",
+        "bbox": [
+            734,
+            827,
+            909,
+            859
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+            54,
+            937,
+            63,
+            955
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            933,
+            452,
+            959
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            955
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/aeeacf01bd2b89481c5ba03401c4c5ab94dfd03ae584f65f7ed75d1b9eb83273.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            455,
+            233,
+            543,
+            361
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "OUR FOCUS",
+        "text_level": 1,
+        "bbox": [
+            442,
+            381,
+            554,
+            418
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Becoming America's most trusted health care company",
+        "text_level": 1,
+        "bbox": [
+            226,
+            442,
+            776,
+            787
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            54,
+            937,
+            63,
+            953
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            953
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Strategic Imperatives",
+        "text_level": 1,
+        "bbox": [
+            67,
+            118,
+            466,
+            188
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Drive sustainable growth in our core businesses",
+            "▶ Deliver enterprise value across our assets",
+            "▶ Engage patients and consumers through personalized experiences",
+            "▶ Transform business operations with technology-enabled capabilities",
+            "▶ Invest in our colleagues and strengthen our culture"
+        ],
+        "bbox": [
+            63,
+            320,
+            542,
+            842
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            54,
+            937,
+            63,
+            953
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            953
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Consolidated Results",
+        "text_level": 1,
+        "bbox": [
+            34,
+            53,
+            384,
+            111
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "images/df61e15fe2b09dc08fc022d3ad146cb6f167f63391bd58af7c01a17d06f3ffed.jpg",
+        "table_caption": [
+            "▶ Quarter Results 2Q 2025 2Q 2024"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td colspan=\"3\">In billions, except per share amounts</td></tr><tr><td>Total Revenues</td><td>$98.9</td><td>$91.2</td></tr><tr><td>Adjusted Operating Income</td><td>$3.81</td><td>$3.74</td></tr><tr><td>GAAP Earnings per Share</td><td>$0.80</td><td>$1.41</td></tr><tr><td>Adjusted Earnings per Share</td><td>$1.81</td><td>$1.83</td></tr><tr><td>Cash Flow from Operations</td><td>$1.9</td><td>$3.1</td></tr></table>",
+        "bbox": [
+            52,
+            216,
+            628,
+            718
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Business highlights",
+        "text_level": 1,
+        "bbox": [
+            691,
+            201,
+            871,
+            242
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/9bc89917121592e8bb5d7ede4760bac44f81ccac277676ea91f82abdf394856d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            936,
+            227,
+            960,
+            264
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Reported a second consecutive quarter of solid results driven by the strength of our execution. We are continuing to build positive momentum across CVS Health as we work to become America's most trusted health care company.",
+        "bbox": [
+            686,
+            277,
+            951,
+            498
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "We continue to make meaningful progress driving improvements within our Aetna business. This remains our top priority.",
+        "bbox": [
+            686,
+            529,
+            912,
+            655
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Returned \\$866 million to stockholders through our quarterly dividend.",
+        "bbox": [
+            686,
+            688,
+            930,
+            779
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            54,
+            937,
+            63,
+            953
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            955
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Consolidated Guidance",
+        "text_level": 1,
+        "bbox": [
+            34,
+            53,
+            420,
+            111
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/7283cf6817e8e7e28214be2a2711fc070f784ae149dda9b782778716b87142e6.jpg",
+        "table_caption": [
+            "▶ Full Year Guidance",
+            "Full Year 2025",
+            "Full Year 2025"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions, except per share amounts and tax rate</td><td>as of July 31, 2025</td><td>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $391.5</td><td>At least $382.6</td></tr><tr><td>Adjusted Operating Income</td><td>$13.77 to $13.94</td><td>$13.31 to $13.65</td></tr><tr><td>GAAP Earnings per Share</td><td>$3.84 to $3.94</td><td>$4.23 to $4.43</td></tr><tr><td>Adjusted Earnings per Share</td><td>$6.30 to $6.40</td><td>$6.00 to $6.20</td></tr><tr><td>Cash Flow from Operations</td><td>At least $7.5</td><td>~$7.0</td></tr><tr><td>Interest Expense</td><td>~$3.11</td><td>~$3.15</td></tr><tr><td>Capital Expenditures</td><td>$2.9 to $3.1</td><td>$2.8 to $3.0</td></tr><tr><td>Adjusted Effective Tax Rate</td><td>~25.7%</td><td>~25.9%</td></tr><tr><td>Weighted Average Diluted Share Count</td><td>~1.270</td><td>~1.270</td></tr></table>",
+        "bbox": [
+            52,
+            214,
+            625,
+            909
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Business highlights",
+        "text_level": 1,
+        "bbox": [
+            691,
+            201,
+            871,
+            242
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/4a115f5788e4fe8ddcd836f403774016a931a26bab531fa592d472ed1f6cf0c3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            936,
+            227,
+            959,
+            264
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Raised 2025 adjusted EPS guidance to a range of \\$6.30 to \\$6.40.",
+        "bbox": [
+            687,
+            270,
+            950,
+            333
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "We are encouraged by our Enterprise performance and revised outlook in a dynamic environment. Our updated expectations reflect increases in our Health Care Benefits and Pharmacy and Consumer Wellness segments, while recognizing the impact of a higher medical benefit ratio in our Health Care Delivery business. The outlook for our Pharmacy Services business is unchanged.",
+        "bbox": [
+            686,
+            362,
+            952,
+            735
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Updated 2025 guidance continues to reflect our focus on building trust by setting expectations that are appropriate and achievable with opportunities for outperformance.",
+        "bbox": [
+            685,
+            762,
+            939,
+            918
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            54,
+            935,
+            63,
+            955
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            955
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Superior assets. Superior care. Superior value.",
+        "text_level": 1,
+        "bbox": [
+            55,
+            451,
+            936,
+            529
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+            54,
+            937,
+            63,
+            953
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            451,
+            959
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            953
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Health Care Benefits",
+        "text_level": 1,
+        "bbox": [
+            35,
+            53,
+            372,
+            109
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/78718dc4cea1a4c9ef09191e37ca0c2f213b18ede91c60ef3810b7c664a0abaa.jpg",
+        "table_caption": [
+            "Quarter Results"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions, except MBR and membership</td><td>1Q 2018</td><td>1Q 2017</td></tr><tr><td>Total Revenues</td><td>$36.3</td><td>$32.5</td></tr><tr><td>Adjusted Operating Income</td><td>$1.31</td><td>$0.94</td></tr><tr><td>Total Medical Membership (millions)</td><td>26.7</td><td>27.0</td></tr><tr><td>Commercial</td><td>18.8</td><td>18.8</td></tr><tr><td>Government</td><td>7.9</td><td>8.2</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>89.9%</td><td>89.6%</td></tr></table>",
+        "bbox": [
+            55,
+            216,
+            625,
+            535
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/476c2813ce13bf24417ab2cbe7cf636ff2d3e4debd4a2d858a68fa4798485ec4.jpg",
+        "table_caption": [
+            "▶ Full Year Guidance"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions, except MBR and membership</td><td>as of July 31, 2025</td><td>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $139.9</td><td>At least $138.0</td></tr><tr><td>Adjusted Operating Income</td><td>$2.42 to $2.59</td><td>$1.91 to $2.25</td></tr><tr><td>Total Medical Membership (millions)</td><td>~26.4</td><td>~26.4</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>~91.0%(at the low-end)</td><td>91.3%(at the low-end)</td></tr></table>",
+        "bbox": [
+            54,
+            609,
+            625,
+            862
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Business highlights",
+        "text_level": 1,
+        "bbox": [
+            691,
+            201,
+            871,
+            242
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/01c246c7ccf3aae63bd2053a6c84637b9e8be8e5b65c425718b7b54ef699b2fe.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            936,
+            227,
+            959,
+            264
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Second quarter adjusted operating income increased by nearly 40% year over year, driven by the favorable impact of changes to our Individual Exchange risk adjustment estimates, improved underlying performance in our Government business and higher favorable prior period development.",
+        "bbox": [
+            685,
+            279,
+            941,
+            512
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "During the second quarter, we established a \\~\\$470 million premium deficiency reserve recorded in the Group Medicare Advantage product line related to anticipated losses for the remainder of the 2025 coverage year.",
+        "bbox": [
+            685,
+            531,
+            951,
+            707
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Raised 2025 adjusted operating income guidance of \\$2.42 billion, at the low end, reflects a prudent view of medical cost trends through the remainder of the year. The biggest source of potential outperformance in our guidance will be medical cost trends.",
+        "bbox": [
+            685,
+            727,
+            951,
+            927
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+            54,
+            937,
+            63,
+            953
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            953
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Health Services",
+        "text_level": 1,
+        "bbox": [
+            35,
+            53,
+            295,
+            111
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/74e7d0781b23abdb0cceaa623ed53456665fef10940aca10924442c9d2c712a0.jpg",
+        "table_caption": [
+            "Quarter Results"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions, except pharmacy claims</td><td>1Q 2016</td><td>1Q 2017</td></tr><tr><td>Total Revenues</td><td>$46.5</td><td>$42.2</td></tr><tr><td>Adjusted Operating Income</td><td>$1.58</td><td>$1.92</td></tr><tr><td>Pharmacy Claims Processed1(millions)</td><td>469.0</td><td>471.2</td></tr></table>",
+        "bbox": [
+            52,
+            214,
+            625,
+            531
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/d9d13faa9389fcb882627efb444e8862cab3c47852d1aa196b747c718f3b94a8.jpg",
+        "table_caption": [
+            "▶ Full Year Guidance"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions</td><td>as of July 31, 2025</td><td>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $183.5</td><td>At least $181.0</td></tr><tr><td>Adjusted Operating Income</td><td>At least $7.34</td><td>At least $7.54</td></tr><tr><td>Pharmacy Claims Processed1</td><td>At least 1.91</td><td>At least 1.93</td></tr></table>",
+        "bbox": [
+            52,
+            609,
+            625,
+            901
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Business highlights",
+        "text_level": 1,
+        "bbox": [
+            691,
+            201,
+            871,
+            242
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/a25334ba571c33038b19dfa03901a81d80a97a121174f025e80000c5aaa17e82.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            936,
+            227,
+            960,
+            264
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Second quarter adjusted operating income decreased \\~18% year over year, driven by continued pharmacy client price improvements and the impact of a higher medical benefit ratio within our health care delivery business, partially offset by improved purchasing economics and pharmacy drug mix.",
+        "bbox": [
+            686,
+            279,
+            950,
+            512
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Health Care Delivery experienced continued strong patient growth at Oak Street and increased in-home health evaluation volumes at Signify.",
+        "bbox": [
+            686,
+            542,
+            950,
+            662
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Updated 2025 adjusted operating income guidance to at least \\$7.34 billion, reflecting a \\~\\$200 million decrease in our Health Care Delivery business driven by a higher medical benefit ratio at Oak Street. The outlook for our Pharmacy Services business is unchanged.",
+        "bbox": [
+            685,
+            692,
+            951,
+            896
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            55,
+            935,
+            69,
+            955
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            954,
+            955
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Pharmacy & Consumer Wellness",
+        "text_level": 1,
+        "bbox": [
+            34,
+            53,
+            569,
+            118
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/395923ad9930b5ff941e43b646a983b9066acd6c2b713d5cc545af56680bb206.jpg",
+        "table_caption": [
+            "Quarter Results"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions, except prescriptions filled</td><td>1Q 2018</td><td>1Q 2017</td></tr><tr><td>Total Revenues</td><td>$33.6</td><td>$29.8</td></tr><tr><td>Adjusted Operating Income</td><td>$1.34</td><td>$1.24</td></tr><tr><td>Prescriptions Filled1(millions)</td><td>438.1</td><td>420.4</td></tr></table>",
+        "bbox": [
+            52,
+            216,
+            625,
+            531
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/378a16fc7bdf4661e6bd5d31b506ee466db530bb2525bfb274aca1e9ecd3e9ba.jpg",
+        "table_caption": [
+            "▶ Full Year Guidance"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>In billions</td><td>as of July 31, 2025</td><td>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $137.5</td><td>At least $133.0</td></tr><tr><td>Adjusted Operating Income</td><td>At least $5.68</td><td>At least $5.48</td></tr><tr><td>Prescriptions Filled1</td><td>At least 1.80</td><td>At least 1.77</td></tr></table>",
+        "bbox": [
+            52,
+            609,
+            625,
+            901
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Business highlights",
+        "text_level": 1,
+        "bbox": [
+            691,
+            201,
+            871,
+            242
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Second quarter adjusted operating income increased nearly 8% year over year, primarily driven by increased prescription and front store volume, partially offset by continued pharmacy reimbursement pressure.",
+        "bbox": [
+            686,
+            279,
+            935,
+            451
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Same store pharmacy sales and same store prescription volumes increased by $\\sim 18\\%^{2}$ and $\\sim 6\\%^{2}$ , respectively, over the prior year quarter.",
+        "bbox": [
+            686,
+            474,
+            942,
+            590
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Continued growth in retail pharmacy script share, reaching \\~27.8% in the second quarter.",
+        "bbox": [
+            686,
+            612,
+            928,
+            700
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Raised 2025 adjusted operating income guidance to at least \\$5.68 billion, reflecting a \\~\\$200 million increase, driven by our strong first half performance, while continuing to maintain a prudent outlook for the remainder of the year.",
+        "bbox": [
+            685,
+            720,
+            950,
+            894
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "images/38467866525b5710e213e65de693b97500d38ae32654309b930860d6b08b341c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            936,
+            227,
+            959,
+            264
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            55,
+            935,
+            66,
+            955
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.",
+        "bbox": [
+            89,
+            935,
+            452,
+            959
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            953
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Footnotes",
+        "text_level": 1,
+        "bbox": [
+            71,
+            161,
+            240,
+            212
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Second Quarter 2025",
+        "text_level": 1,
+        "bbox": [
+            71,
+            225,
+            280,
+            266
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "1. Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.",
+            "2. Same store sales and prescription volume represent the change in revenues and prescriptions filled in the Company's retail pharmacy stores that have been operating for greater than one year and digital sales initiated online or through mobile applications and fulfilled through the Company's distribution centers, expressed as a percentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics exclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics to evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding existing stores and new locations. Same-store metrics provide management and investors with information useful in understanding the portion of current revenues and prescriptions resulting from organic growth in existing locations versus the portion resulting from opening new stores."
+        ],
+        "bbox": [
+            75,
+            355,
+            850,
+            705
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "♥CVSHealth®",
+        "bbox": [
+            846,
+            924,
+            953,
+            955
+        ],
+        "page_idx": 11
+    }
+]

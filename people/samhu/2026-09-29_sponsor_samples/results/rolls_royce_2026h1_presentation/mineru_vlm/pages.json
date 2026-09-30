@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+  "parser": "mineru_vlm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "# HALF YEAR RESULTS 2026\n\nROLLS\nRR\nROYCE\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n",
+      "native": {
+        "page_idx": 0
+      },
+      "text_chars": 272,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "![Extracted image](images/518770143069ce8cc94a94905e4e2331c05aea49e40af5d724daabcc9fb35be1.jpg)\n\n\n\n# SAFE HARBOUR STATEMENT\n\nThis announcement contains certain forward-looking statements. These forward-looking statements can be identified by the fact that they do not relate only to historical or current facts. In particular, all statements that express forecasts, expectations and projections with respect to future matters, including trends in results of operations, margins, growth rates, overall market trends, the impact of interest or exchange rates, the availability of financing to the Company, anticipated cost savings or synergies and the completion of the Company's strategic transactions, are forward-looking statements. By their nature, these statements and forecasts involve risk and uncertainty because they relate to events and depend on circumstances that may or may not occur in the future. There are a number of factors that could cause actual results or developments to differ materially from those expressed or implied by these forward-looking statements and forecasts.\n\nThe forward-looking statements reflect the knowledge and information available at the date of preparation of this announcement and will not be updated during the year. Nothing in this announcement should be construed as a profit forecast. All figures are on an underlying basis unless otherwise stated - for the definition see note 2 to the condensed consolidated financial statements section of the 2026 Half Year Results Statement.\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n2\n",
+      "native": {
+        "page_idx": 1
+      },
+      "text_chars": 1490,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "# 01\n\n# TUFAN ERGINBILGIC\n\n# Chief Executive Officer\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n",
+      "native": {
+        "page_idx": 2
+      },
+      "text_chars": 109,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "# STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED\n\nTransforming Rolls-Royce into a high performing, competitive, resilient, and growing business\n\n- ■ Significant operational and strategic progress\n- ■ Strong first half results driven by transformation and business improvements\n- FY26 guidance raised\n- ■ Further confidence in mid-term guidance\n- 6.0p interim dividend announced\n- - On track for £2.5bn share buyback in 2026\n- ■ Resilient and diversified portfolio with significant growth potential\n\n![Extracted image](images/ad831f94cbe01a9d1273d68afadc13749cc7131627e231b67c280e2cc8ad0c6e.jpg)\n\n\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n4\n",
+      "native": {
+        "page_idx": 3
+      },
+      "text_chars": 546,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "# STRONG OPERATIONAL AND FINANCIAL PERFORMANCE\n\n# KEY GROUP FINANCIAL METRICS\n\nOperating profit¹\n£2.5bn\n\n+46% yoy\n\nOperating margin¹\n\n22.5%\n\n+3.1pts yoy\n\nFree cash flow\n\n£2.0bn\n\n+24% yoy\n\nReturn on capital\n\n22%\n\n+5.1pts yoy\n\n# DIVISIONAL OPERATING MARGIN¹\n\n![Extracted image](images/68de742af1b546b167d4839ce0ff8fee844bf4a174b8d2b371616f1329012dca.jpg)\n\n\n\nCIVIL AEROSPACE\n\n25.3%\n\n+0.5pts\n\nDEFENCE\n\n21.0%\n\n+5.4pts\n\nPOWER SYSTEMS\n\n20.3%\n\n+5.3pts\n\nROLLS\nROYCE\n\n$^{1}$ Operating profit and operating margin shown on an underlying basis\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n5\n",
+      "native": {
+        "page_idx": 4
+      },
+      "text_chars": 454,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "# CONTINUED STRATEGIC PROGRESS\n\n![Extracted image](images/813727be879c7213abcafc2d4c687a1ab729c024ec14b09151472256d6e751f7.jpg)\n\n\n\nContract and LTSA margin improvement across in-production engines\n\n![Extracted image](images/5b69d1b9e8919ddfcc1eb88c7b8a1ec011b66c98e72692c3bd7edbfc2180dff9.jpg)\n\n\n\nMore than 100% improvement in time on wing of in-production engines with cash benefits significantly beyond the mid-term\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n6\n",
+      "native": {
+        "page_idx": 5
+      },
+      "text_chars": 282,
+      "confidence": null
+    },
+    {
+      "page": 7,
+      "markdown": "# CONTINUED STRATEGIC PROGRESS\n\n# 1. Portfolio choices & partnerships\n\n- • Power Systems capacity expansion and next generation engine development on track\n- - Beneficiary of the UK Defence Investment Plan and NATO summit commitments\n- - Civil Aerospace - MRO $^{1}$ capacity expansion across the network\n- - Project Sunrise A350-1000ULR test flight; Falcon 10X first flight\n\n# 2. Strategic initiatives\n\n- - Growing Civil LTSA margins $^{2}$\n- - Continued progress towards Time on Wing target\n- - Best-in-class AOG $^{3}$ benefitting us and our customers\n- • Strong Trent 1000 XE commercial momentum\n- - Defence - global leader in autonomous propulsion\n- - Power Systems - capturing strong growth in power generation and governmental\n\n# 3. Efficiency & simplification\n\n- • Further improvement of TCC/GM ratio to 0.27x\n- - Second phase of efficiency programme to support disciplined growth...\n- - ...including GBS $^{4}$ scale-up and further SIOP $^{5}$ improvements\n- - ...alongside further digital and lean manufacturing benefits\n\n# 4. Lower carbon & digitally enabled businesses\n\n- - Trent XWB-84 EP fuel efficiency above target\n- - Rolls-Royce SMR - selected in Sweden; contracts signed in UK and Czech Republic\n- - Digital thread across engineering, MRO, and the supply chain to drive further efficiencies and effectiveness\n\nROLLS\nRR\nROYCE\n\n$^{1}$ Maintenance, Repair, and Overhaul; $^{2}$ For in-production engines; $^{3}$ Aircraft on Ground; $^{4}$ Group Business Services; $^{5}$ Sales, Inventory, Operational Planning\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n7\n",
+      "native": {
+        "page_idx": 6
+      },
+      "text_chars": 1495,
+      "confidence": null
+    },
+    {
+      "page": 8,
+      "markdown": "# 02\n\n# HELEN McCABE\n\n# Chief Financial Officer\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n",
+      "native": {
+        "page_idx": 7
+      },
+      "text_chars": 104,
+      "confidence": null
+    },
+    {
+      "page": 9,
+      "markdown": "# 2026 HALF YEAR UNDERLYING RESULTS\n\n<table><tr><td>Underlying results£m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change1</td><td>Organic Change %1</td></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>\n\n<table><tr><td>pence</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td>Change %</td></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>\n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>\n\nStrong results - double-digit profit and cash growth across every division\n\nOperating profit growth of £0.8bn and free cash flow growth of £0.4bn\n\nResilient balance sheet - net cash of £2.1bn\nInterim dividend of 6.0p per share\n\nBest-in-class return on capital\ndemonstrates significant value creation\n\nROLLS\nRR\nROYCE\n\n$^{1}$ Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n9\n",
+      "native": {
+        "page_idx": 8
+      },
+      "text_chars": 1157,
+      "confidence": null
+    },
+    {
+      "page": 10,
+      "markdown": "# CIVIL AEROSPACE\n\n![Extracted image](images/18369230653f7c4bec57dbaccce8e3ce80bee0c2ebba556243def64e7f3fd8de.jpg)\n\n\n\n<table><tr><td>Underlying results£m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>6,186</td><td>4,786</td><td>1,380</td><td>29%</td></tr><tr><td>Gross profit</td><td>1,857</td><td>1,477</td><td>378</td><td>26%</td></tr><tr><td>Gross margin %</td><td>30.0%</td><td>30.9%</td><td>(0.8)pts</td><td></td></tr><tr><td>Operating profit</td><td>1,567</td><td>1,193</td><td>374</td><td>31%</td></tr><tr><td>Operating margin %</td><td>25.3%</td><td>24.9%</td><td>0.5pts</td><td></td></tr><tr><td>Trading cash flow</td><td>1,458</td><td>1,111</td><td>347</td><td>31%</td></tr></table>\n\n![Extracted image](images/e8eaa3221a73de4fd2dbbab7c8666d7dd674e5af66774847213fe373d0830378.jpg)\n\n\n\nUNDERLYING REVENUE SPLITS\n\n# KEY POINTS\n\n- • 29% revenue growth, 31% profit growth\n- - Higher large engine aftermarket profit across LTSA and time and materials\n- - Higher net contractual margin improvements\n- • Stronger business aviation performance\n\nOE DELIVERIES\n\n279 +18%\n\nLARGE ENGINE OE DELIVERIES\n\n157 +29%\n\nLTSA ENGINE FLYING HOURS\n\n10.0m +5%\n\nTOTAL LTSA SHOP VISITS\n\n712 +2%\n\nROLLS\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n10\n",
+      "native": {
+        "page_idx": 9
+      },
+      "text_chars": 721,
+      "confidence": null
+    },
+    {
+      "page": 11,
+      "markdown": "<table><tr><td>Underlying results£m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>2,484</td><td>2,223</td><td>358</td><td>17%</td></tr><tr><td>Gross profit</td><td>639</td><td>462</td><td>192</td><td>42%</td></tr><tr><td>Gross margin %</td><td>25.7%</td><td>20.8%</td><td>4.6pts</td><td></td></tr><tr><td>Operating profit</td><td>522</td><td>342</td><td>192</td><td>57%</td></tr><tr><td>Operating margin %</td><td>21.0%</td><td>15.4%</td><td>5.4pts</td><td></td></tr><tr><td>Trading cash flow</td><td>615</td><td>327</td><td>288</td><td>88%</td></tr></table>\n\n![Extracted image](images/9679a5bb51eb533587c341ef093bfcfe79e0567bdbe4e3d07168c75dd0f545b8.jpg)\n\n\n\nUNDERLYING REVENUE SPLITS\n\n# KEY POINTS\n\n- • 17% revenue growth, 57% profit growth\n- - Higher aftermarket profit across transport and combat\n- - Continued self-help benefits\n- - Submarines growth\n\n# ORDER INTAKE\n\n# £2.4bn\n\n# Book-to-bill ratio 1.0x\n\n# ORDER BACKLOG\n\n# £17.5bn\n\n-7%\n\nDEFENCE\n\n\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n11\n",
+      "native": {
+        "page_idx": 10
+      },
+      "text_chars": 588,
+      "confidence": null
+    },
+    {
+      "page": 12,
+      "markdown": "# POWER SYSTEMS\n\n![Extracted image](images/1b0c765819c94e4e234d7dd2ef9816e03b662dbaa7dcad0a07f265bb4b9c1c22.jpg)\n\n\n\n<table><tr><td>Underlying results£m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>2,604</td><td>2,042</td><td>573</td><td>28%</td></tr><tr><td>Gross profit</td><td>901</td><td>635</td><td>267</td><td>42%</td></tr><tr><td>Gross margin %</td><td>34.6%</td><td>31.1%</td><td>3.4pts</td><td></td></tr><tr><td>Operating profit</td><td>528</td><td>313</td><td>224</td><td>72%</td></tr><tr><td>Operating margin %</td><td>20.3%</td><td>15.3%</td><td>5.3pts</td><td></td></tr><tr><td>Trading cash flow</td><td>507</td><td>425</td><td>82</td><td>19%</td></tr></table>\n\n![Extracted image](images/ab8bcad649a2caa731e735bb226318fffe6b5f5d5e3de55f71500c705507d912.jpg)\n\n\n\nUNDERLYING REVENUE SPLITS\n\n■ Power Generation\n\n■ Governmental\n\nMarine\n\nIndustrial\n\nBESS¹\n\n▲ 41%\n\n▲ 25%\n\n▲ 0%\n\n▲ 13%\n\n31%\n\n# KEY POINTS\n\n- • 28% revenue growth, 72% profit growth\n- - Strong power generation profit growth, driven by data centres\n- • Higher governmental profit\n- - Continued cost control\n\n# ORDER INTAKE\n\n# £4.6bn\n\n# Book-to-bill ratio 1.8x\n\n# ORDER BACKLOG\n\n# £8.0bn\n\n# +42%\n\nROLLS\nROYCE\n\n$^{1}$ Battery Energy Storage Systems\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n12\n",
+      "native": {
+        "page_idx": 11
+      },
+      "text_chars": 726,
+      "confidence": null
+    },
+    {
+      "page": 13,
+      "markdown": "# SUMMARY FUNDS FLOW\n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Underlying operating profit</td><td>2,534</td><td>1,733</td><td>801</td></tr><tr><td>Net investments1</td><td>(73)</td><td>37</td><td>(110)</td></tr><tr><td>Movement in Civil LTSA balance, net of RRSAs2</td><td>86</td><td>472</td><td>(386)</td></tr><tr><td>Working capital, excluding Civil Net LTSA</td><td>65</td><td>(22)</td><td>87</td></tr><tr><td>Movement in provisions</td><td>(159)</td><td>(294)</td><td>135</td></tr><tr><td>Settlement of excess derivatives</td><td>(27)</td><td>(116)</td><td>89</td></tr><tr><td>Net interest</td><td>(7)</td><td>14</td><td>(21)</td></tr><tr><td>Tax</td><td>(525)</td><td>(259)</td><td>(266)</td></tr><tr><td>Other</td><td>70</td><td>17</td><td>53</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr></table>\n\n# KEY DRIVERS OF HIGHER YEAR ON YEAR FCF\n\n- • Higher underlying operating profit\n- - Higher net investments as we invest for future profitable growth\n- - Lower net LTSA balance growth due to more shop visits and business improvements\n- - Broadly similar working capital performance\n- - Movement in provisions reflects renegotiations of onerous contracts\n- - Higher cash tax costs\n\nROLLS\nRR\nROYCE\n\n$^{1}$ Net investments = D&A – capital element of lease payments – capital expenditure – investment $^{2}$ Risk and Revenue Sharing Arrangements\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n13\n",
+      "native": {
+        "page_idx": 12
+      },
+      "text_chars": 978,
+      "confidence": null
+    },
+    {
+      "page": 14,
+      "markdown": "# CAPITAL FRAMEWORK\n\nMaintaining resilience, investing strategically, and rewarding shareholders\n\n1 STRONG BALANCE SHEET\n\n- • Net cash position of £2.1bn\n- • £1.1bn of bonds repaid from cash\n- • €1bn of bonds issued maturing in 2031 and 2036\n- - Upgraded to A3 / A- rating by Moody’s / Fitch\n\n2 REGULAR AND GROWING DIVIDENDS\n\n- • Interim dividend of 6.0p\n- • Target annual payout of 30%-40% of underlying profit after tax\n\n3 FURTHER INVESTMENTS & SHAREHOLDER DISTRIBUTIONS\n\n- • 2026 £2.5bn share buyback progressing: £1.4bn completed\"\n- • Disciplined investments: strategically aligned and value creative\n\nROLLS\nR\nROYCE\n\n$^{1}$ As of 29 July 2026\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n14\n",
+      "native": {
+        "page_idx": 13
+      },
+      "text_chars": 670,
+      "confidence": null
+    },
+    {
+      "page": 15,
+      "markdown": "# 03\n\n# TUFAN ERGINBILGIC\n\n# Chief Executive Officer\n\nROLLS\nRR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n",
+      "native": {
+        "page_idx": 14
+      },
+      "text_chars": 109,
+      "confidence": null
+    },
+    {
+      "page": 16,
+      "markdown": "# FULL YEAR 2026 GUIDANCE RAISED\n\nStrong delivery driven by transformation gives us confidence to raise our FY26 guidance\n\n![Extracted image](images/0a2ac4e3652e397cd0a6d54b545e3954ec4219169e5450ca7fb18d38875fc940.jpg)\n\n\n\nOperating profit¹\n\n![Extracted image](images/69750aed05d1dd870246a9460071e49ad340ffab34c2c0370f7e3726e70783d5.jpg)\n\n\n\nFree cash flow\n\nCivil Aerospace drivers\n\n<table><tr><td>Large engine EFH</td><td>Towards the lower end of the range of 115-120% of 2019</td></tr><tr><td>Total OE deliveries</td><td>550-600</td></tr><tr><td>Total shop visits</td><td>1,480-1,550</td></tr></table>\n\nROLLS\nRR\nROYCE\n\n$^{1}$ Underlying operating profit\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n16\n",
+      "native": {
+        "page_idx": 15
+      },
+      "text_chars": 408,
+      "confidence": null
+    },
+    {
+      "page": 17,
+      "markdown": "# ACHIEVING THE ROLLS-ROYCE PROPOSITION\n\n# OUR TRANSFORMATION\n\n- ■ Significant operational and strategic progress\n- ■ Strong first half results driven by transformation and business improvements\n- ■ FY26 guidance raised\n- ■ Further confidence in mid-term guidance\n- ■ 6.0p interim dividend announced\n- - On track for £2.5bn share buyback in 2026\n- ■ Resilient and diversified portfolio with significant growth potential\n\n1. HIGH PERFORMING, COMPETITIVE, AND RESILIENT BUSINESS\n\n2. GROWING SUSTAINABLE CASH FLOWS\n\n3. STRONG BALANCE SHEET AND GROWING SHAREHOLDER RETURNS\n\nROLLS\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\n17\n",
+      "native": {
+        "page_idx": 16
+      },
+      "text_chars": 599,
+      "confidence": null
+    },
+    {
+      "page": 18,
+      "markdown": "# Q&A\n\nROLLS\nR\nROYCE\n\n© 2026 Rolls-Royce. Not Subject to Export Control\n\nPhoto courtesy of Boeing\n",
+      "native": {
+        "page_idx": 17
+      },
+      "text_chars": 92,
+      "confidence": null
+    },
+    {
+      "page": 19,
+      "markdown": "![Extracted image](images/12ce38ff22c6e5b7e30409f9e00bad57995cbbff1b32be1ea85b94d145e5433f.jpg)\n\n\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n",
+      "native": {
+        "page_idx": 18
+      },
+      "text_chars": 234,
+      "confidence": null
+    }
+  ]
+}

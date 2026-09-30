@@ -2,6 +2,22 @@
 
 Six sponsor PDFs, 140 physical pages, three parser configurations. Full-document results are organized by document, then parser. Start with the [visual comparison](evaluation/REVIEW.html), [concrete source-level examples](OBSERVATIONS.md), [per-document CSV](evaluation/metrics.csv), or [complete metrics and failed-row evidence](evaluation/metrics.json).
 
+## What each pipeline actually does
+
+OCR means recognizing text from page images. A VLM (vision-language model) reads images and generates text or structured output. These runs use three different extraction approaches:
+
+| Pipeline tested | How it reads a PDF | Exact setup |
+|---|---|---|
+| **MinerU OCR** | Separate layout, text-recognition and table models process page images. OCR is forced even when the PDF already contains selectable text. | MinerU **3.4.5**, `pipeline` backend, local **PDF-Extract-Kit-1.0** models, CPU. Table recognition on; formula recognition off. |
+| **MinerU local VLM** | A vision-language model reads page regions and produces text and tables, including from scans. | MinerU **3.4.5**, `vlm-engine` backend, local **MinerU2.5-Pro-2605-1.2B** model, MLX runtime on Apple Silicon. Table recognition on; formula recognition and optional figure descriptions off. |
+| **PyMuPDF4LLM — native text** | Reads the PDF's existing text, positions, fonts and drawing lines; uses rules to arrange text and tables into Markdown. **No OCR, VLM or LLM runs in this configuration.** | PyMuPDF4LLM **0.2.9** + PyMuPDF **1.28.2**, `to_markdown(page_chunks=True)`, default `lines_strict` table detection, image crops saved at 100 DPI. No optional layout extension. |
+
+**Does PyMuPDF support OCR?** Yes: PyMuPDF offers [Tesseract-based OCR](https://pymupdf.readthedocs.io/en/latest/recipes-ocr.html), and the [current PyMuPDF4LLM documentation](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/) describes additional layout/OCR support. Those paths were **not enabled or evaluated here**. “4LLM” means the output is suitable for a downstream LLM; this tested pipeline does not call one. The two scanned filings therefore yield image crops without searchable text. Saving an image is not the same as reading its contents.
+
+**VLM setting clarification:** `--image-analysis false` disables optional descriptions of figures/charts; the VLM still reads page images to extract text and tables. The shared command includes `-m ocr`, but that switch does not select a separate OCR stage for the `vlm-engine` backend.
+
+All three run locally, followed by a common export step that creates Markdown with HTML tables, page JSON and metadata. This standardizes the files without repairing predictions. Each output folder's `run.json` records its command, settings and model snapshot. This is a comparison of these specific configurations; it does not measure every feature available in each package.
+
 ## Runtime and coverage
 
 These are single-run local wall times on an Apple M1 Pro with 16 GiB RAM, including process startup and model loading, excluding source downloads, common-format export and evaluation. MinerU weights were already cached. The parser configurations ran sequentially; ordinary development, output checks and diagnostic scoring overlapped parts of the batches, so these are observed end-to-end costs, not isolated latency measurements or a controlled throughput benchmark. No hosted inference API was used.

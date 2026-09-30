@@ -1,0 +1,53 @@
+{
+  "parser": "mineru_vlm",
+  "document": "rolls_royce_2026h1_release",
+  "input_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+  "expected_pages": 52,
+  "status": "success",
+  "started_at_utc": "2026-09-30T00:39:21.906721+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+  "settings": {
+    "backend": "vlm-engine",
+    "method": "vlm",
+    "device": "auto (MLX on Apple Silicon)",
+    "formulas": false,
+    "tables": true,
+    "image_analysis": false
+  },
+  "versions": {
+    "mineru": "mineru, version 3.4.5"
+  },
+  "model_config": {
+    "config_version": "1.3.2",
+    "model-source": "huggingface",
+    "models-dir": {
+      "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+      "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+    }
+  },
+  "command": [
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/.venv/bin/mineru",
+    "-p",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_release.pdf",
+    "-o",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm/raw",
+    "-b",
+    "vlm-engine",
+    "-m",
+    "ocr",
+    "-f",
+    "false",
+    "-t",
+    "true",
+    "--image-analysis",
+    "false"
+  ],
+  "elapsed_seconds": 1626.114,
+  "parsed_pages": 52,
+  "nonempty_pages": 52,
+  "pages_per_second": 0.032,
+  "document_sha256": "f5d1d75f019365fb492dc9704ac9cb8f4fe66ebda468e9c1fbf97c9d0b232af2"
+}

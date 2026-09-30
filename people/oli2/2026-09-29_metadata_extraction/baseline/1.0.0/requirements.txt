@@ -1,0 +1,2 @@
+# Extraction uses only the Python standard library. Evaluation and tests use:
+jsonschema==4.25.1

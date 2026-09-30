@@ -1,0 +1,520 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "O6 metadata extraction record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "ruleset_version",
+    "document_id",
+    "provenance",
+    "document_type",
+    "reference_period",
+    "reference_date",
+    "document_date",
+    "status",
+    "evidence",
+    "warnings",
+    "runtime"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "ruleset_version": {
+      "type": "string"
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_path",
+        "parser",
+        "parser_versions",
+        "source_sha256",
+        "input_hashes",
+        "line_endings_normalized",
+        "source_kind",
+        "page_count",
+        "source_revision",
+        "parser_selection",
+        "manifest_sha256_utf8_lf",
+        "code_sha256_utf8_lf"
+      ],
+      "properties": {
+        "input_path": {
+          "type": "string"
+        },
+        "parser": {
+          "enum": [
+            "pymupdf4llm",
+            "mineru_ocr",
+            "mineru_vlm"
+          ]
+        },
+        "parser_versions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "input_hashes": {
+          "type": "object",
+          "minProperties": 4,
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "checkout_sha256",
+              "utf8_lf_sha256"
+            ],
+            "properties": {
+              "checkout_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "utf8_lf_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            }
+          }
+        },
+        "line_endings_normalized": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_kind": {
+          "enum": [
+            "digital",
+            "scanned"
+          ]
+        },
+        "page_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "parser_selection": {
+          "const": "fixed_input_outside_O6_scope"
+        },
+        "manifest_sha256_utf8_lf": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "code_sha256_utf8_lf": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "document_type": {
+      "$ref": "#/$defs/typeDecision"
+    },
+    "reference_period": {
+      "$ref": "#/$defs/periodDecision"
+    },
+    "reference_date": {
+      "$ref": "#/$defs/dateDecision"
+    },
+    "document_date": {
+      "$ref": "#/$defs/dateDecision"
+    },
+    "status": {
+      "$ref": "#/$defs/status"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "file",
+          "json_pointer",
+          "page",
+          "start",
+          "end",
+          "quote"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^e[1-9][0-9]*$"
+          },
+          "file": {
+            "type": "string"
+          },
+          "json_pointer": {
+            "type": "string"
+          },
+          "page": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "runtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_validation_seconds",
+        "rules_seconds",
+        "total_seconds",
+        "python",
+        "platform"
+      ],
+      "properties": {
+        "input_validation_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rules_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "total_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "python": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "status": {
+      "enum": [
+        "resolved",
+        "ambiguous",
+        "not_found"
+      ]
+    },
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "year",
+        "kind",
+        "number"
+      ],
+      "properties": {
+        "year": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2199
+        },
+        "kind": {
+          "enum": [
+            "year",
+            "half",
+            "quarter"
+          ]
+        },
+        "number": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 4
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "year"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "number": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "half"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "number": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "maximum": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "role",
+        "rule_id",
+        "priority",
+        "evidence_ids",
+        "exclusion_reason",
+        "disposition"
+      ],
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            {
+              "$ref": "#/$defs/period"
+            }
+          ]
+        },
+        "role": {
+          "type": "string"
+        },
+        "rule_id": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "integer"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "exclusion_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "disposition": {
+          "enum": [
+            "selected",
+            "competing",
+            "lower_priority",
+            "excluded"
+          ]
+        }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "role",
+        "status",
+        "rule_id",
+        "evidence_ids",
+        "candidates"
+      ],
+      "properties": {
+        "value": {},
+        "role": {
+          "type": "string"
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "rule_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/candidate"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "resolved"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "not": {
+                  "type": "null"
+                }
+              },
+              "rule_id": {
+                "type": "string"
+              },
+              "evidence_ids": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "rule_id": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "typeDecision": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/decision"
+        },
+        {
+          "properties": {
+            "value": {
+              "enum": [
+                null,
+                "earnings_presentation",
+                "results_presentation",
+                "results_press_release",
+                "annual_financial_statements",
+                "unaudited_financial_statements",
+                "consolidated_segmental_statement"
+              ]
+            },
+            "role": {
+              "const": "document_type"
+            }
+          }
+        }
+      ]
+    },
+    "periodDecision": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/decision"
+        },
+        {
+          "properties": {
+            "value": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "$ref": "#/$defs/period"
+                }
+              ]
+            },
+            "role": {
+              "const": "reporting_period"
+            }
+          }
+        }
+      ]
+    },
+    "dateDecision": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/decision"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date"
+            },
+            "role": {
+              "enum": [
+                "reporting_period_end",
+                "presentation_event",
+                "announcement",
+                "document_date"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

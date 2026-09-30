@@ -1,0 +1,5 @@
+# Preserve exact bytes for archived integrity hashes and recorded comparisons.
+# This applies only to the O6 experiment; it does not change teammate files.
+* -text
+# CSV's recorded CRLF terminators are intentional; still check other whitespace.
+*.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

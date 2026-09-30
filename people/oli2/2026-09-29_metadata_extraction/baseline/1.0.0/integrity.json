@@ -1,0 +1,19 @@
+{
+  "ruleset_version": "1.0.0",
+  "policy": "Exact first-run bytes; do not regenerate or overwrite. Original results/ files are also retained.",
+  "sha256": {
+    "README.md": "86ced338503bf5d95d93a0073ea287410cea02249038c48251082740470ac893",
+    "input_manifest.json": "f69e2fe31ac2595ade5d48978baba43f303bf5c863bdded7f66cc05510be442e",
+    "metadata.schema.json": "76dabe80acb423442b2844df988eba244dd421186b55770ee46c5046c5837392",
+    "extract.py": "b140fe3a5df96ace76a248d7c9604ea39f81d66afead640050fab3ce2804a2d0",
+    "inputs.py": "4ab0efee34618b0702c11d3b1cb015ca78cc51069e223c234a0df971cb754fe5",
+    "rules.py": "2b6d16ef1c00d0fed14264a5e93a3b6b9107d4cd7cf738e256312e4351d79f94",
+    "evaluate.py": "97b03185761ea8dc71fb8cf9d00962db737f93367545496de2b9dd48105dffbd",
+    "reference_labels.json": "f6f454692e7e899373ee675d8a3b58ecd058cd398473387c9ed6c6ae15e86df7",
+    "requirements.txt": "d1c3b343be10291a60f4681d36984fc5eb6caedb1302851d0174762ef4752ca9",
+    "tests/test_extraction.py": "6a9645d4260f70356a3530e3f3f03aca8e3d381f100431762d825b1baf3f9ade",
+    "results/metadata.jsonl": "567434d018ac93c46b1f6e10e7d66caf80686905db6e686fccd13624d630ecab",
+    "results/summary.csv": "d76dd31b98530290655333211e1e9b8060eeead26a9e906c8d5fbb430e0dddb3",
+    "results/evaluation.json": "b0f24a483676afa9f3cabf044b8e93b4ef43b6d03f2d46e83321460f4771657e"
+  }
+}

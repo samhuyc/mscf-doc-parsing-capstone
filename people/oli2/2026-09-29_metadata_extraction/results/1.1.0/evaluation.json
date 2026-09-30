@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "expected_documents": 6,
+  "evaluated_documents": 6,
+  "missing_documents": [],
+  "label_origin": "Assistant-authored review of fixed parsed text and embedded PDF titles before running extraction; date policy agreed in the user request.",
+  "label_review_status": "Provisional; pending independent human review. Not source-PDF gold or held-out evaluation.",
+  "metrics": {
+    "document_type": {
+      "exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "status_accuracy": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "supported_value_exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "abstention_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      }
+    },
+    "reference_period": {
+      "exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "status_accuracy": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "supported_value_exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "abstention_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "rate": 0.0
+      }
+    },
+    "reference_date": {
+      "exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "status_accuracy": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "supported_value_exact_match": {
+        "numerator": 4,
+        "denominator": 4,
+        "rate": 1.0
+      },
+      "coverage": {
+        "numerator": 4,
+        "denominator": 6,
+        "rate": 0.6666666666666666
+      },
+      "abstention_rate": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      }
+    },
+    "document_date": {
+      "exact_match": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "status_accuracy": {
+        "numerator": 6,
+        "denominator": 6,
+        "rate": 1.0
+      },
+      "supported_value_exact_match": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "coverage": {
+        "numerator": 2,
+        "denominator": 6,
+        "rate": 0.3333333333333333
+      },
+      "abstention_rate": {
+        "numerator": 4,
+        "denominator": 6,
+        "rate": 0.6666666666666666
+      }
+    }
+  },
+  "overall_coverage": {
+    "numerator": 18,
+    "denominator": 24,
+    "rate": 0.75
+  },
+  "overall_abstention_rate": {
+    "numerator": 6,
+    "denominator": 24,
+    "rate": 0.25
+  },
+  "evidence_validity": {
+    "numerator": 473,
+    "denominator": 473,
+    "rate": 1.0
+  },
+  "evidence_validity_note": "Exact quotation, offsets, allowed input and physical page only; this does not establish semantic correctness or OCR accuracy.",
+  "mistakes": [],
+  "abstentions": [
+    {
+      "document_id": "cvs_2025q2",
+      "field": "reference_date",
+      "status": "not_found",
+      "expected_abstention": true
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "field": "reference_date",
+      "status": "not_found",
+      "expected_abstention": true
+    },
+    {
+      "document_id": "edf_2024",
+      "field": "document_date",
+      "status": "not_found",
+      "expected_abstention": true
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "field": "document_date",
+      "status": "not_found",
+      "expected_abstention": true
+    },
+    {
+      "document_id": "peterborough_2025",
+      "field": "document_date",
+      "status": "not_found",
+      "expected_abstention": true
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "field": "document_date",
+      "status": "not_found",
+      "expected_abstention": true
+    }
+  ],
+  "diagnostics": [
+    {
+      "document_id": "cvs_2025q2",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": [
+        "reference_date:not_found",
+        "reporting_period_known_but_exact_end_not_explicit"
+      ]
+    },
+    {
+      "document_id": "edf_2024",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": [
+        "document_date:not_found"
+      ]
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": [
+        "document_date:not_found",
+        "filing_stamp_excluded_from_semantic_dates",
+        "ambiguous_numeric_date"
+      ]
+    },
+    {
+      "document_id": "peterborough_2025",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": [
+        "document_date:not_found"
+      ]
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": [
+        "reference_date:not_found",
+        "document_date:not_found",
+        "reporting_period_known_but_exact_end_not_explicit"
+      ]
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "schema_errors": [],
+      "evidence_errors": [],
+      "warnings": []
+    }
+  ],
+  "runtime": {
+    "per_document_seconds": {
+      "cvs_2025q2": 0.020902200019918382,
+      "edf_2024": 0.007257700024638325,
+      "hippodrome_2025": 0.055618599988520145,
+      "peterborough_2025": 0.015926400024909526,
+      "rolls_royce_2026h1_presentation": 0.010881100024562329,
+      "rolls_royce_2026h1_release": 0.14978109998628497
+    },
+    "total_seconds": 0.2603671000688337,
+    "mean_seconds": 0.04339451667813895,
+    "scope": "One local sequential run: file reads, validation, text adaptation and rules; excludes OCR, models, output serialization and evaluation. Not a controlled benchmark."
+  }
+}

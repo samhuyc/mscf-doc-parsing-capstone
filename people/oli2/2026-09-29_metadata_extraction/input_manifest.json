@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "source_revision": "159a4731f1d2320816c65976c79f1f4ed636294b",
+  "methodology": "Fixed canonical parsed representations selected after inspection. Parser routing and parser optimization are outside the O6 experiment. Choices are not independent of this case study.",
+  "hash_policy": "SHA-256 of UTF-8 file bytes after CRLF to LF conversion only; source PDF hash is the original parser-recorded hash. No PDFs are opened.",
+  "documents": [
+    {
+      "document_id": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm",
+      "selection_reason": "Cover retains quarter and event date; self-description establishes presentation.",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "sha256_utf8_lf": {
+        "pages.json": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+        "metadata.json": "7667a5f6c1e16f1c9342d4a1c01b232834c14e7d739c0225bcd7b77efa43b7fd",
+        "document.md": "38a23919b003ff10808a9f41fde04b81e8042702c1acb2ef1d39c17a0f3a6a78",
+        "run.json": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+      }
+    },
+    {
+      "document_id": "edf_2024",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm",
+      "selection_reason": "Cover retains statement type and explicit year-end.",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "sha256_utf8_lf": {
+        "pages.json": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+        "metadata.json": "5c598c5ea934efbedc6310185a1e91e42f051968e8cb3efa4fc405762f3be237",
+        "document.md": "79849ec4a20f010aec90f348765fd41e1a25d115e224135c62bd3f100cf41bf7",
+        "run.json": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr",
+      "selection_reason": "Cover retains title and reporting date; PyMuPDF cover text is unusable.",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "sha256_utf8_lf": {
+        "pages.json": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+        "metadata.json": "ea62b761b93d3e9e68283aa121f0ed6a274f096ae2beeb951bca2357ff4fdada",
+        "document.md": "3cab2e9085470570f9e3f20e700dcaa4ef45b451cd98a8fd728a115044705ef2",
+        "run.json": "0a83484b10bf855da06ecb862db3c5605536fffbaf590f746ca0b074bbd25e29"
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm",
+      "selection_reason": "OCR cover retains unaudited financial statements and explicit year-end.",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "sha256_utf8_lf": {
+        "pages.json": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+        "metadata.json": "090c963d132391e60230ce0cdd670dcdd50a158fbd82ac3131b7d55f4fc837f6",
+        "document.md": "293d753ceaf75a7b503f27947c9d55d500e889fb0b07dd0da575e884f0f8230b",
+        "run.json": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm",
+      "selection_reason": "Cover retains half-year results; embedded PDF title identifies presentation.",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "sha256_utf8_lf": {
+        "pages.json": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+        "metadata.json": "1ab4a1078ea874fea2c1ff57d4abd3588e9f4346c174daa9b755222a41269841",
+        "document.md": "e359c4b9a37c28d229931925dfa94c9a1f9e08628aacbacb48bc08ec56694aa2",
+        "run.json": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm",
+      "selection_reason": "Cover retains announcement date; page 13 states reporting end.",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "sha256_utf8_lf": {
+        "pages.json": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+        "metadata.json": "d64253375e7c18c2864622b5ff75177f434cd24037326766d4e92eb44a87dc0e",
+        "document.md": "1729b5ce0f0f1084fa9f54641c589c3155ba364995f7e34f00bf938202941bd4",
+        "run.json": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+      }
+    }
+  ]
+}

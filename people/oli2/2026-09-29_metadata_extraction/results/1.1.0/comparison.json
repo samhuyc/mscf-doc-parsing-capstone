@@ -1,0 +1,46 @@
+{
+  "before_rulesets": [
+    "1.0.0"
+  ],
+  "after_rulesets": [
+    "1.1.0"
+  ],
+  "before_sha256": "567434d018ac93c46b1f6e10e7d66caf80686905db6e686fccd13624d630ecab",
+  "after_sha256": "8967b96bb37233a24831f0c85777c5e0ada7bdb216fbd120d1bf89c694dd5ce7",
+  "comparison_scope": "Field value, status and role only. Rule IDs, candidate rankings, evidence IDs, runtime and derived document status are not semantic field decisions.",
+  "documents_compared": 6,
+  "changed_decisions": [
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "field": "reference_period",
+      "before": {
+        "value": null,
+        "status": "ambiguous",
+        "role": "reporting_period"
+      },
+      "after": {
+        "value": {
+          "year": 2026,
+          "kind": "half",
+          "number": 1
+        },
+        "status": "resolved",
+        "role": "reporting_period"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "field": "reference_date",
+      "before": {
+        "value": null,
+        "status": "ambiguous",
+        "role": "reporting_period_end"
+      },
+      "after": {
+        "value": "2026-06-30",
+        "status": "resolved",
+        "role": "reporting_period_end"
+      }
+    }
+  ]
+}

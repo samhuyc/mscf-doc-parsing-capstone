@@ -1,0 +1,7 @@
+document_id,document_type,reference_period,reference_date,document_date,status,warnings,runtime_seconds
+cvs_2025q2,earnings_presentation,"{""year"": 2025, ""kind"": ""quarter"", ""number"": 2}",,2025-07-31,not_found,reference_date:not_found; reporting_period_known_but_exact_end_not_explicit,0.020902200019918382
+edf_2024,consolidated_segmental_statement,"{""year"": 2024, ""kind"": ""year"", ""number"": null}",2024-12-31,,not_found,document_date:not_found,0.007257700024638325
+hippodrome_2025,annual_financial_statements,"{""year"": 2025, ""kind"": ""year"", ""number"": null}",2025-12-31,,not_found,document_date:not_found; filing_stamp_excluded_from_semantic_dates; ambiguous_numeric_date,0.055618599988520145
+peterborough_2025,unaudited_financial_statements,"{""year"": 2025, ""kind"": ""year"", ""number"": null}",2025-03-31,,not_found,document_date:not_found,0.015926400024909526
+rolls_royce_2026h1_presentation,results_presentation,"{""year"": 2026, ""kind"": ""half"", ""number"": 1}",,,not_found,reference_date:not_found; document_date:not_found; reporting_period_known_but_exact_end_not_explicit,0.010881100024562329
+rolls_royce_2026h1_release,results_press_release,"{""year"": 2026, ""kind"": ""half"", ""number"": 1}",2026-06-30,2026-07-30,resolved,,0.14978109998628497

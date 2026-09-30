@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "annotation_origin": "Assistant-authored review of fixed parsed text and embedded PDF titles before running extraction; date policy agreed in the user request.",
+  "review_status": "Provisional; pending independent human review. Not source-PDF gold or held-out evaluation.",
+  "document_date_policy": "Explicit publication/announcement or cover presentation-event date. Exclude filing stamps, approval/signature dates, PDF timestamps, and body as-of dates.",
+  "documents": [
+    {
+      "document_id": "cvs_2025q2",
+      "expected": {
+        "document_type": {
+          "value": "earnings_presentation",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2025,
+            "kind": "quarter",
+            "number": 2
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": null,
+          "status": "not_found"
+        },
+        "document_date": {
+          "value": "2025-07-31",
+          "status": "resolved"
+        }
+      },
+      "review_note": "Cover states Second Quarter 2025 and July 31, 2025. No explicit reporting end found; do not assume a calendar quarter.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/pages.json"
+    },
+    {
+      "document_id": "edf_2024",
+      "expected": {
+        "document_type": {
+          "value": "consolidated_segmental_statement",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2024,
+            "kind": "year",
+            "number": null
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": "2024-12-31",
+          "status": "resolved"
+        },
+        "document_date": {
+          "value": null,
+          "status": "not_found"
+        }
+      },
+      "review_note": "Page 1 states year ended 31 December 2024. Embedded creation timestamp is unrelated.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/pages.json"
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "expected": {
+        "document_type": {
+          "value": "annual_financial_statements",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2025,
+            "kind": "year",
+            "number": null
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": "2025-12-31",
+          "status": "resolved"
+        },
+        "document_date": {
+          "value": null,
+          "status": "not_found"
+        }
+      },
+      "review_note": "Page 1 states year ended 31 December 2025. The Companies House stamp is a filing stamp, not a publication date.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/pages.json"
+    },
+    {
+      "document_id": "peterborough_2025",
+      "expected": {
+        "document_type": {
+          "value": "unaudited_financial_statements",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2025,
+            "kind": "year",
+            "number": null
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": "2025-03-31",
+          "status": "resolved"
+        },
+        "document_date": {
+          "value": null,
+          "status": "not_found"
+        }
+      },
+      "review_note": "Page 1 states unaudited financial statements for year ended 31 March 2025. Approval/signature dates are outside the document-date definition.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/pages.json"
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "expected": {
+        "document_type": {
+          "value": "results_presentation",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2026,
+            "kind": "half",
+            "number": 1
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": null,
+          "status": "not_found"
+        },
+        "document_date": {
+          "value": null,
+          "status": "not_found"
+        }
+      },
+      "review_note": "Cover states half-year results 2026; page 9 states H1 2026. No exact reporting end or dated cover event found. A page-14 as-of footnote is not an event date.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json"
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "expected": {
+        "document_type": {
+          "value": "results_press_release",
+          "status": "resolved"
+        },
+        "reference_period": {
+          "value": {
+            "year": 2026,
+            "kind": "half",
+            "number": 1
+          },
+          "status": "resolved"
+        },
+        "reference_date": {
+          "value": "2026-06-30",
+          "status": "resolved"
+        },
+        "document_date": {
+          "value": "2026-07-30",
+          "status": "resolved"
+        }
+      },
+      "review_note": "Page 1 states 30 July 2026 and half-year results; page 13 states half-year ended 30 June 2026. H1 2026 appears on page 1.",
+      "reviewed_input": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/pages.json"
+    }
+  ]
+}

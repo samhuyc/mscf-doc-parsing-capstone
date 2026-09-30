@@ -98,7 +98,7 @@ def main():
     out.mkdir(exist_ok=True)
     (out / 'metrics.json').write_text(json.dumps(dict(aggregate=aggregates, documents=rows, checks=audits), indent=2) + '\n')
     with (out / 'metrics.csv').open('w') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0])); writer.writeheader(); writer.writerows(rows)
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n'); writer.writeheader(); writer.writerows(rows)
     print(json.dumps(aggregates, indent=2))
 
 if __name__ == '__main__':

@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+  "scorer_sha256": "11110714253a68309b48e9fc13e9bb70303a9a70fdf945ad85615f5aa4f7b304",
+  "evaluation_status": "REVIEWED_LABELS_ONLY",
+  "selected_labels": 0,
+  "total_labels": 54,
+  "inputs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "pages_sha256": "1a11f6f344b0731d2604e232d38284650157d69f771669444ea72fb5eef43ff1",
+      "run_sha256": "6f17bdc66417010137d6fe5d885c0ae190d71f3473d83947b4fe7d8db9e094bc"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "pages_sha256": "3dc4c35fbea5e9602cf13420c4f4919af6f976dfb9092513fd0a0197be01e1af",
+      "run_sha256": "974952785052918e03e0c56ac7410b8a974b9cb24a47ae3b2d91d4ef3edd42d7"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "pages_sha256": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+      "run_sha256": "0a83484b10bf855da06ecb862db3c5605536fffbaf590f746ca0b074bbd25e29"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "pages_sha256": "f654fa50c560e1dca24a3a14d615463b3913ee432c372a3f158f1322fabf5532",
+      "run_sha256": "f6aac6723a6607b5f4ab3f88d58b9cad68173354cec589b669e11bb4c59a4836"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "pages_sha256": "a5b507173a782b58b05defde753f166a62f17373aa726b6f3671bdb85ada5162",
+      "run_sha256": "6347fd90720082a597dec6f4c9c40a2daa8d48162662454a35843e58bb8ad65a"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "pages_sha256": "d09ff696dc2d26f54ead3aa9946831a1f04f0323b57d37d21720cb897406a797",
+      "run_sha256": "8cdbd60f1bc38bf766ebcade4f7b7a95ac1cf999265288901bc87e586d064f6b"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "pages_sha256": "9d2d8368f365f34d7f8ad390084c4c3f9650bdd579902cf74b1ec03bc5a2d836",
+      "run_sha256": "0573d4fa081e0a0d90403f679d567855ace261a1bcd95311679bca45b4de7b5d"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "pages_sha256": "d4c588a42fded3fb27793d4aa4f791fab1fef5ab0be03d8f998da18bd8032e5d",
+      "run_sha256": "d35b3ac4fbb86d95ec012d69ecfafa2e2a4f4b35a3d1caa44188322683be8fe4"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "pages_sha256": "5d9fd8d9d5302dc6601250c861631e18bcf8301b920bcb5afc2d03dbc8f391b4",
+      "run_sha256": "51341277c5a2449957aef2a3930e64531b6c7a2d1d0cb86f87d48c58f7ee2634"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "pages_sha256": "1f111d12e364f57829cf89e94fa5a323a04ba2f6bc6960a9911abea47fa86568",
+      "run_sha256": "7637391b85f8d95b430b4e201d211092964bc9e3bb0574a7412d81ea8b223cc7"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "pages_sha256": "b9f82ee401c2a328466b19d3e4c40b06122fabfdef8bca81b678c296ea2375e1",
+      "run_sha256": "e8da9d69eaf6f86366388e093313e63abe8783d9d2f7d15afb25b126b4dae524"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "pages_sha256": "c40ef050a55fdc3aae1c8168f473cae8181535431e7bc1e4b9d8f8a753f256b2",
+      "run_sha256": "607eb03850f806895e88a2891b11f7068870b4c03b47432c8173b9d8e516ea56"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+      "run_sha256": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+      "run_sha256": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+      "run_sha256": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+      "run_sha256": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+      "run_sha256": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+      "run_sha256": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+    }
+  ],
+  "aggregate": {
+    "mineru_ocr": {},
+    "mineru_vlm": {},
+    "pymupdf4llm": {}
+  },
+  "documents": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "metrics": {}
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "metrics": {}
+    }
+  ],
+  "runs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 45.996,
+      "pages_per_second": 0.2609,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 30.793,
+      "pages_per_second": 0.1948,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 179.894,
+      "pages_per_second": 0.2168,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 48.094,
+      "pages_per_second": 0.2495,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 58.315,
+      "pages_per_second": 0.3258,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 291.484,
+      "pages_per_second": 0.1784,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 234.157,
+      "pages_per_second": 0.0512,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 124.849,
+      "pages_per_second": 0.0481,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 983.713,
+      "pages_per_second": 0.0396,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 241.448,
+      "pages_per_second": 0.0497,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 335.615,
+      "pages_per_second": 0.0566,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 1626.114,
+      "pages_per_second": 0.032,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 8.071,
+      "pages_per_second": 1.4868,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 3.989,
+      "pages_per_second": 1.5041,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 75.985,
+      "pages_per_second": 0.5133,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 15.503,
+      "pages_per_second": 0.774,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 8.377,
+      "pages_per_second": 2.2681,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 30.591,
+      "pages_per_second": 1.6998,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+    }
+  ],
+  "by_importance": {
+    "mineru_ocr": {
+      "critical": {},
+      "supporting": {},
+      "cosmetic": {}
+    },
+    "mineru_vlm": {
+      "critical": {},
+      "supporting": {},
+      "cosmetic": {}
+    },
+    "pymupdf4llm": {
+      "critical": {},
+      "supporting": {},
+      "cosmetic": {}
+    }
+  },
+  "evaluation_seconds": 0.496,
+  "hosted_model_calls": 0,
+  "parser_reruns": 0,
+  "limitations": [
+    "Six previously inspected documents; development case study, not held-out generalization.",
+    "Association scores require explicit HTML/Markdown table relationships; flattened prose may contain recoverable facts.",
+    "Unit evidence and visual sequence checks are proxies, not semantic association scores.",
+    "Sparse labels do not measure global hallucination precision.",
+    "Draft labels are not independently human-verified gold."
+  ]
+}

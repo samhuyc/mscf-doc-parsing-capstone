@@ -1,0 +1,5 @@
+__pycache__/
+# Public source-page previews are intentionally tracked for the meeting demo.
+review_history/
+*.jsonl.tmp
+pilot-review-decisions*.json

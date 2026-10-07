@@ -1,10 +1,14 @@
 # Metadata extraction — October 7 Barclays discussion
 
 **Result:** one parser-agnostic implementation now compares Rule, LLM and Hybrid
-on all six sponsor documents and all three saved parser outputs. Final Hybrid
-coverage is **65/90 fields (72.2%)**, versus **52/90 (57.8%)** for Rule. Coverage
-is not accuracy. Most extra values are issuers; several still disagree with the
-pilot's naming convention. All results are development-set observations.
+on all six sponsor documents and all three saved parser outputs. Development-reference
+exact match is **70/90 (77.8%) for Rule**, **73/90 (81.1%) for validated LLM**, and
+**80/90 (88.9%) for Hybrid**. Resolved-field coverage is **52/90 (57.8%) for Rule**,
+**62/90 (68.9%) for validated LLM**, and **65/90 (72.2%) for Hybrid**. Exact match
+measures correctness against the current references, while coverage measures how
+often the extractor returns a resolved value. These figures combine draft pilot
+issuer labels with provisional O6 labels and are development-set observations,
+not held-out benchmark accuracy.
 
 ## Problem and existing baseline
 
@@ -89,6 +93,11 @@ model-returned ambiguous decisions in this run. Abstention includes validator re
 | PyMuPDF4LLM | 4/6 | 5/6 | 5/6 | 6/6 | 6/6 | 21/30 |
 | MinerU OCR | 4/6 | 6/6 | 6/6 | 6/6 | 5/6 | 23/30 |
 | MinerU VLM | 5/6 | 6/6 | 6/6 | 5/6 | 5/6 | 21/30 |
+
+Across the three parser outputs, Hybrid has **80/90 exact matches (88.9%)** against
+the current development references and **65/90 resolved fields (72.2% coverage)**.
+These are complementary metrics: exact match rewards correct abstention when the
+reference is null, while coverage counts only resolved values.
 
 Hybrid adds **13 values**: 11 issuers, one period and one explicit end date.
 Eight added issuers match the draft names; three differ by legal-entity identity

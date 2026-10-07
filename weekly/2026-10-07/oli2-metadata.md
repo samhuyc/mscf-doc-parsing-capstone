@@ -10,8 +10,12 @@ resolutions. The schema now includes issuer and retains structured reporting
 period, exact end date, document date, abstention and auditable source evidence.
 An earlier six-call contract smoke test is retained separately.
 
-- **Coverage:** Rule 52/90 fields (57.8%); validated LLM 62/90 (68.9%);
-  Hybrid 65/90 (72.2%). Coverage is not accuracy.
+- **Development-reference exact match:** Rule 70/90 (77.8%); validated LLM 73/90
+  (81.1%); Hybrid 80/90 (88.9%). These combine draft pilot issuer labels with
+  provisional O6 labels and are not held-out benchmark accuracy.
+- **Coverage:** Rule 52/90 fields (57.8%); validated LLM 62/90 (68.9%); Hybrid 65/90
+  (72.2%). Exact match measures correctness against the current references;
+  coverage measures how often the extractor returns a resolved value.
 - **Issuer exact match:** Rule 5/18 versus Hybrid 13/18 against draft pilot names.
   Legal entity versus brand and OCR spelling remain unresolved policy issues.
 - **Rules still matter:** Hybrid retains rules in four resolved disagreements,

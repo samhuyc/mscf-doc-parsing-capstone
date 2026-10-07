@@ -1,0 +1,590 @@
+{
+  "schema_version": "1.0.0",
+  "benchmark": {
+    "id": "sponsor-pilot-reference-tables",
+    "description": "Eleven preliminary reference tables from the October 5 sponsor pilot.",
+    "source_kind": "HTML tables derived from assistant-authored draft labels",
+    "warning": "The references are not independently human-verified gold.",
+    "conversion": "Each table becomes one worksheet; HTML row/column spans become merged cells.",
+    "source_files": [
+      {
+        "name": "cvs_2025q2.p6.quarter_results.html",
+        "sha256": "9b8208a0a139aa2d22818102bb6091f0c4d6a587c5b8d21cbb5c90e12207d4de"
+      },
+      {
+        "name": "edf_2024.p3.segment_statement.html",
+        "sha256": "b37a775046ba17e6f860aa8075604ab36f71aeadb610377ace1603a7d3d3af8c"
+      },
+      {
+        "name": "edf_2024.p6.reconciliation.html",
+        "sha256": "5b7fb30427cfa788e33892cce4f12d253a214932a529bd5a99da3eed0411cd85"
+      },
+      {
+        "name": "hippodrome_2025.p20.income_statement.html",
+        "sha256": "aa0c2921296b1970f7d57eacff8dfc02b2b85c8d1936f781c77c7211603dc7a5"
+      },
+      {
+        "name": "hippodrome_2025.p21.financial_position.html",
+        "sha256": "ecab81e0d46471fed05c38b2f477f5c9ac2e8630ce10825e3cc720e69c0fb528"
+      },
+      {
+        "name": "peterborough_2025.p2.balance_sheet.html",
+        "sha256": "e19f8279f578f64986955381f863d5a5c0e0f5a6a04eca32747f2a2160bba1db"
+      },
+      {
+        "name": "rolls_royce_2026h1_presentation.p9.cash_results.html",
+        "sha256": "0b76008fd08218cbf01c939c6554aa46b4885ea4cf8156d844963bdade993356"
+      },
+      {
+        "name": "rolls_royce_2026h1_presentation.p9.underlying_results.html",
+        "sha256": "fa5f041c779d4c08947e2b86c1798770f84423865628c24fd08feb9594708911"
+      },
+      {
+        "name": "rolls_royce_2026h1_release.p1.group_results.html",
+        "sha256": "9ffc283e0513468bd1162d65754d494ca518139c2b96e28f59fc5bc228123d2f"
+      },
+      {
+        "name": "rolls_royce_2026h1_release.p13.income_statement.html",
+        "sha256": "fb42c1f93185d6ec3dd7e0593e5be2a558a792d4144ebea198020565ebfa02f4"
+      },
+      {
+        "name": "rolls_royce_2026h1_release.p17.cash_reconciliation.html",
+        "sha256": "d8fa44dbbcdbbad79515991465a62874491441ed2689f5a49a20d76152e80ae6"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "sheet": "T001",
+      "source_id": "cvs_2025q2.p6.quarter_results.html",
+      "title": "cvs_2025q2.p6.quarter_results",
+      "rows": 6,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "2Q 2025",
+          "2Q 2024"
+        ],
+        [
+          "Total Revenues",
+          "$98.9",
+          "$91.2"
+        ],
+        [
+          "Adjusted Operating Income",
+          "$3.81",
+          "$3.74"
+        ],
+        [
+          "GAAP Earnings per Share",
+          "$0.80",
+          "$1.41"
+        ],
+        [
+          "Adjusted Earnings per Share",
+          "$1.81",
+          "$1.83"
+        ],
+        [
+          "Cash Flow from Operations",
+          "$1.9",
+          "$3.1"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T002",
+      "source_id": "edf_2024.p3.segment_statement.html",
+      "title": "edf_2024.p3.segment_statement",
+      "rows": 5,
+      "columns": 6,
+      "header_rows": 2,
+      "values": [
+        [
+          "",
+          "Electricity supply",
+          null,
+          "Gas supply",
+          null,
+          "Aggregate supply business"
+        ],
+        [
+          null,
+          "Domestic",
+          "Non Domestic",
+          "Domestic",
+          "Non Domestic",
+          null
+        ],
+        [
+          "Total revenue",
+          "3,037.1",
+          "8,674.9",
+          "1,693.1",
+          "126.6",
+          "13,531.6"
+        ],
+        [
+          "EBITDA",
+          "174.9",
+          "192.7",
+          "(84.6)",
+          "10.4",
+          "293.4"
+        ],
+        [
+          "EBIT",
+          "164.2",
+          "150.1",
+          "(92.0)",
+          "6.4",
+          "228.7"
+        ]
+      ],
+      "merges": [
+        {
+          "min_row": 1,
+          "min_column": 1,
+          "max_row": 2,
+          "max_column": 1
+        },
+        {
+          "min_row": 1,
+          "min_column": 2,
+          "max_row": 1,
+          "max_column": 3
+        },
+        {
+          "min_row": 1,
+          "min_column": 4,
+          "max_row": 1,
+          "max_column": 5
+        },
+        {
+          "min_row": 1,
+          "min_column": 6,
+          "max_row": 2,
+          "max_column": 6
+        }
+      ]
+    },
+    {
+      "sheet": "T003",
+      "source_id": "edf_2024.p6.reconciliation.html",
+      "title": "edf_2024.p6.reconciliation",
+      "rows": 6,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "Revenue",
+          "EBIT"
+        ],
+        [
+          "EDF Supply CSS",
+          "13,531.6",
+          "228.7"
+        ],
+        [
+          "Non-licensed activities",
+          "120.6",
+          "213.4"
+        ],
+        [
+          "Impairment of non-current assets",
+          "-",
+          "(25.9)"
+        ],
+        [
+          "Restructuring costs",
+          "-",
+          "(9.8)"
+        ],
+        [
+          "EDF Energy Customers Limited Statutory Accounts",
+          "13,652.2",
+          "406.4"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T004",
+      "source_id": "hippodrome_2025.p20.income_statement.html",
+      "title": "hippodrome_2025.p20.income_statement",
+      "rows": 12,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "2025",
+          "2024"
+        ],
+        [
+          "Turnover",
+          "116,787,681",
+          "114,583,476"
+        ],
+        [
+          "Cost of sales",
+          "(49,553,722)",
+          "(49,669,638)"
+        ],
+        [
+          "Gross profit",
+          "67,233,959",
+          "64,913,838"
+        ],
+        [
+          "Administrative expenses",
+          "(61,723,344)",
+          "(56,732,754)"
+        ],
+        [
+          "Operating profit",
+          "5,510,615",
+          "8,181,084"
+        ],
+        [
+          "Interest receivable and similar income",
+          "913,167",
+          "1,000,725"
+        ],
+        [
+          "Interest payable and similar expenses",
+          "(2,809,776)",
+          "(3,288,591)"
+        ],
+        [
+          "Other gains and losses",
+          "169,884",
+          "8,941,676"
+        ],
+        [
+          "Profit before taxation",
+          "3,783,890",
+          "14,834,894"
+        ],
+        [
+          "Tax on profit",
+          "(1,056,033)",
+          "(2,349,942)"
+        ],
+        [
+          "Profit for the financial year",
+          "2,727,857",
+          "12,484,952"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T005",
+      "source_id": "hippodrome_2025.p21.financial_position.html",
+      "title": "hippodrome_2025.p21.financial_position",
+      "rows": 4,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "2025",
+          "2024"
+        ],
+        [
+          "Tangible assets",
+          "49,022,342",
+          "47,854,347"
+        ],
+        [
+          "Net assets",
+          "41,961,225",
+          "39,233,368"
+        ],
+        [
+          "Total equity",
+          "41,961,225",
+          "39,233,368"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T006",
+      "source_id": "peterborough_2025.p2.balance_sheet.html",
+      "title": "peterborough_2025.p2.balance_sheet",
+      "rows": 7,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "2025",
+          "2024"
+        ],
+        [
+          "Tangible assets",
+          "967,756",
+          "992,467"
+        ],
+        [
+          "Bank and cash balances",
+          "2,751,541",
+          "821,700"
+        ],
+        [
+          "Creditors: amounts falling due within one year",
+          "(504,045)",
+          "(508,936)"
+        ],
+        [
+          "Net current assets",
+          "4,526,437",
+          "5,249,019"
+        ],
+        [
+          "Net assets",
+          "4,484,956",
+          "5,194,638"
+        ],
+        [
+          "Called up share capital",
+          "130",
+          "130"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T007",
+      "source_id": "rolls_royce_2026h1_presentation.p9.cash_results.html",
+      "title": "rolls_royce_2026h1_presentation.p9.cash_results",
+      "rows": 3,
+      "columns": 4,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "H1 2026",
+          "H1 2025",
+          "Change"
+        ],
+        [
+          "Free cash flow",
+          "1,964",
+          "1,582",
+          "382"
+        ],
+        [
+          "Net cash",
+          "2,136",
+          "1,084",
+          "1,052"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T008",
+      "source_id": "rolls_royce_2026h1_presentation.p9.underlying_results.html",
+      "title": "rolls_royce_2026h1_presentation.p9.underlying_results",
+      "rows": 6,
+      "columns": 5,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "H1 2026",
+          "H1 2025",
+          "Organic Change",
+          "Organic Change %"
+        ],
+        [
+          "Revenue",
+          "11,279",
+          "9,057",
+          "2,310",
+          "26%"
+        ],
+        [
+          "Gross profit",
+          "3,397",
+          "2,572",
+          "839",
+          "33%"
+        ],
+        [
+          "Gross margin %",
+          "30.1%",
+          "28.4%",
+          "1.6pts",
+          ""
+        ],
+        [
+          "Operating profit",
+          "2,534",
+          "1,733",
+          "796",
+          "46%"
+        ],
+        [
+          "Operating margin %",
+          "22.5%",
+          "19.1%",
+          "3.1pts",
+          ""
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T009",
+      "source_id": "rolls_royce_2026h1_release.p1.group_results.html",
+      "title": "rolls_royce_2026h1_release.p1.group_results",
+      "rows": 6,
+      "columns": 5,
+      "header_rows": 2,
+      "values": [
+        [
+          "",
+          "Underlying",
+          null,
+          "Statutory",
+          null
+        ],
+        [
+          null,
+          "H1 2026",
+          "H1 2025",
+          "H1 2026",
+          "H1 2025"
+        ],
+        [
+          "Revenue",
+          "11,279",
+          "9,057",
+          "11,448",
+          "9,490"
+        ],
+        [
+          "Operating profit",
+          "2,534",
+          "1,733",
+          "2,418",
+          "2,074"
+        ],
+        [
+          "Operating margin %",
+          "22.5%",
+          "19.1%",
+          "21.1%",
+          "21.9%"
+        ],
+        [
+          "Profit before taxation",
+          "2,495",
+          "1,689",
+          "1,931",
+          "4,841"
+        ]
+      ],
+      "merges": [
+        {
+          "min_row": 1,
+          "min_column": 1,
+          "max_row": 2,
+          "max_column": 1
+        },
+        {
+          "min_row": 1,
+          "min_column": 2,
+          "max_row": 1,
+          "max_column": 3
+        },
+        {
+          "min_row": 1,
+          "min_column": 4,
+          "max_row": 1,
+          "max_column": 5
+        }
+      ]
+    },
+    {
+      "sheet": "T010",
+      "source_id": "rolls_royce_2026h1_release.p13.income_statement.html",
+      "title": "rolls_royce_2026h1_release.p13.income_statement",
+      "rows": 6,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "30 June 2026",
+          "30 June 2025"
+        ],
+        [
+          "Revenue",
+          "11,448",
+          "9,490"
+        ],
+        [
+          "Cost of sales",
+          "(8,021)",
+          "(6,563)"
+        ],
+        [
+          "Operating profit",
+          "2,418",
+          "2,074"
+        ],
+        [
+          "Gain arising on disposal of business",
+          "–",
+          "679"
+        ],
+        [
+          "Taxation",
+          "(316)",
+          "(433)"
+        ]
+      ],
+      "merges": []
+    },
+    {
+      "sheet": "T011",
+      "source_id": "rolls_royce_2026h1_release.p17.cash_reconciliation.html",
+      "title": "rolls_royce_2026h1_release.p17.cash_reconciliation",
+      "rows": 4,
+      "columns": 3,
+      "header_rows": 1,
+      "values": [
+        [
+          "",
+          "30 June 2026",
+          "30 June 2025"
+        ],
+        [
+          "Change in cash and cash equivalents",
+          "240",
+          "538"
+        ],
+        [
+          "Movement in net cash",
+          "201",
+          "692"
+        ],
+        [
+          "Net cash at 30 June",
+          "2,136",
+          "1,084"
+        ]
+      ],
+      "merges": []
+    }
+  ]
+}

@@ -20,6 +20,9 @@ invent missing values.
 - `scripts/evaluate.py`: Level 1 reconstruction and Level 2 line-item survival
   evaluation.
 - `REPORT.md`: measured fixture results and their limits.
+- `benchmark_cases/`: 11 sponsor-pilot and 278 TAT-QA tables converted into
+  committed Excel workbooks with machine-readable gold data.
+- `scripts/evaluate_benchmark_cases.py`: broader financial-table evaluation.
 - `fixtures/`: generated edge-case workbook, hand-labeled financial workbook,
   and gold annotations.
 - `tests/`: regression tests for formulas, caches, merges, hidden cells,
@@ -38,6 +41,7 @@ python -m pip install -r requirements.txt
 python scripts/generate_fixtures.py
 python -m unittest discover -s tests -v
 python scripts/evaluate.py
+python scripts/evaluate_benchmark_cases.py
 python scripts/extract_workbook.py fixtures/gold_financial_statement.xlsx
 ```
 
@@ -89,3 +93,6 @@ retain the expected numeric or cached values. This is a provenance and survival
 test, not a financial ontology or downstream RAG score.
 
 The generated fixtures are synthetic and contain no restricted source data.
+The converted benchmark cases extend the test to 289 published financial
+tables. See `benchmark_cases/README.md` for provenance, licensing, conversion
+details, and the important native-Excel limitation.

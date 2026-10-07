@@ -1,0 +1,51 @@
+{
+  "experiment_version": "1.0.0",
+  "created_at_utc": "2026-10-07T00:42:07.486244+00:00",
+  "base_revision": "13e08ea6de48eaf02d61d6ef14eaf149978dc689",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "code_hashes": {
+    "adapters.py": "3e1c55e04a1fcb4577525a1c17013e8ff18ae740260ff36933a5d3fa1b98400e",
+    "baseline_bridge.py": "4b031a9830b03f081b64674336945f9bb24882c14f112ed8dbbbfa7f83832b64",
+    "config.py": "bd4e46a4035aadb0f88949bfba3329928d44234ee8df0fe44666950aaad2f0c8",
+    "evaluate.py": "9b76b70feed1fe7a4424fc11de6611085493d0558d98fa257aba6eec2767f7bf",
+    "hybrid.py": "8b4adf49acffcb2cb8a66f5c2df04ef3f5cd3b2ca24951eaa2fe06265bb9ffec",
+    "llm_extractor.py": "ca39833a1c55a9e646bd9fc078faf7c96673f786f8aad05024367c062cd53157",
+    "providers.py": "95368bb9c13959558af6f6e9aad05d649b08a3855ed69fcc5fe210d5d01e0617",
+    "rule_extractor.py": "dbc960094a8bdadd8b3a4cbaf67a87bef91287d10880e1db76da949ef7f308f5",
+    "run.py": "2bc1e22534d1f24df35abb43948cd83f8a43310b342a362913bd2128cd8f038a",
+    "schema.py": "8802f8eaa7dce6846447f63570524bf833352df366bbc1e6f60caf4a0aacff0f",
+    "llm.schema.json": "1d077fd52e995c6769dd89bd7cb672d9efd0989d18af52aa395a80abf83502e8",
+    "metadata.schema.json": "c5547cfc898bbe97b06bfbfb95524a48944ffc745ea41db568c89d1dc76b282c",
+    "prompts/metadata_extraction.txt": "46026cd8ff0fe332a011a93ff1222ddd02e72d60cc307c23dfab0576fe26728b",
+    "input_manifest.json": "6c8780489de99cd5b1bf0ed0c88e504085d9b67455b1dfa156ba0926bc15b300"
+  },
+  "o6_hashes": {
+    "rules": "05b4d61529f86fa88bde9243ee799d3e3d0c8800743f71c3a64225d5e8737b8d",
+    "inputs": "4ab0efee34618b0702c11d3b1cb015ca78cc51069e223c234a0df971cb754fe5"
+  },
+  "configurations": [
+    {
+      "parser": "pymupdf4llm",
+      "method": "rule",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "pymupdf4llm",
+      "method": "llm",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "pymupdf4llm",
+      "method": "hybrid",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    }
+  ],
+  "provider_failures": []
+}

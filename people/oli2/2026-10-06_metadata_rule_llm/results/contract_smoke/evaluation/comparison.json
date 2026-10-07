@@ -1,0 +1,439 @@
+{
+  "parser_effect": {
+    "rule": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      }
+    },
+    "llm": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      }
+    },
+    "hybrid": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "missing_complete_triples": 6,
+        "differences": []
+      }
+    }
+  },
+  "extractor_effect": {
+    "pymupdf4llm": {
+      "issuer": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 4
+      },
+      "document_type": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 4,
+          "rate": 0.75
+        },
+        "resolved_disagreement": {
+          "numerator": 1,
+          "denominator": 4,
+          "rate": 0.25
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period_end": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 1
+      },
+      "document_date": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 2
+      }
+    },
+    "mineru_ocr": {
+      "issuer": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_type": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period_end": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_date": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      }
+    },
+    "mineru_vlm": {
+      "issuer": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_type": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period_end": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_date": {
+        "available_pairs": 0,
+        "resolved_agreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 0,
+          "rate": null
+        },
+        "llm_fallback_opportunities": 0
+      }
+    }
+  },
+  "note": "Agreement is not accuracy; shared abstention counts only in decision agreement. Six-document descriptive study."
+}

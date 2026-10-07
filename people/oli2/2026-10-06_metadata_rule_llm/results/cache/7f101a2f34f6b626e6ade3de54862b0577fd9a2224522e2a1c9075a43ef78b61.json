@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "0f1578c9428a088ec2ac4afcfaac04f80844660c8268025efde1a31daeac2e40",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"HIPPODROME CASINO LIMITED\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"HIPPODROME CASINO LIMITED\"}],\"diagnostics\":[]},\"document_type\":{\"value\":\"annual_financial_statements\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"REPORT AND FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 DECEMBER 2025\"}],\"diagnostics\":[\"Document contains detailed financial statements and directors' report indicating annual financial statements.\"]},\"reporting_period\":{\"value\":{\"year\":2025,\"kind\":\"year\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"FOR THE YEAR ENDED 31 DECEMBER 2025\"},{\"source\":\"page\",\"page\":3,\"quote\":\"The directors present the strategic report for the year ended 31 December 2025.\"}],\"diagnostics\":[\"Reporting period explicitly stated as year ended 31 December 2025.\"]},\"reporting_period_end\":{\"value\":\"2025-12-31\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"FOR THE YEAR ENDED 31 DECEMBER 2025\"}],\"diagnostics\":[\"Explicit reporting period end date given as 31 December 2025.\"]},\"document_date\":{\"value\":\"2026-06-12\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":12,\"quote\":\"Date: 12/06/2026\"}],\"diagnostics\":[\"Document date taken from directors' report signature date 12/06/2026, normalized to ISO format.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.011088800000000001,
+    "runtime_seconds": 3.459975299978396,
+    "response_id": "resp_07833098da5ca541016ac595f7a48887d28d471d875dea9633",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 26338,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 346,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 26684
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "67fa5fb041f0ec329c70ebab4073422cd3a4c78e45ebfe98835670d86ed67818"
+}

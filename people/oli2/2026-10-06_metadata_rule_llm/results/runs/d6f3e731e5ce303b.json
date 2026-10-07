@@ -1,0 +1,94 @@
+{
+  "experiment_version": "1.0.2",
+  "created_at_utc": "2026-10-07T00:47:12.279839+00:00",
+  "base_revision": "13e08ea6de48eaf02d61d6ef14eaf149978dc689",
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "code_hashes": {
+    "adapters.py": "3e1c55e04a1fcb4577525a1c17013e8ff18ae740260ff36933a5d3fa1b98400e",
+    "baseline_bridge.py": "4b031a9830b03f081b64674336945f9bb24882c14f112ed8dbbbfa7f83832b64",
+    "config.py": "b3c98235ce716f7b424bb9ac0b1391011234190a3b2d7d37cc8bb014af13055a",
+    "evaluate.py": "6febc225bccb09d442daf15ab82f6cfe671f1f0dfd85ca51b4d41c21a9a0a3b2",
+    "evidence_policy.py": "e1c2c672c65ad39afe22ef242d13ca0beace68581819ce561b5951fda7d91d0b",
+    "hybrid.py": "26a2bff72db7e2e064ebfebb3ec79582b84aa78d517b39a89db9b85b6af83f8b",
+    "llm_extractor.py": "39fe2756848def454a06f0a4614b550ae7b6f4d77637bb048d7040ee2992ffea",
+    "providers.py": "95368bb9c13959558af6f6e9aad05d649b08a3855ed69fcc5fe210d5d01e0617",
+    "rule_extractor.py": "dbc960094a8bdadd8b3a4cbaf67a87bef91287d10880e1db76da949ef7f308f5",
+    "run.py": "2bc1e22534d1f24df35abb43948cd83f8a43310b342a362913bd2128cd8f038a",
+    "schema.py": "e80da7e0b57d11ee951bda371362af5f3f470835eaf4759837b7e627975956e3",
+    "llm.schema.json": "bd8ae721ae4e50065a3e45b87e9077a84872244c623d4a3804524d4f5d2bb9be",
+    "metadata.schema.json": "4a421805f4cca47340e9150e35af27e4af9662823717b03ee573b0797b66addd",
+    "prompts/metadata_extraction.txt": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "input_manifest.json": "6c8780489de99cd5b1bf0ed0c88e504085d9b67455b1dfa156ba0926bc15b300"
+  },
+  "o6_hashes": {
+    "rules": "05b4d61529f86fa88bde9243ee799d3e3d0c8800743f71c3a64225d5e8737b8d",
+    "inputs": "4ab0efee34618b0702c11d3b1cb015ca78cc51069e223c234a0df971cb754fe5"
+  },
+  "configurations": [
+    {
+      "parser": "pymupdf4llm",
+      "method": "rule",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "pymupdf4llm",
+      "method": "llm",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "pymupdf4llm",
+      "method": "hybrid",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_ocr",
+      "method": "rule",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_ocr",
+      "method": "llm",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_ocr",
+      "method": "hybrid",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_vlm",
+      "method": "rule",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_vlm",
+      "method": "llm",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    },
+    {
+      "parser": "mineru_vlm",
+      "method": "hybrid",
+      "expected": 6,
+      "successful": 6,
+      "recorded": 6
+    }
+  ],
+  "provider_failures": []
+}

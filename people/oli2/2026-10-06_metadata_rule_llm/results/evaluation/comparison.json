@@ -1,0 +1,690 @@
+{
+  "parser_effect": {
+    "rule": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "HIPPODROME CASINO LIMITED",
+              "mineru_vlm": "HIPPODROME CASINO LIMITED"
+            }
+          }
+        ]
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "annual_financial_statements",
+              "mineru_vlm": "annual_financial_statements"
+            }
+          }
+        ]
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              },
+              "mineru_vlm": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              }
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "mineru_ocr": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "mineru_vlm": null
+            }
+          }
+        ]
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 2,
+          "denominator": 6,
+          "rate": 0.3333333333333333
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "2025-12-31",
+              "mineru_vlm": "2025-12-31"
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-06-30",
+              "mineru_ocr": "2026-06-30",
+              "mineru_vlm": null
+            }
+          }
+        ]
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-07-30",
+              "mineru_ocr": null,
+              "mineru_vlm": null
+            }
+          }
+        ]
+      }
+    },
+    "llm": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "edf_2024",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "EDF Energy Customers Limited",
+              "mineru_vlm": null
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_presentation",
+            "decisions": {
+              "pymupdf4llm": "Rolls-Royce Holdings plc",
+              "mineru_ocr": "ROLLS R ROYCE",
+              "mineru_vlm": "Rolls-Royce"
+            }
+          }
+        ]
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "annual_financial_statements",
+              "mineru_vlm": "annual_financial_statements"
+            }
+          },
+          {
+            "document_id": "peterborough_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "unaudited_financial_statements",
+              "mineru_vlm": "unaudited_financial_statements"
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "results_press_release",
+              "mineru_ocr": "results_presentation",
+              "mineru_vlm": "results_presentation"
+            }
+          }
+        ]
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              },
+              "mineru_vlm": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              }
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_presentation",
+            "decisions": {
+              "pymupdf4llm": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "mineru_ocr": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "mineru_vlm": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              }
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "mineru_ocr": null,
+              "mineru_vlm": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              }
+            }
+          }
+        ]
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-06-30",
+              "mineru_ocr": null,
+              "mineru_vlm": null
+            }
+          }
+        ]
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-07-30",
+              "mineru_ocr": null,
+              "mineru_vlm": null
+            }
+          }
+        ]
+      }
+    },
+    "hybrid": {
+      "issuer": {
+        "all_parser_decision_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 4,
+          "denominator": 6,
+          "rate": 0.6666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "edf_2024",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "EDF Energy Customers Limited",
+              "mineru_vlm": null
+            }
+          },
+          {
+            "document_id": "rolls_royce_2026h1_presentation",
+            "decisions": {
+              "pymupdf4llm": "Rolls-Royce Holdings plc",
+              "mineru_ocr": "ROLLS R ROYCE",
+              "mineru_vlm": "Rolls-Royce"
+            }
+          }
+        ]
+      },
+      "document_type": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": "annual_financial_statements",
+              "mineru_vlm": "annual_financial_statements"
+            }
+          }
+        ]
+      },
+      "reporting_period": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "hippodrome_2025",
+            "decisions": {
+              "pymupdf4llm": null,
+              "mineru_ocr": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              },
+              "mineru_vlm": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              }
+            }
+          }
+        ]
+      },
+      "reporting_period_end": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 3,
+          "denominator": 6,
+          "rate": 0.5
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-06-30",
+              "mineru_ocr": "2026-06-30",
+              "mineru_vlm": null
+            }
+          }
+        ]
+      },
+      "document_date": {
+        "all_parser_decision_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "all_parser_resolved_agreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "missing_complete_triples": 0,
+        "differences": [
+          {
+            "document_id": "rolls_royce_2026h1_release",
+            "decisions": {
+              "pymupdf4llm": "2026-07-30",
+              "mineru_ocr": null,
+              "mineru_vlm": null
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extractor_effect": {
+    "pymupdf4llm": {
+      "issuer": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 4
+      },
+      "document_type": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 4,
+          "denominator": 4,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 4,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 5,
+          "rate": 0.6
+        },
+        "resolved_disagreement": {
+          "numerator": 2,
+          "denominator": 5,
+          "rate": 0.4
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period_end": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 1
+      },
+      "document_date": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 2,
+          "denominator": 2,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      }
+    },
+    "mineru_ocr": {
+      "issuer": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 2,
+          "denominator": 2,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 4
+      },
+      "document_type": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "resolved_disagreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 5,
+          "denominator": 5,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 5,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period_end": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_date": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      }
+    },
+    "mineru_vlm": {
+      "issuer": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 2,
+          "denominator": 2,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 3
+      },
+      "document_type": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 5,
+          "denominator": 6,
+          "rate": 0.8333333333333334
+        },
+        "resolved_disagreement": {
+          "numerator": 1,
+          "denominator": 6,
+          "rate": 0.16666666666666666
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "reporting_period": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 5,
+          "denominator": 5,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 5,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 1
+      },
+      "reporting_period_end": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 3,
+          "denominator": 3,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      },
+      "document_date": {
+        "available_pairs": 6,
+        "resolved_agreement": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        },
+        "resolved_disagreement": {
+          "numerator": 0,
+          "denominator": 1,
+          "rate": 0.0
+        },
+        "llm_fallback_opportunities": 0
+      }
+    }
+  },
+  "note": "Agreement is not accuracy; shared abstention counts only in decision agreement. Six-document descriptive study."
+}

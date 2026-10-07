@@ -1,0 +1,2296 @@
+{
+  "method": "llm",
+  "label_provenance": {
+    "pilot_revision": "1d20388864e7015cbc2318478b82c73772143ae3",
+    "pilot_path": "people/samhu/2026-10-05_pilot_benchmark/labels.jsonl",
+    "pilot_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+    "pilot_review_states": {
+      "draft": 18
+    },
+    "o6_sha256": "f6f454692e7e899373ee675d8a3b58ecd058cd398473387c9ed6c6ae15e86df7",
+    "o6_origin": "Assistant-authored review of fixed parsed text and embedded PDF titles before running extraction; date policy agreed in the user request.",
+    "warning": "Development references; neither cohort is independent held-out gold"
+  },
+  "predictions_sha256": {
+    "pymupdf4llm\\rule.jsonl": "827d02c46c274f3091fb2045aa70af4c6f3753b7b7feacefdd2189ece4527392",
+    "pymupdf4llm\\llm.jsonl": "b8645f09e0f068015c3d7d035befe7bc391937e047c346fbe164b6141579120b",
+    "pymupdf4llm\\hybrid.jsonl": "403924507bf5cce09b3f4a6b10fa726cc3b4a42db6358af9db1277036e2968d9",
+    "mineru_ocr\\rule.jsonl": "2fd64cd6f1c8897bbbbb3f99c04ce819d1119a942a6a5d1263987d300030c9c5",
+    "mineru_ocr\\llm.jsonl": "15c351608cb6d37d186b46ee22e17b01a7c5b7b529efb3acb68c926f7c1d3574",
+    "mineru_ocr\\hybrid.jsonl": "c4a4ce575449134158e0556993a511355e8ea9bc075ef9910bc2aa301b7e1ae8",
+    "mineru_vlm\\rule.jsonl": "9629538f81146753c0c665e92453bffc0aeb8ab9dc5a0868499779866c15f75c",
+    "mineru_vlm\\llm.jsonl": "9f64d8c6e9ec8a1e77411e0eac46e06634a3893e81d085126c3b43aa30c31b5c",
+    "mineru_vlm\\hybrid.jsonl": "8b7377269ff2cd0d974fc83aa95a879c75092aa839886f7ef099737db12e22fb"
+  },
+  "parsers": {
+    "pymupdf4llm": {
+      "quality": {
+        "schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "evidence_validity": {
+          "numerator": 32,
+          "denominator": 32,
+          "rate": 1.0
+        },
+        "unsupported_evidence_rate": {
+          "numerator": 0,
+          "denominator": 23,
+          "rate": 0.0
+        },
+        "raw_llm_schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "raw_llm_invalid_evidence_rate": {
+          "numerator": 6,
+          "denominator": 39,
+          "rate": 0.15384615384615385
+        },
+        "rejected_llm_fields": 5,
+        "semantic_hallucination_rate": null,
+        "evidence_note": "Exact source membership only; does not establish semantic support, truth, or injection immunity",
+        "missing_or_failed_documents": 0,
+        "fields": {
+          "issuer": {
+            "coverage": {
+              "numerator": 5,
+              "denominator": 6,
+              "rate": 0.8333333333333334
+            },
+            "abstention_rate": {
+              "numerator": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 5,
+              "not_found": 1
+            }
+          },
+          "document_type": {
+            "coverage": {
+              "numerator": 4,
+              "denominator": 6,
+              "rate": 0.6666666666666666
+            },
+            "abstention_rate": {
+              "numerator": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 4,
+              "not_found": 2
+            }
+          },
+          "reporting_period": {
+            "coverage": {
+              "numerator": 5,
+              "denominator": 6,
+              "rate": 0.8333333333333334
+            },
+            "abstention_rate": {
+              "numerator": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 5,
+              "not_found": 1
+            }
+          },
+          "reporting_period_end": {
+            "coverage": {
+              "numerator": 5,
+              "denominator": 6,
+              "rate": 0.8333333333333334
+            },
+            "abstention_rate": {
+              "numerator": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 5,
+              "not_found": 1
+            }
+          },
+          "document_date": {
+            "coverage": {
+              "numerator": 4,
+              "denominator": 6,
+              "rate": 0.6666666666666666
+            },
+            "abstention_rate": {
+              "numerator": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 4,
+              "not_found": 2
+            }
+          }
+        },
+        "resources": {
+          "latency_total_seconds": 30.046527799975593,
+          "latency_mean_seconds": 5.007754633329266,
+          "recorded_rows": 6,
+          "model_calls_this_run": 6,
+          "original_response_model_calls": 6,
+          "input_tokens": 120741,
+          "output_tokens": 2266,
+          "estimated_original_cost_usd": 0.051922,
+          "cache_hits": 0,
+          "scope": "Extraction only; excludes adapter loading, parsing/OCR, serialization and evaluation. Hybrid is resolver-only."
+        },
+        "diagnostics": []
+      },
+      "cohorts": {
+        "pilot_draft_inclusive": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "coverage": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 6,
+                "rate": 0.16666666666666666
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "coverage": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 2,
+                "denominator": 6,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 1,
+                "denominator": 3,
+                "rate": 0.3333333333333333
+              },
+              "supported_value_accuracy": {
+                "numerator": 1,
+                "denominator": 3,
+                "rate": 0.3333333333333333
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "edf_2024",
+              "field": "issuer",
+              "reference_id": "edf_2024.p1.metadata_issuer",
+              "expected": "edf",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_presentation",
+              "field": "issuer",
+              "reference_id": "rolls_royce_2026h1_presentation.p1.metadata_issuer",
+              "expected": "rolls-royce",
+              "actual": "Rolls-Royce Holdings plc",
+              "status": "resolved"
+            },
+            {
+              "document_id": "hippodrome_2025",
+              "field": "document_type",
+              "reference_id": "hippodrome_2025.p1.metadata_document_type",
+              "expected": "annual_financial_statements",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "peterborough_2025",
+              "field": "document_type",
+              "reference_id": "peterborough_2025.p1.metadata_document_type",
+              "expected": "unaudited_financial_statements",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_presentation",
+              "field": "reporting_period",
+              "reference_id": "rolls_royce_2026h1_presentation.p1.metadata_reporting_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period",
+              "reference_id": "rolls_royce_2026h1_release.p1.metadata_reporting_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "status": "resolved"
+            }
+          ],
+          "reference_fields": 18
+        },
+        "pilot_reviewed_only": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [],
+          "reference_fields": 0
+        },
+        "o6_provisional": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "coverage": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 2,
+                "denominator": 6,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "coverage": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 6,
+                "rate": 0.16666666666666666
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 4,
+                "denominator": 4,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 6,
+                "rate": 0.16666666666666666
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 2,
+                "denominator": 2,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 2,
+                "denominator": 6,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "hippodrome_2025",
+              "field": "document_type",
+              "reference_id": "o6:hippodrome_2025:document_type",
+              "expected": "annual_financial_statements",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "peterborough_2025",
+              "field": "document_type",
+              "reference_id": "o6:peterborough_2025:document_type",
+              "expected": "unaudited_financial_statements",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "hippodrome_2025",
+              "field": "reporting_period",
+              "reference_id": "o6:hippodrome_2025:reference_period",
+              "expected": {
+                "year": 2025,
+                "kind": "year",
+                "number": null
+              },
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_presentation",
+              "field": "reporting_period",
+              "reference_id": "o6:rolls_royce_2026h1_presentation:reference_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period",
+              "reference_id": "o6:rolls_royce_2026h1_release:reference_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": {
+                "year": 2026,
+                "kind": "half",
+                "number": null
+              },
+              "status": "resolved"
+            },
+            {
+              "document_id": "cvs_2025q2",
+              "field": "reporting_period_end",
+              "reference_id": "o6:cvs_2025q2:reference_date",
+              "expected": null,
+              "actual": "2025-06-30",
+              "status": "resolved"
+            },
+            {
+              "document_id": "peterborough_2025",
+              "field": "document_date",
+              "reference_id": "o6:peterborough_2025:document_date",
+              "expected": null,
+              "actual": "2025-12-19",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_presentation",
+              "field": "document_date",
+              "reference_id": "o6:rolls_royce_2026h1_presentation:document_date",
+              "expected": null,
+              "actual": "2026-07-29",
+              "status": "resolved"
+            }
+          ],
+          "reference_fields": 24
+        }
+      }
+    },
+    "mineru_ocr": {
+      "quality": {
+        "schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "evidence_validity": {
+          "numerator": 36,
+          "denominator": 36,
+          "rate": 1.0
+        },
+        "unsupported_evidence_rate": {
+          "numerator": 0,
+          "denominator": 24,
+          "rate": 0.0
+        },
+        "raw_llm_schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "raw_llm_invalid_evidence_rate": {
+          "numerator": 3,
+          "denominator": 43,
+          "rate": 0.06976744186046512
+        },
+        "rejected_llm_fields": 3,
+        "semantic_hallucination_rate": null,
+        "evidence_note": "Exact source membership only; does not establish semantic support, truth, or injection immunity",
+        "missing_or_failed_documents": 0,
+        "fields": {
+          "issuer": {
+            "coverage": {
+              "numerator": 6,
+              "denominator": 6,
+              "rate": 1.0
+            },
+            "abstention_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 6
+            }
+          },
+          "document_type": {
+            "coverage": {
+              "numerator": 6,
+              "denominator": 6,
+              "rate": 1.0
+            },
+            "abstention_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 6
+            }
+          },
+          "reporting_period": {
+            "coverage": {
+              "numerator": 5,
+              "denominator": 6,
+              "rate": 0.8333333333333334
+            },
+            "abstention_rate": {
+              "numerator": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 5,
+              "not_found": 1
+            }
+          },
+          "reporting_period_end": {
+            "coverage": {
+              "numerator": 4,
+              "denominator": 6,
+              "rate": 0.6666666666666666
+            },
+            "abstention_rate": {
+              "numerator": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 4,
+              "not_found": 2
+            }
+          },
+          "document_date": {
+            "coverage": {
+              "numerator": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "abstention_rate": {
+              "numerator": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 3,
+              "not_found": 3
+            }
+          }
+        },
+        "resources": {
+          "latency_total_seconds": 26.716907799971523,
+          "latency_mean_seconds": 4.452817966661921,
+          "recorded_rows": 6,
+          "model_calls_this_run": 6,
+          "original_response_model_calls": 6,
+          "input_tokens": 115858,
+          "output_tokens": 2336,
+          "estimated_original_cost_usd": 0.0500808,
+          "cache_hits": 0,
+          "scope": "Extraction only; excludes adapter loading, parsing/OCR, serialization and evaluation. Hybrid is resolver-only."
+        },
+        "diagnostics": []
+      },
+      "cohorts": {
+        "pilot_draft_inclusive": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 2,
+                "denominator": 3,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 2,
+                "denominator": 3,
+                "rate": 0.6666666666666666
+              },
+              "coverage": {
+                "numerator": 2,
+                "denominator": 3,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 3,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "edf_2024",
+              "field": "issuer",
+              "reference_id": "edf_2024.p1.metadata_issuer",
+              "expected": "edf",
+              "actual": "EDF Energy Customers Limited",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_presentation",
+              "field": "issuer",
+              "reference_id": "rolls_royce_2026h1_presentation.p1.metadata_issuer",
+              "expected": "rolls-royce",
+              "actual": "ROLLS R ROYCE",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_type",
+              "reference_id": "rolls_royce_2026h1_release.p1.metadata_document_type",
+              "expected": "results_press_release",
+              "actual": "results_presentation",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period",
+              "reference_id": "rolls_royce_2026h1_release.p1.metadata_reporting_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": null,
+              "status": "not_found"
+            }
+          ],
+          "reference_fields": 18
+        },
+        "pilot_reviewed_only": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [],
+          "reference_fields": 0
+        },
+        "o6_provisional": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 6,
+                "rate": 0.16666666666666666
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 4,
+                "rate": 0.75
+              },
+              "coverage": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 2,
+                "denominator": 6,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "supported_value_accuracy": {
+                "numerator": 1,
+                "denominator": 2,
+                "rate": 0.5
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_type",
+              "reference_id": "o6:rolls_royce_2026h1_release:document_type",
+              "expected": "results_press_release",
+              "actual": "results_presentation",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period",
+              "reference_id": "o6:rolls_royce_2026h1_release:reference_period",
+              "expected": {
+                "year": 2026,
+                "kind": "half",
+                "number": 1
+              },
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "cvs_2025q2",
+              "field": "reporting_period_end",
+              "reference_id": "o6:cvs_2025q2:reference_date",
+              "expected": null,
+              "actual": "2025-06-30",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period_end",
+              "reference_id": "o6:rolls_royce_2026h1_release:reference_date",
+              "expected": "2026-06-30",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "hippodrome_2025",
+              "field": "document_date",
+              "reference_id": "o6:hippodrome_2025:document_date",
+              "expected": null,
+              "actual": "2026-06-12",
+              "status": "resolved"
+            },
+            {
+              "document_id": "peterborough_2025",
+              "field": "document_date",
+              "reference_id": "o6:peterborough_2025:document_date",
+              "expected": null,
+              "actual": "2025-12-19",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_date",
+              "reference_id": "o6:rolls_royce_2026h1_release:document_date",
+              "expected": "2026-07-30",
+              "actual": null,
+              "status": "not_found"
+            }
+          ],
+          "reference_fields": 24
+        }
+      }
+    },
+    "mineru_vlm": {
+      "quality": {
+        "schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "evidence_validity": {
+          "numerator": 33,
+          "denominator": 33,
+          "rate": 1.0
+        },
+        "unsupported_evidence_rate": {
+          "numerator": 0,
+          "denominator": 24,
+          "rate": 0.0
+        },
+        "raw_llm_schema_validity": {
+          "numerator": 6,
+          "denominator": 6,
+          "rate": 1.0
+        },
+        "raw_llm_invalid_evidence_rate": {
+          "numerator": 3,
+          "denominator": 39,
+          "rate": 0.07692307692307693
+        },
+        "rejected_llm_fields": 3,
+        "semantic_hallucination_rate": null,
+        "evidence_note": "Exact source membership only; does not establish semantic support, truth, or injection immunity",
+        "missing_or_failed_documents": 0,
+        "fields": {
+          "issuer": {
+            "coverage": {
+              "numerator": 5,
+              "denominator": 6,
+              "rate": 0.8333333333333334
+            },
+            "abstention_rate": {
+              "numerator": 1,
+              "denominator": 6,
+              "rate": 0.16666666666666666
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 5,
+              "not_found": 1
+            }
+          },
+          "document_type": {
+            "coverage": {
+              "numerator": 6,
+              "denominator": 6,
+              "rate": 1.0
+            },
+            "abstention_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 6
+            }
+          },
+          "reporting_period": {
+            "coverage": {
+              "numerator": 6,
+              "denominator": 6,
+              "rate": 1.0
+            },
+            "abstention_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 6
+            }
+          },
+          "reporting_period_end": {
+            "coverage": {
+              "numerator": 4,
+              "denominator": 6,
+              "rate": 0.6666666666666666
+            },
+            "abstention_rate": {
+              "numerator": 2,
+              "denominator": 6,
+              "rate": 0.3333333333333333
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 4,
+              "not_found": 2
+            }
+          },
+          "document_date": {
+            "coverage": {
+              "numerator": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "abstention_rate": {
+              "numerator": 3,
+              "denominator": 6,
+              "rate": 0.5
+            },
+            "ambiguity_rate": {
+              "numerator": 0,
+              "denominator": 6,
+              "rate": 0.0
+            },
+            "counts": {
+              "resolved": 3,
+              "not_found": 3
+            }
+          }
+        },
+        "resources": {
+          "latency_total_seconds": 19.358756900008302,
+          "latency_mean_seconds": 3.226459483334717,
+          "recorded_rows": 6,
+          "model_calls_this_run": 6,
+          "original_response_model_calls": 6,
+          "input_tokens": 114468,
+          "output_tokens": 2126,
+          "estimated_original_cost_usd": 0.049188800000000005,
+          "cache_hits": 0,
+          "scope": "Extraction only; excludes adapter loading, parsing/OCR, serialization and evaluation. Hybrid is resolver-only."
+        },
+        "diagnostics": []
+      },
+      "cohorts": {
+        "pilot_draft_inclusive": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 1,
+                "denominator": 6,
+                "rate": 0.16666666666666666
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 3,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 3,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "edf_2024",
+              "field": "issuer",
+              "reference_id": "edf_2024.p1.metadata_issuer",
+              "expected": "edf",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_type",
+              "reference_id": "rolls_royce_2026h1_release.p1.metadata_document_type",
+              "expected": "results_press_release",
+              "actual": "results_presentation",
+              "status": "resolved"
+            }
+          ],
+          "reference_fields": 18
+        },
+        "pilot_reviewed_only": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            }
+          },
+          "mistakes": [],
+          "reference_fields": 0
+        },
+        "o6_provisional": {
+          "metrics": {
+            "issuer": {
+              "exact_match": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "supported_value_accuracy": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "coverage": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 0,
+                "rate": null
+              }
+            },
+            "document_type": {
+              "exact_match": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "supported_value_accuracy": {
+                "numerator": 5,
+                "denominator": 6,
+                "rate": 0.8333333333333334
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period": {
+              "exact_match": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "supported_value_accuracy": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "coverage": {
+                "numerator": 6,
+                "denominator": 6,
+                "rate": 1.0
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "reporting_period_end": {
+              "exact_match": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "supported_value_accuracy": {
+                "numerator": 3,
+                "denominator": 4,
+                "rate": 0.75
+              },
+              "coverage": {
+                "numerator": 4,
+                "denominator": 6,
+                "rate": 0.6666666666666666
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 2,
+                "denominator": 6,
+                "rate": 0.3333333333333333
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            },
+            "document_date": {
+              "exact_match": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "supported_value_accuracy": {
+                "numerator": 1,
+                "denominator": 2,
+                "rate": 0.5
+              },
+              "coverage": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "ambiguity_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              },
+              "abstention_rate": {
+                "numerator": 3,
+                "denominator": 6,
+                "rate": 0.5
+              },
+              "missing_or_failed_rate": {
+                "numerator": 0,
+                "denominator": 6,
+                "rate": 0.0
+              }
+            }
+          },
+          "mistakes": [
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_type",
+              "reference_id": "o6:rolls_royce_2026h1_release:document_type",
+              "expected": "results_press_release",
+              "actual": "results_presentation",
+              "status": "resolved"
+            },
+            {
+              "document_id": "cvs_2025q2",
+              "field": "reporting_period_end",
+              "reference_id": "o6:cvs_2025q2:reference_date",
+              "expected": null,
+              "actual": "2025-06-30",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "reporting_period_end",
+              "reference_id": "o6:rolls_royce_2026h1_release:reference_date",
+              "expected": "2026-06-30",
+              "actual": null,
+              "status": "not_found"
+            },
+            {
+              "document_id": "hippodrome_2025",
+              "field": "document_date",
+              "reference_id": "o6:hippodrome_2025:document_date",
+              "expected": null,
+              "actual": "2026-06-12",
+              "status": "resolved"
+            },
+            {
+              "document_id": "peterborough_2025",
+              "field": "document_date",
+              "reference_id": "o6:peterborough_2025:document_date",
+              "expected": null,
+              "actual": "2025-12-19",
+              "status": "resolved"
+            },
+            {
+              "document_id": "rolls_royce_2026h1_release",
+              "field": "document_date",
+              "reference_id": "o6:rolls_royce_2026h1_release:document_date",
+              "expected": "2026-07-30",
+              "actual": null,
+              "status": "not_found"
+            }
+          ],
+          "reference_fields": 24
+        }
+      }
+    }
+  }
+}

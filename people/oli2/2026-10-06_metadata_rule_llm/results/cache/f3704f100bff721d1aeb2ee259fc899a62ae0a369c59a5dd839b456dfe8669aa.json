@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "b12a4ac154c16e1bb5b2b2d53289bbd22e1a01dcecd061440610a2a4cd3c74ce",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"CVS Health\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"CVS Health Earnings Presentation\"},{\"source\":\"page\",\"page\":1,\"quote\":\"## CVSHealth Earnings Conference Call\"},{\"source\":\"page\",\"page\":2,\"quote\":\"CVS Health Corporation (“CVS Health\\\")\"}],\"diagnostics\":[\"Issuer clearly identified as CVS Health from embedded title and multiple page references including page 1 and 2.\"]},\"document_type\":{\"value\":\"earnings_presentation\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"CVS Health Earnings Presentation\"}],\"diagnostics\":[\"Document type identified as earnings presentation from embedded title.\"]},\"reporting_period\":{\"value\":{\"year\":2025,\"kind\":\"quarter\",\"number\":2},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"Second Quarter 2025 July 31, 2025\"},{\"source\":\"page\",\"page\":3,\"quote\":\"Delivered consolidated revenue growth of 8.4% and adjusted EPS of \\\\$1.81 in the second quarter of 2025.\"}],\"diagnostics\":[\"Reporting period explicitly stated as Second Quarter 2025 on page 1 and supported by financial results on page 3.\"]},\"reporting_period_end\":{\"value\":\"2025-06-30\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"Second Quarter 2025 July 31, 2025\"}],\"diagnostics\":[\"Reporting period end inferred as 2025-06-30 since Q2 typically ends June 30; July 31, 2025 is the call date, not period end. No explicit date for period end given, but standard quarter end date used.\"]},\"document_date\":{\"value\":\"2025-07-31\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"Second Quarter 2025 July 31, 2025\"}],\"diagnostics\":[\"Document date resolved as July 31, 2025 from page 1 where the date is given alongside the quarter reference, consistent with earnings call date.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.0025704,
+    "runtime_seconds": 4.604941900004633,
+    "response_id": "resp_00895fc020a6705d016ac595ecca7087d2bd130fe06f82c9b5",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 4618,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 452,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 5070
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "a838bd94b605e64a54fd2f7c7519f5851a57d38e585cff7172604be43dde0726"
+}

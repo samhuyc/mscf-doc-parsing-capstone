@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "suite": "O6 1.1.0",
+      "command": "python -B -m unittest discover -s ../2026-09-29_metadata_extraction/tests -v",
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "suite": "New experiment",
+      "command": "python -B -m unittest discover -s tests -v",
+      "passed": 52,
+      "failed": 0
+    }
+  ],
+  "input_contracts_validated": 18,
+  "physical_pages_per_parser": {
+    "pymupdf4llm": 140,
+    "mineru_ocr": 140,
+    "mineru_vlm": 140
+  },
+  "final_prediction_rows": 54,
+  "original_primary_live_calls": 18,
+  "final_revalidation_model_calls": 0,
+  "smoke_live_calls": 6,
+  "prompt_version": "1.0.1",
+  "existing_tracked_files_changed": [],
+  "credential_scan": "No API credential bytes in experiment files",
+  "final_prediction_code_hashes_match_current": true,
+  "coverage": {
+    "rule": 52,
+    "llm": 62,
+    "hybrid": 65
+  },
+  "coverage_denominator_per_method": 90,
+  "experiment_version": "1.0.2",
+  "offline_replayed_predictions": 54,
+  "new_file_whitespace_check": "Passed for all new artifact files",
+  "relative_document_links": "All local Markdown links resolve",
+  "untracked_file_count": 92
+}

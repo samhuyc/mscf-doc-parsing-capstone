@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "aa8136712e7fd1f86e1b3cf5a68f770f24333e93e2a86986200188dd01bed66a",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"ROLLS-ROYCE HOLDINGS PLC\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"Rolls-Royce Holdings plc - 2026 Half Year Results Press Release\"},{\"source\":\"page\",\"page\":1,\"quote\":\"ROLLS-ROYCE HOLDINGS PLC – 2026 Half Year Results\"}],\"diagnostics\":[\"Issuer identified from embedded title and page 1 header.\"]},\"document_type\":{\"value\":\"results_presentation\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"## Strong operational and financial performance driven by transformation; FY26 guidance raised\"},{\"source\":\"page\",\"page\":12,\"quote\":\"Our results presentation will be held at UBS, 5 Broadgate, London EC2M 2QS and webcast live at 09:00 (BST) today.\"}],\"diagnostics\":[\"Document is a results presentation as indicated by multiple references to results presentation and webcast on page 12 and the style of the document.\"]},\"reporting_period\":{\"value\":{\"year\":2026,\"kind\":\"half\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"Half Year 2026 Group Results\"},{\"source\":\"page\",\"page\":1,\"quote\":\"30 July 2026\"},{\"source\":\"page\",\"page\":6,\"quote\":\"2026 Half Year financial performance by division\"}],\"diagnostics\":[\"Reporting period is the half year ended 30 June 2026 as indicated by multiple references to H1 2026 and half year results throughout the document.\"]},\"reporting_period_end\":{\"value\":\"2026-06-30\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"30 June 2026\"},{\"source\":\"page\",\"page\":6,\"quote\":\"Half Year 2026 financial performance\"}],\"diagnostics\":[\"Explicit date 30 June 2026 given as reporting period end for half year 2026.\"]},\"document_date\":{\"value\":\"2026-07-30\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"30 July 2026\"},{\"source\":\"page\",\"page\":51,\"quote\":\"London 30 July 2026\"}],\"diagnostics\":[\"Document date is 30 July 2026 as stated on page 1 and in auditor's report on page 51.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.028160400000000002,
+    "runtime_seconds": 6.853086599992821,
+    "response_id": "resp_018487c1fc2c4db3016ac59600b86487d299ee5b26e46d648f",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 68409,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 498,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68907
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "84acc91c704badca77fdeac58b9a6d3188ded8cf305db7cc707b65de67497ac3"
+}

@@ -1,0 +1,363 @@
+{
+  "type": "object",
+  "properties": {
+    "issuer": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "resolved",
+            "ambiguous",
+            "not_found"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "enum": [
+                  "page",
+                  "embedded_title"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "page",
+              "quote"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "status",
+        "evidence",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "document_type": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "enum": [
+            null,
+            "earnings_presentation",
+            "results_presentation",
+            "results_press_release",
+            "annual_financial_statements",
+            "unaudited_financial_statements",
+            "consolidated_segmental_statement"
+          ]
+        },
+        "status": {
+          "enum": [
+            "resolved",
+            "ambiguous",
+            "not_found"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "enum": [
+                  "page",
+                  "embedded_title"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "page",
+              "quote"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "status",
+        "evidence",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "reporting_period": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "year": {
+                  "type": "integer",
+                  "minimum": 1900,
+                  "maximum": 2199
+                },
+                "kind": {
+                  "enum": [
+                    "year",
+                    "half",
+                    "quarter"
+                  ]
+                },
+                "number": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 4
+                }
+              },
+              "required": [
+                "year",
+                "kind",
+                "number"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "resolved",
+            "ambiguous",
+            "not_found"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "enum": [
+                  "page",
+                  "embedded_title"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "page",
+              "quote"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "status",
+        "evidence",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "reporting_period_end": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "status": {
+          "enum": [
+            "resolved",
+            "ambiguous",
+            "not_found"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "enum": [
+                  "page",
+                  "embedded_title"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "page",
+              "quote"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "status",
+        "evidence",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    "document_date": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "status": {
+          "enum": [
+            "resolved",
+            "ambiguous",
+            "not_found"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "enum": [
+                  "page",
+                  "embedded_title"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source",
+              "page",
+              "quote"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "value",
+        "status",
+        "evidence",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "issuer",
+    "document_type",
+    "reporting_period",
+    "reporting_period_end",
+    "document_date"
+  ],
+  "additionalProperties": false
+}

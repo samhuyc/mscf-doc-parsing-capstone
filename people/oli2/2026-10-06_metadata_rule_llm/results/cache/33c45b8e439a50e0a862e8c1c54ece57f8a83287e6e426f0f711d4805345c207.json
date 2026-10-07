@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "209f9bef267b73b6e0aba63ce012e78e95f800a28706b68e9f9b875b2b0c8f0b",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"Rolls-Royce Holdings plc\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"Rolls-Royce Holdings plc - 2026 Half Year Results Presentation\"}],\"diagnostics\":[]},\"document_type\":{\"value\":\"results_presentation\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"Rolls-Royce Holdings plc - 2026 Half Year Results Presentation\"}],\"diagnostics\":[]},\"reporting_period\":{\"value\":{\"year\":2026,\"kind\":\"half\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"# HALF YEAR **RESULTS** 2026\"},{\"source\":\"page\",\"page\":9,\"quote\":\"### 2026 HALF YEAR UNDERLYING RESULTS\"}],\"diagnostics\":[\"Reporting period explicitly stated as half year 2026 on page 1 and page 9.\"]},\"reporting_period_end\":{\"value\":null,\"status\":\"not_found\",\"evidence\":[],\"diagnostics\":[\"No explicit ISO date for reporting period end found in document.\"]},\"document_date\":{\"value\":\"2026-07-29\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":14,\"quote\":\"1 As of 29 July 2026\"}],\"diagnostics\":[\"Document date inferred from statement 'As of 29 July 2026' on page 14 indicating publication or announcement date.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.0032592000000000003,
+    "runtime_seconds": 4.725839299993822,
+    "response_id": "resp_08f690d8fb0bb787016ac595e0470c87d2a3604807dd52c459",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 6928,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 305,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 7233
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "59c87cbfb82ac05f95fba20e2657aacf8214de19f9eb7094143bc4dac8ea43c4"
+}

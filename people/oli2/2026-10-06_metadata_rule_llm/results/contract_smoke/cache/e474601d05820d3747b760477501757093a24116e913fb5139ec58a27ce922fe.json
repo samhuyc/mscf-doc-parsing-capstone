@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "69b8214db3a089809a7ca7c8efb8c79b4a02b686b2e7750af2203b51befc567a",
+    "prompt_version": "1.0.0",
+    "prompt_sha256": "46026cd8ff0fe332a011a93ff1222ddd02e72d60cc307c23dfab0576fe26728b",
+    "schema_sha256": "f4b3d93ca9cae38e904a8a2e44aef1f08b18606f5d04ac5c2539585291f55820"
+  },
+  "text": "{\"issuer\":{\"value\":\"ROLLS-ROYCE HOLDINGS PLC\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"Rolls-Royce Holdings plc - 2026 Half Year Results Press Release\"},{\"source\":\"page\",\"page\":1,\"quote\":\"ROLLS-ROYCE HOLDINGS PLC – 2026 Half Year Results\"}],\"diagnostics\":[\"Issuer clearly identified on cover page and embedded title.\"]},\"document_type\":{\"value\":\"results_press_release\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"This announcement contains inside information \\n\\n**30 July 2026** \\n\\n**ROLLS-ROYCE HOLDINGS PLC – 2026 Half Year Results**\"}],\"diagnostics\":[\"Document is a half year results announcement, consistent with a results_press_release.\"]},\"reporting_period\":{\"value\":{\"year\":2026,\"kind\":\"half\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"ROLLS-ROYCE HOLDINGS PLC – 2026 Half Year Results\"},{\"source\":\"page\",\"page\":6,\"quote\":\"A strong first half gives us confidence to raise our full year 2026 guidance, despite an uncertain external environment.\"}],\"diagnostics\":[\"Reporting period is half year 2026 as indicated by multiple references to half year results and guidance for full year 2026.\"]},\"reporting_period_end\":{\"value\":\"2026-06-30\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":9,\"quote\":\"Condensed consolidated income statement For the half-year ended 30 June 2026\"},{\"source\":\"page\",\"page\":1,\"quote\":\"Net cash 2,136 (30 Jun 2026)\"}],\"diagnostics\":[\"Explicit date 30 June 2026 given as period end for half year results.\"]},\"document_date\":{\"value\":\"2026-07-30\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"This announcement contains inside information \\n\\n**30 July 2026**\"}],\"diagnostics\":[\"Document date is the announcement date on cover page.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.028725600000000004,
+    "runtime_seconds": 47.9188333999773,
+    "response_id": "resp_05a4d72643d9cdee016ac5957c4abc87d2818298ca1db4195c",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 69998,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 454,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 70452
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "d9dd98522cde0d096393543db1ba14f32ec5a2f2199ae408e7c4ee375ccb7405"
+}

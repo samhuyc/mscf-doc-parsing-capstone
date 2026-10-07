@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "inputs": [
+    {
+      "document_id": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "sha256_utf8_lf": {
+        "pages.json": "1a11f6f344b0731d2604e232d38284650157d69f771669444ea72fb5eef43ff1",
+        "metadata.json": "fafbc9e592f0e090d4709ece6f65fb29711b4343f1167bacdf9d7d49815532b7",
+        "document.md": "494888ef1c351a4322bcf6a07d2fd686d0af27420d1dc0722abbbcd26cc5ef5e",
+        "run.json": "6f17bdc66417010137d6fe5d885c0ae190d71f3473d83947b4fe7d8db9e094bc"
+      }
+    },
+    {
+      "document_id": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_vlm",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "sha256_utf8_lf": {
+        "pages.json": "9d2d8368f365f34d7f8ad390084c4c3f9650bdd579902cf74b1ec03bc5a2d836",
+        "metadata.json": "a4e25363d6add56e3806100ef1f513aeb32068e996e6126ec2545746aa6eabb9",
+        "document.md": "60f27a8f45bf3c024a4fc194e3294e29bbefe7ba12bbba1fd36fc5203a8ed0d3",
+        "run.json": "0573d4fa081e0a0d90403f679d567855ace261a1bcd95311679bca45b4de7b5d"
+      }
+    },
+    {
+      "document_id": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "sha256_utf8_lf": {
+        "pages.json": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+        "metadata.json": "7667a5f6c1e16f1c9342d4a1c01b232834c14e7d739c0225bcd7b77efa43b7fd",
+        "document.md": "38a23919b003ff10808a9f41fde04b81e8042702c1acb2ef1d39c17a0f3a6a78",
+        "run.json": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+      }
+    },
+    {
+      "document_id": "edf_2024",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "sha256_utf8_lf": {
+        "pages.json": "3dc4c35fbea5e9602cf13420c4f4919af6f976dfb9092513fd0a0197be01e1af",
+        "metadata.json": "802dce5f24cfb73bac29929e84a6141f91782bd59deaad650dccbef125e079bf",
+        "document.md": "64dced2eea03462578d8f439604845887065a0352bf41c24016a090304a1ef80",
+        "run.json": "974952785052918e03e0c56ac7410b8a974b9cb24a47ae3b2d91d4ef3edd42d7"
+      }
+    },
+    {
+      "document_id": "edf_2024",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_vlm",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "sha256_utf8_lf": {
+        "pages.json": "d4c588a42fded3fb27793d4aa4f791fab1fef5ab0be03d8f998da18bd8032e5d",
+        "metadata.json": "2e2e2179128c7a84005fec6a70608b56593a27bd1a8eaea6a714d17ef8039f25",
+        "document.md": "2de23abdd0b48ab1ecfdf92ade500200db652a7bc1aa361065573ff935411ad4",
+        "run.json": "d35b3ac4fbb86d95ec012d69ecfafa2e2a4f4b35a3d1caa44188322683be8fe4"
+      }
+    },
+    {
+      "document_id": "edf_2024",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "sha256_utf8_lf": {
+        "pages.json": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+        "metadata.json": "5c598c5ea934efbedc6310185a1e91e42f051968e8cb3efa4fc405762f3be237",
+        "document.md": "79849ec4a20f010aec90f348765fd41e1a25d115e224135c62bd3f100cf41bf7",
+        "run.json": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "sha256_utf8_lf": {
+        "pages.json": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+        "metadata.json": "ea62b761b93d3e9e68283aa121f0ed6a274f096ae2beeb951bca2357ff4fdada",
+        "document.md": "3cab2e9085470570f9e3f20e700dcaa4ef45b451cd98a8fd728a115044705ef2",
+        "run.json": "0a83484b10bf855da06ecb862db3c5605536fffbaf590f746ca0b074bbd25e29"
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_vlm",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "sha256_utf8_lf": {
+        "pages.json": "5d9fd8d9d5302dc6601250c861631e18bcf8301b920bcb5afc2d03dbc8f391b4",
+        "metadata.json": "991571174f1c950d01064e0743a1d3bbbdd4675ba61403484f6d4bffd50550a9",
+        "document.md": "868022e9d7d4a72fafeed9f9e7c7fc89bd18126655308da107075d1c0f803560",
+        "run.json": "51341277c5a2449957aef2a3930e64531b6c7a2d1d0cb86f87d48c58f7ee2634"
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "sha256_utf8_lf": {
+        "pages.json": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+        "metadata.json": "273cc959c95863a1f5099dffec8a61302957d0218a1d339d98be43fec12896a3",
+        "document.md": "4be1a4b60974195e8f4df85d9b96622172bf493b17e9486f8d5aa54a972e78c3",
+        "run.json": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65"
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "sha256_utf8_lf": {
+        "pages.json": "f654fa50c560e1dca24a3a14d615463b3913ee432c372a3f158f1322fabf5532",
+        "metadata.json": "2c90832ea50db1ae1e7dc53866002394f91ae618fdb5b8ba986949313304276d",
+        "document.md": "bac13f9d7043bcc214cfc43921f809f4807ba6f5449789d38e39879be4dcf31b",
+        "run.json": "f6aac6723a6607b5f4ab3f88d58b9cad68173354cec589b669e11bb4c59a4836"
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_vlm",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "sha256_utf8_lf": {
+        "pages.json": "1f111d12e364f57829cf89e94fa5a323a04ba2f6bc6960a9911abea47fa86568",
+        "metadata.json": "15195683d1560b67a5bc97f28b07a3d9082a1d1ade1bfcd628a95494373756cc",
+        "document.md": "49f23f8cd426954ded6ee40be25824baaef7970b952b9608a590f06c91047e30",
+        "run.json": "7637391b85f8d95b430b4e201d211092964bc9e3bb0574a7412d81ea8b223cc7"
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "sha256_utf8_lf": {
+        "pages.json": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+        "metadata.json": "090c963d132391e60230ce0cdd670dcdd50a158fbd82ac3131b7d55f4fc837f6",
+        "document.md": "293d753ceaf75a7b503f27947c9d55d500e889fb0b07dd0da575e884f0f8230b",
+        "run.json": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "sha256_utf8_lf": {
+        "pages.json": "a5b507173a782b58b05defde753f166a62f17373aa726b6f3671bdb85ada5162",
+        "metadata.json": "8dcfff0ce18cc3d833d576f8f363c8cc84b82b3e062186d0f860cd7ca64ea1af",
+        "document.md": "e910dcbce278f23c32c83833482d65b8670bb8baa1bbde24af599c81fa7eef92",
+        "run.json": "6347fd90720082a597dec6f4c9c40a2daa8d48162662454a35843e58bb8ad65a"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_vlm",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "sha256_utf8_lf": {
+        "pages.json": "b9f82ee401c2a328466b19d3e4c40b06122fabfdef8bca81b678c296ea2375e1",
+        "metadata.json": "8651d473be0e0c3a21026711da8c50ed15de82f4fee782c72d8080283d3443fd",
+        "document.md": "a00a81995c9bfa4acbf8720ad38e6049eddfeb2967c70ffbb0af0af816d29e3b",
+        "run.json": "e8da9d69eaf6f86366388e093313e63abe8783d9d2f7d15afb25b126b4dae524"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "sha256_utf8_lf": {
+        "pages.json": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+        "metadata.json": "1ab4a1078ea874fea2c1ff57d4abd3588e9f4346c174daa9b755222a41269841",
+        "document.md": "e359c4b9a37c28d229931925dfa94c9a1f9e08628aacbacb48bc08ec56694aa2",
+        "run.json": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "sha256_utf8_lf": {
+        "pages.json": "d09ff696dc2d26f54ead3aa9946831a1f04f0323b57d37d21720cb897406a797",
+        "metadata.json": "00e70eb812bc7bd2d87025a4a26dc6b7acd3f79f39770e99b6fcf75cde79fe98",
+        "document.md": "6f6556f3a160051d7304aef2e3d132850c43a9cd115209b06b41cd6c268dd8c1",
+        "run.json": "8cdbd60f1bc38bf766ebcade4f7b7a95ac1cf999265288901bc87e586d064f6b"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "sha256_utf8_lf": {
+        "pages.json": "c40ef050a55fdc3aae1c8168f473cae8181535431e7bc1e4b9d8f8a753f256b2",
+        "metadata.json": "85aad14d414c6d037f82e210ad9b0e8c7a2a15591914c998e2de31d2f0fd36d3",
+        "document.md": "f5d1d75f019365fb492dc9704ac9cb8f4fe66ebda468e9c1fbf97c9d0b232af2",
+        "run.json": "607eb03850f806895e88a2891b11f7068870b4c03b47432c8173b9d8e516ea56"
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "sha256_utf8_lf": {
+        "pages.json": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+        "metadata.json": "d64253375e7c18c2864622b5ff75177f434cd24037326766d4e92eb44a87dc0e",
+        "document.md": "1729b5ce0f0f1084fa9f54641c589c3155ba364995f7e34f00bf938202941bd4",
+        "run.json": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+      }
+    }
+  ]
+}

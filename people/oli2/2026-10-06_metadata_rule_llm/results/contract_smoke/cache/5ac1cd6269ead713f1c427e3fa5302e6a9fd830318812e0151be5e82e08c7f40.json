@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "b20f9491e6f98f63282a2f630204c914dec072cde9fe8d8d91b6f2538860b3a5",
+    "prompt_version": "1.0.0",
+    "prompt_sha256": "46026cd8ff0fe332a011a93ff1222ddd02e72d60cc307c23dfab0576fe26728b",
+    "schema_sha256": "f4b3d93ca9cae38e904a8a2e44aef1f08b18606f5d04ac5c2539585291f55820"
+  },
+  "text": "{\"issuer\":{\"value\":\"CVS Health\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"CVS Health Earnings Presentation\"},{\"source\":\"page\",\"page\":1,\"quote\":\"©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\"}],\"diagnostics\":[\"Issuer identified from embedded title and copyright notices on multiple pages.\"]},\"document_type\":{\"value\":\"earnings_presentation\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"embedded_title\",\"page\":null,\"quote\":\"CVS Health Earnings Presentation\"},{\"source\":\"page\",\"page\":1,\"quote\":\"**Earnings** Conference Call\"}],\"diagnostics\":[\"Document type identified as earnings presentation from embedded title and page 1 heading.\"]},\"reporting_period\":{\"value\":{\"year\":2025,\"kind\":\"quarter\",\"number\":2},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"Second Quarter 2025\"},{\"source\":\"page\",\"page\":6,\"quote\":\"2Q 2025\"}],\"diagnostics\":[\"Reporting period explicitly stated as Second Quarter 2025 on page 1 and 2Q 2025 on page 6.\"]},\"reporting_period_end\":{\"value\":null,\"status\":\"not_found\",\"evidence\":[],\"diagnostics\":[\"No explicit ISO date for reporting period end found in document.\"]},\"document_date\":{\"value\":\"July 31, 2025\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"July 31, 2025 |\"}],\"diagnostics\":[\"Document date found on page 1 near the top as July 31, 2025.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.0025624000000000003,
+    "runtime_seconds": 5.502911199990194,
+    "response_id": "resp_00ed60ea91f46569016ac59563ef5c87d28108c619e3885be5",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 5030,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 344,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 5374
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "ce093e18a1a3fd664204c00429ea6a314a5de610daff802f7d5da8f9b19f3ec8"
+}

@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "a65cf4d8d77badbc0ca21321e45b71ed9bc3ebd4715b664915689a63138b0f99",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"EDF Energy Customers Limited\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":2,\"quote\":\"The CSS provides transparency of the supply activities and profitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December 2024.\"},{\"source\":\"page\",\"page\":2,\"quote\":\"EDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (“EDF UK Group”) which holds electricity and gas supply licences used to supply energy to residential, commercial and industrial customers in the UK.\"}],\"diagnostics\":[\"Issuer explicitly named as EDF Energy Customers Limited on page 2 in the executive summary.\"]},\"document_type\":{\"value\":\"consolidated_segmental_statement\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"# EDF Consolidated Segmental Statement\\n\\nfor the year ended 31 December 2024\"}],\"diagnostics\":[\"Document title on page 1 identifies this as a Consolidated Segmental Statement.\"]},\"reporting_period\":{\"value\":{\"year\":2024,\"kind\":\"year\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"for the year ended 31 December 2024\"},{\"source\":\"page\",\"page\":2,\"quote\":\"financial year ended 31 December 2024\"},{\"source\":\"page\",\"page\":4,\"quote\":\"financial statements for year ended 31 December 2024\"}],\"diagnostics\":[\"Multiple references to financial year ended 31 December 2024 indicate full year reporting period.\"]},\"reporting_period_end\":{\"value\":\"2024-12-31\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"for the year ended 31 December 2024\"},{\"source\":\"page\",\"page\":2,\"quote\":\"financial year ended 31 December 2024\"}],\"diagnostics\":[\"Explicit date '31 December 2024' given as reporting period end on pages 1 and 2.\"]},\"document_date\":{\"value\":null,\"status\":\"not_found\",\"evidence\":[],\"diagnostics\":[\"No explicit publication or announcement date found in document or embedded title.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.0023288000000000002,
+    "runtime_seconds": 6.204563300008886,
+    "response_id": "resp_0b37150a8141f3b8016ac595f16b0087d2975df7562e5aedec",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 4042,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4487
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "8789844636c1884e67235570b6a65876cdb2e6c90d18fdd3b11cff25d828fdca"
+}

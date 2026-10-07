@@ -1,0 +1,52 @@
+{
+  "cache_version": 1,
+  "identity": {
+    "provider": "openai_responses",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "semantic_sha256": "1e76878ade392891e2987a92b8d3e8fe4e88a97ab33d45d63e06e37451defbf0",
+    "prompt_version": "1.0.1",
+    "prompt_sha256": "804660ad8f975ef9b6db96e133f78938399271294bd4e0810f6447128aeb61cf",
+    "schema_sha256": "33a4664e7df813daa9e4e149558b08cd13cd57950282bbd2a043abad82c3cff4"
+  },
+  "text": "{\"issuer\":{\"value\":\"PETERBOROUGH CARE LIMITED\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"# PETERBOROUGH CARE LIMITED\"}],\"diagnostics\":[]},\"document_type\":{\"value\":\"unaudited_financial_statements\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"UNAUDITED\\n\\nFINANCIAL STATEMENTS\"}],\"diagnostics\":[\"Document explicitly states UNAUDITED FINANCIAL STATEMENTS on cover page.\"]},\"reporting_period\":{\"value\":{\"year\":2025,\"kind\":\"year\",\"number\":null},\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"FOR THE YEAR ENDED 31 MARCH 2025\"}],\"diagnostics\":[\"Reporting period is a full year ended 31 March 2025 as stated on cover.\"]},\"reporting_period_end\":{\"value\":\"2025-03-31\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":1,\"quote\":\"FOR THE YEAR ENDED 31 MARCH 2025\"}],\"diagnostics\":[\"Explicit reporting period end date given on cover page.\"]},\"document_date\":{\"value\":\"2025-12-19\",\"status\":\"resolved\",\"evidence\":[{\"source\":\"page\",\"page\":3,\"quote\":\"Date: 19 December 2025\"}],\"diagnostics\":[\"Document date is the date the financial statements were approved and signed by the director.\"]}}",
+  "metadata": {
+    "provider": "openai_responses",
+    "requested_model": "gpt-4.1-mini-2025-04-14",
+    "settings": {
+      "temperature": 0,
+      "max_output_tokens": 6000
+    },
+    "reasoning": null,
+    "model_calls": 1,
+    "estimated_cost_usd": 0.0031268000000000003,
+    "runtime_seconds": 2.6255438000080176,
+    "response_id": "resp_0a6431728b80d05e016ac59610f44887d2b0ae30e64aef0f49",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "usage": {
+      "input_tokens": 6601,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 304,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 6905
+    },
+    "response_status": "completed",
+    "price_basis": {
+      "date": "2026-10-06",
+      "input_per_million": 0.4,
+      "cached_input_per_million": 0.1,
+      "output_per_million": 1.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "note": "List-price estimate, not invoice; standard text tier"
+    }
+  },
+  "response_sha256": "201c6aaacdd0d5c41d6572c9985d7349dba70077e7545588d82f0277adc646d4"
+}

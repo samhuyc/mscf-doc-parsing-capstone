@@ -19,7 +19,7 @@ from rapidfuzz.distance import Levenshtein
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT.parent / '2026-09-29_sponsor_samples'
-PARSERS = ('mineru_ocr', 'mineru_vlm', 'pymupdf4llm')
+PARSERS = ('mineru_ocr', 'mineru_vlm', 'pymupdf4llm', 'pymupdf4llm_vlm')
 MD = MarkdownIt('commonmark', {'html': True}).enable('table')
 KINDS = {'table', 'text', 'reading_order', 'visual_fact', 'footnote', 'metadata'}
 REVIEW_STATES = {'draft', 'human_verified', 'adjudicated', 'excluded'}
@@ -437,17 +437,23 @@ def summarize(records):
     return result
 
 
+def prediction_dir(document, parser, output_root=None):
+    if output_root is not None:
+        return Path(output_root) / document / parser
+    base = ROOT / 'results/parsed' if parser == 'pymupdf4llm_vlm' else SOURCE / 'results'
+    return base / document / parser
+
+
 def score(include_drafts=False, output_root=None):
     started = time.perf_counter()
     sources = read_json(ROOT / 'documents.json')
     all_labels = read_jsonl(ROOT / 'labels.jsonl')
     validate(all_labels, sources)
     labels = [x for x in all_labels if x['review_status'] in ({'draft', 'human_verified', 'adjudicated'} if include_drafts else {'human_verified', 'adjudicated'})]
-    output_root = Path(output_root or SOURCE / 'results')
     details, runs, documents, inputs = [], [], [], []
     for parser in PARSERS:
         for source in sources:
-            work = output_root / source['id'] / parser
+            work = prediction_dir(source['id'], parser, output_root)
             pages_path, run_path = work / 'pages.json', work / 'run.json'
             pages_data = read_json(pages_path) if pages_path.exists() else None
             run = read_json(run_path) if run_path.exists() else {}
@@ -468,7 +474,7 @@ def score(include_drafts=False, output_root=None):
                               nonempty_pages=sum(bool(text_of(soup_for(m)).strip()) for m in by_page.values()),
                               versions=run.get('versions'), settings=run.get('settings'),
                               timing_note=run.get('timing_note'), peak_memory_mb=None,
-                              memory_note='Not instrumented in original runs; parsers were not rerun.')
+                              memory_note='Not instrumented in saved runs; scoring does not rerun parsers.')
             runs.append(run_record)
             selected = [x for x in labels if x['document'] == source['id']]
             cache, per_document = {}, []

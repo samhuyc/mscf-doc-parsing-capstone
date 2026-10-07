@@ -1,0 +1,78 @@
+{
+  "status": "success",
+  "image_sha256": "b1fc10daf2c84a4a9c546b50f4f53b9c69d239d1bd56f5254623ae35b441be5c",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          173.0,
+          113.0
+        ],
+        [
+          2255.0,
+          113.0
+        ],
+        [
+          2255.0,
+          164.0
+        ],
+        [
+          173.0,
+          164.0
+        ]
+      ],
+      "text": "This document was delivered using electronic communications and authenticated in accordance with the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          166.0,
+          168.0
+        ],
+        [
+          2247.0,
+          164.0
+        ],
+        [
+          2248.0,
+          216.0
+        ],
+        [
+          166.0,
+          219.0
+        ]
+      ],
+      "text": "registrar's rules relating to electronic form, authentication and manner of delivery under section 1072 of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          170.0,
+          227.0
+        ],
+        [
+          683.0,
+          227.0
+        ],
+        [
+          683.0,
+          274.0
+        ],
+        [
+          170.0,
+          274.0
+        ]
+      ],
+      "text": "the Companies Act 2006.",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.23414182662963867,
+  "elapsed_seconds": 2.031449417117983
+}

@@ -2,6 +2,15 @@
 
 A small, offline evaluation pipeline for the six sponsor PDFs. **The 54 references are assistant-authored preliminary labels, accepted for this exploratory pilot; they are not independently human-verified gold.** Teammate review is optional follow-up. No composite score or overall parser ranking is claimed.
 
+## October 6 addition
+
+The comparison now includes **four pipelines**: MinerU OCR, MinerU default VLM, PyMuPDF4LLM + Tesseract, and PyMuPDF4LLM + MinerU VLM OCR. The original three exports and reference labels are unchanged.
+
+- [Concise four-pipeline summary](results/SUMMARY.md)
+- [Specific-page comparisons: source and all four outputs](review/comparison.html)
+- [Full parsed results: all 24 documents](review/outputs.html)
+- [VLM callback method and reproduction](VLM_ADDITION.md)
+
 ## Open the demo
 
 Clone or pull this repository, then open `review/index.html` in a browser. No Python, server, model, or API key is needed to read the saved reports. GitHub displays HTML source, so open the downloaded/local file rather than its GitHub preview.
@@ -43,11 +52,14 @@ Review counts overlap: table review covers 11 records; number review covers thos
 | `import_reviews.py` | Validate/import human review decisions with a backup |
 | `results/` | Preliminary and reviewed-only summaries plus individual checks |
 | `test_benchmark.py`, `test_reviews.py` | Adversarial scorer and review-import checks |
+| `run_pymupdf_vlm.py`, `vlm_ocr_worker.py`, `export_vlm.py` | Run the added VLM OCR pipeline and export portable results |
+| `review_addition.py` | Build the four-pipeline summary, page comparisons and full-output index |
+| `test_vlm_addition.py`, `verify_addition.py` | Check OCR integration, complete outputs, provenance and report links |
 | `author_labels.py` | Initial transcription provenance; refuses to overwrite existing labels |
 
 Each label has an ID, document, 1-based PDF page, source hash, evidence region, kind, importance and review status. Tables store row labels, ordered column-header paths, string-valued expectations and unit/context evidence. Blanks, dashes and zero remain distinct. References are assertions, not a full Markdown transcription.
 
-Inputs are the checked-in `../2026-09-29_sponsor_samples/results/<document>/<parser>/pages.json` files: `parser`, `source_sha256` and `pages` entries with `page` and `markdown`. Optional `run.json` supplies original timing/settings. Markdown may contain native HTML tables. HTML spans preserve merged headers that Markdown pipe tables cannot express.
+The original three pipelines use the checked-in `../2026-09-29_sponsor_samples/results/<document>/<parser>/pages.json` files: `parser`, `source_sha256` and `pages` entries with `page` and `markdown`. Optional `run.json` supplies original timing/settings. The new `pymupdf4llm_vlm` outputs use the same contract under this folder’s `results/parsed/`. Markdown may contain native HTML tables. HTML spans preserve merged headers that Markdown pipe tables cannot express.
 
 The adapter is ordinary Python, **not an LLM**. It reads explicit tables, expands row/column spans and matches reference row/header paths. It never uses expected values to choose a table or repair a prediction. It does not infer tables from flat prose or read the source PDF while scoring. Missing predictions and ambiguous matches fail applicable checks.
 
@@ -76,6 +88,7 @@ Then run:
 "$PY" benchmark.py score
 "$PY" benchmark.py score --include-drafts
 "$PY" report.py
+"$PY" verify_addition.py
 ```
 
 Scoring takes roughly one second on the development machine. No parser model installation, hosted call or parser rerun is involved. `refresh` updates references and review counts from the checked-in inventory. Optional `prepare --render` instead requires the original PDFs in the earlier experiment's `inputs/`; it checks their hashes and regenerates page previews. If obtaining sources again, use the URLs in `documents.json` and verify the recorded hashes before replacing the reference sources.

@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "image_sha256": "c5a608d404e0c2430cf31f3485069e3108517ec1cd46cb88d0e435644a1f56a8",
+  "image_size": [
+    2481,
+    3508
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          1960.0,
+          73.0
+        ],
+        [
+          2422.0,
+          73.0
+        ],
+        [
+          2422.0,
+          307.0
+        ],
+        [
+          1960.0,
+          307.0
+        ]
+      ],
+      "text": "eDF",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2597060203552246,
+  "elapsed_seconds": 0.7473897500894964
+}

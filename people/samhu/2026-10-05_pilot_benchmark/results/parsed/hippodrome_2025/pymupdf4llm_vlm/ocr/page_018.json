@@ -1,0 +1,1134 @@
+{
+  "status": "success",
+  "image_sha256": "9b64b9b5d4edcc7cee2dd1c987fe164d8f14dfd18bcc210bb65b434e7ca992e9",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          289.0
+        ],
+        [
+          2159.0,
+          289.0
+        ],
+        [
+          2159.0,
+          336.0
+        ],
+        [
+          258.0,
+          336.0
+        ]
+      ],
+      "text": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          344.0
+        ],
+        [
+          786.0,
+          344.0
+        ],
+        [
+          786.0,
+          391.0
+        ],
+        [
+          258.0,
+          391.0
+        ]
+      ],
+      "text": "LIMITED (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          482.0
+        ],
+        [
+          1277.0,
+          482.0
+        ],
+        [
+          1277.0,
+          530.0
+        ],
+        [
+          258.0,
+          530.0
+        ]
+      ],
+      "text": "Matters on which we are required to report by exception",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          537.0
+        ],
+        [
+          2214.0,
+          537.0
+        ],
+        [
+          2214.0,
+          574.0
+        ],
+        [
+          262.0,
+          574.0
+        ]
+      ],
+      "text": "In the light of the knowledge and understanding of the company and its environment obtained in the course of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          581.0
+        ],
+        [
+          1897.0,
+          581.0
+        ],
+        [
+          1897.0,
+          618.0
+        ],
+        [
+          262.0,
+          618.0
+        ]
+      ],
+      "text": "audit, we have not identified material misstatements in the strategic report or the directors' report.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          658.0
+        ],
+        [
+          2211.0,
+          658.0
+        ],
+        [
+          2211.0,
+          705.0
+        ],
+        [
+          258.0,
+          705.0
+        ]
+      ],
+      "text": "We have nothing to report in respect of the following matters where the Companies Act 2006 requires us to report to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          705.0
+        ],
+        [
+          624.0,
+          705.0
+        ],
+        [
+          624.0,
+          753.0
+        ],
+        [
+          258.0,
+          753.0
+        ]
+      ],
+      "text": "you if, in our opinion:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          753.0
+        ],
+        [
+          2207.0,
+          753.0
+        ],
+        [
+          2207.0,
+          790.0
+        ],
+        [
+          365.0,
+          790.0
+        ]
+      ],
+      "text": "- adequate accounting records have not been kept, or returns adequate for our audit have not been received",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          402.0,
+          797.0
+        ],
+        [
+          1004.0,
+          797.0
+        ],
+        [
+          1004.0,
+          833.0
+        ],
+        [
+          402.0,
+          833.0
+        ]
+      ],
+      "text": "from branches not visited by us; or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          369.0,
+          841.0
+        ],
+        [
+          1901.0,
+          841.0
+        ],
+        [
+          1901.0,
+          877.0
+        ],
+        [
+          369.0,
+          877.0
+        ]
+      ],
+      "text": "- the financial statements are not in agreement with the accounting records and returns; or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          877.0
+        ],
+        [
+          1738.0,
+          877.0
+        ],
+        [
+          1738.0,
+          925.0
+        ],
+        [
+          362.0,
+          925.0
+        ]
+      ],
+      "text": "- certain disclosures of directors' remuneration specified by law are not made; or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          925.0
+        ],
+        [
+          1782.0,
+          925.0
+        ],
+        [
+          1782.0,
+          961.0
+        ],
+        [
+          365.0,
+          961.0
+        ]
+      ],
+      "text": "• we have not received all the information and explanations we require for our audit.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1023.0
+        ],
+        [
+          775.0,
+          1023.0
+        ],
+        [
+          775.0,
+          1060.0
+        ],
+        [
+          266.0,
+          1060.0
+        ]
+      ],
+      "text": "Responsibilities of directors",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1075.0
+        ],
+        [
+          2211.0,
+          1075.0
+        ],
+        [
+          2211.0,
+          1111.0
+        ],
+        [
+          262.0,
+          1111.0
+        ]
+      ],
+      "text": "As explained more fully in the directors' responsibilities statement set out on page 14, the directors are responsible",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1111.0
+        ],
+        [
+          2214.0,
+          1111.0
+        ],
+        [
+          2214.0,
+          1159.0
+        ],
+        [
+          258.0,
+          1159.0
+        ]
+      ],
+      "text": "for the preparation of the financial statements and for being satisfied that they give a true and fair view, and for such",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1155.0
+        ],
+        [
+          2218.0,
+          1155.0
+        ],
+        [
+          2218.0,
+          1203.0
+        ],
+        [
+          258.0,
+          1203.0
+        ]
+      ],
+      "text": "internal control as the directors determine is necessary to enable the preparation of financial statements that are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1195.0
+        ],
+        [
+          1318.0,
+          1199.0
+        ],
+        [
+          1317.0,
+          1246.0
+        ],
+        [
+          255.0,
+          1243.0
+        ]
+      ],
+      "text": "free from material misstatement, whether due to fraud or error.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1290.0
+        ],
+        [
+          2211.0,
+          1290.0
+        ],
+        [
+          2211.0,
+          1327.0
+        ],
+        [
+          262.0,
+          1327.0
+        ]
+      ],
+      "text": "In preparing the financial statements, the directors are responsible for assessing the company's ability to continue",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1327.0
+        ],
+        [
+          2218.0,
+          1327.0
+        ],
+        [
+          2218.0,
+          1374.0
+        ],
+        [
+          258.0,
+          1374.0
+        ]
+      ],
+      "text": "as a going concern, disclosing, as applicable, matters related to going concern and using the going concern basis of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1371.0
+        ],
+        [
+          2218.0,
+          1371.0
+        ],
+        [
+          2218.0,
+          1418.0
+        ],
+        [
+          258.0,
+          1418.0
+        ]
+      ],
+      "text": "accounting unless the directors either intend to liquidate the company or to cease operations, or have no realistic",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1415.0
+        ],
+        [
+          657.0,
+          1415.0
+        ],
+        [
+          657.0,
+          1462.0
+        ],
+        [
+          258.0,
+          1462.0
+        ]
+      ],
+      "text": "alternative but to do so.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1517.0
+        ],
+        [
+          1439.0,
+          1517.0
+        ],
+        [
+          1439.0,
+          1553.0
+        ],
+        [
+          266.0,
+          1553.0
+        ]
+      ],
+      "text": "Auditor's responsibilities for the audit of the financial statements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1561.0
+        ],
+        [
+          2214.0,
+          1561.0
+        ],
+        [
+          2214.0,
+          1608.0
+        ],
+        [
+          262.0,
+          1608.0
+        ]
+      ],
+      "text": "Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are free from",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1605.0
+        ],
+        [
+          2214.0,
+          1605.0
+        ],
+        [
+          2214.0,
+          1652.0
+        ],
+        [
+          262.0,
+          1652.0
+        ]
+      ],
+      "text": "material misstatement, whether due to fraud or error, and to issue an auditor's report that includes our opinion.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1648.0
+        ],
+        [
+          2214.0,
+          1648.0
+        ],
+        [
+          2214.0,
+          1696.0
+        ],
+        [
+          258.0,
+          1696.0
+        ]
+      ],
+      "text": "Reasonable assurance is a high level of assurance, but is not a guarantee that an audit conducted in accordance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1696.0
+        ],
+        [
+          2211.0,
+          1696.0
+        ],
+        [
+          2211.0,
+          1733.0
+        ],
+        [
+          262.0,
+          1733.0
+        ]
+      ],
+      "text": "with ISAs (UK) will always detect a material misstatement when it exists. Misstatements can arise from fraud or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1740.0
+        ],
+        [
+          2211.0,
+          1740.0
+        ],
+        [
+          2211.0,
+          1776.0
+        ],
+        [
+          262.0,
+          1776.0
+        ]
+      ],
+      "text": "error and are considered material if, individually or in the aggregate, they could reasonably be expected to influence",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1776.0
+        ],
+        [
+          1628.0,
+          1776.0
+        ],
+        [
+          1628.0,
+          1824.0
+        ],
+        [
+          255.0,
+          1824.0
+        ]
+      ],
+      "text": "the economic decisions of users taken on the basis of these financial statements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1875.0
+        ],
+        [
+          2000.0,
+          1875.0
+        ],
+        [
+          2000.0,
+          1923.0
+        ],
+        [
+          262.0,
+          1923.0
+        ]
+      ],
+      "text": "The extent to which the audit was considered capable of detecting irregularities, including fraud",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1930.0
+        ],
+        [
+          2214.0,
+          1930.0
+        ],
+        [
+          2214.0,
+          1967.0
+        ],
+        [
+          262.0,
+          1967.0
+        ]
+      ],
+      "text": "Irregularities are instances of non-compliance with laws and regulations. The objectives of our audit are to obtain",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1974.0
+        ],
+        [
+          2214.0,
+          1974.0
+        ],
+        [
+          2214.0,
+          2010.0
+        ],
+        [
+          262.0,
+          2010.0
+        ]
+      ],
+      "text": "sufficient appropriate audit evidence regarding compliance with laws and regulations that have a direct effect on the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2018.0
+        ],
+        [
+          2214.0,
+          2018.0
+        ],
+        [
+          2214.0,
+          2054.0
+        ],
+        [
+          266.0,
+          2054.0
+        ]
+      ],
+      "text": "determination of material amounts and disclosures in the financial statements, to perform audit procedures to help",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2058.0
+        ],
+        [
+          2211.0,
+          2058.0
+        ],
+        [
+          2211.0,
+          2094.0
+        ],
+        [
+          262.0,
+          2094.0
+        ]
+      ],
+      "text": "identify instances of non-compliance with other laws and regulations that may have a material effect on the financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2102.0
+        ],
+        [
+          2211.0,
+          2102.0
+        ],
+        [
+          2211.0,
+          2138.0
+        ],
+        [
+          262.0,
+          2138.0
+        ]
+      ],
+      "text": "statements, and to respond appropriately to identified or suspected non-compliance with laws and regulations",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2146.0
+        ],
+        [
+          698.0,
+          2146.0
+        ],
+        [
+          698.0,
+          2182.0
+        ],
+        [
+          262.0,
+          2182.0
+        ]
+      ],
+      "text": "identified during the audit.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2226.0
+        ],
+        [
+          2218.0,
+          2226.0
+        ],
+        [
+          2218.0,
+          2274.0
+        ],
+        [
+          258.0,
+          2274.0
+        ]
+      ],
+      "text": "In relation to fraud, the objectives of our audit are to identify and assess the risk of material misstatement of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2270.0
+        ],
+        [
+          2218.0,
+          2270.0
+        ],
+        [
+          2218.0,
+          2317.0
+        ],
+        [
+          258.0,
+          2317.0
+        ]
+      ],
+      "text": "financial statements due to fraud, to obtain sufficient appropriate audit evidence regarding the assessed risks of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2314.0
+        ],
+        [
+          2218.0,
+          2314.0
+        ],
+        [
+          2218.0,
+          2361.0
+        ],
+        [
+          258.0,
+          2361.0
+        ]
+      ],
+      "text": "material misstatement due to fraud through designing and implementing appropriate responses and to respond",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2358.0
+        ],
+        [
+          1395.0,
+          2354.0
+        ],
+        [
+          1395.0,
+          2401.0
+        ],
+        [
+          258.0,
+          2405.0
+        ]
+      ],
+      "text": "appropriately to fraud or suspected fraud identified during the audit.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2442.0
+        ],
+        [
+          2214.0,
+          2442.0
+        ],
+        [
+          2214.0,
+          2489.0
+        ],
+        [
+          258.0,
+          2489.0
+        ]
+      ],
+      "text": "However, it is the primary responsibility of management, with the oversight of those charged with governance, to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2486.0
+        ],
+        [
+          2218.0,
+          2486.0
+        ],
+        [
+          2218.0,
+          2533.0
+        ],
+        [
+          258.0,
+          2533.0
+        ]
+      ],
+      "text": "ensure that the entity's operations are conducted in accordance with the provisions of laws and regulations and for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2529.0
+        ],
+        [
+          897.0,
+          2529.0
+        ],
+        [
+          897.0,
+          2577.0
+        ],
+        [
+          258.0,
+          2577.0
+        ]
+      ],
+      "text": "the prevention and detection of fraud.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2628.0
+        ],
+        [
+          2214.0,
+          2628.0
+        ],
+        [
+          2214.0,
+          2676.0
+        ],
+        [
+          258.0,
+          2676.0
+        ]
+      ],
+      "text": "In identifying and assessing risks of material misstatement in respect of irregularities, including fraud, the audit",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2672.0
+        ],
+        [
+          587.0,
+          2672.0
+        ],
+        [
+          587.0,
+          2719.0
+        ],
+        [
+          258.0,
+          2719.0
+        ]
+      ],
+      "text": "engagement team:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          321.0,
+          2716.0
+        ],
+        [
+          2211.0,
+          2716.0
+        ],
+        [
+          2211.0,
+          2752.0
+        ],
+        [
+          321.0,
+          2752.0
+        ]
+      ],
+      "text": "obtained an understanding of the nature of the industry and sector, including the legal and regulatory framework",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          332.0,
+          2763.0
+        ],
+        [
+          2107.0,
+          2763.0
+        ],
+        [
+          2107.0,
+          2800.0
+        ],
+        [
+          332.0,
+          2800.0
+        ]
+      ],
+      "text": "that the company operates in and how the company is complying with the legal and regulatory framework;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          292.0,
+          2800.0
+        ],
+        [
+          2218.0,
+          2800.0
+        ],
+        [
+          2218.0,
+          2847.0
+        ],
+        [
+          292.0,
+          2847.0
+        ]
+      ],
+      "text": "- inquired of management, and those charged with governance, about their own identification and assessment of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          328.0,
+          2844.0
+        ],
+        [
+          1985.0,
+          2844.0
+        ],
+        [
+          1985.0,
+          2891.0
+        ],
+        [
+          328.0,
+          2891.0
+        ]
+      ],
+      "text": "the risks of irregularities, including any known actual, suspected or alleged instances of fraud; and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          321.0,
+          2888.0
+        ],
+        [
+          2211.0,
+          2888.0
+        ],
+        [
+          2211.0,
+          2935.0
+        ],
+        [
+          321.0,
+          2935.0
+        ]
+      ],
+      "text": "discussed matters about non-compliance with laws and regulations and how fraud might occur including",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          332.0,
+          2935.0
+        ],
+        [
+          1742.0,
+          2935.0
+        ],
+        [
+          1742.0,
+          2972.0
+        ],
+        [
+          332.0,
+          2972.0
+        ]
+      ],
+      "text": "assessment of how and where the financial statements may be susceptible to fraud.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3355.0
+        ],
+        [
+          1192.0,
+          3355.0
+        ]
+      ],
+      "text": "- 16 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.25778889656066895,
+  "elapsed_seconds": 27.316777708008885
+}

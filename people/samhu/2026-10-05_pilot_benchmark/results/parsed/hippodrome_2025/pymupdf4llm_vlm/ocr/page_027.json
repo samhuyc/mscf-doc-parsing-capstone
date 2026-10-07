@@ -1,0 +1,1024 @@
+{
+  "status": "success",
+  "image_sha256": "a08a1a58ddb0b0e4e5894eb9ee322c71a6e6f0daefd19b086857b826552151e0",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          289.0
+        ],
+        [
+          1115.0,
+          289.0
+        ],
+        [
+          1115.0,
+          340.0
+        ],
+        [
+          258.0,
+          340.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          417.0
+        ],
+        [
+          1550.0,
+          417.0
+        ],
+        [
+          1550.0,
+          464.0
+        ],
+        [
+          251.0,
+          464.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          497.0
+        ],
+        [
+          1281.0,
+          497.0
+        ],
+        [
+          1281.0,
+          545.0
+        ],
+        [
+          255.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          651.0
+        ],
+        [
+          948.0,
+          651.0
+        ],
+        [
+          948.0,
+          698.0
+        ],
+        [
+          354.0,
+          698.0
+        ]
+      ],
+      "text": "Accounting policies (Continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          753.0
+        ],
+        [
+          805.0,
+          753.0
+        ],
+        [
+          805.0,
+          800.0
+        ],
+        [
+          354.0,
+          800.0
+        ]
+      ],
+      "text": "Basic financial liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          804.0
+        ],
+        [
+          2214.0,
+          804.0
+        ],
+        [
+          2214.0,
+          852.0
+        ],
+        [
+          354.0,
+          852.0
+        ]
+      ],
+      "text": "Basic financial liabilities, including trade and other creditors (including accruals) and preference shares that",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          848.0
+        ],
+        [
+          2214.0,
+          848.0
+        ],
+        [
+          2214.0,
+          896.0
+        ],
+        [
+          354.0,
+          896.0
+        ]
+      ],
+      "text": "are classified as debt, are initially recognised at transaction price unless the arrangement constitutes a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          892.0
+        ],
+        [
+          2214.0,
+          892.0
+        ],
+        [
+          2214.0,
+          939.0
+        ],
+        [
+          354.0,
+          939.0
+        ]
+      ],
+      "text": "financing transaction, where the debt instrument is measured at the present value of the future payments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          939.0
+        ],
+        [
+          2211.0,
+          939.0
+        ],
+        [
+          2211.0,
+          976.0
+        ],
+        [
+          358.0,
+          976.0
+        ]
+      ],
+      "text": "discounted at a market rate of interest. Financial liabilities classified as payable within one year are not",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          980.0
+        ],
+        [
+          535.0,
+          980.0
+        ],
+        [
+          535.0,
+          1020.0
+        ],
+        [
+          358.0,
+          1020.0
+        ]
+      ],
+      "text": "amortised.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1064.0
+        ],
+        [
+          2059.0,
+          1064.0
+        ],
+        [
+          2059.0,
+          1111.0
+        ],
+        [
+          354.0,
+          1111.0
+        ]
+      ],
+      "text": "Debt instruments are subsequently carried at amortised cost, using the effective interest rate method.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1151.0
+        ],
+        [
+          2214.0,
+          1151.0
+        ],
+        [
+          2214.0,
+          1199.0
+        ],
+        [
+          354.0,
+          1199.0
+        ]
+      ],
+      "text": "The effective interest method is a method of calculating the amortised cost of a financial liability and of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1199.0
+        ],
+        [
+          2207.0,
+          1199.0
+        ],
+        [
+          2207.0,
+          1235.0
+        ],
+        [
+          358.0,
+          1235.0
+        ]
+      ],
+      "text": "allocating interest expense over the relevant period. The effective interest rate is the rate that exactly",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1239.0
+        ],
+        [
+          2211.0,
+          1239.0
+        ],
+        [
+          2211.0,
+          1287.0
+        ],
+        [
+          354.0,
+          1287.0
+        ]
+      ],
+      "text": "discounts estimated future cash payments through the expected life of the financial liability to the net carrying",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1287.0
+        ],
+        [
+          841.0,
+          1287.0
+        ],
+        [
+          841.0,
+          1323.0
+        ],
+        [
+          354.0,
+          1323.0
+        ]
+      ],
+      "text": "amount on initial recognition.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1367.0
+        ],
+        [
+          2214.0,
+          1367.0
+        ],
+        [
+          2214.0,
+          1415.0
+        ],
+        [
+          351.0,
+          1415.0
+        ]
+      ],
+      "text": "When there is a change in the estimated future cash flows, the financial liability is subsequently re-measured",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1411.0
+        ],
+        [
+          2115.0,
+          1407.0
+        ],
+        [
+          2115.0,
+          1455.0
+        ],
+        [
+          351.0,
+          1458.0
+        ]
+      ],
+      "text": "using the original effective interest rate. Any remeasurement gain or loss is recognised in profit and loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1510.0
+        ],
+        [
+          1004.0,
+          1510.0
+        ],
+        [
+          1004.0,
+          1557.0
+        ],
+        [
+          354.0,
+          1557.0
+        ]
+      ],
+      "text": "Derecognition of financial liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1557.0
+        ],
+        [
+          2211.0,
+          1557.0
+        ],
+        [
+          2211.0,
+          1605.0
+        ],
+        [
+          351.0,
+          1605.0
+        ]
+      ],
+      "text": "Financial liabilities are derecognised when, and only when, the company's contractual obligations are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1608.0
+        ],
+        [
+          985.0,
+          1608.0
+        ],
+        [
+          985.0,
+          1645.0
+        ],
+        [
+          358.0,
+          1645.0
+        ]
+      ],
+      "text": "discharged, cancelled, or they expire.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1700.0
+        ],
+        [
+          709.0,
+          1700.0
+        ],
+        [
+          709.0,
+          1747.0
+        ],
+        [
+          354.0,
+          1747.0
+        ]
+      ],
+      "text": "Equity instruments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1747.0
+        ],
+        [
+          2214.0,
+          1747.0
+        ],
+        [
+          2214.0,
+          1795.0
+        ],
+        [
+          351.0,
+          1795.0
+        ]
+      ],
+      "text": "Equity instruments issued by the Company are recorded at the fair value of proceeds received, net of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1791.0
+        ],
+        [
+          661.0,
+          1791.0
+        ],
+        [
+          661.0,
+          1839.0
+        ],
+        [
+          351.0,
+          1839.0
+        ]
+      ],
+      "text": "transaction costs.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1893.0
+        ],
+        [
+          517.0,
+          1893.0
+        ],
+        [
+          517.0,
+          1934.0
+        ],
+        [
+          358.0,
+          1934.0
+        ]
+      ],
+      "text": "Taxation",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1945.0
+        ],
+        [
+          2207.0,
+          1945.0
+        ],
+        [
+          2207.0,
+          1981.0
+        ],
+        [
+          358.0,
+          1981.0
+        ]
+      ],
+      "text": "The tax expense represents the sum of the current tax expense and deferred tax expense. Current tax assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          347.0,
+          1985.0
+        ],
+        [
+          1284.0,
+          1981.0
+        ],
+        [
+          1284.0,
+          2029.0
+        ],
+        [
+          347.0,
+          2032.0
+        ]
+      ],
+      "text": "are recognised when tax paid exceeds the tax payable.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2076.0
+        ],
+        [
+          2211.0,
+          2076.0
+        ],
+        [
+          2211.0,
+          2113.0
+        ],
+        [
+          358.0,
+          2113.0
+        ]
+      ],
+      "text": "Current and deferred tax is charged or credited to profit or loss, except when it relates to items charged or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2116.0
+        ],
+        [
+          2211.0,
+          2113.0
+        ],
+        [
+          2211.0,
+          2153.0
+        ],
+        [
+          354.0,
+          2157.0
+        ]
+      ],
+      "text": "credited to other comprehensive income or equity, when the tax follows the transaction or event it relates to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2157.0
+        ],
+        [
+          1594.0,
+          2157.0
+        ],
+        [
+          1594.0,
+          2204.0
+        ],
+        [
+          354.0,
+          2204.0
+        ]
+      ],
+      "text": "and is also charged or credited to other comprehensive income, or equity.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2248.0
+        ],
+        [
+          2211.0,
+          2248.0
+        ],
+        [
+          2211.0,
+          2285.0
+        ],
+        [
+          358.0,
+          2285.0
+        ]
+      ],
+      "text": "Current tax assets and current tax liabilities and deferred tax assets and deferred tax liabilities are offset, if",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2292.0
+        ],
+        [
+          2207.0,
+          2292.0
+        ],
+        [
+          2207.0,
+          2328.0
+        ],
+        [
+          354.0,
+          2328.0
+        ]
+      ],
+      "text": "and only if, there is a legally enforceable right to set off the amounts and the entity intends either to settle on",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2336.0
+        ],
+        [
+          1583.0,
+          2336.0
+        ],
+        [
+          1583.0,
+          2372.0
+        ],
+        [
+          354.0,
+          2372.0
+        ]
+      ],
+      "text": "the net basis or to realise the asset and settle the liability simultaneously.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2427.0
+        ],
+        [
+          2211.0,
+          2427.0
+        ],
+        [
+          2211.0,
+          2475.0
+        ],
+        [
+          354.0,
+          2475.0
+        ]
+      ],
+      "text": "Current tax is based on taxable profit for the year. Current tax assets and liabilities are measured using tax",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2478.0
+        ],
+        [
+          1635.0,
+          2478.0
+        ],
+        [
+          1635.0,
+          2515.0
+        ],
+        [
+          358.0,
+          2515.0
+        ]
+      ],
+      "text": "rates that have been enacted or substantively enacted by the reporting date.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2570.0
+        ],
+        [
+          2211.0,
+          2570.0
+        ],
+        [
+          2211.0,
+          2617.0
+        ],
+        [
+          354.0,
+          2617.0
+        ]
+      ],
+      "text": "Deferred tax is calculated at the tax rates that are expected to apply to the period when the asset is realised",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          2613.0
+        ],
+        [
+          2211.0,
+          2613.0
+        ],
+        [
+          2211.0,
+          2661.0
+        ],
+        [
+          351.0,
+          2661.0
+        ]
+      ],
+      "text": "or the liability is settled based on tax rates that have been enacted or substantively enacted by the reporting",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          2657.0
+        ],
+        [
+          985.0,
+          2657.0
+        ],
+        [
+          985.0,
+          2705.0
+        ],
+        [
+          351.0,
+          2705.0
+        ]
+      ],
+      "text": "date. Deferred tax is not discounted.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2745.0
+        ],
+        [
+          2200.0,
+          2745.0
+        ],
+        [
+          2200.0,
+          2782.0
+        ],
+        [
+          358.0,
+          2782.0
+        ]
+      ],
+      "text": "Deferred tax liabilities are recognised in respect of all timing differences that exist at the reporting date.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2793.0
+        ],
+        [
+          2207.0,
+          2793.0
+        ],
+        [
+          2207.0,
+          2829.0
+        ],
+        [
+          358.0,
+          2829.0
+        ]
+      ],
+      "text": "Timing differences are differences between taxable profits and total comprehensive income that arise from the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2836.0
+        ],
+        [
+          2207.0,
+          2836.0
+        ],
+        [
+          2207.0,
+          2873.0
+        ],
+        [
+          354.0,
+          2873.0
+        ]
+      ],
+      "text": "inclusion of income and expenses in tax assessments in different periods from their recognition in the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2880.0
+        ],
+        [
+          2207.0,
+          2880.0
+        ],
+        [
+          2207.0,
+          2917.0
+        ],
+        [
+          354.0,
+          2917.0
+        ]
+      ],
+      "text": "financial statements. Deferred tax assets are recognised only to the extent that it is probable that they will be",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2924.0
+        ],
+        [
+          1701.0,
+          2924.0
+        ],
+        [
+          1701.0,
+          2961.0
+        ],
+        [
+          358.0,
+          2961.0
+        ]
+      ],
+      "text": "recovered by the reversal of deferred tax liabilities or other future taxable profits.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          3012.0
+        ],
+        [
+          2207.0,
+          3012.0
+        ],
+        [
+          2207.0,
+          3048.0
+        ],
+        [
+          354.0,
+          3048.0
+        ]
+      ],
+      "text": "Deferred tax is recognised on income or expenses from subsidiaries that will be assessed to or allowed for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          3056.0
+        ],
+        [
+          2211.0,
+          3056.0
+        ],
+        [
+          2211.0,
+          3092.0
+        ],
+        [
+          354.0,
+          3092.0
+        ]
+      ],
+      "text": "tax in a future period except where the Company is able to control the reversal of the timing difference and it",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          3100.0
+        ],
+        [
+          1661.0,
+          3100.0
+        ],
+        [
+          1661.0,
+          3136.0
+        ],
+        [
+          358.0,
+          3136.0
+        ]
+      ],
+      "text": "is probable that the timing difference will not reverse in the foreseeable future.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1181.0,
+          3315.0
+        ],
+        [
+          1288.0,
+          3315.0
+        ],
+        [
+          1288.0,
+          3370.0
+        ],
+        [
+          1181.0,
+          3370.0
+        ]
+      ],
+      "text": "- 25 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2764899730682373,
+  "elapsed_seconds": 22.81384583376348
+}

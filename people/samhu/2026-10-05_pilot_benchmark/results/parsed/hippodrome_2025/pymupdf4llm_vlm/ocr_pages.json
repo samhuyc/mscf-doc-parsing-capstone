@@ -1,0 +1,357 @@
+{
+  "engine": "MinerU2.5-Pro VLM crop recognition",
+  "mode": "automatic",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 11,
+      "elapsed_seconds": 4.609331834129989,
+      "raw_prediction": "ocr/page_001.json",
+      "text_chars_after": 205
+    },
+    {
+      "page": 2,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 25,
+      "elapsed_seconds": 8.237560625188053,
+      "raw_prediction": "ocr/page_002.json",
+      "text_chars_after": 349
+    },
+    {
+      "page": 3,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 49,
+      "elapsed_seconds": 24.34244129108265,
+      "raw_prediction": "ocr/page_003.json",
+      "text_chars_after": 3504
+    },
+    {
+      "page": 4,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 61,
+      "elapsed_seconds": 29.54745745798573,
+      "raw_prediction": "ocr/page_004.json",
+      "text_chars_after": 3600
+    },
+    {
+      "page": 5,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 61,
+      "elapsed_seconds": 28.641543874982744,
+      "raw_prediction": "ocr/page_005.json",
+      "text_chars_after": 3776
+    },
+    {
+      "page": 6,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 47,
+      "elapsed_seconds": 24.356865625362843,
+      "raw_prediction": "ocr/page_006.json",
+      "text_chars_after": 3976
+    },
+    {
+      "page": 7,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 56,
+      "elapsed_seconds": 22.608321624808013,
+      "raw_prediction": "ocr/page_007.json",
+      "text_chars_after": 2850
+    },
+    {
+      "page": 8,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 48,
+      "elapsed_seconds": 21.85281499987468,
+      "raw_prediction": "ocr/page_008.json",
+      "text_chars_after": 3345
+    },
+    {
+      "page": 9,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 52,
+      "elapsed_seconds": 25.083094500005245,
+      "raw_prediction": "ocr/page_009.json",
+      "text_chars_after": 4044
+    },
+    {
+      "page": 10,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 68,
+      "elapsed_seconds": 28.16340154223144,
+      "raw_prediction": "ocr/page_010.json",
+      "text_chars_after": 3779
+    },
+    {
+      "page": 11,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 66,
+      "elapsed_seconds": 25.359443542081863,
+      "raw_prediction": "ocr/page_011.json",
+      "text_chars_after": 3053
+    },
+    {
+      "page": 12,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 42,
+      "elapsed_seconds": 17.82793370867148,
+      "raw_prediction": "ocr/page_012.json",
+      "text_chars_after": 1570
+    },
+    {
+      "page": 13,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 42,
+      "elapsed_seconds": 19.81132558407262,
+      "raw_prediction": "ocr/page_013.json",
+      "text_chars_after": 2401
+    },
+    {
+      "page": 14,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 44,
+      "elapsed_seconds": 23.69255212508142,
+      "raw_prediction": "ocr/page_014.json",
+      "text_chars_after": 3400
+    },
+    {
+      "page": 15,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 8,
+      "elapsed_seconds": 3.381932041142136,
+      "raw_prediction": "ocr/page_015.json",
+      "text_chars_after": 155
+    },
+    {
+      "page": 16,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 23,
+      "elapsed_seconds": 11.168551874812692,
+      "raw_prediction": "ocr/page_016.json",
+      "text_chars_after": 1826
+    },
+    {
+      "page": 17,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 48,
+      "elapsed_seconds": 24.79021962499246,
+      "raw_prediction": "ocr/page_017.json",
+      "text_chars_after": 4041
+    },
+    {
+      "page": 18,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 51,
+      "elapsed_seconds": 27.316777708008885,
+      "raw_prediction": "ocr/page_018.json",
+      "text_chars_after": 4583
+    },
+    {
+      "page": 19,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 44,
+      "elapsed_seconds": 21.329889084212482,
+      "raw_prediction": "ocr/page_019.json",
+      "text_chars_after": 3229
+    },
+    {
+      "page": 20,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 47,
+      "elapsed_seconds": 16.566564375068992,
+      "raw_prediction": "ocr/page_020.json",
+      "text_chars_after": 622
+    },
+    {
+      "page": 21,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 82,
+      "elapsed_seconds": 28.55786187481135,
+      "raw_prediction": "ocr/page_021.json",
+      "text_chars_after": 1023
+    },
+    {
+      "page": 22,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 30,
+      "elapsed_seconds": 11.406770333182067,
+      "raw_prediction": "ocr/page_022.json",
+      "text_chars_after": 468
+    },
+    {
+      "page": 23,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 36,
+      "elapsed_seconds": 18.288744958117604,
+      "raw_prediction": "ocr/page_023.json",
+      "text_chars_after": 2801
+    },
+    {
+      "page": 24,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 49,
+      "elapsed_seconds": 23.929025458171964,
+      "raw_prediction": "ocr/page_024.json",
+      "text_chars_after": 3170
+    },
+    {
+      "page": 25,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 48,
+      "elapsed_seconds": 23.9253817088902,
+      "raw_prediction": "ocr/page_025.json",
+      "text_chars_after": 3594
+    },
+    {
+      "page": 26,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 40,
+      "elapsed_seconds": 20.61477475007996,
+      "raw_prediction": "ocr/page_026.json",
+      "text_chars_after": 3124
+    },
+    {
+      "page": 27,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 46,
+      "elapsed_seconds": 22.81384583376348,
+      "raw_prediction": "ocr/page_027.json",
+      "text_chars_after": 3672
+    },
+    {
+      "page": 28,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 23,
+      "elapsed_seconds": 10.926476667169482,
+      "raw_prediction": "ocr/page_028.json",
+      "text_chars_after": 1540
+    },
+    {
+      "page": 29,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 50,
+      "elapsed_seconds": 23.001119249965996,
+      "raw_prediction": "ocr/page_029.json",
+      "text_chars_after": 3041
+    },
+    {
+      "page": 30,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 63,
+      "elapsed_seconds": 22.147647000383586,
+      "raw_prediction": "ocr/page_030.json",
+      "text_chars_after": 1170
+    },
+    {
+      "page": 31,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 67,
+      "elapsed_seconds": 23.588117291685194,
+      "raw_prediction": "ocr/page_031.json",
+      "text_chars_after": 1339
+    },
+    {
+      "page": 32,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 71,
+      "elapsed_seconds": 25.069680999964476,
+      "raw_prediction": "ocr/page_032.json",
+      "text_chars_after": 1314
+    },
+    {
+      "page": 33,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 114,
+      "elapsed_seconds": 39.3336635408923,
+      "raw_prediction": "ocr/page_033.json",
+      "text_chars_after": 1384
+    },
+    {
+      "page": 34,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 61,
+      "elapsed_seconds": 21.384662084281445,
+      "raw_prediction": "ocr/page_034.json",
+      "text_chars_after": 1278
+    },
+    {
+      "page": 35,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 72,
+      "elapsed_seconds": 25.3412870420143,
+      "raw_prediction": "ocr/page_035.json",
+      "text_chars_after": 1097
+    },
+    {
+      "page": 36,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 50,
+      "elapsed_seconds": 24.397275167051703,
+      "raw_prediction": "ocr/page_036.json",
+      "text_chars_after": 2936
+    },
+    {
+      "page": 37,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 52,
+      "elapsed_seconds": 19.945782292168587,
+      "raw_prediction": "ocr/page_037.json",
+      "text_chars_after": 1333
+    },
+    {
+      "page": 38,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 73,
+      "elapsed_seconds": 31.24590845918283,
+      "raw_prediction": "ocr/page_038.json",
+      "text_chars_after": 2801
+    },
+    {
+      "page": 39,
+      "text_chars_before": 0,
+      "invoked": true,
+      "recognized_regions": 46,
+      "elapsed_seconds": 19.45718833291903,
+      "raw_prediction": "ocr/page_039.json",
+      "text_chars_after": 1937
+    }
+  ]
+}

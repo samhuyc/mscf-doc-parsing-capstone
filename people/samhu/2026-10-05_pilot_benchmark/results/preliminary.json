@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
-  "scorer_sha256": "11110714253a68309b48e9fc13e9bb70303a9a70fdf945ad85615f5aa4f7b304",
+  "scorer_sha256": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
   "evaluation_status": "PRELIMINARY_ASSISTANT_DRAFTS",
   "selected_labels": 54,
   "total_labels": 54,
@@ -113,6 +113,42 @@
       "parser": "pymupdf4llm",
       "pages_sha256": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
       "run_sha256": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "e7576c02e32102561cdb9e9f818954d0d0834462e95bb4a01d062594f24a9795",
+      "run_sha256": "52da701f846d602db3dd6fa938880882aacb6a05c1b50984d45ebfe6756e8920"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "a9a81eb0d1707f1ced9ab4e6610e0f6300106b725f29192d0f504f1d6407078b",
+      "run_sha256": "319580be647a45cb0f7e8d4ed10c2e1288b5363359497718586ee5d33018c54c"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "05fe7563945017f0af1ad83f007bbe05fa94988b5f48fd4660a01fb7d84ee290",
+      "run_sha256": "2632fa7455bd7674992ec63584e55f6191781d95d2586862580fbccb0afa045b"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "d46c554c8ee8b0d2d566aa162d8997a289f33d34f37cbf0509f3a048c4d983df",
+      "run_sha256": "0a83fb9b2d7a84ae58f3201f012f7b2043f4437528795aa48544247f6c57fa74"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "24cf458fdbde6faee1a50cc742deda6259050a8a2f87f21b4dbd3ab5c013b197",
+      "run_sha256": "356fbcb911e716796f233a4a67eb5aa7fce9af375e72fe99e85e14635f2ce09b"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "5291a92b16648d11866f0b38feac850874bd516298ff2201959e09595c209a44",
+      "run_sha256": "bf75dfeefbe8a5254458de11297401ba4738a36d505e1c41cbb9fa959c2808f4"
     }
   ],
   "aggregate": {
@@ -623,6 +659,176 @@
         "total": 5,
         "not_automatically_scored": 0,
         "equal_document_mean": 0.8,
+        "documents_with_metric": 1
+      }
+    },
+    "pymupdf4llm_vlm": {
+      "associated_value_accuracy": {
+        "value": 0.8195488721804511,
+        "passed": 109,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8237942612942613,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 1.0,
+        "numerator": 50,
+        "denominator": 50,
+        "tables": 4,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 4
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.8620689655172413,
+        "numerator": 50,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.8888888888888888,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.8195488721804511,
+        "passed": 109,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8237942612942613,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 1.0,
+        "passed": 2,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 0.8,
+        "passed": 4,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.782608695652174,
+        "passed": 18,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8148148148148149,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.002477291494632535,
+        "character_errors": 3,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.0018181818181818184,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 1.0,
+        "passed": 18,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.7777777777777778,
+        "passed": 14,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.625,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.849624060150376,
+        "passed": 113,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.879349816849817,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 1.0,
+        "passed": 128,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 0.9090909090909091,
+        "passed": 10,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9166666666666666,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.4,
+        "passed": 2,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.4,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
         "documents_with_metric": 1
       }
     }
@@ -2445,6 +2651,612 @@
           "not_automatically_scored": 0
         }
       }
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.008888888888888889,
+          "character_errors": 2,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 23,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.5,
+          "passed": 1,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.00202020202020202,
+          "character_errors": 1,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.5555555555555556,
+          "numerator": 10,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 4,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.4,
+          "passed": 2,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 31,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
     }
   ],
   "runs": [
@@ -2470,7 +3282,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -2494,7 +3306,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -2518,7 +3330,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -2542,7 +3354,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -2566,7 +3378,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -2590,7 +3402,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "cvs_2025q2",
@@ -2614,7 +3426,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -2638,7 +3450,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -2662,7 +3474,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -2686,7 +3498,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -2710,7 +3522,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -2734,7 +3546,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "cvs_2025q2",
@@ -2767,7 +3579,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -2800,7 +3612,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -2833,7 +3645,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -2866,7 +3678,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -2899,7 +3711,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -2932,7 +3744,199 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 24.428,
+      "pages_per_second": 0.4912,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 13.51,
+      "pages_per_second": 0.4441,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 884.143,
+      "pages_per_second": 0.0441,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 184.026,
+      "pages_per_second": 0.0652,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 18.378,
+      "pages_per_second": 1.0338,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 29.93,
+      "pages_per_second": 1.7374,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     }
   ],
   "by_importance": {
@@ -3334,9 +4338,142 @@
         }
       },
       "cosmetic": {}
+    },
+    "pymupdf4llm_vlm": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.8195488721804511,
+          "passed": 109,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 50,
+          "denominator": 50,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8620689655172413,
+          "numerator": 50,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.8195488721804511,
+          "passed": 109,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.782608695652174,
+          "passed": 18,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.7777777777777778,
+          "passed": 14,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.849624060150376,
+          "passed": 113,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 128,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.9090909090909091,
+          "passed": 10,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.4,
+          "passed": 2,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.002477291494632535,
+          "character_errors": 3,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 18,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
     }
   },
-  "evaluation_seconds": 1.027,
+  "evaluation_seconds": 1.198,
   "hosted_model_calls": 0,
   "parser_reruns": 0,
   "limitations": [

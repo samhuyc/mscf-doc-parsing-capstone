@@ -1,11 +1,11 @@
-"""Build an offline, source-first review page. Never embeds parser HTML."""
+"""Build offline category reports and safely rendered page comparisons."""
 import csv
 import json
 from html import escape as e
 
 from benchmark import ROOT, PARSERS, read_json, read_jsonl, sha, table_html
 
-NAMES = {'mineru_ocr': 'MinerU OCR', 'mineru_vlm': 'MinerU VLM', 'pymupdf4llm': 'PyMuPDF4LLM'}
+NAMES = {'mineru_ocr': 'MinerU OCR', 'mineru_vlm': 'MinerU VLM', 'pymupdf4llm': 'PyMuPDF4LLM + Tesseract', 'pymupdf4llm_vlm': 'PyMuPDF4LLM + VLM'}
 # Display groups do not alter scoring or denominators.
 GROUPS = {
     'tables': dict(title='Table parsing', question='Did each value stay attached to the right row and column?',
@@ -71,7 +71,7 @@ nav,.links{display:flex;gap:18px;flex-wrap:wrap}nav{padding-bottom:18px;border-b
 
 
 def page_start(title, active, verified, total):
-    links = [('workspace','Review labels'),('index','Overview'),('tables','Tables'),('numbers','Numbers'),('text','Text & organization'),('labels','Source & labels')]
+    links = [('workspace','Review labels'),('index','Overview'),('comparison','Page comparisons'),('outputs','Full parsed results'),('tables','Tables'),('numbers','Numbers'),('text','Text & organization'),('labels','Source & labels')]
     nav = ''.join(f'<a href="{key}.html"' + (' aria-current="page"' if key == active else '') + '>' + e(name) + '</a>' for key,name in links)
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>' + e(title) + ' · sponsor pilot</title><style>' + CSS + '</style></head><body><nav>' + nav + '</nav><main>'
@@ -81,7 +81,7 @@ def page_start(title, active, verified, total):
 
 
 def page_end():
-    return '<footer><p class="muted">Cached outputs only · no parser reruns or paid calls · <a href="../README.md">Method</a> · <a href="../results/preliminary.json">Full results and provenance</a></p></footer></main></body></html>'
+    return '<footer><p class="muted">Report generation uses saved outputs · no hosted model calls · <a href="../README.md">Method</a> · <a href="../results/preliminary.json">Full results and provenance</a></p></footer></main></body></html>'
 
 
 def score_cell(metric):
@@ -178,6 +178,7 @@ def main():
     assert len(mapped) == len(set(mapped)), 'Metric assigned to multiple review categories'
     assert set(mapped) | set(UNSCORED) == set(result['aggregate'][PARSERS[0]]), 'Unexplained metric in report'
     intro = page_start('Choose one evaluation question', 'index', verified, len(labels))
+    intro += '<section class="card"><h2>October 6 addition: four pipelines</h2><p><a href="comparison.html">Compare the same source page across all four pipelines</a> · <a href="outputs.html">Find every full parsed document</a> · <a href="../results/SUMMARY.md">Concise result summary</a></p><p>PyMuPDF4LLM now has a local MinerU VLM OCR backend. The original three outputs and 54 labels are unchanged. Automatic OCR means native-text pages may not invoke either OCR engine.</p></section>'
     intro += '<p><a href="../MEETING.md">Wednesday meeting walkthrough</a>. This is a working preliminary pilot; independent teammate review is optional follow-up, not a prerequisite for exploring the results.</p><details><summary>Optional teammate review</summary><p><a href="workspace.html">Review labels →</a> Compare drafts with original pages, approve or flag corrections, then export decisions. A shared label only needs review once.</p></details><p>Each performance review focuses on one aspect of parsing. Definitions appear beside the results.</p><div class="cards">'
     for key, group in GROUPS.items():
         intro += '<section class="card"><h2><a href="' + key + '.html">' + e(group['title']) + '</a></h2><p>' + e(group['question']) + '</p><small>' + str(len(group['primary'])) + ' main checks; supporting details are collapsed.</small></section>'
@@ -220,6 +221,8 @@ def main():
         writer = csv.DictWriter(handle, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows({k: x.get(k, '') for k in fields} for x in labels)
+    from review_addition import build
+    build()
     print(f'Review: {out / "index.html"}')
 
 

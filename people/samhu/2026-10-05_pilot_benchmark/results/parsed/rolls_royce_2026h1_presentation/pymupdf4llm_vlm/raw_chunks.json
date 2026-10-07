@@ -1,0 +1,3406 @@
+[
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 1
+    },
+    "toc_items": [
+      [
+        1,
+        "Title Templates",
+        1
+      ],
+      [
+        2,
+        "Slide 1",
+        1
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "text",
+        "bbox": [
+          48,
+          40,
+          440,
+          295
+        ],
+        "pos": [
+          0,
+          66
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          66,
+          192
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          52,
+          483,
+          486,
+          512
+        ],
+        "pos": [
+          192,
+          429
+        ]
+      }
+    ],
+    "text": "ROLLS RR ROYCE mtu Kinetic PowerPack HALF YEAR **RESULTS** 2026 \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0001-01.png)\n\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available. \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 2
+    },
+    "toc_items": [
+      [
+        1,
+        "Safe Harbour Statement",
+        2
+      ],
+      [
+        2,
+        "Slide 2: Safe harbour statement",
+        2
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          0,
+          0,
+          330,
+          540
+        ],
+        "pos": [
+          0,
+          126
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          126,
+          252
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          372,
+          67,
+          742,
+          94
+        ],
+        "pos": [
+          252,
+          281
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          372,
+          149,
+          880,
+          298
+        ],
+        "pos": [
+          281,
+          1250
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          372,
+          313,
+          890,
+          377
+        ],
+        "pos": [
+          1250,
+          1686
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          782,
+          394,
+          960,
+          474
+        ],
+        "pos": [
+          1686,
+          1812
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          1812,
+          1816
+        ]
+      },
+      {
+        "index": 7,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1816,
+          1868
+        ]
+      }
+    ],
+    "text": "\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0002-00.png)\n\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0002-01.png)\n\n\n### SAFE HARBOUR STATEMENT \n\nThis announcement contains certain forward-looking statements. These forward-looking statements can be identified by the fact that they do not relate only to historical or current facts. In particular, all statements that express forecasts, expectations and projections with respect to future matters, including trends in results of operations, margins, growth rates, overall market trends, the impact of interest or exchange rates, the availability of financing to the Company, anticipated cost savings or synergies and the completion of the Company’s strategic transactions, are forward-looking statements. By their nature, these statements and forecasts involve risk and uncertainty because they relate to events and depend on circumstances that may or may not occur in the future. There are a number of factors that could cause actual results or developments to differ materially from those expressed or implied by these forward-looking statements and forecasts. \n\nThe forward-looking statements reflect the knowledge and information available at the date of preparation of this announcement and will not be updated during the year. Nothing in this announcement should be construed as a profit forecast. All figures are on an underlying basis unless otherwise stated - for the definition see note 2 to the condensed consolidated financial statements section of the 2026 Half Year Results Statement. \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0002-05.png)\n\n\n2 \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 3
+    },
+    "toc_items": [
+      [
+        1,
+        "Tufan's Introduction content",
+        3
+      ],
+      [
+        2,
+        "Slide 3: TUFAN ERGINBILGIC",
+        3
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          883,
+          31,
+          919,
+          87
+        ],
+        "pos": [
+          0,
+          15
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          48,
+          191,
+          517,
+          293
+        ],
+        "pos": [
+          15,
+          78
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          78,
+          204
+        ]
+      },
+      {
+        "index": 3,
+        "class": "page-footer",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          204,
+          256
+        ]
+      }
+    ],
+    "text": "ROLLSR ROYCE \n\n# FIR 01 Chief Executive Officer<sup>TUFAN ERGINBILGIC</sup> \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0003-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 4
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 4: strong first half delivery; FY26 guidance raised",
+        4
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          760,
+          68
+        ],
+        "pos": [
+          0,
+          55
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          892,
+          35,
+          910,
+          76
+        ],
+        "pos": [
+          55,
+          63
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          896,
+          81,
+          930,
+          90
+        ],
+        "pos": [
+          63,
+          71
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          29,
+          93,
+          765,
+          111
+        ],
+        "pos": [
+          71,
+          167
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          892,
+          106,
+          900,
+          146
+        ],
+        "pos": [
+          167,
+          172
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          529,
+          146,
+          931,
+          490
+        ],
+        "pos": [
+          172,
+          368
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          43,
+          184,
+          405,
+          204
+        ],
+        "pos": [
+          368,
+          419
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          43,
+          217,
+          419,
+          264
+        ],
+        "pos": [
+          419,
+          500
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          43,
+          278,
+          225,
+          298
+        ],
+        "pos": [
+          500,
+          525
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          43,
+          311,
+          371,
+          331
+        ],
+        "pos": [
+          525,
+          569
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          43,
+          345,
+          310,
+          364
+        ],
+        "pos": [
+          569,
+          605
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          43,
+          378,
+          372,
+          398
+        ],
+        "pos": [
+          605,
+          651
+        ]
+      },
+      {
+        "index": 12,
+        "class": "list-item",
+        "bbox": [
+          43,
+          412,
+          422,
+          459
+        ],
+        "pos": [
+          651,
+          725
+        ]
+      },
+      {
+        "index": 13,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          725,
+          781
+        ]
+      }
+    ],
+    "text": "### STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED \n\nROLLS \n\nROYCE \n\nTransforming Rolls-Royce into a high performing, competitive, resilient, and growing business \n\nRR \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0004-05.png)\n\n\n<!-- Start of picture text -->\nBOYSF<br><!-- End of picture text -->\n\n- Significant operational and strategic progress \n\n- Strong first half results driven by transformation and business improvements \n\n- FY26 guidance raised \n\n- Further confidence in mid-term guidance \n\n- 6.0p interim dividend announced \n\n- On track for £2.5bn share buyback in 2026 \n\n- Resilient and diversified portfolio with significant growth potential \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 4 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 5
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 5",
+        5
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          894,
+          37,
+          930,
+          129
+        ],
+        "pos": [
+          0,
+          23
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          30,
+          40,
+          694,
+          68
+        ],
+        "pos": [
+          23,
+          74
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          30,
+          113,
+          207,
+          125
+        ],
+        "pos": [
+          74,
+          111
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          495,
+          111,
+          673,
+          125
+        ],
+        "pos": [
+          111,
+          142
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          30,
+          154,
+          241,
+          475
+        ],
+        "pos": [
+          142,
+          412
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          254,
+          154,
+          465,
+          475
+        ],
+        "pos": [
+          412,
+          687
+        ]
+      },
+      {
+        "index": 6,
+        "class": "picture",
+        "bbox": [
+          497,
+          155,
+          930,
+          475
+        ],
+        "pos": [
+          687,
+          980
+        ]
+      },
+      {
+        "index": 7,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          980,
+          984
+        ]
+      },
+      {
+        "index": 8,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          283,
+          528
+        ],
+        "pos": [
+          984,
+          1055
+        ]
+      },
+      {
+        "index": 9,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1055,
+          1107
+        ]
+      }
+    ],
+    "text": "ROLLS ROLLS ROYCE RR \n\n### STRONG OPERATIONAL AND FINANCIAL PERFORMANCE \n\n###### KEY GROUP FINANCIAL METRICS \n\nDIVISIONAL OPERATING MARGIN1 \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0005-04.png)\n\n\n<!-- Start of picture text -->\nOperating profit1<br>£2.5bn<br>+46% yoy<br>Free cash flow<br>£2.0bn<br>+24% yoy<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0005-05.png)\n\n\n<!-- Start of picture text -->\nOperating margin1<br>22.5%<br>+3.1pts yoy<br>Return on capital<br>22%<br>+5.1pts yoy<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0005-06.png)\n\n\n<!-- Start of picture text -->\nCIVILAEROSPACE<br>25.3%<br>+0.5pts<br>DEFENCE<br>21.0%<br>+5.4pts<br>POWER SYSTEMS<br>20.3%<br>+5.3pts<br><!-- End of picture text -->\n\n5 \n\n1 Operating profit and operating margin shown on an underlying basis \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 6
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 6: CONTINUED strategic progress",
+        6
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          486,
+          64
+        ],
+        "pos": [
+          0,
+          35
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          29,
+          112,
+          334,
+          140
+        ],
+        "pos": [
+          35,
+          103
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          31,
+          151,
+          463,
+          506
+        ],
+        "pos": [
+          103,
+          477
+        ]
+      },
+      {
+        "index": 3,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          477,
+          603
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          495,
+          112,
+          900,
+          140
+        ],
+        "pos": [
+          603,
+          726
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          496,
+          151,
+          929,
+          506
+        ],
+        "pos": [
+          726,
+          1174
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1174,
+          1230
+        ]
+      }
+    ],
+    "text": "### CONTINUED STRATEGIC PROGRESS \n\nContract and LTSA margin improvement across in-production engines \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0006-02.png)\n\n\n<!-- Start of picture text -->\n+19pts<br>~3 pts improvement<br> vs Feb 2026<br>~1 pt improvement<br> vs Feb 2026<br>+28pts<br>2022 2026 2028 2035<br>Contract margin as at Feb 2026 In-year LTSA margin as at Feb 2026<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0006-03.png)\n\n\nMore than 100% improvement in time on wing of in-production engines with cash benefits significantly beyond the mid-term \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0006-05.png)\n\n\n<!-- Start of picture text -->\n2025 2026 2027 2028 2029 2030 2031 2032+<br>Trent 1000<br>Phase 1<br>Trent 1000<br>Trent 7000<br>Phase 2<br>Trent XWB-84<br>EP engine type<br>Trent XWB-84<br>LLP life extension<br>Trent XWB-97<br>Phase 3<br>Design & certification Entry Into Service Roll-out<br><!-- End of picture text -->\n\n> © 2026 Rolls-Royce. Not Subject to Export Control 6 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 7
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 7: CONTINUED strategic PROGRESS",
+        7
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          486,
+          64
+        ],
+        "pos": [
+          0,
+          35
+        ]
+      },
+      {
+        "index": 1,
+        "class": "list-item",
+        "bbox": [
+          37,
+          106,
+          121,
+          167
+        ],
+        "pos": [
+          35,
+          73
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          270,
+          106,
+          348,
+          142
+        ],
+        "pos": [
+          73,
+          100
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          503,
+          106,
+          597,
+          145
+        ],
+        "pos": [
+          100,
+          139
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          427,
+          199,
+          431,
+          205
+        ],
+        "pos": [
+          139,
+          143
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          267,
+          201,
+          427,
+          216
+        ],
+        "pos": [
+          143,
+          177
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          34,
+          202,
+          219,
+          257
+        ],
+        "pos": [
+          177,
+          262
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          500,
+          202,
+          647,
+          236
+        ],
+        "pos": [
+          262,
+          314
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          267,
+          227,
+          438,
+          260
+        ],
+        "pos": [
+          314,
+          365
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          500,
+          257,
+          664,
+          315
+        ],
+        "pos": [
+          365,
+          443
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          267,
+          269,
+          445,
+          300
+        ],
+        "pos": [
+          443,
+          502
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          34,
+          274,
+          213,
+          327
+        ],
+        "pos": [
+          502,
+          580
+        ]
+      },
+      {
+        "index": 12,
+        "class": "list-item",
+        "bbox": [
+          267,
+          314,
+          410,
+          343
+        ],
+        "pos": [
+          580,
+          625
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          500,
+          331,
+          675,
+          369
+        ],
+        "pos": [
+          625,
+          688
+        ]
+      },
+      {
+        "index": 14,
+        "class": "list-item",
+        "bbox": [
+          34,
+          345,
+          220,
+          382
+        ],
+        "pos": [
+          688,
+          753
+        ]
+      },
+      {
+        "index": 15,
+        "class": "list-item",
+        "bbox": [
+          267,
+          358,
+          425,
+          390
+        ],
+        "pos": [
+          753,
+          809
+        ]
+      },
+      {
+        "index": 16,
+        "class": "list-item",
+        "bbox": [
+          267,
+          388,
+          677,
+          451
+        ],
+        "pos": [
+          809,
+          968
+        ]
+      },
+      {
+        "index": 17,
+        "class": "list-item",
+        "bbox": [
+          34,
+          400,
+          218,
+          435
+        ],
+        "pos": [
+          968,
+          1038
+        ]
+      },
+      {
+        "index": 18,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1038,
+          1164
+        ]
+      },
+      {
+        "index": 19,
+        "class": "list-item",
+        "bbox": [
+          735,
+          106,
+          856,
+          163
+        ],
+        "pos": [
+          1164,
+          1213
+        ]
+      },
+      {
+        "index": 20,
+        "class": "list-item",
+        "bbox": [
+          732,
+          202,
+          919,
+          239
+        ],
+        "pos": [
+          1213,
+          1262
+        ]
+      },
+      {
+        "index": 21,
+        "class": "list-item",
+        "bbox": [
+          732,
+          257,
+          920,
+          314
+        ],
+        "pos": [
+          1262,
+          1346
+        ]
+      },
+      {
+        "index": 22,
+        "class": "list-item",
+        "bbox": [
+          732,
+          333,
+          908,
+          409
+        ],
+        "pos": [
+          1346,
+          1459
+        ]
+      },
+      {
+        "index": 23,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1459,
+          1515
+        ]
+      },
+      {
+        "index": 24,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          587,
+          528
+        ],
+        "pos": [
+          1515,
+          1673
+        ]
+      }
+    ],
+    "text": "### CONTINUED STRATEGIC PROGRESS \n\n1. Portfolio choices & partnerships \n\n2. Strategic initiatives \n\n##### 3. Efficiency & simplification \n\n2 \n\n   - Growing Civil LTSA margins \n\n- Power Systems capacity expansion and next generation engine development on track \n\n   - Further improvement of TCC/GM ratio to 0.27x \n\n- Continued progress towards Time on Wing target \n\n      - Second phase of efficiency programme to support disciplined growth… \n\n   - Best-in-class AOG3 benefitting us and our customers \n\n- Beneficiary of the UK Defence Investment Plan and NATO summit commitments \n\n- Strong Trent 1000 XE commercial momentum \n\n   - …including GBS4 scale-up and further SIOP5 improvements \n\n- Civil Aerospace - MRO1 capacity expansion across the network \n\n   - Defence - global leader in autonomous propulsion \n\n   - …alongside further digital and \n\n   - • Power Systems - capturing lean manufacturing benefits \n\n   - strong growth in power generation and governmental \n\n- Project Sunrise A350-1000ULR test flight; Falcon 10X first flight \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0007-18.png)\n\n\n4. Lower carbon & digitally enabled businesses \n\n- Trent XWB-84 EP fuel efficiency above target \n\n- Rolls-Royce SMR - selected in Sweden; contracts signed in UK and Czech Republic \n\n- Digital thread across engineering, MRO, and the supply chain to drive further efficiencies and effectiveness \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 7 \n\n1 Maintenance, Repair, and Overhaul; 2 For in-production engines; 3 Aircraft on Ground; 4 Group Business Services; 5 Sales, Inventory, Operational Planning \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 8
+    },
+    "toc_items": [
+      [
+        1,
+        "Helen's content",
+        8
+      ],
+      [
+        2,
+        "Slide 8: HELEN McCABE",
+        8
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          126
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          59,
+          191,
+          467,
+          293
+        ],
+        "pos": [
+          126,
+          178
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          178,
+          304
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          304,
+          356
+        ]
+      }
+    ],
+    "text": "\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0008-00.png)\n\n\n02 Chief Financial Officer<sup>HELEN McCABE</sup> \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0008-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 9
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 9: 2026 half Year underlying results",
+        9
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          556,
+          64
+        ],
+        "pos": [
+          0,
+          40
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          41,
+          129,
+          563,
+          269
+        ],
+        "pos": [
+          40,
+          602
+        ]
+      },
+      {
+        "index": 2,
+        "class": "table",
+        "bbox": [
+          41,
+          303,
+          562,
+          361
+        ],
+        "pos": [
+          602,
+          885
+        ]
+      },
+      {
+        "index": 3,
+        "class": "table",
+        "bbox": [
+          41,
+          391,
+          451,
+          471
+        ],
+        "pos": [
+          885,
+          1187
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          603,
+          132,
+          836,
+          171
+        ],
+        "pos": [
+          1187,
+          1264
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          603,
+          227,
+          833,
+          266
+        ],
+        "pos": [
+          1264,
+          1336
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          603,
+          320,
+          849,
+          361
+        ],
+        "pos": [
+          1336,
+          1418
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          603,
+          416,
+          839,
+          455
+        ],
+        "pos": [
+          1418,
+          1492
+        ]
+      },
+      {
+        "index": 8,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1492,
+          1618
+        ]
+      },
+      {
+        "index": 9,
+        "class": "footnote",
+        "bbox": [
+          30,
+          499,
+          569,
+          518
+        ],
+        "pos": [
+          1618,
+          1893
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          929,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          1893,
+          1897
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1897,
+          1949
+        ]
+      }
+    ],
+    "text": "### 2026 HALF YEAR UNDERLYING RESULTS \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change1</th><th>Organic Change %1</th></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>\n\n<table><tr><th>pence</th><th>H1 2026</th><th>H1 2025</th><th>Change</th><th>Change %</th></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>\n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>\n\nStrong results - double-digit profit and cash growth across every division \n\nOperating profit growth of £0.8bn and free cash flow growth of £0.4bn \n\nResilient balance sheet - net cash of £2.1bn Interim dividend of 6.0p per share \n\nBest-in-class return on capital demonstrates significant value creation \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0009-08.png)\n\n\n> 1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated \n\n9 \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 10
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 10: CIVIL AEROSPACE",
+        10
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          265,
+          64
+        ],
+        "pos": [
+          0,
+          22
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          27,
+          113,
+          589,
+          312
+        ],
+        "pos": [
+          22,
+          670
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          80,
+          341,
+          575,
+          527
+        ],
+        "pos": [
+          670,
+          1014
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          1014,
+          1049
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          137
+        ],
+        "pos": [
+          1049,
+          1175
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          629,
+          129,
+          691,
+          140
+        ],
+        "pos": [
+          1175,
+          1195
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          629,
+          162,
+          863,
+          178
+        ],
+        "pos": [
+          1195,
+          1237
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          629,
+          187,
+          904,
+          219
+        ],
+        "pos": [
+          1237,
+          1315
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          629,
+          231,
+          903,
+          247
+        ],
+        "pos": [
+          1315,
+          1362
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          629,
+          255,
+          872,
+          271
+        ],
+        "pos": [
+          1362,
+          1405
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          621,
+          339,
+          919,
+          477
+        ],
+        "pos": [
+          1405,
+          1532
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          618,
+          424,
+          745,
+          434
+        ],
+        "pos": [
+          1532,
+          1559
+        ]
+      },
+      {
+        "index": 12,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1559,
+          1616
+        ]
+      }
+    ],
+    "text": "### CIVIL AEROSPACE \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>6,186</td><td>4,786</td><td>1,380</td><td>29%</td></tr><tr><td>Gross profit</td><td>1,857</td><td>1,477</td><td>378</td><td>26%</td></tr><tr><td>Gross margin %</td><td>30.0%</td><td>30.9%</td><td>(0.8)pts</td><td></td></tr><tr><td>Operating profit</td><td>1,567</td><td>1,193</td><td>374</td><td>31%</td></tr><tr><td>Operating margin %</td><td>25.3%</td><td>24.9%</td><td>0.5pts</td><td></td></tr><tr><td>Trading cash flow</td><td>1,458</td><td>1,111</td><td>347</td><td>31%</td></tr></table>\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0010-02.png)\n\n\n<!-- Start of picture text -->\nUNDERLYING REVENUE SPLITS<br>2%  3%<br>18%<br>33%<br>Large engines 37%<br>Business aviation 6%<br>67%<br>OE 35% 77% Regional 26%<br>Services 26% V2500 1%<br><!-- End of picture text -->\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0010-04.png)\n\n\n###### KEY POINTS \n\n- 29% revenue growth, 31% profit growth \n\n- Higher large engine aftermarket profit across LTSA and time and materials \n\n- Higher net contractual margin improvements \n\n- Stronger business aviation performance \n\nOE DELIVERIES LARGE ENGINE OE DELIVERIES 279 +18% 157 +29% LTSA ENGINE FLYING HOURS TOTAL LTSA SHOP VISITS 10.0m +5% 712 +2% \n\nLTSA ENGINE FLYING HOURS \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 10 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 11
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 11: DEFENCE",
+        11
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          149,
+          64
+        ],
+        "pos": [
+          0,
+          14
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          113,
+          588,
+          313
+        ],
+        "pos": [
+          14,
+          646
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          646,
+          681
+        ]
+      },
+      {
+        "index": 3,
+        "class": "picture",
+        "bbox": [
+          0,
+          350,
+          575,
+          540
+        ],
+        "pos": [
+          681,
+          1013
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          631,
+          132,
+          692,
+          143
+        ],
+        "pos": [
+          1013,
+          1033
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          631,
+          166,
+          862,
+          182
+        ],
+        "pos": [
+          1033,
+          1075
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          631,
+          190,
+          885,
+          222
+        ],
+        "pos": [
+          1075,
+          1133
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          631,
+          234,
+          810,
+          249
+        ],
+        "pos": [
+          1133,
+          1166
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          631,
+          258,
+          758,
+          274
+        ],
+        "pos": [
+          1166,
+          1188
+        ]
+      },
+      {
+        "index": 9,
+        "class": "picture",
+        "bbox": [
+          786,
+          340,
+          869,
+          351
+        ],
+        "pos": [
+          1188,
+          1392
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          624,
+          340,
+          695,
+          351
+        ],
+        "pos": [
+          1392,
+          1414
+        ]
+      },
+      {
+        "index": 11,
+        "class": "picture",
+        "bbox": [
+          624,
+          377,
+          740,
+          437
+        ],
+        "pos": [
+          1414,
+          1638
+        ]
+      },
+      {
+        "index": 12,
+        "class": "picture",
+        "bbox": [
+          788,
+          377,
+          886,
+          408
+        ],
+        "pos": [
+          1638,
+          1836
+        ]
+      },
+      {
+        "index": 13,
+        "class": "picture",
+        "bbox": [
+          790,
+          426,
+          813,
+          439
+        ],
+        "pos": [
+          1836,
+          2030
+        ]
+      },
+      {
+        "index": 14,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          2030,
+          2156
+        ]
+      },
+      {
+        "index": 15,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          2156,
+          2213
+        ]
+      }
+    ],
+    "text": "### DEFENCE \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>2,484</td><td>2,223</td><td>358</td><td>17%</td></tr><tr><td>Gross profit</td><td>639</td><td>462</td><td>192</td><td>42%</td></tr><tr><td>Gross margin %</td><td>25.7%</td><td>20.8%</td><td>4.6pts</td><td></td></tr><tr><td>Operating profit</td><td>522</td><td>342</td><td>192</td><td>57%</td></tr><tr><td>Operating margin %</td><td>21.0%</td><td>15.4%</td><td>5.4pts</td><td></td></tr><tr><td>Trading cash flow</td><td>615</td><td>327</td><td>288</td><td>88%</td></tr></table>\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-03.png)\n\n\n<!-- Start of picture text -->\n4%<br>6%<br>32%<br>45%<br>28%<br>55% Transport 14%<br>Combat 12%<br>Submarines 14%<br>OE 18% Naval 75%<br>30%<br>Services 16% Helicopters 29%<br><!-- End of picture text -->\n\n###### KEY POINTS \n\n- 17% revenue growth, 57% profit growth \n\n- Higher aftermarket profit across transport and combat \n\n- Continued self-help benefits \n\n- Submarines growth \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-09.png)\n\n\n<!-- Start of picture text -->\nORDER BACKLOG<br><!-- End of picture text -->\n\n###### ORDER INTAKE \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-11.png)\n\n\n<!-- Start of picture text -->\n£2.4bn<br>Book-to-bill ratio 1.0x<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-12.png)\n\n\n<!-- Start of picture text -->\n£17.5bn<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-13.png)\n\n\n<!-- Start of picture text -->\n-7%<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0011-14.png)\n\n\n> © 2026 Rolls-Royce. Not Subject to Export Control 11 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 12
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 12: POWER SYSTEMS",
+        12
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          255,
+          64
+        ],
+        "pos": [
+          0,
+          20
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          113,
+          588,
+          311
+        ],
+        "pos": [
+          20,
+          651
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          80,
+          338,
+          592,
+          540
+        ],
+        "pos": [
+          651,
+          1046
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          43,
+          343,
+          190,
+          354
+        ],
+        "pos": [
+          1046,
+          1081
+        ]
+      },
+      {
+        "index": 4,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          1081,
+          1207
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          631,
+          129,
+          692,
+          141
+        ],
+        "pos": [
+          1207,
+          1227
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          631,
+          163,
+          866,
+          179
+        ],
+        "pos": [
+          1227,
+          1269
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          631,
+          188,
+          910,
+          224
+        ],
+        "pos": [
+          1269,
+          1335
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          631,
+          234,
+          802,
+          250
+        ],
+        "pos": [
+          1335,
+          1366
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          631,
+          259,
+          777,
+          271
+        ],
+        "pos": [
+          1366,
+          1393
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          624,
+          340,
+          695,
+          351
+        ],
+        "pos": [
+          1393,
+          1415
+        ]
+      },
+      {
+        "index": 11,
+        "class": "section-header",
+        "bbox": [
+          786,
+          340,
+          869,
+          351
+        ],
+        "pos": [
+          1415,
+          1438
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          624,
+          377,
+          739,
+          407
+        ],
+        "pos": [
+          1438,
+          1447
+        ]
+      },
+      {
+        "index": 13,
+        "class": "text",
+        "bbox": [
+          788,
+          377,
+          906,
+          408
+        ],
+        "pos": [
+          1447,
+          1456
+        ]
+      },
+      {
+        "index": 14,
+        "class": "text",
+        "bbox": [
+          624,
+          425,
+          739,
+          437
+        ],
+        "pos": [
+          1456,
+          1482
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          790,
+          426,
+          821,
+          439
+        ],
+        "pos": [
+          1482,
+          1489
+        ]
+      },
+      {
+        "index": 16,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          512,
+          151,
+          521
+        ],
+        "pos": [
+          1489,
+          1525
+        ]
+      },
+      {
+        "index": 17,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1525,
+          1582
+        ]
+      }
+    ],
+    "text": "### POWER SYSTEMS \n\n<table><tr><th>Underlying results<br/>£m</th><th>H1 2026</th><th>H1 2025</th><th>Organic Change</th><th>Organic Change %</th></tr><tr><td>Revenue</td><td>2,604</td><td>2,042</td><td>573</td><td>28%</td></tr><tr><td>Gross profit</td><td>901</td><td>635</td><td>267</td><td>42%</td></tr><tr><td>Gross margin %</td><td>34.6%</td><td>31.1%</td><td>3.4pts</td><td></td></tr><tr><td>Operating profit</td><td>528</td><td>313</td><td>224</td><td>72%</td></tr><tr><td>Operating margin %</td><td>20.3%</td><td>15.3%</td><td>5.3pts</td><td></td></tr><tr><td>Trading cash flow</td><td>507</td><td>425</td><td>82</td><td>19%</td></tr></table>\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0012-02.png)\n\n\n<!-- Start of picture text -->\nUNDERLYING REVENUE SPLITS<br>2%<br>8%<br>30% 8%<br>Power Generation 41%<br>24% 58% Governmental 25%<br>0%<br>70% Marine<br>OE 33% Industrial 13%<br>Services 17% BESS¹ 31%<br>Battery Energy Storage Systems<br><!-- End of picture text -->\n\n###### UNDERLYING REVENUE SPLITS \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0012-04.png)\n\n\n###### KEY POINTS \n\n- 28% revenue growth, 72% profit growth \n\n- Strong power generation profit growth, driven by data centres \n\n- Higher governmental profit \n\n- Continued cost control \n\n###### ORDER INTAKE \n\n###### ORDER BACKLOG \n\n£4.6bn \n\n£8.0bn \n\nBook-to-bill ratio 1.8x \n\n+42% \n\n1  Battery Energy Storage Systems \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 12 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 13
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 13: SUMMARY FUNDS FLOW",
+        13
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          347,
+          64
+        ],
+        "pos": [
+          0,
+          25
+        ]
+      },
+      {
+        "index": 1,
+        "class": "table",
+        "bbox": [
+          29,
+          120,
+          595,
+          443
+        ],
+        "pos": [
+          25,
+          886
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          886,
+          1012
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          635,
+          135,
+          908,
+          148
+        ],
+        "pos": [
+          1012,
+          1053
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          635,
+          173,
+          845,
+          189
+        ],
+        "pos": [
+          1053,
+          1092
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          635,
+          207,
+          911,
+          245
+        ],
+        "pos": [
+          1092,
+          1161
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          635,
+          263,
+          904,
+          301
+        ],
+        "pos": [
+          1161,
+          1245
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          635,
+          319,
+          897,
+          335
+        ],
+        "pos": [
+          1245,
+          1293
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          635,
+          353,
+          854,
+          391
+        ],
+        "pos": [
+          1293,
+          1365
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          635,
+          409,
+          772,
+          425
+        ],
+        "pos": [
+          1365,
+          1391
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          1391,
+          1448
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          520,
+          534,
+          529
+        ],
+        "pos": [
+          1448,
+          1587
+        ]
+      }
+    ],
+    "text": "### SUMMARY FUNDS FLOW \n\n<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Underlying operating profit</td><td>2,534</td><td>1,733</td><td>801</td></tr><tr><td>Net investments1</td><td>(73)</td><td>37</td><td>(110)</td></tr><tr><td>Movement in Civil LTSA balance, net of RRSAs 2</td><td>86</td><td>472</td><td>(386)</td></tr><tr><td>Working capital, excluding Civil Net LTSA</td><td>65</td><td>(22)</td><td>87</td></tr><tr><td>Movement in provisions</td><td>(159)</td><td>(294)</td><td>135</td></tr><tr><td>Settlement of excess derivatives</td><td>(27)</td><td>(116)</td><td>89</td></tr><tr><td>Net interest</td><td>(7)</td><td>14</td><td>(21)</td></tr><tr><td>Tax</td><td>(525)</td><td>(259)</td><td>(266)</td></tr><tr><td>Other</td><td>70</td><td>17</td><td>53</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr></table>\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0013-02.png)\n\n\nKEY DRIVERS OF HIGHER YEAR ON YEAR FCF \n\n- Higher underlying operating profit \n\n- Higher net investments as we invest for future profitable growth \n\n- Lower net LTSA balance growth due to more shop visits and business improvements \n\n- Broadly similar working capital performance \n\n- Movement in provisions reflects renegotiations of onerous contracts \n\n- Higher cash tax costs \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 13 \n\n1 Net investments = D&A – capital element of lease payments – capital expenditure – investment   2 Risk and Revenue Sharing Arrangements \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 14
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 14: CAPITAL FRAMEWORK",
+        14
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          319,
+          64
+        ],
+        "pos": [
+          0,
+          24
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          30,
+          73,
+          613,
+          91
+        ],
+        "pos": [
+          24,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          102,
+          228
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          525,
+          166,
+          694,
+          182
+        ],
+        "pos": [
+          228,
+          263
+        ]
+      },
+      {
+        "index": 4,
+        "class": "list-item",
+        "bbox": [
+          71,
+          187,
+          311,
+          222
+        ],
+        "pos": [
+          263,
+          294
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          525,
+          185,
+          728,
+          201
+        ],
+        "pos": [
+          294,
+          334
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          525,
+          203,
+          814,
+          219
+        ],
+        "pos": [
+          334,
+          388
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          525,
+          221,
+          801,
+          237
+        ],
+        "pos": [
+          388,
+          441
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          67,
+          292,
+          398,
+          327
+        ],
+        "pos": [
+          441,
+          481
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          525,
+          288,
+          681,
+          304
+        ],
+        "pos": [
+          481,
+          513
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          525,
+          310,
+          894,
+          326
+        ],
+        "pos": [
+          513,
+          583
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          66,
+          389,
+          356,
+          432
+        ],
+        "pos": [
+          583,
+          641
+        ]
+      },
+      {
+        "index": 12,
+        "class": "list-item",
+        "bbox": [
+          525,
+          392,
+          875,
+          408
+        ],
+        "pos": [
+          641,
+          709
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          525,
+          414,
+          903,
+          430
+        ],
+        "pos": [
+          709,
+          779
+        ]
+      },
+      {
+        "index": 14,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          504,
+          101,
+          513
+        ],
+        "pos": [
+          779,
+          802
+        ]
+      },
+      {
+        "index": 15,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          802,
+          859
+        ]
+      }
+    ],
+    "text": "### CAPITAL FRAMEWORK \n\nMaintaining resilience, investing strategically, and rewarding shareholders \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0014-02.png)\n\n\n   - Net cash position of £2.1bn \n\n- STRONG BALANCE SHEET \n\n- 1 \n\n   - £1.1bn of bonds repaid from cash \n\n   - €1bn of bonds issued maturing in 2031 and 2036 \n\n   - Upgraded to A3 / A- rating by Moody’s / Fitch \n\n- REGULAR AND GROWING DIVIDENDS \n\n- 2 \n\n   - Interim dividend of 6.0p \n\n   - Target annual payout of 30%-40% of underlying profit after tax \n\n- FURTHER INVESTMENTS & \n\n- 3 SHAREHOLDER DISTRIBUTIONS \n\n- 1 \n\n- • 2026 £2.5bn share buyback progressing: £1.4bn completed \n\n- Disciplined investments: strategically aligned and value creative \n\n1 As of 29 July 2026 \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 14 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 15
+    },
+    "toc_items": [
+      [
+        1,
+        "Tufan's end content",
+        15
+      ],
+      [
+        2,
+        "Slide 15: TUFAN ERGINBILGIC",
+        15
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          126
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          60,
+          191,
+          539,
+          293
+        ],
+        "pos": [
+          126,
+          183
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          183,
+          309
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          309,
+          361
+        ]
+      }
+    ],
+    "text": "\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0015-00.png)\n\n\n03 Chief Executive Officer<sup>TUFAN ERGINBILGIC</sup> \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0015-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 16
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 16: Full year 2026 guidance raised",
+        16
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          497,
+          64
+        ],
+        "pos": [
+          0,
+          37
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          30,
+          71,
+          657,
+          87
+        ],
+        "pos": [
+          37,
+          127
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          127,
+          253
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          29,
+          117,
+          128,
+          132
+        ],
+        "pos": [
+          253,
+          273
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          494,
+          118,
+          581,
+          130
+        ],
+        "pos": [
+          273,
+          297
+        ]
+      },
+      {
+        "index": 5,
+        "class": "picture",
+        "bbox": [
+          28,
+          152,
+          463,
+          382
+        ],
+        "pos": [
+          297,
+          582
+        ]
+      },
+      {
+        "index": 6,
+        "class": "picture",
+        "bbox": [
+          494,
+          152,
+          931,
+          382
+        ],
+        "pos": [
+          582,
+          867
+        ]
+      },
+      {
+        "index": 7,
+        "class": "section-header",
+        "bbox": [
+          411,
+          396,
+          549,
+          410
+        ],
+        "pos": [
+          867,
+          900
+        ]
+      },
+      {
+        "index": 8,
+        "class": "table",
+        "bbox": [
+          28,
+          426,
+          931,
+          508
+        ],
+        "pos": [
+          900,
+          1122
+        ]
+      },
+      {
+        "index": 9,
+        "class": "page-footer",
+        "bbox": [
+          926,
+          518,
+          935,
+          527
+        ],
+        "pos": [
+          1122,
+          1127
+        ]
+      },
+      {
+        "index": 10,
+        "class": "page-footer",
+        "bbox": [
+          29,
+          519,
+          133,
+          528
+        ],
+        "pos": [
+          1127,
+          1159
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          1159,
+          1211
+        ]
+      }
+    ],
+    "text": "### FULL YEAR 2026 GUIDANCE RAISED \n\nStrong delivery driven by transformation gives us confidence to raise our FY26 guidance \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0016-02.png)\n\n\nOperating profit1 \n\n###### Free cash flow \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0016-05.png)\n\n\n<!-- Start of picture text -->\n. £4.9-5.2bn<br>£4.7-4.9bn<br>2022 2023 2024 2025 2026 Mid-term<br>Mid-point of prior guidance<br><!-- End of picture text -->\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0016-06.png)\n\n\n<!-- Start of picture text -->\n. £5.0-5.3bn<br>£3.8-4.0bn<br>2022 2023 2024 2025 2026 Mid-term<br>Mid-point of prior guidance<br><!-- End of picture text -->\n\n###### Civil Aerospace drivers \n\n<table><tr><th>Large engine EFH</th><th>Towards the lower end of the range of 115-120% of 2019</th></tr><tr><td>Total OE deliveries</td><td>550-600</td></tr><tr><td>Total shop visits</td><td>1,480-1,550</td></tr></table>\n\n16 \n\n1 Underlying operating profit \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 17
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 17: Achieving the Rolls-Royce proposition",
+        17
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          29,
+          37,
+          616,
+          64
+        ],
+        "pos": [
+          0,
+          44
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          44,
+          170
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          155,
+          115,
+          329,
+          132
+        ],
+        "pos": [
+          170,
+          196
+        ]
+      },
+      {
+        "index": 3,
+        "class": "list-item",
+        "bbox": [
+          64,
+          179,
+          394,
+          196
+        ],
+        "pos": [
+          196,
+          247
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          590,
+          169,
+          838,
+          205
+        ],
+        "pos": [
+          247,
+          305
+        ]
+      },
+      {
+        "index": 5,
+        "class": "list-item",
+        "bbox": [
+          64,
+          209,
+          435,
+          251
+        ],
+        "pos": [
+          305,
+          386
+        ]
+      },
+      {
+        "index": 6,
+        "class": "list-item",
+        "bbox": [
+          64,
+          264,
+          232,
+          282
+        ],
+        "pos": [
+          386,
+          411
+        ]
+      },
+      {
+        "index": 7,
+        "class": "list-item",
+        "bbox": [
+          64,
+          295,
+          363,
+          313
+        ],
+        "pos": [
+          411,
+          455
+        ]
+      },
+      {
+        "index": 8,
+        "class": "list-item",
+        "bbox": [
+          585,
+          284,
+          782,
+          320
+        ],
+        "pos": [
+          455,
+          507
+        ]
+      },
+      {
+        "index": 9,
+        "class": "list-item",
+        "bbox": [
+          64,
+          326,
+          308,
+          343
+        ],
+        "pos": [
+          507,
+          543
+        ]
+      },
+      {
+        "index": 10,
+        "class": "list-item",
+        "bbox": [
+          64,
+          356,
+          365,
+          374
+        ],
+        "pos": [
+          543,
+          589
+        ]
+      },
+      {
+        "index": 11,
+        "class": "list-item",
+        "bbox": [
+          64,
+          387,
+          410,
+          429
+        ],
+        "pos": [
+          589,
+          663
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          585,
+          401,
+          614,
+          436
+        ],
+        "pos": [
+          663,
+          668
+        ]
+      },
+      {
+        "index": 13,
+        "class": "list-item",
+        "bbox": [
+          628,
+          399,
+          847,
+          435
+        ],
+        "pos": [
+          668,
+          725
+        ]
+      },
+      {
+        "index": 14,
+        "class": "page-footer",
+        "bbox": [
+          738,
+          518,
+          935,
+          528
+        ],
+        "pos": [
+          725,
+          782
+        ]
+      }
+    ],
+    "text": "### ACHIEVING THE ROLLS-ROYCE PROPOSITION \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0017-01.png)\n\n\n#### OUR TRANSFORMATION \n\n- Significant operational and strategic progress \n\nHIGH PERFORMING, COMPETITIVE, 1. AND RESILIENT BUSINESS \n\n- Strong first half results driven by transformation and business improvements \n\n- FY26 guidance raised \n\n- Further confidence in mid-term guidance \n\n   - GROWING SUSTAINABLE \n\n   - **2.** CASH FLOWS \n\n- 6.0p interim dividend announced \n\n- On track for £2.5bn share buyback in 2026 \n\n- Resilient and diversified portfolio with significant growth potential \n\n3. \n\n- STRONG BALANCE SHEET AND GROWING SHAREHOLDER RETURNS \n\n> © 2026 Rolls-Royce. Not Subject to Export Control 17 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 18
+    },
+    "toc_items": [
+      [
+        1,
+        "End slides",
+        18
+      ],
+      [
+        2,
+        "Slide 18",
+        18
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          885,
+          33,
+          919,
+          88
+        ],
+        "pos": [
+          0,
+          126
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          60,
+          209,
+          191,
+          286
+        ],
+        "pos": [
+          126,
+          135
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          135,
+          261
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          720,
+          510,
+          896,
+          519
+        ],
+        "pos": [
+          261,
+          313
+        ]
+      },
+      {
+        "index": 4,
+        "class": "page-footer",
+        "bbox": [
+          4,
+          529,
+          110,
+          538
+        ],
+        "pos": [
+          313,
+          340
+        ]
+      }
+    ],
+    "text": "\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0018-00.png)\n\n\n## Q&A \n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0018-02.png)\n\n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\nPhoto courtesy of Boeing \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/rolls_royce_2026h1_presentation.pdf",
+      "page_count": 19,
+      "page_number": 19
+    },
+    "toc_items": [
+      [
+        2,
+        "Slide 19",
+        19
+      ]
+    ],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "picture",
+        "bbox": [
+          897,
+          37,
+          931,
+          93
+        ],
+        "pos": [
+          0,
+          126
+        ]
+      },
+      {
+        "index": 1,
+        "class": "picture",
+        "bbox": [
+          440,
+          98,
+          520,
+          232
+        ],
+        "pos": [
+          126,
+          252
+        ]
+      },
+      {
+        "index": 2,
+        "class": "picture",
+        "bbox": [
+          254,
+          312,
+          960,
+          425
+        ],
+        "pos": [
+          252,
+          378
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          262,
+          480,
+          700,
+          498
+        ],
+        "pos": [
+          378,
+          615
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          738,
+          519,
+          914,
+          528
+        ],
+        "pos": [
+          615,
+          667
+        ]
+      }
+    ],
+    "text": "\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0019-00.png)\n\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0019-01.png)\n\n\n\n![](results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/images/rolls_royce_2026h1_presentation.pdf-0019-02.png)\n\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available. \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n"
+  }
+]

@@ -1,0 +1,1046 @@
+{
+  "status": "success",
+  "image_sha256": "5d347a56abd93bcd09debf8856b2ebe49d97c21c93596363bdadcd20ef44480a",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          266.0,
+          292.0
+        ],
+        [
+          1118.0,
+          292.0
+        ],
+        [
+          1118.0,
+          340.0
+        ],
+        [
+          266.0,
+          340.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          417.0
+        ],
+        [
+          1081.0,
+          417.0
+        ],
+        [
+          1081.0,
+          464.0
+        ],
+        [
+          262.0,
+          464.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          497.0
+        ],
+        [
+          1281.0,
+          497.0
+        ],
+        [
+          1281.0,
+          545.0
+        ],
+        [
+          262.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          654.0
+        ],
+        [
+          2207.0,
+          654.0
+        ],
+        [
+          2207.0,
+          702.0
+        ],
+        [
+          262.0,
+          702.0
+        ]
+      ],
+      "text": "The Company continues to invest in employee engagement and training and we are constantly seeking ways we",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          694.0
+        ],
+        [
+          1140.0,
+          698.0
+        ],
+        [
+          1140.0,
+          746.0
+        ],
+        [
+          258.0,
+          742.0
+        ]
+      ],
+      "text": "can improve and better engage with our employees.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          782.0
+        ],
+        [
+          2211.0,
+          782.0
+        ],
+        [
+          2211.0,
+          830.0
+        ],
+        [
+          258.0,
+          830.0
+        ]
+      ],
+      "text": "We have an active forum on the staff app where employees are encouraged to feedback ideas and views. Senior",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          833.0
+        ],
+        [
+          1819.0,
+          833.0
+        ],
+        [
+          1819.0,
+          870.0
+        ],
+        [
+          266.0,
+          870.0
+        ]
+      ],
+      "text": "managers actively participate on the forum and engage with employees across the business.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          917.0
+        ],
+        [
+          2203.0,
+          917.0
+        ],
+        [
+          2203.0,
+          954.0
+        ],
+        [
+          266.0,
+          954.0
+        ]
+      ],
+      "text": "Staff engagement and well-being is paramount to the success of the Hippodrome, ensuring the business has the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          954.0
+        ],
+        [
+          1199.0,
+          958.0
+        ],
+        [
+          1199.0,
+          1005.0
+        ],
+        [
+          258.0,
+          1001.0
+        ]
+      ],
+      "text": "culture and values critical to the delivery of our strategy.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1038.0
+        ],
+        [
+          2211.0,
+          1042.0
+        ],
+        [
+          2211.0,
+          1089.0
+        ],
+        [
+          255.0,
+          1086.0
+        ]
+      ],
+      "text": "The board receive regular reports from the HR department on all aspects relating to the value development and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1086.0
+        ],
+        [
+          638.0,
+          1086.0
+        ],
+        [
+          638.0,
+          1122.0
+        ],
+        [
+          266.0,
+          1122.0
+        ]
+      ],
+      "text": "well-being of our staff.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1177.0
+        ],
+        [
+          760.0,
+          1177.0
+        ],
+        [
+          760.0,
+          1214.0
+        ],
+        [
+          266.0,
+          1214.0
+        ]
+      ],
+      "text": "Our Partners and Suppliers",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1257.0
+        ],
+        [
+          2207.0,
+          1257.0
+        ],
+        [
+          2207.0,
+          1305.0
+        ],
+        [
+          262.0,
+          1305.0
+        ]
+      ],
+      "text": "The Hippodrome can only offer and deliver the world class products and services with the support of our Partners",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1301.0
+        ],
+        [
+          2203.0,
+          1301.0
+        ],
+        [
+          2203.0,
+          1349.0
+        ],
+        [
+          262.0,
+          1349.0
+        ]
+      ],
+      "text": "and Suppliers. The business is built on our brand strength and ensuring our values are aligned with our suppliers,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1345.0
+        ],
+        [
+          2207.0,
+          1345.0
+        ],
+        [
+          2207.0,
+          1393.0
+        ],
+        [
+          262.0,
+          1393.0
+        ]
+      ],
+      "text": "ensures that together we continue to create valuable strategic partnerships along with the safety, security and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1393.0
+        ],
+        [
+          2207.0,
+          1393.0
+        ],
+        [
+          2207.0,
+          1429.0
+        ],
+        [
+          266.0,
+          1429.0
+        ]
+      ],
+      "text": "resilience of our operations. These partnerships have given us the ability to grow and expand the Hippodrome over",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1425.0
+        ],
+        [
+          2207.0,
+          1429.0
+        ],
+        [
+          2207.0,
+          1480.0
+        ],
+        [
+          258.0,
+          1477.0
+        ]
+      ],
+      "text": "the last 14 years. Technology and innovation has been key to our success and working in partnership with our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1477.0
+        ],
+        [
+          2203.0,
+          1477.0
+        ],
+        [
+          2203.0,
+          1524.0
+        ],
+        [
+          258.0,
+          1524.0
+        ]
+      ],
+      "text": "suppliers we continually improve and remain at the cutting edge in the industry, with the best and most exciting",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1524.0
+        ],
+        [
+          1115.0,
+          1524.0
+        ],
+        [
+          1115.0,
+          1561.0
+        ],
+        [
+          266.0,
+          1561.0
+        ]
+      ],
+      "text": "gaming products and hospitality for our customers.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1608.0
+        ],
+        [
+          2207.0,
+          1608.0
+        ],
+        [
+          2207.0,
+          1645.0
+        ],
+        [
+          262.0,
+          1645.0
+        ]
+      ],
+      "text": "We also outsource a number of key activities across the Hippodrome and undertake appropriate due diligence and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1652.0
+        ],
+        [
+          2207.0,
+          1652.0
+        ],
+        [
+          2207.0,
+          1689.0
+        ],
+        [
+          262.0,
+          1689.0
+        ]
+      ],
+      "text": "have regular engagement with all our providers. Our approach to procurement ensures we treat partners and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1689.0
+        ],
+        [
+          2207.0,
+          1689.0
+        ],
+        [
+          2207.0,
+          1736.0
+        ],
+        [
+          258.0,
+          1736.0
+        ]
+      ],
+      "text": "suppliers fairly which includes ensuring prompt payment where we pay 84% of our invoices within the agreed terms",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1729.0
+        ],
+        [
+          1458.0,
+          1733.0
+        ],
+        [
+          1458.0,
+          1780.0
+        ],
+        [
+          258.0,
+          1776.0
+        ]
+      ],
+      "text": "and work actively and constructively to resolve any issues if they arise.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1813.0
+        ],
+        [
+          2203.0,
+          1817.0
+        ],
+        [
+          2203.0,
+          1864.0
+        ],
+        [
+          255.0,
+          1860.0
+        ]
+      ],
+      "text": "We have nurtured a long-standing relationship with our principal finance provider, since inception of the business.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1861.0
+        ],
+        [
+          2207.0,
+          1861.0
+        ],
+        [
+          2207.0,
+          1908.0
+        ],
+        [
+          262.0,
+          1908.0
+        ]
+      ],
+      "text": "There is an emphasis on openness and integrity in all our dealings. We maintain regular dialogue with our lender to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1901.0
+        ],
+        [
+          1306.0,
+          1904.0
+        ],
+        [
+          1306.0,
+          1952.0
+        ],
+        [
+          258.0,
+          1948.0
+        ]
+      ],
+      "text": "ensure we secure the most appropriate and attractive funding.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1992.0
+        ],
+        [
+          550.0,
+          1992.0
+        ],
+        [
+          550.0,
+          2036.0
+        ],
+        [
+          266.0,
+          2036.0
+        ]
+      ],
+      "text": "Our Customers",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2076.0
+        ],
+        [
+          2207.0,
+          2076.0
+        ],
+        [
+          2207.0,
+          2124.0
+        ],
+        [
+          262.0,
+          2124.0
+        ]
+      ],
+      "text": "Our customers are at the heart of everything we do at the Hippodrome and it is vital to our long term strategy for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2124.0
+        ],
+        [
+          2200.0,
+          2124.0
+        ],
+        [
+          2200.0,
+          2160.0
+        ],
+        [
+          266.0,
+          2160.0
+        ]
+      ],
+      "text": "success that we provide everything they need to maximise their enjoyment and entertainment when they visit us.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2168.0
+        ],
+        [
+          2203.0,
+          2168.0
+        ],
+        [
+          2203.0,
+          2204.0
+        ],
+        [
+          266.0,
+          2204.0
+        ]
+      ],
+      "text": "Management work closely with regular customers to ensure we fully understand their needs and how we can",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2211.0
+        ],
+        [
+          2203.0,
+          2211.0
+        ],
+        [
+          2203.0,
+          2248.0
+        ],
+        [
+          262.0,
+          2248.0
+        ]
+      ],
+      "text": "improve their experience and enjoyment with a world-class casino and entertainment venue. In doing so, we aim to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2248.0
+        ],
+        [
+          1790.0,
+          2248.0
+        ],
+        [
+          1790.0,
+          2295.0
+        ],
+        [
+          262.0,
+          2295.0
+        ]
+      ],
+      "text": "provide a fun and accessible environment and deliver a best in class customer experience.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2332.0
+        ],
+        [
+          590.0,
+          2332.0
+        ],
+        [
+          590.0,
+          2380.0
+        ],
+        [
+          266.0,
+          2380.0
+        ]
+      ],
+      "text": "Our Shareholders",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2427.0
+        ],
+        [
+          2203.0,
+          2427.0
+        ],
+        [
+          2203.0,
+          2464.0
+        ],
+        [
+          266.0,
+          2464.0
+        ]
+      ],
+      "text": "As a privately owned company, our shareholders support our strategic objectives and seek a sustainable long-term",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2460.0
+        ],
+        [
+          2203.0,
+          2460.0
+        ],
+        [
+          2203.0,
+          2507.0
+        ],
+        [
+          262.0,
+          2507.0
+        ]
+      ],
+      "text": "return on their investment. The Company maintains a very close relationship with all its shareholders and regularly",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2504.0
+        ],
+        [
+          1930.0,
+          2507.0
+        ],
+        [
+          1930.0,
+          2555.0
+        ],
+        [
+          262.0,
+          2551.0
+        ]
+      ],
+      "text": "keeps them fully informed on performance of the business, relevant developments and our strategy.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2595.0
+        ],
+        [
+          716.0,
+          2595.0
+        ],
+        [
+          716.0,
+          2632.0
+        ],
+        [
+          266.0,
+          2632.0
+        ]
+      ],
+      "text": "People and Communities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2676.0
+        ],
+        [
+          2207.0,
+          2683.0
+        ],
+        [
+          2207.0,
+          2731.0
+        ],
+        [
+          258.0,
+          2723.0
+        ]
+      ],
+      "text": "We remain passionate, fully committed and very active in supporting our people and the communities surrounding",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2719.0
+        ],
+        [
+          2207.0,
+          2723.0
+        ],
+        [
+          2207.0,
+          2771.0
+        ],
+        [
+          258.0,
+          2767.0
+        ]
+      ],
+      "text": "the casino and beyond, to ensure a vibrant and sustainable environment for all. This continued investment in our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2763.0
+        ],
+        [
+          2211.0,
+          2767.0
+        ],
+        [
+          2211.0,
+          2815.0
+        ],
+        [
+          262.0,
+          2811.0
+        ]
+      ],
+      "text": "people and our communities supports our Social Responsibility objectives. These efforts will be supported by our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2815.0
+        ],
+        [
+          2207.0,
+          2815.0
+        ],
+        [
+          2207.0,
+          2851.0
+        ],
+        [
+          266.0,
+          2851.0
+        ]
+      ],
+      "text": "charitable trust, which was established in 2023. In addition, the Hippodrome contributes to a range of charities and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2851.0
+        ],
+        [
+          2203.0,
+          2851.0
+        ],
+        [
+          2203.0,
+          2899.0
+        ],
+        [
+          262.0,
+          2899.0
+        ]
+      ],
+      "text": "community projects both in terms of financial commitments, or use of our facilities. In particular, we have supported",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2895.0
+        ],
+        [
+          1897.0,
+          2895.0
+        ],
+        [
+          1897.0,
+          2942.0
+        ],
+        [
+          262.0,
+          2942.0
+        ]
+      ],
+      "text": "the University of Liverpool with financial donations to further research into gambling related harm.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2983.0
+        ],
+        [
+          852.0,
+          2983.0
+        ],
+        [
+          852.0,
+          3030.0
+        ],
+        [
+          262.0,
+          3030.0
+        ]
+      ],
+      "text": "Maximising Value and Efficiency",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          269.0,
+          3074.0
+        ],
+        [
+          2203.0,
+          3074.0
+        ],
+        [
+          2203.0,
+          3111.0
+        ],
+        [
+          269.0,
+          3111.0
+        ]
+      ],
+      "text": "Increasing value and efficiency by maximising income, lowering operating costs and driving capital efficiency is a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3114.0
+        ],
+        [
+          841.0,
+          3114.0
+        ],
+        [
+          841.0,
+          3162.0
+        ],
+        [
+          262.0,
+          3162.0
+        ]
+      ],
+      "text": "key pillar of our business strategy.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1207.0,
+          3312.0
+        ],
+        [
+          1277.0,
+          3312.0
+        ],
+        [
+          1277.0,
+          3355.0
+        ],
+        [
+          1207.0,
+          3355.0
+        ]
+      ],
+      "text": "-4-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2552511692047119,
+  "elapsed_seconds": 24.356865625362843
+}

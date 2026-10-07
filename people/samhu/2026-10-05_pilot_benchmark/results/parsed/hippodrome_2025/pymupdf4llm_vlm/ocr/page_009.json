@@ -1,0 +1,1156 @@
+{
+  "status": "success",
+  "image_sha256": "4e4d25efcbaaad5391bbfd9d2066f132451f6212ab33e1f553baeeb1463d2e52",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          285.0
+        ],
+        [
+          1118.0,
+          285.0
+        ],
+        [
+          1118.0,
+          336.0
+        ],
+        [
+          262.0,
+          336.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          413.0
+        ],
+        [
+          1081.0,
+          413.0
+        ],
+        [
+          1081.0,
+          461.0
+        ],
+        [
+          258.0,
+          461.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          493.0
+        ],
+        [
+          1281.0,
+          493.0
+        ],
+        [
+          1281.0,
+          541.0
+        ],
+        [
+          258.0,
+          541.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          651.0
+        ],
+        [
+          613.0,
+          651.0
+        ],
+        [
+          613.0,
+          698.0
+        ],
+        [
+          258.0,
+          698.0
+        ]
+      ],
+      "text": "Our core values are:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          413.0,
+          735.0
+        ],
+        [
+          1192.0,
+          735.0
+        ],
+        [
+          1192.0,
+          782.0
+        ],
+        [
+          413.0,
+          782.0
+        ]
+      ],
+      "text": "Service Excellence and Customer Experience",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          408.0,
+          774.0
+        ],
+        [
+          566.0,
+          783.0
+        ],
+        [
+          563.0,
+          834.0
+        ],
+        [
+          405.0,
+          825.0
+        ]
+      ],
+      "text": "Respect",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          410.0,
+          822.0
+        ],
+        [
+          561.0,
+          822.0
+        ],
+        [
+          561.0,
+          874.0
+        ],
+        [
+          410.0,
+          874.0
+        ]
+      ],
+      "text": "Integrity",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          410.0,
+          866.0
+        ],
+        [
+          598.0,
+          866.0
+        ],
+        [
+          598.0,
+          917.0
+        ],
+        [
+          410.0,
+          917.0
+        ]
+      ],
+      "text": "Innovation",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          410.0,
+          910.0
+        ],
+        [
+          657.0,
+          910.0
+        ],
+        [
+          657.0,
+          961.0
+        ],
+        [
+          410.0,
+          961.0
+        ]
+      ],
+      "text": "Accountability",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          413.0,
+          954.0
+        ],
+        [
+          594.0,
+          954.0
+        ],
+        [
+          594.0,
+          994.0
+        ],
+        [
+          413.0,
+          994.0
+        ]
+      ],
+      "text": "Teamwork",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1045.0
+        ],
+        [
+          731.0,
+          1045.0
+        ],
+        [
+          731.0,
+          1082.0
+        ],
+        [
+          262.0,
+          1082.0
+        ]
+      ],
+      "text": "Section 172 (1) Statement",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1133.0
+        ],
+        [
+          2211.0,
+          1133.0
+        ],
+        [
+          2211.0,
+          1170.0
+        ],
+        [
+          262.0,
+          1170.0
+        ]
+      ],
+      "text": "Section 172 of the Companies Act 2006 requires the directors of the Company to act in the way they consider, in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1177.0
+        ],
+        [
+          2207.0,
+          1177.0
+        ],
+        [
+          2207.0,
+          1214.0
+        ],
+        [
+          262.0,
+          1214.0
+        ]
+      ],
+      "text": "good faith, would most likely promote the success of the Company for the benefit of its members. In doing so,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1221.0
+        ],
+        [
+          1472.0,
+          1221.0
+        ],
+        [
+          1472.0,
+          1257.0
+        ],
+        [
+          262.0,
+          1257.0
+        ]
+      ],
+      "text": "section 172 requires a director to have regard (among other matters) to:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1309.0
+        ],
+        [
+          1288.0,
+          1309.0
+        ],
+        [
+          1288.0,
+          1345.0
+        ],
+        [
+          258.0,
+          1345.0
+        ]
+      ],
+      "text": "a. The likely consequences of any decisions in the long term",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1345.0
+        ],
+        [
+          1044.0,
+          1345.0
+        ],
+        [
+          1044.0,
+          1393.0
+        ],
+        [
+          255.0,
+          1393.0
+        ]
+      ],
+      "text": "b. The interests of the Company's employees",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1389.0
+        ],
+        [
+          1897.0,
+          1389.0
+        ],
+        [
+          1897.0,
+          1426.0
+        ],
+        [
+          258.0,
+          1426.0
+        ]
+      ],
+      "text": "c. The need to foster the Company's business relationships with suppliers, customers and others",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          303.0,
+          1436.0
+        ],
+        [
+          1609.0,
+          1436.0
+        ],
+        [
+          1609.0,
+          1473.0
+        ],
+        [
+          303.0,
+          1473.0
+        ]
+      ],
+      "text": "The impact of the Company's operations on the community and environment",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1480.0
+        ],
+        [
+          1934.0,
+          1480.0
+        ],
+        [
+          1934.0,
+          1517.0
+        ],
+        [
+          258.0,
+          1517.0
+        ]
+      ],
+      "text": "e. The desirability of the Company maintaining a reputation for high standards of business conduct",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1524.0
+        ],
+        [
+          1321.0,
+          1524.0
+        ],
+        [
+          1321.0,
+          1561.0
+        ],
+        [
+          255.0,
+          1561.0
+        ]
+      ],
+      "text": "f. The need to act fairly as between members of the Company",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1608.0
+        ],
+        [
+          2207.0,
+          1608.0
+        ],
+        [
+          2207.0,
+          1645.0
+        ],
+        [
+          262.0,
+          1645.0
+        ]
+      ],
+      "text": "The directors discharge their section 172 duty by having regard to the factors set out above along with other",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1652.0
+        ],
+        [
+          2207.0,
+          1652.0
+        ],
+        [
+          2207.0,
+          1689.0
+        ],
+        [
+          262.0,
+          1689.0
+        ]
+      ],
+      "text": "relevant factors. The directors will ensure key decisions are in line with the Hippodrome's Core Purpose,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1689.0
+        ],
+        [
+          2214.0,
+          1689.0
+        ],
+        [
+          2214.0,
+          1736.0
+        ],
+        [
+          258.0,
+          1736.0
+        ]
+      ],
+      "text": "Fundamental Principles and Shared Values. As in any large organisation, the directors delegate authority for the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1740.0
+        ],
+        [
+          2211.0,
+          1740.0
+        ],
+        [
+          2211.0,
+          1776.0
+        ],
+        [
+          262.0,
+          1776.0
+        ]
+      ],
+      "text": "day-to-day management of the Company to the Management. They then engage Management in setting, approving",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1784.0
+        ],
+        [
+          2207.0,
+          1784.0
+        ],
+        [
+          2207.0,
+          1820.0
+        ],
+        [
+          258.0,
+          1820.0
+        ]
+      ],
+      "text": "and overseeing execution of the business strategy and related policies. The Company's key stakeholders are its",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1820.0
+        ],
+        [
+          2214.0,
+          1820.0
+        ],
+        [
+          2214.0,
+          1868.0
+        ],
+        [
+          258.0,
+          1868.0
+        ]
+      ],
+      "text": "Staff, Partners and Suppliers, Customers, Shareholders and People & Community as well as its regulator. The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1868.0
+        ],
+        [
+          1956.0,
+          1868.0
+        ],
+        [
+          1956.0,
+          1904.0
+        ],
+        [
+          262.0,
+          1904.0
+        ]
+      ],
+      "text": "impact of the Company activities on these stakeholders is important when making relevant decisions",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1948.0
+        ],
+        [
+          638.0,
+          1948.0
+        ],
+        [
+          638.0,
+          1996.0
+        ],
+        [
+          258.0,
+          1996.0
+        ]
+      ],
+      "text": "Companies Act 2006",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2036.0
+        ],
+        [
+          2214.0,
+          2036.0
+        ],
+        [
+          2214.0,
+          2083.0
+        ],
+        [
+          258.0,
+          2083.0
+        ]
+      ],
+      "text": "The Board of Directors is ultimately accountable to the shareholders, and is responsible for ensuring that",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2080.0
+        ],
+        [
+          2214.0,
+          2080.0
+        ],
+        [
+          2214.0,
+          2127.0
+        ],
+        [
+          255.0,
+          2127.0
+        ]
+      ],
+      "text": "Management actions are aligned with the interests of other stakeholders. The Board of Directors has approved a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2124.0
+        ],
+        [
+          2211.0,
+          2120.0
+        ],
+        [
+          2211.0,
+          2168.0
+        ],
+        [
+          251.0,
+          2171.0
+        ]
+      ],
+      "text": "governance framework in order to effectively discharge its collective responsibility. This framework supports our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2171.0
+        ],
+        [
+          2059.0,
+          2171.0
+        ],
+        [
+          2059.0,
+          2208.0
+        ],
+        [
+          262.0,
+          2208.0
+        ]
+      ],
+      "text": "directors' compliance and their duty to promote our success under section 172 of the Companies Act 2006.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2252.0
+        ],
+        [
+          871.0,
+          2252.0
+        ],
+        [
+          871.0,
+          2299.0
+        ],
+        [
+          258.0,
+          2299.0
+        ]
+      ],
+      "text": "Principal Risks and Uncertainties",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2339.0
+        ],
+        [
+          2140.0,
+          2339.0
+        ],
+        [
+          2140.0,
+          2387.0
+        ],
+        [
+          258.0,
+          2387.0
+        ]
+      ],
+      "text": "The management of the business and the execution of the Company's strategy are subject to a number of risks.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2431.0
+        ],
+        [
+          535.0,
+          2431.0
+        ],
+        [
+          535.0,
+          2467.0
+        ],
+        [
+          262.0,
+          2467.0
+        ]
+      ],
+      "text": "Managing Risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2518.0
+        ],
+        [
+          2211.0,
+          2518.0
+        ],
+        [
+          2211.0,
+          2555.0
+        ],
+        [
+          262.0,
+          2555.0
+        ]
+      ],
+      "text": "Our aim is to embed risk management policies and procedures which are proportionate to the business, understood",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2562.0
+        ],
+        [
+          2207.0,
+          2562.0
+        ],
+        [
+          2207.0,
+          2599.0
+        ],
+        [
+          262.0,
+          2599.0
+        ]
+      ],
+      "text": "by everyone and provide management and the board with information to make risk-based decisions. This way we",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2606.0
+        ],
+        [
+          2207.0,
+          2606.0
+        ],
+        [
+          2207.0,
+          2643.0
+        ],
+        [
+          258.0,
+          2643.0
+        ]
+      ],
+      "text": "can minimise the frequency and impact of undesired and unexpected events, while optimising business",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2643.0
+        ],
+        [
+          2211.0,
+          2643.0
+        ],
+        [
+          2211.0,
+          2690.0
+        ],
+        [
+          258.0,
+          2690.0
+        ]
+      ],
+      "text": "opportunities. We have adopted the 'three lines of play' model, working closely with all departmental areas across",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2683.0
+        ],
+        [
+          2207.0,
+          2683.0
+        ],
+        [
+          2207.0,
+          2730.0
+        ],
+        [
+          255.0,
+          2730.0
+        ]
+      ],
+      "text": "the Hippodrome, to help identify and assess risk, set targets and actions to react to and treat risks. Business risks",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2730.0
+        ],
+        [
+          2211.0,
+          2730.0
+        ],
+        [
+          2211.0,
+          2778.0
+        ],
+        [
+          258.0,
+          2778.0
+        ]
+      ],
+      "text": "are aggregated to identify key trends or risks which could have a significant impact on business objectives and,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2778.0
+        ],
+        [
+          2207.0,
+          2778.0
+        ],
+        [
+          2207.0,
+          2815.0
+        ],
+        [
+          258.0,
+          2815.0
+        ]
+      ],
+      "text": "together with the strategic risks identified by executive management, form the key risk register and the basis of our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2822.0
+        ],
+        [
+          2211.0,
+          2822.0
+        ],
+        [
+          2211.0,
+          2858.0
+        ],
+        [
+          258.0,
+          2858.0
+        ]
+      ],
+      "text": "Business Risk Assessment. Our risk assessment methodology determines the threats to the achievement of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2866.0
+        ],
+        [
+          2207.0,
+          2866.0
+        ],
+        [
+          2207.0,
+          2902.0
+        ],
+        [
+          262.0,
+          2902.0
+        ]
+      ],
+      "text": "business objectives and regulatory and legal obligations and day-to-day operations in terms of likelihood and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2910.0
+        ],
+        [
+          1764.0,
+          2910.0
+        ],
+        [
+          1764.0,
+          2946.0
+        ],
+        [
+          262.0,
+          2946.0
+        ]
+      ],
+      "text": "consequence at a residual level, after taking account of mitigating and controlling actions.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2997.0
+        ],
+        [
+          2200.0,
+          2997.0
+        ],
+        [
+          2200.0,
+          3034.0
+        ],
+        [
+          262.0,
+          3034.0
+        ]
+      ],
+      "text": "The process of risk identification, assessment and management is addressed through a framework of policies",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3041.0
+        ],
+        [
+          2207.0,
+          3041.0
+        ],
+        [
+          2207.0,
+          3078.0
+        ],
+        [
+          262.0,
+          3078.0
+        ]
+      ],
+      "text": "procedures, and internal controls. All policies are subject to board approval and ongoing review by operational",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3085.0
+        ],
+        [
+          2207.0,
+          3085.0
+        ],
+        [
+          2207.0,
+          3122.0
+        ],
+        [
+          258.0,
+          3122.0
+        ]
+      ],
+      "text": "management. Compliance with licence conditions, codes of practice, regulation, legal and ethical standards is a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3129.0
+        ],
+        [
+          2207.0,
+          3129.0
+        ],
+        [
+          2207.0,
+          3165.0
+        ],
+        [
+          258.0,
+          3165.0
+        ]
+      ],
+      "text": "high priority for management and the risk management function. Our internal controls and processes are designed",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3173.0
+        ],
+        [
+          2203.0,
+          3173.0
+        ],
+        [
+          2203.0,
+          3209.0
+        ],
+        [
+          258.0,
+          3209.0
+        ]
+      ],
+      "text": "to manage rather than eliminate the risk of failure to achieve business objectives and can only provide reasonable,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3217.0
+        ],
+        [
+          1329.0,
+          3217.0
+        ],
+        [
+          1329.0,
+          3253.0
+        ],
+        [
+          258.0,
+          3253.0
+        ]
+      ],
+      "text": "not absolute, assurance against material misstatements or loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1203.0,
+          3323.0
+        ],
+        [
+          1281.0,
+          3323.0
+        ],
+        [
+          1281.0,
+          3374.0
+        ],
+        [
+          1203.0,
+          3374.0
+        ]
+      ],
+      "text": "-7 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2728111743927002,
+  "elapsed_seconds": 25.083094500005245
+}

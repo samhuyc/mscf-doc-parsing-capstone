@@ -1,0 +1,980 @@
+{
+  "status": "success",
+  "image_sha256": "66b62325f6bbe3b4af6bf547f3e432ac32259edc057d02a922b71bd9454f5b2d",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          281.0
+        ],
+        [
+          2163.0,
+          281.0
+        ],
+        [
+          2163.0,
+          329.0
+        ],
+        [
+          258.0,
+          329.0
+        ]
+      ],
+      "text": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          336.0
+        ],
+        [
+          786.0,
+          336.0
+        ],
+        [
+          786.0,
+          384.0
+        ],
+        [
+          258.0,
+          384.0
+        ]
+      ],
+      "text": "LIMITED (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          475.0
+        ],
+        [
+          2222.0,
+          475.0
+        ],
+        [
+          2222.0,
+          523.0
+        ],
+        [
+          255.0,
+          523.0
+        ]
+      ],
+      "text": "As a result of these procedures we consider the most significant laws and regulations that have a direct impact on",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          519.0
+        ],
+        [
+          2222.0,
+          519.0
+        ],
+        [
+          2222.0,
+          567.0
+        ],
+        [
+          255.0,
+          567.0
+        ]
+      ],
+      "text": "the financial statements are FRS 102, the Companies Act 2006 and tax compliance regulations. We performed audit",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          563.0
+        ],
+        [
+          2222.0,
+          559.0
+        ],
+        [
+          2222.0,
+          607.0
+        ],
+        [
+          255.0,
+          610.0
+        ]
+      ],
+      "text": "procedures to detect non-compliances which may have a material impact on the financial statements which included",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          614.0
+        ],
+        [
+          2211.0,
+          614.0
+        ],
+        [
+          2211.0,
+          651.0
+        ],
+        [
+          258.0,
+          651.0
+        ]
+      ],
+      "text": "reviewing financial statement disclosures and inspecting correspondence with local tax authorities where necessary.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          698.0
+        ],
+        [
+          2218.0,
+          698.0
+        ],
+        [
+          2218.0,
+          735.0
+        ],
+        [
+          258.0,
+          735.0
+        ]
+      ],
+      "text": "The most significant laws and regulations that have an indirect impact on the financial statements are those in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          742.0
+        ],
+        [
+          2218.0,
+          742.0
+        ],
+        [
+          2218.0,
+          779.0
+        ],
+        [
+          262.0,
+          779.0
+        ]
+      ],
+      "text": "relation to operating a Casino including gambling licenses and adherence to legislation as set out and monitored by",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          786.0
+        ],
+        [
+          2218.0,
+          786.0
+        ],
+        [
+          2218.0,
+          822.0
+        ],
+        [
+          258.0,
+          822.0
+        ]
+      ],
+      "text": "the Gambling Commission. We performed audit procedures to enquire of management and those charged with",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          826.0
+        ],
+        [
+          2222.0,
+          822.0
+        ],
+        [
+          2222.0,
+          870.0
+        ],
+        [
+          251.0,
+          874.0
+        ]
+      ],
+      "text": "governance whether the company is in compliance with these law and regulations and inspected relevant",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          874.0
+        ],
+        [
+          2214.0,
+          874.0
+        ],
+        [
+          2214.0,
+          910.0
+        ],
+        [
+          258.0,
+          910.0
+        ]
+      ],
+      "text": "correspondence with regulatory bodies. We also walked through key processes and procedures in place used by",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          917.0
+        ],
+        [
+          875.0,
+          917.0
+        ],
+        [
+          875.0,
+          954.0
+        ],
+        [
+          258.0,
+          954.0
+        ]
+      ],
+      "text": "management to monitor compliance.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1002.0
+        ],
+        [
+          2214.0,
+          1002.0
+        ],
+        [
+          2214.0,
+          1038.0
+        ],
+        [
+          262.0,
+          1038.0
+        ]
+      ],
+      "text": "The audit engagement team identified the risk of management override of controls and misappropriation of cash",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1045.0
+        ],
+        [
+          2218.0,
+          1045.0
+        ],
+        [
+          2218.0,
+          1082.0
+        ],
+        [
+          258.0,
+          1082.0
+        ]
+      ],
+      "text": "and cash equivalents as relates to revenue recognition as the areas where the financial statements were most",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1086.0
+        ],
+        [
+          1096.0,
+          1086.0
+        ],
+        [
+          1096.0,
+          1122.0
+        ],
+        [
+          262.0,
+          1122.0
+        ]
+      ],
+      "text": "susceptible to material misstatement due to fraud",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1170.0
+        ],
+        [
+          1524.0,
+          1170.0
+        ],
+        [
+          1524.0,
+          1217.0
+        ],
+        [
+          258.0,
+          1217.0
+        ]
+      ],
+      "text": "Audit procedures performed included, but were not limited to, the following:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1214.0
+        ],
+        [
+          2218.0,
+          1214.0
+        ],
+        [
+          2218.0,
+          1261.0
+        ],
+        [
+          358.0,
+          1261.0
+        ]
+      ],
+      "text": "- testing manual journal entries and other adjustments and evaluating the business rationale in relation to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1257.0
+        ],
+        [
+          2115.0,
+          1254.0
+        ],
+        [
+          2115.0,
+          1301.0
+        ],
+        [
+          391.0,
+          1305.0
+        ]
+      ],
+      "text": "significant, unusual transactions and transactions entered into outside the normal course of business;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          1305.0
+        ],
+        [
+          1716.0,
+          1305.0
+        ],
+        [
+          1716.0,
+          1341.0
+        ],
+        [
+          365.0,
+          1341.0
+        ]
+      ],
+      "text": "- challenging judgments and estimates applied through the financial statements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          1349.0
+        ],
+        [
+          2100.0,
+          1349.0
+        ],
+        [
+          2100.0,
+          1385.0
+        ],
+        [
+          365.0,
+          1385.0
+        ]
+      ],
+      "text": "- tracing a sample of cash count entries back to source documentation, including signed count reports;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          1393.0
+        ],
+        [
+          1572.0,
+          1393.0
+        ],
+        [
+          1572.0,
+          1429.0
+        ],
+        [
+          365.0,
+          1429.0
+        ]
+      ],
+      "text": "- reconciliation of revenue postings back to operational system reports;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1433.0
+        ],
+        [
+          1649.0,
+          1425.0
+        ],
+        [
+          1650.0,
+          1473.0
+        ],
+        [
+          358.0,
+          1480.0
+        ]
+      ],
+      "text": "- a site visit at year-end to physically verify cash and cash equivalents; and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1473.0
+        ],
+        [
+          2222.0,
+          1473.0
+        ],
+        [
+          2222.0,
+          1521.0
+        ],
+        [
+          362.0,
+          1521.0
+        ]
+      ],
+      "text": "- the use of data analytics tools to assist with stratification of general ledger postings and activity and the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          1513.0
+        ],
+        [
+          1974.0,
+          1517.0
+        ],
+        [
+          1974.0,
+          1564.0
+        ],
+        [
+          395.0,
+          1561.0
+        ]
+      ],
+      "text": "identification of entries deemed to present an elevated risk of misstatement for further testing.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1608.0
+        ],
+        [
+          2211.0,
+          1608.0
+        ],
+        [
+          2211.0,
+          1645.0
+        ],
+        [
+          258.0,
+          1645.0
+        ]
+      ],
+      "text": "A further description of our responsibilities for the audit of the financial statements is located on the Financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1652.0
+        ],
+        [
+          2218.0,
+          1652.0
+        ],
+        [
+          2218.0,
+          1689.0
+        ],
+        [
+          258.0,
+          1689.0
+        ]
+      ],
+      "text": "Reporting Council's website at: http://www.frc.org.uk/auditorsresponsibilities. This description forms part of our",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1692.0
+        ],
+        [
+          524.0,
+          1692.0
+        ],
+        [
+          524.0,
+          1733.0
+        ],
+        [
+          258.0,
+          1733.0
+        ]
+      ],
+      "text": "auditor's report.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1787.0
+        ],
+        [
+          583.0,
+          1787.0
+        ],
+        [
+          583.0,
+          1835.0
+        ],
+        [
+          255.0,
+          1835.0
+        ]
+      ],
+      "text": "Use of our report",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1835.0
+        ],
+        [
+          2214.0,
+          1835.0
+        ],
+        [
+          2214.0,
+          1871.0
+        ],
+        [
+          262.0,
+          1871.0
+        ]
+      ],
+      "text": "This report is made solely to the company's members, as a body, in accordance with Chapter 3 of Part 16 of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1879.0
+        ],
+        [
+          2218.0,
+          1879.0
+        ],
+        [
+          2218.0,
+          1915.0
+        ],
+        [
+          262.0,
+          1915.0
+        ]
+      ],
+      "text": "Companies Act 2006. Our audit work has been undertaken so that we might state to the company's members those",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1923.0
+        ],
+        [
+          2218.0,
+          1923.0
+        ],
+        [
+          2218.0,
+          1959.0
+        ],
+        [
+          262.0,
+          1959.0
+        ]
+      ],
+      "text": "matters we are required to state to them in an auditor's report and for no other purpose. To the fullest extent",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1963.0
+        ],
+        [
+          2222.0,
+          1963.0
+        ],
+        [
+          2222.0,
+          2010.0
+        ],
+        [
+          255.0,
+          2010.0
+        ]
+      ],
+      "text": "permitted by law, we do not accept or assume responsibility to anyone other than the company and the company's",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2007.0
+        ],
+        [
+          1771.0,
+          2003.0
+        ],
+        [
+          1771.0,
+          2043.0
+        ],
+        [
+          255.0,
+          2047.0
+        ]
+      ],
+      "text": "members as a body, for our audit work, for this report, or for the opinions we have formed.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2124.0
+        ],
+        [
+          554.0,
+          2124.0
+        ],
+        [
+          554.0,
+          2175.0
+        ],
+        [
+          262.0,
+          2175.0
+        ]
+      ],
+      "text": "N. C. Cattini",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2255.0
+        ],
+        [
+          963.0,
+          2255.0
+        ],
+        [
+          963.0,
+          2292.0
+        ],
+        [
+          258.0,
+          2292.0
+        ]
+      ],
+      "text": "Nicholas Cattini (Senior Statutory Auditor)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2299.0
+        ],
+        [
+          1236.0,
+          2299.0
+        ],
+        [
+          1236.0,
+          2347.0
+        ],
+        [
+          255.0,
+          2347.0
+        ]
+      ],
+      "text": "For and on behalf of RSM UK Audit LLP, Statutory Auditor",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2347.0
+        ],
+        [
+          657.0,
+          2347.0
+        ],
+        [
+          657.0,
+          2394.0
+        ],
+        [
+          255.0,
+          2394.0
+        ]
+      ],
+      "text": "Chartered Accountants",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2401.0
+        ],
+        [
+          454.0,
+          2401.0
+        ],
+        [
+          454.0,
+          2442.0
+        ],
+        [
+          258.0,
+          2442.0
+        ]
+      ],
+      "text": "Third Floor",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2453.0
+        ],
+        [
+          472.0,
+          2453.0
+        ],
+        [
+          472.0,
+          2493.0
+        ],
+        [
+          258.0,
+          2493.0
+        ]
+      ],
+      "text": "Priory Place",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2497.0
+        ],
+        [
+          587.0,
+          2497.0
+        ],
+        [
+          587.0,
+          2544.0
+        ],
+        [
+          255.0,
+          2544.0
+        ]
+      ],
+      "text": "New London Road",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2548.0
+        ],
+        [
+          458.0,
+          2548.0
+        ],
+        [
+          458.0,
+          2588.0
+        ],
+        [
+          255.0,
+          2588.0
+        ]
+      ],
+      "text": "Chelmsford",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          250.0,
+          2596.0
+        ],
+        [
+          430.0,
+          2587.0
+        ],
+        [
+          433.0,
+          2638.0
+        ],
+        [
+          253.0,
+          2647.0
+        ]
+      ],
+      "text": "CM2 0PP",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2646.0
+        ],
+        [
+          362.0,
+          2646.0
+        ],
+        [
+          362.0,
+          2687.0
+        ],
+        [
+          255.0,
+          2687.0
+        ]
+      ],
+      "text": "12/06/26",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3319.0
+        ],
+        [
+          1284.0,
+          3319.0
+        ],
+        [
+          1284.0,
+          3363.0
+        ],
+        [
+          1192.0,
+          3363.0
+        ]
+      ],
+      "text": "-17-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2812061309814453,
+  "elapsed_seconds": 21.329889084212482
+}

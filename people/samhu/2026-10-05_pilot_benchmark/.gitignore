@@ -3,3 +3,5 @@ __pycache__/
 review_history/
 *.jsonl.tmp
 pilot-review-decisions*.json
+tmp/
+:memory:.ses

@@ -1,0 +1,91 @@
+{
+  "parser": "pymupdf4llm_vlm",
+  "document": "peterborough_2025",
+  "input_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+  "expected_pages": 12,
+  "status": "success",
+  "started_at_utc": "2026-10-07T00:04:56.650741+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit",
+  "versions": {
+    "pymupdf4llm": "1.28.2",
+    "pymupdf": "1.28.2",
+    "pymupdf-layout": "1.28.2"
+  },
+  "code_sha256": {
+    "run_pymupdf_vlm.py": "75d5369f6fff3b4e279419ce8b683daefe8392990ef4fcb2144f564899735cc3",
+    "vlm_ocr_worker.py": "ab28ac51fd8ade8dfbefdec1ec86e96abef63993d5e2cfc40432029253558e7a"
+  },
+  "settings": {
+    "ocr": true,
+    "force_ocr": false,
+    "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+    "detector": "PP-OCRv6 detection only",
+    "layout": true,
+    "vlm": true,
+    "ocr_dpi": 300,
+    "ocr_language": "eng",
+    "table_output": "html",
+    "page_chunks": true,
+    "write_images": true,
+    "dpi": 100
+  },
+  "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+  "vlm_backend": {
+    "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+    "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+    "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+    "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+    "detector_limit_side_len": 960,
+    "versions": {
+      "mineru": "3.4.5",
+      "mineru-vl-utils": "1.2.1",
+      "mlx": "0.31.1",
+      "mlx-vlm": "0.3.9",
+      "torch": "2.14.0"
+    },
+    "prompt": "\nText Recognition:",
+    "max_new_tokens": 512,
+    "temperature": 0.0,
+    "top_p": 0.01,
+    "top_k": 1,
+    "presence_penalty": 1.0,
+    "frequency_penalty": 0.05
+  },
+  "elapsed_seconds": 184.026,
+  "parsed_pages": 12,
+  "nonempty_pages": 12,
+  "ocr_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "vlm_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "recognized_regions": 436,
+  "pages_per_second": 0.0652,
+  "document_sha256": "796769303eeb5b77727d11e685c6d5aabd45f51f96fb2b172d0f389cc1b6ced2",
+  "export_adapter_sha256": "61f7754bfae31052efc7fa6f01d4e5c29efd672da27f7bde8714708f3d60a563",
+  "export_note": "Canonical conversion plus portable image destinations only; raw OCR and raw chunks unchanged.",
+  "exported_at_utc": "2026-10-07T00:24:42.884101+00:00"
+}

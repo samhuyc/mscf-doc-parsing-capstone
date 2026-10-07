@@ -1,0 +1,44 @@
+{
+  "parser": "pymupdf4llm_vlm",
+  "document": "rolls_royce_2026h1_release",
+  "input_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+  "expected_pages": 52,
+  "status": "success",
+  "started_at_utc": "2026-10-07T00:24:05.952416+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit",
+  "versions": {
+    "pymupdf4llm": "1.28.2",
+    "pymupdf": "1.28.2",
+    "pymupdf-layout": "1.28.2"
+  },
+  "code_sha256": {
+    "run_pymupdf_vlm.py": "75d5369f6fff3b4e279419ce8b683daefe8392990ef4fcb2144f564899735cc3",
+    "vlm_ocr_worker.py": "ab28ac51fd8ade8dfbefdec1ec86e96abef63993d5e2cfc40432029253558e7a"
+  },
+  "settings": {
+    "ocr": true,
+    "force_ocr": false,
+    "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+    "detector": "PP-OCRv6 detection only",
+    "layout": true,
+    "vlm": true,
+    "ocr_dpi": 300,
+    "ocr_language": "eng",
+    "table_output": "html",
+    "page_chunks": true,
+    "write_images": true,
+    "dpi": 100
+  },
+  "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+  "elapsed_seconds": 29.93,
+  "parsed_pages": 52,
+  "nonempty_pages": 52,
+  "ocr_pages": [],
+  "vlm_pages": [],
+  "recognized_regions": 0,
+  "pages_per_second": 1.7374,
+  "document_sha256": "1729b5ce0f0f1084fa9f54641c589c3155ba364995f7e34f00bf938202941bd4",
+  "export_adapter_sha256": "61f7754bfae31052efc7fa6f01d4e5c29efd672da27f7bde8714708f3d60a563",
+  "export_note": "Canonical conversion plus portable image destinations only; raw OCR and raw chunks unchanged.",
+  "exported_at_utc": "2026-10-07T00:24:43.193481+00:00"
+}

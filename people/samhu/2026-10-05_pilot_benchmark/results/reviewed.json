@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
-  "scorer_sha256": "11110714253a68309b48e9fc13e9bb70303a9a70fdf945ad85615f5aa4f7b304",
+  "scorer_sha256": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
   "evaluation_status": "REVIEWED_LABELS_ONLY",
   "selected_labels": 0,
   "total_labels": 54,
@@ -113,12 +113,49 @@
       "parser": "pymupdf4llm",
       "pages_sha256": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
       "run_sha256": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "e7576c02e32102561cdb9e9f818954d0d0834462e95bb4a01d062594f24a9795",
+      "run_sha256": "52da701f846d602db3dd6fa938880882aacb6a05c1b50984d45ebfe6756e8920"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "a9a81eb0d1707f1ced9ab4e6610e0f6300106b725f29192d0f504f1d6407078b",
+      "run_sha256": "319580be647a45cb0f7e8d4ed10c2e1288b5363359497718586ee5d33018c54c"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "05fe7563945017f0af1ad83f007bbe05fa94988b5f48fd4660a01fb7d84ee290",
+      "run_sha256": "2632fa7455bd7674992ec63584e55f6191781d95d2586862580fbccb0afa045b"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "d46c554c8ee8b0d2d566aa162d8997a289f33d34f37cbf0509f3a048c4d983df",
+      "run_sha256": "0a83fb9b2d7a84ae58f3201f012f7b2043f4437528795aa48544247f6c57fa74"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "24cf458fdbde6faee1a50cc742deda6259050a8a2f87f21b4dbd3ab5c013b197",
+      "run_sha256": "356fbcb911e716796f233a4a67eb5aa7fce9af375e72fe99e85e14635f2ce09b"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "5291a92b16648d11866f0b38feac850874bd516298ff2201959e09595c209a44",
+      "run_sha256": "bf75dfeefbe8a5254458de11297401ba4738a36d505e1c41cbb9fa959c2808f4"
     }
   ],
   "aggregate": {
     "mineru_ocr": {},
     "mineru_vlm": {},
-    "pymupdf4llm": {}
+    "pymupdf4llm": {},
+    "pymupdf4llm_vlm": {}
   },
   "documents": [
     {
@@ -210,6 +247,36 @@
       "document": "rolls_royce_2026h1_release",
       "parser": "pymupdf4llm",
       "metrics": {}
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {}
     }
   ],
   "runs": [
@@ -235,7 +302,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -259,7 +326,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -283,7 +350,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -307,7 +374,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -331,7 +398,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -355,7 +422,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "cvs_2025q2",
@@ -379,7 +446,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -403,7 +470,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -427,7 +494,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -451,7 +518,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -475,7 +542,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -499,7 +566,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "cvs_2025q2",
@@ -532,7 +599,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "edf_2024",
@@ -565,7 +632,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "hippodrome_2025",
@@ -598,7 +665,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "peterborough_2025",
@@ -631,7 +698,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_presentation",
@@ -664,7 +731,7 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     },
     {
       "document": "rolls_royce_2026h1_release",
@@ -697,7 +764,199 @@
       },
       "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
       "peak_memory_mb": null,
-      "memory_note": "Not instrumented in original runs; parsers were not rerun."
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 24.428,
+      "pages_per_second": 0.4912,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 13.51,
+      "pages_per_second": 0.4441,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 884.143,
+      "pages_per_second": 0.0441,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 184.026,
+      "pages_per_second": 0.0652,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 18.378,
+      "pages_per_second": 1.0338,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 29.93,
+      "pages_per_second": 1.7374,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
     }
   ],
   "by_importance": {
@@ -715,9 +974,14 @@
       "critical": {},
       "supporting": {},
       "cosmetic": {}
+    },
+    "pymupdf4llm_vlm": {
+      "critical": {},
+      "supporting": {},
+      "cosmetic": {}
     }
   },
-  "evaluation_seconds": 0.496,
+  "evaluation_seconds": 0.706,
   "hosted_model_calls": 0,
   "parser_reruns": 0,
   "limitations": [

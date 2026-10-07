@@ -1,0 +1,4 @@
+# Preserve parser-produced whitespace as evaluation evidence.
+results/parsed/**/*.md -whitespace
+# The comparison embeds the same literal predictions in preformatted blocks.
+review/comparison.html -whitespace

@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "image_sha256": "2068b0d82f36367ecc924d34536a3dd74c7ae679bef4bcac4ae9e89343c08881",
+  "image_size": [
+    4000,
+    2250
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          3717.0,
+          132.0
+        ],
+        [
+          3896.0,
+          132.0
+        ],
+        [
+          3896.0,
+          356.0
+        ],
+        [
+          3717.0,
+          356.0
+        ]
+      ],
+      "text": "ROLLS\nRR\nBOYSF",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          3737.0,
+          335.0
+        ],
+        [
+          3871.0,
+          335.0
+        ],
+        [
+          3871.0,
+          381.0
+        ],
+        [
+          3737.0,
+          381.0
+        ]
+      ],
+      "text": "ROYCE",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2159898281097412,
+  "elapsed_seconds": 1.0473033748567104
+}

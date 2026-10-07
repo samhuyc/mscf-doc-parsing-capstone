@@ -1,0 +1,42 @@
+{
+  "engine": "MinerU2.5-Pro VLM crop recognition",
+  "mode": "automatic",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars_before": 260,
+      "invoked": true,
+      "recognized_regions": 4,
+      "elapsed_seconds": 2.240435458254069,
+      "raw_prediction": "ocr/page_001.json",
+      "text_chars_after": 297
+    },
+    {
+      "page": 3,
+      "text_chars_before": 94,
+      "invoked": true,
+      "recognized_regions": 4,
+      "elapsed_seconds": 1.573008209001273,
+      "raw_prediction": "ocr/page_003.json",
+      "text_chars_after": 111
+    },
+    {
+      "page": 4,
+      "text_chars_before": 533,
+      "invoked": true,
+      "recognized_regions": 2,
+      "elapsed_seconds": 1.0473033748567104,
+      "raw_prediction": "ocr/page_004.json",
+      "text_chars_after": 554
+    },
+    {
+      "page": 5,
+      "text_chars_before": 440,
+      "invoked": true,
+      "recognized_regions": 3,
+      "elapsed_seconds": 1.166339207906276,
+      "raw_prediction": "ocr/page_005.json",
+      "text_chars_after": 461
+    }
+  ]
+}

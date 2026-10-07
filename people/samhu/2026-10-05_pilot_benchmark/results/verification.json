@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "complete_documents": 24,
+  "pages_per_pipeline": {
+    "mineru_ocr": 140,
+    "mineru_vlm": 140,
+    "pymupdf4llm": 140,
+    "pymupdf4llm_vlm": 140
+  },
+  "baseline_metrics_unchanged": true,
+  "baseline_files_unchanged": true,
+  "labels_unchanged": true,
+  "vlm_recognition_pages": 72,
+  "recognized_regions": 2449,
+  "local_report_links_checked": 349,
+  "scorer_sha256": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
+  "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3"
+}

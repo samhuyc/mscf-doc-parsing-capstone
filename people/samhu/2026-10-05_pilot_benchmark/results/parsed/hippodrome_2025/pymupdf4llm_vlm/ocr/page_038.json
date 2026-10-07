@@ -1,0 +1,1618 @@
+{
+  "status": "success",
+  "image_sha256": "c73a85728d5d2307b79d04eff5e931f5c21614134b5432bc21fb1cc8bcca7dbd",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          292.0
+        ],
+        [
+          1115.0,
+          292.0
+        ],
+        [
+          1115.0,
+          340.0
+        ],
+        [
+          258.0,
+          340.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          417.0
+        ],
+        [
+          1546.0,
+          417.0
+        ],
+        [
+          1546.0,
+          464.0
+        ],
+        [
+          258.0,
+          464.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          497.0
+        ],
+        [
+          1281.0,
+          497.0
+        ],
+        [
+          1281.0,
+          545.0
+        ],
+        [
+          258.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          654.0
+        ],
+        [
+          310.0,
+          654.0
+        ],
+        [
+          310.0,
+          698.0
+        ],
+        [
+          255.0,
+          698.0
+        ]
+      ],
+      "text": "23",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          651.0
+        ],
+        [
+          867.0,
+          654.0
+        ],
+        [
+          867.0,
+          702.0
+        ],
+        [
+          350.0,
+          698.0
+        ]
+      ],
+      "text": "Retirement benefit schemes",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1853.0,
+          698.0
+        ],
+        [
+          1956.0,
+          698.0
+        ],
+        [
+          1956.0,
+          753.0
+        ],
+        [
+          1853.0,
+          753.0
+        ]
+      ],
+      "text": "2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2115.0,
+          702.0
+        ],
+        [
+          2218.0,
+          702.0
+        ],
+        [
+          2218.0,
+          749.0
+        ],
+        [
+          2115.0,
+          749.0
+        ]
+      ],
+      "text": "2024",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          753.0
+        ],
+        [
+          908.0,
+          753.0
+        ],
+        [
+          908.0,
+          800.0
+        ],
+        [
+          354.0,
+          800.0
+        ]
+      ],
+      "text": "Defined contribution schemes",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1912.0,
+          749.0
+        ],
+        [
+          1956.0,
+          749.0
+        ],
+        [
+          1956.0,
+          800.0
+        ],
+        [
+          1912.0,
+          800.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2174.0,
+          749.0
+        ],
+        [
+          2218.0,
+          749.0
+        ],
+        [
+          2218.0,
+          800.0
+        ],
+        [
+          2174.0,
+          800.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          852.0
+        ],
+        [
+          1469.0,
+          852.0
+        ],
+        [
+          1469.0,
+          899.0
+        ],
+        [
+          358.0,
+          899.0
+        ]
+      ],
+      "text": "Charge to profit or loss in respect of defined contribution schemes",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1801.0,
+          848.0
+        ],
+        [
+          1952.0,
+          848.0
+        ],
+        [
+          1952.0,
+          899.0
+        ],
+        [
+          1801.0,
+          899.0
+        ]
+      ],
+      "text": "683,546",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2059.0,
+          848.0
+        ],
+        [
+          2218.0,
+          848.0
+        ],
+        [
+          2218.0,
+          899.0
+        ],
+        [
+          2059.0,
+          899.0
+        ]
+      ],
+      "text": "695,312",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1005.0
+        ],
+        [
+          2211.0,
+          1005.0
+        ],
+        [
+          2211.0,
+          1042.0
+        ],
+        [
+          358.0,
+          1042.0
+        ]
+      ],
+      "text": "The Company operates a defined contribution pension scheme for all qualifying employees. The assets of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1045.0
+        ],
+        [
+          1952.0,
+          1045.0
+        ],
+        [
+          1952.0,
+          1082.0
+        ],
+        [
+          358.0,
+          1082.0
+        ]
+      ],
+      "text": "scheme are held separately from those of the Company in an independently administered fund.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1137.0
+        ],
+        [
+          2211.0,
+          1137.0
+        ],
+        [
+          2211.0,
+          1184.0
+        ],
+        [
+          358.0,
+          1184.0
+        ]
+      ],
+      "text": "Contributions totalling £123,897 (2024: £117,288) were payable to the fund at the year end and are included",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1188.0
+        ],
+        [
+          557.0,
+          1188.0
+        ],
+        [
+          557.0,
+          1228.0
+        ],
+        [
+          358.0,
+          1228.0
+        ]
+      ],
+      "text": "in creditors.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1283.0
+        ],
+        [
+          314.0,
+          1283.0
+        ],
+        [
+          314.0,
+          1327.0
+        ],
+        [
+          258.0,
+          1327.0
+        ]
+      ],
+      "text": "24",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1287.0
+        ],
+        [
+          598.0,
+          1287.0
+        ],
+        [
+          598.0,
+          1327.0
+        ],
+        [
+          354.0,
+          1327.0
+        ]
+      ],
+      "text": "Share capital",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1332.0,
+          1327.0
+        ],
+        [
+          1436.0,
+          1327.0
+        ],
+        [
+          1436.0,
+          1382.0
+        ],
+        [
+          1332.0,
+          1382.0
+        ]
+      ],
+      "text": "2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1594.0,
+          1330.0
+        ],
+        [
+          1698.0,
+          1330.0
+        ],
+        [
+          1698.0,
+          1378.0
+        ],
+        [
+          1594.0,
+          1378.0
+        ]
+      ],
+      "text": "2024",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1853.0,
+          1327.0
+        ],
+        [
+          1956.0,
+          1327.0
+        ],
+        [
+          1956.0,
+          1382.0
+        ],
+        [
+          1853.0,
+          1382.0
+        ]
+      ],
+      "text": "2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2118.0,
+          1330.0
+        ],
+        [
+          2214.0,
+          1330.0
+        ],
+        [
+          2214.0,
+          1374.0
+        ],
+        [
+          2118.0,
+          1374.0
+        ]
+      ],
+      "text": "2024",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1382.0
+        ],
+        [
+          764.0,
+          1382.0
+        ],
+        [
+          764.0,
+          1429.0
+        ],
+        [
+          354.0,
+          1429.0
+        ]
+      ],
+      "text": "Ordinary share capital",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1273.0,
+          1378.0
+        ],
+        [
+          1436.0,
+          1378.0
+        ],
+        [
+          1436.0,
+          1429.0
+        ],
+        [
+          1273.0,
+          1429.0
+        ]
+      ],
+      "text": "Number",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1532.0,
+          1378.0
+        ],
+        [
+          1694.0,
+          1378.0
+        ],
+        [
+          1694.0,
+          1429.0
+        ],
+        [
+          1532.0,
+          1429.0
+        ]
+      ],
+      "text": "Number",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1912.0,
+          1378.0
+        ],
+        [
+          1956.0,
+          1378.0
+        ],
+        [
+          1956.0,
+          1429.0
+        ],
+        [
+          1912.0,
+          1429.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2174.0,
+          1378.0
+        ],
+        [
+          2218.0,
+          1378.0
+        ],
+        [
+          2218.0,
+          1429.0
+        ],
+        [
+          2174.0,
+          1429.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1429.0
+        ],
+        [
+          742.0,
+          1429.0
+        ],
+        [
+          742.0,
+          1477.0
+        ],
+        [
+          354.0,
+          1477.0
+        ]
+      ],
+      "text": "Issued and fully paid",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1480.0
+        ],
+        [
+          871.0,
+          1480.0
+        ],
+        [
+          871.0,
+          1528.0
+        ],
+        [
+          358.0,
+          1528.0
+        ]
+      ],
+      "text": "Ordinary 'A' shares of £1 each",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1247.0,
+          1477.0
+        ],
+        [
+          1432.0,
+          1477.0
+        ],
+        [
+          1432.0,
+          1528.0
+        ],
+        [
+          1247.0,
+          1528.0
+        ]
+      ],
+      "text": "9,053,673",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1509.0,
+          1477.0
+        ],
+        [
+          1694.0,
+          1477.0
+        ],
+        [
+          1694.0,
+          1528.0
+        ],
+        [
+          1509.0,
+          1528.0
+        ]
+      ],
+      "text": "9,053,673",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1771.0,
+          1477.0
+        ],
+        [
+          1956.0,
+          1477.0
+        ],
+        [
+          1956.0,
+          1528.0
+        ],
+        [
+          1771.0,
+          1528.0
+        ]
+      ],
+      "text": "9,053,673",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2030.0,
+          1477.0
+        ],
+        [
+          2214.0,
+          1477.0
+        ],
+        [
+          2214.0,
+          1528.0
+        ],
+        [
+          2030.0,
+          1528.0
+        ]
+      ],
+      "text": "9,053,673",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1528.0
+        ],
+        [
+          871.0,
+          1528.0
+        ],
+        [
+          871.0,
+          1575.0
+        ],
+        [
+          354.0,
+          1575.0
+        ]
+      ],
+      "text": "Ordinary 'B' shares of 1p each",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1277.0,
+          1524.0
+        ],
+        [
+          1432.0,
+          1524.0
+        ],
+        [
+          1432.0,
+          1575.0
+        ],
+        [
+          1277.0,
+          1575.0
+        ]
+      ],
+      "text": "296,172",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1535.0,
+          1524.0
+        ],
+        [
+          1694.0,
+          1524.0
+        ],
+        [
+          1694.0,
+          1575.0
+        ],
+        [
+          1535.0,
+          1575.0
+        ]
+      ],
+      "text": "296,172",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1842.0,
+          1524.0
+        ],
+        [
+          1952.0,
+          1524.0
+        ],
+        [
+          1952.0,
+          1579.0
+        ],
+        [
+          1842.0,
+          1579.0
+        ]
+      ],
+      "text": "2,961",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2100.0,
+          1524.0
+        ],
+        [
+          2218.0,
+          1524.0
+        ],
+        [
+          2218.0,
+          1579.0
+        ],
+        [
+          2100.0,
+          1579.0
+        ]
+      ],
+      "text": "2,961",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1583.0
+        ],
+        [
+          823.0,
+          1583.0
+        ],
+        [
+          823.0,
+          1619.0
+        ],
+        [
+          362.0,
+          1619.0
+        ]
+      ],
+      "text": "Deferred shares of £1 each",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1277.0,
+          1575.0
+        ],
+        [
+          1432.0,
+          1575.0
+        ],
+        [
+          1432.0,
+          1627.0
+        ],
+        [
+          1277.0,
+          1627.0
+        ]
+      ],
+      "text": "606,349",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1539.0,
+          1575.0
+        ],
+        [
+          1694.0,
+          1575.0
+        ],
+        [
+          1694.0,
+          1627.0
+        ],
+        [
+          1539.0,
+          1627.0
+        ]
+      ],
+      "text": "606,349",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1801.0,
+          1575.0
+        ],
+        [
+          1956.0,
+          1575.0
+        ],
+        [
+          1956.0,
+          1627.0
+        ],
+        [
+          1801.0,
+          1627.0
+        ]
+      ],
+      "text": "606,349",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2059.0,
+          1575.0
+        ],
+        [
+          2218.0,
+          1575.0
+        ],
+        [
+          2218.0,
+          1627.0
+        ],
+        [
+          2059.0,
+          1627.0
+        ]
+      ],
+      "text": "606,349",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1247.0,
+          1674.0
+        ],
+        [
+          1432.0,
+          1674.0
+        ],
+        [
+          1432.0,
+          1725.0
+        ],
+        [
+          1247.0,
+          1725.0
+        ]
+      ],
+      "text": "9,956,194",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1509.0,
+          1674.0
+        ],
+        [
+          1694.0,
+          1674.0
+        ],
+        [
+          1694.0,
+          1725.0
+        ],
+        [
+          1509.0,
+          1725.0
+        ]
+      ],
+      "text": "9,956,194",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1768.0,
+          1674.0
+        ],
+        [
+          1952.0,
+          1674.0
+        ],
+        [
+          1952.0,
+          1725.0
+        ],
+        [
+          1768.0,
+          1725.0
+        ]
+      ],
+      "text": "9,662,983",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2030.0,
+          1674.0
+        ],
+        [
+          2214.0,
+          1674.0
+        ],
+        [
+          2214.0,
+          1725.0
+        ],
+        [
+          2030.0,
+          1725.0
+        ]
+      ],
+      "text": "9,662,983",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1824.0
+        ],
+        [
+          2214.0,
+          1824.0
+        ],
+        [
+          2214.0,
+          1871.0
+        ],
+        [
+          354.0,
+          1871.0
+        ]
+      ],
+      "text": "The Ordinary 'A' Shares have attached full voting, rights to dividend and capital distribution (including on",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1868.0
+        ],
+        [
+          2211.0,
+          1868.0
+        ],
+        [
+          2211.0,
+          1915.0
+        ],
+        [
+          354.0,
+          1915.0
+        ]
+      ],
+      "text": "winding up) rights (subject to provisions in the Articles of Association). The Ordinary 'A' Shares do not confer",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1912.0
+        ],
+        [
+          782.0,
+          1912.0
+        ],
+        [
+          782.0,
+          1959.0
+        ],
+        [
+          354.0,
+          1959.0
+        ]
+      ],
+      "text": "any rights of redemption.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1992.0
+        ],
+        [
+          2207.0,
+          1992.0
+        ],
+        [
+          2207.0,
+          2040.0
+        ],
+        [
+          358.0,
+          2040.0
+        ]
+      ],
+      "text": "Ordinary 'B' Shares are entitled to a dividend payable and distribution on a winding up in line with Ordinary 'A'",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2040.0
+        ],
+        [
+          2214.0,
+          2040.0
+        ],
+        [
+          2214.0,
+          2087.0
+        ],
+        [
+          354.0,
+          2087.0
+        ]
+      ],
+      "text": "Shares. The Ordinary 'B' Shares are non-voting. The Ordinary 'B' Shares do not confer any rights of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          355.0,
+          2083.0
+        ],
+        [
+          569.0,
+          2087.0
+        ],
+        [
+          568.0,
+          2128.0
+        ],
+        [
+          354.0,
+          2123.0
+        ]
+      ],
+      "text": "redemption.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2175.0
+        ],
+        [
+          2211.0,
+          2175.0
+        ],
+        [
+          2211.0,
+          2211.0
+        ],
+        [
+          362.0,
+          2211.0
+        ]
+      ],
+      "text": "The Deferred shares have attached to them capital distribution (including on winding up) rights (subject to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2211.0
+        ],
+        [
+          2214.0,
+          2211.0
+        ],
+        [
+          2214.0,
+          2259.0
+        ],
+        [
+          354.0,
+          2259.0
+        ]
+      ],
+      "text": "provisions in the Articles of Association). The Deferred shares do not confer any rights to vote or receive a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2252.0
+        ],
+        [
+          923.0,
+          2255.0
+        ],
+        [
+          922.0,
+          2303.0
+        ],
+        [
+          354.0,
+          2299.0
+        ]
+      ],
+      "text": "dividend and are not redeemable.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2347.0
+        ],
+        [
+          1812.0,
+          2347.0
+        ],
+        [
+          1812.0,
+          2383.0
+        ],
+        [
+          362.0,
+          2383.0
+        ]
+      ],
+      "text": "The preference shares are classified as liabilities and their terms are set out in note 20",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2445.0
+        ],
+        [
+          314.0,
+          2445.0
+        ],
+        [
+          314.0,
+          2482.0
+        ],
+        [
+          258.0,
+          2482.0
+        ]
+      ],
+      "text": "25",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          347.0,
+          2438.0
+        ],
+        [
+          797.0,
+          2438.0
+        ],
+        [
+          797.0,
+          2486.0
+        ],
+        [
+          347.0,
+          2486.0
+        ]
+      ],
+      "text": "Profit and loss reserves",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2537.0
+        ],
+        [
+          1886.0,
+          2537.0
+        ],
+        [
+          1886.0,
+          2584.0
+        ],
+        [
+          354.0,
+          2584.0
+        ]
+      ],
+      "text": "Profit and loss reserves represents cumulative profit and loss net of distributions to owners.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2621.0
+        ],
+        [
+          2214.0,
+          2624.0
+        ],
+        [
+          2214.0,
+          2672.0
+        ],
+        [
+          354.0,
+          2668.0
+        ]
+      ],
+      "text": "The Profit and Loss reserves combines realised gains and losses with certain unrealised gains and losses",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2668.0
+        ],
+        [
+          2214.0,
+          2668.0
+        ],
+        [
+          2214.0,
+          2716.0
+        ],
+        [
+          354.0,
+          2716.0
+        ]
+      ],
+      "text": "linked to the re-measurement of equity instruments treated as debt. The balance on the distributable element",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2716.0
+        ],
+        [
+          2144.0,
+          2716.0
+        ],
+        [
+          2144.0,
+          2752.0
+        ],
+        [
+          358.0,
+          2752.0
+        ]
+      ],
+      "text": "of the profit and loss reserves as at 31 December 2025 was a surplus of £21,206,788 (2024: £15,807,438)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2815.0
+        ],
+        [
+          310.0,
+          2815.0
+        ],
+        [
+          310.0,
+          2847.0
+        ],
+        [
+          262.0,
+          2847.0
+        ]
+      ],
+      "text": "26",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2815.0
+        ],
+        [
+          1458.0,
+          2815.0
+        ],
+        [
+          1458.0,
+          2851.0
+        ],
+        [
+          354.0,
+          2851.0
+        ]
+      ],
+      "text": "Financial commitments, guarantees and contingent liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2902.0
+        ],
+        [
+          2214.0,
+          2906.0
+        ],
+        [
+          2214.0,
+          2957.0
+        ],
+        [
+          354.0,
+          2953.0
+        ]
+      ],
+      "text": "The Company and all of its material subsidiaries are part of a Group cross guarantee in respect of bank loans",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2953.0
+        ],
+        [
+          2211.0,
+          2953.0
+        ],
+        [
+          2211.0,
+          3001.0
+        ],
+        [
+          358.0,
+          3001.0
+        ]
+      ],
+      "text": "held by Hippodrome Holdings Limited and is secured by a debenture over the assets of the group. The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2994.0
+        ],
+        [
+          1816.0,
+          2994.0
+        ],
+        [
+          1816.0,
+          3041.0
+        ],
+        [
+          358.0,
+          3041.0
+        ]
+      ],
+      "text": "outstanding balance in relation to this bank facility is £18,882,481 (2024: £28,529,255).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          3081.0
+        ],
+        [
+          2211.0,
+          3081.0
+        ],
+        [
+          2211.0,
+          3129.0
+        ],
+        [
+          354.0,
+          3129.0
+        ]
+      ],
+      "text": "On 1 July 2025, an additional charge was created in favour of Barclays Bank PLC over the assets of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          3125.0
+        ],
+        [
+          2211.0,
+          3125.0
+        ],
+        [
+          2211.0,
+          3173.0
+        ],
+        [
+          358.0,
+          3173.0
+        ]
+      ],
+      "text": "group as a result of refinancing. Please see note 20 within the publicly available financial statements of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          3173.0
+        ],
+        [
+          1162.0,
+          3173.0
+        ],
+        [
+          1162.0,
+          3209.0
+        ],
+        [
+          358.0,
+          3209.0
+        ]
+      ],
+      "text": "Hippodrome Holdings Limited for further details.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3352.0
+        ],
+        [
+          1192.0,
+          3352.0
+        ]
+      ],
+      "text": "- 36 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2600538730621338,
+  "elapsed_seconds": 31.24590845918283
+}

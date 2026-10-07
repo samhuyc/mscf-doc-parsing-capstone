@@ -1,0 +1,1832 @@
+{
+  "schema_version": 1,
+  "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+  "parser": "pymupdf4llm_vlm",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "Second Quarter 2025         July 31, 2025 \n\n��CVSHealth® **Earnings** Conference Call \n\n**J. David Joyner** President and Chief Executive Officer \n\n**Brian O. Newman** Executive Vice President and Chief Financial Officer \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n\n![](images/cvs_2025q2.pdf-0001-05.png)\n\n\n1\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 1
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 1",
+            1
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "text",
+            "bbox": [
+              62,
+              73,
+              420,
+              93
+            ],
+            "pos": [
+              0,
+              44
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              62,
+              151,
+              340,
+              289
+            ],
+            "pos": [
+              44,
+              88
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              69,
+              399,
+              221,
+              449
+            ],
+            "pos": [
+              88,
+              148
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              305,
+              399,
+              490,
+              449
+            ],
+            "pos": [
+              148,
+              223
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              223,
+              302
+            ]
+          },
+          {
+            "index": 5,
+            "class": "picture",
+            "bbox": [
+              560,
+              173,
+              960,
+              540
+            ],
+            "pos": [
+              302,
+              386
+            ]
+          },
+          {
+            "index": 6,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              508,
+              60,
+              515
+            ],
+            "pos": [
+              386,
+              390
+            ]
+          }
+        ]
+      },
+      "text_chars": 273,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "**Cautionary Statement** concerning forward-looking statements \n\n**This presentation includes forward-looking statements.** The Private Securities Litigation Reform Act of 1995 provides a safe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (“CVS Health”). By their nature, all forward-looking statements are not guarantees of future performance or results and are subject to risks and uncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated by the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission filings, including those set forth in the Risk Factors section and under the heading “Cautionary Statement Concerning Forward-Looking Statements” in our most recent Annual Report on Form 10-K, our most recent Quarterly Report on Form 10-Q, our recent Current Reports on Form 8-K, and this morning’s earnings press release. \n\nThis presentation includes non-GAAP financial measures that we use to describe our company’s performance. In accordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to the most directly comparable GAAP measures, in our press release we issued in connection with the release of our results for the second quarter of 2025 and our non-GAAP reconciliation document, which are both available on the Investor Relations portion of our website. \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n2\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 2
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 2",
+            2
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "text",
+            "bbox": [
+              75,
+              83,
+              437,
+              139
+            ],
+            "pos": [
+              0,
+              65
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              74,
+              194,
+              861,
+              326
+            ],
+            "pos": [
+              65,
+              996
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              74,
+              347,
+              851,
+              428
+            ],
+            "pos": [
+              996,
+              1496
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1496,
+              1575
+            ]
+          },
+          {
+            "index": 4,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              61,
+              515
+            ],
+            "pos": [
+              1575,
+              1579
+            ]
+          }
+        ]
+      },
+      "text_chars": 1560,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "#### **Enterprise Highlights** \n\nDelivered consolidated revenue growth of **8.4%** and adjusted EPS of **$1.81** in the second quarter of 2025. Raised 2025 adjusted EPS guidance to a range of **$6.30 to $6.40** . \n\nDelivering better experiences that **Build Trust** \n\nOur **integrated model** uniquely positions us to take on the largest challenges in health care \n\nIn collaboration with CMS, **leading the industry forward** to streamline, simplify and **reduce complexities** in health care \n\n**Committing $20B** to support our transformation of health care through investments in technology \n\nSecond Quarter \n\n##### **Financial Results** \n\n**8.4%** consolidated revenue growth \n\n**$0.80** \n\nGAAP EPS \n\n**$1.81** adjusted EPS \n\n###### **$6.5B** \n\nyear-to-date cash flow from operations \n\nFull Year 2025 **Company Guidance** \n\n**At least $391.5B** consolidated revenue \n\n**$13.77 – $13.94B** consolidated adjusted operating income \n\n**$6.30 – $6.40** adjusted EPS \n\n###### **At least $7.5B** \n\ncash flow from operations \n\n♥CVSHealth® \n\n3 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 3
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 3",
+            3
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              364,
+              64
+            ],
+            "pos": [
+              0,
+              33
+            ]
+          },
+          {
+            "index": 1,
+            "class": "text",
+            "bbox": [
+              27,
+              103,
+              933,
+              146
+            ],
+            "pos": [
+              33,
+              215
+            ]
+          },
+          {
+            "index": 2,
+            "class": "text",
+            "bbox": [
+              67,
+              177,
+              282,
+              215
+            ],
+            "pos": [
+              215,
+              268
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              58,
+              248,
+              291,
+              299
+            ],
+            "pos": [
+              268,
+              366
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              60,
+              320,
+              289,
+              389
+            ],
+            "pos": [
+              366,
+              495
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              59,
+              409,
+              290,
+              479
+            ],
+            "pos": [
+              495,
+              596
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              434,
+              177,
+              536,
+              191
+            ],
+            "pos": [
+              596,
+              613
+            ]
+          },
+          {
+            "index": 7,
+            "class": "section-header",
+            "bbox": [
+              387,
+              195,
+              585,
+              215
+            ],
+            "pos": [
+              613,
+              643
+            ]
+          },
+          {
+            "index": 8,
+            "class": "text",
+            "bbox": [
+              391,
+              254,
+              578,
+              291
+            ],
+            "pos": [
+              643,
+              682
+            ]
+          },
+          {
+            "index": 9,
+            "class": "text",
+            "bbox": [
+              456,
+              309,
+              514,
+              329
+            ],
+            "pos": [
+              682,
+              694
+            ]
+          },
+          {
+            "index": 10,
+            "class": "text",
+            "bbox": [
+              451,
+              334,
+              519,
+              345
+            ],
+            "pos": [
+              694,
+              705
+            ]
+          },
+          {
+            "index": 11,
+            "class": "text",
+            "bbox": [
+              442,
+              367,
+              527,
+              406
+            ],
+            "pos": [
+              705,
+              730
+            ]
+          },
+          {
+            "index": 12,
+            "class": "section-header",
+            "bbox": [
+              456,
+              416,
+              514,
+              436
+            ],
+            "pos": [
+              730,
+              749
+            ]
+          },
+          {
+            "index": 13,
+            "class": "text",
+            "bbox": [
+              413,
+              441,
+              557,
+              472
+            ],
+            "pos": [
+              749,
+              790
+            ]
+          },
+          {
+            "index": 14,
+            "class": "text",
+            "bbox": [
+              675,
+              176,
+              906,
+              217
+            ],
+            "pos": [
+              790,
+              828
+            ]
+          },
+          {
+            "index": 15,
+            "class": "text",
+            "bbox": [
+              712,
+              252,
+              868,
+              288
+            ],
+            "pos": [
+              828,
+              872
+            ]
+          },
+          {
+            "index": 16,
+            "class": "text",
+            "bbox": [
+              662,
+              309,
+              918,
+              348
+            ],
+            "pos": [
+              872,
+              934
+            ]
+          },
+          {
+            "index": 17,
+            "class": "text",
+            "bbox": [
+              724,
+              367,
+              856,
+              406
+            ],
+            "pos": [
+              934,
+              967
+            ]
+          },
+          {
+            "index": 18,
+            "class": "section-header",
+            "bbox": [
+              722,
+              425,
+              858,
+              445
+            ],
+            "pos": [
+              967,
+              995
+            ]
+          },
+          {
+            "index": 19,
+            "class": "text",
+            "bbox": [
+              707,
+              449,
+              873,
+              463
+            ],
+            "pos": [
+              995,
+              1023
+            ]
+          },
+          {
+            "index": 20,
+            "class": "page-footer",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              1023,
+              1037
+            ]
+          },
+          {
+            "index": 21,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1037,
+              1118
+            ]
+          }
+        ]
+      },
+      "text_chars": 972,
+      "confidence": null
+    },
+    {
+      "page": 4,
+      "markdown": "![](images/cvs_2025q2.pdf-0004-00.png)\n\n\n###### OUR FOCUS \n\n# Becoming America’s most trusted health care company \n\n- ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n♥CVSHealth® \n\n4\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 4
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 4",
+            4
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "picture",
+            "bbox": [
+              440,
+              129,
+              522,
+              195
+            ],
+            "pos": [
+              0,
+              84
+            ]
+          },
+          {
+            "index": 1,
+            "class": "section-header",
+            "bbox": [
+              428,
+              210,
+              532,
+              224
+            ],
+            "pos": [
+              84,
+              103
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              218,
+              242,
+              754,
+              423
+            ],
+            "pos": [
+              103,
+              159
+            ]
+          },
+          {
+            "index": 3,
+            "class": "list-item",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              159,
+              240
+            ]
+          },
+          {
+            "index": 4,
+            "class": "page-footer",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              240,
+              254
+            ]
+          },
+          {
+            "index": 5,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              508,
+              62,
+              515
+            ],
+            "pos": [
+              254,
+              258
+            ]
+          }
+        ]
+      },
+      "text_chars": 152,
+      "confidence": null
+    },
+    {
+      "page": 5,
+      "markdown": "### **Strategic Imperatives** \n\n- **Drive sustainable growth** in our core businesses \n\n- **Deliver enterprise value** across our assets \n\n- **Engage patients and consumers** through personalized experiences \n\n- **Transform business operations** with technologyenabled capabilities \n\n- **Invest in our colleagues** and strengthen our culture \n\n   - ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n♥CVSHealth® \n\n5\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 5
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 5",
+            5
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              68,
+              67,
+              448,
+              103
+            ],
+            "pos": [
+              0,
+              32
+            ]
+          },
+          {
+            "index": 1,
+            "class": "list-item",
+            "bbox": [
+              66,
+              176,
+              494,
+              195
+            ],
+            "pos": [
+              32,
+              88
+            ]
+          },
+          {
+            "index": 2,
+            "class": "list-item",
+            "bbox": [
+              66,
+              241,
+              444,
+              259
+            ],
+            "pos": [
+              88,
+              139
+            ]
+          },
+          {
+            "index": 3,
+            "class": "list-item",
+            "bbox": [
+              66,
+              295,
+              441,
+              335
+            ],
+            "pos": [
+              139,
+              210
+            ]
+          },
+          {
+            "index": 4,
+            "class": "list-item",
+            "bbox": [
+              66,
+              359,
+              500,
+              399
+            ],
+            "pos": [
+              210,
+              284
+            ]
+          },
+          {
+            "index": 5,
+            "class": "list-item",
+            "bbox": [
+              66,
+              435,
+              518,
+              454
+            ],
+            "pos": [
+              284,
+              344
+            ]
+          },
+          {
+            "index": 6,
+            "class": "list-item",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              344,
+              428
+            ]
+          },
+          {
+            "index": 7,
+            "class": "text",
+            "bbox": [
+              813,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              428,
+              442
+            ]
+          },
+          {
+            "index": 8,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              508,
+              61,
+              516
+            ],
+            "pos": [
+              442,
+              446
+            ]
+          }
+        ]
+      },
+      "text_chars": 384,
+      "confidence": null
+    },
+    {
+      "page": 6,
+      "markdown": "#### **Consolidated Results** \n\n<table><tr><th>▶ Quarter Results<br/>In billions, except per share amounts</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$98.9</td><td>$91.2</td></tr><tr><td>Adjusted Operating Income</td><td>$3.81</td><td>$3.74</td></tr><tr><td>GAAP Earnings per Share</td><td>$0.80</td><td>$1.41</td></tr><tr><td>Adjusted Earnings per Share</td><td>$1.81</td><td>$1.83</td></tr><tr><td>Cash Flow from Operations</td><td>$1.9</td><td>$3.1</td></tr></table>\n\n###### **Business highlights** \n\nReported a **second consecutive quarter of solid results** driven by the strength of our execution. We are continuing to build positive momentum across CVS Health as we work to become **America’s most trusted health care company** . \n\nWe continue to make meaningful progress **driving improvements within our Aetna business** . This remains our top priority. \n\n**Returned $866 million to stockholders** through our quarterly dividend. \n\n\n![](images/cvs_2025q2.pdf-0006-06.png)\n\n\n<!-- Start of picture text -->\n♥CVSHealth®<br><!-- End of picture text -->\n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n6\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 6
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 6",
+            6
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              368,
+              58
+            ],
+            "pos": [
+              0,
+              32
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              41,
+              97,
+              554,
+              369
+            ],
+            "pos": [
+              32,
+              500
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              666,
+              111,
+              836,
+              130
+            ],
+            "pos": [
+              500,
+              533
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              663,
+              153,
+              916,
+              268
+            ],
+            "pos": [
+              533,
+              768
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              663,
+              289,
+              878,
+              353
+            ],
+            "pos": [
+              768,
+              894
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              663,
+              373,
+              896,
+              419
+            ],
+            "pos": [
+              894,
+              970
+            ]
+          },
+          {
+            "index": 6,
+            "class": "picture",
+            "bbox": [
+              814,
+              499,
+              916,
+              515
+            ],
+            "pos": [
+              970,
+              1130
+            ]
+          },
+          {
+            "index": 7,
+            "class": "page-footer",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1130,
+              1209
+            ]
+          },
+          {
+            "index": 8,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              62,
+              516
+            ],
+            "pos": [
+              1209,
+              1213
+            ]
+          }
+        ]
+      },
+      "text_chars": 795,
+      "confidence": null
+    },
+    {
+      "page": 7,
+      "markdown": "#### **Consolidated Guidance** \n\n<table><tr><th>▶ Full Year Guidance<br/>In billions, except per share amounts and tax rate</th><th>Full Year 2025<br/>as of July 31, 2025</th><th>Full Year 2025<br/>as of May 1, 2025</th></tr><tr><th>Total Revenues</th><th>At least $391.5</th><th>At least $382.6</th></tr><tr><td>Adjusted Operating Income</td><td>$13.77 to $13.94</td><td>$13.31 to $13.65</td></tr><tr><td>GAAP Earnings per Share</td><td>$3.84 to $3.94</td><td>$4.23 to $4.43</td></tr><tr><td>Adjusted Earnings per Share</td><td>$6.30 to $6.40</td><td>$6.00 to $6.20</td></tr><tr><td>Cash Flow from Operations</td><td>At least $7.5</td><td>~$7.0</td></tr><tr><td>Interest Expense</td><td>~$3.11</td><td>~$3.15</td></tr><tr><td>Capital Expenditures</td><td>$2.9 to $3.1</td><td>$2.8 to $3.0</td></tr><tr><td>Adjusted Effective Tax Rate</td><td>~25.7%</td><td>~25.9%</td></tr><tr><td>Weighted Average<br/>Diluted Share Count</td><td>~1.270</td><td>~1.270</td></tr></table>\n\n###### **Business highlights** \n\n**Raised** 2025 adjusted EPS guidance to a **range of $6.30 to $6.40.** \n\nWe are **encouraged by our Enterprise performance and revised outlook** in a dynamic environment. Our updated expectations reflect **increases in our Health Care Benefits and Pharmacy and Consumer Wellness segments** , while recognizing the impact of a higher medical benefit ratio in our Health Care Delivery business. The outlook for our Pharmacy Services business is unchanged. \n\nUpdated 2025 guidance continues to reflect our **focus on building trust** by setting expectations that are **appropriate** and **achievable** with **opportunities for outperformance** . \n\n♥CVSHealth® \n\n7 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 7
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 7",
+            7
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              401,
+              58
+            ],
+            "pos": [
+              0,
+              33
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              41,
+              97,
+              577,
+              484
+            ],
+            "pos": [
+              33,
+              972
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              666,
+              111,
+              836,
+              130
+            ],
+            "pos": [
+              972,
+              1005
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              663,
+              149,
+              915,
+              180
+            ],
+            "pos": [
+              1005,
+              1079
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              663,
+              198,
+              917,
+              397
+            ],
+            "pos": [
+              1079,
+              1462
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              663,
+              414,
+              907,
+              496
+            ],
+            "pos": [
+              1462,
+              1651
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              1651,
+              1665
+            ]
+          },
+          {
+            "index": 7,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1665,
+              1746
+            ]
+          }
+        ]
+      },
+      "text_chars": 1316,
+      "confidence": null
+    },
+    {
+      "page": 8,
+      "markdown": "## **Superior** assets.assets. **Superior** care. **care. Superior** value. **value.** \n\n♥CVSHealth® \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n8\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 8
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 8",
+            8
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              57,
+              247,
+              902,
+              286
+            ],
+            "pos": [
+              0,
+              89
+            ]
+          },
+          {
+            "index": 1,
+            "class": "page-footer",
+            "bbox": [
+              813,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              89,
+              103
+            ]
+          },
+          {
+            "index": 2,
+            "class": "page-footer",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              103,
+              182
+            ]
+          },
+          {
+            "index": 3,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              61,
+              516
+            ],
+            "pos": [
+              182,
+              186
+            ]
+          }
+        ]
+      },
+      "text_chars": 158,
+      "confidence": null
+    },
+    {
+      "page": 9,
+      "markdown": "#### **Health Care Benefits** \n\n<table><tr><th>▶ Quarter Results<br/>In billions, except MBR and membership</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$36.3</td><td>$32.5</td></tr><tr><td>Adjusted Operating Income</td><td>$1.31</td><td>$0.94</td></tr><tr><td>Total Medical Membership (millions)</td><td>26.7</td><td>27.0</td></tr><tr><td>Commercial</td><td>18.8</td><td>18.8</td></tr><tr><td>Government</td><td>7.9</td><td>8.2</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>89.9%</td><td>89.6%</td></tr></table>\n\n<table><tr><th>▶ Full Year Guidance</th><th>Full Year 2025</th><th>Full Year 2025</th></tr><tr><th>In billions, except MBR and membership</th><th>as of July 31, 2025</th><th>as of May 1, 2025</th></tr><tr><th>Total Revenues</th><th>At least $139.9</th><th>At least $138.0</th></tr><tr><td>Adjusted Operating Income</td><td>$2.42 to $2.59</td><td>$1.91 to $2.25</td></tr><tr><td>Total Medical Membership (millions)</td><td>~26.4</td><td>~26.4</td></tr><tr><td>Medical Benefits Ratio (MBR)</td><td>~91.0%<br/>(at the low-end)</td><td>91.3%<br/>(at the low-end)</td></tr></table>\n\n###### **Business highlights** \n\nSecond quarter adjusted operating income **increased by nearly 40%** year over year, driven by the favorable impact of changes to our **Individual Exchange risk adjustment estimates** , improved **underlying performance in our Government business** and higher **favorable prior period development** . \n\nDuring the second quarter, we established a **~$470 million premium deficiency reserve recorded in the Group Medicare Advantage** product line related to anticipated losses for the remainder of the 2025 coverage year. \n\n**Raised** 2025 adjusted operating income guidance of **$2.42 billion, at the low end, reflects a prudent view of medical cost trends** through the remainder of the year. The biggest source of potential outperformance in our guidance will be medical cost trends. \n\n♥CVSHealth® \n\n9 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 9
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 9",
+            9
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              358,
+              58
+            ],
+            "pos": [
+              0,
+              32
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              42,
+              97,
+              554,
+              283
+            ],
+            "pos": [
+              32,
+              549
+            ]
+          },
+          {
+            "index": 2,
+            "class": "table",
+            "bbox": [
+              42,
+              310,
+              577,
+              461
+            ],
+            "pos": [
+              549,
+              1127
+            ]
+          },
+          {
+            "index": 3,
+            "class": "section-header",
+            "bbox": [
+              666,
+              111,
+              836,
+              130
+            ],
+            "pos": [
+              1127,
+              1160
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              663,
+              153,
+              907,
+              275
+            ],
+            "pos": [
+              1160,
+              1463
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              663,
+              290,
+              916,
+              381
+            ],
+            "pos": [
+              1463,
+              1683
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              663,
+              395,
+              915,
+              500
+            ],
+            "pos": [
+              1683,
+              1948
+            ]
+          },
+          {
+            "index": 7,
+            "class": "text",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              1948,
+              1962
+            ]
+          },
+          {
+            "index": 8,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1962,
+              2043
+            ]
+          }
+        ]
+      },
+      "text_chars": 1505,
+      "confidence": null
+    },
+    {
+      "page": 10,
+      "markdown": "#### **Health Services** \n\n<table><tr><th>▶ Quarter Results<br/>In billions, except pharmacy claims</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$46.5</td><td>$42.2</td></tr><tr><td>Adjusted Operating Income</td><td>$1.58</td><td>$1.92</td></tr><tr><td>Pharmacy Claims Processed1<br/>(millions)</td><td>469.0</td><td>471.2</td></tr><tr><td>▶ Full Year Guidance<br/>In billions</td><td>Full Year 2025<br/>as of July 31, 2025</td><td>Full Year 2025<br/>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $183.5</td><td>At least $181.0</td></tr><tr><td>Adjusted Operating Income</td><td>At least $7.34</td><td>At least $7.54</td></tr><tr><td>Pharmacy Claims Processed1</td><td>At least 1.91</td><td>At least 1.93</td></tr></table>\n\n###### **Business highlights** \n\nSecond quarter adjusted operating income **decreased ~18%** year over year, driven by continued **pharmacy client price improvements** and the impact of a **higher medical benefit ratio within our health care delivery business** , partially offset by improved purchasing economics and pharmacy drug mix. \n\nHealth Care Delivery experienced **continued strong patient growth at Oak Street** and **increased in-home health evaluation volumes** at Signify. \n\n**Updated** 2025 adjusted operating income guidance to **at least $7.34 billion** , reflecting a ~$200 million decrease in our Health Care Delivery business driven by a **higher medical benefit ratio at Oak Street** . The outlook for our Pharmacy Services business is **unchanged** . \n\n♥CVSHealth® \n\n10 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 10
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 10",
+            10
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              282,
+              58
+            ],
+            "pos": [
+              0,
+              27
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              42,
+              97,
+              577,
+              485
+            ],
+            "pos": [
+              27,
+              772
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              666,
+              111,
+              836,
+              130
+            ],
+            "pos": [
+              772,
+              805
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              663,
+              153,
+              915,
+              275
+            ],
+            "pos": [
+              805,
+              1111
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              663,
+              296,
+              914,
+              356
+            ],
+            "pos": [
+              1111,
+              1260
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              663,
+              376,
+              916,
+              483
+            ],
+            "pos": [
+              1260,
+              1546
+            ]
+          },
+          {
+            "index": 6,
+            "class": "page-footer",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              1546,
+              1560
+            ]
+          },
+          {
+            "index": 7,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1560,
+              1642
+            ]
+          }
+        ]
+      },
+      "text_chars": 1270,
+      "confidence": null
+    },
+    {
+      "page": 11,
+      "markdown": "#### **Pharmacy & Consumer Wellness** \n\n<table><tr><th>▶ Quarter Results<br/>In billions, except prescriptions filled</th><th>2Q 2025</th><th>2Q 2024</th></tr><tr><td>Total Revenues</td><td>$33.6</td><td>$29.8</td></tr><tr><td>Adjusted Operating Income</td><td>$1.34</td><td>$1.24</td></tr><tr><td>Prescriptions Filled1<br/>(millions)</td><td>438.1</td><td>420.4</td></tr><tr><td>▶ Full Year Guidance<br/>In billions</td><td>Full Year 2025<br/>as of July 31, 2025</td><td>Full Year 2025<br/>as of May 1, 2025</td></tr><tr><td>Total Revenues</td><td>At least $137.5</td><td>At least $133.0</td></tr><tr><td>Adjusted Operating Income</td><td>At least $5.68</td><td>At least $5.48</td></tr><tr><td>Prescriptions Filled1</td><td>At least 1.80</td><td>At least 1.77</td></tr></table>\n\n###### **Business highlights** \n\nSecond quarter adjusted operating income **increased nearly 8%** year over year, primarily driven by **increased prescription and front store volume** , partially offset by continued pharmacy reimbursement pressure. \n\nSame store pharmacy sales and same store prescription volumes **increased by ~18%**<sup>**2**</sup> **and ~6%**<sup>**2**</sup> , respectively, over the prior year quarter. \n\nContinued **growth in retail pharmacy script share** , reaching ~27.8% in the second quarter. \n\n**Raised** 2025 adjusted operating income guidance to **at least $5.68 billion** , reflecting a ~$200 million increase, driven by our strong first half performance, while continuing to maintain a **prudent outlook** for the remainder of the year. \n\n♥CVSHealth® \n\n11 ©2025 CVS Health and/or one of its affiliates. Confidential and proprietary.\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 11
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 11",
+            11
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              36,
+              32,
+              545,
+              63
+            ],
+            "pos": [
+              0,
+              40
+            ]
+          },
+          {
+            "index": 1,
+            "class": "table",
+            "bbox": [
+              42,
+              97,
+              577,
+              485
+            ],
+            "pos": [
+              40,
+              780
+            ]
+          },
+          {
+            "index": 2,
+            "class": "section-header",
+            "bbox": [
+              666,
+              111,
+              836,
+              130
+            ],
+            "pos": [
+              780,
+              813
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              663,
+              153,
+              901,
+              244
+            ],
+            "pos": [
+              813,
+              1031
+            ]
+          },
+          {
+            "index": 4,
+            "class": "text",
+            "bbox": [
+              663,
+              259,
+              907,
+              319
+            ],
+            "pos": [
+              1031,
+              1206
+            ]
+          },
+          {
+            "index": 5,
+            "class": "text",
+            "bbox": [
+              663,
+              333,
+              893,
+              377
+            ],
+            "pos": [
+              1206,
+              1302
+            ]
+          },
+          {
+            "index": 6,
+            "class": "text",
+            "bbox": [
+              663,
+              391,
+              915,
+              483
+            ],
+            "pos": [
+              1302,
+              1551
+            ]
+          },
+          {
+            "index": 7,
+            "class": "page-footer",
+            "bbox": [
+              814,
+              499,
+              915,
+              514
+            ],
+            "pos": [
+              1551,
+              1565
+            ]
+          },
+          {
+            "index": 8,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1565,
+              1647
+            ]
+          }
+        ]
+      },
+      "text_chars": 1249,
+      "confidence": null
+    },
+    {
+      "page": 12,
+      "markdown": "#### **Footnotes** Second Quarter 2025 \n\n1. Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions. \n\n2. Same store sales and prescription volume represent the change in revenues and prescriptions filled in the Company’s retail pharmacy stores that have been operating for greater than one year and digital sales initiated online or through mobile applications and fulfilled through the Company’s distribution centers, expressed as a percentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics exclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics to evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding existing stores and new locations. Same-store metrics provide management and investors with information useful in understanding the portion of current revenues and prescriptions resulting from organic growth in existing locations versus the portion resulting from opening new stores. \n\n©2025 CVS Health and/or one of its affiliates. Confidential and proprietary. \n\n♥CVSHealth® \n\n12\n",
+      "native": {
+        "metadata": {
+          "format": "PDF 1.7",
+          "title": "CVS Health Earnings Presentation",
+          "author": "CVS Health Investor Relations",
+          "subject": "",
+          "keywords": "",
+          "creator": "Microsoft® PowerPoint® for Microsoft 365",
+          "producer": "Microsoft® PowerPoint® for Microsoft 365",
+          "creationDate": "D:20250730145139-04'00'",
+          "modDate": "D:20250730145139-04'00'",
+          "trapped": "",
+          "encryption": null,
+          "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/cvs_2025q2.pdf",
+          "page_count": 12,
+          "page_number": 12
+        },
+        "toc_items": [
+          [
+            1,
+            "Slide 12",
+            12
+          ]
+        ],
+        "page_boxes": [
+          {
+            "index": 0,
+            "class": "section-header",
+            "bbox": [
+              71,
+              89,
+              268,
+              144
+            ],
+            "pos": [
+              0,
+              41
+            ]
+          },
+          {
+            "index": 1,
+            "class": "list-item",
+            "bbox": [
+              77,
+              196,
+              758,
+              210
+            ],
+            "pos": [
+              41,
+              150
+            ]
+          },
+          {
+            "index": 2,
+            "class": "list-item",
+            "bbox": [
+              77,
+              231,
+              820,
+              380
+            ],
+            "pos": [
+              150,
+              1097
+            ]
+          },
+          {
+            "index": 3,
+            "class": "text",
+            "bbox": [
+              88,
+              507,
+              434,
+              518
+            ],
+            "pos": [
+              1097,
+              1176
+            ]
+          },
+          {
+            "index": 4,
+            "class": "page-footer",
+            "bbox": [
+              813,
+              498,
+              917,
+              514
+            ],
+            "pos": [
+              1176,
+              1190
+            ]
+          },
+          {
+            "index": 5,
+            "class": "page-footer",
+            "bbox": [
+              55,
+              507,
+              65,
+              515
+            ],
+            "pos": [
+              1190,
+              1195
+            ]
+          }
+        ]
+      },
+      "text_chars": 1167,
+      "confidence": null
+    }
+  ]
+}

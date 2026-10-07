@@ -5,7 +5,7 @@
 ## Five-minute walkthrough
 
 1. Open `review/index.html`. Show the three separate questions: table parsing, number retention, text/organization.
-2. Open the source gallery. Expand CVS page 6: the original slide is beside its row/year/value references. EDF page 3 illustrates nested headers; the two scanned-account documents cover OCR-heavy material.
+2. Open `review/comparison.html` for the original source page alongside all four parser outputs. Start with Peterborough page 2 for OCR and CVS page 6 for a digital page with mostly native text. `review/outputs.html` links to every complete parse. Then open the source gallery. Expand CVS page 6: the original slide is beside its row/year/value references. EDF page 3 illustrates nested headers; the two scanned-account documents cover OCR-heavy material.
 3. Open the number review, then the table review. Nearly all selected numeric values appear somewhere on the page, while fewer are recoverable under the correct row/header. Explain that unresolved matches can reflect both output structure and the strict adapter.
 4. Show text/organization briefly. The small sample checks wording, notes and a few order pairs; it does not claim complete semantic understanding.
 5. Mention the optional teammate review workspace. A teammate can approve references or flag corrections later; no manual review is required to demonstrate the current preliminary pipeline.
@@ -14,10 +14,10 @@
 
 - Six sponsor PDFs, 140 inventoried pages, 18 pages with selected reference regions.
 - 54 assistant-authored label records, including 11 table references / 133 cell expectations.
-- Deterministic scoring of existing MinerU OCR, MinerU VLM and PyMuPDF4LLM exports; no LLM answer filler.
+- Deterministic scoring of MinerU OCR, MinerU VLM, PyMuPDF4LLM + Tesseract and the new PyMuPDF4LLM + VLM exports; no LLM answer filler.
 - Separate metrics, source evidence, inspectable failures and reproducible input/label/scorer hashes.
 - Offline HTML reports and an optional review/export/import workflow.
-- Zero hosted model calls or parser reruns for this pilot; scoring takes about one second.
+- Zero hosted model calls. The October 6 addition runs only the fourth pipeline; scoring/report generation reads saved outputs without rerunning parsers.
 
 ## What the meeting should not overclaim
 

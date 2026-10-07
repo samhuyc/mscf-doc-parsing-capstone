@@ -1,0 +1,34 @@
+{
+  "status": "success",
+  "image_sha256": "9eabbda0022c5b1b88db21c7b0a2b5db2153bf6aff20a30edf72f0bc97eaa8cd",
+  "image_size": [
+    4000,
+    2250
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          3388.0,
+          2072.0
+        ],
+        [
+          3817.0,
+          2072.0
+        ],
+        [
+          3817.0,
+          2155.0
+        ],
+        [
+          3388.0,
+          2155.0
+        ]
+      ],
+      "text": "♥CVSHealth®",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.18955492973327637,
+  "elapsed_seconds": 0.6095871250145137
+}

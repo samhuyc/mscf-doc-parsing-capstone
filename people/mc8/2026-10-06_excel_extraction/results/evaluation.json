@@ -1,0 +1,27 @@
+{
+  "level_1": [
+    {
+      "workbook": "edge_cases.xlsx",
+      "checks": 33,
+      "passed": 33,
+      "accuracy": 1.0,
+      "mismatches": []
+    },
+    {
+      "workbook": "gold_financial_statement.xlsx",
+      "checks": 28,
+      "passed": 28,
+      "accuracy": 1.0,
+      "mismatches": []
+    }
+  ],
+  "level_2": {
+    "workbook": "gold_financial_statement.xlsx",
+    "records": 5,
+    "line_item_survival": 1.0,
+    "coordinate_accuracy": 1.0,
+    "value_accuracy": 1.0,
+    "complete_record_accuracy": 1.0,
+    "failures": []
+  }
+}

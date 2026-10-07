@@ -1,0 +1,91 @@
+{
+  "workbook": "gold_financial_statement.xlsx",
+  "description": "Hand-labeled line-item survival checks; not a financial ontology.",
+  "records": [
+    {
+      "sheet": "Balance Sheet",
+      "label_coordinate": "A4",
+      "label": "Cash and cash equivalents",
+      "values": [
+        {
+          "coordinate": "B4",
+          "field": "value",
+          "expected": 1250000
+        },
+        {
+          "coordinate": "C4",
+          "field": "value",
+          "expected": 1110000
+        }
+      ]
+    },
+    {
+      "sheet": "Balance Sheet",
+      "label_coordinate": "A6",
+      "label": "Total assets",
+      "values": [
+        {
+          "coordinate": "B6",
+          "field": "cached_value",
+          "expected": 3750000
+        },
+        {
+          "coordinate": "C6",
+          "field": "cached_value",
+          "expected": 3410000
+        }
+      ]
+    },
+    {
+      "sheet": "Profit and Loss",
+      "label_coordinate": "A4",
+      "label": "Revenue",
+      "values": [
+        {
+          "coordinate": "B4",
+          "field": "value",
+          "expected": 4800000
+        },
+        {
+          "coordinate": "C4",
+          "field": "value",
+          "expected": 4200000
+        }
+      ]
+    },
+    {
+      "sheet": "Profit and Loss",
+      "label_coordinate": "A5",
+      "label": "Cost of sales",
+      "values": [
+        {
+          "coordinate": "B5",
+          "field": "value",
+          "expected": -2900000
+        },
+        {
+          "coordinate": "C5",
+          "field": "value",
+          "expected": -2600000
+        }
+      ]
+    },
+    {
+      "sheet": "Profit and Loss",
+      "label_coordinate": "A6",
+      "label": "Gross profit",
+      "values": [
+        {
+          "coordinate": "B6",
+          "field": "cached_value",
+          "expected": 1900000
+        },
+        {
+          "coordinate": "C6",
+          "field": "cached_value",
+          "expected": 1600000
+        }
+      ]
+    }
+  ]
+}

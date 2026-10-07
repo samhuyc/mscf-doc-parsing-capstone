@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/samhuyc/mscf-doc-parsing-capstone/people/mc8/excel-workbook.schema.json",
+  "title": "Canonical Excel workbook extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "parser", "source", "workbook"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "parser": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "library", "library_version"],
+      "properties": {
+        "name": {"type": "string"},
+        "library": {"const": "openpyxl"},
+        "library_version": {"type": "string"}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["filename", "path", "sha256", "size_bytes"],
+      "properties": {
+        "filename": {"type": "string"},
+        "path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "size_bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "workbook": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date_system", "sheet_count", "sheets"],
+      "properties": {
+        "date_system": {"enum": ["1900", "1904"]},
+        "sheet_count": {"type": "integer", "minimum": 1},
+        "sheets": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/sheet"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "jsonValue": {
+      "type": ["string", "number", "boolean", "null"]
+    },
+    "merged": {
+      "type": ["object", "null"],
+      "required": ["role", "range", "anchor"],
+      "additionalProperties": false,
+      "properties": {
+        "role": {"enum": ["anchor", "child"]},
+        "range": {"type": "string"},
+        "anchor": {"type": "string"}
+      }
+    },
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "coordinate",
+        "value",
+        "value_type",
+        "formula",
+        "cached_value",
+        "cached_value_status",
+        "number_format",
+        "merged",
+        "row_hidden",
+        "column_hidden"
+      ],
+      "properties": {
+        "coordinate": {"type": "string", "pattern": "^[A-Z]+[1-9][0-9]*$"},
+        "value": {"$ref": "#/$defs/jsonValue"},
+        "value_type": {
+          "enum": ["null", "string", "number", "boolean", "datetime", "error", "formula"]
+        },
+        "formula": {"type": ["string", "null"]},
+        "cached_value": {"$ref": "#/$defs/jsonValue"},
+        "cached_value_status": {"enum": ["present", "missing", "not_formula"]},
+        "number_format": {"type": "string"},
+        "merged": {"$ref": "#/$defs/merged"},
+        "row_hidden": {"type": "boolean"},
+        "column_hidden": {"type": "boolean"}
+      }
+    },
+    "rowRoles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "header", "body", "footnote"],
+      "properties": {
+        "title": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "header": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "body": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "footnote": {"type": "array", "items": {"type": "integer", "minimum": 1}}
+      }
+    },
+    "table": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "range", "title", "row_roles", "cell_coordinates"],
+      "properties": {
+        "id": {"type": "string"},
+        "range": {"type": "string"},
+        "title": {"type": ["string", "null"]},
+        "row_roles": {"$ref": "#/$defs/rowRoles"},
+        "cell_coordinates": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^[A-Z]+[1-9][0-9]*$"}
+        }
+      }
+    },
+    "sheet": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "index",
+        "state",
+        "used_range",
+        "merged_ranges",
+        "cells",
+        "tables"
+      ],
+      "properties": {
+        "name": {"type": "string"},
+        "index": {"type": "integer", "minimum": 0},
+        "state": {"enum": ["visible", "hidden", "veryHidden"]},
+        "used_range": {"type": ["string", "null"]},
+        "merged_ranges": {"type": "array", "items": {"type": "string"}},
+        "cells": {"type": "array", "items": {"$ref": "#/$defs/cell"}},
+        "tables": {"type": "array", "items": {"$ref": "#/$defs/table"}}
+      }
+    }
+  }
+}

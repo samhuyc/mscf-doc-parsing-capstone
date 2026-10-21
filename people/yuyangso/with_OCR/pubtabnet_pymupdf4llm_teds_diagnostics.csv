@@ -1,0 +1,4442 @@
+filename,image_width,image_height,upscaled_width,upscaled_height,gt_cells,approach1_teds,approach1_teds_struct,approach1_cer,approach1_runtime_seconds,approach1_predicted_cells,approach1_markdown_chars,approach1_ocr_words,approach1_ocr_text,approach1_markdown,approach1_html,approach2_teds,approach2_teds_struct,approach2_cer,approach2_runtime_seconds,approach2_predicted_cells,approach2_markdown_chars,approach2_ocr_words,approach2_ocr_text,approach2_markdown,approach2_html
+PMC5387306_003_00.png,508,271,1016,542,108,0.7008582116972004,0.794701986754967,0.10014306151645208,1.441073707996111,108,1455,0,,"|Gene name|Locus tag|Forward primersequence<br>($'-3')|Rewerse primersequence<br>(5'-3')|Length(bp)|Reference<br>or<br>source|
+|---|---|---|---|---|---|
+|shy|SSUSCB41264|GGAGATCTGACGCTTAGTT|CATATTGAAGCTCTGCTTIGG|172|(Li et al.,2023)|
+|ecpa|SSUSCB4_1235|CTCACGTACACCGATTGTT|CTCACGTACACCGATIGIT|205|Thiswork|
+|sadP|SSUSCB4 0242|GTAGAGASGCAACAGTCGCC|=GTTACTTTCCACTGAATCTG|137|This work|
+|gopdH|SSUSCB4 0134|SGAAGTAAACGCTGCTAT|CAAACAATGAACCGAGT|107|(Li etal.,2023)|
+|bps|Ssusce4 1341|GGTGGCCCAGCAGGCCAATG|CCGCCAATCCCTGCTCCTGC|95|(Li et al., 2023)|
+|20|S$SUSCe41234|GATGAGCTTGGTGGTATTG|GATGAGCTTGGTGGTATTG|148|Thiswork|
+|aoua|SSuUSCB41871|GATGACTACGGCCATTACG|GATGACTACGGCCATTACG|151|This work|
+|dé|SSUSCB4_0569|CAGIGCTIGGTTTGICTGA|CAGTGCTIGGTTTGTICTGA|191|Thiswork|
+|hyts|Ssusce4_1067|GCTCTGAGGTTAGTCCTG|GCTCTGAGGTTAGTICCTG|124|This work|
+|arpE|Ssusce4 0249|CCATTCAGCGTTACCGTIC|GACATCTGTTGCGACTICTT|182|Thiswork|
+|perk|S$SUSCB4_0278|TTGAACACGTCATCCAACAT|GTAGTTAGGTATTAGATCTTIG|137|(Zhanget al.2012)|
+|gor|SSUSCB4_0448|GTTCACGCGCATCCTACG|TACCAGGAATAGCAGGGAC|171|This work|
+|nox|SSUSCB4 0448|GTTCACAACCTATCTTACCA|GTAACCAGCACCAACAACT|176|Thiswork|
+|mck|SSUSCB4_1284|CCTTGCTGTAGCAGTGGTA|ACTACCGTACTICACACCA|157|This work|
+|sodA|SSuscea1384|GAAGCCTICACTGCAGCA|CCTTGCATGATTGGTGTGT|122|(Zhanget al. 2012)|
+|opuad|Ssusced1444|CCTGACGAGGATGAGAGA|GGTICGTCCATGAGTAACA|1546|This work|
+|165rRNA|S$susce4r0001|GTAGTCCACGCCGTAAACG|TAAACCACATGCTCCACCGC|140|(Lietal..2009)|
+
+
+
+","<table><tr><th>Gene name</th><th>Locus tag</th><th>Forward primersequence<br>($'-3')</th><th>Rewerse primersequence<br>(5'-3')</th><th>Length(bp)</th><th>Reference<br>or<br>source</th></tr><tr><td>shy</td><td>SSUSCB41264</td><td>GGAGATCTGACGCTTAGTT</td><td>CATATTGAAGCTCTGCTTIGG</td><td>172</td><td>(Li et al.,2023)</td></tr><tr><td>ecpa</td><td>SSUSCB4_1235</td><td>CTCACGTACACCGATTGTT</td><td>CTCACGTACACCGATIGIT</td><td>205</td><td>Thiswork</td></tr><tr><td>sadP</td><td>SSUSCB4 0242</td><td>GTAGAGASGCAACAGTCGCC</td><td>=GTTACTTTCCACTGAATCTG</td><td>137</td><td>This work</td></tr><tr><td>gopdH</td><td>SSUSCB4 0134</td><td>SGAAGTAAACGCTGCTAT</td><td>CAAACAATGAACCGAGT</td><td>107</td><td>(Li etal.,2023)</td></tr><tr><td>bps</td><td>Ssusce4 1341</td><td>GGTGGCCCAGCAGGCCAATG</td><td>CCGCCAATCCCTGCTCCTGC</td><td>95</td><td>(Li et al., 2023)</td></tr><tr><td>20</td><td>S$SUSCe41234</td><td>GATGAGCTTGGTGGTATTG</td><td>GATGAGCTTGGTGGTATTG</td><td>148</td><td>Thiswork</td></tr><tr><td>aoua</td><td>SSuUSCB41871</td><td>GATGACTACGGCCATTACG</td><td>GATGACTACGGCCATTACG</td><td>151</td><td>This work</td></tr><tr><td>dé</td><td>SSUSCB4_0569</td><td>CAGIGCTIGGTTTGICTGA</td><td>CAGTGCTIGGTTTGTICTGA</td><td>191</td><td>Thiswork</td></tr><tr><td>hyts</td><td>Ssusce4_1067</td><td>GCTCTGAGGTTAGTCCTG</td><td>GCTCTGAGGTTAGTICCTG</td><td>124</td><td>This work</td></tr><tr><td>arpE</td><td>Ssusce4 0249</td><td>CCATTCAGCGTTACCGTIC</td><td>GACATCTGTTGCGACTICTT</td><td>182</td><td>Thiswork</td></tr><tr><td>perk</td><td>S$SUSCB4_0278</td><td>TTGAACACGTCATCCAACAT</td><td>GTAGTTAGGTATTAGATCTTIG</td><td>137</td><td>(Zhanget al.2012)</td></tr><tr><td>gor</td><td>SSUSCB4_0448</td><td>GTTCACGCGCATCCTACG</td><td>TACCAGGAATAGCAGGGAC</td><td>171</td><td>This work</td></tr><tr><td>nox</td><td>SSUSCB4 0448</td><td>GTTCACAACCTATCTTACCA</td><td>GTAACCAGCACCAACAACT</td><td>176</td><td>Thiswork</td></tr><tr><td>mck</td><td>SSUSCB4_1284</td><td>CCTTGCTGTAGCAGTGGTA</td><td>ACTACCGTACTICACACCA</td><td>157</td><td>This work</td></tr><tr><td>sodA</td><td>SSuscea1384</td><td>GAAGCCTICACTGCAGCA</td><td>CCTTGCATGATTGGTGTGT</td><td>122</td><td>(Zhanget al. 2012)</td></tr><tr><td>opuad</td><td>Ssusced1444</td><td>CCTGACGAGGATGAGAGA</td><td>GGTICGTCCATGAGTAACA</td><td>1546</td><td>This work</td></tr><tr><td>165rRNA</td><td>S$susce4r0001</td><td>GTAGTCCACGCCGTAAACG</td><td>TAAACCACATGCTCCACCGC</td><td>140</td><td>(Lietal..2009)</td></tr></table>",0.3442392340223438,0.4328358208955224,0.18526466380543632,0.6249013750057202,110,1980,146,"Referenceor
+Genename
+Locus tag
+Forward
+primer sequence S’-3"") Reverse primer sequence
+(S'-3"") Length(bp)
+source
+oy
+SSUSC84.1264
+ GGAGATCIGACGCTTAGIT
+—CATATIGAAGCTCTGCTIGG
+§=—172
+etal. 2023)
+cp
+SSUSCE4_1235
+CTCACGTACACCGATTGTT. © CTCACGTACACCGATIGTT. «= 205,
+This work
+sod
+SSUSCS4.0242
+GTAGAGARGCAACAGTCGCC
+GTTACTTTCCACTGAATCIG «= 137
+This work
+sont
+SSUSCB4.0134
+ AGAAGTAAACGCTGCTAT
+——_CAAACAATGAACCGAAT
+107
+etal. 2013)
+foes
+SSUSCE4.1341
+ GGTGGCCCAGCAGGCCAATG
+COGCCAATCCCTGCTECTGe =
+95.
+Qietal. 2023)
+120
+SSUSCB41234
+-GATGAGCTTGGTGGTATTG © GATGAGCTTGGTGGTATIG
+148.
+This work
+put
+SSUSC841871
+ GATGACTACGGCCATTACG © GATGACTACGGCCATTACG
+«151
+This work
+ta
+SSUSCB4.0569
+«CAGTGCTIGGTTIGICTGA
+—CAGTGCTTGGTTTGTCTGA
+«191
+This work
+bts
+SSUSCB4_1087
+-GCTCTGAGGTTAGICCTG = GCTCTGAGGTTAGTCCTG
+124
+This work
+Pd
+SSUSCB4.0248
+“CCATTCAGCGTTACCGTTC
+—«GACATCTGTTGCGACTICTT
+182
+This work
+perk
+SSUSCB4.0278
+ TIGAACACGTCATCCAACAT
+—GTAGTTAGGTATTAGATCTIG
+137
+hang et al, 2012)
+wee
+SSUSCB4.0448
+“GTTCACGCGCATCCTACG
+©=—“TACCAGGAATAGCAGGGAC
+171
+This work
+nox
+SSUSCB4.0648
+ GTTCACAACCTATCTTACCA
+—GTAACCAGCACCAACARCT = 176
+This work
+onsch
+SSUSCB4.1285
+ CCTTGCTGTAGCAGTGGTA
+—ACTACCGTACTTCACACCA
+157
+This work
+soda
+SSUSCB4.1285
+ GAAGCCTTCACTGCAGCA © CCTIGCATGATTGGTGTGT
+122
+hang et al, 2012)
+puta
+SSUSCB4.1444
+ CCTGACGAGGATGAGAGA
+—GGTTCGTCCATGAGTAACA
+156
+This work
+16SrRNA
+————SSUSCB4.0001
+_—GTAGTCCACGCCGTAAACG
+©~—TAAACCACATGCTCCACCGC
+160
+Qietal.. 2009)
+","|Genename<br>|||<br>||Referenceor<br>|
+|---|---|---|---|---|---|
+||Locustag|Forward<br>primersequenceS’-3"")|Reverseprimersequence<br>|||
+||<br>SSUSC84.1264<br>|<br>GGAGATCIGACGCTTAGIT<br>|<br><br>—CATATIGAAGCTCTGCTIGG<br>|§=—172<br>|etal. 2023)<br>|
+|cp<br>|SSUSCE4_1235<br>|CTCACGTACACCGATTGTT.©<br>|<br>CTCACGTACACCGATIGTT.«=<br>|<br>205,<br>|Thiswork<br>|
+|sod<br>|SSUSCS4.0242<br>|<br>GTAGAGARGCAACAGTCGCC<br>|<br>GTTACTTTCCACTGAATCIG«=<br>|<br>137<br>|<br>Thiswork<br>|
+|sont<br>|SSUSCB4.0134<br>|AGAAGTAAACGCTGCTAT<br>|<br>——_CAAACAATGAACCGAAT<br>|<br>107<br><br>|<br>etal.2013)<br>|
+|foes<br>|SSUSCE4.1341<br>|<br>GGTGGCCCAGCAGGCCAATG<br>|COGCCAATCCCTGCTECTGe=<br>|95.<br>|<br>Qietal.2023)<br>|
+|120<br>|SSUSCB41234<br>|<br>-GATGAGCTTGGTGGTATTG©<br>|<br>GATGAGCTTGGTGGTATIG<br>|148.<br>|<br>Thiswork<br>|
+|put<br>|SSUSC841871<br>|<br>GATGACTACGGCCATTACG©<br>|<br>GATGACTACGGCCATTACG<br>|«151<br>|<br>Thiswork<br>|
+|ta<br>|SSUSCB4.0569<br>|<br>«CAGTGCTIGGTTIGICTGA<br>|<br>—CAGTGCTTGGTTTGTCTGA<br>|«191<br>|<br>Thiswork<br>|
+|bts<br>|SSUSCB4_1087<br>|-GCTCTGAGGTTAGICCTG=<br>|GCTCTGAGGTTAGTCCTG<br>|124<br>|<br>Thiswork<br>|
+|Pd<br>|SSUSCB4.0248<br>|<br>“CCATTCAGCGTTACCGTTC<br>|<br>—«GACATCTGTTGCGACTICTT<br>|182<br>|<br>Thiswork<br>|
+|perk<br>|SSUSCB4.0278<br>|TIGAACACGTCATCCAACAT<br>|—GTAGTTAGGTATTAGATCTIG<br>|137<br>|<br>hangetal,2012)<br>|
+|wee<br>|SSUSCB4.0448<br>|<br>“GTTCACGCGCATCCTACG<br>|©=—“TACCAGGAATAGCAGGGAC<br>|171<br>|<br>This work<br>|
+|nox<br>|SSUSCB4.0648<br>|GTTCACAACCTATCTTACCA<br>|—GTAACCAGCACCAACARCT=<br>|176<br>|<br>Thiswork<br>|
+|onsch<br>|SSUSCB4.1285<br>|<br>CCTTGCTGTAGCAGTGGTA<br>|<br>—ACTACCGTACTTCACACCA<br>|<br>157<br>|<br>This work<br>|
+|soda<br>|SSUSCB4.1285<br>|<br>GAAGCCTTCACTGCAGCA©<br>|CCTIGCATGATTGGTGTGT<br>|122<br>|<br>hangetal,2012)<br>|
+|puta|SSUSCB4.1444|<br>CCTGACGAGGATGAGAGA|<br>—GGTTCGTCCATGAGTAACA|156|<br>This work|
+|16SrRNA|————SSUSCB4.0001|<br>_—GTAGTCCACGCCGTAAACG|©~—TAAACCACATGCTCCACCGC|160|<br>Qietal..2009)|
+
+
+
+","<table><tr><th>Genename<br></th><th></th><th></th><th><br></th><th></th><th>Referenceor<br></th></tr><tr><td>Locustag</td><td>Forward<br>primersequenceS’-3"")</td><td>Reverseprimersequence<br></td></tr><tr><td><br>SSUSC84.1264<br></td><td><br>GGAGATCIGACGCTTAGIT<br></td><td><br><br>—CATATIGAAGCTCTGCTIGG<br></td><td>§=—172<br></td><td>etal. 2023)<br></td></tr><tr><td>cp<br></td><td>SSUSCE4_1235<br></td><td>CTCACGTACACCGATTGTT.©<br></td><td><br>CTCACGTACACCGATIGTT.«=<br></td><td><br>205,<br></td><td>Thiswork<br></td></tr><tr><td>sod<br></td><td>SSUSCS4.0242<br></td><td><br>GTAGAGARGCAACAGTCGCC<br></td><td><br>GTTACTTTCCACTGAATCIG«=<br></td><td><br>137<br></td><td><br>Thiswork<br></td></tr><tr><td>sont<br></td><td>SSUSCB4.0134<br></td><td>AGAAGTAAACGCTGCTAT<br></td><td><br>——_CAAACAATGAACCGAAT<br></td><td><br>107<br><br></td><td><br>etal.2013)<br></td></tr><tr><td>foes<br></td><td>SSUSCE4.1341<br></td><td><br>GGTGGCCCAGCAGGCCAATG<br></td><td>COGCCAATCCCTGCTECTGe=<br></td><td>95.<br></td><td><br>Qietal.2023)<br></td></tr><tr><td>120<br></td><td>SSUSCB41234<br></td><td><br>-GATGAGCTTGGTGGTATTG©<br></td><td><br>GATGAGCTTGGTGGTATIG<br></td><td>148.<br></td><td><br>Thiswork<br></td></tr><tr><td>put<br></td><td>SSUSC841871<br></td><td><br>GATGACTACGGCCATTACG©<br></td><td><br>GATGACTACGGCCATTACG<br></td><td>«151<br></td><td><br>Thiswork<br></td></tr><tr><td>ta<br></td><td>SSUSCB4.0569<br></td><td><br>«CAGTGCTIGGTTIGICTGA<br></td><td><br>—CAGTGCTTGGTTTGTCTGA<br></td><td>«191<br></td><td><br>Thiswork<br></td></tr><tr><td>bts<br></td><td>SSUSCB4_1087<br></td><td>-GCTCTGAGGTTAGICCTG=<br></td><td>GCTCTGAGGTTAGTCCTG<br></td><td>124<br></td><td><br>Thiswork<br></td></tr><tr><td>Pd<br></td><td>SSUSCB4.0248<br></td><td><br>“CCATTCAGCGTTACCGTTC<br></td><td><br>—«GACATCTGTTGCGACTICTT<br></td><td>182<br></td><td><br>Thiswork<br></td></tr><tr><td>perk<br></td><td>SSUSCB4.0278<br></td><td>TIGAACACGTCATCCAACAT<br></td><td>—GTAGTTAGGTATTAGATCTIG<br></td><td>137<br></td><td><br>hangetal,2012)<br></td></tr><tr><td>wee<br></td><td>SSUSCB4.0448<br></td><td><br>“GTTCACGCGCATCCTACG<br></td><td>©=—“TACCAGGAATAGCAGGGAC<br></td><td>171<br></td><td><br>This work<br></td></tr><tr><td>nox<br></td><td>SSUSCB4.0648<br></td><td>GTTCACAACCTATCTTACCA<br></td><td>—GTAACCAGCACCAACARCT=<br></td><td>176<br></td><td><br>Thiswork<br></td></tr><tr><td>onsch<br></td><td>SSUSCB4.1285<br></td><td><br>CCTTGCTGTAGCAGTGGTA<br></td><td><br>—ACTACCGTACTTCACACCA<br></td><td><br>157<br></td><td><br>This work<br></td></tr><tr><td>soda<br></td><td>SSUSCB4.1285<br></td><td><br>GAAGCCTTCACTGCAGCA©<br></td><td>CCTIGCATGATTGGTGTGT<br></td><td>122<br></td><td><br>hangetal,2012)<br></td></tr><tr><td>puta</td><td>SSUSCB4.1444</td><td><br>CCTGACGAGGATGAGAGA</td><td><br>—GGTTCGTCCATGAGTAACA</td><td>156</td><td><br>This work</td></tr><tr><td>16SrRNA</td><td>————SSUSCB4.0001</td><td><br>_—GTAGTCCACGCCGTAAACG</td><td>©~—TAAACCACATGCTCCACCGC</td><td>160</td><td><br>Qietal..2009)</td></tr></table>"
+PMC2908612_005_00.png,487,187,974,374,60,0.4658928468755771,0.5729166666666667,0.18089430894308944,0.41907925000123214,50,558,0,,"TT A”*~“‘COR !”!”!”!”!~CUR!!!~!~”~*C«W otali) 
+
+|N (3%)||5S {22.2}|68 (27.4)|125 (50.4)|248|
+|---|---|---|---|---|---|
+|Gender<br>(N, (%=)]|Male|47.3)|3(44)|0|7(28)|
+||Female|51 (92.7)|63(92.6)|124(99.2)|238 (95.9)|
+||SMissing Values|0|2(2.9)|1 (0.8)|3 (1.2)|
+|Education|Diploma/Certificate|26(47.3)|32(47.0)|62(49.6)|120(48,4)|
+|[N, [%=)]*||||||
+||BachelorsDegree|35 (63.6)|43 (632)|76 (60.8)|1$4(61.4)|
+||MastersDegree|O|0|1 (0.8)|1 (0.4)|
+||MissingValues|0|0|a|a|
+|Yearsincurrentposition<br>[mean(SD))||5.79 (7.5)|11.02 (9.06)|11.58(10.27)|10.1 (9.6)|
+
+
+
+","<table><tr><th>N (3%)</th><th></th><th>5S {22.2}</th><th>68 (27.4)</th><th>125 (50.4)</th><th>248</th></tr><tr><td>Gender<br>(N, (%=)]</td><td>Male</td><td>47.3)</td><td>3(44)</td><td>0</td><td>7(28)</td></tr><tr><td>Female</td><td>51 (92.7)</td><td>63(92.6)</td><td>124(99.2)</td><td>238 (95.9)</td></tr><tr><td>SMissing Values</td><td>0</td><td>2(2.9)</td><td>1 (0.8)</td><td>3 (1.2)</td></tr><tr><td>Education</td><td>Diploma/Certificate</td><td>26(47.3)</td><td>32(47.0)</td><td>62(49.6)</td><td>120(48,4)</td></tr><tr><td>[N, [%=)]*</td></tr><tr><td>BachelorsDegree</td><td>35 (63.6)</td><td>43 (632)</td><td>76 (60.8)</td><td>1$4(61.4)</td></tr><tr><td>MastersDegree</td><td>O</td><td>0</td><td>1 (0.8)</td><td>1 (0.4)</td></tr><tr><td>MissingValues</td><td>0</td><td>0</td><td>a</td><td>a</td></tr><tr><td>Yearsincurrentposition<br>[mean(SD))</td><td></td><td>5.79 (7.5)</td><td>11.02 (9.06)</td><td>11.58(10.27)</td><td>10.1 (9.6)</td></tr></table>",0.02083333333333337,0.02083333333333337,0.40853658536585363,0.3204069999992498,3,425,69,"as
+|? CE |) Ss [ns(""Ce
+Noo
+351222)
+sara)
+125 (504)
+268
+Gender
+Male
+a3)
+3448)
+°
+728)
+th 99)
+Female
+51 (92.71
+630926)
+124(99.2)
+238(95.9)
+Missing Values
+°
+229)
+10s
+302)
+Education
+Diploma/Certificate
+26187,3)
+320670)
+621496)
+120(48.4)
+(a (91
+Bachelors Degree
+351626)
+43632)
+76(60.8)
+158 (61.4)
+Masters Degree
+Cr)
+°
+10.8)
+1404)
+Missing Values
+°
+°
+°
+°
+Years in current position
+5.79175)
+11.03(9.06)
+1158(1027)
+10.1(96)
+[mean (S0))
+","as|? CE |) Ss [ns (""Ce Noo 351222) sara) 125 (504) 268 Gender Male a3) 3448) ° 728) th 99) Female 51 (92.71 630926) 124(99.2) 238(95.9) Education Missing Values ° 229) 10s 302) (a (91 Diploma/Certificate 26187,3) 320670) 621496) 120 (48.4) Bachelors Degree 351626) 43632) 76(60.8) 158 (61.4) Masters Degree Cr) ° 10.8) 1404) Years in current position Missing Values 5.79175)° 11.03(9.06)° 1158(1027)° 10.1(96)° [mean (S0)) 
+
+","<table><tr><th>as</th><th>? CE</th><th>) Ss [ns (""Ce Noo 351222) sara) 125 (504) 268 Gender Male a3) 3448) ° 728) th 99) Female 51 (92.71 630926) 124(99.2) 238(95.9) Education Missing Values ° 229) 10s 302) (a (91 Diploma/Certificate 26187,3) 320670) 621496) 120 (48.4) Bachelors Degree 351626) 43632) 76(60.8) 158 (61.4) Masters Degree Cr) ° 10.8) 1404) Years in current position Missing Values 5.79175)° 11.03(9.06)° 1158(1027)° 10.1(96)° [mean (S0))</th></tr></table>"
+PMC5677209_010_00.png,676,307,1352,614,368,0.04447603324259253,0.27664399092970526,0.42223610243597753,0.9958020839985693,261,2253,0,,"Hessleskew 
+
+Hage 
+
+|||||Local|||European|||||Local|||European||
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+||||RMSE|R?|RPD|RMSE|R*|RPD|||RMSE|R?|RPD|RMSE|R?|RPD|
+|GBM|n trees||||||||n.trees||||||||
+|——_<br>Cross|100<br>100|TN<br>TC|0.01<br>0.16|0.63<br>0.67|Lot<br>1.75|d.01<br>DNs|0.96<br>a.a8|4.81<br>6.48|100<br>100|™N<br>Ic|oud<br>o.19|0.63<br>0.65|1.66<br>170|0.01<br>0.12|0.96<br>09s|5.01<br>6.49|
+|:<br>Lab Prediction|100<br>100|TN<br>TC|onl<br>0.23|deo<br>Deo|Lad<br>159|02<br>d.20|0.8?<br>a.s2|2.79<br>2.40|100<br>100|™<br>rc|Oo.<br>02)|0.62<br>0.61|1.65<br>161|0.02<br>0.19|ony<br>083|2.21<br>3.03|
+|™<br>» Pred<br>Online<br>Prediction|100<br>100|TN<br>TC|0.02<br>0.26|0.53<br>O54|1.45<br>149|D.02<br>0.24|(ob<br>0.66|1.80<br>1.78|100<br>100|TN<br>re|ou<br>022|0.59<br>0.52|1S<br>1.46|0.02<br>0.20|O77<br>07|2.11<br>2.95|
+|ANN|size||||||||Sie||||||||
+|;<br>Cross. validation|2<br>2|™<br>Tc|om<br>0.21|0.62<br>Odd|12<br>138|D1<br>0.15|0.77<br>0.86|2.08<br>2.69|2<br>2|™<br>TC|OG<br>0.18|0.35<br>0.70|125<br>182|0.03<br>0.18|O73<br>0.86|1.92<br>2.79|
+|LabPredic<br><br>|2<br>|™<br>|0.01<br>|D.69<br>|151<br>|D1<br>|071<br>|212<br>|2<br>|™<br>|o.02<br>|0.66<br>|1.74<br>|0.02<br>|CLs<br>|1.87<br>|
+|<br>ab<br>Prediction|2|TC|0.25|0.51|1.45|0.20|0.83|244|2|Tc|025|0.47|140|0.21|Os|2.59|
+|_<br>Baad<br>On-line<br>Prediction|2<br>2|TN<br>TC|0.02<br>0.34|0.26<br>D9|1.18<br>1.13|D.01<br>0.25|0.68<br>0.78|1.78<br>24|2<br>2|™N<br>Tc|cas<br>0.27|O11<br>0.75|Tia<br>1.95|0.03<br>0.20|059<br>O85|1.59<br>2.63|
+|RF|niree||||||||niree||||||||
+|‘ions<br>Valid<br>Crons validation|100<br>100|T™N<br>TC|0.01<br>0.12|0.83<br>O.82|245<br>2.38|D01<br>0.06|0.96<br>0.98|4.83<br>648|100<br>100|™N<br>rc|ty |<br>0.13|0.84<br>0.84|250<br>252|0.01<br>0.10|O97<br>098|5.58<br>7.54|
+|Lab<br>Predicti<br>|100<br>|T™N<br>|0.01<br>|0.82<br>|240<br>|p02<br>|asl<br>|233<br>|100<br>|™N<br>|t(2<br>|0.78<br>|2.18<br>|0.02<br>|OS4<br>|2.51<br>|
+|———|100|Tc|0.25|D.75|22|0.23|07s|216|100|i|0.18|0.81|235|0.14|Oss|3.49|
+|On-line|100<br>|TN<br>|0.01<br>|0.72<br>|13<br>|Dd<br>|055<br>|1.52<br>|100<br>|™N<br>|on<br>|0.79<br>|2x<br>|0.02<br>|O83<br>|2.40<br>|
+|a<br> Prediction|100|TC|0.21|0.69|1.82|p.20|0.75|2.13|100|i|O15|0.77|213|0.14|086|3.24|
+
+
+
+",<table><tr><th>Local</th><th></th><th></th><th>European</th><th></th><th></th><th></th><th></th><th>Local</th><th></th><th></th><th>European</th></tr><tr><td>RMSE</td><td>R?</td><td>RPD</td><td>RMSE</td><td>R*</td><td>RPD</td><td></td><td></td><td>RMSE</td><td>R?</td><td>RPD</td><td>RMSE</td><td>R?</td><td>RPD</td></tr><tr><td>GBM</td><td>n trees</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>n.trees</td></tr><tr><td>——_<br>Cross</td><td>100<br>100</td><td>TN<br>TC</td><td>0.01<br>0.16</td><td>0.63<br>0.67</td><td>Lot<br>1.75</td><td>d.01<br>DNs</td><td>0.96<br>a.a8</td><td>4.81<br>6.48</td><td>100<br>100</td><td>™N<br>Ic</td><td>oud<br>o.19</td><td>0.63<br>0.65</td><td>1.66<br>170</td><td>0.01<br>0.12</td><td>0.96<br>09s</td><td>5.01<br>6.49</td></tr><tr><td>:<br>Lab Prediction</td><td>100<br>100</td><td>TN<br>TC</td><td>onl<br>0.23</td><td>deo<br>Deo</td><td>Lad<br>159</td><td>02<br>d.20</td><td>0.8?<br>a.s2</td><td>2.79<br>2.40</td><td>100<br>100</td><td>™<br>rc</td><td>Oo.<br>02)</td><td>0.62<br>0.61</td><td>1.65<br>161</td><td>0.02<br>0.19</td><td>ony<br>083</td><td>2.21<br>3.03</td></tr><tr><td>™<br>» Pred<br>Online<br>Prediction</td><td>100<br>100</td><td>TN<br>TC</td><td>0.02<br>0.26</td><td>0.53<br>O54</td><td>1.45<br>149</td><td>D.02<br>0.24</td><td>(ob<br>0.66</td><td>1.80<br>1.78</td><td>100<br>100</td><td>TN<br>re</td><td>ou<br>022</td><td>0.59<br>0.52</td><td>1S<br>1.46</td><td>0.02<br>0.20</td><td>O77<br>07</td><td>2.11<br>2.95</td></tr><tr><td>ANN</td><td>size</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Sie</td></tr><tr><td>;<br>Cross. validation</td><td>2<br>2</td><td>™<br>Tc</td><td>om<br>0.21</td><td>0.62<br>Odd</td><td>12<br>138</td><td>D1<br>0.15</td><td>0.77<br>0.86</td><td>2.08<br>2.69</td><td>2<br>2</td><td>™<br>TC</td><td>OG<br>0.18</td><td>0.35<br>0.70</td><td>125<br>182</td><td>0.03<br>0.18</td><td>O73<br>0.86</td><td>1.92<br>2.79</td></tr><tr><td>LabPredic<br><br></td><td>2<br></td><td>™<br></td><td>0.01<br></td><td>D.69<br></td><td>151<br></td><td>D1<br></td><td>071<br></td><td>212<br></td><td>2<br></td><td>™<br></td><td>o.02<br></td><td>0.66<br></td><td>1.74<br></td><td>0.02<br></td><td>CLs<br></td><td>1.87<br></td></tr><tr><td><br>ab<br>Prediction</td><td>2</td><td>TC</td><td>0.25</td><td>0.51</td><td>1.45</td><td>0.20</td><td>0.83</td><td>244</td><td>2</td><td>Tc</td><td>025</td><td>0.47</td><td>140</td><td>0.21</td><td>Os</td><td>2.59</td></tr><tr><td>_<br>Baad<br>On-line<br>Prediction</td><td>2<br>2</td><td>TN<br>TC</td><td>0.02<br>0.34</td><td>0.26<br>D9</td><td>1.18<br>1.13</td><td>D.01<br>0.25</td><td>0.68<br>0.78</td><td>1.78<br>24</td><td>2<br>2</td><td>™N<br>Tc</td><td>cas<br>0.27</td><td>O11<br>0.75</td><td>Tia<br>1.95</td><td>0.03<br>0.20</td><td>059<br>O85</td><td>1.59<br>2.63</td></tr><tr><td>RF</td><td>niree</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>niree</td></tr><tr><td>‘ions<br>Valid<br>Crons validation</td><td>100<br>100</td><td>T™N<br>TC</td><td>0.01<br>0.12</td><td>0.83<br>O.82</td><td>245<br>2.38</td><td>D01<br>0.06</td><td>0.96<br>0.98</td><td>4.83<br>648</td><td>100<br>100</td><td>™N<br>rc</td><td>ty</td><td><br>0.13</td><td>0.84<br>0.84</td><td>250<br>252</td><td>0.01<br>0.10</td><td>O97<br>098</td><td>5.58<br>7.54</td></tr><tr><td>Lab<br>Predicti<br></td><td>100<br></td><td>T™N<br></td><td>0.01<br></td><td>0.82<br></td><td>240<br></td><td>p02<br></td><td>asl<br></td><td>233<br></td><td>100<br></td><td>™N<br></td><td>t(2<br></td><td>0.78<br></td><td>2.18<br></td><td>0.02<br></td><td>OS4<br></td><td>2.51<br></td></tr><tr><td>———</td><td>100</td><td>Tc</td><td>0.25</td><td>D.75</td><td>22</td><td>0.23</td><td>07s</td><td>216</td><td>100</td><td>i</td><td>0.18</td><td>0.81</td><td>235</td><td>0.14</td><td>Oss</td><td>3.49</td></tr><tr><td>On-line</td><td>100<br></td><td>TN<br></td><td>0.01<br></td><td>0.72<br></td><td>13<br></td><td>Dd<br></td><td>055<br></td><td>1.52<br></td><td>100<br></td><td>™N<br></td><td>on<br></td><td>0.79<br></td><td>2x<br></td><td>0.02<br></td><td>O83<br></td><td>2.40<br></td></tr><tr><td>a<br> Prediction</td><td>100</td><td>TC</td><td>0.21</td><td>0.69</td><td>1.82</td><td>p.20</td><td>0.75</td><td>2.13</td><td>100</td><td>i</td><td>O15</td><td>0.77</td><td>213</td><td>0.14</td><td>086</td><td>3.24</td></tr></table>,0.0,0.17380952380952386,0.6408494690818238,1.1691102080003475,227,1792,262,"Hessleskew
+Hags
+Toca
+European
+Toral
+European
+RMSE
+OR
+ORPD
+RMSE
+OR
+RPD
+RMSE
+oR
+RPD
+RMSE
+R?
+ RPD
+GBM
+ieee
+Ties
+=
+10
+1N
+OOr
+oo
+to
+OOF
+Gm
+481
+lm
+IN
+om
+O63
+16
+OOF
+0%
+SOD
+Cross
+100
+TC
+O.6
+067175
+OHSAS
+MTC
+SOND
+S88
+10
+Noo
+00
+Im
+om
+OM
+2
+lm
+IN
+om
+Om
+1
+OO
+Om
+ aaI
+Lab Prediction
+100
+TC
+0235) DTC
+ttt
+3.03
+100
+1N
+002
+O53
+148
+002
+Qs
+18
+10
+IN
+Om
+059
+158
+O02
+om
+211
+Online Prediction
+199
+TC
+26
+OS
+49GB
+MTC
+S225
+‘ANN
+ze
+size
+2
+iN
+O01
+062
+Ia
+O01
+Om
+208
+2
+IN
+om
+035
+125
+003
+ams
+12
+‘Crap vanaation:
+2
+TC
+G21
+3E
+S808
+2
+TC
+018
+0701S
+2
+iN
+oor
+069
+181
+ool
+a7l
+200
+2
+IN
+om@
+066
+i78
+O02
+Om
+187
+bebiasaiat
+2
+TC
+025)
+St
+14S
+DOS
+2
+TC
+025
+0471402258
+2
+TN
+O02
+026.
+018
+O01
+OMS
+178
+2
+No
+O11
+to
+O08
+os
+Is0|
+Cortina Praition:
+2
+To
+038
+N93
+58a
+2
+TC
+027
+0751.95
+020
+08S
+263
+RF
+ninee
+vatree
+au
+100
+TN
+Or
+oss
+245
+OOF
+O@%
+48
+10
+IN
+ao)
+OSt
+250
+OO
+am
+558
+hecaadhioanal
+100
+TC)
+O.2
+O82
+238
+OHS
+ASM
+TC
+S252
+075K
+100
+IN
+OOF
+os
+240
+oO2
+GS)
+23
+1m
+IN
+om
+O78
+218
+O02
+ost
+251
+Larne
+100 = TC)
+25 OSMOSIS
+St 25s
+1
+IN
+OO
+om
+19
+ OO8
+O55
+im
+lo
+IN
+am
+079
+am
+O02
+Om
+280
+Online Prediction
+199
+TC
+2106918
+OD
+TSB
+MTC
+S728 ts
+","# Hessleskew 
+
+Hags 
+
+|||||Toca|||European|||||Toral|||European||
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+||||RMSE|OR|ORPD|RMSE|OR|RPD|||RMSE|oR|RPD|RMSE|R?|RPD|
+|GBM|ieee||||||||Ties||||||||
+|=<br>Cross|10<br>100|1N<br>TC|OOr<br>O.6|oo<br>067|to<br>175|OOF<br>OH|Gm<br>S|481<br>AS|lm<br>MT|IN<br>C|om|O63<br>S|16<br>ON|OOF<br>D|0%<br>S|SOD<br>88|
+|Lab Prediction|10<br>100|N<br>TC|oo<br>02|00<br>35|Im<br>)|om<br> D|OM<br>|2<br>T|lm<br>C|IN<br>|om|Om<br>t|1<br>t|OO<br>t|Om|aaI<br>3.03|
+|Online Prediction<br>|100<br>199<br>|1N<br>TC|002<br>26|O53<br>OS|148<br>4|002<br>9|Qs<br>G|18<br>B|10<br>MT<br>|IN<br>C|Om|059<br>S|158<br>2|O02<br>|om<br>2|211<br>5|
+|‘ANN|ze||||||||size||||||||
+|‘Crap vanaation:|2<br>2|iN<br>TC|O01<br>G2|062<br>1|Ia<br>3E|O01<br>S|Om<br>80|208<br>8|2<br>2|IN<br>TC|om<br>018|035<br>0|125<br>7|003<br>0|ams<br>1|12<br>S|
+|bebiasaiat<br>|2<br>2|iN<br>TC|oor<br>025)|069<br>St|181<br>14S|ool<br>D|a7l<br>O|200<br>S|2<br>2|IN<br>TC|om@<br>025|066<br>04|i78<br>71|O02<br>40|Om<br>22|187<br>58<br>|
+|Cortina Praition:<br>|2<br>2<br>|TN<br>To|O02<br>038|026.<br>N|018<br>93|O01<br>5|OMS<br>8|178<br>a|2<br>2<br>|N<br>TC|o<br>027|O11<br>075|to<br>1.95|O08<br>020|os<br>08S|Is0|<br>263|
+|RF|ninee||||||||vatree||||||||
+|au<br>hecaadhioanal|100<br>100|TN<br>TC)|Or<br>O.2|oss<br>O82|245<br>238|OOF<br>OH|O@%<br>S|48<br>A|10<br>SM|IN<br>TC|ao)|OSt<br>S2|250<br>52|OO<br>0|am<br>75|558<br>K|
+|Larne|100<br>100|IN<br>=TC)|OOF<br>25|os<br>O|240<br>|oO2<br>M|GS)<br>|23<br>|1m<br>S|IN<br>|om<br>S|O78<br>St|218<br>|O02<br>|ost<br>|251<br>s|
+|Online|<br>1<br>|<br>IN<br>|<br>OO<br>|<br>om<br>|19<br>|OO8<br>|O55<br>|im<br>|lo<br>|IN<br>|am<br>|<br>079<br>|<br>am<br>|O02<br>|Om<br>|280<br>|
+|Prediction|199|TC|21|069|18|<br>OD|T|SB|MT|C|S|72|8|||s|
+
+
+
+",<table><tr><th>Toca</th><th></th><th></th><th>European</th><th></th><th></th><th></th><th></th><th>Toral</th><th></th><th></th><th>European</th></tr><tr><td>RMSE</td><td>OR</td><td>ORPD</td><td>RMSE</td><td>OR</td><td>RPD</td><td></td><td></td><td>RMSE</td><td>oR</td><td>RPD</td><td>RMSE</td><td>R?</td><td>RPD</td></tr><tr><td>GBM</td><td>ieee</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Ties</td></tr><tr><td>=<br>Cross</td><td>10<br>100</td><td>1N<br>TC</td><td>OOr<br>O.6</td><td>oo<br>067</td><td>to<br>175</td><td>OOF<br>OH</td><td>Gm<br>S</td><td>481<br>AS</td><td>lm<br>MT</td><td>IN<br>C</td><td>om</td><td>O63<br>S</td><td>16<br>ON</td><td>OOF<br>D</td><td>0%<br>S</td><td>SOD<br>88</td></tr><tr><td>Lab Prediction</td><td>10<br>100</td><td>N<br>TC</td><td>oo<br>02</td><td>00<br>35</td><td>Im<br>)</td><td>om<br> D</td><td>OM<br></td><td>2<br>T</td><td>lm<br>C</td><td>IN<br></td><td>om</td><td>Om<br>t</td><td>1<br>t</td><td>OO<br>t</td><td>Om</td><td>aaI<br>3.03</td></tr><tr><td>Online Prediction<br></td><td>100<br>199<br></td><td>1N<br>TC</td><td>002<br>26</td><td>O53<br>OS</td><td>148<br>4</td><td>002<br>9</td><td>Qs<br>G</td><td>18<br>B</td><td>10<br>MT<br></td><td>IN<br>C</td><td>Om</td><td>059<br>S</td><td>158<br>2</td><td>O02<br></td><td>om<br>2</td><td>211<br>5</td></tr><tr><td>‘ANN</td><td>ze</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>size</td></tr><tr><td>‘Crap vanaation:</td><td>2<br>2</td><td>iN<br>TC</td><td>O01<br>G2</td><td>062<br>1</td><td>Ia<br>3E</td><td>O01<br>S</td><td>Om<br>80</td><td>208<br>8</td><td>2<br>2</td><td>IN<br>TC</td><td>om<br>018</td><td>035<br>0</td><td>125<br>7</td><td>003<br>0</td><td>ams<br>1</td><td>12<br>S</td></tr><tr><td>bebiasaiat<br></td><td>2<br>2</td><td>iN<br>TC</td><td>oor<br>025)</td><td>069<br>St</td><td>181<br>14S</td><td>ool<br>D</td><td>a7l<br>O</td><td>200<br>S</td><td>2<br>2</td><td>IN<br>TC</td><td>om@<br>025</td><td>066<br>04</td><td>i78<br>71</td><td>O02<br>40</td><td>Om<br>22</td><td>187<br>58<br></td></tr><tr><td>Cortina Praition:<br></td><td>2<br>2<br></td><td>TN<br>To</td><td>O02<br>038</td><td>026.<br>N</td><td>018<br>93</td><td>O01<br>5</td><td>OMS<br>8</td><td>178<br>a</td><td>2<br>2<br></td><td>N<br>TC</td><td>o<br>027</td><td>O11<br>075</td><td>to<br>1.95</td><td>O08<br>020</td><td>os<br>08S</td><td>Is0</td><td><br>263</td></tr><tr><td>RF</td><td>ninee</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>vatree</td></tr><tr><td>au<br>hecaadhioanal</td><td>100<br>100</td><td>TN<br>TC)</td><td>Or<br>O.2</td><td>oss<br>O82</td><td>245<br>238</td><td>OOF<br>OH</td><td>O@%<br>S</td><td>48<br>A</td><td>10<br>SM</td><td>IN<br>TC</td><td>ao)</td><td>OSt<br>S2</td><td>250<br>52</td><td>OO<br>0</td><td>am<br>75</td><td>558<br>K</td></tr><tr><td>Larne</td><td>100<br>100</td><td>IN<br>=TC)</td><td>OOF<br>25</td><td>os<br>O</td><td>240<br></td><td>oO2<br>M</td><td>GS)<br></td><td>23<br></td><td>1m<br>S</td><td>IN<br></td><td>om<br>S</td><td>O78<br>St</td><td>218<br></td><td>O02<br></td><td>ost<br></td><td>251<br>s</td></tr><tr><td>Online</td><td><br>1<br></td><td><br>IN<br></td><td><br>OO<br></td><td><br>om<br></td><td>19<br></td><td>OO8<br></td><td>O55<br></td><td>im<br></td><td>lo<br></td><td>IN<br></td><td>am<br></td><td><br>079<br></td><td><br>am<br></td><td>O02<br></td><td>Om<br></td><td>280<br></td></tr><tr><td>Prediction</td><td>199</td><td>TC</td><td>21</td><td>069</td><td>18</td><td><br>OD</td><td>T</td><td>SB</td><td>MT</td><td>C</td><td>S</td><td>72</td><td>8</td><td></td><td></td><td>s</td></tr></table>
+PMC4409415_005_00.png,477,82,954,164,30,0.017857142857142905,0.017857142857142905,1.0,0.2768032919993857,0,317,0,,"Effect 
+
+F 
+
+at 
+
+p 
+
+Estimate 
+
+(SE 
+
+
+
+<!-- Start of picture text -->
+Laying date 29.03 1, 29.03 <0.0001 0.058 (0.012)<br>Age ct ternale 0.00 1, 16.86 099 0.0001 (0.0179<br>No. oars occupwed 1.10 1, 1541 0.31 0.006 (0.006)<br>Laying date x Yoar 19.35 1, 37.10 <0.0001 0.052 (0.012)<br><!-- End of picture text -->
+
+",<table></table>,0.017857142857142905,0.017857142857142905,1.0,0.1834537079994334,0,169,16,"Laying date
+29.03
+1.29.03
+0.0001
+0.058 (0.012)
+Laying date x Year
+1935
+1.37.10
+0.0001
+0.052 (0.012)
+","
+
+<!-- Start of picture text -->
+Laying date 29.03 1.29.03 0.0001 0.058 (0.012)<br>Laying date x Year 1935 1.37.10 0.0001 0.052 (0.012)<br><!-- End of picture text -->
+
+",<table></table>
+PMC1964888_004_00.png,340,244,680,488,179,0.13371252204585538,0.4444444444444444,0.564437194127243,0.7198099590023048,174,1136,0,,"||V<br>“tame|AG<br>ciposed|Toud|28<br>bopoed|J<br>To|KT<br>wra<br>bpoed|
+|---|---|---|---|---|---|---|
+|Wm|6.16025|3,906+251|168+36|324|<LOD|«LOD|
+|CoLl>|1,16?=6|<br>3202173|<br>«LOO|«LOO|«LOD|«LOD|
+|CCL|<br>1120|7922188|4222|420|Nel|1022|
+|COLI|18221|<br>10924|Ws]|2625|2322|7228|
+|CSF-2""|8:0|Mh22|820|1921|<LOD|«LOD|
+|CXCLIO’|aa:7|O912tet|+H|2:|G22e|4428|
+|FLT3ligand|<LOD|<br>«LOO|<LOD|<LOO|«LOD|«LOD|
+|<br>IFMey|23|10625|1420|4213|«LOD|«LOD|
+|Ihe|1,25)=5?|29226|+21|221|921|232|
+|Lip|<br>21|6522|«LOO|«LOO|«LOO|«LOD|
+|Ke2<br>|<LOD<br>|<LDO<br>|<LOD<br>|<LOD<br>|<LOD<br>|<LOD<br>|
+|-3|R21|190+?|Wed|<br>M21|«LOD|«LOD|
+|hea|<LOD|<LOO|<LOD|<LOD|<LOD|<LOD|
+|eS|<LOD|<L0O|<LOD|<br><LOD|«LOD|<LOD|
+|heb|4322|3716+98|111+66|<br>27702705|«LOD|«LOD|
+|IL-7|22%|<br>775268|<br>2322|+18|«LOD|<LOD|
+|h-8|256)22|407231?|S?226|339239|«LOD|«LOD|
+|-10|<br>Wied|1622|«LOD|<LOD|«LOD|<LOD|
+|K-17p40|35425|348213|+9|<br>i224|«LOD|«LOD|
+|i-12p70|<LOD|«LOO|<LOD|<LOD|«LOD|«LOD|
+|h-13|<LOD|<LDO|<LOD|<LOD|<LOD|<LOD|
+|h-15|<LOD|<L0O|<LOD|<LOD|<LOD|<LOD|
+|TNF-~<e|020|27,0102100|<LOD|<br><LOD|<LOD|<LOD|
+|VEGF|1926|<br>1620|<br>73213|<br>67210|4122|229|
+
+
+
+","<table><tr><th>V<br>“tame</th><th>AG<br>ciposed</th><th>Toud</th><th>28<br>bopoed</th><th>J<br>To</th><th>KT<br>wra<br>bpoed</th></tr><tr><td>Wm</td><td>6.16025</td><td>3,906+251</td><td>168+36</td><td>324</td><td><LOD</td><td>«LOD</td></tr><tr><td>CoLl></td><td>1,16?=6</td><td><br>3202173</td><td><br>«LOO</td><td>«LOO</td><td>«LOD</td><td>«LOD</td></tr><tr><td>CCL</td><td><br>1120</td><td>7922188</td><td>4222</td><td>420</td><td>Nel</td><td>1022</td></tr><tr><td>COLI</td><td>18221</td><td><br>10924</td><td>Ws]</td><td>2625</td><td>2322</td><td>7228</td></tr><tr><td>CSF-2""</td><td>8:0</td><td>Mh22</td><td>820</td><td>1921</td><td><LOD</td><td>«LOD</td></tr><tr><td>CXCLIO’</td><td>aa:7</td><td>O912tet</td><td>+H</td><td>2:</td><td>G22e</td><td>4428</td></tr><tr><td>FLT3ligand</td><td><LOD</td><td><br>«LOO</td><td><LOD</td><td><LOO</td><td>«LOD</td><td>«LOD</td></tr><tr><td><br>IFMey</td><td>23</td><td>10625</td><td>1420</td><td>4213</td><td>«LOD</td><td>«LOD</td></tr><tr><td>Ihe</td><td>1,25)=5?</td><td>29226</td><td>+21</td><td>221</td><td>921</td><td>232</td></tr><tr><td>Lip</td><td><br>21</td><td>6522</td><td>«LOO</td><td>«LOO</td><td>«LOO</td><td>«LOD</td></tr><tr><td>Ke2<br></td><td><LOD<br></td><td><LDO<br></td><td><LOD<br></td><td><LOD<br></td><td><LOD<br></td><td><LOD<br></td></tr><tr><td>-3</td><td>R21</td><td>190+?</td><td>Wed</td><td><br>M21</td><td>«LOD</td><td>«LOD</td></tr><tr><td>hea</td><td><LOD</td><td><LOO</td><td><LOD</td><td><LOD</td><td><LOD</td><td><LOD</td></tr><tr><td>eS</td><td><LOD</td><td><L0O</td><td><LOD</td><td><br><LOD</td><td>«LOD</td><td><LOD</td></tr><tr><td>heb</td><td>4322</td><td>3716+98</td><td>111+66</td><td><br>27702705</td><td>«LOD</td><td>«LOD</td></tr><tr><td>IL-7</td><td>22%</td><td><br>775268</td><td><br>2322</td><td>+18</td><td>«LOD</td><td><LOD</td></tr><tr><td>h-8</td><td>256)22</td><td>407231?</td><td>S?226</td><td>339239</td><td>«LOD</td><td>«LOD</td></tr><tr><td>-10</td><td><br>Wied</td><td>1622</td><td>«LOD</td><td><LOD</td><td>«LOD</td><td><LOD</td></tr><tr><td>K-17p40</td><td>35425</td><td>348213</td><td>+9</td><td><br>i224</td><td>«LOD</td><td>«LOD</td></tr><tr><td>i-12p70</td><td><LOD</td><td>«LOO</td><td><LOD</td><td><LOD</td><td>«LOD</td><td>«LOD</td></tr><tr><td>h-13</td><td><LOD</td><td><LDO</td><td><LOD</td><td><LOD</td><td><LOD</td><td><LOD</td></tr><tr><td>h-15</td><td><LOD</td><td><L0O</td><td><LOD</td><td><LOD</td><td><LOD</td><td><LOD</td></tr><tr><td>TNF-~<e</td><td>020</td><td>27,0102100</td><td><LOD</td><td><br><LOD</td><td><LOD</td><td><LOD</td></tr><tr><td>VEGF</td><td>1926</td><td><br>1620</td><td><br>73213</td><td><br>67210</td><td>4122</td><td>229</td></tr></table>",0.0,0.14746543778801846,0.9257748776508973,0.631948124995688,60,591,167,"Ma
+ee
+Kr
+i
+ir
+Times
+3Wba2s
+Tees
+Bde
+=o
+<10D
+cei
+1168265
+35021 =<LOD
+<100
+<to0<L0D
+cclse
+11800
+T2215
+Ae?
+Hem
+Met
+1022
+ceuite
+st
+10924
+Oe?
+ss
+Het
+O36
+Csk2""
+20
+1622
+820
+get
+<t00<LOD
+cxcii0!
+37
+Sister
+539
+@:2
+ak
+a
+LTB igand
+<t0D
+<100
+<100
+<100
+<t00—<LOD
+Fy
+23
+10625
+tae0
+Mev = clk
+kta
+12532 57
+29228
+wet
+Ment
+S21
+Gea
+kp
+ast
+8522
+<t00
+<t00
+<t00
+LOD
+k2
+<t0D
+<100
+<109
+<109
+<t00—<LOD
+ka
+ie
+19027
+i5e3
+Stet
+<to0
+LOD
+ka
+<t0D
+<100
+<10a
+<100
+<to0
+LoD
+ks
+<toD
+<100
+<100
+<100
+<t00—<LOD
+k6
+4:2
+371629
+eeB
+27MM
+cD
+LOD
+u7
+2st
+2526
+22
+saei8 = <tod | <L0D
+re)
+2522
+«472972
+cL
+LOD
+19
+26
+1822
+<100
+<100
+<to0—<LoD
+et2pt0
+5435
+mB213
+523
+Ret
+<to0
+LoD
+12570
+<t0D
+<100
+<100
+<100
+<t00—<LoD
+ory
+<t00
+<100
+<100
+<100
+<to0
+LoD
+MAS
+<t0D
+<100
+<109
+<109
+<t00—<LOD
+Thre
+isd
+20102 = 100
+<100
+<to0
+LOD
+viGr
+3026
+120
+en
+CS eePe
+Po
+","|ir|M<br>i|a||e||r|
+|---|---|---|---|---|---|---|
+|cei<br>cclse<br>|Times<br>1168265<br>|3Wba2s<br>35021<br>|Tees<br><LOD<br>|Bde<br><100<br>|=o<br><to0<br>|<10D<br><L0D<br>|
+||||||||
+|||<br><br><br>|||||
+||||||||
+||37<br>|Sister<br>|539<br>|@:2<br>|ak<br>|a<br>|
+||||||||
+|<br><br>|||||||
+||<br>|||<br><br>|<br><br>||
+||<br><br>||||||
+||||||||
+||||||||
+||||||||
+||||||||
+|k6<br>|4:2<br>|371629<br>|eeB<br>|27MM<br>|cD<br>|LOD<br>|
+|||||||<br>|
+|||||<br><br>|<br><br>|<br><br>|
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+|||<br>|<br>||||
+|viGr|3026|<br>120|<br>en|CS|e<sup>Pe</sup>|Po|
+
+
+
+",<table><tr><th>ir</th><th>M<br>i</th><th>a</th><th></th><th>e</th><th></th><th>r</th></tr><tr><td>cei<br>cclse<br></td><td>Times<br>1168265<br></td><td>3Wba2s<br>35021<br></td><td>Tees<br><LOD<br></td><td>Bde<br><100<br></td><td>=o<br><to0<br></td><td><10D<br><L0D<br></td></tr><tr><td></td></tr><tr><td><br><br><br></td></tr><tr><td></td></tr><tr><td>37<br></td><td>Sister<br></td><td>539<br></td><td>@:2<br></td><td>ak<br></td><td>a<br></td></tr><tr><td></td></tr><tr><td><br><br></td></tr><tr><td><br></td><td></td><td></td><td><br><br></td><td><br><br></td></tr><tr><td><br><br></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td>k6<br></td><td>4:2<br></td><td>371629<br></td><td>eeB<br></td><td>27MM<br></td><td>cD<br></td><td>LOD<br></td></tr><tr><td><br></td></tr><tr><td><br><br></td><td><br><br></td><td><br><br></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td><br></td><td><br></td></tr><tr><td>viGr</td><td>3026</td><td><br>120</td><td><br>en</td><td>CS</td><td>e<sup>Pe</sup></td><td>Po</td></tr></table>
+PMC3420024_002_00.png,489,81,978,162,31,0.021276595744680882,0.021276595744680882,1.0,0.29612954200274544,0,369,0,,"
+
+<!-- Start of picture text -->
+Diagnosis Age (years) Mean (SD) Sex (No. (%)]<br>B-NHL™ Min16 Max75 40.17 (17.5) MIF50 (69.4)/22 Ratio (30.6)=2.3/1<br>T-NHL 17 72 35.27(17.1) 9 (GOG (40)=1.5/1<br>HL® 16 70 30.46 (14.9) 28 (52)/26 (48)=1.1/1<br>Mh 36 85 61.9 (13) 30 (649/17 (36)=1.8/1<br>Control 17 83 43.48(16.9) 110 (S590 (45)=1.2/1<br><!-- End of picture text -->
+
+",<table></table>,0.021276595744680882,0.021276595744680882,0.3037542662116041,0.2695391249944805,2,352,48,"Diagnosis
+‘Age (years)
+‘Mean (SD)
+‘Sex [No. (%)]
+Min
+Max
+MIF Ratio
+SNATS)
+CSC~*«CO OANA OG ZaT |
+T-NHL
+7
+72
+35.27(17.1)
+9 (GOy'6 (40)=1.5/1
+HL?
+16
+70
+30.46 (14.9)
+28 (52)26 (48)=1.1/1
+MMe
+6
+85
+61.9 (13)
+30 (64)/17 (36)=1.8/1
+Control
+17
+83
+43.48(16.9)
+110 (5590 (45)=1.2/1
+","
+
+<!-- Start of picture text -->
+Diagnosis ‘Age (years) ‘Mean (SD) ‘Sex [No. (%)]<br>Min Max MIF Ratio<br>SNATS)<br>T-NHL 7 72 35.27(17.1) CSC~*«CO9 (GOy'6OANA(40)=1.5/1OG ZaT |<br>HL? 16 70 30.46 (14.9) 28 (52)26 (48)=1.1/1<br>MMe 6 85 61.9 (13) 30 (64)/17 (36)=1.8/1<br>Control 17 83 43.48(16.9) 110 (5590 (45)=1.2/1<br><!-- End of picture text -->
+
+",<table><tr><th>Diagnosis ‘Age (years) ‘Mean (SD) ‘Sex [No. (%)]<br>Min Max MIF Ratio<br>SNATS)<br>T-NHL 7 72 35.27(17.1) CSC~*«CO9 (GOy'6OANA(40)=1.5/1OG ZaT</th><th><br>HL? 16 70 30.46 (14.9) 28 (52)26 (48)=1.1/1<br>MMe 6 85 61.9 (13) 30 (64)/17 (36)=1.8/1<br>Control 17 83 43.48(16.9) 110 (5590 (45)=1.2/1<br><!-- End of picture text --></th></tr></table>
+PMC3695046_006_00.png,243,138,486,276,45,0.611904761904762,0.7777777777777778,0.18471337579617833,0.3057593750054366,45,346,0,,"|pig|Crosa section<br>area(een)|Resting Wngth <br>(rmen)|Mean shearGast<br>modulus (hPa)|Mean tangent<br>traction modulus<br>(kPa)|
+|---|---|---|---|---|
+|i|aa3|400|74.6|27365|
+|2|1140|450|73.3|42165|
+|kK}|%3|420|67.6|2070.8|
+|4|710|650|75.8|54105|
+|5|486|440|35.6|37365|
+|6|$40|55.0|24.3|34204|
+|7|483|60.0|47.6|27227|
+|6|466|400|52.4|seo.9|
+
+
+
+",<table><tr><th>pig</th><th>Crosa section<br>area(een)</th><th>Resting Wngth <br>(rmen)</th><th>Mean shearGast<br>modulus (hPa)</th><th>Mean tangent<br>traction modulus<br>(kPa)</th></tr><tr><td>i</td><td>aa3</td><td>400</td><td>74.6</td><td>27365</td></tr><tr><td>2</td><td>1140</td><td>450</td><td>73.3</td><td>42165</td></tr><tr><td>kK}</td><td>%3</td><td>420</td><td>67.6</td><td>2070.8</td></tr><tr><td>4</td><td>710</td><td>650</td><td>75.8</td><td>54105</td></tr><tr><td>5</td><td>486</td><td>440</td><td>35.6</td><td>37365</td></tr><tr><td>6</td><td>$40</td><td>55.0</td><td>24.3</td><td>34204</td></tr><tr><td>7</td><td>483</td><td>60.0</td><td>47.6</td><td>27227</td></tr><tr><td>6</td><td>466</td><td>400</td><td>52.4</td><td>seo.9</td></tr></table>,0.015873015873015928,0.015873015873015928,1.0,0.28931308300525416,0,326,57,"a
+tag
+Cross sectional Resting angth Mean shear elastic waction modubis
+pla aren jue)
+rm) mods (14)
+(Pay
+7
+es
+“0D
+76
+6s
+2
+140
+450
+m3
+4265
+5
+a63
+20
+as
+20r08
+s
+710
+650
+738
+S405,
+5
+488
+440
+se
+37385
+6
+S40
+$50
+243
+sa204
+7
+aes
+soo
+ae
+ma?
+e468
+400
+ga
+e003
+","
+
+<!-- Start of picture text -->
+atag<br>pla7 Crossaren sectional jue) Restingrm)angthmods Mean shear (14) elastic waction(Paymodubis<br>2 140es “0D450 76m3 6s4265<br>5 a63 20 as 20r08<br>s 710 650 738 S405,<br>5 488 440 se 37385<br>6 S40 $50 243 sa204<br>7 aes soo ae ma?<br>e468 400 ga e003<br><!-- End of picture text -->
+
+",<table></table>
+PMC4057466_004_00.png,486,177,972,354,68,0.02083333333333337,0.02083333333333337,0.9775596072931276,0.2779096669983119,1,124,0,,"HVE! group 
+
+Control group (n = 23) Baseline (in = 23) Six weeks (n = 23) Six months (n = 21) 
+
+|Echocardiography|
+|---|
+
+
+
+",<table><tr><th>Echocardiography</th></tr></table>,0.01041666666666663,0.01041666666666663,1.0,0.2111664580006618,0,111,18,"VET group
+Control group (n= 23) __ Baseline (7= 23)
+Ske weeks (n= 23)
+__Sixmonths (n= 21)
+Echocardbography
+","VET group Control group (n= 23) __ Baseline (7= 23) Ske weeks (n= 23) __Sixmonths (n= 21) 
+
+Echocardbography 
+
+",<table></table>
+PMC3691622_003_01.png,486,60,972,120,28,0.02083333333333337,0.02083333333333337,1.0,0.21428612500312738,0,326,0,,"p-values Stride time 
+
+
+
+<!-- Start of picture text -->
+speed (Ls ws Hs]<br><!-- End of picture text -->
+
+
+
+<!-- Start of picture text -->
+<0.001<br><!-- End of picture text -->
+
+Cadence Stride length Stance time DS! $$ 
+
+
+
+<!-- Start of picture text -->
+<0.001<br><!-- End of picture text -->
+
+0.001 
+
+0.001 
+
+0.002 <0.001 
+
+",<table></table>,0.02083333333333337,0.02083333333333337,1.0,0.21881866700277897,0,198,18,"“_pvalues—sss=~*«éSrIGe
+time
+~=—=Cadence
+Stride length
+——sStancetime =
+OST
+SS
+ped(LS
+v5
+HS
+<0.001
+<0.001
+2.001
+0.001
+0.002
+<0.001
+","“_pvalues—sss=~*«éSrIGetime ~=—=Cadence Stride length ——sStancetime = OST SS 
+
+
+
+<!-- Start of picture text -->
+ped (LS v5 HS <0.001 <0.001 2.001 0.001 0.002 <0.001<br><!-- End of picture text -->
+
+",<table></table>
+PMC5504861_003_00.png,238,391,476,782,88,0.6180520921892794,0.9098360655737705,0.3225225225225225,0.4697450840030797,89,713,0,,"|Vente<br>~—~”~””””|C””””C|TTCC<br>quency <br>tN}|«dR<br> Petter<br>fH)|
+|---|---|---|---|
+|Age (in yoo)|20-30|116|Sas|
+||31-40|71|333|
+||41-50|2|10.8|
+||251|3|14|
+|Sex|Atle|é}|236|
+||Female|140|Fiat]|
+|Relgen|Onthedan|14|911|
+||Musim|4|28|
+||Catholic|2|al|
+|Educstiona status|Diploma|142|tas|
+||Degree|a2|241|
+||IiSe|3|14|
+|Monthly salary ust)|7S~108|N|37.1|
+||1A1D- 174|as|315|
+||174106207|4)|192|
+||20710260|22|143|
+||2240.10|a|28|
+|Type health facilty|GradHop|%|m3|
+||Primary Hospital|§=41|192|
+||Health Center|116|Sas|
+|Working experierce (in year)|led|111|S21|
+||6-1D|4)|a2|
+||T-18|V|&0|
+||16-20|16|?s|
+||21-30|3|11?|
+||231|1|5|
+
+
+
+|Vente<br>~—~”~””””|C””””CTTCC«dR<br>quencyPetter<br>tN}<br>|
+|---|---|
+
+
+
+",<table><tr><th>Vente<br>~—~”~””””</th><th>C””””C</th><th>TTCC<br>quency <br>tN}</th><th>«dR<br> Petter<br>fH)</th></tr><tr><td>Age (in yoo)</td><td>20-30</td><td>116</td><td>Sas</td></tr><tr><td>31-40</td><td>71</td><td>333</td></tr><tr><td>41-50</td><td>2</td><td>10.8</td></tr><tr><td>251</td><td>3</td><td>14</td></tr><tr><td>Sex</td><td>Atle</td><td>é}</td><td>236</td></tr><tr><td>Female</td><td>140</td><td>Fiat]</td></tr><tr><td>Relgen</td><td>Onthedan</td><td>14</td><td>911</td></tr><tr><td>Musim</td><td>4</td><td>28</td></tr><tr><td>Catholic</td><td>2</td><td>al</td></tr><tr><td>Educstiona status</td><td>Diploma</td><td>142</td><td>tas</td></tr><tr><td>Degree</td><td>a2</td><td>241</td></tr><tr><td>IiSe</td><td>3</td><td>14</td></tr><tr><td>Monthly salary ust)</td><td>7S~108</td><td>N</td><td>37.1</td></tr><tr><td>1A1D- 174</td><td>as</td><td>315</td></tr><tr><td>174106207</td><td>4)</td><td>192</td></tr><tr><td>20710260</td><td>22</td><td>143</td></tr><tr><td>2240.10</td><td>a</td><td>28</td></tr><tr><td>Type health facilty</td><td>GradHop</td><td>%</td><td>m3</td></tr><tr><td>Primary Hospital</td><td>§=41</td><td>192</td></tr><tr><td>Health Center</td><td>116</td><td>Sas</td></tr><tr><td>Working experierce (in year)</td><td>led</td><td>111</td><td>S21</td></tr><tr><td>6-1D</td><td>4)</td><td>a2</td></tr><tr><td>T-18</td><td>V</td><td>&0</td></tr><tr><td>16-20</td><td>16</td><td>?s</td></tr><tr><td>21-30</td><td>3</td><td>11?</td></tr><tr><td>231</td><td>1</td><td>5</td></tr></table>,0.5481544438540586,0.8536585365853658,0.3387387387387387,0.46973474999686005,86,624,0,,"|Vomble =<br>OSO~*~*~C~*~‘<br>|“‘—*”:””:<br>|””CSCS<br>QU CY<br>nN<br>|*C«U<br>=Cr<br>a<br>|
+|---|---|---|---|
+|r||||
+||31-40|n|333|
+||41-50|2|108|
+||2s|3|4|
+|Sem|Male|a|236|
+||Female|180|rae|
+|Relgon|Onhodax|1s|1|
+||Muslim|6|28|
+||Catholic|B|ol|
+|Educationalstatus|Opioma|148|as|
+||Degree|a|2|
+||MiSe|3|14|
+|Monthly salaryQuS0)|75-108|»|371|
+||10B.10-174|“a|xs|
+||174.10-207|4|192|
+||207.10-240|2|103|
+||2240.10|6|28|
+|Type health facilty|Gereral Hopped||3|
+||Primary Hospital|«41|192|
+||Health Center|116|Sas|
+|Working experience (Jn year)|eS|mm|$21|
+||6-10|a|m2|
+||WelS|7|80|
+||16-20|6|7s|
+||21-30|p=3|Ww?|
+||231|1|s|
+
+
+
+",<table><tr><th>Vomble =<br>OSO~*~*~C~*~‘<br></th><th>“‘—*”:””:<br></th><th>””CSCS<br>QU CY<br>nN<br></th><th>*C«U<br>=Cr<br>a<br></th></tr><tr><td>r</td></tr><tr><td>31-40</td><td>n</td><td>333</td></tr><tr><td>41-50</td><td>2</td><td>108</td></tr><tr><td>2s</td><td>3</td><td>4</td></tr><tr><td>Sem</td><td>Male</td><td>a</td><td>236</td></tr><tr><td>Female</td><td>180</td><td>rae</td></tr><tr><td>Relgon</td><td>Onhodax</td><td>1s</td><td>1</td></tr><tr><td>Muslim</td><td>6</td><td>28</td></tr><tr><td>Catholic</td><td>B</td><td>ol</td></tr><tr><td>Educationalstatus</td><td>Opioma</td><td>148</td><td>as</td></tr><tr><td>Degree</td><td>a</td><td>2</td></tr><tr><td>MiSe</td><td>3</td><td>14</td></tr><tr><td>Monthly salaryQuS0)</td><td>75-108</td><td>»</td><td>371</td></tr><tr><td>10B.10-174</td><td>“a</td><td>xs</td></tr><tr><td>174.10-207</td><td>4</td><td>192</td></tr><tr><td>207.10-240</td><td>2</td><td>103</td></tr><tr><td>2240.10</td><td>6</td><td>28</td></tr><tr><td>Type health facilty</td><td>Gereral Hopped</td><td></td><td>3</td></tr><tr><td>Primary Hospital</td><td>«41</td><td>192</td></tr><tr><td>Health Center</td><td>116</td><td>Sas</td></tr><tr><td>Working experience (Jn year)</td><td>eS</td><td>mm</td><td>$21</td></tr><tr><td>6-10</td><td>a</td><td>m2</td></tr><tr><td>WelS</td><td>7</td><td>80</td></tr><tr><td>16-20</td><td>6</td><td>7s</td></tr><tr><td>21-30</td><td>p=3</td><td>Ww?</td></tr><tr><td>231</td><td>1</td><td>s</td></tr></table>
+PMC5995197_005_00.png,512,127,1024,254,35,0.017857142857142905,0.017857142857142905,1.0,0.3714473750005709,0,602,0,,"
+
+<!-- Start of picture text -->
+Group<br><!-- End of picture text -->
+
+Group Healthy Clinically Relapse-onset Primarycontrol isolated multiple progressive syndrome sclerosis* multiple sclerosis nm (females, n) 203 (112) 253 (i171) 834 (548) 12S (55) Age (+80) 38.7 + 10.5 3328 39.7498 40.5 + 10.1 Disease duration (+30) ” O4214 8.06 + 6.03 68+59 Medan EDSS (range) - 1 (0.4.5) 2 (0-9) § (2-8) Per cent (n) of patients receiving dsease-moditfying eatments - 20 (52) 47 (397) é (8) Baseline median whe matter Tp lesion load (mf) (Ist-Jed quartile) ” 297 (1.01-S.04) 6.04 (2.05-11.79)"" 9.38 (269-2202) 
+
+",<table></table>,0.017857142857142905,0.017857142857142905,1.0,0.29341004099842394,0,587,75,"Group
+Healthy
+Clinically
+Relapse-onset
+—Primary-
+contro!
+isolated
+multiple
+progressive
+syndrome
+sclerosis""
+multiple
+sclerosis
+(females, 0)
+209 (112)
+253 (171)
+6 (548)
+125 ($5)
+‘Age (380)
+wa7+10S
+338
+397498
+485 £101
+Disease duration (+0)
+-
+CrPary
+806 £8.03
+68459
+Medan EDSS (rare)
+-
+1@45)
+20-9
+sas
+Per cont (0) of patients receiving dsease-modéying treatments
+-
+20 (82)
+47097)
+6@
+Baseline median whice matter T3 lesion load (mi) (Ist-2ed quardie)
+==
+297 (101-504)
+$04 205-11.79*
+9.38 (269-2202)
+","
+
+<!-- Start of picture text -->
+Group Healthy Clinically Relapse-onset —Primary-<br>contro! isolated multiple progressive<br>syndrome sclerosis"" multiple<br>sclerosis<br>(females, 0) 209 (112) 253 (171) 6 (548) 125 ($5)<br>‘Age (380) wa7+10S 338 397498 485 £101<br>Disease duration (+0) - CrPary 806 £8.03 68459<br>Medan EDSS (rare) - 1@45) 20-9 sas<br>Per cont (0) of patients receiving dsease-modéying treatments - 20 (82) 47097) 6@<br>Baseline median whice matter T3 lesion load (mi) (Ist-2ed quardie) == 297 (101-504) $04 205-11.79* 9.38 (269-2202)<br><!-- End of picture text -->
+
+",<table></table>
+PMC5379570_007_00.png,486,508,972,1016,268,0.41757918440161423,0.8847352024922118,0.48698099929627026,1.0362776670008316,268,1365,0,,"|~~|PA|A|AIA<br>|WEPA|(HA|SD|O80|OOD|
+|---|---|---|---|---|---|---|---|---|
+||||<br>|<br>|||||
+||oo2|~O.08|—1.06|0.09|D3|25|“O11|a03|
+|P|Ds2|<0.01|<(101|0.19|024|aol|<0.D1|agi|
+|R2|b2p|Om|O24|020|020|a22|022|a2?|
+|peo|B.0003|aos|o.o2|005|OD!|ao?|Dios|ad2|
+|inVAT|||||||||
+|B|boos|0.08|-15?|023|OD?|gi2|0.1?|ad2|
+|Pp|OSS|<0.01|<{1D1|<D01|OD2|a34|<0).D1|agg|
+|R2|O.1?|a28|023|019|O18|ai?|D2D|aig|
+|peo|BOoo2|aos|0.06|001|ODS|q.00002|Dos|ane|
+|Tatalfr,|||||||||
+|B|a4|—10636|-23209.7|19393|605.1|38712|—18259|a9|
+|Pp|DM|<0.01|<{101|O12|OL?|aoa|oR|aes|
+|R2|015|O26|O22|O16|DIG|ai?|D1?|a2?|
+|pro|b.0o0e|an|0.06|oo?|ODCa|aoa|DM|ada|
+|Total faz,%|||||||||
+|B|0.10|-O8?|-194|2.06|O56|325|-15?|032|
+|P|oy|<0.01|<(LD1|0.0|O12|03|OI|aes|
+|R2|O42|ag|04?|042|O42|43|O43|$2|
+|peo|DOO2|aos|Om|Oe|ODO?|aq|0.05|ad2|
+|Trurk fat|||||||||
+|B|—455|~619.6|—145185|1139.1|435.0|14676|-13254|220.7|
+|Pp|hed|<0.01|<101|O12|0.10|(13|<0D1|ag|
+|R2|0.15|a24|022|Q16|DIG|16|0.18|an|
+|peo|BOoo4|aos|oo?|ooo?|ODO?|ao0?7|0.03|CLO|
+|ih Leg fat|||||||||
+|B|D006|0.04|78|oor|OD!|022|-005|aa2|
+|Pp|om|<0.01|<{LD1|QF|oso|<td)|0.1?|age|
+|R2|O31|a3?|0.35|O32|Oa!|ai34|DR|a4l|
+|peo|Dood|aos|Oo|0.04|DOS|a1|0.03|ad)|
+|Trurk/Leg fat|||||||||
+|B|—0003|O04|—189|Ql4|OD?|O11|O11|ad2|
+|P|O92|<0.01|<t101|005|a001|a3)|DOR|aod|
+|R2|bab|aas|O04?|O04?|04?|ox|O04?|ade|
+|pro|D.0003|dogs|Do|00m|0D02|a0|D000?|1005|
+
+
+
+","<table><tr><th>~~</th><th>PA</th><th>A</th><th>AIA<br></th><th>WEPA</th><th>(HA</th><th>SD</th><th>O80</th><th>OOD</th></tr><tr><td><br></td><td><br></td></tr><tr><td>oo2</td><td>~O.08</td><td>—1.06</td><td>0.09</td><td>D3</td><td>25</td><td>“O11</td><td>a03</td></tr><tr><td>P</td><td>Ds2</td><td><0.01</td><td><(101</td><td>0.19</td><td>024</td><td>aol</td><td><0.D1</td><td>agi</td></tr><tr><td>R2</td><td>b2p</td><td>Om</td><td>O24</td><td>020</td><td>020</td><td>a22</td><td>022</td><td>a2?</td></tr><tr><td>peo</td><td>B.0003</td><td>aos</td><td>o.o2</td><td>005</td><td>OD!</td><td>ao?</td><td>Dios</td><td>ad2</td></tr><tr><td>inVAT</td></tr><tr><td>B</td><td>boos</td><td>0.08</td><td>-15?</td><td>023</td><td>OD?</td><td>gi2</td><td>0.1?</td><td>ad2</td></tr><tr><td>Pp</td><td>OSS</td><td><0.01</td><td><{1D1</td><td><D01</td><td>OD2</td><td>a34</td><td><0).D1</td><td>agg</td></tr><tr><td>R2</td><td>O.1?</td><td>a28</td><td>023</td><td>019</td><td>O18</td><td>ai?</td><td>D2D</td><td>aig</td></tr><tr><td>peo</td><td>BOoo2</td><td>aos</td><td>0.06</td><td>001</td><td>ODS</td><td>q.00002</td><td>Dos</td><td>ane</td></tr><tr><td>Tatalfr,</td></tr><tr><td>B</td><td>a4</td><td>—10636</td><td>-23209.7</td><td>19393</td><td>605.1</td><td>38712</td><td>—18259</td><td>a9</td></tr><tr><td>Pp</td><td>DM</td><td><0.01</td><td><{101</td><td>O12</td><td>OL?</td><td>aoa</td><td>oR</td><td>aes</td></tr><tr><td>R2</td><td>015</td><td>O26</td><td>O22</td><td>O16</td><td>DIG</td><td>ai?</td><td>D1?</td><td>a2?</td></tr><tr><td>pro</td><td>b.0o0e</td><td>an</td><td>0.06</td><td>oo?</td><td>ODCa</td><td>aoa</td><td>DM</td><td>ada</td></tr><tr><td>Total faz,%</td></tr><tr><td>B</td><td>0.10</td><td>-O8?</td><td>-194</td><td>2.06</td><td>O56</td><td>325</td><td>-15?</td><td>032</td></tr><tr><td>P</td><td>oy</td><td><0.01</td><td><(LD1</td><td>0.0</td><td>O12</td><td>03</td><td>OI</td><td>aes</td></tr><tr><td>R2</td><td>O42</td><td>ag</td><td>04?</td><td>042</td><td>O42</td><td>43</td><td>O43</td><td>$2</td></tr><tr><td>peo</td><td>DOO2</td><td>aos</td><td>Om</td><td>Oe</td><td>ODO?</td><td>aq</td><td>0.05</td><td>ad2</td></tr><tr><td>Trurk fat</td></tr><tr><td>B</td><td>—455</td><td>~619.6</td><td>—145185</td><td>1139.1</td><td>435.0</td><td>14676</td><td>-13254</td><td>220.7</td></tr><tr><td>Pp</td><td>hed</td><td><0.01</td><td><101</td><td>O12</td><td>0.10</td><td>(13</td><td><0D1</td><td>ag</td></tr><tr><td>R2</td><td>0.15</td><td>a24</td><td>022</td><td>Q16</td><td>DIG</td><td>16</td><td>0.18</td><td>an</td></tr><tr><td>peo</td><td>BOoo4</td><td>aos</td><td>oo?</td><td>ooo?</td><td>ODO?</td><td>ao0?7</td><td>0.03</td><td>CLO</td></tr><tr><td>ih Leg fat</td></tr><tr><td>B</td><td>D006</td><td>0.04</td><td>78</td><td>oor</td><td>OD!</td><td>022</td><td>-005</td><td>aa2</td></tr><tr><td>Pp</td><td>om</td><td><0.01</td><td><{LD1</td><td>QF</td><td>oso</td><td><td)</td><td>0.1?</td><td>age</td></tr><tr><td>R2</td><td>O31</td><td>a3?</td><td>0.35</td><td>O32</td><td>Oa!</td><td>ai34</td><td>DR</td><td>a4l</td></tr><tr><td>peo</td><td>Dood</td><td>aos</td><td>Oo</td><td>0.04</td><td>DOS</td><td>a1</td><td>0.03</td><td>ad)</td></tr><tr><td>Trurk/Leg fat</td></tr><tr><td>B</td><td>—0003</td><td>O04</td><td>—189</td><td>Ql4</td><td>OD?</td><td>O11</td><td>O11</td><td>ad2</td></tr><tr><td>P</td><td>O92</td><td><0.01</td><td><t101</td><td>005</td><td>a001</td><td>a3)</td><td>DOR</td><td>aod</td></tr><tr><td>R2</td><td>bab</td><td>aas</td><td>O04?</td><td>O04?</td><td>04?</td><td>ox</td><td>O04?</td><td>ade</td></tr><tr><td>pro</td><td>D.0003</td><td>dogs</td><td>Do</td><td>00m</td><td>0D02</td><td>a0</td><td>D000?</td><td>1005</td></tr></table>",0.18426612583054314,0.591002044989775,0.5756509500351865,0.7869933330002823,275,1935,270,"— PAA SS™*~C“‘WCACSCON™SC‘“‘#C“‘SnNPASSCSCHASC MDC
+a
+8
+oo
+~00s
+106
+008
+ona
+02s
+on
+a3
+°
+oa
+<001
+001
+ars
+028
+aor
+<001
+aa
+pa
+020
+026
+028
+ox
+020
+022
+02
+ar
+re
+coo
+aoa
+oo
+1006
+01
+ao?
+bot
+ane
+(VAT
+8
+006
+-008,
+“137
+02
+oo
+ar
+07
+aa
+°
+08s
+<001
+001
+<0ot
+on
+a3a
+<001
+83
+pa
+ow
+028
+02
+ars
+one
+an
+020
+aig
+re
+ceo
+ans
+006
+ao
+208
+anon02
+bot
+ao
+Total fst.g
+B
+aa
+10636
+2307
+19383
+eos!
+382
+18269
+m9
+°
+os
+<001
+<001
+an
+on
+aoa
+oo
+ase
+pa
+xs
+2
+om
+a6
+16
+an
+on
+ar
+re
+cece
+an
+006
+cn?
+x0!
+aga
+bot
+0a,
+Total fa, 9
+8
+010
+-os?
+198
+205
+056
+325
+“137
+-022
+°
+079
+<001
+<001
+as
+ona
+003
+bot
+gs
+pa
+oa
+as
+oa?
+ons
+oa
+aa3
+043
+ase
+re
+co
+cre)
+oo
+008
+20?
+an
+006
+ane
+Trunk fat
+8
+455
+6396
+145185
+maa
+4380
+1676
+13256
+mor
+°
+09
+<001
+001
+an
+10
+a13
+<001
+85
+pa
+xs
+2
+om
+a6
+016
+ars
+exe
+an
+re
+coo
+03
+oo
+cn?
+x0?
+00?
+03
+098
+br teg fat
+8
+008
+-008
+178
+oar
+oor
+022
+005
+az
+e
+om
+<001
+«001
+aw
+060
+<0
+on
+aise
+pa
+oat
+037
+03s
+ox
+oat
+a3a
+032
+an
+re
+cogs
+ans
+oo
+cron}
+00s
+aio
+08
+aor
+TrurkiLeg ft
+8
+0003
+-008
+289
+ans
+oo?
+“an
+“on
+aa
+°
+om
+<001
+001
+0s
+001
+031
+oo
+499
+pa
+046
+as
+oa?
+oar
+oa
+aa
+oa?
+ase
+re
+cco
+ane
+02
+006
+002
+096
+200?
+1005
+","|—|A|ASS™*|C“‘WCACSCON|™SC‘“‘#C“‘S|nNPASSCSC|ASCM|D|C|
+|---|---|---|---|---|---|---|---|---|
+|<br>||<br><br>||||<br><br>|<br><br>|<br><br>|
+||oo|~00s|106|008|ona|02s|on|a3|
+|°<br>|oa<br>|<001<br>|001<br>|ars<br>|028<br>|aor<br>|<001<br>|aa<br>|
+|pa<br>|020<br>|026<br>|028<br>|ox<br>|020<br>|022<br>|02<br>|ar<br>|
+|re|coo|aoa|oo|1006|01|ao?|bot|ane|
+|(VAT<br>|||||||||
+|8<br>|006<br>|-008,<br>|“137<br>|02<br>|oo<br>|ar<br>|07<br>|aa<br>|
+|°<br>|08s<br>|<001<br>|001<br>|<0ot<br>|on<br>|a3a<br>|<001<br>|83<br>|
+|pa<br>|ow<br>|028<br>|02<br>|ars<br>|one<br>|an<br>|020<br>|aig<br>|
+|re|ceo|ans|006|ao|208|anon02|bot|ao|
+|Total fst.g<br>|||||||||
+|B<br>|aa<br>|10636<br>|2307<br>|19383<br>|eos!<br>|382<br>|18269<br>|m9<br>|
+|°<br>|os<br>|<001<br>|<001<br>|an<br>|on<br>|aoa<br>|oo<br>|ase<br>|
+|pa<br>|xs<br>|2<br>|om<br>|a6<br>|16<br>|an<br>|on<br>|ar<br>|
+|re|cece|an|006|cn?|x0!|aga|bot|0a,|
+|Total fa, 9<br>|||||||||
+|8<br>|010<br>|-os?<br>|198<br>|205<br>|056<br>|325<br>|“137<br>|-022<br>|
+|°<br>|079<br>|<001<br>|<001<br>|as<br>|ona<br>|003<br>|bot<br>|gs<br>|
+|pa<br>|oa<br>|as<br>|oa?<br>|ons<br>|oa<br>|aa3<br>|043<br>|ase<br>|
+|re|co|cre)|oo|008|20?|an|006|ane|
+|Trunk fat<br>|||||||||
+|8|455|6396|145185|maa|4380|1676|13256|mor|
+|°<br>|09<br>|<001<br>|001<br>|an<br>|10<br>|a13<br>|<001<br>|85<br>|
+|pa<br>|xs<br>|2<br>|om<br>|a6<br>|016<br>|ars<br>|exe<br>|an<br>|
+|re|coo|03|oo|cn?|x0?|00?|03|098|
+|br teg fat<br>|||||||||
+|8<br>|008<br>|-008<br>|178<br>|oar<br>|oor<br>|022<br>|005<br>|az<br>|
+|e<br>|om<br>|<001<br>|«001<br>|aw<br>|060<br>|<0<br>|on<br>|aise<br>|
+|pa<br>|oat<br>|037<br>|03s<br>|ox<br>|oat<br>|a3a<br>|032<br>|an<br>|
+|re|cogs|ans|oo|cron}|00s|aio|08|aor|
+|TrurkiLeg ft<br>|||||||||
+|8|0003|-008|289|ans|oo?|“an|“on|aa|
+|°<br>|om<br>|<001<br>|001<br>|0s<br>|001<br>|031<br>|oo<br>|499<br>|
+|pa<br>|046<br>|as<br>|oa?<br>|oar<br>|oa<br>|aa<br>|oa?<br>|ase<br>|
+|re|cco|ane|02|006|002|096|200?|1005|
+
+
+
+","<table><tr><th>—</th><th>A</th><th>ASS™*</th><th>C“‘WCACSCON</th><th>™SC‘“‘#C“‘S</th><th>nNPASSCSC</th><th>ASCM</th><th>D</th><th>C</th></tr><tr><td><br></td><td></td><td><br><br></td><td></td><td></td><td></td><td><br><br></td><td><br><br></td><td><br><br></td></tr><tr><td>oo</td><td>~00s</td><td>106</td><td>008</td><td>ona</td><td>02s</td><td>on</td><td>a3</td></tr><tr><td>°<br></td><td>oa<br></td><td><001<br></td><td>001<br></td><td>ars<br></td><td>028<br></td><td>aor<br></td><td><001<br></td><td>aa<br></td></tr><tr><td>pa<br></td><td>020<br></td><td>026<br></td><td>028<br></td><td>ox<br></td><td>020<br></td><td>022<br></td><td>02<br></td><td>ar<br></td></tr><tr><td>re</td><td>coo</td><td>aoa</td><td>oo</td><td>1006</td><td>01</td><td>ao?</td><td>bot</td><td>ane</td></tr><tr><td>(VAT<br></td></tr><tr><td>8<br></td><td>006<br></td><td>-008,<br></td><td>“137<br></td><td>02<br></td><td>oo<br></td><td>ar<br></td><td>07<br></td><td>aa<br></td></tr><tr><td>°<br></td><td>08s<br></td><td><001<br></td><td>001<br></td><td><0ot<br></td><td>on<br></td><td>a3a<br></td><td><001<br></td><td>83<br></td></tr><tr><td>pa<br></td><td>ow<br></td><td>028<br></td><td>02<br></td><td>ars<br></td><td>one<br></td><td>an<br></td><td>020<br></td><td>aig<br></td></tr><tr><td>re</td><td>ceo</td><td>ans</td><td>006</td><td>ao</td><td>208</td><td>anon02</td><td>bot</td><td>ao</td></tr><tr><td>Total fst.g<br></td></tr><tr><td>B<br></td><td>aa<br></td><td>10636<br></td><td>2307<br></td><td>19383<br></td><td>eos!<br></td><td>382<br></td><td>18269<br></td><td>m9<br></td></tr><tr><td>°<br></td><td>os<br></td><td><001<br></td><td><001<br></td><td>an<br></td><td>on<br></td><td>aoa<br></td><td>oo<br></td><td>ase<br></td></tr><tr><td>pa<br></td><td>xs<br></td><td>2<br></td><td>om<br></td><td>a6<br></td><td>16<br></td><td>an<br></td><td>on<br></td><td>ar<br></td></tr><tr><td>re</td><td>cece</td><td>an</td><td>006</td><td>cn?</td><td>x0!</td><td>aga</td><td>bot</td><td>0a,</td></tr><tr><td>Total fa, 9<br></td></tr><tr><td>8<br></td><td>010<br></td><td>-os?<br></td><td>198<br></td><td>205<br></td><td>056<br></td><td>325<br></td><td>“137<br></td><td>-022<br></td></tr><tr><td>°<br></td><td>079<br></td><td><001<br></td><td><001<br></td><td>as<br></td><td>ona<br></td><td>003<br></td><td>bot<br></td><td>gs<br></td></tr><tr><td>pa<br></td><td>oa<br></td><td>as<br></td><td>oa?<br></td><td>ons<br></td><td>oa<br></td><td>aa3<br></td><td>043<br></td><td>ase<br></td></tr><tr><td>re</td><td>co</td><td>cre)</td><td>oo</td><td>008</td><td>20?</td><td>an</td><td>006</td><td>ane</td></tr><tr><td>Trunk fat<br></td></tr><tr><td>8</td><td>455</td><td>6396</td><td>145185</td><td>maa</td><td>4380</td><td>1676</td><td>13256</td><td>mor</td></tr><tr><td>°<br></td><td>09<br></td><td><001<br></td><td>001<br></td><td>an<br></td><td>10<br></td><td>a13<br></td><td><001<br></td><td>85<br></td></tr><tr><td>pa<br></td><td>xs<br></td><td>2<br></td><td>om<br></td><td>a6<br></td><td>016<br></td><td>ars<br></td><td>exe<br></td><td>an<br></td></tr><tr><td>re</td><td>coo</td><td>03</td><td>oo</td><td>cn?</td><td>x0?</td><td>00?</td><td>03</td><td>098</td></tr><tr><td>br teg fat<br></td></tr><tr><td>8<br></td><td>008<br></td><td>-008<br></td><td>178<br></td><td>oar<br></td><td>oor<br></td><td>022<br></td><td>005<br></td><td>az<br></td></tr><tr><td>e<br></td><td>om<br></td><td><001<br></td><td>«001<br></td><td>aw<br></td><td>060<br></td><td><0<br></td><td>on<br></td><td>aise<br></td></tr><tr><td>pa<br></td><td>oat<br></td><td>037<br></td><td>03s<br></td><td>ox<br></td><td>oat<br></td><td>a3a<br></td><td>032<br></td><td>an<br></td></tr><tr><td>re</td><td>cogs</td><td>ans</td><td>oo</td><td>cron}</td><td>00s</td><td>aio</td><td>08</td><td>aor</td></tr><tr><td>TrurkiLeg ft<br></td></tr><tr><td>8</td><td>0003</td><td>-008</td><td>289</td><td>ans</td><td>oo?</td><td>“an</td><td>“on</td><td>aa</td></tr><tr><td>°<br></td><td>om<br></td><td><001<br></td><td>001<br></td><td>0s<br></td><td>001<br></td><td>031<br></td><td>oo<br></td><td>499<br></td></tr><tr><td>pa<br></td><td>046<br></td><td>as<br></td><td>oa?<br></td><td>oar<br></td><td>oa<br></td><td>aa<br></td><td>oa?<br></td><td>ase<br></td></tr><tr><td>re</td><td>cco</td><td>ane</td><td>02</td><td>006</td><td>002</td><td>096</td><td>200?</td><td>1005</td></tr></table>"
+PMC4242548_004_00.png,486,59,972,118,52,0.01388888888888884,0.01388888888888884,1.0,0.20763637500203913,0,88,0,,"Gene/Variant frequency APC EGFR FGFR3 KDR KIT MET PDGFRA PIK3CA RET SsiMo STK11 TPS3. 
+
+",<table></table>,0.02777777777777779,0.02777777777777779,0.7174721189591078,0.18357695799932117,1,90,16,"GeneiVariant frequency
+APC
+EGFR
+FGFR3
+KDR
+KIT
+MET
+POGFRA
+PIK3CA
+RET
+SMO
+TKI? —‘TPS3 |
+ai
+","GeneiVariant frequency APC EGFR FGFR3 KDR KIT MET POGFRA PIK3CA RET SMO TKI? —‘TPS3ai | 
+
+",<table><tr><th>GeneiVariant frequency APC EGFR FGFR3 KDR KIT MET POGFRA PIK3CA RET SMO TKI? —‘TPS3ai</th></tr></table>
+PMC4446844_005_00.png,238,129,476,258,68,0.22631745082402988,0.375,0.5020325203252033,0.43170104199816706,48,516,0,,"Age grcup Paticpencs Populwion” Sarates 
+
+N Mean SD WN ican SD WM yeas’ 38 084 O20 1325 086 019 di=37,p-050° 
+
+|30-39 years|108|072|026|1681|O84|021|df-107,p<b001|
+|---|---|---|---|---|---|---|---|
+|40-29years|211|O61|030|1382|081|023|df=210 p<000!|
+|S0-S9years|376|059|031|1255|080|024|df<34,p<b001|
+|60-9 years|543|059|030|1245|080|022|df=S22, p<0001|
+|70-9 yeors|$45|047|030|912|076|023|df=Set, p<0001|
+|0+ years?<br>|«174<br>|«031<br>|«G2?<br>|3s?)<br>|«00<br>|«(026<br>|df=173,p<0001<br>S<br>ee<br>eee|
+
+
+
+SS 
+
+","<table><tr><th>30-39 years</th><th>108</th><th>072</th><th>026</th><th>1681</th><th>O84</th><th>021</th><th>df-107,p<b001</th></tr><tr><td>40-29years</td><td>211</td><td>O61</td><td>030</td><td>1382</td><td>081</td><td>023</td><td>df=210 p<000!</td></tr><tr><td>S0-S9years</td><td>376</td><td>059</td><td>031</td><td>1255</td><td>080</td><td>024</td><td>df<34,p<b001</td></tr><tr><td>60-9 years</td><td>543</td><td>059</td><td>030</td><td>1245</td><td>080</td><td>022</td><td>df=S22, p<0001</td></tr><tr><td>70-9 yeors</td><td>$45</td><td>047</td><td>030</td><td>912</td><td>076</td><td>023</td><td>df=Set, p<0001</td></tr><tr><td>0+ years?<br></td><td>«174<br></td><td>«031<br></td><td>«G2?<br></td><td>3s?)<br></td><td>«00<br></td><td>«(026<br></td><td>df=173,p<0001<br>S<br>ee<br>eee</td></tr></table>",0.02083333333333337,0.02083333333333337,0.6280487804878049,0.2788965419968008,2,407,74,"Age group Paricparss
+Population”
+Sates
+SC
+N
+Mean
+SDN
+Mean
+SD
+Te-9yeos 38
+O84 O20 1325 086
+019
+di=37,p=050 |
+30-39years
+108
+072
+026 1681
+O84
+021 df= 107, p<0001
+40-29 years
+211
+061
+030
+1282
+O81
+023
+df=210,p<o001
+$0-S9 years
+376
+059
+031 1295
+080
+024 df=375,p<0001
+60-year
+$43
+059
+030
+1245
+080
+022
+df=Se2,p<oco!
+0-P9
+years
+$45
+0A?
+030
+912
+076
+023
+df=Set,p<Oc0!
+80+ yeas?
+174
+031
+027
+357
+00
+026
+df=173,p<0001
+","Age group Paricparss Population” Sates SC N Mean SDN Mean SD Te-9yeos 38 O84 O20 1325 086 019 di=37,p=050 | 30-39years 108 072 026 1681 O84 021 df= 107, p<0001 40-29 years 211 061 030 1282 O81 023 df=210,p<o001 $0-S9 years 376 059 031 1295 080 024 df=375,p<0001 60-year $43 059 030 1245 080 022 df=Se2,p<oco! 0-P9 years $45 0A? 030 912 076 023 df=Set,p<Oc0! 80+ yeas? 174 031 027 357 00 026 df=173,p<0001 
+
+","<table><tr><th>Age group Paricparss Population” Sates SC N Mean SDN Mean SD Te-9yeos 38 O84 O20 1325 086 019 di=37,p=050</th><th>30-39years 108 072 026 1681 O84 021 df= 107, p<0001 40-29 years 211 061 030 1282 O81 023 df=210,p<o001 $0-S9 years 376 059 031 1295 080 024 df=375,p<0001 60-year $43 059 030 1245 080 022 df=Se2,p<oco! 0-P9 years $45 0A? 030 912 076 023 df=Set,p<Oc0! 80+ yeas? 174 031 027 357 00 026 df=173,p<0001</th></tr></table>"
+PMC5492880_004_00.png,486,234,972,468,26,0.022727272727272707,0.022727272727272707,1.0,0.5520601669995813,0,1079,0,,"Measure 
+
+Definition’ Coding 
+
+Lewel of measurement 
+
+Qutcame Koviotie 
+
+Attitude score 
+
+Total algebraic sum of the rated scores by the respanderns (between 0 and 120) 
+
+Ordinal 
+
+### Background Vanable: 
+
+# Respondent's location 
+
+wae 
+
+# Gender 
+
+## CasteyEthricty 
+
+Provider's type 
+
+Provider's exposure ta deatiity 
+
+At the time of sunvey, respanders Ihing in VOC are cocaidered rural and iving in Municipalty are urban. (7 = paral, 2 = urban) 
+
+Compkeed age of women at the tee of survey in years. (1 = 18624, 2 = 25-34 9 = 36-44,4 = 45-54, 5 = 55-14) hise ce female respondent {1 = male, 2 = female) 
+
+Self-reported caste and ethnicity of respondent woman (1 = Colt, 2 = Non-Dule) 
+
+Classification of heakheare providers by their job role. (i = FCHY, 2 = ANM/Nune, 3 = DrvHA/AH) 
+
+Setvieetreatment given 9a persons with cisabiities. () = Yes, 2 = Nal Aaternal health care semice given to women with disabilities (i = Yes. 2 = No] Deabiity related training/ceentation received. (i = Yes, 2 = No] 
+
+Caregercal 
+
+Caregorical 
+
+Caegedcal Cxegodcal 
+
+Caregorical 
+
+Caegedcal 
+
+",<table></table>,0.045454545454545414,0.045454545454545414,0.9980787704130644,0.44646320799802197,1,1008,160,"Wem
+~SO*~=<“*‘“‘*”*C~CICINGsSs—“—~*~*~*~*~—CSsSOSSCSSSCSCS*C*séi
+ve meme
+|
+Onmanmtome
+|
+Attitude score
+Total algebraic sum of the rated scores by
+Ordinal
+the respondents tberween 0 and 180)
+Background Vanabies
+Respondent’ location
+‘A the timeof survey, respondent Iving in VDC are
+Coregerteal
+coreidered rural and Ivng in Municipaty are urban.
+(1 = naal,2= urban)
+age
+Completed age ofwomen
+at thetime
+of survey in years,
+Coregerteal
+(1 = 18-24,
+2
+25-34
+3 =
+35-44,
+4 =
+45-54,
+5 =
+55-60)
+Gender
+Male cr female respondent {1 = male, 2 = female)
+Caregertcal
+CastevEthevcty
+Self-reported caste and ethnicity f respondent woman
+Caregertcal
+(1 = Colt, 2 = Non Dale)
+Pronider’s type
+Classification of heathcare providersby theiJb role
+Coregerteal
+(1 = FCHY, 2 = ANMUNure, 3 = CeJHAZAHAD
+Provider's exposure to deailty
+Servce/teatment
+given to persons with disblities (1 = Yes2 = Na}
+Coregertcal
+IMaernal health care serice glen to women with disblities
+(= Yer 2 = No}
+Deatity elated tainng/enentation recetved.
+(= Yen 2 = Nol
+","|ve 
+
+Wem~SO*~=<“*‘“‘*”*C~CICINGsSs—“—~*~*~*~*~—CSsSOSSCSSSCSCS*C*séi|ve meme | 
+
+Onmanmtome 
+
+Attitude score Total algebraic sum of the rated scores by the respondents tberween 0 and 180) Background Vanabies Respondent’ location ‘Acoreideredthe timeruralof survey,and Ivng respondentin Municipaty Iving in are VDCurban. are (1 = naal,2= urban) age Completed(1 = 18-24,age of womenat the timeof survey in years, Gender 2 25-343 = 35-44,4 = 45-54,5 = 55-60) Self-reported caste and ethnicity f respondent woman CastevEthevcty Male cr female respondent {1 = male, 2 = female) (1 = Colt, 2 = Non Dale) Pronider’s type Classification(1 = FCHY, 2 of= ANMUNure,heathcare providers3 = CeJHAZAHADby thei Jb role Provider's exposure to deailty Servce/teatmentIMaernal(= Yer health2 = No} caregivensericeto persons withglen to womendisblities with disblities(1 = Yes2 = Na} Deatity elated tainng/enentation recetved. (= Yen 2 = Nol 
+
+Ordinal 
+
+Coregerteal Coregerteal Caregertcal Caregertcal Coregerteal Coregertcal 
+
+",<table><tr><th>ve</th></tr></table>
+PMC4908124_005_00.png,509,139,1018,278,58,0.15557820269179523,0.3643410852713178,0.5073627844712182,0.48927150000235997,53,915,0,,"# No-MD 
+
+MD 
+
+||Vehicle|Mifepeistome|Vehicte|Mifepriaton|
+|---|---|---|---|---|
+|Agcuracy(35)<br>|MLS+1.23|96.15+0.86|939.42||
+|<br>Oriedions[¥)""»|<br>8004073|<br>9.38+0.84|**+1.**05<br>7.33<br>11|95.**1**7**+**077<br>1.23<br>1.41|
+|<br>Pramatura(8]|3.40+1.16|<br>6.15+0.97|<br><br><br>4.58+0.58|<br> <br><br>450208)|
+|<br>Porsawarart (0)|<br>3.75 + 1.22|<br>3.60+0.91|<br>5.38+1.40|425+1.18|
+|Latency<br>tocorrect(2)|0.74+C03|<br>0O.7520.03|<br>0.74+0.02|<br>O73+002|
+|<br>Latarssytorrweard(a)<br>|<br>1.12242.06|1.1220D.05|<br>1.1940.04|<br>1.28<br>|
+|<br><br> <br>|<br>||<br>||
+|<br><br> <br>||<br>||<br> <br>|
+|<br><br>pallet male’TO(|<br>NP <sup>stimulus</sup><br>holes/TO(a]*|<br>2334048<br>0.19+O03|<br>2.41+0.26<br>O21+003|<br>1.984**0**24<br>0.32+.06|<br>1.**7**12**0**28<br>O2<br>+06|
+|<br> <br> <br>Totalduration(rin)|<br>18062027|<br> <br>18.38+0.23|<br>  <br>18.334024|<br>18734024|
+
+
+
+Mifepriatone 
+
+","<table><tr><th>Vehicle</th><th>Mifepeistome</th><th>Vehicte</th><th>Mifepriaton</th></tr><tr><td>Agcuracy(35)<br></td><td>MLS+1.23</td><td>96.15+0.86</td><td>939.42</td></tr><tr><td><br>Oriedions[¥)""»</td><td><br>8004073</td><td><br>9.38+0.84</td><td>**+1.**05<br>7.33<br>11</td><td>95.**1**7**+**077<br>1.23<br>1.41</td></tr><tr><td><br>Pramatura(8]</td><td>3.40+1.16</td><td><br>6.15+0.97</td><td><br><br><br>4.58+0.58</td><td><br> <br><br>450208)</td></tr><tr><td><br>Porsawarart (0)</td><td><br>3.75 + 1.22</td><td><br>3.60+0.91</td><td><br>5.38+1.40</td><td>425+1.18</td></tr><tr><td>Latency<br>tocorrect(2)</td><td>0.74+C03</td><td><br>0O.7520.03</td><td><br>0.74+0.02</td><td><br>O73+002</td></tr><tr><td><br>Latarssytorrweard(a)<br></td><td><br>1.12242.06</td><td>1.1220D.05</td><td><br>1.1940.04</td><td><br>1.28<br></td></tr><tr><td><br><br> <br></td><td><br></td><td></td><td><br></td></tr><tr><td><br><br> <br></td><td></td><td><br></td><td></td><td><br> <br></td></tr><tr><td><br><br>pallet male’TO(</td><td><br>NP <sup>stimulus</sup><br>holes/TO(a]*</td><td><br>2334048<br>0.19+O03</td><td><br>2.41+0.26<br>O21+003</td><td><br>1.984**0**24<br>0.32+.06</td><td><br>1.**7**12**0**28<br>O2<br>+06</td></tr><tr><td><br> <br> <br>Totalduration(rin)</td><td><br>18062027</td><td><br> <br>18.38+0.23</td><td><br>  <br>18.334024</td><td><br>18734024</td></tr></table>",0.046354166666666585,0.25,0.9317269076305221,0.41043250000075204,46,601,96,"NoMo
+Mo
+‘Wehicte
+Mitepristone
+‘Vehicle
+Mitepriatone
+Accuracy (%)
+sens + 123
+95.15 +086
+9942+ 1.08
+95174077
+Oman (>
+004073
+938 +084
+7331.41
+11234141
+Promatur
+am 1.15
+6154097
+ase4 058
+4504080
+Posevorrt (9)
+784122
+3504091
+5.384140
+8254 1.18
+Lataney
+to coroct(
+ova saa
+7540.08
+0744002
+a73£ace
+Lataney to nrward 6)
+4.124.006
+112 40.05
+1.194008
+1282007
+NP palit role Ti (6f'>»
+28 +84
+300.0 + 48.4
+15504 463
+17044306
+NP pattt nckoTO (a)
+2234048
+24t £0.26
+1.984026
+4714024
+NP stems hole TO (sit
+0.194008
+zt +003
+02+ 0.08
+27 +006
+Tota duration frie)
+18084027
+1838 +023
+18334028
+18734024
+","||N<br>‘Wehicte|Mo<br>||o<br>|
+|---|---|---|---|---|
+|<br>|||||
+|<br> <br>|<br>|<br>|||
+|<br> <br><br>|<br><br>|<br> <br>|||
+|<br> <br><br> <br>|<br><br><br>|<br> <br><br>|<br><br> <br>||
+|<br><br> <br><br><br>||<br><br><br>|<br><br>||
+|<br><br><br> <br>|<br><br> <br>||<br><br><br>||
+|<br><br><br> <br>   <br>|<br><br>|<br>||<br><br><br>|
+|<br>  <br>   <br> <br>|<br><br> <br>|<br> <br>|<br>||
+|<br>    <br> <br>  <br>|<br><br>|<br> <br><br>|<br><br>||
+|<br>  <br>  <br>|<br><br><br>|<br><br><br><br>|<br><br> <br>|<br>|
+|<br>   <br>durationfrie)|180827|<br><br>1838<br>2|<br>18334028|<br>183424|
+
+
+
+",<table><tr><th>N<br>‘Wehicte</th><th>Mo<br></th><th></th><th>o<br></th></tr><tr><td><br></td></tr><tr><td><br> <br></td><td><br></td><td><br></td></tr><tr><td><br> <br><br></td><td><br><br></td><td><br> <br></td></tr><tr><td><br> <br><br> <br></td><td><br><br><br></td><td><br> <br><br></td><td><br><br> <br></td></tr><tr><td><br><br> <br><br><br></td><td></td><td><br><br><br></td><td><br><br></td></tr><tr><td><br><br><br> <br></td><td><br><br> <br></td><td></td><td><br><br><br></td></tr><tr><td><br><br><br> <br>   <br></td><td><br><br></td><td><br></td><td></td><td><br><br><br></td></tr><tr><td><br>  <br>   <br> <br></td><td><br><br> <br></td><td><br> <br></td><td><br></td></tr><tr><td><br>    <br> <br>  <br></td><td><br><br></td><td><br> <br><br></td><td><br><br></td></tr><tr><td><br>  <br>  <br></td><td><br><br><br></td><td><br><br><br><br></td><td><br><br> <br></td><td><br></td></tr><tr><td><br>   <br>durationfrie)</td><td>180827</td><td><br><br>1838<br>2</td><td><br>18334028</td><td><br>183424</td></tr></table>
+PMC1388224_003_00.png,503,190,1006,380,74,0.2946802935010483,0.39622641509433965,0.3442982456140351,0.4258327910065418,60,615,0,,"Monch 
+
+# Number processed 
+
+# Number infected with 
+
+PF: PAY 
+
+P. falciparum (%) 
+
+P. vivax (%) 
+
+|jan|ie|241.7)|21.7)|it|
+|---|---|---|---|---|
+|Feb<br>|324<br>|8 (2.5)<br>|0 (0.0)<br>|0<br>|
+|Mar|1426|48(3.4)|12(0.8)|4:1|
+|Age|326|<br>14(4.3)|<br>0(0.0)|0|
+|May<br>|662<br>|<br>6(0.9)<br>|<br>0(0.0)<br>|0<br>|
+|Jun|1a0|<br>14(7.8)|<br>21.1)|ya|
+|Aug|398<br>574|<br>32(8.0)<br>10 (1.7)|4(1.0)<br>8 (1.4)|&!<br>il|
+|Sep|219|<br>0(0.0)|<br>0(0.0)|0|
+|Oc|278|<br>6 (2.2)|<br>1 (0.4)|6:1|
+|Nov<br>|276<br>|31.1)<br>|2(0.7)<br>|1S:l<br>|
+|Dec|221|11(5.0)|<br>1(0.45)|Hist|
+|Toul|5002|<br>184(3.1)|<br>32(0.6)|S:1|
+
+
+
+",<table><tr><th>jan</th><th>ie</th><th>241.7)</th><th>21.7)</th><th>it</th></tr><tr><td>Feb<br></td><td>324<br></td><td>8 (2.5)<br></td><td>0 (0.0)<br></td><td>0<br></td></tr><tr><td>Mar</td><td>1426</td><td>48(3.4)</td><td>12(0.8)</td><td>4:1</td></tr><tr><td>Age</td><td>326</td><td><br>14(4.3)</td><td><br>0(0.0)</td><td>0</td></tr><tr><td>May<br></td><td>662<br></td><td><br>6(0.9)<br></td><td><br>0(0.0)<br></td><td>0<br></td></tr><tr><td>Jun</td><td>1a0</td><td><br>14(7.8)</td><td><br>21.1)</td><td>ya</td></tr><tr><td>Aug</td><td>398<br>574</td><td><br>32(8.0)<br>10 (1.7)</td><td>4(1.0)<br>8 (1.4)</td><td>&!<br>il</td></tr><tr><td>Sep</td><td>219</td><td><br>0(0.0)</td><td><br>0(0.0)</td><td>0</td></tr><tr><td>Oc</td><td>278</td><td><br>6 (2.2)</td><td><br>1 (0.4)</td><td>6:1</td></tr><tr><td>Nov<br></td><td>276<br></td><td>31.1)<br></td><td>2(0.7)<br></td><td>1S:l<br></td></tr><tr><td>Dec</td><td>221</td><td>11(5.0)</td><td><br>1(0.45)</td><td>Hist</td></tr><tr><td>Toul</td><td>5002</td><td><br>184(3.1)</td><td><br>32(0.6)</td><td>S:1</td></tr></table>,0.1506213855051063,0.3410852713178295,0.5350877192982456,0.31743129099777434,58,623,82,"Moreh
+(Number processed
+‘Number infected with
+PRPY
+2. falopara (%)
+P. wax (%)
+an
+18
+207)
+2417)
+a
+Feb
+304
+#Q5)
+0400)
+°
+Mar
+1426
+4804)
+1208)
+4A
+Me
+226
+1443)
+(09)
+°
+May
+662
+6 (0.9)
+0 (00)
+°
+jen
+180
+1478)
+241.1)
+u
+M
+398
+32(80)
+41.9)
+al
+Aa
+574
+101.7)
+814)
+131
+Sep
+219
+0(00)
+0400)
+°
+Oc
+278
+622)
+1(04)
+1
+Nov
+m6
+3 (1.1)
+2(07)
+1st
+Dec
+221
+116.0)
+1 (045)
+vet
+Tou
+5002
+1543.1)
+3206)
+su
+","Moreh 
+
+(Number processed 
+
+‘Number infected with 
+
+PRPY 
+
+2. falopara (%) 
+
+P. wax (%) 
+
+|an<br>|18<br>|207)<br>|2417)<br>|a<br>|
+|---|---|---|---|---|
+|Feb<br>|304<br>|#Q5)<br>|0400)<br>|°<br>|
+|Mar<br>|1426<br>|4804)<br>|1208)<br>|4A<br>|
+|Me<br>|226<br>|1443)<br>|(09)<br>|°<br>|
+|||<br>|<br>||
+|jen<br>|180<br>|<br>1478)<br>|<br>241.1)<br>|u<br>|
+|M<br>|398<br>|32(80)<br>|41.9)<br>|al<br>|
+|Aa<br>|574<br>|101.7)<br>|814)<br>|131<br>|
+|Sep<br>|219<br>|0(00)<br>|0400)<br>|°<br>|
+|Oc<br>|278<br>|622)<br>|1(04)<br>|1<br>|
+|Nov<br>|m6<br>|3(1.1)<br>|2(07)<br>|1st<br>|
+|||<br><br>|||
+|Tou|5002|1543.1)|<br>3206)|su|
+
+
+
+",<table><tr><th>an<br></th><th>18<br></th><th>207)<br></th><th>2417)<br></th><th>a<br></th></tr><tr><td>Feb<br></td><td>304<br></td><td>#Q5)<br></td><td>0400)<br></td><td>°<br></td></tr><tr><td>Mar<br></td><td>1426<br></td><td>4804)<br></td><td>1208)<br></td><td>4A<br></td></tr><tr><td>Me<br></td><td>226<br></td><td>1443)<br></td><td>(09)<br></td><td>°<br></td></tr><tr><td><br></td><td><br></td></tr><tr><td>jen<br></td><td>180<br></td><td><br>1478)<br></td><td><br>241.1)<br></td><td>u<br></td></tr><tr><td>M<br></td><td>398<br></td><td>32(80)<br></td><td>41.9)<br></td><td>al<br></td></tr><tr><td>Aa<br></td><td>574<br></td><td>101.7)<br></td><td>814)<br></td><td>131<br></td></tr><tr><td>Sep<br></td><td>219<br></td><td>0(00)<br></td><td>0400)<br></td><td>°<br></td></tr><tr><td>Oc<br></td><td>278<br></td><td>622)<br></td><td>1(04)<br></td><td>1<br></td></tr><tr><td>Nov<br></td><td>m6<br></td><td>3(1.1)<br></td><td>2(07)<br></td><td>1st<br></td></tr><tr><td><br><br></td></tr><tr><td>Tou</td><td>5002</td><td>1543.1)</td><td><br>3206)</td><td>su</td></tr></table>
+PMC3852533_004_00.png,486,86,972,172,34,0.012987012987012991,0.012987012987012991,1.0,0.3214834590035025,0,141,0,,"292concentration ~~—~—~SKAT20 concentration 
+
+ACR concentration (WM) (pM) (pi) ~sS 0. 1S “$sO95 amOS 
+
+1 $ 
+
+ttt tt £ rit t+ + . + . : . . 
+
+",<table></table>,0.012987012987012991,0.012987012987012991,0.8299319727891157,0.2832981669998844,2,117,20,"BOOZ
+CONCUNRatION =—sssSs*=<i*é‘~*‘éiRKITZONCOCODNAVAION
+ACR concentration
+an,
+unt)
+tum)
+ee
+ee
+|
+1
+te
+”
+*
+oH
+”
++
+s
+""
+","BOOZCONCUNRatION =—sssSs*=<i*é‘~*‘éiRKITZONCOCODNAVAION ACR concentration an, unt) tum) ee ee | 1te ” * oH ” + s "" 
+
+","<table><tr><th>BOOZCONCUNRatION =—sssSs*=<i*é‘~*‘éiRKITZONCOCODNAVAION ACR concentration an, unt) tum) ee ee</th><th>1te ” * oH ” + s ""</th></tr></table>"
+PMC3470931_008_00.png,409,42,818,84,9,0.05882352941176472,0.05882352941176472,1.0,0.2049393749985029,0,275,0,,"Univariate 
+
+
+
+<!-- Start of picture text -->
+Logit-sensilivity 1.41 (0.76) [0.79]<br>Logit-specificity 1.03 (0.33) [0.79]<br><!-- End of picture text -->
+
+Bivariate 
+
+
+
+<!-- Start of picture text -->
+1.49 (0.78) [0.90]<br>1.02 (0.31) [0.76]<br><!-- End of picture text -->
+
+",<table></table>,0.05882352941176472,0.05882352941176472,1.0,0.175834458997997,0,208,18,"Univariate
+Bivariate
+HL ogit-sensitivity
+1.41 (0.76) [0.79]
+1.49 (0.78) (0.90)
+I ogit-specificity
+1.03 (0.33) [0.79]
+1.02 (0.31) [0.76]
+","
+
+<!-- Start of picture text -->
+Univariate Bivariate<br>HL ogit-sensitivity 1.41 (0.76) [0.79] 1.49 (0.78) (0.90)<br>I ogit-specificity 1.03 (0.33) [0.79] 1.02 (0.31) [0.76]<br><!-- End of picture text -->
+
+",<table></table>
+PMC4608988_003_00.png,242,134,484,268,36,0.038461538461538436,0.038461538461538436,0.16129032258064516,0.2775539590002154,2,300,0,,"Patient Gender JLA category Age at inchasion (years, moths) | Female Psonaticarthntis [4.4 A Female Oligoarthnitis 15.8 3 Femak Oligoarthmts 1s 4 Femak Polyarthnts (RF+) 13.7 5 Male = Olligearthritis 17 6 Male = Polyarthntx (RF-) 8.8 7 Male = Polyarthntss (RF+) 13.2 s Femak Polyarthnts (RF-) 14.4 
+
+","<table><tr><th>Patient Gender JLA category Age at inchasion (years, moths)</th><th>Female Psonaticarthntis [4.4 A Female Oligoarthnitis 15.8 3 Femak Oligoarthmts 1s 4 Femak Polyarthnts (RF+) 13.7 5 Male = Olligearthritis 17 6 Male = Polyarthntx (RF-) 8.8 7 Male = Polyarthntss (RF+) 13.2 s Femak Polyarthnts (RF-) 14.4</th></tr></table>",0.019230769230769273,0.019230769230769273,1.0,0.23505800000566524,0,392,42,"Patient Gender JIA category
+Age atinchasion
+(years, moots)
+1
+Female Psoriatic arthritis
+144
+2
+Female Oligoarthriis = 1S.8
+3
+Female Oligoarthriis,
+=
+11S
+4
+Female
+Polyarthitis(RF+)
+13.7
+S
+Male
+Oligoarthriis,
+117
+6
+Male
+Polyarthritis(RF-)
+$8
+7
+Male-Polyarthitis(RF) 13.2
+S$
+Female
+Polyarthrtis(RF-)
+14.4
+","
+
+<!-- Start of picture text -->
+Patient Gender JIA category Age at inchasion(years, moots)<br>1 Female Psoriatic arthritis 144<br>2 Female Oligoarthriis = 1S.8<br>3 Female Oligoarthriis, = 11S<br>4 Female Polyarthitis(RF+) 13.7<br>S Male Oligoarthriis, 117<br>6 Male Polyarthritis(RF-) $8<br>7 Male-Polyarthitis (RF) 13.2<br>S$ Female Polyarthrtis(RF-) 14.4<br><!-- End of picture text -->
+
+",<table></table>
+PMC3977939_003_01.png,238,115,476,230,16,0.02777777777777779,0.02777777777777779,1.0,0.2408392500001355,0,132,0,,"Symptom——iss—<“‘“‘“‘;™sSC#CWRQUOC Dyspnes””™—~—CSSSS——OCO 
+
+Chest pain Headache Flushing Nausea 
+
+ioe 14% 1 Ps 
+
+Any symptom 
+
+De 
+
+",<table></table>,0.05555555555555558,0.05555555555555558,0.43636363636363634,0.2221918330033077,2,107,20,"Symptom
+———s—s—s—~—CSCSCSCé
+query |
+~—
+3
+—
+Chest pain
+on
+Headache
+«
+Flushing
+-
+ae
+*
+Dizziness
+a
+Any symptom
+","Symptom———s—s—s—~—CSCSCSCé~— query | —Chest pain 3 Headache on Flushing « ae - Dizziness * Any symptom a 
+
+",<table><tr><th>Symptom———s—s—s—~—CSCSCSCé~— query</th><th>—Chest pain 3 Headache on Flushing « ae - Dizziness * Any symptom a</th></tr></table>
+PMC2995774_002_01.png,238,176,476,352,42,0.43151663151663144,0.7777777777777778,0.4012539184952978,0.32920895799907157,39,357,0,,"# Reference 
+
+# Subjects 
+
+Effect 
+
+|El Ati (24)|16 Wi|-|
+|---|---|---|
+|Ibrahirn [14]|MAS W|_|
+|Kassab [$1)|46|-|
+|Matdos [25)|16Meaaw|Pat|
+|Maughan [28)|SoM|o|
+|Raticioghs [27]|21W|Pat|
+|Yuced [$4]|AR Pw|a|
+|AtHourani (53)|S? Ww|l|
+|Bouhiel (23)|cr|l|
+|Fabhrzadeh [41]|Kw at Ww|:|
+|Khaled (26)|276 W|l|
+|Saiehi [55]|28 MA|1|
+|Ziace(31)|411A<br>39Ww|l|
+
+
+
+",<table><tr><th>El Ati (24)</th><th>16 Wi</th><th>-</th></tr><tr><td>Ibrahirn [14]</td><td>MAS W</td><td>_</td></tr><tr><td>Kassab [$1)</td><td>46</td><td>-</td></tr><tr><td>Matdos [25)</td><td>16Meaaw</td><td>Pat</td></tr><tr><td>Maughan [28)</td><td>SoM</td><td>o</td></tr><tr><td>Raticioghs [27]</td><td>21W</td><td>Pat</td></tr><tr><td>Yuced [$4]</td><td>AR Pw</td><td>a</td></tr><tr><td>AtHourani (53)</td><td>S? Ww</td><td>l</td></tr><tr><td>Bouhiel (23)</td><td>cr</td><td>l</td></tr><tr><td>Fabhrzadeh [41]</td><td>Kw at Ww</td><td>:</td></tr><tr><td>Khaled (26)</td><td>276 W</td><td>l</td></tr><tr><td>Saiehi [55]</td><td>28 MA</td><td>1</td></tr><tr><td>Ziace(31)</td><td>411A<br>39Ww</td><td>l</td></tr></table>,0.015873015873015928,0.015873015873015928,1.0,0.16239512500033015,0,25,3,"Reference
+Subjects
+ect
+","Reference Subjects ect 
+
+",<table></table>
+PMC2478663_004_01.png,503,137,1006,274,44,0.031746031746031744,0.031746031746031744,0.1443001443001443,0.49445099999866216,3,694,0,,"Probe ID* 
+
+Annotation 
+
+Fold change 
+
+References 
+
+ABI76564 Merallothionein 0.1 Hudspeth et al., 1996 AFO29242 Dormancy associated gene | (ORM1) 0.4 Stafstrom cz al., 1998 EX570325 MERISTEMATIC RECEPTOR-LIKE KINASE = 1.4 Fujita et al. 2003 EXS68912 F-box protein (STAMINA PISTILLCIDA) 18 Taylor et al, 2001 EX$70203 Protodermal factor | 18 Abe ct al, 200! EX$68701, EXS71325. EXSé69084, EXS70634 Histone subunits 20 References in Meshi ec al. 2000 EXS70428 Mini-chromosome maintenance proteins 22 Stevens et al., 2002 EX$70270, ABOO8 186 Protiferating cell nuckar ancigen 44,38 Kosugi et a, 199! ABO3 1227 PsADI 63 Madoka &Mori, 2000 EXS$70531 Vegetative lectin 10.7 Dobres & Thompson, 1988 
+
+","<table><tr><th>ABI76564 Merallothionein 0.1 Hudspeth et al., 1996 AFO29242 Dormancy associated gene</th><th>(ORM1) 0.4 Stafstrom cz al., 1998 EX570325 MERISTEMATIC RECEPTOR-LIKE KINASE = 1.4 Fujita et al. 2003 EXS68912 F-box protein (STAMINA PISTILLCIDA) 18 Taylor et al, 2001 EX$70203 Protodermal factor</th><th>18 Abe ct al, 200! EX$68701, EXS71325. EXSé69084, EXS70634 Histone subunits 20 References in Meshi ec al. 2000 EXS70428 Mini-chromosome maintenance proteins 22 Stevens et al., 2002 EX$70270, ABOO8 186 Protiferating cell nuckar ancigen 44,38 Kosugi et a, 199! ABO3 1227 PsADI 63 Madoka &Mori, 2000 EXS$70531 Vegetative lectin 10.7 Dobres & Thompson, 1988</th></tr></table>",0.0,0.0,0.33044733044733043,0.3322215000007418,2,767,97,"Probe 1D
+‘Annotation
+Fold change
+References
+ABI76S64
+Metallothionein
+on
+Hudspeth
+er al., 1996
+‘AFO29242
+Dormancy associated gene I (ORM!)
+04
+Stfscrom eal, 1998
+©xS70325
+MERISTEMATIC RECEPTOR-LIKE KINASE
+1.4
+Fujita ec al. 2003
+Beseg912
+F.box protein (STAMINA PISTILLOIDA)
+18
+Taylor etal, 2001
+©«370203
+Protodermmal factor |
+ry
+‘Abe et at, 2001
+©XS68701,
+£571325, £X569084, £X570634
+Histone subunits
+20
+References in Meshi ec al. 2000
+5xs70008
+Mini-chromosome maintenance proteins.
+2.2
+Stevens et al. 2002
+©x570270, awoos1e6
+Prolferating cell nuclear ancigen
+48,38
+Kosugi et ab, 1991
+‘8031227
+PsADI
+53
+Madola &Mori, 2000
+©xs70531
+Vegetative lectin
+107
+Dobres
+& Thompson, 1988
+","
+
+<!-- Start of picture text -->
+Probe 1D ‘Annotation Fold change References<br>‘AFO29242ABI76S64 Metallothionein on Hudspether al., 1996<br>©xS70325 Dormancy associated gene I (ORM!) 04 Stfscrom eal, 1998<br>Beseg912 MERISTEMATIC RECEPTOR-LIKE KINASE 1.4 Fujita ec al. 2003<br>©«370203 F.box protein (STAMINA PISTILLOIDA) 18 Taylor etal, 2001<br>©XS68701, Protodermmal factor | ry ‘Abe et at, 2001<br>Mini-chromosome maintenance proteins. 2.2 Stevens et al. 2002<br>5xs70008 £571325, £X569084, £X570634 Histone subunits 20 References in Meshi ec al. 2000<br>©x570270, awoos1e6 Prolferating cell nuclear ancigen 48,38 Kosugi et ab, 1991<br>‘8031227 PsADI 53 Madola &Mori, 2000<br>©xs70531 Vegetative lectin 107 Dobres& Thompson, 1988<br><!-- End of picture text -->
+
+","<table><tr><th>Probe 1D ‘Annotation Fold change References<br>‘AFO29242ABI76S64 Metallothionein on Hudspether al., 1996<br>©xS70325 Dormancy associated gene I (ORM!) 04 Stfscrom eal, 1998<br>Beseg912 MERISTEMATIC RECEPTOR-LIKE KINASE 1.4 Fujita ec al. 2003<br>©«370203 F.box protein (STAMINA PISTILLOIDA) 18 Taylor etal, 2001<br>©XS68701, Protodermmal factor</th><th>ry ‘Abe et at, 2001<br>Mini-chromosome maintenance proteins. 2.2 Stevens et al. 2002<br>5xs70008 £571325, £X569084, £X570634 Histone subunits 20 References in Meshi ec al. 2000<br>©x570270, awoos1e6 Prolferating cell nuclear ancigen 48,38 Kosugi et ab, 1991<br>‘8031227 PsADI 53 Madola &Mori, 2000<br>©xs70531 Vegetative lectin 107 Dobres& Thompson, 1988<br><!-- End of picture text --></th></tr></table>"
+PMC3614440_003_00.png,238,310,476,620,64,0.4812728193075613,0.7362637362637363,0.4676113360323887,0.42627483399701305,52,507,0,,"Anatomical 
+
+Percentage 
+
+site 
+
+### Clinical presentation 
+
+## Frequency 
+
+Nou 
+
+Throat 
+
+|Hewing loss|ee]|ie)|
+|---|---|---|
+|rida|3|65|
+|Muceld otorheoa|Fit]|OL|
+|Tinnitus|26|53|
+|Lacermians/euns cf|0|44|
+|the pinra|||
+|Burns|5|Hl|
+|Fareign body insertion|ra]|Be|
+|Traumatic epistands|2%|$3|
+|Rhincerhoss|ig|a9|
+|Lacemmbans‘cLes|7|if|
+|Ancermi|5|il|
+|Burns|5|1.|
+|Nasal obstruction|4|De|
+|Rareign beety ingestion,<br>aspirotian|a2|180|
+|Odynophagia|23|SD|
+|Open neckwounds|2|O4|
+|Aphoni|z|ba|
+
+
+
+# ~~, 
+
+","<table><tr><th>Hewing loss</th><th>ee]</th><th>ie)</th></tr><tr><td>rida</td><td>3</td><td>65</td></tr><tr><td>Muceld otorheoa</td><td>Fit]</td><td>OL</td></tr><tr><td>Tinnitus</td><td>26</td><td>53</td></tr><tr><td>Lacermians/euns cf</td><td>0</td><td>44</td></tr><tr><td>the pinra</td></tr><tr><td>Burns</td><td>5</td><td>Hl</td></tr><tr><td>Fareign body insertion</td><td>ra]</td><td>Be</td></tr><tr><td>Traumatic epistands</td><td>2%</td><td>$3</td></tr><tr><td>Rhincerhoss</td><td>ig</td><td>a9</td></tr><tr><td>Lacemmbans‘cLes</td><td>7</td><td>if</td></tr><tr><td>Ancermi</td><td>5</td><td>il</td></tr><tr><td>Burns</td><td>5</td><td>1.</td></tr><tr><td>Nasal obstruction</td><td>4</td><td>De</td></tr><tr><td>Rareign beety ingestion,<br>aspirotian</td><td>a2</td><td>180</td></tr><tr><td>Odynophagia</td><td>23</td><td>SD</td></tr><tr><td>Open neckwounds</td><td>2</td><td>O4</td></tr><tr><td>Aphoni</td><td>z</td><td>ba</td></tr></table>",0.02197802197802201,0.02197802197802201,0.8967611336032388,0.2716729169987957,1,416,48,"Anatomical
+Clinical presentation —-Frequency Percentage |
+siteEyforeign body rearton aa
+Hewng
+ry
+5
+the pinna
+Bleeding
+1
+2
+turns
+1
+Nowe
+Foreign body reertion
+0
+a2
+Traumatic
+epstan
+2
+$3
+Shuncethons|
+8
+a9
+Leceratlonsleuts
+1
+2
+turns
+1
+Throat
+Foreign body gestion’
+§— 82
+a0
+Odynophagia
+2
+$0
+","Anatomical Clinical presentation —-Frequency Percentage | 
+
+|siteE|<br>yforeign body rearton|a|<br>a|
+|---|---|---|---|
+||Hewng|ry|5|
+||thepinna<br>|||
+||<br>Bleeding|1|2|
+||turns<br>||1<br>|
+|Nowe|Foreignbodyreertion|0|a2|
+||<br>Traumatic<br>epstan<br>|2<br>|$3<br>|
+||Shuncethons||8|a9|
+||Leceratlonsleuts|1|2|
+||turns<br><br>||1<br>|
+|Throat|Foreign body gestion’<br>§<br>|— 82<br>|a0<br>|
+||Odynophagia|2|$0|
+
+
+
+",<table><tr><th>Anatomical Clinical presentation —-Frequency Percentage</th></tr></table>
+PMC2955658_002_00.png,486,322,972,644,96,0.013333333333333308,0.013333333333333308,0.9810762862211709,0.3395230829992215,2,42,0,,"~~ Ne ‘ial Population | SS arripie size 
+
+",<table><tr><th>~~ Ne ‘ial Population</th><th>SS arripie size</th></tr></table>,0.0,0.026666666666666616,0.8882318154937907,0.4574115420036833,19,459,36,"Ne
+tial
+Population
+——~—“‘CS™S*C™CSC*sS
+Plz
+16
+E&P
+~~Womenwithan ena uienne gavidty nore fthe tubs
+and snomalcontdvend tbs
+~*~«CaC*S
+19
+MOVN
+Women with anovlltion ral prequrt ate Gowuley qderofcoma
+—SSCSC~*~“‘“*~sa
+20 tecet
+Worenatounderonuauteinhamnson=SC*~*~“‘S*=<“‘CSCN”™SC™*™*;*;‘“‘“(NSNC#UUNSC*#*d
+2
+Wssl
+Wonwhaeanamne
+|
+","|Ne<br>—|tial<br>P<br>—~|opulation<br>—“‘CS™S*C™CSC|*sS<br>Plz|
+|---|---|---|---|
+|16<br>|E&P<br>~<br><br>|~Womenwithanena uiennegavidtynore fthetubs<br>and snomalcontdvendtbs<br><br>|~*~«CaC*S<br>|
+|19<br>|MOVN<br><br>|WomenwithanovlltionralprequrtateGowuleyqderofcoma<br>—SSCSC~*~“|‘“*~sa|
+|20<br>Wore<br>|tecet<br>natounder<br>|<br><br>onuauteinhamnson=SC*~*~“‘S*=<“‘CSCN”™SC™*™*;*;‘“‘“(NSN<br>|C#UUNSC*#*d|
+|<br>2<br>|<br>Wssl<br>|Wonwhaeanamne<br>|||
+
+
+
+",<table><tr><th>Ne<br>—</th><th>tial<br>P<br>—~</th><th>opulation<br>—“‘CS™S*C™CSC</th><th>*sS<br>Plz</th></tr><tr><td>16<br></td><td>E&P<br>~<br><br></td><td>~Womenwithanena uiennegavidtynore fthetubs<br>and snomalcontdvendtbs<br><br></td><td>~*~«CaC*S<br></td></tr><tr><td>19<br></td><td>MOVN<br><br></td><td>WomenwithanovlltionralprequrtateGowuleyqderofcoma<br>—SSCSC~*~“</td><td>‘“*~sa</td></tr><tr><td>20<br>Wore<br></td><td>tecet<br>natounder<br></td><td><br><br>onuauteinhamnson=SC*~*~“‘S*=<“‘CSCN”™SC™*™*;*;‘“‘“(NSN<br></td><td>C#UUNSC*#*d</td></tr><tr><td><br>2<br></td><td><br>Wssl<br></td><td>Wonwhaeanamne<br></td></tr></table>
+PMC5374690_003_00.png,238,335,476,670,69,0.5556114484828343,0.711864406779661,0.25223880597014925,0.46120112500648247,79,728,0,,"|Preopentivevarubles <br>|Controlarm<br> <br>(n= 15)<br><br>|Invesigstionarm <br>(n= 15)<br><br><br>|PValue<br><br>|
+|---|---|---|---|
+|Age|er<br>AC|”*<br>P<br>SC|S<br>ANS|
+|Gender|||0.152|
+|Male|14 93.3)|11 (94)||
+|Ferma|1 (67)|40.||
+|Myocardial infarction|||0249|
+|No|14 (93.3)|12 (20||
+|Yes|1 (6.7)|3)||
+|Diabetes melinus|||ouoa2|
+|No|15 (100|11 (94)||
+|Yes|0 (0)|400.9||
+|EF (95)|||0466|
+|Good|9 (60)|11 @93)||
+|Fair|$ (35)|3 (20)||
+|Poor|16)|ar)||
+|Euroscere 1,95|G8? [+/-O.35)|1,11 (+f 0.18)|101 ALS|
+|Procedure|||0263|
+|CABG|11 (73.3)|10 (66.7)||
+|Valve|0 (0)|1GO%)||
+|Combined|2 (133)|4(267||
+|Orher|2 (13.3)|Di||
+|CPS time, mire|106 (+/-9.8)|11? (4/=7.1)|0271 NS|
+|Wartic cress-clamp, mins|92 (nf?4|D(+/-69)|Of22NS|
+
+
+
+","<table><tr><th>Preopentivevarubles <br></th><th>Controlarm<br> <br>(n= 15)<br><br></th><th>Invesigstionarm <br>(n= 15)<br><br><br></th><th>PValue<br><br></th></tr><tr><td>Age</td><td>er<br>AC</td><td>”*<br>P<br>SC</td><td>S<br>ANS</td></tr><tr><td>Gender</td><td></td><td></td><td>0.152</td></tr><tr><td>Male</td><td>14 93.3)</td><td>11 (94)</td></tr><tr><td>Ferma</td><td>1 (67)</td><td>40.</td></tr><tr><td>Myocardial infarction</td><td></td><td></td><td>0249</td></tr><tr><td>No</td><td>14 (93.3)</td><td>12 (20</td></tr><tr><td>Yes</td><td>1 (6.7)</td><td>3)</td></tr><tr><td>Diabetes melinus</td><td></td><td></td><td>ouoa2</td></tr><tr><td>No</td><td>15 (100</td><td>11 (94)</td></tr><tr><td>Yes</td><td>0 (0)</td><td>400.9</td></tr><tr><td>EF (95)</td><td></td><td></td><td>0466</td></tr><tr><td>Good</td><td>9 (60)</td><td>11 @93)</td></tr><tr><td>Fair</td><td>$ (35)</td><td>3 (20)</td></tr><tr><td>Poor</td><td>16)</td><td>ar)</td></tr><tr><td>Euroscere 1,95</td><td>G8? [+/-O.35)</td><td>1,11 (+f 0.18)</td><td>101 ALS</td></tr><tr><td>Procedure</td><td></td><td></td><td>0263</td></tr><tr><td>CABG</td><td>11 (73.3)</td><td>10 (66.7)</td></tr><tr><td>Valve</td><td>0 (0)</td><td>1GO%)</td></tr><tr><td>Combined</td><td>2 (133)</td><td>4(267</td></tr><tr><td>Orher</td><td>2 (13.3)</td><td>Di</td></tr><tr><td>CPS time, mire</td><td>106 (+/-9.8)</td><td>11? (4/=7.1)</td><td>0271 NS</td></tr><tr><td>Wartic cress-clamp, mins</td><td>92 (nf?4</td><td>D(+/-69)</td><td>Of22NS</td></tr></table>",0.3284732418649816,0.5531914893617021,0.4388059701492537,0.3515604579952196,76,718,88,"Precpersive varubles Controlam Invesigstionarm
+value |
+n=
+15)
+a5
+Gender
+0182
+Male
+141933)
+11033)
+Female
+167
+406
+Myocardal
+infarction
+02
+No
+141933)
+1200
+Yer
+167
+320
+Diabetes metleus
+0032
+No
+15
+(1004
+033)
+Yes
+ow
+426
+cp)
+see
+Geod
+9160
+1033)
+Fair
+ses
+3
+(20
+Peer
+16)
+167
+Euroxcere8, %
+87 (+/-035)
+1.11 (4-018)
+a0 WS
+Procedure
+0263
+case
+1039)
+10 66
+Valve
+ow
+16
+Combred
+2039
+4067
+Orher
+2039
+beep
+CP8 time, mire
+WOR (+/-98)
+NP
+G/-72)
+ORT
+artic croavelump, mins
+G2 {r/-794
+9?
+(4-6)
+72 NS
+","|Precpersive varubles <br>|Controlam <br>n=<br>15)|Invesigstionarm<br>a5|value |<br>|
+|---|---|---|---|
+|Gender<br>|||0182|
+|Male<br>|141933)<br>|11033)<br>||
+|Female|167|406||
+|Myocardal<br>infarction|||02|
+|No|141933)|1200||
+|Yer|167|320||
+|Diabetes metleus|||0032|
+|No<br>|15<br>(1004<br>|033)<br>||
+|Yes|ow|426||
+|cp)|||see|
+|Geod<br>|9160<br>|1033)<br>||
+|Fair|ses|3<br>(20||
+|Peer<br>|16)<br>|167<br>||
+|Euroxcere8,%|87(+/-035)|1.11(4-018)|a0WS|
+|<br>Procedure|||<br>0263|
+|case<br>|1039)<br>|10 66<br>||
+|Valve<br>|ow<br>|16<br>||
+|Combred|2039|4067||
+|Orher<br>|2039<br>|beep<br><br>||
+|CP8time,mire<br>|WOR(+/-98)<br>|NP<br>G/-72)<br><br>|ORT<br>|
+|<br>articcroavelump,mins|<br>G2{r/-794|9?<br>(4-6)|72NS|
+
+
+
+","<table><tr><th>Precpersive varubles <br></th><th>Controlam <br>n=<br>15)</th><th>Invesigstionarm<br>a5</th><th>value</th><th><br></th></tr><tr><td>Gender<br></td><td></td><td></td><td>0182</td></tr><tr><td>Male<br></td><td>141933)<br></td><td>11033)<br></td></tr><tr><td>Female</td><td>167</td><td>406</td></tr><tr><td>Myocardal<br>infarction</td><td></td><td></td><td>02</td></tr><tr><td>No</td><td>141933)</td><td>1200</td></tr><tr><td>Yer</td><td>167</td><td>320</td></tr><tr><td>Diabetes metleus</td><td></td><td></td><td>0032</td></tr><tr><td>No<br></td><td>15<br>(1004<br></td><td>033)<br></td></tr><tr><td>Yes</td><td>ow</td><td>426</td></tr><tr><td>cp)</td><td></td><td></td><td>see</td></tr><tr><td>Geod<br></td><td>9160<br></td><td>1033)<br></td></tr><tr><td>Fair</td><td>ses</td><td>3<br>(20</td></tr><tr><td>Peer<br></td><td>16)<br></td><td>167<br></td></tr><tr><td>Euroxcere8,%</td><td>87(+/-035)</td><td>1.11(4-018)</td><td>a0WS</td></tr><tr><td><br>Procedure</td><td></td><td></td><td><br>0263</td></tr><tr><td>case<br></td><td>1039)<br></td><td>10 66<br></td></tr><tr><td>Valve<br></td><td>ow<br></td><td>16<br></td></tr><tr><td>Combred</td><td>2039</td><td>4067</td></tr><tr><td>Orher<br></td><td>2039<br></td><td>beep<br><br></td></tr><tr><td>CP8time,mire<br></td><td>WOR(+/-98)<br></td><td>NP<br>G/-72)<br><br></td><td>ORT<br></td></tr><tr><td><br>articcroavelump,mins</td><td><br>G2{r/-794</td><td>9?<br>(4-6)</td><td>72NS</td></tr></table>"
+PMC5816357_004_00.png,238,587,476,1174,106,0.7555722921815533,0.9032258064516129,0.18032786885245902,0.5188601670015487,104,739,0,,"||Median<br><br>|frange]<br><br>|
+|---|---|---|
+|c|n|r or T ||
+||N|%|
+|Sex|||
+|Men|42|7s|
+|Women|12|222|
+|ECOG|||
+|0|20|370|
+|1|25|463|
+|2|8|48|
+|3|1|wW|
+|Stage ofthe tumceat dagnads|||
+|0|3|54|
+|1|1S|277|
+|2|13|241|
+|3|?|130|
+|4|16|296|
+|Primary Location|||
+|Upper Urinary Tract|3|5.|
+|Bladder|51|M4|
+|Typeafpredominant cells|||
+|trandtional cell carcinoma|31|474|
+|Other|14|a9|
+|Not avalable|9|16.7|
+|Typeaf cancer at ume ofenrollment|||
+|Metastatic|aa|814|
+|Locally acvanced|Ww|184|
+|Shes of metastases (could be mece than|one]||
+|Lung|20|470|
+|Pleura|1|19|
+|Liver|a1|33.9|
+|Bones|22|407|
+|Brain|2|3?|
+|Nodes|a?|$0|
+|Other|iW|204|
+|Necodjuvant Chemotherapy|||
+|Yes|6|11.1|
+|No|48|£29|
+|AdjuvantChemetherapy|||
+|Yes|13|24.1|
+|No|4|9|
+
+
+
+",<table><tr><th>Median<br><br></th><th>frange]<br><br></th></tr><tr><td>c</td><td>n</td><td>r or T</td></tr><tr><td>N</td><td>%</td></tr><tr><td>Sex</td></tr><tr><td>Men</td><td>42</td><td>7s</td></tr><tr><td>Women</td><td>12</td><td>222</td></tr><tr><td>ECOG</td></tr><tr><td>0</td><td>20</td><td>370</td></tr><tr><td>1</td><td>25</td><td>463</td></tr><tr><td>2</td><td>8</td><td>48</td></tr><tr><td>3</td><td>1</td><td>wW</td></tr><tr><td>Stage ofthe tumceat dagnads</td></tr><tr><td>0</td><td>3</td><td>54</td></tr><tr><td>1</td><td>1S</td><td>277</td></tr><tr><td>2</td><td>13</td><td>241</td></tr><tr><td>3</td><td>?</td><td>130</td></tr><tr><td>4</td><td>16</td><td>296</td></tr><tr><td>Primary Location</td></tr><tr><td>Upper Urinary Tract</td><td>3</td><td>5.</td></tr><tr><td>Bladder</td><td>51</td><td>M4</td></tr><tr><td>Typeafpredominant cells</td></tr><tr><td>trandtional cell carcinoma</td><td>31</td><td>474</td></tr><tr><td>Other</td><td>14</td><td>a9</td></tr><tr><td>Not avalable</td><td>9</td><td>16.7</td></tr><tr><td>Typeaf cancer at ume ofenrollment</td></tr><tr><td>Metastatic</td><td>aa</td><td>814</td></tr><tr><td>Locally acvanced</td><td>Ww</td><td>184</td></tr><tr><td>Shes of metastases (could be mece than</td><td>one]</td></tr><tr><td>Lung</td><td>20</td><td>470</td></tr><tr><td>Pleura</td><td>1</td><td>19</td></tr><tr><td>Liver</td><td>a1</td><td>33.9</td></tr><tr><td>Bones</td><td>22</td><td>407</td></tr><tr><td>Brain</td><td>2</td><td>3?</td></tr><tr><td>Nodes</td><td>a?</td><td>$0</td></tr><tr><td>Other</td><td>iW</td><td>204</td></tr><tr><td>Necodjuvant Chemotherapy</td></tr><tr><td>Yes</td><td>6</td><td>11.1</td></tr><tr><td>No</td><td>48</td><td>£29</td></tr><tr><td>AdjuvantChemetherapy</td></tr><tr><td>Yes</td><td>13</td><td>24.1</td></tr><tr><td>No</td><td>4</td><td>9</td></tr></table>,0.6703290846240899,0.8709677419354839,0.20119225037257824,0.5106971670029452,105,765,0,,"|PopuionN=<br>54<br>||)<br>|
+|---|---|---|
+|ma<br>O”O”~”””|Median<br>”:C|range]<br>SSC|
+||N|*%|
+|Sem<br>|||
+|Men|a2|m3|
+|Women|12|22|
+|ECOG|||
+|0|20|70|
+|1|a|463|
+|2|a|43|
+|3|1|19|
+|Stage of the tumor at dagnods|||
+|0|3|$6|
+|1|1s|27|
+|2|13|24.1|
+|3|?|130|
+|4|16|296|
+|Primary Location|||
+|Upper Urinary Tract|3|$6|
+|Bladder|s|M4|
+|Type<br>of predominant cells|||
+|tranationa cel carcinoma|EL|S74|
+|Other|14|39|
+|Not avalable|9|67|
+|Typeofcancer at time of enrollment|||
+|Metastatic|aa|ais|
+|Localy advanced|10|18S|
+|Sires of metastasts (could be more than|one}||
+|Lung|20|70|
+|Pheura|1|19|
+|Ler|2|389|
+|Bomes|22|407|
+|Brain|2|ees|
+|Nodes|2?|so|
+|Other|""|204|
+|Neoadjuvant Chemotherapy|||
+|Yes|6|mwa|
+|No|ag|2s|
+|Adjuvant Chemotherapy|||
+|Yes|13|24.1|
+|No|at|m9|
+
+
+
+","<table><tr><th>PopuionN=<br>54<br></th><th></th><th>)<br></th></tr><tr><td>ma<br>O”O”~”””</td><td>Median<br>”:C</td><td>range]<br>SSC</td></tr><tr><td>N</td><td>*%</td></tr><tr><td>Sem<br></td></tr><tr><td>Men</td><td>a2</td><td>m3</td></tr><tr><td>Women</td><td>12</td><td>22</td></tr><tr><td>ECOG</td></tr><tr><td>0</td><td>20</td><td>70</td></tr><tr><td>1</td><td>a</td><td>463</td></tr><tr><td>2</td><td>a</td><td>43</td></tr><tr><td>3</td><td>1</td><td>19</td></tr><tr><td>Stage of the tumor at dagnods</td></tr><tr><td>0</td><td>3</td><td>$6</td></tr><tr><td>1</td><td>1s</td><td>27</td></tr><tr><td>2</td><td>13</td><td>24.1</td></tr><tr><td>3</td><td>?</td><td>130</td></tr><tr><td>4</td><td>16</td><td>296</td></tr><tr><td>Primary Location</td></tr><tr><td>Upper Urinary Tract</td><td>3</td><td>$6</td></tr><tr><td>Bladder</td><td>s</td><td>M4</td></tr><tr><td>Type<br>of predominant cells</td></tr><tr><td>tranationa cel carcinoma</td><td>EL</td><td>S74</td></tr><tr><td>Other</td><td>14</td><td>39</td></tr><tr><td>Not avalable</td><td>9</td><td>67</td></tr><tr><td>Typeofcancer at time of enrollment</td></tr><tr><td>Metastatic</td><td>aa</td><td>ais</td></tr><tr><td>Localy advanced</td><td>10</td><td>18S</td></tr><tr><td>Sires of metastasts (could be more than</td><td>one}</td></tr><tr><td>Lung</td><td>20</td><td>70</td></tr><tr><td>Pheura</td><td>1</td><td>19</td></tr><tr><td>Ler</td><td>2</td><td>389</td></tr><tr><td>Bomes</td><td>22</td><td>407</td></tr><tr><td>Brain</td><td>2</td><td>ees</td></tr><tr><td>Nodes</td><td>2?</td><td>so</td></tr><tr><td>Other</td><td>""</td><td>204</td></tr><tr><td>Neoadjuvant Chemotherapy</td></tr><tr><td>Yes</td><td>6</td><td>mwa</td></tr><tr><td>No</td><td>ag</td><td>2s</td></tr><tr><td>Adjuvant Chemotherapy</td></tr><tr><td>Yes</td><td>13</td><td>24.1</td></tr><tr><td>No</td><td>at</td><td>m9</td></tr></table>"
+PMC5038690_017_00.png,403,58,806,116,10,0.050000000000000044,0.050000000000000044,1.0,0.23394412500056205,0,238,0,,"
+
+<!-- Start of picture text -->
+OL Tracking Sch Aided by Aided by Aided by Aided by<br>CES See MEMS IMU CivilIMU Tactical IMU — Navigation IMU<br>a 156.6000 260.6740 5.2246 0.0535<br>frequency Error (Hz)<br><!-- End of picture text -->
+
+",<table></table>,0.050000000000000044,0.050000000000000044,1.0,0.2165374160031206,0,196,17,"Ol Tracking Schemes
+MEMS IMU
+CivilIMU
+Tactical IMU
+Navigation
+IMU
+S—=_—
+frequencyError (Hz)
+1564.6000
+260.6740
+5.2246
+0.0535
+","
+
+<!-- Start of picture text -->
+Ol Tracking Schemes MEMS IMU CivilIMU Tactical IMU NavigationIMU<br>S—=_—<br>frequencyError (Hz) 1564.6000 260.6740 5.2246 0.0535<br><!-- End of picture text -->
+
+",<table></table>
+PMC3751295_009_00.png,238,144,476,288,22,0.02631578947368418,0.02631578947368418,1.0,0.3202394580002874,0,502,0,,"COGTTGGGGACATCGTOCEC Spodesee—(iti‘é*#*‘éRGTGGGCCKCTCICATSpodsss22 OO pleCfor ATCGICGTICGACTIGLOCOCGLCE pleCres GCONGCANGECGCTOGECTGNCGA pessTia! ATGGCAMGATCCTGGTAT pOCsTIE? CGATAATGICGGGCAATC Marken COGGTATCGCTCTIGNAGGGA Mi3aUuP GGACGAGTCGGATICCAGALEG 
+
+COGTTGGGGACATCGTOCEC ATCGICGTICGACTIGLOCOCGLCE GCONGCANGECGCTOGECTGNCGA ATGGCAMGATCCTGGTAT CGATAATGICGGGCAATC COGGTATCGCTCTIGNAGGGA GGACGAGTCGGATICCAGALEG GCCTICAGACTCTAGAATGAGTICG CAGAACGCCGGAATICCGTCCGTGA be ete Babee 
+
+M134DN Crrlsctp te ooo 
+
+",<table></table>,0.02631578947368418,0.02631578947368418,1.0,0.23606604100496043,0,292,18,"Spodses22
+COGTTIGEEGACATCGTCCEE
+pleCfor
+aICGTCGTCGaCTIacecacacce
+pleCrev
+GLONGEANEELGCTCGGLTGNEGA
+pocsTigt
+AIGGCAAGATCCTGSTAT
+posta
+(CGATAATGTCGGGCAATC
+Marseg
+CGGBTATEGCTCTTGANGEGA
+mar3aup
+GGACGAGTCGGANTICCHGALEG
+M3408
+GCCTICAGACTCTAGAATGAGTICG
+CrrAlsclp
+CAGAMCGCCGGAATTICCGTOCGTGA
+","Spodses22 pleCfor pleCrev pocsTigt posta Marseg 
+
+mar3aup 
+
+M3408 CrrAlsclp 
+
+COGTTIGEEGACATCGTCCEE aICGTCGTCGaCTIacecacacce GLONGEANEELGCTCGGLTGNEGA AIGGCAAGATCCTGSTAT (CGATAATGTCGGGCAATC CGGBTATEGCTCTTGANGEGA 
+
+GGACGAGTCGGANTICCHGALEG GCCTICAGACTCTAGAATGAGTICG CAGAMCGCCGGAATTICCGTOCGTGA 
+
+",<table></table>
+PMC3497585_004_01.png,225,225,450,450,72,0.010204081632653073,0.010204081632653073,1.0,0.2393153329976485,0,143,0,,"Sample 
+
+Up to one year 3-4 years after sampling after sampling 
+
+Conc. A260:A220 Concn. A260: ing/yl) after WGA (ng/ul) after WGA after WGA 
+
+",<table></table>,0.010204081632653073,0.010204081632653073,1.0,0.20004258299741196,0,137,23,"Sample
+Up to one year
+3-4 yours
+after sampling
+after sampling
+Conn.
+""A260R280
+ Conen,
+A260)
+toil)
+after WGA
+(ng/pl)
+after WGA
+after WGA
+","Sample Up to one year 3-4 yours after sampling after sampling Conn. ""A260R280 Conen, A260) toil) after WGA (ng/pl) after WGA after WGA 
+
+",<table></table>
+PMC3346700_003_01.png,502,145,1004,290,50,0.731346450617284,0.7777777777777778,0.1252336448598131,0.42809379199752584,49,584,0,,"— ta”*”*~“‘séO™O™;C(~GFouplOO Group2 Group? 
+
+||(mn= 223)|(n= 95}|(n = 80)|(n= 48)|
+|---|---|---|---|---|
+|ACE inhibitors|43 (19%)|3 (3%)|20 (25%)|20 (42%)|
+|Angiotensin II receptorantagonists|18 (8%)|4 (4%)|6 (7%)|8 (17%)|
+|beta-blockers|27 (12%)|2 (2%)|14 (17%)|11 (23%)|
+|Diuretics|1) (596)|3 (3%)|3 (4%)|5 (10%)|
+|Calctum-channel blockers|34 (16%)|3 (3%)|19 (249%)|14 (299%)|
+|Antiplatelet agents|28 (12%)|& (6%)|13 (16%)|9 (19%)|
+|Statins|33 (15%)|3 (3%)|12 (15%)|18 (38%)|
+|Antidiabetic agents|42 (19%)|7(™)|16 (20%)|19(40%)|
+|Numberofdrugs”|1(0;2]|O(0; b}|1 [0; 2)|2[(1;3]|
+
+
+
+",<table><tr><th>(mn= 223)</th><th>(n= 95}</th><th>(n = 80)</th><th>(n= 48)</th></tr><tr><td>ACE inhibitors</td><td>43 (19%)</td><td>3 (3%)</td><td>20 (25%)</td><td>20 (42%)</td></tr><tr><td>Angiotensin II receptorantagonists</td><td>18 (8%)</td><td>4 (4%)</td><td>6 (7%)</td><td>8 (17%)</td></tr><tr><td>beta-blockers</td><td>27 (12%)</td><td>2 (2%)</td><td>14 (17%)</td><td>11 (23%)</td></tr><tr><td>Diuretics</td><td>1) (596)</td><td>3 (3%)</td><td>3 (4%)</td><td>5 (10%)</td></tr><tr><td>Calctum-channel blockers</td><td>34 (16%)</td><td>3 (3%)</td><td>19 (249%)</td><td>14 (299%)</td></tr><tr><td>Antiplatelet agents</td><td>28 (12%)</td><td>& (6%)</td><td>13 (16%)</td><td>9 (19%)</td></tr><tr><td>Statins</td><td>33 (15%)</td><td>3 (3%)</td><td>12 (15%)</td><td>18 (38%)</td></tr><tr><td>Antidiabetic agents</td><td>42 (19%)</td><td>7(™)</td><td>16 (20%)</td><td>19(40%)</td></tr><tr><td>Numberofdrugs”</td><td>1(0;2]</td><td>O(0; b}</td><td>1 [0; 2)</td><td>2[(1;3]</td></tr></table>,0.34337863463969676,0.4424778761061947,0.22803738317757008,0.3551949169996078,51,730,82,"os TCGOup2SCGaOupS |
+(n= 223)
+(n= 95)
+(n= 80)
+(n= 48)
+‘ACE inhibitors
+8 (19%)
+33%)
+20 (259%)
+20 (42%)
+Angiotensin If receptor antagonists
+18 (8%)
+4(4%6)
+6(7%)
+817%)
+beta-blockers
+27 (12%)
+2(2%)
+14(179)
+11 (2396)
+Diuretics
+16%)
+33%)
+3(4%)
+5.(109%)
+Calcium-channel blockers
+36 (169%)
+363%)
+19 (249%)
+14 (2996)
+Antiplatelet agents
+28 (12%)
+6(6%6)
+13 (169%)
+9(199%)
+Statins
+33 (159%)
+363%)
+12 (159%)
+18 (3896)
+Antidiabetic agents
+42 (19%)
+70%)
+16 (209)
+19 (4096)
+Number of drugs”
+10:2)
+0(G;1)
+10,2)
+20:3)
+","|o<br>|s<br>(n=223)<br>|TCG<br>(n=95)<br>|Oup2SCG<br>(n=80)<br>|aOupS |<br>(n=48)<br>|
+|---|---|---|---|---|
+|‘ACEinhibitors|<br>8(19%)|<br>33%)|<br>20(259%)|<br>20(42%)|
+|<br>Angiotensin If receptor antagonists<br>|<br>18 (8%)<br>|4(4%6)<br>|<br>6(7%)<br>|<br>817%)<br>|
+|beta-blockers<br>|27(12%)<br>|2(2%)<br>|14(179)<br>|11(2396)<br>|
+|Diuretics<br>|<br>16%)<br>|33%)<br>|3(4%)<br>|<br>5.(109%)<br>|
+|Calcium-channelblockers|36(169%)|363%)|19(249%)|14(2996)|
+|<br>Antiplatelet agents<br>|<br>28 (12%)<br>|6(6%6)<br>|<br>13 (169%)<br>|<br>9(199%)<br>|
+|Statins|33(159%)|363%)|12(159%)|18(3896)|
+|Antidiabetic agents<br>|<br>42 (19%)<br>|70%)<br>|<br>16 (209)<br>|<br>19 (4096)<br>|
+|Numberofdrugs”|10:2)|0(G;1)|10,2)|20:3)|
+
+
+
+","<table><tr><th>o<br></th><th>s<br>(n=223)<br></th><th>TCG<br>(n=95)<br></th><th>Oup2SCG<br>(n=80)<br></th><th>aOupS</th><th><br>(n=48)<br></th></tr><tr><td>‘ACEinhibitors</td><td><br>8(19%)</td><td><br>33%)</td><td><br>20(259%)</td><td><br>20(42%)</td></tr><tr><td><br>Angiotensin If receptor antagonists<br></td><td><br>18 (8%)<br></td><td>4(4%6)<br></td><td><br>6(7%)<br></td><td><br>817%)<br></td></tr><tr><td>beta-blockers<br></td><td>27(12%)<br></td><td>2(2%)<br></td><td>14(179)<br></td><td>11(2396)<br></td></tr><tr><td>Diuretics<br></td><td><br>16%)<br></td><td>33%)<br></td><td>3(4%)<br></td><td><br>5.(109%)<br></td></tr><tr><td>Calcium-channelblockers</td><td>36(169%)</td><td>363%)</td><td>19(249%)</td><td>14(2996)</td></tr><tr><td><br>Antiplatelet agents<br></td><td><br>28 (12%)<br></td><td>6(6%6)<br></td><td><br>13 (169%)<br></td><td><br>9(199%)<br></td></tr><tr><td>Statins</td><td>33(159%)</td><td>363%)</td><td>12(159%)</td><td>18(3896)</td></tr><tr><td>Antidiabetic agents<br></td><td><br>42 (19%)<br></td><td>70%)<br></td><td><br>16 (209)<br></td><td><br>19 (4096)<br></td></tr><tr><td>Numberofdrugs”</td><td>10:2)</td><td>0(G;1)</td><td>10,2)</td><td>20:3)</td></tr></table>"
+PMC4624169_003_00.png,647,282,1294,564,74,0.18843514927181404,0.2524271844660194,0.8361934477379095,0.9075917910013231,29,1307,0,,"Base cue 
+
+Deployment of high-throughput WED assay 
+
+senskhity 
+
+|Assy|Smeatt|LIPAY|LIPAT|rapid MRD|LPAI|
+|---|---|---|---|---|---|
+||Smeat-|Xpert|Xpert|rapid MAD|Xpert|
+|Spedimen||drecty on sputum|drectly cn sputum|rectlyon sputum|Grectly on sputum|
+|ACOUTATY.SePEENMty,|rfamekin|050%|asBasecase|asAse cas|992;998%|
+|<br>POSTER|iscrdarid|<br>96.0;100%[28]|||<br>$92:100%|
+
+
+
+|(Optimized)|
+|---|
+
+
+
+|Resisancetestforsecand-Inedrugs|
+|---|
+
+
+
+|Assy||OST on LJ|red VRAD|
+|---|---|---|---|
+|Spedimen||cultured isolate|cultured isalee|
+|ACCLUEIY.wrenvity,<br>spechicity|fluceoquinoionss<br>|100%(definkian)|83.1;97.7&<br>|
+|<br>|<br>second-line<br>injectabledrugs||<br>4:958% (2|
+
+
+
+|rapid MRD|rapid MAD|
+|---|---|
+|Girecthy<br>on squtum|cultured isolate|
+|asA|FOL:ISh<br>|
+||<br>AS W2%<br>|
+||(Optimized|
+
+
+
+|Treatmentreqimenindividualzation|
+|---|
+
+
+
+|Firstdine regimen|Standard regimen|Standard regimen|Standard regimen|Standard regimen|
+|---|---|---|---|---|
+|Semondine<br>|Emptical2ttrestmentintiation,|Emoricaottreatmentinkiation,|Individual<br>||
+|regimen|<br>indvidusined after OST result (2+ mon|<br>ths)<br>indwidudimed after cukure + MAD result|wedfram<br>treatment nfition|Emericaattreatmentneiationindvidudized<br>after odture + MAD reouk (+ weeks)|
+||S|(2+ weeks}<br>T|<br>|<br>E<br>eee<br>ee|
+
+
+
+","<table><tr><th>Assy</th><th>Smeatt</th><th>LIPAY</th><th>LIPAT</th><th>rapid MRD</th><th>LPAI</th></tr><tr><td>Smeat-</td><td>Xpert</td><td>Xpert</td><td>rapid MAD</td><td>Xpert</td></tr><tr><td>Spedimen</td><td></td><td>drecty on sputum</td><td>drectly cn sputum</td><td>rectlyon sputum</td><td>Grectly on sputum</td></tr><tr><td>ACOUTATY.SePEENMty,</td><td>rfamekin</td><td>050%</td><td>asBasecase</td><td>asAse cas</td><td>992;998%</td></tr><tr><td><br>POSTER</td><td>iscrdarid</td><td><br>96.0;100%[28]</td><td></td><td></td><td><br>$92:100%</td></tr></table>",0.12803710146833092,0.26315789473684215,0.4414976599063963,0.4863846670050407,57,1250,143,"sensehty
+Teamancetentforintine
+rage
+Assy
+Smears
+pay
+ual
+rapid MAD
+LPAI
+Smear
+Xpert
+Xper
+rapid MAD
+pert
+Speamen
+directly on sputum,
+rectly on sputum
+directly on sputum
+directly on sputum
+Aeouscy. seretinty, fami
+90, 990%
+as Base case
+as Bane case
+998; 938%
+id
+lsoriaed
+960, 100 % [24]
+992; 100%
+(Optimizeds
+Resisance test for secand-ine drugs
+Assy
+Osten
+apd MRD
+rapid MAD
+‘rapid RD
+Specimen
+cultured valice
+cultured lite
+Grectlyon sputum
+cultured balate
+Acourscy.seretity,
+fluoroquinolone: 100% (defintion)
+833; 927%
+aA
+966; 995%
+ay
+second-ine
+795; 958% (9
+59,982 %
+Injectable deuce:
+Cotirtenc?>
+Treatment regimen individuatization
+Fistdine regenen
+Standard regrnen
+Standued regrnen
+Standard regimen
+Standard regimen,
+Secondiine
+Empéical a treatment iitiation,
+Emprca at treatment neiation
+Indicted from
+Emprcal at treatment inmution Individualized
+regrnen
+Individualized after OST result (2+ menthe) individualized
+after cukure
++ MAD result treatment neiaton —_ after euture-+
+MAD reaak Or weeks)
+","sensehty 
+
+|Teamancetentforint<br><br>|ine<br><br>|a<br>||g<br>|e<br>|
+|---|---|---|---|---|---|
+|Assy<br>|Smears<br>|pay<br>|ual<br>|rapidMAD<br>|LPAI<br>|
+|||||<br>||
+|||directly on sputum,<br>|rectly on sputum<br>|<br>directly on sputum<br>|directly on sputum<br>|
+|Aeouscy. seretinty, <br>id|fami<br>lsoriaed|90, 990%<br>960, 100% [24]|as Base case|<br>as Bane case|998; 938%<br>992; 100%<br>(Optimizeds|
+|Resisance test for sec<br>|and-ine drugs|||||
+|Assy<br>||Osten<br>|apdMRD<br>|rapidMAD<br>|‘rapidRD<br>|
+|Specimen<br>||culturedvalice<br>|<br>culturedlite<br>|<br>Grectlyonsputum<br>|<br>culturedbalate<br>|
+|Acourscy.seretity,<br>ay|fluoroquinolone: <br>second-ine<br>Injectable deuce:|<br> 100% (defintion)|<br>833; 927%<br>795; 958% (9|<br>aA|<br>966;995%<br>59,982 %<br>Cotirtenc?>|
+|Treatment regimen in|dividuatization|||||
+|Fistdine regenen<br>||Standard regrnen<br>|Standued regrnen<br>|Standard regimen<br>|Standard regimen,<br>|
+|Secondiine<br>regrnen||Empéicalatreatment iitiation,<br>IndividualizedafterOSTresult(2+menthe)|Emprca attreatmentneiation<br>individualized<br>aftercukur<br>+ MAD re|Indictedfrom<br>e<br>sult treatment neiaton|Emprcal at treatment inmution Individualized<br>—_aftereuture-+<br>MADreaak Or weeks)|
+
+
+
+","<table><tr><th>Teamancetentforint<br><br></th><th>ine<br><br></th><th>a<br></th><th></th><th>g<br></th><th>e<br></th></tr><tr><td>Assy<br></td><td>Smears<br></td><td>pay<br></td><td>ual<br></td><td>rapidMAD<br></td><td>LPAI<br></td></tr><tr><td><br></td></tr><tr><td>directly on sputum,<br></td><td>rectly on sputum<br></td><td><br>directly on sputum<br></td><td>directly on sputum<br></td></tr><tr><td>Aeouscy. seretinty, <br>id</td><td>fami<br>lsoriaed</td><td>90, 990%<br>960, 100% [24]</td><td>as Base case</td><td><br>as Bane case</td><td>998; 938%<br>992; 100%<br>(Optimizeds</td></tr><tr><td>Resisance test for sec<br></td><td>and-ine drugs</td></tr><tr><td>Assy<br></td><td></td><td>Osten<br></td><td>apdMRD<br></td><td>rapidMAD<br></td><td>‘rapidRD<br></td></tr><tr><td>Specimen<br></td><td></td><td>culturedvalice<br></td><td><br>culturedlite<br></td><td><br>Grectlyonsputum<br></td><td><br>culturedbalate<br></td></tr><tr><td>Acourscy.seretity,<br>ay</td><td>fluoroquinolone: <br>second-ine<br>Injectable deuce:</td><td><br> 100% (defintion)</td><td><br>833; 927%<br>795; 958% (9</td><td><br>aA</td><td><br>966;995%<br>59,982 %<br>Cotirtenc?></td></tr><tr><td>Treatment regimen in</td><td>dividuatization</td></tr><tr><td>Fistdine regenen<br></td><td></td><td>Standard regrnen<br></td><td>Standued regrnen<br></td><td>Standard regimen<br></td><td>Standard regimen,<br></td></tr><tr><td>Secondiine<br>regrnen</td><td></td><td>Empéicalatreatment iitiation,<br>IndividualizedafterOSTresult(2+menthe)</td><td>Emprca attreatmentneiation<br>individualized<br>aftercukur<br>+ MAD re</td><td>Indictedfrom<br>e<br>sult treatment neiaton</td><td>Emprcal at treatment inmution Individualized<br>—_aftereuture-+<br>MADreaak Or weeks)</td></tr></table>"
+PMC3937044_003_00.png,486,255,972,510,54,0.05680894308943085,0.1097560975609756,0.875,0.3127824580005836,10,234,0,,"Study patients (N= 1184) N (9) 
+
+Baseline clinic population (N = 45000) N [%5) 
+
+## Gender 
+
+## Ethnicity 
+
+# Age 
+
+|« SU|Pan fi<br>é 1.1|NA|
+|---|---|---|
+|Education|||
+|some colege|233<br>(205,|AN|
+|Any<br>ood|Su)<br>(ai<br>A|A|
+
+
+
+","<table><tr><th>« SU</th><th>Pan fi<br>é 1.1</th><th>NA</th></tr><tr><td>Education</td></tr><tr><td>some colege</td><td>233<br>(205,</td><td>AN</td></tr><tr><td>Any<br>ood</td><td>Su)<br>(ai<br>A</td><td>A</td></tr></table>",0.012195121951219523,0.012195121951219523,1.0,0.20505308300198521,0,120,18,"«Study
+pationts (N= 1184) Ne)
+~_ Baseline clinic population (N = 45000) N (6)
+Genaer
+Ethnicity
+Age
+Education
+","«Studypationts (N= 1184) Ne) 
+
+~_ Baseline clinic population (N = 45000) N (6) 
+
+Genaer 
+
+Ethnicity 
+
+Age 
+
+Education 
+
+",<table></table>
+PMC1475840_004_00.png,503,305,1006,610,170,0.4628010848433227,0.7258687258687259,0.27696289905090593,0.7042377500038128,172,1139,0,,"|Question|||Fac|tors|||
+|---|---|---|---|---|---|---|
+||i|4|3|4|5|6|
+|Qlfeelingeneral|424|AST|2|386|216|203|
+|<br>Q2botheredbynerves*|NS|233|207|183|lI?|878|
+|<br>Q3infirmcontre?|443|447|279|38S|i27|304|
+|<br>Q4sodhapeless*|220|698|100|390|179|146|
+|<br>O5wiederstress*|O63|216|749|135|294|099|
+|<br>Q6hoptywithpersanal[ife|298|225|531|524|129|«015|
+|<br>Q7losingcontrev*|32|-807|284|009|068|107|
+|<br>Q6anawusupset*|204|$23|-530|lat|286|274|
+|<br>Q9wakeuprested|686|1S6|201|258|187|1S6|
+|<br>Q10Ahesspain*|314|090|83|107|.655|024|
+|<br>QI<br>Afefullofinterese|387|056|O95|746|210|166|
+|<br>QI12déhoortenedsod*|267|426|500|386|239|225|
+|<br>QI<br>stablesure|440|488|200|539|12|197|
+|<br>Q14tiredexhausted*|.705|AS|357|183|2$4|124|
+|<br>OUSdepressed*|321|Ad|412|14|223|339|
+|<br>QI6terse*|42)|288|649|tA|-043|33|
+|<br>QI?weilenoughtodothings|.690|2tt|1%|120|325|239|
+|<br>Q18energywralty|-628|184|106|239|189|-.034|
+|<br>QI19wevriesaboutheelth*|438|196|igs|91|-775|lA?|
+|<br>Q20activewiporous|.199|AS?|OF|328|213|078|
+|<br>Q21cheerful|449|(2|487|$92|087|069|
+|<br>Q22reloxed|377|A93|497|AVA|030|347|
+|%variance|19.9|14.2|13.4|128|9s|75|
+
+
+
+",<table><tr><th>Question</th><th></th><th></th><th>Fac</th><th>tors</th></tr><tr><td>i</td><td>4</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>Qlfeelingeneral</td><td>424</td><td>AST</td><td>2</td><td>386</td><td>216</td><td>203</td></tr><tr><td><br>Q2botheredbynerves*</td><td>NS</td><td>233</td><td>207</td><td>183</td><td>lI?</td><td>878</td></tr><tr><td><br>Q3infirmcontre?</td><td>443</td><td>447</td><td>279</td><td>38S</td><td>i27</td><td>304</td></tr><tr><td><br>Q4sodhapeless*</td><td>220</td><td>698</td><td>100</td><td>390</td><td>179</td><td>146</td></tr><tr><td><br>O5wiederstress*</td><td>O63</td><td>216</td><td>749</td><td>135</td><td>294</td><td>099</td></tr><tr><td><br>Q6hoptywithpersanal[ife</td><td>298</td><td>225</td><td>531</td><td>524</td><td>129</td><td>«015</td></tr><tr><td><br>Q7losingcontrev*</td><td>32</td><td>-807</td><td>284</td><td>009</td><td>068</td><td>107</td></tr><tr><td><br>Q6anawusupset*</td><td>204</td><td>$23</td><td>-530</td><td>lat</td><td>286</td><td>274</td></tr><tr><td><br>Q9wakeuprested</td><td>686</td><td>1S6</td><td>201</td><td>258</td><td>187</td><td>1S6</td></tr><tr><td><br>Q10Ahesspain*</td><td>314</td><td>090</td><td>83</td><td>107</td><td>.655</td><td>024</td></tr><tr><td><br>QI<br>Afefullofinterese</td><td>387</td><td>056</td><td>O95</td><td>746</td><td>210</td><td>166</td></tr><tr><td><br>QI12déhoortenedsod*</td><td>267</td><td>426</td><td>500</td><td>386</td><td>239</td><td>225</td></tr><tr><td><br>QI<br>stablesure</td><td>440</td><td>488</td><td>200</td><td>539</td><td>12</td><td>197</td></tr><tr><td><br>Q14tiredexhausted*</td><td>.705</td><td>AS</td><td>357</td><td>183</td><td>2$4</td><td>124</td></tr><tr><td><br>OUSdepressed*</td><td>321</td><td>Ad</td><td>412</td><td>14</td><td>223</td><td>339</td></tr><tr><td><br>QI6terse*</td><td>42)</td><td>288</td><td>649</td><td>tA</td><td>-043</td><td>33</td></tr><tr><td><br>QI?weilenoughtodothings</td><td>.690</td><td>2tt</td><td>1%</td><td>120</td><td>325</td><td>239</td></tr><tr><td><br>Q18energywralty</td><td>-628</td><td>184</td><td>106</td><td>239</td><td>189</td><td>-.034</td></tr><tr><td><br>QI19wevriesaboutheelth*</td><td>438</td><td>196</td><td>igs</td><td>91</td><td>-775</td><td>lA?</td></tr><tr><td><br>Q20activewiporous</td><td>.199</td><td>AS?</td><td>OF</td><td>328</td><td>213</td><td>078</td></tr><tr><td><br>Q21cheerful</td><td>449</td><td>(2</td><td>487</td><td>$92</td><td>087</td><td>069</td></tr><tr><td><br>Q22reloxed</td><td>377</td><td>A93</td><td>497</td><td>AVA</td><td>030</td><td>347</td></tr><tr><td>%variance</td><td>19.9</td><td>14.2</td><td>13.4</td><td>128</td><td>9s</td><td>75</td></tr></table>,0.04028796767345,0.2544802867383512,0.6022433132010354,0.5531969999938156,119,1270,217,"Question
+Factors
+'
+2
+3
+4
+s
+‘
+QI feet general
+424
+ar
+22
+306
+216
+203
+Q2 bothered by nerves
+13
+23
+207
+“183
+uu7
+a8
+Q3.m fer contred
+or
+aa
+29
+38s
+m7
+3a
+QA sd bopeess*
+20
+498
+109
+390
+79
+“146
+QS under stress*
+063
+26
+49
+135
+24
+099
+Q6 hoppy mich persona ife
+28
+ns
+‘sat
+‘524
+129
+-o18
+Q7 losegcontret>
+m2
+07
+234
+009
+os
+“107
+Q8 anceus upset?
+204
+523
+530
+11
+286
+24
+Q9 wake up rested
+686
+156
+201
+258
+1s?
+156
+Q10 sress pan?
+34
+090
+183
+107
+ass
+om
+QU Ae ful ofcere
+as?
+056
+095
+46
+210
+166
+QI2 dsheanened sad?
+267
+426
+500
+306
+289
+25
+Q13 stable sure
+40
+488
+200
+39
+a2
+97
+Q14 ted exhausted
+08
+178,
+387
+183
+254
+“14
+QIS depeessea
+mt
+490
+An
+a4
+2
+ert)
+QI6 tense*
+Au
+288
+ae
+a
+043
+33
+QIT weil enough t0do things
+690
+au
+180
+20
+22s
+239
+QB
+energy wtaiity
+828
+184
+106
+239
+189
+036
+QI9 wornes absut heatth*
+380
+196
+138
+t
+1
+M7
+Q20 oct wporout
+199
+“187
+1
+me
+213
+078
+QUI cheerfad
+69
+412
+387
+soz
+os?
+069
+Q22 reloxed
+an
+19
+497
+44
+080
+M7
+‘% varance
+99
+42
+134
+ne
+9s
+78
+","# Question 
+
+## Factors 
+
+||'<br>|2<br>|3<br>|4<br>|s<br>|‘<br>|
+|---|---|---|---|---|---|---|
+|QIfeetgeneral<br>|424<br>|ar<br>|22<br>|306<br>|216<br>|203<br>|
+|<br> <br>|||||||
+|<br>Q3.mfercontred<br>|or<br>|aa<br>|29<br>|38s<br>|m7<br>|3a<br>|
+|<br>QAsdbopeess*<br>|20<br>|498<br>|109<br>|390<br>|79<br>|“146<br>|
+|<br>QSunderstress*<br>|063<br>|26<br>|49<br>|135<br>|24<br>|099<br>|
+|<br>  <br>|||||||
+|<br>Q7losegcontret><br>|m2<br>|07<br>|234<br>|009<br>|os<br>|“107<br>|
+|<br>Q8anceusupset?<br>|204<br>|523<br>|530<br>|11<br>|286<br>|24<br>|
+|<br>  <br>|||||||
+|<br>  <br>|||||||
+|<br>QUAefulofcere<br>|as?<br>|056<br>|095<br>|46<br>|210<br>|166<br>|
+|<br>QI2dsheanenedsad?<br>|267<br>|426<br>|500<br>|306<br>|289<br>|25<br>|
+|<br> <br>|||||||
+|<br>  <br>|||||||
+|<br>QISdepeessea<br>|mt<br>|490<br>|An<br>|a4<br>|2<br>|ert)<br>|
+|<br>QI6tense*<br>|Au<br>|288<br>|ae<br>|a<br>|043<br>|33<br>|
+|<br>QITweilenought0dothings<br><br>|690<br>|au<br>|180<br>|20<br>|22s<br>|239<br>|
+|<br>QB<br>energywtaiity<br>|828<br>|184<br>|106<br>|239<br>|189<br>|036<br>|
+|<br>QI9wornesabsutheatth*<br>|380<br>|196<br>|138<br>|t<br>|1<br>|M7<br>|
+|<br><br>|||||||
+|<br><br>|||||||
+|<br>Q22reloxed<br>|an<br>|19<br>|497<br>|44<br>|080<br>|M7<br>|
+|‘%varance|99|42|134|ne|9s|78|
+
+
+
+",<table><tr><th>'<br></th><th>2<br></th><th>3<br></th><th>4<br></th><th>s<br></th><th>‘<br></th></tr><tr><td>QIfeetgeneral<br></td><td>424<br></td><td>ar<br></td><td>22<br></td><td>306<br></td><td>216<br></td><td>203<br></td></tr><tr><td><br> <br></td></tr><tr><td><br>Q3.mfercontred<br></td><td>or<br></td><td>aa<br></td><td>29<br></td><td>38s<br></td><td>m7<br></td><td>3a<br></td></tr><tr><td><br>QAsdbopeess*<br></td><td>20<br></td><td>498<br></td><td>109<br></td><td>390<br></td><td>79<br></td><td>“146<br></td></tr><tr><td><br>QSunderstress*<br></td><td>063<br></td><td>26<br></td><td>49<br></td><td>135<br></td><td>24<br></td><td>099<br></td></tr><tr><td><br>  <br></td></tr><tr><td><br>Q7losegcontret><br></td><td>m2<br></td><td>07<br></td><td>234<br></td><td>009<br></td><td>os<br></td><td>“107<br></td></tr><tr><td><br>Q8anceusupset?<br></td><td>204<br></td><td>523<br></td><td>530<br></td><td>11<br></td><td>286<br></td><td>24<br></td></tr><tr><td><br>  <br></td></tr><tr><td><br>  <br></td></tr><tr><td><br>QUAefulofcere<br></td><td>as?<br></td><td>056<br></td><td>095<br></td><td>46<br></td><td>210<br></td><td>166<br></td></tr><tr><td><br>QI2dsheanenedsad?<br></td><td>267<br></td><td>426<br></td><td>500<br></td><td>306<br></td><td>289<br></td><td>25<br></td></tr><tr><td><br> <br></td></tr><tr><td><br>  <br></td></tr><tr><td><br>QISdepeessea<br></td><td>mt<br></td><td>490<br></td><td>An<br></td><td>a4<br></td><td>2<br></td><td>ert)<br></td></tr><tr><td><br>QI6tense*<br></td><td>Au<br></td><td>288<br></td><td>ae<br></td><td>a<br></td><td>043<br></td><td>33<br></td></tr><tr><td><br>QITweilenought0dothings<br><br></td><td>690<br></td><td>au<br></td><td>180<br></td><td>20<br></td><td>22s<br></td><td>239<br></td></tr><tr><td><br>QB<br>energywtaiity<br></td><td>828<br></td><td>184<br></td><td>106<br></td><td>239<br></td><td>189<br></td><td>036<br></td></tr><tr><td><br>QI9wornesabsutheatth*<br></td><td>380<br></td><td>196<br></td><td>138<br></td><td>t<br></td><td>1<br></td><td>M7<br></td></tr><tr><td><br><br></td></tr><tr><td><br><br></td></tr><tr><td><br>Q22reloxed<br></td><td>an<br></td><td>19<br></td><td>497<br></td><td>44<br></td><td>080<br></td><td>M7<br></td></tr><tr><td>‘%varance</td><td>99</td><td>42</td><td>134</td><td>ne</td><td>9s</td><td>78</td></tr></table>
+PMC2764637_009_01.png,503,261,1006,522,15,0.04878048780487809,0.04878048780487809,0.5885389778007227,0.7746927920015878,2,1848,0,,"### Plant Community Type 
+
+! Cord Africana /Aeesa loncealate community 
+
+2 Sopium elipticwn -Fleus sur community 
+
+3. Vitex doniano -Ky lingo buiboze community 
+
+4. Hyporthenio cymbano-Enthvine obyssinea communky 
+
+# NoofMPS 
+
+21 
+
+18 
+
+12 
+
+34 
+
+## List of Medicinal Plant Species (MPS) 
+
+Corda afncana, Phytalecce dodecandra, Erythrina bruce| Ficus sur, Grewia moths, Draceena steudnen, Crotan macrostochyws, Eucalyptus camaldulenss, Ricines communis, dedigofere evrecta, Euphorbia schimperiona, Corwza bananensts, Syzypum guinesnse, Senchus oleraceus, Leancd’s ocyrmfalia, Achyranthes espero, Solanum deconum, Senchus bpantin, Leaces deflexa, Sada rhombifede, Commelno fated Sapam epocum, Fieus sur, Eucabptus camaldulensis, Achyranthes aspera, Croton mecrostochyus, Cuscuta campestris, Ficus thanrangy, Phytalocco dodrcondra, Cynogiossum coenaieurm, Oldenlendia goreena’s, Indigofera arrecta, Solanum incasem, Sanches Kiponeni, Riemus communs, Euphorbio schimpenana, Leuces defiexa, Sida schimpersna, Sida rhomndyfollo Kylinga bulbesa, Gardena temifolla, Centella asiotive, Guironia schimperi, Solanum incanwn, Ocimum graussimum, Eucalyptus comedulenas, Trumfecta Cynogiossum coerufeurm 
+
+Enythiine obyssinies, Corda cfincang, Indigofera orrecta, Leanote ocymifeba, Terminalia schimperiona, Seniculs elata, Ficus suv. Enythnna bruce, erodendmum umbelotum, Vernonia amygdalne, Clematis hrsuta, Conyzo bananensis, Guizotio schimper, Leuces stachpdieemb, Traunfesta rhomboidea, Sida rhombifola, Solanum incanwn, Syzypum guineense, Pentas fancealata, Gardenva ternfaola, Coneily csiotica, Cynogiossum cocrufeun, lockgofero zenkeri, fusnda betanica, Oximern gratisimum, Cerése spinanum, Lantana tnifola, Biophyturn abyssinian, Dalbergiadeflexa,<sup>Gremia</sup> foctea,<sup>malls</sup> Tephrosia clota, Setaria mepoptiyile,justia betenica, Leucas 
+
+","<table><tr><th>Corda afncana, Phytalecce dodecandra, Erythrina bruce</th><th>Ficus sur, Grewia moths, Draceena steudnen, Crotan macrostochyws, Eucalyptus camaldulenss, Ricines communis, dedigofere evrecta, Euphorbia schimperiona, Corwza bananensts, Syzypum guinesnse, Senchus oleraceus, Leancd’s ocyrmfalia, Achyranthes espero, Solanum deconum, Senchus bpantin, Leaces deflexa, Sada rhombifede, Commelno fated Sapam epocum, Fieus sur, Eucabptus camaldulensis, Achyranthes aspera, Croton mecrostochyus, Cuscuta campestris, Ficus thanrangy, Phytalocco dodrcondra, Cynogiossum coenaieurm, Oldenlendia goreena’s, Indigofera arrecta, Solanum incasem, Sanches Kiponeni, Riemus communs, Euphorbio schimpenana, Leuces defiexa, Sida schimpersna, Sida rhomndyfollo Kylinga bulbesa, Gardena temifolla, Centella asiotive, Guironia schimperi, Solanum incanwn, Ocimum graussimum, Eucalyptus comedulenas, Trumfecta Cynogiossum coerufeurm</th></tr></table>",0.0,0.0,0.40474961280330407,0.5191353330010315,2,1995,205,"Plant Community Type
+No
+of MPS List of Medicinal Plant Species (MPS)
+} Corda Afncana Mesa lonealate community
+2
+Corda oficana, Phytalecca dedecandea, Enyehrna bruce| Fis sur, Grewia molt,
+Dracceno steudren, Croton macrostachys, Excalyptus camatdulenss, Reanws
+commune, Indgofere areca, Euphertsa schunpencea, Coryza bananienst,
+Syzypum guneerse, Senchus oleroceus, Leonses oqymfola, Achyranthes espera,
+Solsnum incsnum, Senchus ipantia, Leuces deena, Sida rhombi, Comme\no
+laxfebo
+2 Sepium elipecum -Feus sur community
+8
+Sapiam efipocum, Ficus sur, Excaypeus camaltulensis, Achyranthes aspera,
+Croton mecrostochyus, Cuscuta compestrs Ficus thorrangy, Phytolzcco
+dodecandra, Cmoptessum coeraeur. Otdenlonchs goreenas. Indpefero arecta,
+Solonum incansm, Sanches Hperen, Remus cammuns, Euphorbo schmnpenana,
+Leocas defiena, Sido schimperiona,
+Sie choentfala
+23.Vitex doniana -Kylingo butbosa community
+n
+Kinga bulbosa, Gorden terete, Centela asicte, Gutrova schimperi
+Solsnum incanum, Ocemum grotssimum, Eucalyptus camatdulenas, Trumfetio
+thombeidea, Conyza Banari, Sonchis eleraceus, Sida rhombic,
+Gynoglessum cendeum
+4. Hypomhentecymbono-Enehana
+abyssinica community 34
+Enthana abyss, Corde fcans, Indigofera erecta, Leanctis ogymiete,
+Terminate schemperion, Senile ela, Ficus sur, Enyhana bruce, Clerodendrum
+Lumbelotum, Vernonia omypdaina, Cematis hirsuta, Conyzo bonarienss, Guzctio
+schumpen
+Leas stachysifoems, Tourfesta cheetoidea,
+Sia rhomtfal,
+Solsnum incanuem, Syzypum guieerse, Pentas lanceclota, Garden ternfoba,
+Centets
+enionca, Cynogiessum coeruteum, Indigofera zenker,justia bessnica,
+Gein gronsimum. Carssa spenarum, Larcana tnfoba, Buphytum abyssincuem,
+Datbergi lactea Teplvosiaeleta
+Setaria mepopty, justia betenica Leucas
+deflena, Grewia mcs
+","
+
+<!-- Start of picture text -->
+Plant Community Type<br><!-- End of picture text -->
+
+
+
+<!-- Start of picture text -->
+Noof MPS List of Medicinal Plant Species (MPS)<br><!-- End of picture text -->
+
+
+
+<!-- Start of picture text -->
+} Corda Afncana Mesa lonealate community 2 Corda oficana, Phytalecca dedecandea, Enyehrna bruce| Fis sur, Grewia molt,<br>Dracceno steudren, Croton macrostachys, Excalyptus camatdulenss, Reanws<br>commune, Indgofere areca, Euphertsa schunpencea, Coryza bananienst,<br>Syzypum guneerse, Senchus oleroceus, Leonses oqymfola, Achyranthes espera,<br>Solsnum incsnum, Senchus ipantia, Leuces deena, Sida rhombi, Comme\no<br>laxfebo<br>2 Sepium elipecum -Feus sur community 8 Sapiam efipocum, Ficus sur, Excaypeus camaltulensis, Achyranthes aspera,<br>Croton mecrostochyus, Cuscuta compestrs Ficus thorrangy, Phytolzcco<br>dodecandra, Cmoptessum coeraeur. Otdenlonchs goreenas. Indpefero arecta,<br>Solonum incansm, Sanches Hperen, Remus cammuns, Euphorbo schmnpenana,<br>23.Vitex doniana -Kylingo butbosa community n LeocasKinga defiena,bulbosa, Sido Gorden schimperiona,terete,Sie Centela choentfala asicte, Gutrova schimperi<br>Solsnum incanum, Ocemum grotssimum, Eucalyptus camatdulenas, Trumfetio<br>thombeidea, Conyza Banari, Sonchis eleraceus, Sida rhombic,<br>4. Hypomhente cymbono-Eabyssi ica n ehanacommunity 34 EnthanaGynoglessum abyss, cendeumCorde fcans, Indigofera erecta, Leanctis ogymiete,<br>Terminate schemperion, Senile ela, Ficus sur, Enyhana bruce, Clerodendrum<br>Lumbelotum, Vernonia omypdaina, Cematis hirsuta, Conyzo bonarienss, Guzctio<br>schumpen<br>SolsnumCentets  incanuem,Leas stachysifoems, Syzypum guieerse,Tourfesta Pentas cheetoidea, lanceclota, GardenSia rhomtfal,ternfoba,<br>GeinDatbergi gronsimum.enionca,lactea TeplvosiaeletaCynogiessum Carssa spenarum,coeruteum,LarcanaIndigoferatnfoba,zenker,justia Buphytum abyssincuem, bessnica,<br>deflena, Grewia mcs Setaria mepopty, justia betenica Leucas<br><!-- End of picture text -->
+
+","<table><tr><th>} Corda Afncana Mesa lonealate community 2 Corda oficana, Phytalecca dedecandea, Enyehrna bruce</th><th>Fis sur, Grewia molt,<br>Dracceno steudren, Croton macrostachys, Excalyptus camatdulenss, Reanws<br>commune, Indgofere areca, Euphertsa schunpencea, Coryza bananienst,<br>Syzypum guneerse, Senchus oleroceus, Leonses oqymfola, Achyranthes espera,<br>Solsnum incsnum, Senchus ipantia, Leuces deena, Sida rhombi, Comme\no<br>laxfebo<br>2 Sepium elipecum -Feus sur community 8 Sapiam efipocum, Ficus sur, Excaypeus camaltulensis, Achyranthes aspera,<br>Croton mecrostochyus, Cuscuta compestrs Ficus thorrangy, Phytolzcco<br>dodecandra, Cmoptessum coeraeur. Otdenlonchs goreenas. Indpefero arecta,<br>Solonum incansm, Sanches Hperen, Remus cammuns, Euphorbo schmnpenana,<br>23.Vitex doniana -Kylingo butbosa community n LeocasKinga defiena,bulbosa, Sido Gorden schimperiona,terete,Sie Centela choentfala asicte, Gutrova schimperi<br>Solsnum incanum, Ocemum grotssimum, Eucalyptus camatdulenas, Trumfetio<br>thombeidea, Conyza Banari, Sonchis eleraceus, Sida rhombic,<br>4. Hypomhente cymbono-Eabyssi ica n ehanacommunity 34 EnthanaGynoglessum abyss, cendeumCorde fcans, Indigofera erecta, Leanctis ogymiete,<br>Terminate schemperion, Senile ela, Ficus sur, Enyhana bruce, Clerodendrum<br>Lumbelotum, Vernonia omypdaina, Cematis hirsuta, Conyzo bonarienss, Guzctio<br>schumpen<br>SolsnumCentets  incanuem,Leas stachysifoems, Syzypum guieerse,Tourfesta Pentas cheetoidea, lanceclota, GardenSia rhomtfal,ternfoba,<br>GeinDatbergi gronsimum.enionca,lactea TeplvosiaeletaCynogiessum Carssa spenarum,coeruteum,LarcanaIndigoferatnfoba,zenker,justia Buphytum abyssincuem, bessnica,<br>deflena, Grewia mcs Setaria mepopty, justia betenica Leucas<br><!-- End of picture text --></th></tr></table>"
+PMC6001539_000_00.png,231,183,462,366,45,0.5242605311355312,0.675,0.34558823529411764,0.3097375409997767,42,323,0,,"Gene 
+
+(TAromosoene 
+
+Target codoa/cxom 
+
+|NRAS|l|plz|
+|---|---|---|
+|SFIB)|2|p-K6s6; p.K700|
+|DNMTIA|2|p-Raa2|
+|IDH!|2|p-Ri32|
+|ANT|4|exon I7|
+|NPM|5|exon 12|
+|JAK2|9|p-Vel7|
+|KERAS|l2|p-Gl2|
+|IDH2|IS|p-Rid0; p.Ri72|
+|FPPMID|IF|ctons 1-6|
+|TPS3|\7|exons 1-12|
+|SASF2|I?|p-P9s|
+|ASXLI|20|eton 12|
+|L2AFI|al|p3sé;p.O157|
+
+
+
+",<table><tr><th>NRAS</th><th>l</th><th>plz</th></tr><tr><td>SFIB)</td><td>2</td><td>p-K6s6; p.K700</td></tr><tr><td>DNMTIA</td><td>2</td><td>p-Raa2</td></tr><tr><td>IDH!</td><td>2</td><td>p-Ri32</td></tr><tr><td>ANT</td><td>4</td><td>exon I7</td></tr><tr><td>NPM</td><td>5</td><td>exon 12</td></tr><tr><td>JAK2</td><td>9</td><td>p-Vel7</td></tr><tr><td>KERAS</td><td>l2</td><td>p-Gl2</td></tr><tr><td>IDH2</td><td>IS</td><td>p-Rid0; p.Ri72</td></tr><tr><td>FPPMID</td><td>IF</td><td>ctons 1-6</td></tr><tr><td>TPS3</td><td>\7</td><td>exons 1-12</td></tr><tr><td>SASF2</td><td>I?</td><td>p-P9s</td></tr><tr><td>ASXLI</td><td>20</td><td>eton 12</td></tr><tr><td>L2AFI</td><td>al</td><td>p3sé;p.O157</td></tr></table>,0.025000000000000022,0.025000000000000022,0.9375,0.26591999999800464,1,331,55,"Gene
+‘Chromosome
+Target codons exoa|
+NRAS
+'
+pan
+SENS
+2
+pukee6; p.K700
+DNMTIA
+2
+pokss2
+IH
+2
+peRt3z
+xr
+‘
+exon 17
+NPM?
+5
+exon 12
+1AK2
+9
+pve?
+keas
+R
+pane
+Iz
+1s
+ARTO, p.RIT2
+pPMID
+7
+exons
+1-6
+Tess
+7
+exons
+1-12
+SRSEZ
+7
+pss
+ASKL?
+20
+exon 12
+U2aFt
+Py
+S36; pis?
+","Gene ‘Chromosome 
+
+Target codons exoa| 
+
+|NRAS|'|pan|
+|---|---|---|
+|SENS|2|pukee6; p.K700|
+|DNMTIA|2|pokss2|
+|IH|2|peRt3z|
+|xr|‘|exon 17|
+|NPM?<br>|5<br>|exon 12<br>|
+|1AK2<br>|9<br>|pve?<br>|
+|keas|R|pane|
+|Iz|1s|ARTO, p.RIT2|
+|pPMID|7|exons<br>1-6|
+|Tess|7|exons<br>1-12|
+|SRSEZ|7|pss|
+|ASKL?|20|exon 12|
+|U2aFt|Py|S36;pis?|
+
+
+
+",<table><tr><th>Target codons exoa</th></tr></table>
+PMC4190300_009_00.png,238,297,476,594,84,0.5729350979350979,0.7117117117117118,0.32062780269058294,0.4518834999980754,67,581,0,,"—ielaS”*~*~<SMSS*~*CSSSA 
+
+|Bosal|2234|2235|2235|
+|---|---|---|---|
+|Without HO-1 inhibitor|1690|1830|2110|
+|SnPP|2144""|2060""|2198|
+|2rfP|218""|2012""|2241|
+|NKp2p||||
+|Bosal|2127|212?|2127|
+|Without HO-1 Inhibitee|ges|1609|1488|
+|SnPP*|14s|1349|208?|
+|2rep*|1929|1893|1989|
+|NKpt4||||
+|Basal|xs|2025|2025|
+|Witheat HO-1 Inhibitce|1684|18D1|2090|
+|SnPP|2110""|20e?*|2089|
+|ZreP|ey|2036""|2105|
+|NKpio||||
+|Basal|1900|1900|1900|
+|Without HO-1 inhibitor|1500|1488|1610|
+|SnPPp*|1934|2033|1892|
+|ZrPP”<br>——eEeEeEeEeEeEOEOEEe|18h<br>eeeeeeeeeeoo|1984<br>orrreeee—e—|1931<br>—ESESEeee|
+
+
+
+","<table><tr><th>Bosal</th><th>2234</th><th>2235</th><th>2235</th></tr><tr><td>Without HO-1 inhibitor</td><td>1690</td><td>1830</td><td>2110</td></tr><tr><td>SnPP</td><td>2144""</td><td>2060""</td><td>2198</td></tr><tr><td>2rfP</td><td>218""</td><td>2012""</td><td>2241</td></tr><tr><td>NKp2p</td></tr><tr><td>Bosal</td><td>2127</td><td>212?</td><td>2127</td></tr><tr><td>Without HO-1 Inhibitee</td><td>ges</td><td>1609</td><td>1488</td></tr><tr><td>SnPP*</td><td>14s</td><td>1349</td><td>208?</td></tr><tr><td>2rep*</td><td>1929</td><td>1893</td><td>1989</td></tr><tr><td>NKpt4</td></tr><tr><td>Basal</td><td>xs</td><td>2025</td><td>2025</td></tr><tr><td>Witheat HO-1 Inhibitce</td><td>1684</td><td>18D1</td><td>2090</td></tr><tr><td>SnPP</td><td>2110""</td><td>20e?*</td><td>2089</td></tr><tr><td>ZreP</td><td>ey</td><td>2036""</td><td>2105</td></tr><tr><td>NKpio</td></tr><tr><td>Basal</td><td>1900</td><td>1900</td><td>1900</td></tr><tr><td>Without HO-1 inhibitor</td><td>1500</td><td>1488</td><td>1610</td></tr><tr><td>SnPPp*</td><td>1934</td><td>2033</td><td>1892</td></tr><tr><td>ZrPP”<br>——eEeEeEeEeEeEOEOEEe</td><td>18h<br>eeeeeeeeeeoo</td><td>1984<br>orrreeee—e—</td><td>1931<br>—ESESEeee</td></tr></table>",0.009009009009009028,0.009009009009009028,1.0,0.1857774590025656,0,8,2,"Ci
+SA
+","Ci SA 
+
+",<table></table>
+PMC4939352_001_00.png,502,156,1004,312,23,0.024390243902439046,0.024390243902439046,1.0,0.3832507080005598,0,566,0,,"Grade 
+
+A (minimal) B (moderate) C (marked) (i) Col (ii) C2 (ii) C3 
+
+D (massive) ti) Da (ii) D-2 
+
+(ii) D-3 
+
+Retina Society Terminology Committee (1983) Clinical signs 
+
+Vitreous haze and pigment clumps 
+
+Surface retinal wrinkling, rolled edges of the retinal, retinal stiffness, and vessel tortuosity Full thickness Axed retinal folds in 
+
+(i) one quadrant, 
+
+(id) two quadrants, (iii) three quadrants 
+
+Fixed retinal folds in four quadrants that result in (i) a wide funnel shape, (ii) a narrow funnel shape, (iii) clased funnel without view af the optic disc 
+
+",<table></table>,0.024390243902439046,0.024390243902439046,1.0,0.2759795000019949,0,526,83,"Retina SocietyTerminology Committee (1983)
+Grade
+Clinical signs
+‘A (minimal)
+Vitreous haze and pigment clumps
+B (moderate)
+Surface retinal wrinkling, rolled edges of the retinal, retinal stiffness, and vessel tortuosity
+(marked)
+Pull thickness fixed retinal folds in
+wer
+(i) one quadrant,
+wer
+(@) two quadrants,
+Gi
+C3
+(ii) three quadrants
+D (massive)
+Fixed retinal folds in four quadrants that result in
+@Da
+(i) a wide funnel shape.
+@D2
+(Gi) a narrow funnel shape.
+(i) D3
+{iti) closed funnel without view of the optic dise
+","Clinical signs Grade Retina Society Terminology Committee (1983) ‘A (minimal) Vitreous haze and pigment clumps B (moderate) Surface retinal wrinkling, rolled edges of the retinal, retinal stiffness, and vessel tortuosity (marked) Pull thickness fixed retinal folds in wer (i) one quadrant, wer (@) two quadrants, Gi C3 (ii) three quadrants D (massive) Fixed retinal folds in four quadrants that result in @Da (i) a wide funnel shape. @D2 (Gi) a narrow funnel shape. (i) D3 {iti) closed funnel without view of the optic dise 
+
+",<table></table>
+PMC5744376_003_00.png,363,73,726,146,25,0.024390243902439046,0.024390243902439046,1.0,0.2482674999992014,0,238,0,,"
+
+<!-- Start of picture text -->
+Steel Height Reduction fh ("")<br>°C 400 °C 50d °C  10wC6m) °C 0 0 07000 °C2S<br>ABS! 1006 6.1 “ "" . .<br>AISI SML 31.0 565 57.4 fi). 645<br>Duplex 2205 497 532 54.1 79 61)<br><!-- End of picture text -->
+
+",<table></table>,0.024390243902439046,0.024390243902439046,1.0,0.25538104199949885,0,179,24,"TT
+”~”~”C”C”C*«ig Recto)
+se
+errr
+we
+aoe
+wee
+we
+we
+a
+ISL 304.
+S40
+565
+s74
+ws
+sas
+Duplex205
+497
+532
+su
+a9
+610
+","
+
+<!-- Start of picture text -->
+TTse ”~”~”C”C”C*«igerrrRecto)<br>we aoe wee we we<br>ISL 304.a S40 565 s74 ws sas<br>Duplex205 497 532 su a9 610<br><!-- End of picture text -->
+
+",<table></table>
+PMC1242256_006_00.png,503,118,1006,236,45,0.027027027027026973,0.027027027027026973,0.9919354838709677,0.35511095900437795,1,454,0,,"Group 
+
+wehick l4nm $6 nm OVA 
+
+OVA + l4 nen OVA + 56 mn 
+
+Anienals 
+
+eotaxin 
+
+MCP. | 
+
+RANTES 
+
+L.6 
+
+(be/totaling tisawe supematants) 
+
+(n) 
+
+16 67.9 22.9 208235 13 994 27.1 239.0 + 17.4% 4 895 29.2 89.3274 1é 130.9 # 323 41.9292 6 80482 175.775 $42.02 45.40 285 \7 399.1 4 86.9 25 12402 14.1% 
+
+174.6 + 18.8 105.8 + 3.4 192.3 4 18.0 IS1.7482 201.64 72.1 106.54 4.9 160.7+ 17.1 11834 5.7 4326 + 27.96 8 297.7 + 0.204 235.44 16.8°* 202.44 54.20"" 255 
+
+",<table><tr><th>MCP.</th></tr></table>,0.013513513513513487,0.013513513513513487,1.0,0.3040351669988013,0,439,66,"Group
+‘Animals
+eomaxin
+MEP
+RANTES,
+ue
+(pptotalng nszoesupemetsnts)
+vehicle
+16
+679229
+208235
+17462188
+105.8436
+4.0m
+ry
+994271
+23908 174
+19232 180
+IS.7 482
+Som
+4
+895 292
+893274
+2016221
+106s 2.49
+‘OVA
+16
+1309 £323
+419292
+1607 + 17.1
+1183457
+OVA+ t4.ee
+6
+04H SITET
+SarOsasanrt —4arE 4278"" H — 297,74 OD HH
+OVA + S60
+7
+3991486985
+24D
+E LAI
+DSAeI6Bx — 2024
+2 SADA
+","
+
+<!-- Start of picture text -->
+Group ‘Animals eomaxin MEP RANTES, ue<br>(pptotalng nszoesupemetsnts)<br>vehicle 16 679229 208235 17462188 105.8436<br>4.0m ry 994271 23908 174 19232 180 IS.7 482<br>Som 4 895 292 893274 2016221 106s 2.49<br>‘OVA 16 1309 £323 419292 1607 + 17.1 1183457<br>OVAOVA ++ S60t4.ee 67 04H3991486985 SITET SarOsasan24Drt —4arE 4278"" H — 297,74 OD HH<br>E LAI DSAeI6Bx — 20242 SADA<br><!-- End of picture text -->
+
+",<table></table>
+PMC5244550_004_00.png,486,298,972,596,66,0.5190653580054039,0.6637931034482758,0.3509127789046653,0.6209192079986678,62,930,0,,"|—<br>~~|”<br>tsweeks~”~”|*«CSetermbined?weeks|SCS|
+|---|---|---|---|
+|Bb||||
+|Mean +$D (range)|24.3444 (19-48)|24.3444 (184-35)|#43444 (18-48)|
+|Ethnicry, n't (5||||
+|Gwucssian|Bait 2? (G89)|18/34 (5395)|TOV 161 (65%|
+|Asian|22/127 (199)|S/34 (19%)|27/1G1(1)|
+|Blsck|Tat 2? (1995)|11/34 [(3.255)*|IGVIG1 (19%)|
+|Smoker,ni 94)|B12? (OM)|3/34 (S44|11/161 (a)|
+|Gestation at sample (wees)||||
+|Mean + SD (range)|410(14-185|16° 4 14 (12°7'-18""*}|16° + 1.9 (12""""-18"")|
+|Cervical kength (mm)||||
+|Mean + SD (range)|325210<br>(18-56|32.6+64 (1040|32456 (10S)|
+|Intervention n/t (*)||||
+|No intervention|Gala? (45)|1032 (2994)|FOV161 (43%)|
+|Cerclage|S112? (4035)|232 (59%)|PUIG) (44%)|
+|Progesterone|1a? (134)|4/32 (12%)|JOVIG) (12%)|
+|Gestation at delevery, avy (6)||||
+|Early PTB, <34°°weeks|na|18/34 (5395)|18/161 (11%)|
+|Late PTB, 34°° to <3?""° wancks|na|16/34 (49)|1GA161 (1046)|
+|Term,237°°weeks|127/127[1O0RS)|na|T27/1G1(Pag|
+
+
+
+","<table><tr><th>—<br>~~</th><th>”<br>tsweeks~”~”</th><th>*«CSetermbined?weeks</th><th>SCS</th></tr><tr><td>Bb</td></tr><tr><td>Mean +$D (range)</td><td>24.3444 (19-48)</td><td>24.3444 (184-35)</td><td>#43444 (18-48)</td></tr><tr><td>Ethnicry, n't (5</td></tr><tr><td>Gwucssian</td><td>Bait 2? (G89)</td><td>18/34 (5395)</td><td>TOV 161 (65%</td></tr><tr><td>Asian</td><td>22/127 (199)</td><td>S/34 (19%)</td><td>27/1G1(1)</td></tr><tr><td>Blsck</td><td>Tat 2? (1995)</td><td>11/34 [(3.255)*</td><td>IGVIG1 (19%)</td></tr><tr><td>Smoker,ni 94)</td><td>B12? (OM)</td><td>3/34 (S44</td><td>11/161 (a)</td></tr><tr><td>Gestation at sample (wees)</td></tr><tr><td>Mean + SD (range)</td><td>410(14-185</td><td>16° 4 14 (12°7'-18""*}</td><td>16° + 1.9 (12""""-18"")</td></tr><tr><td>Cervical kength (mm)</td></tr><tr><td>Mean + SD (range)</td><td>325210<br>(18-56</td><td>32.6+64 (1040</td><td>32456 (10S)</td></tr><tr><td>Intervention n/t (*)</td></tr><tr><td>No intervention</td><td>Gala? (45)</td><td>1032 (2994)</td><td>FOV161 (43%)</td></tr><tr><td>Cerclage</td><td>S112? (4035)</td><td>232 (59%)</td><td>PUIG) (44%)</td></tr><tr><td>Progesterone</td><td>1a? (134)</td><td>4/32 (12%)</td><td>JOVIG) (12%)</td></tr><tr><td>Gestation at delevery, avy (6)</td></tr><tr><td>Early PTB, <34°°weeks</td><td>na</td><td>18/34 (5395)</td><td>18/161 (11%)</td></tr><tr><td>Late PTB, 34°° to <3?""° wancks</td><td>na</td><td>16/34 (49)</td><td>1GA161 (1046)</td></tr><tr><td>Term,237°°weeks</td><td>127/127[1O0RS)</td><td>na</td><td>T27/1G1(Pag</td></tr></table>",0.2290750211504673,0.36363636363636365,0.4026369168356998,0.4767227910051588,79,1134,138,"—”™”~””C™CSCSCSerm
+bth aa weeks
+Cte bin <iwees
+SCTeC*d
+ou
+Mean + SD (range)
+243244 (18-48)
+243.244 (186-35
+2432.44 (18-09
+Ethnieny,
+n/t
+(sh
+Cauession
+9/127 (69%)
+12/34 53%)
+rovr6r (esse
+Asan
+22127 (1%)
+34 (15%)
+277161 (17%)
+Black
+19/127 (19%)
+134 gam
+207161 (1%)
+Smoker, av 88)
+827 (OM
+Per)
+1161 (IM
+Gestation at sarmple (weeks)
+Mean + SD (range)
+4100318""
+1"" 14 02-18"")
+teeta (12-184
+Cervical length (rm)
+Mean + SD (range)
+3254 10 (18-50
+306 £64 (10-404
+32456 (10-50
+Intervention
+n/t
+(8)
+No intervention
+cas127 (49%)
+10132 29%)
+70¥161 (e2H)
+Cerelage
+1/12? (405%)
+2022 (59%)
+21/161 (eats
+Progesterone
+1927 133)
+472 (12%)
+207161 (128)
+Gestation at delrvery, Vt (6)
+Early PTR, 24"" weeks
+ra
+12/34 53%)
+rayt61 (104)
+Late PTB, 34°° to 37"" weeks
+ra
+16134 (47%)
+169161 (10%)
+Term 237°° weeks
+127/127
+(100%)
+na
+17/161 (HKG
+","|—”™”~|””C™C<br>bthaaweeks<br>|SCSC<br>Ctebin<iwees<br>|Serm<br>SCTeC*d|
+|---|---|---|---|
+|ou<br>|<br><br>|<br><br>||
+|Mean+SD(range)|243244(18-48)|243.244(186-35|2432.44(18-09|
+|<br>Ethnieny,<br>n/t<br>(sh<br>|<br>|<br>|<br>|
+|Cauession|9/127(69%)|12/3453%)|rovr6r(esse|
+|Asan<br>|<br>22127 (1%)<br>|<br>34 (15%)<br>|<br>277161 (17%)<br>|
+|Black<br>|19/127(19%)<br>|134gam<br>|207161(1%)<br>|
+|Smoker,av88)|<br>827(OM|<br>Per)|<br>1161(IM|
+|<br>Gestation at sarmple (weeks)<br>|<br>||<br>|
+|Mean+SD(range)|4100318""|1""1402-18"")|teeta(12-184|
+|<br>Cervical length (rm)<br>||<br>|<br>|
+|Mean+SD(range)|325410 (18-50|306£64(10-404|32456(10-50|
+|<br>Intervention<br>n/t<br>(8)<br>|<br>|<br>|<br>|
+|Nointervention<br>|cas127(49%)<br>|1013229%)<br>|70¥161(e2H)<br>|
+|<br>Cerelage<br>|<br>1/12?(405%)<br>|<br>2022(59%)<br>|<br>21/161(eats<br>|
+|Progesterone|<br>1927133)|<br>472(12%)|<br>207161(128)|
+|Gestation at delrvery, Vt (6)<br>|<br>|<br>|<br>|
+|EarlyPTR,24""weeks<br>|ra<br>|12/3453%)<br>|rayt61(104)<br>|
+|<br>LatePTB,34°°to37""weeks|ra|<br>16134(47%)|<br>169161(10%)|
+|<br>Term237°°weeks|127/127<br>(100%)|<br>na|<br>17/161(HKG|
+
+
+
+","<table><tr><th>—”™”~</th><th>””C™C<br>bthaaweeks<br></th><th>SCSC<br>Ctebin<iwees<br></th><th>Serm<br>SCTeC*d</th></tr><tr><td>ou<br></td><td><br><br></td><td><br><br></td></tr><tr><td>Mean+SD(range)</td><td>243244(18-48)</td><td>243.244(186-35</td><td>2432.44(18-09</td></tr><tr><td><br>Ethnieny,<br>n/t<br>(sh<br></td><td><br></td><td><br></td><td><br></td></tr><tr><td>Cauession</td><td>9/127(69%)</td><td>12/3453%)</td><td>rovr6r(esse</td></tr><tr><td>Asan<br></td><td><br>22127 (1%)<br></td><td><br>34 (15%)<br></td><td><br>277161 (17%)<br></td></tr><tr><td>Black<br></td><td>19/127(19%)<br></td><td>134gam<br></td><td>207161(1%)<br></td></tr><tr><td>Smoker,av88)</td><td><br>827(OM</td><td><br>Per)</td><td><br>1161(IM</td></tr><tr><td><br>Gestation at sarmple (weeks)<br></td><td><br></td><td></td><td><br></td></tr><tr><td>Mean+SD(range)</td><td>4100318""</td><td>1""1402-18"")</td><td>teeta(12-184</td></tr><tr><td><br>Cervical length (rm)<br></td><td></td><td><br></td><td><br></td></tr><tr><td>Mean+SD(range)</td><td>325410 (18-50</td><td>306£64(10-404</td><td>32456(10-50</td></tr><tr><td><br>Intervention<br>n/t<br>(8)<br></td><td><br></td><td><br></td><td><br></td></tr><tr><td>Nointervention<br></td><td>cas127(49%)<br></td><td>1013229%)<br></td><td>70¥161(e2H)<br></td></tr><tr><td><br>Cerelage<br></td><td><br>1/12?(405%)<br></td><td><br>2022(59%)<br></td><td><br>21/161(eats<br></td></tr><tr><td>Progesterone</td><td><br>1927133)</td><td><br>472(12%)</td><td><br>207161(128)</td></tr><tr><td>Gestation at delrvery, Vt (6)<br></td><td><br></td><td><br></td><td><br></td></tr><tr><td>EarlyPTR,24""weeks<br></td><td>ra<br></td><td>12/3453%)<br></td><td>rayt61(104)<br></td></tr><tr><td><br>LatePTB,34°°to37""weeks</td><td>ra</td><td><br>16134(47%)</td><td><br>169161(10%)</td></tr><tr><td><br>Term237°°weeks</td><td>127/127<br>(100%)</td><td><br>na</td><td><br>17/161(HKG</td></tr></table>"
+PMC5645160_003_01.png,255,73,510,146,24,0.023809523809523836,0.023809523809523836,1.0,0.2735611250027432,0,229,0,,"Leo late Coden 205 (TAC) Cedon 108 (GCA) Codon 167 (TAC) He Hansowe 62 09 135 + 1 445 = 046 ihe CAVK 10 + 1.4 i335 = LL? 102 14 He UE 645 = 3&1 143 2 15 a3 = al fhe THE 748 = 27 i322 2 15 Ma? f= 13 He Wh 935 22 4.7 2 i 26 = 06 
+
+",<table></table>,0.023809523809523836,0.023809523809523836,1.0,0.21227470799931325,0,244,42,"Tlate
+‘Colon 200 (TAC)
+Caden 198 (GCA)
+Caden 167 (FAC)
+Hetimowe
+6
+=
+09
+was2t
+SS
+=
+06
+HeeAve
+toe
+14
+SS 217
+21s
+Me Tue
+74m
+=
+27
+2215
+Wy
+= as.
+He wn
+93s 22
+147 23
+26
+=
+06
+","
+
+<!-- Start of picture text -->
+Tlate ‘Colon 200 (TAC) Caden 198 (GCA) Caden 167 (FAC)<br>Hetimowe 6 = 09 was2t SS = 06<br>HeeAve toe 14 SS 217 21s<br>Me Tue 74m = 27 2215 Wy<br>He wn 93s 22 147 23 26 == 06as.<br><!-- End of picture text -->
+
+",<table></table>
+PMC3348030_003_00.png,238,428,476,856,64,0.00990099009900991,0.00990099009900991,1.0,0.22507695799868088,0,42,0,,"Demographics Number (>) of participants 
+
+",<table></table>,0.01980198019801982,0.01980198019801982,0.9435975609756098,0.1852313750059693,1,55,5,"Demographics
+__——=====_—_Number (%) of participants|
+","Demographics __——=====_—_Number (%) of participants| 
+
+",<table><tr><th>Demographics __——=====_—_Number (%) of participants</th></tr></table>
+PMC4101840_005_00.png,486,73,972,146,45,0.011904761904761862,0.011904761904761862,1.0,0.2940349159980542,0,152,0,,"Potential 
+
+Model 
+
+y 
+
+x 
+
+AIC 
+
+<wtAlc)> Masce 
+
+<R> <pR> 
+
+Pre calty a Af Ato UD. 4 3: O04 ——————————ooeeSse—w—wee —aVvaV—XOO ESS a 
+
+3: O04 ESS a 
+
+",<table></table>,0.011904761904761862,0.011904761904761862,1.0,0.18202799999562558,0,42,9,"Potential
+Model
+y
+x
+ae
+<wAKy>
+Nore
+<> :
+","Potential Model y x ae <wAKy> Nore <> : 
+
+",<table></table>
+PMC2846930_003_00.png,486,486,972,972,520,0.46534387292523405,0.75,0.3167821401077752,1.608919499994954,521,2948,0,,"|Name""|Stare|tna|sr|che|Loc®|Ee|PD""|Karke”|RT|fs""|he|aa”|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|ccT1-1P|19,996,628|19.98716|+|12|pl22|1|p|dS|0.16|S|2|190|
+|CCT1-2P|41,621,786|41,623,646|.|s|pial|2|D|121|0.15|?|5|$12|
+|ccT1-3p""*<br>|42,901,020<br>|42,802,033<br>|+<br>|?<br>|pl4l<br>|3<br>|D<br>|bea<br>|2.10<br>|1<br>|1<br>|3F<br>|
+|ccTa-1P|1Q177 S78|16,178,178|+|8|p22|1|P|1o2|on|2|2|189|
+|ccT4-1P<br>|<br>O417TSTR<br>|64409590<br>|+|x<br>|ql2<br>|3<br>|D<br>|DS<br>|176<br>|0<br>|3<br>|$12<br>|
+|CCT4-2P|140244101|«140346787||?|qué|4|D|ba?|124|2|10|278|
+|ccTs-1p'*""*|78382086|mae2.e90|+|2|q31.|1|e|03!|020|3|4|S49|
+|CCTS-2P'*<br>|7S 382 266<br>|ma82.907<br>|.<br>|2<br>|q3i.<br>|1<br>|?<br>|.<br>|:<br>|.<br>|1<br>|a4<br>|
+|CCTS-3P|11gsf6298|«472900|+|s|q223|1|P|025|202|6|3|mm|
+|cCTe-1P<br>|14,692,965<br>|14,693,954<br>|.<br>|S<br>|ps2<br>|1<br>|P<br>|1.00<br>|on<br>|2<br>|2<br>|3a)<br>|
+|CCTe-2P|109013584|«9weplal|y-|11|q223|1|P|oso|oo|0|2|178|
+|ccTe-3p'°<br>|66162812<br>|64,171,325<br>|+<br>|?<br>|qii21.<br>|a<br>|D<br>|043<br>|206<br>|5<br>|4<br>|289<br>|
+|CCTe-eP|197,91$.232|-191.91agyy|+|3|q2s8|1|p|047|690°""|4|4|2812|
+|CCTe-sp's¥|64852564|64,205,400|+|?|qil21.—|sa|D|o24|bad|12|6|a8|
+|CCT?-1p'*<br>|92.251,62?<br>|92,207,366<br>|.<br>|S<br>|qis<br>|1<br>|:<br>|045<br>|aa<br>|3<br>|4<br>|145<br>|
+|CCT?-2P|190.242315|190243200|+|6|q2$1|1|:|oa?|bb|3|4|S82|
+|CCTs-1P'*|145,141482|145,143,137 —|— =|1|qq?|1|:|1.14|bb|2|3|%1|
+|HSPD1-1P'*|135,744,902|«135,749039|—t-|5|qa|1|:|146|02?|0|0|48|
+|HSPD1-2P'4""""|21.g19400|FMS|.|5|pl43|1|:|heb)|bb|1|1|dot|
+|HSPD1-3P|43,412,029|43,602.80|.|F,)|qizi2.|4|D|:|.|0|1|ge|
+|HSPD1-4P|88.055,673|82,066.09|+|ry|qis|1|:|045|ice|4|4|ee)|
+|HSPD1-5P'*|$5,199,088|$5,192,769|+|12|qiz2|1|:|046|308|2|1|aa|
+|HSPD1-6°""*|P8262|36,785,195|.|3|P22|1|:|b49|246|2|2|ae3|
+|HSPD1-7e""""|75s|7,265,475|.|8|p231|1|fi|1.12|be|5|4|3|
+|HSPD1-BP|165,986,418|149987905|+|r|qzi21||:|6a|232|4|3|ass|
+|HSPD1-9""""""<br>|7785932<br>|¥,Pa?,402<br>|.<br>|8<br>|p231<br>|1<br>|fi<br>|091<br>|oce<br>|5<br>|3<br>|416<br>|
+|HSPD1-108|RUSSSet|acaa5?|+|12|pla31|2?|D|Oo|Da|1|1|aor|
+|HSPD1-11P|<br>95,130,449|<br>%132,169|+|5|qis|4|D|0.74|2.44|6|6|3%|
+|HSPD1-12""|78,321,272|73,223.34)|+|12|qi|1|:|bed|4.98""|5|4|410|
+|HSPD1-130|183,068,626|1939008943|+|6|q2$2|1|:|O44|284|1|2|108|
+|HSPD1-14p""*|37,466,288|47,466.22?|.|13|qiaa|4|D|oee|32|6|3|351|
+|HSPD1-18¢|1.209298|19,270.353|+|S|pl43|4|D|0.74|124|4|4|241|
+|HSPD1-168|105,082,802|1060eR75S|+|11|q223|»|D|O51|624°|S|4|ee)|
+|<br>HSPD1-17""|34077070|24078.293|+|1|p3$1|3|D|0.74|148|2|2|27|
+|HSPD1-18|54,105,684|<br>$6,108,736|+|Fa)|qiz3a2|4|D|o48|108g""|=3|2|Pee|
+|HSPD1-16|318868|$0319008|+|10|qil23|.—|?|242|or|<br>a|0D|a?|
+|HSPD1-XP|78924241|73924478|.|12|q2131|||?|040|308|a|0|%|
+|HSPD1-21P|mgsaap|CO2876|.|S|qi21|6|D|:|.|a|6|18$|
+|HSPD1-22P<br>———S<br>|29,181851<br>S<br>|29,183,334<br><br>|-<br>|21<br>|q213<br>|»<br>|D<br>|06<br>|14<br>|3<br>|‘<br><br>kme|3s<br><br>ee|
+
+
+
+","<table><tr><th>Name""</th><th>Stare</th><th>tna</th><th>sr</th><th>che</th><th>Loc®</th><th>Ee</th><th>PD""</th><th>Karke”</th><th>RT</th><th>fs""</th><th>he</th><th>aa”</th></tr><tr><td>ccT1-1P</td><td>19,996,628</td><td>19.98716</td><td>+</td><td>12</td><td>pl22</td><td>1</td><td>p</td><td>dS</td><td>0.16</td><td>S</td><td>2</td><td>190</td></tr><tr><td>CCT1-2P</td><td>41,621,786</td><td>41,623,646</td><td>.</td><td>s</td><td>pial</td><td>2</td><td>D</td><td>121</td><td>0.15</td><td>?</td><td>5</td><td>$12</td></tr><tr><td>ccT1-3p""*<br></td><td>42,901,020<br></td><td>42,802,033<br></td><td>+<br></td><td>?<br></td><td>pl4l<br></td><td>3<br></td><td>D<br></td><td>bea<br></td><td>2.10<br></td><td>1<br></td><td>1<br></td><td>3F<br></td></tr><tr><td>ccTa-1P</td><td>1Q177 S78</td><td>16,178,178</td><td>+</td><td>8</td><td>p22</td><td>1</td><td>P</td><td>1o2</td><td>on</td><td>2</td><td>2</td><td>189</td></tr><tr><td>ccT4-1P<br></td><td><br>O417TSTR<br></td><td>64409590<br></td><td>+</td><td>x<br></td><td>ql2<br></td><td>3<br></td><td>D<br></td><td>DS<br></td><td>176<br></td><td>0<br></td><td>3<br></td><td>$12<br></td></tr><tr><td>CCT4-2P</td><td>140244101</td><td>«140346787</td><td></td><td>?</td><td>qué</td><td>4</td><td>D</td><td>ba?</td><td>124</td><td>2</td><td>10</td><td>278</td></tr><tr><td>ccTs-1p'*""*</td><td>78382086</td><td>mae2.e90</td><td>+</td><td>2</td><td>q31.</td><td>1</td><td>e</td><td>03!</td><td>020</td><td>3</td><td>4</td><td>S49</td></tr><tr><td>CCTS-2P'*<br></td><td>7S 382 266<br></td><td>ma82.907<br></td><td>.<br></td><td>2<br></td><td>q3i.<br></td><td>1<br></td><td>?<br></td><td>.<br></td><td>:<br></td><td>.<br></td><td>1<br></td><td>a4<br></td></tr><tr><td>CCTS-3P</td><td>11gsf6298</td><td>«472900</td><td>+</td><td>s</td><td>q223</td><td>1</td><td>P</td><td>025</td><td>202</td><td>6</td><td>3</td><td>mm</td></tr><tr><td>cCTe-1P<br></td><td>14,692,965<br></td><td>14,693,954<br></td><td>.<br></td><td>S<br></td><td>ps2<br></td><td>1<br></td><td>P<br></td><td>1.00<br></td><td>on<br></td><td>2<br></td><td>2<br></td><td>3a)<br></td></tr><tr><td>CCTe-2P</td><td>109013584</td><td>«9weplal</td><td>y-</td><td>11</td><td>q223</td><td>1</td><td>P</td><td>oso</td><td>oo</td><td>0</td><td>2</td><td>178</td></tr><tr><td>ccTe-3p'°<br></td><td>66162812<br></td><td>64,171,325<br></td><td>+<br></td><td>?<br></td><td>qii21.<br></td><td>a<br></td><td>D<br></td><td>043<br></td><td>206<br></td><td>5<br></td><td>4<br></td><td>289<br></td></tr><tr><td>CCTe-eP</td><td>197,91$.232</td><td>-191.91agyy</td><td>+</td><td>3</td><td>q2s8</td><td>1</td><td>p</td><td>047</td><td>690°""</td><td>4</td><td>4</td><td>2812</td></tr><tr><td>CCTe-sp's¥</td><td>64852564</td><td>64,205,400</td><td>+</td><td>?</td><td>qil21.—</td><td>sa</td><td>D</td><td>o24</td><td>bad</td><td>12</td><td>6</td><td>a8</td></tr><tr><td>CCT?-1p'*<br></td><td>92.251,62?<br></td><td>92,207,366<br></td><td>.<br></td><td>S<br></td><td>qis<br></td><td>1<br></td><td>:<br></td><td>045<br></td><td>aa<br></td><td>3<br></td><td>4<br></td><td>145<br></td></tr><tr><td>CCT?-2P</td><td>190.242315</td><td>190243200</td><td>+</td><td>6</td><td>q2$1</td><td>1</td><td>:</td><td>oa?</td><td>bb</td><td>3</td><td>4</td><td>S82</td></tr><tr><td>CCTs-1P'*</td><td>145,141482</td><td>145,143,137 —</td><td>— =</td><td>1</td><td>qq?</td><td>1</td><td>:</td><td>1.14</td><td>bb</td><td>2</td><td>3</td><td>%1</td></tr><tr><td>HSPD1-1P'*</td><td>135,744,902</td><td>«135,749039</td><td>—t-</td><td>5</td><td>qa</td><td>1</td><td>:</td><td>146</td><td>02?</td><td>0</td><td>0</td><td>48</td></tr><tr><td>HSPD1-2P'4""""</td><td>21.g19400</td><td>FMS</td><td>.</td><td>5</td><td>pl43</td><td>1</td><td>:</td><td>heb)</td><td>bb</td><td>1</td><td>1</td><td>dot</td></tr><tr><td>HSPD1-3P</td><td>43,412,029</td><td>43,602.80</td><td>.</td><td>F,)</td><td>qizi2.</td><td>4</td><td>D</td><td>:</td><td>.</td><td>0</td><td>1</td><td>ge</td></tr><tr><td>HSPD1-4P</td><td>88.055,673</td><td>82,066.09</td><td>+</td><td>ry</td><td>qis</td><td>1</td><td>:</td><td>045</td><td>ice</td><td>4</td><td>4</td><td>ee)</td></tr><tr><td>HSPD1-5P'*</td><td>$5,199,088</td><td>$5,192,769</td><td>+</td><td>12</td><td>qiz2</td><td>1</td><td>:</td><td>046</td><td>308</td><td>2</td><td>1</td><td>aa</td></tr><tr><td>HSPD1-6°""*</td><td>P8262</td><td>36,785,195</td><td>.</td><td>3</td><td>P22</td><td>1</td><td>:</td><td>b49</td><td>246</td><td>2</td><td>2</td><td>ae3</td></tr><tr><td>HSPD1-7e""""</td><td>75s</td><td>7,265,475</td><td>.</td><td>8</td><td>p231</td><td>1</td><td>fi</td><td>1.12</td><td>be</td><td>5</td><td>4</td><td>3</td></tr><tr><td>HSPD1-BP</td><td>165,986,418</td><td>149987905</td><td>+</td><td>r</td><td>qzi21</td><td></td><td>:</td><td>6a</td><td>232</td><td>4</td><td>3</td><td>ass</td></tr><tr><td>HSPD1-9""""""<br></td><td>7785932<br></td><td>¥,Pa?,402<br></td><td>.<br></td><td>8<br></td><td>p231<br></td><td>1<br></td><td>fi<br></td><td>091<br></td><td>oce<br></td><td>5<br></td><td>3<br></td><td>416<br></td></tr><tr><td>HSPD1-108</td><td>RUSSSet</td><td>acaa5?</td><td>+</td><td>12</td><td>pla31</td><td>2?</td><td>D</td><td>Oo</td><td>Da</td><td>1</td><td>1</td><td>aor</td></tr><tr><td>HSPD1-11P</td><td><br>95,130,449</td><td><br>%132,169</td><td>+</td><td>5</td><td>qis</td><td>4</td><td>D</td><td>0.74</td><td>2.44</td><td>6</td><td>6</td><td>3%</td></tr><tr><td>HSPD1-12""</td><td>78,321,272</td><td>73,223.34)</td><td>+</td><td>12</td><td>qi</td><td>1</td><td>:</td><td>bed</td><td>4.98""</td><td>5</td><td>4</td><td>410</td></tr><tr><td>HSPD1-130</td><td>183,068,626</td><td>1939008943</td><td>+</td><td>6</td><td>q2$2</td><td>1</td><td>:</td><td>O44</td><td>284</td><td>1</td><td>2</td><td>108</td></tr><tr><td>HSPD1-14p""*</td><td>37,466,288</td><td>47,466.22?</td><td>.</td><td>13</td><td>qiaa</td><td>4</td><td>D</td><td>oee</td><td>32</td><td>6</td><td>3</td><td>351</td></tr><tr><td>HSPD1-18¢</td><td>1.209298</td><td>19,270.353</td><td>+</td><td>S</td><td>pl43</td><td>4</td><td>D</td><td>0.74</td><td>124</td><td>4</td><td>4</td><td>241</td></tr><tr><td>HSPD1-168</td><td>105,082,802</td><td>1060eR75S</td><td>+</td><td>11</td><td>q223</td><td>»</td><td>D</td><td>O51</td><td>624°</td><td>S</td><td>4</td><td>ee)</td></tr><tr><td><br>HSPD1-17""</td><td>34077070</td><td>24078.293</td><td>+</td><td>1</td><td>p3$1</td><td>3</td><td>D</td><td>0.74</td><td>148</td><td>2</td><td>2</td><td>27</td></tr><tr><td>HSPD1-18</td><td>54,105,684</td><td><br>$6,108,736</td><td>+</td><td>Fa)</td><td>qiz3a2</td><td>4</td><td>D</td><td>o48</td><td>108g""</td><td>=3</td><td>2</td><td>Pee</td></tr><tr><td>HSPD1-16</td><td>318868</td><td>$0319008</td><td>+</td><td>10</td><td>qil23</td><td>.—</td><td>?</td><td>242</td><td>or</td><td><br>a</td><td>0D</td><td>a?</td></tr><tr><td>HSPD1-XP</td><td>78924241</td><td>73924478</td><td>.</td><td>12</td><td>q2131</td><td></td><td></td><td>?</td><td>040</td><td>308</td><td>a</td><td>0</td><td>%</td></tr><tr><td>HSPD1-21P</td><td>mgsaap</td><td>CO2876</td><td>.</td><td>S</td><td>qi21</td><td>6</td><td>D</td><td>:</td><td>.</td><td>a</td><td>6</td><td>18$</td></tr><tr><td>HSPD1-22P<br>———S<br></td><td>29,181851<br>S<br></td><td>29,183,334<br><br></td><td>-<br></td><td>21<br></td><td>q213<br></td><td>»<br></td><td>D<br></td><td>06<br></td><td>14<br></td><td>3<br></td><td>‘<br><br>kme</td><td>3s<br><br>ee</td></tr></table>",0.16220053562503023,0.5719381688466112,0.6401077752117013,1.6293652499953168,505,3171,410,"Name
+Stan”
+tae
+Sat
+Chto PDK
+ORT
+OFS SC
+ccry-2
+ayers
+41823646 ee)
+tons
+>
+$
+si
+ceria""
+OT a
+eC
+1
+1
+2?
+cere
+wqiysme—6a7ai7@
++
+pk
+1m
+00
+202
+19
+ccte-1P
+oui7rsme = eaaons9a
++X
+giz
+2 DE
+0
+a
+si
+ccte-2
+veo3a3o1
+140245787
+-
+7
+qe
+4
+BD
+om
+128
+2
+0
+ccts1'**
+—gnepoes = ananggo = +
+qt
+ot
+P
+ost
+020
+a
+4
+seo
+ccts-20""*
+79260966
+T2907
+woo
+qm
+1?
+:
+:
+'
+Pa
+ccts-3e
+n4sretea14g777%0 0 +S
+Quest
+P
+0
+and
+6
+a
+a
+cce-1e
+reemses
+—agpassa
+Ss
+piss
+oP
+100
+0
+2
+2
+20
+ccte-2
+1o9013sea
+oan?
+no
+qzs
+te
+0s
+0
+o
+2
+178
+ccTe-20""
+ogiag—euges
++P
+git}
+8
+kk
+.06
+s
+4
+289
+cCTe-eP
+1919isaa2
+9916s +
+as
+1
+Pe
+037 go
+2
+CCTs
+—gaasases
+—eeansaaa
++)
+7
+gQt2)
+10st
+Rn
+6
+2”
+ccrr-1p
+9225167
+90207366
+so
+qs
+1
+Pe
+oss
+1a
+2S
+1s
+ccrr-2p
+roasts
+10249200
++ = 6
+gts
+at
+P
+os? — 010
+zs
+4
+ss
+ccte-1p'
+wesr614e2
+45143137
+-
+1
+au
+1
+P
+a
+ey)
+a
+1
+HSPDI-IP*
+—135,744902
+135745039
+Ss
+oq
+1
+Pe
+46
+Om
+o
+0
+48
+HSPDI-2P'7
+—ugigod
+—-21.920175—
+Ss
+pas
+1
+Pe
+0s
+010
+1
+'
+aot
+HSPDI-aP
+Co
+a
+a
+a
+a
+:
+0
+'
+8
+HsPDI-aP
+seasons
+eee
+«+
+gS
+oss
+tee
+as
+19
+HSPDI-SP
+—sSr91S3$5,192708
++
+Qt?
+tO
+056
+ane
+2
+'
+3
+HsPDI-6e'
+—aq7eOI2 = asTUSIBS
+3
+pas
+te
+059246
+2
+2
+aa
+HsDr-7e = agenssRMSAIS
++
+pth
+at
+P
+12
+one
+s
+4
+396
+HSPDI-8P
+weSga6418
+ 1as9a7s%
++k
+qt
+oes
+22
+4
+a
+ass
+HspDr-9e = aassu2
+argo
+=
+ptt
+OP
+os
+one
+s
+a
+416
+HSPDI-10P
+segs
+gas? = +
+pts
+1
+'
+ar
+HSPDI-IP
+—StaN4S9HNEDNOD
+«=
++S
+QS SDH
+6.
+6
+ams
+HspDI1z = ganna = aaa
+«+
+gat
+ot
+P
+oe
+a
+ee?
+410
+HSPDI-
+18300866
+SERIE
++
+QUST
+oss
+lat
+1
+2
+ras
+HsPDI-1e""
+—ay4es288—
+aPAoRI?
+ma
+gas
+4D
+ea
+6
+a
+81
+HSPDI-S
+—tgaumgas
+19270353
++S
+pS
+DOM
+a4
+2
+HSPDI-We
+tama?
+nwsmearss
++
+1
+qs
+2
+DB
+os
+6m
+Ss
+4
+19
+HsPDI17
+—saa7FOT = pTIIS +
+ps1
+3
+Deak
+2
+2
+ar
+HSPDI-1H
+—SAIOSABS
+5610876
++
+MQIBBZ SDS
+sD
+2
+HsPDI-1
+—BIgaKB
+SONIDO
++
+1D
+gQh2B
+ot?
+22
+On
+o
+oo
+@
+HsPDI-xP
+—MRaNMAAT = agDAATa
+mB
+quart?
+os
+ace
+o
+0
+HsPDI-21e
+994420
+eogeEBTG
+Ss
+qz1
+6
+Ds
+:
+o
+6
+185,
+HsPDI-2 = ansrast = 2eneaaas
+gts
+24
+38
+","|Name|Stan”|tae|Sat|Ch|to||D|K|ORT|OFS|S|C|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|ccry-2<br>|ayers<br>|418236<br>|6||<br>e<br>|<br><br>||to<br>|ns|<br>><br>|<br>$|si<br>|
+|ceria""<br>|OT<br>|a<br>|<br>|||||||1<br>|1<br>|2?<br>|
+|cere<br>|<br>wqiysme<br>|<br>6a7ai7@<br>|+<br>|||||1m<br>|00<br>|2<br>|2<br>|19<br>|
+|ccte-1P<br>|oui7rsme<br>|eaaons9a<br>|+<br>|X<br>|giz<br>|2<br>||||0<br>|a<br>|si|
+|ccte-2<br>|<br>veo3a3o1<br>|<br>140245787<br>|-<br>|7|qe<br>|<br>4<br>|<br>BD<br>|om<br>|128<br>|2<br>|0<br>||
+|ccts1'**<br>|—gnepoes<br>|ananggo<br>|+<br>||qt<br>|ot<br>|P<br>|ost<br>|020<br>|a|4<br>|seo<br>|
+|ccts-20""*<br>|<br>79260966<br>|<br>T290<br>|<br>7<br>|woo<br>|qm<br>|1<br>||:<br>|:<br>||'<br>|Pa<br>|
+|ccts-3e<br>|n4sretea<br>|14g777%0<br>|0+|S<br>|Que<br>|t<br>|P<br>|0<br>|and<br>|6<br>|a<br>|a<br>|
+|cce-1e<br>|reemses<br>|<br>—agpassa<br>||<br>Ss<br>|piss<br>|o<br>|P<br>|100<br>|0<br>|2<br>|2<br>|20<br>|
+|ccte-2<br>|1o9013sea<br>|oan?<br>||no<br>|qzs<br>|t<br>|e|0s<br>|0<br>|o<br>|2<br>|178<br>|
+|ccTe-20""<br>|ogiag<br>|euges<br>|+<br>|P<br>|git}<br>|8<br>||kk<br>|.06<br>|s<br>|4<br>|289<br>|
+|cCTe-eP|1919isaa2|9916s|||as|1|Pe|037||||2|
+|CCTs<br>|—gaasases<br>|<br>—eeansaaa<br>|<br>+)<br>|7<br>|gQt2)<br>|1<br>|0<br>|<br>s<br>|<br>t<br>|Rn<br>|6<br>|2”<br>|
+|ccrr-1p<br>|9225167<br>|902073<br>|6<br>|so<br>|qs<br>|1<br>|Pe<br>|oss<br>|1a<br>|2<br>|S<br>|1s<br>|
+|ccrr-2p<br>|roasts<br>|10249200<br>|+<br>|6<br>|gts<br>|at<br>|P<br>|os?<br>|010|zs<br>|4<br>|ss<br>|
+|ccte-1p'|wesr614e2|45143137|<br>-|<br>1|au|1|P|<br>a||ey)|a|1|
+|HSPDI-IP*|—135,744902|135745039||Ss|oq|1|Pe|46|Om|o|0|48|
+|HSPDI-2P'7|—ugigod|—-21.920175—||Ss|pas|1|Pe|0s|010|1|'|aot|
+|HSPDI-aP<br>|Co<br>|a<br>|a<br>||a<br>|a|||:<br>|0<br>|'<br>|8<br>|
+|HsPDI-aP|seasons|eee|«+||gS|||oss|tee|a|s|19|
+|HSPDI-SP<br>|—sSr91S3$|5,192708<br>|+||Qt?<br>|t<br>|O<br>|056<br>|ane<br>|2<br>|'<br>|3<br>|
+|HsPDI-6e'<br>|—aq7eOI2<br>|asTUSIBS<br>||3|pas<br>|t<br>|e<br>|059<br>|246<br>|2<br>|2<br>|aa<br>|
+|HsDr-7e|<br>agenss|<br>MSAIS|+||pth|at|P|12|one|s|4|396|
+|<br>HSPDI-8P<br>|<br>weSga6418<br>|1as9a7s%<br>|+<br>|k|q<br>|t<br>||oes<br>|22<br>|4<br>|a<br>|ass<br>|
+|HspDr-9e<br>|aassu2<br>|argo<br>|=<br>||pt<br>|t<br>|OP<br>|os<br>|one<br>|s<br>|a<br>|416<br>|
+|<br>HSPDI-10P<br>|<br>segs<br>|gas?=<br><br>|+<br>|||||||1<br>|'<br>|ar<br>|
+|HSPDI-IP<br>|—StaN4S9<br>|<br>HNEDNOD<br>«<br>|<br>=<br>|+S|QS<br>|||||6.|6<br>|ams<br>|
+|HspDI1z|ganna|aaa|«+||<br>gat|<br>ot|P|oe|a||ee?|410|
+|<br>HSPDI-|<br>18300866|<br>SERIE|+||QU|S|T|oss|lat|1|2|ras|
+|HsPDI-1e""|—ay4es288—|aPAoRI?||ma|gas|4|D|e|a|6|a|81|
+|HSPDI-S|—tgaumgas|19270353|+|S|pS||D|O|M|a|4|2|
+|HSPDI-We<br>|tama?<br>|nwsmearss<br>|+<br>|1<br>|qs<br>|2<br>|DB<br>|os<br>|6m<br>|Ss<br>|4<br>|19<br>|
+|HsPDI17|—saa7FOT|pTIIS|||ps1|3|D|ea|k|2|2|ar|
+|HSPDI-1H|<br>—SAIOSABS|<br>5610876|<br>+|MQ|IBBZ|S|D|S||s|D|2|
+|HsPDI-1<br>|—BIgaKB<br>|SONIDO<br>|+|1D<br>|gQh2B<br>|ot<br>|?<br>|22<br>|On<br>|o<br>|oo<br>|@|
+|HsPDI-xP|—MRaNMAAT|agDAATa||mB|qu|rt|?|os|ace|o|0||
+|HsPDI-21e<br>|<br>994420<br>|<br>eogeEBTG<br>||Ss<br>|qz1<br>|6<br>|D<br>|s<br>|:<br>|o<br>|6<br>|185,<br>|
+|HsPDI-2=|ansrast|2eneaaas|||g|||s||2|4|38|
+
+
+
+","<table><tr><th>Name</th><th>Stan”</th><th>tae</th><th>Sat</th><th>Ch</th><th>to</th><th></th><th>D</th><th>K</th><th>ORT</th><th>OFS</th><th>S</th><th>C</th></tr><tr><td>ccry-2<br></td><td>ayers<br></td><td>418236<br></td><td>6</td><td></td><td><br>e<br></td><td><br><br></td><td></td><td>to<br></td><td>ns</td><td><br>><br></td><td><br>$</td><td>si<br></td></tr><tr><td>ceria""<br></td><td>OT<br></td><td>a<br></td><td><br></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1<br></td><td>1<br></td><td>2?<br></td></tr><tr><td>cere<br></td><td><br>wqiysme<br></td><td><br>6a7ai7@<br></td><td>+<br></td><td></td><td></td><td></td><td></td><td>1m<br></td><td>00<br></td><td>2<br></td><td>2<br></td><td>19<br></td></tr><tr><td>ccte-1P<br></td><td>oui7rsme<br></td><td>eaaons9a<br></td><td>+<br></td><td>X<br></td><td>giz<br></td><td>2<br></td><td></td><td></td><td></td><td>0<br></td><td>a<br></td><td>si</td></tr><tr><td>ccte-2<br></td><td><br>veo3a3o1<br></td><td><br>140245787<br></td><td>-<br></td><td>7</td><td>qe<br></td><td><br>4<br></td><td><br>BD<br></td><td>om<br></td><td>128<br></td><td>2<br></td><td>0<br></td></tr><tr><td>ccts1'**<br></td><td>—gnepoes<br></td><td>ananggo<br></td><td>+<br></td><td></td><td>qt<br></td><td>ot<br></td><td>P<br></td><td>ost<br></td><td>020<br></td><td>a</td><td>4<br></td><td>seo<br></td></tr><tr><td>ccts-20""*<br></td><td><br>79260966<br></td><td><br>T290<br></td><td><br>7<br></td><td>woo<br></td><td>qm<br></td><td>1<br></td><td></td><td>:<br></td><td>:<br></td><td></td><td>'<br></td><td>Pa<br></td></tr><tr><td>ccts-3e<br></td><td>n4sretea<br></td><td>14g777%0<br></td><td>0+</td><td>S<br></td><td>Que<br></td><td>t<br></td><td>P<br></td><td>0<br></td><td>and<br></td><td>6<br></td><td>a<br></td><td>a<br></td></tr><tr><td>cce-1e<br></td><td>reemses<br></td><td><br>—agpassa<br></td><td></td><td><br>Ss<br></td><td>piss<br></td><td>o<br></td><td>P<br></td><td>100<br></td><td>0<br></td><td>2<br></td><td>2<br></td><td>20<br></td></tr><tr><td>ccte-2<br></td><td>1o9013sea<br></td><td>oan?<br></td><td></td><td>no<br></td><td>qzs<br></td><td>t<br></td><td>e</td><td>0s<br></td><td>0<br></td><td>o<br></td><td>2<br></td><td>178<br></td></tr><tr><td>ccTe-20""<br></td><td>ogiag<br></td><td>euges<br></td><td>+<br></td><td>P<br></td><td>git}<br></td><td>8<br></td><td></td><td>kk<br></td><td>.06<br></td><td>s<br></td><td>4<br></td><td>289<br></td></tr><tr><td>cCTe-eP</td><td>1919isaa2</td><td>9916s</td><td></td><td></td><td>as</td><td>1</td><td>Pe</td><td>037</td><td></td><td></td><td></td><td>2</td></tr><tr><td>CCTs<br></td><td>—gaasases<br></td><td><br>—eeansaaa<br></td><td><br>+)<br></td><td>7<br></td><td>gQt2)<br></td><td>1<br></td><td>0<br></td><td><br>s<br></td><td><br>t<br></td><td>Rn<br></td><td>6<br></td><td>2”<br></td></tr><tr><td>ccrr-1p<br></td><td>9225167<br></td><td>902073<br></td><td>6<br></td><td>so<br></td><td>qs<br></td><td>1<br></td><td>Pe<br></td><td>oss<br></td><td>1a<br></td><td>2<br></td><td>S<br></td><td>1s<br></td></tr><tr><td>ccrr-2p<br></td><td>roasts<br></td><td>10249200<br></td><td>+<br></td><td>6<br></td><td>gts<br></td><td>at<br></td><td>P<br></td><td>os?<br></td><td>010</td><td>zs<br></td><td>4<br></td><td>ss<br></td></tr><tr><td>ccte-1p'</td><td>wesr614e2</td><td>45143137</td><td><br>-</td><td><br>1</td><td>au</td><td>1</td><td>P</td><td><br>a</td><td></td><td>ey)</td><td>a</td><td>1</td></tr><tr><td>HSPDI-IP*</td><td>—135,744902</td><td>135745039</td><td></td><td>Ss</td><td>oq</td><td>1</td><td>Pe</td><td>46</td><td>Om</td><td>o</td><td>0</td><td>48</td></tr><tr><td>HSPDI-2P'7</td><td>—ugigod</td><td>—-21.920175—</td><td></td><td>Ss</td><td>pas</td><td>1</td><td>Pe</td><td>0s</td><td>010</td><td>1</td><td>'</td><td>aot</td></tr><tr><td>HSPDI-aP<br></td><td>Co<br></td><td>a<br></td><td>a<br></td><td></td><td>a<br></td><td>a</td><td></td><td></td><td>:<br></td><td>0<br></td><td>'<br></td><td>8<br></td></tr><tr><td>HsPDI-aP</td><td>seasons</td><td>eee</td><td>«+</td><td></td><td>gS</td><td></td><td></td><td>oss</td><td>tee</td><td>a</td><td>s</td><td>19</td></tr><tr><td>HSPDI-SP<br></td><td>—sSr91S3$</td><td>5,192708<br></td><td>+</td><td></td><td>Qt?<br></td><td>t<br></td><td>O<br></td><td>056<br></td><td>ane<br></td><td>2<br></td><td>'<br></td><td>3<br></td></tr><tr><td>HsPDI-6e'<br></td><td>—aq7eOI2<br></td><td>asTUSIBS<br></td><td></td><td>3</td><td>pas<br></td><td>t<br></td><td>e<br></td><td>059<br></td><td>246<br></td><td>2<br></td><td>2<br></td><td>aa<br></td></tr><tr><td>HsDr-7e</td><td><br>agenss</td><td><br>MSAIS</td><td>+</td><td></td><td>pth</td><td>at</td><td>P</td><td>12</td><td>one</td><td>s</td><td>4</td><td>396</td></tr><tr><td><br>HSPDI-8P<br></td><td><br>weSga6418<br></td><td>1as9a7s%<br></td><td>+<br></td><td>k</td><td>q<br></td><td>t<br></td><td></td><td>oes<br></td><td>22<br></td><td>4<br></td><td>a<br></td><td>ass<br></td></tr><tr><td>HspDr-9e<br></td><td>aassu2<br></td><td>argo<br></td><td>=<br></td><td></td><td>pt<br></td><td>t<br></td><td>OP<br></td><td>os<br></td><td>one<br></td><td>s<br></td><td>a<br></td><td>416<br></td></tr><tr><td><br>HSPDI-10P<br></td><td><br>segs<br></td><td>gas?=<br><br></td><td>+<br></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1<br></td><td>'<br></td><td>ar<br></td></tr><tr><td>HSPDI-IP<br></td><td>—StaN4S9<br></td><td><br>HNEDNOD<br>«<br></td><td><br>=<br></td><td>+S</td><td>QS<br></td><td></td><td></td><td></td><td></td><td>6.</td><td>6<br></td><td>ams<br></td></tr><tr><td>HspDI1z</td><td>ganna</td><td>aaa</td><td>«+</td><td></td><td><br>gat</td><td><br>ot</td><td>P</td><td>oe</td><td>a</td><td></td><td>ee?</td><td>410</td></tr><tr><td><br>HSPDI-</td><td><br>18300866</td><td><br>SERIE</td><td>+</td><td></td><td>QU</td><td>S</td><td>T</td><td>oss</td><td>lat</td><td>1</td><td>2</td><td>ras</td></tr><tr><td>HsPDI-1e""</td><td>—ay4es288—</td><td>aPAoRI?</td><td></td><td>ma</td><td>gas</td><td>4</td><td>D</td><td>e</td><td>a</td><td>6</td><td>a</td><td>81</td></tr><tr><td>HSPDI-S</td><td>—tgaumgas</td><td>19270353</td><td>+</td><td>S</td><td>pS</td><td></td><td>D</td><td>O</td><td>M</td><td>a</td><td>4</td><td>2</td></tr><tr><td>HSPDI-We<br></td><td>tama?<br></td><td>nwsmearss<br></td><td>+<br></td><td>1<br></td><td>qs<br></td><td>2<br></td><td>DB<br></td><td>os<br></td><td>6m<br></td><td>Ss<br></td><td>4<br></td><td>19<br></td></tr><tr><td>HsPDI17</td><td>—saa7FOT</td><td>pTIIS</td><td></td><td></td><td>ps1</td><td>3</td><td>D</td><td>ea</td><td>k</td><td>2</td><td>2</td><td>ar</td></tr><tr><td>HSPDI-1H</td><td><br>—SAIOSABS</td><td><br>5610876</td><td><br>+</td><td>MQ</td><td>IBBZ</td><td>S</td><td>D</td><td>S</td><td></td><td>s</td><td>D</td><td>2</td></tr><tr><td>HsPDI-1<br></td><td>—BIgaKB<br></td><td>SONIDO<br></td><td>+</td><td>1D<br></td><td>gQh2B<br></td><td>ot<br></td><td>?<br></td><td>22<br></td><td>On<br></td><td>o<br></td><td>oo<br></td><td>@</td></tr><tr><td>HsPDI-xP</td><td>—MRaNMAAT</td><td>agDAATa</td><td></td><td>mB</td><td>qu</td><td>rt</td><td>?</td><td>os</td><td>ace</td><td>o</td><td>0</td></tr><tr><td>HsPDI-21e<br></td><td><br>994420<br></td><td><br>eogeEBTG<br></td><td></td><td>Ss<br></td><td>qz1<br></td><td>6<br></td><td>D<br></td><td>s<br></td><td>:<br></td><td>o<br></td><td>6<br></td><td>185,<br></td></tr><tr><td>HsPDI-2=</td><td>ansrast</td><td>2eneaaas</td><td></td><td></td><td>g</td><td></td><td></td><td>s</td><td></td><td>2</td><td>4</td><td>38</td></tr></table>"
+PMC3698163_007_00.png,238,77,476,154,16,0.02857142857142858,0.02857142857142858,1.0,0.22321433299657656,0,173,0,,"Negative (blood donors} Positive (genetically confirmed HHT patients) Sum 
+
+Assigned negstive 199 (995% 3 (42%) 
+
+193 
+
+Assigned Sum positive 1 (9% 191 6 (95,24 63 61 254 
+
+",<table></table>,0.05714285714285716,0.05714285714285716,0.5988372093023255,0.2243308329998399,2,139,22,"“ASSIGN
+Assigned — Sum |
+negative
+__positive
+Negative
+[blood donor) UIST
+Positive (genetically confirmed
+42M
+Om
+68
+HAT patients)
+Sum
+193
+ose
+","“ASSIGN negative Assigned__positive — Sum | Negative Positive (genetically[blood donor)confirmed UIST42M Om 68 HAT patients) Sum 193 ose 
+
+",<table><tr><th>“ASSIGN negative Assigned__positive — Sum</th><th>Negative Positive (genetically[blood donor)confirmed UIST42M Om 68 HAT patients) Sum 193 ose</th></tr></table>
+PMC3135423_003_00.png,498,177,996,354,70,0.00917431192660545,0.00917431192660545,1.0,0.5181016670030658,0,875,0,,"Fixation intervals in days 4 Days scrics Activity + SE 
+
+6) Days Actraty + SE 
+
+90 Days 120 Days Activity + SE Activity = SE 
+
+Liver 
+
+Negative control 0.018 + 0.001 0.012 + 0.001 0.018 + 0.001 DAOLS + 0.02 Aleohal control 0.037 = 0.001 0.013 + 0.002 0.024 + 0.002 0.024 + 0.003 As;Oy 0.031 = 0.002 0.035 + 0.000 0.036 + 0.002 0.042 + 0.001 As;O) + Alcohol 0.035 = 0.003 0.039 + 0.006 0.041 + 0.001 0.046 + 0.000 As,O, + Ars Alb-200C 0.033 + 0.001 0.025 + 0.002 0,023 + 0.000**« 0.026 + O.0G1""** Spleen Negative control 0.025 = 0.002 0.022 + 0.003 0.012 + 0.001 0.014 + 0.001 Alcohol control 0.031 + 0.001 0.026 + 0.002 0.021 + 0.001 0.02) + 0.000 AssOy 0.0) + 0.001 0.034 + 0.004 0.043 + 0.002 0.043 + 0.002 As:O, + Aleohal 0.037 = 0.002 0.038 + 0.002 0.045 4 0.001 0.039 + 0.003 As;O) + Ars Alb-200C 0.034 = 0.006 0.031 + 0.002"" 0.037 + 0.00)""* 0.028 + 0.001"" * 
+
+Spleen 
+
+",<table></table>,0.00917431192660545,0.00917431192660545,1.0,0.36052145899884636,0,844,168,"Fixation intervals in days
+Days
+60 Days:
+90 Days
+120 Days
+Series
+Activity
+SE
+Activity + SE
+Activity + SE
+Activity = SE
+Tver
+Negative control
+0.018 + 0.001
+0.012 + 0.001
+0.018 + 0.001
+0.018 + 0.002
+Alcohol contro!
+0.037 = 0.001
+0.013 + 0.002
+0.024 + 0.002
+0.024 + 0.003
+AsO)
+0.031 = 0,002
+0.035 + 0.000
+0.036 + 0.002
+0.042 + 0.001
+8:0) + Alcohol
+0.035 = 0,003
+0.039
++ 0.006
+0.041 + 0.001
+0.046 + 0.000
+AsO, + Ars Alb-2006
+0.033 = 0.001
+0.025 + 0.002
+6,023 + 0,000""""«
+0.026 « 0.001""**
+Spleen
+Negative control
+0.025 = 0.002
+0.022 + 0.003
+0.012 + 0.001
+0.014 + 0.001
+Alcohol contro!
+0.031 = 0.001
+0.026
++ 0,002
+0.021 + 0.001
+0.021 + 0.000
+A305
+0.080 = 0.001
+0.034 + 0.008
+0.043 + 0.002
+0.043 + 0.002
+AsO) + Alcohol
+0.037 = 0.002
+0.038 + 0.002
+0.045 + 0.001
+0.039
+0.003
+A830) + Ars Alb:200C,
+0.034 + 0.006
+0.031 + 0.002""
+0.037 + 0.001""*
+0.028 + 0.001""*
+","Fixation intervals in days Days 60 Days: 90 Days 120 Days Series Activity SE Activity + SE Activity + SE Activity = SE Tver 
+
+Negative control 0.018 + 0.001 0.012 + 0.001 0.018 + 0.001 0.018 + 0.002 Alcohol contro! 0.037 = 0.001 0.013 + 0.002 0.024 + 0.002 0.024 + 0.003 AsO) 0.031 = 0,002 0.035 + 0.000 0.036 + 0.002 0.042 + 0.001 8:0) + Alcohol 0.035 = 0,003 0.039 AsO,<sup>+ArsAlb-2006</sup> 0.033 = 0.001 0.025 ++ 0.0020.006 6,0230.041+ +0,000""""« 0.001 0.0260.046« +0.001""** 0.000 Spleen Negative control 0.025 = 0.002 0.022 + 0.003 0.012 + 0.001 0.014 + 0.001 Alcohol contro! 0.031 = 0.001 0.026 A305 0.080 = 0.001 0.034 ++ 0.0080,002 0.0430.021 ++ 0.0010.002 0.0430.021 ++ 0.0000.002 AsO) + Alcohol 0.037 = 0.002 0.038 + 0.002 0.045 + 0.001 0.039 0.003 A830) + Ars Alb:200C, 0.034 + 0.006 0.031 + 0.002"" 0.037 + 0.001""* 0.028 + 0.001""* 
+
+",<table></table>
+PMC4921056_006_00.png,238,193,476,386,38,0.015625,0.015625,1.0,0.40894016699894564,0,477,0,,"~Aoeretied 
+
+symproms (AUDIT) . rf 
+
+Precictee 
+
+# ea 
+
+Currersly in 3 relationship ar on Completed primary education =)? —£6"" Abduction a or Family Vialence event-types physical abuse = G4 ae Family Vielence eventtypes emotiond abuse 21° 2o"""""" Family Vialence event-types sexual abuse Ost oo Family Vielence ewent4ypes witnessed re) 3"" Troumatic event-types experienced 18"" ae Trouratic ewent-types witnessed -L4 1S"" Event-types with foeced perpetration 06 10° 
+
+ae 
+
+2o"""""" 
+
+",<table></table>,0.015625,0.015625,1.0,0.2835336249991087,0,498,61,"ae
+symmprcens (AUDIT
+Preckctor
+’
+Cuertly in 3 relationship
+ar
+ost
+Completed pemary education
+os
+Abduction,
+a
+ov
+Famnly Vioknce eventypes physica abuse
+Ot
+a
+Famly Vioknce eventypes emotiond abuse 21""
+om
+Family Vioknce eventypes sexualabure
+Ot
+a
+Family Vioknce eventypes witnessed
+a
+»
+Traumatic event types expeninced
+18
+ae
+Traumatic eventtypes witnessed
+8
+as""
+Everttypes with forced perpetration
+6
+1
+","
+
+<!-- Start of picture text -->
+asymmprcens (AUDIT e<br>Preckctor ’<br>Cuertly in 3 relationship ar ost<br>Completed pemary education os<br>Abduction, a ov<br>Famnly Vioknce eventypes physica abuse Ot a<br>Famly Vioknce eventypes emotiond abuse 21"" om<br>Family Vioknce eventypes sexualabure Ot a<br>Family Vioknce eventypes witnessed a »<br>Traumatic event types expeninced 18 ae<br>Traumatic eventtypes witnessed 8 as""<br>Everttypes with forced perpetration 6 1<br><!-- End of picture text -->
+
+",<table></table>
+PMC4407631_002_00.png,502,428,1004,856,204,0.6512396055709263,0.7634408602150538,0.13153153153153152,0.9380779999992228,199,1837,0,,"|Characteristics,<br>SS™~|—sere=|yearexam<br>|—syearexam<br>—|=sSyearexam<br>|_—20-yearexam_|
+|---|---|---|---|---|---|
+|N|<br>isd|23|a7|187|304|
+|Male,%|52%|49%|48%|53%|49%|
+|White,%|98%|98%|97%|98%|oh|
+|<br>Diabetesduration, years|0.4 (0.2)|3.4 (03)|6.5 (D3)|9.3 (0.7)|19.7 (L.2)|
+|Ageatdiagnosis,years|10.9(6.8)|11.2(6.8)|10.8(6.5)|14(7.3)|11.3(7.0)|
+|<br>O-4years|<br>Ste|<br>16%|<br>18%|<br>IS%|<br>17%|
+|<br>5-9years|33%|32%|NS|32%|32%|
+|<br>10-14years|25%|28%|27%|23%|25%|
+|<br>1519years|12%|12%|13%|hte|12%|
+|220 years|N%|1%|10%|13%|Lt|
+|Ageat exam, years|11.3 (6.8)|14.6 (6.8)|173 (6.5)|20.8 (74)|MO.9(7.0)|
+|Tanner||||||
+|1|58%|33%|16%|5%|1%|
+|2|2%|5%|10%|4%|oy|
+|3|7%|7%|5%|7%|oy|
+|4|Lt|20%|16%|13%|O%|
+|5|19%|34%|53%|71%|100%|
+|Intensiveinsulinmanagement,%|It|46%|O17%|74%|Mh|
+|<br>Insulinpump,%|om|Ot|<br>0.7%|1%|48%|
+|<br>Insulin dose (units/kg/day)|0.49(0.30)|0.77 (0.27)|0.85 (0.26)|0.88 (0.29)|0.75 (0.30)|
+|HbA,c,%<br>|23(17)<br>|9.0{L8)<br>|9.1 (1.6)<br>|8.8 (1.7)<br>|8.0 (15)<br>|
+|HbA,c,mmol/mol™|54(18.6)|73(19.7)|76(175)|73(18.6)|64(16.4)|
+|<br>BMI,kg/m”|<br>19.5 (3.5)|<br>21,3 (4.2)|<br>22.8(43)|<br>25.2 (5.0)|<br>28.3 (5.9)|
+|Weight. kg|42 (22)|53 (22)|6] (20)|72 (20)|84 (20)|
+|Waist,cm|65 (11)|71 {Ul)|76 (1)|83 (12)|S6 (IM)|
+|Waist-hip ratio|0.84 (0.06)|0.81 (0.06)|0.81 (0.05)|0.31 (0.06)|0.82(0.08)|
+|Systolic/diastolicBP,mmHg|101(13)/64(10)|105(13)/67(9}|108{12)/73(8)|U2(Qn)/71(9)|122(13)/77(9)|
+|<br>Micro/macroalbuminuria,%|<br>3.4%/0%|<br>7.9%/0%|<br>4.1%/0%|<br>4.0°%/1.7%|<br>6.39/43)|
+|<br>log,(UACR),units’|21(0.6)|2.1(0.8)|<br>2.0(0.7)|<br>22(1.0)|21(1.3)|
+|<br>Antihypertension med. use,%|<br>0%|<br>0.4%|<br>1S|<br>7%|<br>29h|
+|Lipidloweringmed. use,%|0.5%|04%|0%|3%|2%|
+|Adiponectin,mg/L|11.9 (6.4)|14 (5.5)|11.3 (5.5)|10.2 (5.7)|10.2(7.1)|
+|Medianadiponectin,mg/L|10.2|10.4|9.8|9.0|3.6|
+
+
+
+","<table><tr><th>Characteristics,<br>SS™~</th><th>—sere=</th><th>yearexam<br></th><th>—syearexam<br>—</th><th>=sSyearexam<br></th><th>_—20-yearexam_</th></tr><tr><td>N</td><td><br>isd</td><td>23</td><td>a7</td><td>187</td><td>304</td></tr><tr><td>Male,%</td><td>52%</td><td>49%</td><td>48%</td><td>53%</td><td>49%</td></tr><tr><td>White,%</td><td>98%</td><td>98%</td><td>97%</td><td>98%</td><td>oh</td></tr><tr><td><br>Diabetesduration, years</td><td>0.4 (0.2)</td><td>3.4 (03)</td><td>6.5 (D3)</td><td>9.3 (0.7)</td><td>19.7 (L.2)</td></tr><tr><td>Ageatdiagnosis,years</td><td>10.9(6.8)</td><td>11.2(6.8)</td><td>10.8(6.5)</td><td>14(7.3)</td><td>11.3(7.0)</td></tr><tr><td><br>O-4years</td><td><br>Ste</td><td><br>16%</td><td><br>18%</td><td><br>IS%</td><td><br>17%</td></tr><tr><td><br>5-9years</td><td>33%</td><td>32%</td><td>NS</td><td>32%</td><td>32%</td></tr><tr><td><br>10-14years</td><td>25%</td><td>28%</td><td>27%</td><td>23%</td><td>25%</td></tr><tr><td><br>1519years</td><td>12%</td><td>12%</td><td>13%</td><td>hte</td><td>12%</td></tr><tr><td>220 years</td><td>N%</td><td>1%</td><td>10%</td><td>13%</td><td>Lt</td></tr><tr><td>Ageat exam, years</td><td>11.3 (6.8)</td><td>14.6 (6.8)</td><td>173 (6.5)</td><td>20.8 (74)</td><td>MO.9(7.0)</td></tr><tr><td>Tanner</td></tr><tr><td>1</td><td>58%</td><td>33%</td><td>16%</td><td>5%</td><td>1%</td></tr><tr><td>2</td><td>2%</td><td>5%</td><td>10%</td><td>4%</td><td>oy</td></tr><tr><td>3</td><td>7%</td><td>7%</td><td>5%</td><td>7%</td><td>oy</td></tr><tr><td>4</td><td>Lt</td><td>20%</td><td>16%</td><td>13%</td><td>O%</td></tr><tr><td>5</td><td>19%</td><td>34%</td><td>53%</td><td>71%</td><td>100%</td></tr><tr><td>Intensiveinsulinmanagement,%</td><td>It</td><td>46%</td><td>O17%</td><td>74%</td><td>Mh</td></tr><tr><td><br>Insulinpump,%</td><td>om</td><td>Ot</td><td><br>0.7%</td><td>1%</td><td>48%</td></tr><tr><td><br>Insulin dose (units/kg/day)</td><td>0.49(0.30)</td><td>0.77 (0.27)</td><td>0.85 (0.26)</td><td>0.88 (0.29)</td><td>0.75 (0.30)</td></tr><tr><td>HbA,c,%<br></td><td>23(17)<br></td><td>9.0{L8)<br></td><td>9.1 (1.6)<br></td><td>8.8 (1.7)<br></td><td>8.0 (15)<br></td></tr><tr><td>HbA,c,mmol/mol™</td><td>54(18.6)</td><td>73(19.7)</td><td>76(175)</td><td>73(18.6)</td><td>64(16.4)</td></tr><tr><td><br>BMI,kg/m”</td><td><br>19.5 (3.5)</td><td><br>21,3 (4.2)</td><td><br>22.8(43)</td><td><br>25.2 (5.0)</td><td><br>28.3 (5.9)</td></tr><tr><td>Weight. kg</td><td>42 (22)</td><td>53 (22)</td><td>6] (20)</td><td>72 (20)</td><td>84 (20)</td></tr><tr><td>Waist,cm</td><td>65 (11)</td><td>71 {Ul)</td><td>76 (1)</td><td>83 (12)</td><td>S6 (IM)</td></tr><tr><td>Waist-hip ratio</td><td>0.84 (0.06)</td><td>0.81 (0.06)</td><td>0.81 (0.05)</td><td>0.31 (0.06)</td><td>0.82(0.08)</td></tr><tr><td>Systolic/diastolicBP,mmHg</td><td>101(13)/64(10)</td><td>105(13)/67(9}</td><td>108{12)/73(8)</td><td>U2(Qn)/71(9)</td><td>122(13)/77(9)</td></tr><tr><td><br>Micro/macroalbuminuria,%</td><td><br>3.4%/0%</td><td><br>7.9%/0%</td><td><br>4.1%/0%</td><td><br>4.0°%/1.7%</td><td><br>6.39/43)</td></tr><tr><td><br>log,(UACR),units’</td><td>21(0.6)</td><td>2.1(0.8)</td><td><br>2.0(0.7)</td><td><br>22(1.0)</td><td>21(1.3)</td></tr><tr><td><br>Antihypertension med. use,%</td><td><br>0%</td><td><br>0.4%</td><td><br>1S</td><td><br>7%</td><td><br>29h</td></tr><tr><td>Lipidloweringmed. use,%</td><td>0.5%</td><td>04%</td><td>0%</td><td>3%</td><td>2%</td></tr><tr><td>Adiponectin,mg/L</td><td>11.9 (6.4)</td><td>14 (5.5)</td><td>11.3 (5.5)</td><td>10.2 (5.7)</td><td>10.2(7.1)</td></tr><tr><td>Medianadiponectin,mg/L</td><td>10.2</td><td>10.4</td><td>9.8</td><td>9.0</td><td>3.6</td></tr></table>",0.4241225445786855,0.5654450261780104,0.209009009009009,0.677002625001478,199,2133,283,"Characteristics
+year exam
+year exam
+year exam
+‘9-year exam
+20-year exam
+N
+184
+a)
+a
+187,
+308
+Male, %
+52%
+49%
+48%
+53%
+49%
+White, %
+98%
+98%
+m%
+98%
+7%
+Diabetes duration, years
+0.4 (0.2)
+34(03)
+65 (03)
+9.307)
+197 (1.2)
+Age at diagnosis, years
+10.9(68)
+112 (68)
+108 (65)
+4.73)
+13 (70)
+nd years
+18%
+16%
+189%
+18%
+7%
+5-9 years,
+3%
+32%
+31%
+2%
+3%
+10-14 years
+25%
+28%
+2%
+23%
+25%
+15-19 years
+12%
+12%
+B%
+Mw
+2%
+220 years
+19%
+1%
+10%
+B%
+BY
+Age at exam, years
+13 (68)
+14.6 (6.8)
+173 (65)
+20.8 (74)
+30.9 (70)
+Tanner
+1
+58%
+3%
+16%
+5%
+om
+2
+oy
+3K
+10%
+4%
+om
+3
+™
+7%
+5%
+™%
+om
+4
+BY
+20%
+16%
+1%
+om
+5
+19%
+4%
+53%
+71%
+100%
+Intensive insulin management. %
+13%
+416%
+o%
+1%
+MN
+Insulin pump, %
+om
+on
+07%
+ns
+48%
+Insulin dose (units/kg/day)
+0.49 (0.30)
+077 (0.27)
+0385 (0.26)
+0.88 (0.29)
+0.75 (0.30)
+HbA,<, %
+73017)
+9.0 (1.8)
+9101.6)
+8807)
+8.0015)
+HbA,¢, mol/mol”
+56 (18.6)
+75.0097)
+76073)
+73.0186)
+64 (16.4)
+BMI, kg/m?
+1953.5)
+213 (42)
+2.8(43)
+25.2(50)
+2835.)
+Weight. kg.
+42.022)
+5322)
+61 (20)
+7220)
+84 (20)
+Waist, em
+650)
+7M)
+76)
+802)
+86 (14)
+Waist-hip ratio
+0.84 (0.06)
+0.81 (0.06)
+0.81 (0.05)
+0.81 (0.06)
+0.82 (0.08)
+Systolic/diastolic BP, mmHg
+101 (139/64 (10)
+105 (139/67 (9)
+108 (12/73(8)
+M2 CITI(9).——122.0439177(9)
+Micro/macroalbuminuria, %
+3.490%
+75%10%
+4.195/0%
+4.081.7%
+63W/43%
+log, (VACR), units’
+21(06)
+21(0.8)
+20(07)
+2 (10)
+21013)
+Antibypertension med. use, %
+om
+04%
+1%
+7%
+29%
+Lipid lowering med. use, %
+05%
+04%
+0%
+3%
+DN
+Adiponectin, mg/L
+119 (6.4)
+455)
+13635)
+1025.7)
+10.2 (71)
+Median adiponectin, mg/L
+102
+14
+98
+90
+86
+","|Characteristics<br>|yearexam<br>|yearexam<br>|yearexam<br>|‘9-yearexam<br>|20-yearexam<br>|
+|---|---|---|---|---|---|
+|N<br>|<br>184<br>|<br>a)<br>|<br>a<br>|<br>187,<br>|<br>308<br>|
+|Male,%<br>|52%<br>|49%<br>|48%<br>|53%<br>|49%<br>|
+|<br>White,%|98%|98%|m%|98%|7%|
+|<br>Diabetes duration, years<br>|0.4 (0.2)<br>|34(03)<br>|65 (03)<br>|9.307)<br>|197(1.2)<br>|
+|Ageatdiagnosis,years<br>|10.9(68)<br>|112(68)<br>|108 (65)<br>|4.73)<br>|13(70)<br>|
+|<br>ndyears<br>|18%<br>|<br>16%<br>|<br>189%<br>|18%<br>|<br>7%<br>|
+|<br>5-9years,<br>|3%<br>|32%<br>|31%<br>|2%<br>|3%<br>|
+|<br>10-14years|25%|28%|2%|23%|25%|
+|<br>15-19 years<br>|12%<br>|12%<br>|B%<br>|Mw<br>|2%<br>|
+|220years|19%|1%|10%|B%|BY|
+|<br>Age at exam,years|13(68)|14.6 (6.8)|173 (65)|20.8 (74)|30.9 (70)|
+|Tanner<br>||||||
+|1<br>|58%<br>|3%<br>|16%<br>|5%<br>|om<br>|
+|2|oy|3K|10%|4%|om|
+|3<br>|™<br>|7%<br>|5%<br>|™%<br>|om<br>|
+|4|BY|20%|16%|1%|om|
+|5<br>|19%<br>|4%<br>|53%<br>|71%<br>|100%<br>|
+|Intensiveinsulinmanagement.%<br>|13%<br>|416%<br>|o%<br>|1%<br>|MN<br>|
+|<br>Insulinpump,%|om|on|07%|ns|48%|
+|<br>Insulindose (units/kg/day)|0.49(0.30)|077 (0.27)|0385 (0.26)|0.88 (0.29)|0.75 (0.30)|
+|HbA,<,%|73017)|9.0(1.8)|9101.6)|8807)|8.0015)|
+|HbA,¢,mol/mol”|56 (18.6)|75.0097)|76073)|73.0186)|64 (16.4)|
+|BMI, kg/m?<br>|1953.5)<br>|213(42)<br>|2.8(43)<br>|25.2(50)<br>|2835.)<br>|
+|Weight.kg.<br>|42.022)<br>|5322)<br>|61(20)<br>|7220)<br>|84(20)<br>|
+|<br>Waist,em|650)|7M)|<br>76)|802)|<br>86(14)|
+|<br>Waist-hip ratio<br>|0.84 (0.06)<br>|0.81 (0.06)<br>|0.81 (0.05)<br>|0.81 (0.06)<br>|<br>0.82(0.08)<br>|
+|Systolic/diastolic BP,mmHg<br>|101(139/64(10)<br>|105(139/67(9)<br>|108(12/73(8)<br>|M2CITI(9).——<br>|22.0439177(9)<br>|
+|<br>Micro/macroalbuminuria,%<br>|<br>3.490%<br>|<br>75%10%<br>|<br>4.195/0%<br>|<br>4.081.7%<br>|<br>63W/43%<br>|
+|<br>log,(VACR),units’<br>|21(06)<br>|21(0.8)<br>|20(07)<br>|2(10)<br>|21013)<br>|
+|<br>Antibypertensionmed.use,%<br>|om<br>|04%<br>|1%<br>|<br>7%<br>|29%<br>|
+|<br>Lipidloweringmed.use,%|05%|04%|0%|3%|DN|
+|<br>Adiponectin, mg/L|119(6.4)|455)|13635)|1025.7)|10.2 (71)|
+|Medianadiponectin,mg/L|102|14|98|90|86|
+
+
+
+","<table><tr><th>Characteristics<br></th><th>yearexam<br></th><th>yearexam<br></th><th>yearexam<br></th><th>‘9-yearexam<br></th><th>20-yearexam<br></th></tr><tr><td>N<br></td><td><br>184<br></td><td><br>a)<br></td><td><br>a<br></td><td><br>187,<br></td><td><br>308<br></td></tr><tr><td>Male,%<br></td><td>52%<br></td><td>49%<br></td><td>48%<br></td><td>53%<br></td><td>49%<br></td></tr><tr><td><br>White,%</td><td>98%</td><td>98%</td><td>m%</td><td>98%</td><td>7%</td></tr><tr><td><br>Diabetes duration, years<br></td><td>0.4 (0.2)<br></td><td>34(03)<br></td><td>65 (03)<br></td><td>9.307)<br></td><td>197(1.2)<br></td></tr><tr><td>Ageatdiagnosis,years<br></td><td>10.9(68)<br></td><td>112(68)<br></td><td>108 (65)<br></td><td>4.73)<br></td><td>13(70)<br></td></tr><tr><td><br>ndyears<br></td><td>18%<br></td><td><br>16%<br></td><td><br>189%<br></td><td>18%<br></td><td><br>7%<br></td></tr><tr><td><br>5-9years,<br></td><td>3%<br></td><td>32%<br></td><td>31%<br></td><td>2%<br></td><td>3%<br></td></tr><tr><td><br>10-14years</td><td>25%</td><td>28%</td><td>2%</td><td>23%</td><td>25%</td></tr><tr><td><br>15-19 years<br></td><td>12%<br></td><td>12%<br></td><td>B%<br></td><td>Mw<br></td><td>2%<br></td></tr><tr><td>220years</td><td>19%</td><td>1%</td><td>10%</td><td>B%</td><td>BY</td></tr><tr><td><br>Age at exam,years</td><td>13(68)</td><td>14.6 (6.8)</td><td>173 (65)</td><td>20.8 (74)</td><td>30.9 (70)</td></tr><tr><td>Tanner<br></td></tr><tr><td>1<br></td><td>58%<br></td><td>3%<br></td><td>16%<br></td><td>5%<br></td><td>om<br></td></tr><tr><td>2</td><td>oy</td><td>3K</td><td>10%</td><td>4%</td><td>om</td></tr><tr><td>3<br></td><td>™<br></td><td>7%<br></td><td>5%<br></td><td>™%<br></td><td>om<br></td></tr><tr><td>4</td><td>BY</td><td>20%</td><td>16%</td><td>1%</td><td>om</td></tr><tr><td>5<br></td><td>19%<br></td><td>4%<br></td><td>53%<br></td><td>71%<br></td><td>100%<br></td></tr><tr><td>Intensiveinsulinmanagement.%<br></td><td>13%<br></td><td>416%<br></td><td>o%<br></td><td>1%<br></td><td>MN<br></td></tr><tr><td><br>Insulinpump,%</td><td>om</td><td>on</td><td>07%</td><td>ns</td><td>48%</td></tr><tr><td><br>Insulindose (units/kg/day)</td><td>0.49(0.30)</td><td>077 (0.27)</td><td>0385 (0.26)</td><td>0.88 (0.29)</td><td>0.75 (0.30)</td></tr><tr><td>HbA,<,%</td><td>73017)</td><td>9.0(1.8)</td><td>9101.6)</td><td>8807)</td><td>8.0015)</td></tr><tr><td>HbA,¢,mol/mol”</td><td>56 (18.6)</td><td>75.0097)</td><td>76073)</td><td>73.0186)</td><td>64 (16.4)</td></tr><tr><td>BMI, kg/m?<br></td><td>1953.5)<br></td><td>213(42)<br></td><td>2.8(43)<br></td><td>25.2(50)<br></td><td>2835.)<br></td></tr><tr><td>Weight.kg.<br></td><td>42.022)<br></td><td>5322)<br></td><td>61(20)<br></td><td>7220)<br></td><td>84(20)<br></td></tr><tr><td><br>Waist,em</td><td>650)</td><td>7M)</td><td><br>76)</td><td>802)</td><td><br>86(14)</td></tr><tr><td><br>Waist-hip ratio<br></td><td>0.84 (0.06)<br></td><td>0.81 (0.06)<br></td><td>0.81 (0.05)<br></td><td>0.81 (0.06)<br></td><td><br>0.82(0.08)<br></td></tr><tr><td>Systolic/diastolic BP,mmHg<br></td><td>101(139/64(10)<br></td><td>105(139/67(9)<br></td><td>108(12/73(8)<br></td><td>M2CITI(9).——<br></td><td>22.0439177(9)<br></td></tr><tr><td><br>Micro/macroalbuminuria,%<br></td><td><br>3.490%<br></td><td><br>75%10%<br></td><td><br>4.195/0%<br></td><td><br>4.081.7%<br></td><td><br>63W/43%<br></td></tr><tr><td><br>log,(VACR),units’<br></td><td>21(06)<br></td><td>21(0.8)<br></td><td>20(07)<br></td><td>2(10)<br></td><td>21013)<br></td></tr><tr><td><br>Antibypertensionmed.use,%<br></td><td>om<br></td><td>04%<br></td><td>1%<br></td><td><br>7%<br></td><td>29%<br></td></tr><tr><td><br>Lipidloweringmed.use,%</td><td>05%</td><td>04%</td><td>0%</td><td>3%</td><td>DN</td></tr><tr><td><br>Adiponectin, mg/L</td><td>119(6.4)</td><td>455)</td><td>13635)</td><td>1025.7)</td><td>10.2 (71)</td></tr><tr><td>Medianadiponectin,mg/L</td><td>102</td><td>14</td><td>98</td><td>90</td><td>86</td></tr></table>"
+PMC5597568_006_01.png,238,222,476,444,29,0.018867924528301883,0.018867924528301883,1.0,0.36239574999490287,0,460,0,,"# tem 
+
+Gmrmy 
+
+Quintet capnamesry 270 (83.3) Colorimetric capnametry 82 (253) Use of capmometry to confirm ETI We Rearinehy 1$1 (47.8) Sometimes 105 (33.5) New $9 (18.7) Reason foe lack af routine use of capnometry to ceefirm ETI 165"" Confirmation by other methads (eq, tube fogging, 8? (527) chest nse, direct vewolaation, and auccultation) Discretion of ED physicians 78 (47.3) Experedve 18 (104 Device shortage 166.4 Lack of famibarity 11 (64 Orher 130% 
+
+",<table></table>,0.018867924528301883,0.018867924528301883,1.0,0.25873341600527056,0,533,68,"Item
+we
+Quarenstve capnamenty
+270 1839
+Colorimetric capnametty
+22.053)
+Use of capnametry
+to confer €T1
+FT
+Reurirely
+151 a7)
+Sometene:
+105 35)
+Newer
+59182)
+Reson for lack of routine wie of capnemetry to ccefiem ET!
+168
+Confirmation by other methads (eg, tube fogging,
+a7 627
+ches nse, direct vealzation, and auzcultati)
+Discretion of ED physicians
+8 (47.3)
+Experaive
+18.005
+Device shortage
+16.
+Lack of faritarity
+n@
+Other
+BOs
+","
+
+<!-- Start of picture text -->
+Item we<br>Quarenstve capnamenty 270 1839<br>Colorimetric capnametty 22.053)<br>Use of capnametry to confer €T1 FT<br>Reurirely 151 a7)<br>Sometene: 105 35)<br>Newer 59182)<br>Reson for lack of routine wie of capnemetry to ccefiem ET! 168<br>Confirmation by other methads (eg, tube fogging, a7 627<br>ches nse, direct vealzation, and auzcultati)<br>Discretion of ED physicians 8 (47.3)<br>Experaive 18.005<br>Device shortage 16.<br>Lack of faritarity n@<br>Other BOs<br><!-- End of picture text -->
+
+",<table></table>

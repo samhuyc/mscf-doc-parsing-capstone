@@ -1,0 +1,16 @@
+{
+  "device": "cpu",
+  "cpu_threads": 4,
+  "enable_mkldnn": false,
+  "text_detection_model_name": "PP-OCRv5_mobile_det",
+  "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+  "text_det_limit_side_len": 1280,
+  "text_det_limit_type": "max",
+  "use_doc_orientation_classify": false,
+  "use_doc_unwarping": false,
+  "use_textline_orientation": false,
+  "use_table_recognition": true,
+  "use_formula_recognition": false,
+  "use_seal_recognition": false,
+  "use_chart_recognition": false
+}

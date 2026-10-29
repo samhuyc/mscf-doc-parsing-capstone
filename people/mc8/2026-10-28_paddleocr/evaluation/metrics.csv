@@ -1,0 +1,7 @@
+document,parser,status,pages,processed_pages,nonempty_pages,elapsed_seconds,pages_per_second,html_tables,extracted_chars,native_text_pages,native_word_recall,native_numeric_f1,checked_values_retained,checked_values_total,checked_rows_exact,checked_rows_total
+cvs_2025q2,paddleocr_ppstructurev3,success,12,12,12,474.748,0.0253,6,9874,12,0.8808559861191441,0.8391167192429022,6,6,3,3
+edf_2024,paddleocr_ppstructurev3,success,6,6,6,382.951,0.0157,2,8234,6,0.9926524614254225,0.9773755656108597,15,15,3,3
+hippodrome_2025,paddleocr_ppstructurev3,success,39,19,19,1688.348,,3,47340,0,,,6,6,3,3
+peterborough_2025,paddleocr_ppstructurev3,success,12,3,3,86.414,,1,2164,0,,,6,6,0,3
+rolls_royce_2026h1_presentation,paddleocr_ppstructurev3,success,19,3,3,95.658,,1,1658,19,0.15060558188520273,0.26737967914438504,11,11,2,3
+rolls_royce_2026h1_release,paddleocr_ppstructurev3,success,52,3,3,405.2,,4,8426,52,0.049722991689750695,0.11116367076631978,3,6,0,3

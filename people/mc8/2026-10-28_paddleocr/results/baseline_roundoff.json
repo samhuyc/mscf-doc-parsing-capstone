@@ -1,0 +1,20 @@
+{
+  "metadata_evidence_retention": {
+    "expected": {
+      "value": 0.9444444444444444,
+      "passed": 17,
+      "total": 18,
+      "not_automatically_scored": 0,
+      "equal_document_mean": 0.9444444444444445,
+      "documents_with_metric": 6
+    },
+    "actual": {
+      "value": 0.9444444444444444,
+      "passed": 17,
+      "total": 18,
+      "not_automatically_scored": 0,
+      "equal_document_mean": 0.9444444444444443,
+      "documents_with_metric": 6
+    }
+  }
+}

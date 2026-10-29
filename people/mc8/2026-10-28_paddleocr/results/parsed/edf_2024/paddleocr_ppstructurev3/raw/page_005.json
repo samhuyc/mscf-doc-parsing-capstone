@@ -1,0 +1,1694 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2481,
+    "height": 3508,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "eDF ",
+        "block_bbox": [
+          1988,
+          96,
+          2376,
+          265
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "Indirect costs: Includes operating costs not limited to sales and marketing costs; Bad debt; Central services and corporate recharges; Customer service and billing; Costs to serve Priority Services Register (PSR) customers; IT, HR, property costs and metering related costs (including installations, rental,maintenance etc). Where costs cannot be directly allocated to a fuel (Gas / Electricity) or market (Domestic / Non-Domestic), they have been allocated using appropriate activity drivers, such as customer contact volumes and account volumes.\n",
+        "block_bbox": [
+          126,
+          452,
+          2334,
+          811
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "HEDGING POLICY ",
+        "block_bbox": [
+          131,
+          940,
+          562,
+          983
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "EDF adopts hedging strategies which are designed to minimise the impact of energy market risk,consistent with the guidelines of the EDF Group Energy Market Risk Policy. Energy requirements for fixed price (active choice) products are hedged \"back-to-back\", based on forecast demand at the start of the contract. Standard variable (default) tariff products are hedged in line with the default price cap methodology. The volume risk arising from demand volatility is carried by EDF Energy Customers Ltd and recognised within the CsS.\n",
+        "block_bbox": [
+          127,
+          1065,
+          2333,
+          1424
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "GLOSSARY OF TERMS ",
+        "block_bbox": [
+          131,
+          1533,
+          653,
+          1575
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": "EBIDTA: Earnings before interest, tax, depreciation and amortisation.",
+        "block_bbox": [
+          132,
+          1657,
+          1611,
+          1704
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "text",
+        "block_content": "EBIT: Earnings before interest and tax.",
+        "block_bbox": [
+          132,
+          1781,
+          958,
+          1827
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "text",
+        "block_content": "Depreciation and amortisation: Depreciation and amortisation is allocated between Electricity and Gas on the basis of meter points.\n",
+        "block_bbox": [
+          129,
+          1906,
+          2333,
+          2015
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "text",
+        "block_content": "Meter Points: average number of electricity and gas, domestic and non-domestic meter points (MPANs and MPRNs) during the reporting year. Calculated by adding monthly close meter points and dividing by 12.\n",
+        "block_bbox": [
+          129,
+          2095,
+          2335,
+          2260
+        ],
+        "block_id": 8,
+        "block_order": 9
+      },
+      {
+        "block_label": "text",
+        "block_content": "WAcO E/G: Weighted average input cost of fuel (\"WACO\") for supply of electricity/gas. Calculated as \"Direct fuel costs\" line divided by the \"Volume\" line, shown as £/MWh or p/th. It does not include other direct costs such as distribution, transportation or environmental/social costs.",
+        "block_bbox": [
+          126,
+          2342,
+          2333,
+          2515
+        ],
+        "block_id": 9,
+        "block_order": 10
+      },
+      {
+        "block_label": "text",
+        "block_content": "TWh: Terawatt hours.",
+        "block_bbox": [
+          132,
+          2593,
+          601,
+          2635
+        ],
+        "block_id": 10,
+        "block_order": 11
+      },
+      {
+        "block_label": "text",
+        "block_content": "m Therms: Million therms.",
+        "block_bbox": [
+          131,
+          2719,
+          713,
+          2764
+        ],
+        "block_id": 11,
+        "block_order": 12
+      },
+      {
+        "block_label": "text",
+        "block_content": "Volume: Supplier volumes at the meter point (i.e. net of losses).",
+        "block_bbox": [
+          130,
+          2842,
+          1497,
+          2893
+        ],
+        "block_id": 12,
+        "block_order": 13
+      },
+      {
+        "block_label": "number",
+        "block_content": "Page 5 of 6",
+        "block_bbox": [
+          1148,
+          3409,
+          1322,
+          3447
+        ],
+        "block_id": 13,
+        "block_order": 14
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.986309289932251,
+          "coordinate": [
+            127.283935546875,
+            1065.5341796875,
+            2333.59814453125,
+            1424.58251953125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9862289428710938,
+          "coordinate": [
+            126.541259765625,
+            452.24395751953125,
+            2334.312255859375,
+            811.1188354492188
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9803466796875,
+          "coordinate": [
+            126.9068603515625,
+            2342.13916015625,
+            2333.33740234375,
+            2515.11865234375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9790384769439697,
+          "coordinate": [
+            129.3641357421875,
+            2095.437744140625,
+            2335.544921875,
+            2260.725341796875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9664450883865356,
+          "coordinate": [
+            129.5013427734375,
+            1906.574951171875,
+            2333.6650390625,
+            2015.058837890625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.927902102470398,
+          "coordinate": [
+            132.628662109375,
+            1781.48193359375,
+            958.082275390625,
+            1827.185546875
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.9269448518753052,
+          "coordinate": [
+            1988.5364990234375,
+            96.28840637207031,
+            2376.68994140625,
+            265.23980712890625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9266089200973511,
+          "coordinate": [
+            131.47531127929688,
+            1533.6419677734375,
+            653.8216552734375,
+            1575.3599853515625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9202762842178345,
+          "coordinate": [
+            132.31982421875,
+            1657.548828125,
+            1611.077392578125,
+            1704.1875
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9200238585472107,
+          "coordinate": [
+            131.88079833984375,
+            940.9664916992188,
+            562.5274047851562,
+            983.1652221679688
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9172804951667786,
+          "coordinate": [
+            130.23321533203125,
+            2842.87158203125,
+            1497.7724609375,
+            2893.46728515625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9084668159484863,
+          "coordinate": [
+            132.4285888671875,
+            2593.97265625,
+            601.5992431640625,
+            2635.7666015625
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8902327418327332,
+          "coordinate": [
+            1148.4989013671875,
+            3409.1982421875,
+            1322.4425048828125,
+            3447.4951171875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.8295563459396362,
+          "coordinate": [
+            131.68072509765625,
+            2719.92724609375,
+            713.4711303710938,
+            2764.68798828125
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            2154,
+            138
+          ],
+          [
+            2382,
+            124
+          ],
+          [
+            2390,
+            240
+          ],
+          [
+            2162,
+            254
+          ]
+        ],
+        [
+          [
+            136,
+            455
+          ],
+          [
+            2343,
+            455
+          ],
+          [
+            2343,
+            510
+          ],
+          [
+            136,
+            510
+          ]
+        ],
+        [
+          [
+            138,
+            521
+          ],
+          [
+            2337,
+            521
+          ],
+          [
+            2337,
+            567
+          ],
+          [
+            138,
+            567
+          ]
+        ],
+        [
+          [
+            138,
+            584
+          ],
+          [
+            2337,
+            584
+          ],
+          [
+            2337,
+            630
+          ],
+          [
+            138,
+            630
+          ]
+        ],
+        [
+          [
+            138,
+            644
+          ],
+          [
+            2340,
+            644
+          ],
+          [
+            2340,
+            691
+          ],
+          [
+            138,
+            691
+          ]
+        ],
+        [
+          [
+            136,
+            704
+          ],
+          [
+            2343,
+            704
+          ],
+          [
+            2343,
+            759
+          ],
+          [
+            136,
+            759
+          ]
+        ],
+        [
+          [
+            138,
+            770
+          ],
+          [
+            1185,
+            770
+          ],
+          [
+            1185,
+            817
+          ],
+          [
+            138,
+            817
+          ]
+        ],
+        [
+          [
+            141,
+            948
+          ],
+          [
+            562,
+            948
+          ],
+          [
+            562,
+            987
+          ],
+          [
+            141,
+            987
+          ]
+        ],
+        [
+          [
+            138,
+            1066
+          ],
+          [
+            2337,
+            1066
+          ],
+          [
+            2337,
+            1121
+          ],
+          [
+            138,
+            1121
+          ]
+        ],
+        [
+          [
+            136,
+            1129
+          ],
+          [
+            2340,
+            1129
+          ],
+          [
+            2340,
+            1184
+          ],
+          [
+            136,
+            1184
+          ]
+        ],
+        [
+          [
+            133,
+            1192
+          ],
+          [
+            2340,
+            1189
+          ],
+          [
+            2340,
+            1244
+          ],
+          [
+            133,
+            1247
+          ]
+        ],
+        [
+          [
+            130,
+            1247
+          ],
+          [
+            2340,
+            1253
+          ],
+          [
+            2340,
+            1316
+          ],
+          [
+            130,
+            1310
+          ]
+        ],
+        [
+          [
+            138,
+            1318
+          ],
+          [
+            2337,
+            1318
+          ],
+          [
+            2337,
+            1365
+          ],
+          [
+            138,
+            1365
+          ]
+        ],
+        [
+          [
+            138,
+            1381
+          ],
+          [
+            795,
+            1381
+          ],
+          [
+            795,
+            1428
+          ],
+          [
+            138,
+            1428
+          ]
+        ],
+        [
+          [
+            138,
+            1535
+          ],
+          [
+            656,
+            1535
+          ],
+          [
+            656,
+            1581
+          ],
+          [
+            138,
+            1581
+          ]
+        ],
+        [
+          [
+            138,
+            1658
+          ],
+          [
+            1614,
+            1658
+          ],
+          [
+            1614,
+            1713
+          ],
+          [
+            138,
+            1713
+          ]
+        ],
+        [
+          [
+            141,
+            1784
+          ],
+          [
+            958,
+            1784
+          ],
+          [
+            958,
+            1831
+          ],
+          [
+            141,
+            1831
+          ]
+        ],
+        [
+          [
+            138,
+            1907
+          ],
+          [
+            2340,
+            1907
+          ],
+          [
+            2340,
+            1962
+          ],
+          [
+            138,
+            1962
+          ]
+        ],
+        [
+          [
+            139,
+            1970
+          ],
+          [
+            845,
+            1973
+          ],
+          [
+            844,
+            2023
+          ],
+          [
+            138,
+            2020
+          ]
+        ],
+        [
+          [
+            141,
+            2099
+          ],
+          [
+            2337,
+            2099
+          ],
+          [
+            2337,
+            2146
+          ],
+          [
+            141,
+            2146
+          ]
+        ],
+        [
+          [
+            130,
+            2151
+          ],
+          [
+            2343,
+            2157
+          ],
+          [
+            2342,
+            2220
+          ],
+          [
+            130,
+            2214
+          ]
+        ],
+        [
+          [
+            133,
+            2217
+          ],
+          [
+            210,
+            2217
+          ],
+          [
+            210,
+            2275
+          ],
+          [
+            133,
+            2275
+          ]
+        ],
+        [
+          [
+            133,
+            2343
+          ],
+          [
+            2340,
+            2346
+          ],
+          [
+            2340,
+            2401
+          ],
+          [
+            133,
+            2398
+          ]
+        ],
+        [
+          [
+            133,
+            2404
+          ],
+          [
+            2340,
+            2406
+          ],
+          [
+            2340,
+            2461
+          ],
+          [
+            133,
+            2458
+          ]
+        ],
+        [
+          [
+            133,
+            2467
+          ],
+          [
+            1803,
+            2469
+          ],
+          [
+            1803,
+            2524
+          ],
+          [
+            133,
+            2521
+          ]
+        ],
+        [
+          [
+            139,
+            2593
+          ],
+          [
+            604,
+            2595
+          ],
+          [
+            603,
+            2645
+          ],
+          [
+            138,
+            2642
+          ]
+        ],
+        [
+          [
+            133,
+            2716
+          ],
+          [
+            717,
+            2719
+          ],
+          [
+            717,
+            2774
+          ],
+          [
+            133,
+            2771
+          ]
+        ],
+        [
+          [
+            136,
+            2842
+          ],
+          [
+            1501,
+            2845
+          ],
+          [
+            1501,
+            2900
+          ],
+          [
+            136,
+            2897
+          ]
+        ],
+        [
+          [
+            1146,
+            3410
+          ],
+          [
+            1334,
+            3403
+          ],
+          [
+            1335,
+            3450
+          ],
+          [
+            1147,
+            3456
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "eDF",
+        "Indirect costs: Includes operating costs not limited to sales and marketing costs; Bad debt; Central",
+        "services and corporate recharges; Customer service and billing; Costs to serve Priority Services Register",
+        "(PSR) customers; IT, HR, property costs and metering related costs (including installations, rental,",
+        "maintenance etc). Where costs cannot be directly allocated to a fuel (Gas / Electricity) or market",
+        "(Domestic / Non-Domestic), they have been allocated using appropriate activity drivers, such as",
+        "customer contact volumes and account volumes.",
+        "HEDGING POLICY",
+        "EDF adopts hedging strategies which are designed to minimise the impact of energy market risk,",
+        "consistent with the guidelines of the EDF Group Energy Market Risk Policy. Energy requirements for fixed",
+        "price (active choice) products are hedged \"back-to-back\", based on forecast demand at the start of the",
+        "contract. Standard variable (default) tariff products are hedged in line with the default price cap",
+        "methodology. The volume risk arising from demand volatility is carried by EDF Energy Customers Ltd",
+        "and recognised within the CsS.",
+        "GLOSSARY OF TERMS",
+        "EBIDTA: Earnings before interest, tax, depreciation and amortisation.",
+        "EBIT: Earnings before interest and tax.",
+        "Depreciation and amortisation: Depreciation and amortisation is allocated between Electricity and",
+        "Gas on the basis of meter points.",
+        "Meter Points: average number of electricity and gas, domestic and non-domestic meter points (MPANs",
+        "and MPRNs) during the reporting year. Calculated by adding monthly close meter points and dividing by",
+        "12.",
+        "WAcO E/G: Weighted average input cost of fuel (\"WACO\") for supply of electricity/gas. Calculated as",
+        "\"Direct fuel costs\" line divided by the \"Volume\" line, shown as £/MWh or p/th. It does not include other",
+        "direct costs such as distribution, transportation or environmental/social costs.",
+        "TWh: Terawatt hours.",
+        "m Therms: Million therms.",
+        "Volume: Supplier volumes at the meter point (i.e. net of losses).",
+        "Page 5 of 6"
+      ],
+      "rec_scores": [
+        0.9715583920478821,
+        0.979017972946167,
+        0.9793209433555603,
+        0.9608452320098877,
+        0.9864653944969177,
+        0.9829222559928894,
+        0.9861106276512146,
+        0.9798711538314819,
+        0.9854680299758911,
+        0.991696298122406,
+        0.9897214770317078,
+        0.968785285949707,
+        0.9853525757789612,
+        0.9720353484153748,
+        0.9670659303665161,
+        0.9865133166313171,
+        0.9813505411148071,
+        0.9892854690551758,
+        0.981022834777832,
+        0.9887710809707642,
+        0.9961713552474976,
+        0.9706438183784485,
+        0.9740197658538818,
+        0.9771242737770081,
+        0.988050639629364,
+        0.9924818873405457,
+        0.9961920976638794,
+        0.9822481274604797,
+        0.8971248865127563
+      ],
+      "rec_polys": [
+        [
+          [
+            2154,
+            138
+          ],
+          [
+            2382,
+            124
+          ],
+          [
+            2390,
+            240
+          ],
+          [
+            2162,
+            254
+          ]
+        ],
+        [
+          [
+            136,
+            455
+          ],
+          [
+            2343,
+            455
+          ],
+          [
+            2343,
+            510
+          ],
+          [
+            136,
+            510
+          ]
+        ],
+        [
+          [
+            138,
+            521
+          ],
+          [
+            2337,
+            521
+          ],
+          [
+            2337,
+            567
+          ],
+          [
+            138,
+            567
+          ]
+        ],
+        [
+          [
+            138,
+            584
+          ],
+          [
+            2337,
+            584
+          ],
+          [
+            2337,
+            630
+          ],
+          [
+            138,
+            630
+          ]
+        ],
+        [
+          [
+            138,
+            644
+          ],
+          [
+            2340,
+            644
+          ],
+          [
+            2340,
+            691
+          ],
+          [
+            138,
+            691
+          ]
+        ],
+        [
+          [
+            136,
+            704
+          ],
+          [
+            2343,
+            704
+          ],
+          [
+            2343,
+            759
+          ],
+          [
+            136,
+            759
+          ]
+        ],
+        [
+          [
+            138,
+            770
+          ],
+          [
+            1185,
+            770
+          ],
+          [
+            1185,
+            817
+          ],
+          [
+            138,
+            817
+          ]
+        ],
+        [
+          [
+            141,
+            948
+          ],
+          [
+            562,
+            948
+          ],
+          [
+            562,
+            987
+          ],
+          [
+            141,
+            987
+          ]
+        ],
+        [
+          [
+            138,
+            1066
+          ],
+          [
+            2337,
+            1066
+          ],
+          [
+            2337,
+            1121
+          ],
+          [
+            138,
+            1121
+          ]
+        ],
+        [
+          [
+            136,
+            1129
+          ],
+          [
+            2340,
+            1129
+          ],
+          [
+            2340,
+            1184
+          ],
+          [
+            136,
+            1184
+          ]
+        ],
+        [
+          [
+            133,
+            1192
+          ],
+          [
+            2340,
+            1189
+          ],
+          [
+            2340,
+            1244
+          ],
+          [
+            133,
+            1247
+          ]
+        ],
+        [
+          [
+            130,
+            1247
+          ],
+          [
+            2340,
+            1253
+          ],
+          [
+            2340,
+            1316
+          ],
+          [
+            130,
+            1310
+          ]
+        ],
+        [
+          [
+            138,
+            1318
+          ],
+          [
+            2337,
+            1318
+          ],
+          [
+            2337,
+            1365
+          ],
+          [
+            138,
+            1365
+          ]
+        ],
+        [
+          [
+            138,
+            1381
+          ],
+          [
+            795,
+            1381
+          ],
+          [
+            795,
+            1428
+          ],
+          [
+            138,
+            1428
+          ]
+        ],
+        [
+          [
+            138,
+            1535
+          ],
+          [
+            656,
+            1535
+          ],
+          [
+            656,
+            1581
+          ],
+          [
+            138,
+            1581
+          ]
+        ],
+        [
+          [
+            138,
+            1658
+          ],
+          [
+            1614,
+            1658
+          ],
+          [
+            1614,
+            1713
+          ],
+          [
+            138,
+            1713
+          ]
+        ],
+        [
+          [
+            141,
+            1784
+          ],
+          [
+            958,
+            1784
+          ],
+          [
+            958,
+            1831
+          ],
+          [
+            141,
+            1831
+          ]
+        ],
+        [
+          [
+            138,
+            1907
+          ],
+          [
+            2340,
+            1907
+          ],
+          [
+            2340,
+            1962
+          ],
+          [
+            138,
+            1962
+          ]
+        ],
+        [
+          [
+            139,
+            1970
+          ],
+          [
+            845,
+            1973
+          ],
+          [
+            844,
+            2023
+          ],
+          [
+            138,
+            2020
+          ]
+        ],
+        [
+          [
+            141,
+            2099
+          ],
+          [
+            2337,
+            2099
+          ],
+          [
+            2337,
+            2146
+          ],
+          [
+            141,
+            2146
+          ]
+        ],
+        [
+          [
+            130,
+            2151
+          ],
+          [
+            2343,
+            2157
+          ],
+          [
+            2342,
+            2220
+          ],
+          [
+            130,
+            2214
+          ]
+        ],
+        [
+          [
+            133,
+            2217
+          ],
+          [
+            210,
+            2217
+          ],
+          [
+            210,
+            2275
+          ],
+          [
+            133,
+            2275
+          ]
+        ],
+        [
+          [
+            133,
+            2343
+          ],
+          [
+            2340,
+            2346
+          ],
+          [
+            2340,
+            2401
+          ],
+          [
+            133,
+            2398
+          ]
+        ],
+        [
+          [
+            133,
+            2404
+          ],
+          [
+            2340,
+            2406
+          ],
+          [
+            2340,
+            2461
+          ],
+          [
+            133,
+            2458
+          ]
+        ],
+        [
+          [
+            133,
+            2467
+          ],
+          [
+            1803,
+            2469
+          ],
+          [
+            1803,
+            2524
+          ],
+          [
+            133,
+            2521
+          ]
+        ],
+        [
+          [
+            139,
+            2593
+          ],
+          [
+            604,
+            2595
+          ],
+          [
+            603,
+            2645
+          ],
+          [
+            138,
+            2642
+          ]
+        ],
+        [
+          [
+            133,
+            2716
+          ],
+          [
+            717,
+            2719
+          ],
+          [
+            717,
+            2774
+          ],
+          [
+            133,
+            2771
+          ]
+        ],
+        [
+          [
+            136,
+            2842
+          ],
+          [
+            1501,
+            2845
+          ],
+          [
+            1501,
+            2900
+          ],
+          [
+            136,
+            2897
+          ]
+        ],
+        [
+          [
+            1146,
+            3410
+          ],
+          [
+            1334,
+            3403
+          ],
+          [
+            1335,
+            3450
+          ],
+          [
+            1147,
+            3456
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          2154,
+          124,
+          2390,
+          254
+        ],
+        [
+          136,
+          455,
+          2343,
+          510
+        ],
+        [
+          138,
+          521,
+          2337,
+          567
+        ],
+        [
+          138,
+          584,
+          2337,
+          630
+        ],
+        [
+          138,
+          644,
+          2340,
+          691
+        ],
+        [
+          136,
+          704,
+          2343,
+          759
+        ],
+        [
+          138,
+          770,
+          1185,
+          817
+        ],
+        [
+          141,
+          948,
+          562,
+          987
+        ],
+        [
+          138,
+          1066,
+          2337,
+          1121
+        ],
+        [
+          136,
+          1129,
+          2340,
+          1184
+        ],
+        [
+          133,
+          1189,
+          2340,
+          1247
+        ],
+        [
+          130,
+          1247,
+          2340,
+          1316
+        ],
+        [
+          138,
+          1318,
+          2337,
+          1365
+        ],
+        [
+          138,
+          1381,
+          795,
+          1428
+        ],
+        [
+          138,
+          1535,
+          656,
+          1581
+        ],
+        [
+          138,
+          1658,
+          1614,
+          1713
+        ],
+        [
+          141,
+          1784,
+          958,
+          1831
+        ],
+        [
+          138,
+          1907,
+          2340,
+          1962
+        ],
+        [
+          138,
+          1970,
+          845,
+          2023
+        ],
+        [
+          141,
+          2099,
+          2337,
+          2146
+        ],
+        [
+          130,
+          2151,
+          2343,
+          2220
+        ],
+        [
+          133,
+          2217,
+          210,
+          2275
+        ],
+        [
+          133,
+          2343,
+          2340,
+          2401
+        ],
+        [
+          133,
+          2404,
+          2340,
+          2461
+        ],
+        [
+          133,
+          2467,
+          1803,
+          2524
+        ],
+        [
+          138,
+          2593,
+          604,
+          2645
+        ],
+        [
+          133,
+          2716,
+          717,
+          2774
+        ],
+        [
+          136,
+          2842,
+          1501,
+          2900
+        ],
+        [
+          1146,
+          3403,
+          1335,
+          3456
+        ]
+      ]
+    }
+  }
+}

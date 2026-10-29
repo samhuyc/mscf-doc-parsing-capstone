@@ -1,0 +1,10 @@
+.venv/
+cache/
+inputs/
+data/
+benchmarks/data/
+early/inputs/
+tmp/
+diagnostics/
+__pycache__/
+*.log

@@ -1,0 +1,9 @@
+{
+  "baseline_metrics_unchanged": true,
+  "selected_labels": 54,
+  "reviewed_labels": 0,
+  "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+  "scorer_sha256": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
+  "per_document_baselines_exact": true,
+  "equal_document_mean_roundoff_tolerance": 1e-14
+}

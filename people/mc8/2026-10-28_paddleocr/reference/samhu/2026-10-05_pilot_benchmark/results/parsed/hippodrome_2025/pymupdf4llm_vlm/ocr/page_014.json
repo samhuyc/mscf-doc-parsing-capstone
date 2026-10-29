@@ -1,0 +1,980 @@
+{
+  "status": "success",
+  "image_sha256": "1a2d05c8f8b79de77235c59736c806c1da8496288be25ee19c6cf72404dbfd6a",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          296.0
+        ],
+        [
+          1118.0,
+          296.0
+        ],
+        [
+          1118.0,
+          344.0
+        ],
+        [
+          262.0,
+          344.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          420.0
+        ],
+        [
+          1100.0,
+          420.0
+        ],
+        [
+          1100.0,
+          468.0
+        ],
+        [
+          258.0,
+          468.0
+        ]
+      ],
+      "text": "DIRECTORS' REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          497.0
+        ],
+        [
+          1277.0,
+          501.0
+        ],
+        [
+          1277.0,
+          552.0
+        ],
+        [
+          255.0,
+          548.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          658.0
+        ],
+        [
+          686.0,
+          658.0
+        ],
+        [
+          686.0,
+          705.0
+        ],
+        [
+          258.0,
+          705.0
+        ]
+      ],
+      "text": "Employee involvement",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          713.0
+        ],
+        [
+          2203.0,
+          713.0
+        ],
+        [
+          2203.0,
+          749.0
+        ],
+        [
+          266.0,
+          749.0
+        ]
+      ],
+      "text": "The Company's policy is to consult and discuss with employees, staff councils and at meetings, matters likely to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          757.0
+        ],
+        [
+          723.0,
+          757.0
+        ],
+        [
+          723.0,
+          793.0
+        ],
+        [
+          262.0,
+          793.0
+        ]
+      ],
+      "text": "affect employees' interests.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          841.0
+        ],
+        [
+          2203.0,
+          841.0
+        ],
+        [
+          2203.0,
+          877.0
+        ],
+        [
+          262.0,
+          877.0
+        ]
+      ],
+      "text": "Information of matters of concern to employees is given through information bulletins and reports which seek to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          885.0
+        ],
+        [
+          786.0,
+          885.0
+        ],
+        [
+          786.0,
+          921.0
+        ],
+        [
+          262.0,
+          921.0
+        ]
+      ],
+      "text": "achieve a common awareness.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          965.0
+        ],
+        [
+          2203.0,
+          965.0
+        ],
+        [
+          2203.0,
+          1012.0
+        ],
+        [
+          262.0,
+          1012.0
+        ]
+      ],
+      "text": "The Company is committed to employee consultation at all levels and encourages their involvement in the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1009.0
+        ],
+        [
+          2203.0,
+          1009.0
+        ],
+        [
+          2203.0,
+          1056.0
+        ],
+        [
+          258.0,
+          1056.0
+        ]
+      ],
+      "text": "development of the Company's business. The Company operates an in-house newsletter to underpin the employee",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1053.0
+        ],
+        [
+          757.0,
+          1053.0
+        ],
+        [
+          757.0,
+          1100.0
+        ],
+        [
+          258.0,
+          1100.0
+        ]
+      ],
+      "text": "communications programme.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1151.0
+        ],
+        [
+          406.0,
+          1151.0
+        ],
+        [
+          406.0,
+          1192.0
+        ],
+        [
+          262.0,
+          1192.0
+        ]
+      ],
+      "text": "Auditor",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1203.0
+        ],
+        [
+          2118.0,
+          1203.0
+        ],
+        [
+          2118.0,
+          1239.0
+        ],
+        [
+          266.0,
+          1239.0
+        ]
+      ],
+      "text": "The auditor, RSM UK Audit LLP, is deemed to be reappointed under section 487(2) of the Companies Act 2006",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1301.0
+        ],
+        [
+          882.0,
+          1301.0
+        ],
+        [
+          882.0,
+          1338.0
+        ],
+        [
+          262.0,
+          1338.0
+        ]
+      ],
+      "text": "Statement of disclosure to auditor",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1345.0
+        ],
+        [
+          2211.0,
+          1345.0
+        ],
+        [
+          2211.0,
+          1393.0
+        ],
+        [
+          258.0,
+          1393.0
+        ]
+      ],
+      "text": "So far as each person who was a director at the date of approving this report is aware, there is no relevant audit",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1385.0
+        ],
+        [
+          2207.0,
+          1389.0
+        ],
+        [
+          2207.0,
+          1437.0
+        ],
+        [
+          255.0,
+          1433.0
+        ]
+      ],
+      "text": "information of which the Company's auditor is unaware. Additionally, each director has taken all the necessary",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1433.0
+        ],
+        [
+          2203.0,
+          1433.0
+        ],
+        [
+          2203.0,
+          1480.0
+        ],
+        [
+          258.0,
+          1480.0
+        ]
+      ],
+      "text": "steps that they ought to have taken as a director in order to make themselves aware of all relevant audit information",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1480.0
+        ],
+        [
+          1469.0,
+          1480.0
+        ],
+        [
+          1469.0,
+          1517.0
+        ],
+        [
+          262.0,
+          1517.0
+        ]
+      ],
+      "text": "and to establish that the Company's auditor is aware of that information.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1579.0
+        ],
+        [
+          539.0,
+          1579.0
+        ],
+        [
+          539.0,
+          1616.0
+        ],
+        [
+          266.0,
+          1616.0
+        ]
+      ],
+      "text": "Going concern",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1623.0
+        ],
+        [
+          2203.0,
+          1623.0
+        ],
+        [
+          2203.0,
+          1670.0
+        ],
+        [
+          262.0,
+          1670.0
+        ]
+      ],
+      "text": "The directors have prepared the financial statements on a going concern basis. In assessing the going concern",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1667.0
+        ],
+        [
+          2207.0,
+          1667.0
+        ],
+        [
+          2207.0,
+          1714.0
+        ],
+        [
+          258.0,
+          1714.0
+        ]
+      ],
+      "text": "position of the Company, the directors have considered the ongoing political and economic situations and their",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1714.0
+        ],
+        [
+          2203.0,
+          1714.0
+        ],
+        [
+          2203.0,
+          1751.0
+        ],
+        [
+          262.0,
+          1751.0
+        ]
+      ],
+      "text": "impact on the cash flow and liquidity of the Company over the next 12 months, and the corresponding impact on the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1758.0
+        ],
+        [
+          1181.0,
+          1758.0
+        ],
+        [
+          1181.0,
+          1795.0
+        ],
+        [
+          262.0,
+          1795.0
+        ]
+      ],
+      "text": "covenants associated with our financing arrangements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1842.0
+        ],
+        [
+          2203.0,
+          1842.0
+        ],
+        [
+          2203.0,
+          1879.0
+        ],
+        [
+          266.0,
+          1879.0
+        ]
+      ],
+      "text": "As at the balance sheet date the Company had cash reserves of £24,768,430 (2024: £30,767,822). The business is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1879.0
+        ],
+        [
+          2207.0,
+          1879.0
+        ],
+        [
+          2207.0,
+          1926.0
+        ],
+        [
+          258.0,
+          1926.0
+        ]
+      ],
+      "text": "fully open, trading profitably and generating cash. The Company is reporting net current assets of £32,213,462",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1923.0
+        ],
+        [
+          2207.0,
+          1923.0
+        ],
+        [
+          2207.0,
+          1970.0
+        ],
+        [
+          262.0,
+          1970.0
+        ]
+      ],
+      "text": "(2024: £27,430,986) and has produced financial and cash flow forecasts sufficient to demonstrate the business will",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1974.0
+        ],
+        [
+          1362.0,
+          1974.0
+        ],
+        [
+          1362.0,
+          2010.0
+        ],
+        [
+          266.0,
+          2010.0
+        ]
+      ],
+      "text": "continue to trade profitably and meet all liabilities as they fall due.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2051.0
+        ],
+        [
+          2207.0,
+          2051.0
+        ],
+        [
+          2207.0,
+          2098.0
+        ],
+        [
+          258.0,
+          2098.0
+        ]
+      ],
+      "text": "Included within the Company's net current assets is a debtor balance due from a group undertaking of £34,224,002",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2102.0
+        ],
+        [
+          2203.0,
+          2102.0
+        ],
+        [
+          2203.0,
+          2138.0
+        ],
+        [
+          266.0,
+          2138.0
+        ]
+      ],
+      "text": "(2024: £20,971,472). The balance is unsecured, interest free and repayable on demand, however the directors",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2146.0
+        ],
+        [
+          2203.0,
+          2146.0
+        ],
+        [
+          2203.0,
+          2182.0
+        ],
+        [
+          262.0,
+          2182.0
+        ]
+      ],
+      "text": "have confirmed that repayment is not expected to be demanded within the next 12 months. Having considered the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2182.0
+        ],
+        [
+          2203.0,
+          2182.0
+        ],
+        [
+          2203.0,
+          2230.0
+        ],
+        [
+          258.0,
+          2230.0
+        ]
+      ],
+      "text": "recoverability of this balance, and supported by the profitable trading performance and cash reserves of the wider",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2226.0
+        ],
+        [
+          2203.0,
+          2226.0
+        ],
+        [
+          2203.0,
+          2274.0
+        ],
+        [
+          258.0,
+          2274.0
+        ]
+      ],
+      "text": "group, the directors are satisfied the balance is fully recoverable and does not present a risk to the Company's",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2274.0
+        ],
+        [
+          657.0,
+          2270.0
+        ],
+        [
+          657.0,
+          2310.0
+        ],
+        [
+          259.0,
+          2314.0
+        ]
+      ],
+      "text": "going concern position.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2350.0
+        ],
+        [
+          2200.0,
+          2350.0
+        ],
+        [
+          2200.0,
+          2398.0
+        ],
+        [
+          258.0,
+          2398.0
+        ]
+      ],
+      "text": "Therefore the directors continue to adopt the going concern basis of accounting for the next 12 months in preparing",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2401.0
+        ],
+        [
+          672.0,
+          2401.0
+        ],
+        [
+          672.0,
+          2438.0
+        ],
+        [
+          262.0,
+          2438.0
+        ]
+      ],
+      "text": "the financial statements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2489.0
+        ],
+        [
+          834.0,
+          2489.0
+        ],
+        [
+          834.0,
+          2526.0
+        ],
+        [
+          266.0,
+          2526.0
+        ]
+      ],
+      "text": "Matters of strategic importance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2526.0
+        ],
+        [
+          2207.0,
+          2526.0
+        ],
+        [
+          2207.0,
+          2573.0
+        ],
+        [
+          262.0,
+          2573.0
+        ]
+      ],
+      "text": "The Company has chosen in accordance with Companies Act 2006, s. 414C(11) to set out in the Company's",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2570.0
+        ],
+        [
+          2203.0,
+          2570.0
+        ],
+        [
+          2203.0,
+          2617.0
+        ],
+        [
+          262.0,
+          2617.0
+        ]
+      ],
+      "text": "strategic report information required by Large and Medium-sized Companies and Groups (Accounts and Reports)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2617.0
+        ],
+        [
+          2203.0,
+          2617.0
+        ],
+        [
+          2203.0,
+          2654.0
+        ],
+        [
+          266.0,
+          2654.0
+        ]
+      ],
+      "text": "Regulations 2008, Sch. 7 to be contained in the directors' report. It has done so in respect of principal risks and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2661.0
+        ],
+        [
+          919.0,
+          2661.0
+        ],
+        [
+          919.0,
+          2698.0
+        ],
+        [
+          262.0,
+          2698.0
+        ]
+      ],
+      "text": "uncertainties and future developments.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2760.0
+        ],
+        [
+          1033.0,
+          2760.0
+        ],
+        [
+          1033.0,
+          2796.0
+        ],
+        [
+          262.0,
+          2796.0
+        ]
+      ],
+      "text": "Streamlined Energy and Carbon Reporting",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2804.0
+        ],
+        [
+          2207.0,
+          2804.0
+        ],
+        [
+          2207.0,
+          2851.0
+        ],
+        [
+          262.0,
+          2851.0
+        ]
+      ],
+      "text": "Hippodrome Casino Limited has taken exemption from the reporting requirements of SECR as this information is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2847.0
+        ],
+        [
+          2148.0,
+          2847.0
+        ],
+        [
+          2148.0,
+          2895.0
+        ],
+        [
+          258.0,
+          2895.0
+        ]
+      ],
+      "text": "included in the consolidated financial statements of Hippodrome Holdings Limited, the ultimate holding company.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3355.0
+        ],
+        [
+          1192.0,
+          3355.0
+        ]
+      ],
+      "text": "- 12 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.24914979934692383,
+  "elapsed_seconds": 23.69255212508142
+}

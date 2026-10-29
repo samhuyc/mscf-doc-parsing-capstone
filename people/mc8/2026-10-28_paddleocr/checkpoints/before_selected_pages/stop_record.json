@@ -1,0 +1,25 @@
+{
+  "reason": "User requested prioritizing all 18 evaluation pages and preserving completed work.",
+  "completed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "original_run_exit": "RuntimeError('PP-StructureV3 exited -9; see /Users/cbc/Desktop/MSCF/capstone/github_repo/people/mc8/2026-10-28_paddleocr/results/parsed/hippodrome_2025/paddleocr_ppstructurev3/parser.log')",
+  "note": "All committed raw predictions and native Markdown were saved before stopping; no completed page will be rerun.",
+  "recorded_at_utc": "2026-10-29T02:35:57.361552+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "image_sha256": "a02f20b93454d87cb5ae7d3cdbeace0595a36e8c1b027f2cde4ae09be44a47a7",
+  "image_size": [
+    2481,
+    3508
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          2156.0,
+          128.0
+        ],
+        [
+          2392.0,
+          128.0
+        ],
+        [
+          2392.0,
+          252.0
+        ],
+        [
+          2156.0,
+          252.0
+        ]
+      ],
+      "text": "eDF",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          129.0,
+          435.0
+        ],
+        [
+          240.0,
+          435.0
+        ],
+        [
+          240.0,
+          504.0
+        ],
+        [
+          129.0,
+          504.0
+        ]
+      ],
+      "text": "EDF",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.26282787322998047,
+  "elapsed_seconds": 0.9283424578607082
+}

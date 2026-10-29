@@ -1,0 +1,1090 @@
+{
+  "status": "success",
+  "image_sha256": "78bd67d88958d6a5111f7f2e62ae60438517a1f86d3eb0192098a646e8b13c9c",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          281.0
+        ],
+        [
+          1115.0,
+          281.0
+        ],
+        [
+          1115.0,
+          333.0
+        ],
+        [
+          258.0,
+          333.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          254.0,
+          410.0
+        ],
+        [
+          753.0,
+          406.0
+        ],
+        [
+          753.0,
+          457.0
+        ],
+        [
+          255.0,
+          461.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          493.0
+        ],
+        [
+          1281.0,
+          493.0
+        ],
+        [
+          1281.0,
+          541.0
+        ],
+        [
+          258.0,
+          541.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          651.0
+        ],
+        [
+          1616.0,
+          651.0
+        ],
+        [
+          1616.0,
+          698.0
+        ],
+        [
+          258.0,
+          698.0
+        ]
+      ],
+      "text": "The directors present the strategic report for the year ended 31 December 2025.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          749.0
+        ],
+        [
+          1221.0,
+          746.0
+        ],
+        [
+          1222.0,
+          793.0
+        ],
+        [
+          255.0,
+          797.0
+        ]
+      ],
+      "text": "Fair review of the business and future developments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          848.0
+        ],
+        [
+          2214.0,
+          848.0
+        ],
+        [
+          2214.0,
+          885.0
+        ],
+        [
+          262.0,
+          885.0
+        ]
+      ],
+      "text": "The business delivered a strong performance in the year ended 31 December 2025, against a backdrop of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          892.0
+        ],
+        [
+          1476.0,
+          892.0
+        ],
+        [
+          1476.0,
+          928.0
+        ],
+        [
+          262.0,
+          928.0
+        ]
+      ],
+      "text": "continued inflationary cost pressures and subdued consumer sentiment.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          972.0
+        ],
+        [
+          2211.0,
+          972.0
+        ],
+        [
+          2211.0,
+          1020.0
+        ],
+        [
+          258.0,
+          1020.0
+        ]
+      ],
+      "text": "Turnover increased by 2% to £116.8m (2024: £114.6m), supported by Government White Paper reforms allowing",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1016.0
+        ],
+        [
+          2211.0,
+          1012.0
+        ],
+        [
+          2211.0,
+          1060.0
+        ],
+        [
+          255.0,
+          1064.0
+        ]
+      ],
+      "text": "sports betting and the expansion of our Slots portfolio from 20 to 80 machines. Hospitality revenues also improved,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1064.0
+        ],
+        [
+          1347.0,
+          1064.0
+        ],
+        [
+          1347.0,
+          1100.0
+        ],
+        [
+          262.0,
+          1100.0
+        ]
+      ],
+      "text": "with the launch of Paddy's Sportsbook proving an early success.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1151.0
+        ],
+        [
+          2211.0,
+          1151.0
+        ],
+        [
+          2211.0,
+          1188.0
+        ],
+        [
+          262.0,
+          1188.0
+        ]
+      ],
+      "text": "Gross profit grew by 4% to £67.2m (2024: £64.9m), reflecting effective management of cost of sales. Across the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1195.0
+        ],
+        [
+          2211.0,
+          1195.0
+        ],
+        [
+          2211.0,
+          1232.0
+        ],
+        [
+          262.0,
+          1232.0
+        ]
+      ],
+      "text": "sector, inflationary pressures continued to impact operating costs during the year, including payroll following the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1239.0
+        ],
+        [
+          1406.0,
+          1239.0
+        ],
+        [
+          1406.0,
+          1276.0
+        ],
+        [
+          262.0,
+          1276.0
+        ]
+      ],
+      "text": "hike in national insurance contributions, cleaning and security costs.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1323.0
+        ],
+        [
+          2211.0,
+          1323.0
+        ],
+        [
+          2211.0,
+          1360.0
+        ],
+        [
+          262.0,
+          1360.0
+        ]
+      ],
+      "text": "EBITDA for the year was £10.8m (2024: £13.3m), still a good performance given the challenging macroeconomic",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1367.0
+        ],
+        [
+          487.0,
+          1367.0
+        ],
+        [
+          487.0,
+          1407.0
+        ],
+        [
+          262.0,
+          1407.0
+        ]
+      ],
+      "text": "environment.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1447.0
+        ],
+        [
+          2214.0,
+          1447.0
+        ],
+        [
+          2214.0,
+          1495.0
+        ],
+        [
+          258.0,
+          1495.0
+        ]
+      ],
+      "text": "The Company continues to secure its position at the heart of West end entertainment. We are acknowledged as a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1491.0
+        ],
+        [
+          2214.0,
+          1491.0
+        ],
+        [
+          2214.0,
+          1539.0
+        ],
+        [
+          262.0,
+          1539.0
+        ]
+      ],
+      "text": "'founding member' of the newly defined 'fun economy,' bringing together tourism, theatre, concerts, gambling, and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1535.0
+        ],
+        [
+          2211.0,
+          1531.0
+        ],
+        [
+          2211.0,
+          1579.0
+        ],
+        [
+          255.0,
+          1583.0
+        ]
+      ],
+      "text": "entertainment which, it is estimated, now accounts for 15% of national turnover. Our performance continues to be",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1583.0
+        ],
+        [
+          2207.0,
+          1583.0
+        ],
+        [
+          2207.0,
+          1619.0
+        ],
+        [
+          262.0,
+          1619.0
+        ]
+      ],
+      "text": "recognised at both European and global level. We have secured Best Overall Casino at the European Casino",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1619.0
+        ],
+        [
+          2211.0,
+          1619.0
+        ],
+        [
+          2211.0,
+          1667.0
+        ],
+        [
+          258.0,
+          1667.0
+        ]
+      ],
+      "text": "Awards and Casino of the Year at the Global Gaming Awards. Heliot Steak House has retained Best Casino",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1663.0
+        ],
+        [
+          1580.0,
+          1663.0
+        ],
+        [
+          1580.0,
+          1711.0
+        ],
+        [
+          258.0,
+          1711.0
+        ]
+      ],
+      "text": "Restaurant, while Archive & Myth remains within the UK's top 50 cocktail bars.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1754.0
+        ],
+        [
+          2211.0,
+          1754.0
+        ],
+        [
+          2211.0,
+          1791.0
+        ],
+        [
+          258.0,
+          1791.0
+        ]
+      ],
+      "text": "We expect the business to continue to perform well in 2026, despite the continued uncertain economic",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1798.0
+        ],
+        [
+          2207.0,
+          1798.0
+        ],
+        [
+          2207.0,
+          1835.0
+        ],
+        [
+          262.0,
+          1835.0
+        ]
+      ],
+      "text": "environment. Our strategy remains unchanged, developing the business for the benefit of our customers,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1839.0
+        ],
+        [
+          2211.0,
+          1835.0
+        ],
+        [
+          2211.0,
+          1882.0
+        ],
+        [
+          255.0,
+          1886.0
+        ]
+      ],
+      "text": "expanding our range of world leading offers to provide an experience that cannot be matched anywhere. Our Gods",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1886.0
+        ],
+        [
+          2211.0,
+          1886.0
+        ],
+        [
+          2211.0,
+          1923.0
+        ],
+        [
+          262.0,
+          1923.0
+        ]
+      ],
+      "text": "deck is being transformed into a Live Studio and scheduled to open in June 2026. We maintain planning permission",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1930.0
+        ],
+        [
+          2207.0,
+          1930.0
+        ],
+        [
+          2207.0,
+          1967.0
+        ],
+        [
+          262.0,
+          1967.0
+        ]
+      ],
+      "text": "to extend our roof terrace to include additional gaming and a hospitality space with up to 200 covers with the timing",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1974.0
+        ],
+        [
+          834.0,
+          1974.0
+        ],
+        [
+          834.0,
+          2010.0
+        ],
+        [
+          262.0,
+          2010.0
+        ]
+      ],
+      "text": "of this development under review.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2058.0
+        ],
+        [
+          823.0,
+          2058.0
+        ],
+        [
+          823.0,
+          2094.0
+        ],
+        [
+          262.0,
+          2094.0
+        ]
+      ],
+      "text": "About The Hippodrome Casino",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2146.0
+        ],
+        [
+          1148.0,
+          2146.0
+        ],
+        [
+          1148.0,
+          2182.0
+        ],
+        [
+          262.0,
+          2182.0
+        ]
+      ],
+      "text": "A timeline of becoming the 'best casino in the world':",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2222.0
+        ],
+        [
+          362.0,
+          2222.0
+        ],
+        [
+          362.0,
+          2277.0
+        ],
+        [
+          255.0,
+          2277.0
+        ]
+      ],
+      "text": "2006",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2230.0
+        ],
+        [
+          2207.0,
+          2230.0
+        ],
+        [
+          2207.0,
+          2266.0
+        ],
+        [
+          598.0,
+          2266.0
+        ]
+      ],
+      "text": "Current principal shareholder and Executive Chairman, Simon Thomas and his late father",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          2277.0
+        ],
+        [
+          2211.0,
+          2277.0
+        ],
+        [
+          2211.0,
+          2314.0
+        ],
+        [
+          605.0,
+          2314.0
+        ]
+      ],
+      "text": "Jimmy Thomas 'discovered' The Hippodrome. Down on its luck but considered a perfect venue",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2321.0
+        ],
+        [
+          1159.0,
+          2321.0
+        ],
+        [
+          1159.0,
+          2358.0
+        ],
+        [
+          602.0,
+          2358.0
+        ]
+      ],
+      "text": "for a new breed of British casino.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2412.0
+        ],
+        [
+          483.0,
+          2412.0
+        ],
+        [
+          483.0,
+          2453.0
+        ],
+        [
+          262.0,
+          2453.0
+        ]
+      ],
+      "text": "2010 – 2012",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          590.0,
+          2405.0
+        ],
+        [
+          2207.0,
+          2405.0
+        ],
+        [
+          2207.0,
+          2453.0
+        ],
+        [
+          590.0,
+          2453.0
+        ]
+      ],
+      "text": "Having successfully secured the necessary licences and permissions an extensive two year",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2453.0
+        ],
+        [
+          2214.0,
+          2453.0
+        ],
+        [
+          2214.0,
+          2500.0
+        ],
+        [
+          598.0,
+          2500.0
+        ]
+      ],
+      "text": "build and renovation project and a capital investment of over £50m sees the vacant and derelict",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2493.0
+        ],
+        [
+          897.0,
+          2493.0
+        ],
+        [
+          897.0,
+          2540.0
+        ],
+        [
+          598.0,
+          2540.0
+        ]
+      ],
+      "text": "building restored.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2592.0
+        ],
+        [
+          362.0,
+          2592.0
+        ],
+        [
+          362.0,
+          2639.0
+        ],
+        [
+          258.0,
+          2639.0
+        ]
+      ],
+      "text": "2012",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2592.0
+        ],
+        [
+          2163.0,
+          2592.0
+        ],
+        [
+          2163.0,
+          2628.0
+        ],
+        [
+          598.0,
+          2628.0
+        ]
+      ],
+      "text": "The Hippodrome was officially opened for business by Boris Johnson, then Mayor of London.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2643.0
+        ],
+        [
+          1716.0,
+          2643.0
+        ],
+        [
+          1716.0,
+          2679.0
+        ],
+        [
+          602.0,
+          2679.0
+        ]
+      ],
+      "text": "Soul diva Dionne Warwick headlines at our (then) cabaret theatre.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2690.0
+        ],
+        [
+          1391.0,
+          2690.0
+        ],
+        [
+          1391.0,
+          2727.0
+        ],
+        [
+          602.0,
+          2727.0
+        ]
+      ],
+      "text": "Pokerstars becomes partner in our poker deck.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2782.0
+        ],
+        [
+          354.0,
+          2782.0
+        ],
+        [
+          354.0,
+          2825.0
+        ],
+        [
+          258.0,
+          2825.0
+        ]
+      ],
+      "text": "2013",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2782.0
+        ],
+        [
+          2207.0,
+          2782.0
+        ],
+        [
+          2207.0,
+          2818.0
+        ],
+        [
+          598.0,
+          2818.0
+        ]
+      ],
+      "text": "The late, great Sir Bruce Forsyth and Dame Barbara Windsor celebrate together at a reunion of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2825.0
+        ],
+        [
+          2148.0,
+          2825.0
+        ],
+        [
+          2148.0,
+          2873.0
+        ],
+        [
+          598.0,
+          2873.0
+        ]
+      ],
+      "text": "the singers, dancers and backstage team at a reunion of the world-famous Talk of the Town.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2877.0
+        ],
+        [
+          2207.0,
+          2877.0
+        ],
+        [
+          2207.0,
+          2913.0
+        ],
+        [
+          602.0,
+          2913.0
+        ]
+      ],
+      "text": "The Bishop of Liverpool, the Rt Rev James Jones KBE, discusses casino banking for BBC",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2917.0
+        ],
+        [
+          1819.0,
+          2917.0
+        ],
+        [
+          1819.0,
+          2964.0
+        ],
+        [
+          598.0,
+          2964.0
+        ]
+      ],
+      "text": "Radio 4 on the main floor of the Hippodrome in full episcopal vestments.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2968.0
+        ],
+        [
+          2207.0,
+          2968.0
+        ],
+        [
+          2207.0,
+          3005.0
+        ],
+        [
+          602.0,
+          3005.0
+        ]
+      ],
+      "text": "A historic return to the Hippodrome by Joe Longthorne who performed here on the closing night",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          3012.0
+        ],
+        [
+          1303.0,
+          3012.0
+        ],
+        [
+          1303.0,
+          3048.0
+        ],
+        [
+          598.0,
+          3048.0
+        ]
+      ],
+      "text": "of the legendary Talk of the Town in 1982.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1203.0,
+          3323.0
+        ],
+        [
+          1277.0,
+          3323.0
+        ],
+        [
+          1277.0,
+          3366.0
+        ],
+        [
+          1203.0,
+          3366.0
+        ]
+      ],
+      "text": "-1-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.24576306343078613,
+  "elapsed_seconds": 24.34244129108265
+}

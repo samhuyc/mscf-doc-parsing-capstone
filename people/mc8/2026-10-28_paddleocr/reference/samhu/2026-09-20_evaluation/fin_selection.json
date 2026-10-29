@@ -1,0 +1,57 @@
+{
+  "dataset": "TheFinAI/FinCriticalED",
+  "revision": "2ac95f3dc2f0b55caf35f3d942bb5d32945f7c3e",
+  "source_csv_sha256": "97ea7eedda6869b1a0c50a74215934b1e36ae41e3b435408e2e70b04a4877594",
+  "selection": "at least 5 existing number annotations; sha256 ID ordering; available release rows only",
+  "eligible_pages": 65,
+  "samples": [
+    {
+      "id": "fin_334",
+      "source_id": "334",
+      "image_sha256": "87c7fc8ebb19a4667074bf6a061b677ea7bd1c4a37868bbed830ebcb699a9cf0",
+      "annotation_sha256": "59b461cca0d794d04d493a4dfb535ebe3bebf364c81a02ec2cca9eaf8e87e195"
+    },
+    {
+      "id": "fin_342",
+      "source_id": "342",
+      "image_sha256": "7bbef64a96683c4f376c3a6b1286799c49ab0c9737c3de76e3201e758ba597b1",
+      "annotation_sha256": "3f28e285888506f38540e762d5270eec436ad552614654551440e8d81b1dd4dd"
+    },
+    {
+      "id": "fin_344",
+      "source_id": "344",
+      "image_sha256": "7d477b31e79d4a0fdf2ce8cb0d096dacfc35359b113ab86a383158f01f88bc97",
+      "annotation_sha256": "fef6ac16e23fc14d2ab13e291f8d5d7354ab360d2237950b1b3f4e74ab698063"
+    },
+    {
+      "id": "fin_348",
+      "source_id": "348",
+      "image_sha256": "052444c33d66adfffa415232c0fab723635d9318419eff592ed802d545589617",
+      "annotation_sha256": "3bd433deefabb2a07023a65ef56f714f5a500e2c6d49b3f282f151eb68772a70"
+    },
+    {
+      "id": "fin_351",
+      "source_id": "351",
+      "image_sha256": "99a6ce443c4e50c68ad57b8a0c72d8c56abf5e3460d64835426f5c82522e814b",
+      "annotation_sha256": "3e0ccba90fd89e1005e0500d601fc885154172da5e1c174b89346ee283571602"
+    },
+    {
+      "id": "fin_356",
+      "source_id": "356",
+      "image_sha256": "6a2f9a9c109b33366482b24e104bc04038b18ca2c483b781511b82d7dcae4e1e",
+      "annotation_sha256": "51f519a370c1218cea51871cfb49103307511e3668c3929183b369bfa79afe06"
+    },
+    {
+      "id": "fin_367",
+      "source_id": "367",
+      "image_sha256": "5e16a3c4d6ac65179fc2c1b80f74748b6d9f4f4925f46f6ac35ea91ddb8e27df",
+      "annotation_sha256": "ebed0be9250f67b1c2e68836e7d3f4c5d85d47eb9ee1969fb023d040682b20ba"
+    },
+    {
+      "id": "fin_374",
+      "source_id": "374",
+      "image_sha256": "cbf6a57575289c7c887609ef14ec0b9fe26959c429391d6e613894130eab6c76",
+      "annotation_sha256": "e88a41a8c7871018ac3cddab40e95f2dac800b1f6a6c644220a55232f27dc623"
+    }
+  ]
+}

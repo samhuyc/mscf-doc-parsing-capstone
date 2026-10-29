@@ -1,0 +1,1309 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "doc_title",
+        "block_content": "HIPPODROME CASINO LIMITED  DIRECTORS'RESPONSIBILITIES STATEMENT  FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "block_bbox": [
+          255,
+          288,
+          1307,
+          547
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "The directors are responsible for preparing the Strategic Report and the Directors' Report and the financial statements in accordance with applicable law and regulations.\n",
+        "block_bbox": [
+          252,
+          657,
+          2204,
+          738
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "Company law requires the directors to prepare financial statements for each financial year. Under that law the directors have elected to prepare the financial statements in accordance with United Kingdom Generally Accepted Accounting Practice (United Kingdom Accounting Standards and applicable law). Under company law the directors must not approve the financial statements unless they are satisfied that they give a true and fair view of the state of affairs of the company and of the profit or loss of the company for that period. In preparing these financial statements, the directors are required to:",
+        "block_bbox": [
+          252,
+          787,
+          2204,
+          1041
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "• select suitable accounting policies and then apply them consistently;",
+        "block_bbox": [
+          289,
+          1090,
+          1485,
+          1124
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "• make judgements and accounting estimates that are reasonable and prudent;",
+        "block_bbox": [
+          289,
+          1133,
+          1636,
+          1169
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": "• state whether applicable UK Accounting Standards have been followed, subject to any material departures disclosed and explained in the financial statements; and ",
+        "block_bbox": [
+          289,
+          1176,
+          2205,
+          1254
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "text",
+        "block_content": "• prepare the financial statements on the going concern basis unless it is inappropriate to presume that the company will continue in business.\n",
+        "block_bbox": [
+          289,
+          1262,
+          2205,
+          1342
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "text",
+        "block_content": "The directors are responsible for keeping adequate accounting records that are sufficient to show and explain the company's transactions and disclose with reasonable accuracy at any time the financial position of the company and enable them to ensure that the financial statements comply with the Companies Act 2o06. They are also responsible for safeguarding the assets of the company and hence for taking reasonable steps for the prevention and detection of fraud and other irregularities.\n",
+        "block_bbox": [
+          251,
+          1388,
+          2205,
+          1597
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "number",
+        "block_content": "-14",
+        "block_bbox": [
+          1192,
+          3316,
+          1275,
+          3345
+        ],
+        "block_id": 8,
+        "block_order": 9
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9853600859642029,
+          "coordinate": [
+            252.22705078125,
+            787.2275390625,
+            2204.5673828125,
+            1041.589599609375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9793947339057922,
+          "coordinate": [
+            251.987548828125,
+            1388.0218505859375,
+            2205.57421875,
+            1597.3358154296875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9644342064857483,
+          "coordinate": [
+            252.75225830078125,
+            657.5482177734375,
+            2204.010986328125,
+            738.6634521484375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9606044292449951,
+          "coordinate": [
+            289.875244140625,
+            1262.6865234375,
+            2205.88720703125,
+            1342.41455078125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9471625685691833,
+          "coordinate": [
+            289.19189453125,
+            1176.6527099609375,
+            2205.89208984375,
+            1254.9088134765625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9110043048858643,
+          "coordinate": [
+            289.42486572265625,
+            1090.1668701171875,
+            1485.236083984375,
+            1124.5814208984375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.8922815322875977,
+          "coordinate": [
+            289.68963623046875,
+            1133.415771484375,
+            1636.73681640625,
+            1169.114013671875
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8838596940040588,
+          "coordinate": [
+            1192.794189453125,
+            3316.4951171875,
+            1275.217529296875,
+            3345.7353515625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.31797313690185547,
+          "coordinate": [
+            255.13348388671875,
+            288.87237548828125,
+            1307.6552734375,
+            547.8916625976562
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            263,
+            291
+          ],
+          [
+            1118,
+            291
+          ],
+          [
+            1118,
+            345
+          ],
+          [
+            263,
+            345
+          ]
+        ],
+        [
+          [
+            266,
+            422
+          ],
+          [
+            1306,
+            422
+          ],
+          [
+            1306,
+            461
+          ],
+          [
+            266,
+            461
+          ]
+        ],
+        [
+          [
+            266,
+            504
+          ],
+          [
+            1270,
+            504
+          ],
+          [
+            1270,
+            543
+          ],
+          [
+            266,
+            543
+          ]
+        ],
+        [
+          [
+            263,
+            655
+          ],
+          [
+            2206,
+            655
+          ],
+          [
+            2206,
+            702
+          ],
+          [
+            263,
+            702
+          ]
+        ],
+        [
+          [
+            263,
+            705
+          ],
+          [
+            1298,
+            705
+          ],
+          [
+            1298,
+            743
+          ],
+          [
+            263,
+            743
+          ]
+        ],
+        [
+          [
+            260,
+            784
+          ],
+          [
+            2212,
+            784
+          ],
+          [
+            2212,
+            831
+          ],
+          [
+            260,
+            831
+          ]
+        ],
+        [
+          [
+            263,
+            833
+          ],
+          [
+            2209,
+            833
+          ],
+          [
+            2209,
+            872
+          ],
+          [
+            263,
+            872
+          ]
+        ],
+        [
+          [
+            257,
+            869
+          ],
+          [
+            2212,
+            872
+          ],
+          [
+            2211,
+            918
+          ],
+          [
+            257,
+            916
+          ]
+        ],
+        [
+          [
+            260,
+            913
+          ],
+          [
+            2212,
+            913
+          ],
+          [
+            2212,
+            959
+          ],
+          [
+            260,
+            959
+          ]
+        ],
+        [
+          [
+            260,
+            959
+          ],
+          [
+            2212,
+            959
+          ],
+          [
+            2212,
+            1006
+          ],
+          [
+            260,
+            1006
+          ]
+        ],
+        [
+          [
+            263,
+            1006
+          ],
+          [
+            947,
+            1006
+          ],
+          [
+            947,
+            1044
+          ],
+          [
+            263,
+            1044
+          ]
+        ],
+        [
+          [
+            291,
+            1083
+          ],
+          [
+            1484,
+            1088
+          ],
+          [
+            1483,
+            1135
+          ],
+          [
+            291,
+            1129
+          ]
+        ],
+        [
+          [
+            293,
+            1135
+          ],
+          [
+            1633,
+            1135
+          ],
+          [
+            1633,
+            1173
+          ],
+          [
+            293,
+            1173
+          ]
+        ],
+        [
+          [
+            296,
+            1173
+          ],
+          [
+            2212,
+            1173
+          ],
+          [
+            2212,
+            1220
+          ],
+          [
+            296,
+            1220
+          ]
+        ],
+        [
+          [
+            332,
+            1220
+          ],
+          [
+            1276,
+            1220
+          ],
+          [
+            1276,
+            1258
+          ],
+          [
+            332,
+            1258
+          ]
+        ],
+        [
+          [
+            299,
+            1261
+          ],
+          [
+            2209,
+            1261
+          ],
+          [
+            2209,
+            1308
+          ],
+          [
+            299,
+            1308
+          ]
+        ],
+        [
+          [
+            332,
+            1308
+          ],
+          [
+            916,
+            1308
+          ],
+          [
+            916,
+            1346
+          ],
+          [
+            332,
+            1346
+          ]
+        ],
+        [
+          [
+            263,
+            1384
+          ],
+          [
+            2212,
+            1384
+          ],
+          [
+            2212,
+            1431
+          ],
+          [
+            263,
+            1431
+          ]
+        ],
+        [
+          [
+            255,
+            1423
+          ],
+          [
+            2212,
+            1426
+          ],
+          [
+            2211,
+            1480
+          ],
+          [
+            255,
+            1478
+          ]
+        ],
+        [
+          [
+            255,
+            1469
+          ],
+          [
+            2212,
+            1472
+          ],
+          [
+            2211,
+            1519
+          ],
+          [
+            255,
+            1516
+          ]
+        ],
+        [
+          [
+            263,
+            1519
+          ],
+          [
+            2212,
+            1519
+          ],
+          [
+            2212,
+            1557
+          ],
+          [
+            263,
+            1557
+          ]
+        ],
+        [
+          [
+            263,
+            1563
+          ],
+          [
+            1030,
+            1563
+          ],
+          [
+            1030,
+            1601
+          ],
+          [
+            263,
+            1601
+          ]
+        ],
+        [
+          [
+            1185,
+            3306
+          ],
+          [
+            1290,
+            3306
+          ],
+          [
+            1290,
+            3358
+          ],
+          [
+            1185,
+            3358
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "HIPPODROME CASINO LIMITED",
+        "DIRECTORS'RESPONSIBILITIES STATEMENT",
+        "FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "The directors are responsible for preparing the Strategic Report and the Directors' Report and the financial",
+        "statements in accordance with applicable law and regulations.",
+        "Company law requires the directors to prepare financial statements for each financial year. Under that law the",
+        "directors have elected to prepare the financial statements in accordance with United Kingdom Generally Accepted",
+        "Accounting Practice (United Kingdom Accounting Standards and applicable law). Under company law the directors",
+        "must not approve the financial statements unless they are satisfied that they give a true and fair view of the state of",
+        "affairs of the company and of the profit or loss of the company for that period. In preparing these financial",
+        "statements, the directors are required to:",
+        "• select suitable accounting policies and then apply them consistently;",
+        "• make judgements and accounting estimates that are reasonable and prudent;",
+        "• state whether applicable UK Accounting Standards have been followed, subject to any material departures",
+        "disclosed and explained in the financial statements; and",
+        "• prepare the financial statements on the going concern basis unless it is inappropriate to presume that the",
+        "company will continue in business.",
+        "The directors are responsible for keeping adequate accounting records that are sufficient to show and explain the",
+        "company's transactions and disclose with reasonable accuracy at any time the financial position of the company",
+        "and enable them to ensure that the financial statements comply with the Companies Act 2o06. They are also",
+        "responsible for safeguarding the assets of the company and hence for taking reasonable steps for the prevention",
+        "and detection of fraud and other irregularities.",
+        "-14-"
+      ],
+      "rec_scores": [
+        0.982990562915802,
+        0.9835256934165955,
+        0.949323832988739,
+        0.982123851776123,
+        0.9711809158325195,
+        0.9742113351821899,
+        0.9811561703681946,
+        0.9851368069648743,
+        0.9779999852180481,
+        0.97357577085495,
+        0.9815205335617065,
+        0.9761468768119812,
+        0.9718488454818726,
+        0.9783613681793213,
+        0.9794226288795471,
+        0.9801281690597534,
+        0.9823653101921082,
+        0.9875120520591736,
+        0.9696739315986633,
+        0.9701889157295227,
+        0.9834281206130981,
+        0.9886146187782288,
+        0.977492094039917
+      ],
+      "rec_polys": [
+        [
+          [
+            263,
+            291
+          ],
+          [
+            1118,
+            291
+          ],
+          [
+            1118,
+            345
+          ],
+          [
+            263,
+            345
+          ]
+        ],
+        [
+          [
+            266,
+            422
+          ],
+          [
+            1306,
+            422
+          ],
+          [
+            1306,
+            461
+          ],
+          [
+            266,
+            461
+          ]
+        ],
+        [
+          [
+            266,
+            504
+          ],
+          [
+            1270,
+            504
+          ],
+          [
+            1270,
+            543
+          ],
+          [
+            266,
+            543
+          ]
+        ],
+        [
+          [
+            263,
+            655
+          ],
+          [
+            2206,
+            655
+          ],
+          [
+            2206,
+            702
+          ],
+          [
+            263,
+            702
+          ]
+        ],
+        [
+          [
+            263,
+            705
+          ],
+          [
+            1298,
+            705
+          ],
+          [
+            1298,
+            743
+          ],
+          [
+            263,
+            743
+          ]
+        ],
+        [
+          [
+            260,
+            784
+          ],
+          [
+            2212,
+            784
+          ],
+          [
+            2212,
+            831
+          ],
+          [
+            260,
+            831
+          ]
+        ],
+        [
+          [
+            263,
+            833
+          ],
+          [
+            2209,
+            833
+          ],
+          [
+            2209,
+            872
+          ],
+          [
+            263,
+            872
+          ]
+        ],
+        [
+          [
+            257,
+            869
+          ],
+          [
+            2212,
+            872
+          ],
+          [
+            2211,
+            918
+          ],
+          [
+            257,
+            916
+          ]
+        ],
+        [
+          [
+            260,
+            913
+          ],
+          [
+            2212,
+            913
+          ],
+          [
+            2212,
+            959
+          ],
+          [
+            260,
+            959
+          ]
+        ],
+        [
+          [
+            260,
+            959
+          ],
+          [
+            2212,
+            959
+          ],
+          [
+            2212,
+            1006
+          ],
+          [
+            260,
+            1006
+          ]
+        ],
+        [
+          [
+            263,
+            1006
+          ],
+          [
+            947,
+            1006
+          ],
+          [
+            947,
+            1044
+          ],
+          [
+            263,
+            1044
+          ]
+        ],
+        [
+          [
+            291,
+            1083
+          ],
+          [
+            1484,
+            1088
+          ],
+          [
+            1483,
+            1135
+          ],
+          [
+            291,
+            1129
+          ]
+        ],
+        [
+          [
+            293,
+            1135
+          ],
+          [
+            1633,
+            1135
+          ],
+          [
+            1633,
+            1173
+          ],
+          [
+            293,
+            1173
+          ]
+        ],
+        [
+          [
+            296,
+            1173
+          ],
+          [
+            2212,
+            1173
+          ],
+          [
+            2212,
+            1220
+          ],
+          [
+            296,
+            1220
+          ]
+        ],
+        [
+          [
+            332,
+            1220
+          ],
+          [
+            1276,
+            1220
+          ],
+          [
+            1276,
+            1258
+          ],
+          [
+            332,
+            1258
+          ]
+        ],
+        [
+          [
+            299,
+            1261
+          ],
+          [
+            2209,
+            1261
+          ],
+          [
+            2209,
+            1308
+          ],
+          [
+            299,
+            1308
+          ]
+        ],
+        [
+          [
+            332,
+            1308
+          ],
+          [
+            916,
+            1308
+          ],
+          [
+            916,
+            1346
+          ],
+          [
+            332,
+            1346
+          ]
+        ],
+        [
+          [
+            263,
+            1384
+          ],
+          [
+            2212,
+            1384
+          ],
+          [
+            2212,
+            1431
+          ],
+          [
+            263,
+            1431
+          ]
+        ],
+        [
+          [
+            255,
+            1423
+          ],
+          [
+            2212,
+            1426
+          ],
+          [
+            2211,
+            1480
+          ],
+          [
+            255,
+            1478
+          ]
+        ],
+        [
+          [
+            255,
+            1469
+          ],
+          [
+            2212,
+            1472
+          ],
+          [
+            2211,
+            1519
+          ],
+          [
+            255,
+            1516
+          ]
+        ],
+        [
+          [
+            263,
+            1519
+          ],
+          [
+            2212,
+            1519
+          ],
+          [
+            2212,
+            1557
+          ],
+          [
+            263,
+            1557
+          ]
+        ],
+        [
+          [
+            263,
+            1563
+          ],
+          [
+            1030,
+            1563
+          ],
+          [
+            1030,
+            1601
+          ],
+          [
+            263,
+            1601
+          ]
+        ],
+        [
+          [
+            1185,
+            3306
+          ],
+          [
+            1290,
+            3306
+          ],
+          [
+            1290,
+            3358
+          ],
+          [
+            1185,
+            3358
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          263,
+          291,
+          1118,
+          345
+        ],
+        [
+          266,
+          422,
+          1306,
+          461
+        ],
+        [
+          266,
+          504,
+          1270,
+          543
+        ],
+        [
+          263,
+          655,
+          2206,
+          702
+        ],
+        [
+          263,
+          705,
+          1298,
+          743
+        ],
+        [
+          260,
+          784,
+          2212,
+          831
+        ],
+        [
+          263,
+          833,
+          2209,
+          872
+        ],
+        [
+          257,
+          869,
+          2212,
+          918
+        ],
+        [
+          260,
+          913,
+          2212,
+          959
+        ],
+        [
+          260,
+          959,
+          2212,
+          1006
+        ],
+        [
+          263,
+          1006,
+          947,
+          1044
+        ],
+        [
+          291,
+          1083,
+          1484,
+          1135
+        ],
+        [
+          293,
+          1135,
+          1633,
+          1173
+        ],
+        [
+          296,
+          1173,
+          2212,
+          1220
+        ],
+        [
+          332,
+          1220,
+          1276,
+          1258
+        ],
+        [
+          299,
+          1261,
+          2209,
+          1308
+        ],
+        [
+          332,
+          1308,
+          916,
+          1346
+        ],
+        [
+          263,
+          1384,
+          2212,
+          1431
+        ],
+        [
+          255,
+          1423,
+          2212,
+          1480
+        ],
+        [
+          255,
+          1469,
+          2212,
+          1519
+        ],
+        [
+          263,
+          1519,
+          2212,
+          1557
+        ],
+        [
+          263,
+          1563,
+          1030,
+          1601
+        ],
+        [
+          1185,
+          3306,
+          1290,
+          3358
+        ]
+      ]
+    }
+  }
+}

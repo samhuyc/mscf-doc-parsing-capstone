@@ -1,0 +1,789 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 4000,
+    "height": 2250,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Footnotes Second Quarter 2O25",
+        "block_bbox": [
+          284,
+          365,
+          1114,
+          593
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": " Includes an adjustment to convert 9O-day prescriptions to the equivalent of three 3O-day prescriptions.",
+        "block_bbox": [
+          305,
+          806,
+          3150,
+          871
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "2.Same store sales and prescription volume represent the change in revenues and prescriptions filled in the Company's retail pharmacy stores that have been operating for greater than one year and digital sales initiated online or through mobile applications and fulfilled through the Company's distribution centers, expressed as a percentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics exclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics to evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding existing stores and new locations. Same-store metrics provide management and investors with information useful in understanding the portion of current revenues and prescriptions resulting from organic growth in existing locations versus the portion resulting from opening new stores.\n",
+        "block_bbox": [
+          308,
+          951,
+          3389,
+          1577
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "footer",
+        "block_content": "〜CVSHealth。",
+        "block_bbox": [
+          3383,
+          2080,
+          3813,
+          2143
+        ],
+        "block_id": 3,
+        "block_order": 4
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.94596266746521,
+          "coordinate": [
+            308.078857421875,
+            951.1417236328125,
+            3389.742919921875,
+            1577.8287353515625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.7862260937690735,
+          "coordinate": [
+            305.573974609375,
+            806.489013671875,
+            3150.695556640625,
+            871.34619140625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.6607828736305237,
+          "coordinate": [
+            284.4898681640625,
+            365.59808349609375,
+            1114.5899658203125,
+            593.4237670898438
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "footer",
+          "score": 0.5789684057235718,
+          "coordinate": [
+            3383.43310546875,
+            2080.7451171875,
+            3813.2998046875,
+            2143.408203125
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            298,
+            364
+          ],
+          [
+            957,
+            374
+          ],
+          [
+            955,
+            486
+          ],
+          [
+            296,
+            476
+          ]
+        ],
+        [
+          [
+            294,
+            508
+          ],
+          [
+            1119,
+            508
+          ],
+          [
+            1119,
+            604
+          ],
+          [
+            294,
+            604
+          ]
+        ],
+        [
+          [
+            419,
+            809
+          ],
+          [
+            3156,
+            809
+          ],
+          [
+            3156,
+            882
+          ],
+          [
+            419,
+            882
+          ]
+        ],
+        [
+          [
+            319,
+            959
+          ],
+          [
+            378,
+            959
+          ],
+          [
+            378,
+            1016
+          ],
+          [
+            319,
+            1016
+          ]
+        ],
+        [
+          [
+            425,
+            952
+          ],
+          [
+            3237,
+            949
+          ],
+          [
+            3238,
+            1026
+          ],
+          [
+            425,
+            1029
+          ]
+        ],
+        [
+          [
+            434,
+            1026
+          ],
+          [
+            3347,
+            1023
+          ],
+          [
+            3347,
+            1090
+          ],
+          [
+            434,
+            1093
+          ]
+        ],
+        [
+          [
+            431,
+            1093
+          ],
+          [
+            3338,
+            1096
+          ],
+          [
+            3337,
+            1163
+          ],
+          [
+            431,
+            1160
+          ]
+        ],
+        [
+          [
+            428,
+            1167
+          ],
+          [
+            3359,
+            1160
+          ],
+          [
+            3359,
+            1234
+          ],
+          [
+            428,
+            1240
+          ]
+        ],
+        [
+          [
+            434,
+            1237
+          ],
+          [
+            3397,
+            1237
+          ],
+          [
+            3397,
+            1301
+          ],
+          [
+            434,
+            1301
+          ]
+        ],
+        [
+          [
+            425,
+            1298
+          ],
+          [
+            3341,
+            1304
+          ],
+          [
+            3341,
+            1381
+          ],
+          [
+            425,
+            1374
+          ]
+        ],
+        [
+          [
+            428,
+            1371
+          ],
+          [
+            3263,
+            1374
+          ],
+          [
+            3262,
+            1448
+          ],
+          [
+            428,
+            1445
+          ]
+        ],
+        [
+          [
+            431,
+            1445
+          ],
+          [
+            3241,
+            1445
+          ],
+          [
+            3241,
+            1518
+          ],
+          [
+            431,
+            1518
+          ]
+        ],
+        [
+          [
+            431,
+            1515
+          ],
+          [
+            2319,
+            1518
+          ],
+          [
+            2319,
+            1585
+          ],
+          [
+            431,
+            1582
+          ]
+        ],
+        [
+          [
+            3391,
+            2077
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3815,
+            2151
+          ],
+          [
+            3390,
+            2144
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "Footnotes",
+        "Second Quarter 2O25",
+        " Includes an adjustment to convert 9O-day prescriptions to the equivalent of three 3O-day prescriptions.",
+        "2.",
+        "Same store sales and prescription volume represent the change in revenues and prescriptions filled in the",
+        "Company's retail pharmacy stores that have been operating for greater than one year and digital sales initiated",
+        "online or through mobile applications and fulfilled through the Company's distribution centers, expressed as a",
+        "percentage that indicates the increase or decrease relative to the comparable prior period. Same store metrics",
+        "exclude revenues and prescriptions from LTC and infusion services operations. Management uses these metrics",
+        "to evaluate the performance of existing stores on a comparable basis and to inform future decisions regarding",
+        "existing stores and new locations. Same-store metrics provide management and investors with information",
+        "useful in understanding the portion of current revenues and prescriptions resulting from organic growth in",
+        "existing locations versus the portion resulting from opening new stores.",
+        "〜CVSHealth。"
+      ],
+      "rec_scores": [
+        0.9989455342292786,
+        0.9516901969909668,
+        0.9794332981109619,
+        0.8453817367553711,
+        0.9786598682403564,
+        0.9882394671440125,
+        0.985640287399292,
+        0.9863628149032593,
+        0.990433931350708,
+        0.9833546280860901,
+        0.9890517592430115,
+        0.9870116710662842,
+        0.9924444556236267,
+        0.8955144882202148
+      ],
+      "rec_polys": [
+        [
+          [
+            298,
+            364
+          ],
+          [
+            957,
+            374
+          ],
+          [
+            955,
+            486
+          ],
+          [
+            296,
+            476
+          ]
+        ],
+        [
+          [
+            294,
+            508
+          ],
+          [
+            1119,
+            508
+          ],
+          [
+            1119,
+            604
+          ],
+          [
+            294,
+            604
+          ]
+        ],
+        [
+          [
+            419,
+            809
+          ],
+          [
+            3156,
+            809
+          ],
+          [
+            3156,
+            882
+          ],
+          [
+            419,
+            882
+          ]
+        ],
+        [
+          [
+            319,
+            959
+          ],
+          [
+            378,
+            959
+          ],
+          [
+            378,
+            1016
+          ],
+          [
+            319,
+            1016
+          ]
+        ],
+        [
+          [
+            425,
+            952
+          ],
+          [
+            3237,
+            949
+          ],
+          [
+            3238,
+            1026
+          ],
+          [
+            425,
+            1029
+          ]
+        ],
+        [
+          [
+            434,
+            1026
+          ],
+          [
+            3347,
+            1023
+          ],
+          [
+            3347,
+            1090
+          ],
+          [
+            434,
+            1093
+          ]
+        ],
+        [
+          [
+            431,
+            1093
+          ],
+          [
+            3338,
+            1096
+          ],
+          [
+            3337,
+            1163
+          ],
+          [
+            431,
+            1160
+          ]
+        ],
+        [
+          [
+            428,
+            1167
+          ],
+          [
+            3359,
+            1160
+          ],
+          [
+            3359,
+            1234
+          ],
+          [
+            428,
+            1240
+          ]
+        ],
+        [
+          [
+            434,
+            1237
+          ],
+          [
+            3397,
+            1237
+          ],
+          [
+            3397,
+            1301
+          ],
+          [
+            434,
+            1301
+          ]
+        ],
+        [
+          [
+            425,
+            1298
+          ],
+          [
+            3341,
+            1304
+          ],
+          [
+            3341,
+            1381
+          ],
+          [
+            425,
+            1374
+          ]
+        ],
+        [
+          [
+            428,
+            1371
+          ],
+          [
+            3263,
+            1374
+          ],
+          [
+            3262,
+            1448
+          ],
+          [
+            428,
+            1445
+          ]
+        ],
+        [
+          [
+            431,
+            1445
+          ],
+          [
+            3241,
+            1445
+          ],
+          [
+            3241,
+            1518
+          ],
+          [
+            431,
+            1518
+          ]
+        ],
+        [
+          [
+            431,
+            1515
+          ],
+          [
+            2319,
+            1518
+          ],
+          [
+            2319,
+            1585
+          ],
+          [
+            431,
+            1582
+          ]
+        ],
+        [
+          [
+            3391,
+            2077
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3815,
+            2151
+          ],
+          [
+            3390,
+            2144
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          296,
+          364,
+          957,
+          486
+        ],
+        [
+          294,
+          508,
+          1119,
+          604
+        ],
+        [
+          419,
+          809,
+          3156,
+          882
+        ],
+        [
+          319,
+          959,
+          378,
+          1016
+        ],
+        [
+          425,
+          949,
+          3238,
+          1029
+        ],
+        [
+          434,
+          1023,
+          3347,
+          1093
+        ],
+        [
+          431,
+          1093,
+          3338,
+          1163
+        ],
+        [
+          428,
+          1160,
+          3359,
+          1240
+        ],
+        [
+          434,
+          1237,
+          3397,
+          1301
+        ],
+        [
+          425,
+          1298,
+          3341,
+          1381
+        ],
+        [
+          428,
+          1371,
+          3263,
+          1448
+        ],
+        [
+          431,
+          1445,
+          3241,
+          1518
+        ],
+        [
+          431,
+          1515,
+          2319,
+          1585
+        ],
+        [
+          3390,
+          2077,
+          3816,
+          2151
+        ]
+      ]
+    }
+  }
+}

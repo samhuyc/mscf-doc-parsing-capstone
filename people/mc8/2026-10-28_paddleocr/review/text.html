@@ -1,0 +1,147 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Text &amp; document organization</title><style>
+:root{font-family:system-ui,sans-serif;color:#173033;background:#f5f7f6;font-size:15px}body{max-width:1200px;margin:auto;padding:30px}
+h1{font-size:34px;letter-spacing:-1px;margin:26px 0 10px}h2{margin-top:30px}h3{margin:10px 0}h4{overflow-wrap:anywhere}p,li{line-height:1.6}
+a{color:#006b68}.banner{border-left:4px solid #c27b22;background:#fff2d9;padding:14px 18px;margin:22px 0}.muted,small{color:#52666b}
+small{display:block;font-size:12px;font-weight:400;margin-top:5px}.stats{display:flex;gap:30px;flex-wrap:wrap}.stats b{font-size:25px;display:block}
+table{border-collapse:collapse;width:100%;font-size:14px;background:white}th,td{border:1px solid #d8e2df;padding:12px;text-align:left}th{background:#edf3f0}.scroll{overflow:auto}
+details{margin:16px 0}summary{cursor:pointer;font-weight:600;padding:12px;background:#e5edeb;border-radius:5px}
+.page{display:grid;grid-template-columns:minmax(280px,1fr) minmax(0,1fr);gap:22px;margin-top:20px}.source img{width:100%;border:1px solid #cad7d2}.source{align-self:start;position:sticky;top:16px}
+article,.card{background:white;border:1px solid #d8e2df;padding:20px;margin:16px 0;border-radius:8px}.tag{font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:#527268}
+dt{font-size:12px;color:#52666b;margin-top:8px}dd{margin:3px 0;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;background:#eef2f1;padding:12px}
+nav,.links{display:flex;gap:18px;flex-wrap:wrap}nav{padding-bottom:18px;border-bottom:1px solid #d8e2df}nav a[aria-current]{font-weight:700;color:#173033;text-decoration:none}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:850px){body{padding:16px}.page,.cards{display:block}.source{position:static}h1{font-size:27px}}
+.parsed img{max-width:100%}.parsed{max-height:700px;overflow:auto}.predictions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.prediction{min-width:0}@media(max-width:850px){.predictions{display:block}}</style><body><nav><a href="index.html">Overview</a><a href="tables.html">Tables</a><a href="numbers.html">Numbers</a><a href="text.html">Text & order</a><a href="comparison.html">Same pages</a><a href="outputs.html">Saved outputs</a><a href="labels.html">References</a></nav><h1>Text &amp; document organization</h1><p class="banner">Same six PDFs and 54 unchanged assistant-authored draft references. 18 of 140 pages have selected labels; 0 labels are human verified. Results are preliminary. Missing or ambiguous cells fail; number presence does not establish row/year association.</p><p class="banner">PaddleOCR retains 46/140 processed physical pages, including all 18 labeled pages. The run prioritizes the unchanged 54-label accuracy evaluation. Full-document coverage, native-text diagnostics and end-to-end timing are incomplete.</p><p>Did the words, notes and reading sequence survive?</p><p>Eight text spans, five footnotes, seven order pairs, eighteen metadata-evidence fields and five visual-card relationships.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>87.5%</b><small>7 / 8 checks</small></td><td><b>87.5%</b><small>7 / 8 checks</small></td><td><b>87.5%</b><small>7 / 8 checks</small></td><td><b>87.5%</b><small>7 / 8 checks</small></td><td><b>87.5%</b><small>7 / 8 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>60.0%</b><small>3 / 5 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>7 / 7 checks</small></td><td><b>100.0%</b><small>7 / 7 checks</small></td><td><b>100.0%</b><small>7 / 7 checks</small></td><td><b>100.0%</b><small>7 / 7 checks</small></td><td><b>100.0%</b><small>7 / 7 checks</small></td></tr><tr><th>Character errors in selected text (lower is better)</th><td><b>0.6%</b><small>7 / 1211 characters</small></td><td><b>1.7%</b><small>20 / 1211 characters</small></td><td><b>0.2%</b><small>2 / 1211 characters</small></td><td><b>0.2%</b><small>3 / 1211 characters</small></td><td><b>7.8%</b><small>95 / 1211 characters</small></td></tr><tr><th>Visual label and value follow the expected text sequence</th><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>60.0%</b><small>3 / 5 checks</small></td><td><b>20.0%</b><small>1 / 5 checks</small></td><td><b>40.0%</b><small>2 / 5 checks</small></td><td><b>0.0%</b><small>0 / 5 checks</small></td></tr><tr><th>Document identity wording retained</th><td><b>88.9%</b><small>16 / 18 checks</small></td><td><b>94.4%</b><small>17 / 18 checks</small></td><td><b>83.3%</b><small>15 / 18 checks</small></td><td><b>100.0%</b><small>18 / 18 checks</small></td><td><b>94.4%</b><small>17 / 18 checks</small></td></tr></tbody></table></div><section class="metric-glossary card" id="metric-glossary" aria-labelledby="glossary-title"><h2 id="glossary-title">Metric glossary &amp; label JSON examples</h2><p>A <b>label</b> records the expected source content; a <b>metric</b> tests one aspect of the extracted output. One label can generate several checks. Every entry below includes its definition, how its fields are used, and a complete real JSON record from <a href="../labels.jsonl">labels.jsonl</a>.</p><p>Most scores are passed / applicable checks; higher is better. Character error rate is lower-is-better. Precision and recall count numeric occurrences. Missing or ambiguous matches fail applicable checks; N/A means not measured. These selected draft references are not independently verified gold.</p><p><a href="#evaluation-content">Skip glossary and continue to results ↓</a> · Expand any metric to see its JSON example.</p><details class="metric-example" id="metric-text_span_retention" open><summary>Selected text passages retained</summary><p><code>text_span_retention</code></p><p>Looks for the eight labeled source strings after case, Unicode and whitespace normalization.</p><p class="muted">Higher is better. Exact wording is required; this does not judge paraphrase meaning or all document text.</p><p><b>How this label is checked:</b> text is the expected phrase: Earnings Conference Call. It must occur after case, Unicode and whitespace normalization; paraphrasing does not count.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.title&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;text&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Central title&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Earnings Conference Call&quot;
+}</code></pre></details><details class="metric-example" id="metric-footnote_text_retention"><summary>Footnote wording retained</summary><p><code>footnote_text_retention</code></p><p>Looks for the five labeled footnote strings in the extracted page text.</p><p class="muted">Higher is better. Correct attachment to the referenced table or fact is not established.</p><p><b>How this label is checked:</b> text supplies the footnote wording, including punctuation. marker and target document the source relationship but are not tested by this retention check. A missing final period can fail.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p12.prescription_note&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 12,
+  &quot;kind&quot;: &quot;footnote&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Footnote 1&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.&quot;,
+  &quot;marker&quot;: &quot;1&quot;,
+  &quot;target&quot;: {
+    &quot;description&quot;: &quot;90-day prescription adjustment; target links on other slides not annotated&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-reading_order_accuracy"><summary>Selected text pairs in the right order</summary><p><code>reading_order_accuracy</code></p><p>Checks that both anchors appear exactly once and the first comes before the second.</p><p class="muted">Higher is better. Missing or repeated anchors fail; seven pairs cannot establish full-document reading order.</p><p><b>How this label is checked:</b> before and after are text anchors. Consolidated Results must occur once and precede the single occurrence of Total Revenues. Missing or repeated anchors fail.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.order_title_table&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;reading_order&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named source blocks; only this pair has a required order&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;before&quot;: &quot;Consolidated Results&quot;,
+  &quot;after&quot;: &quot;Total Revenues&quot;
+}</code></pre></details><details class="metric-example" id="metric-matched_span_character_error_rate"><summary>Character errors in selected text</summary><p><code>matched_span_character_error_rate</code></p><p>Aligns each of thirteen text/footnote references to its best matching page-text span, then counts character edits relative to reference length.</p><p class="muted">Lower is better. This is a fuzzy-aligned diagnostic on selected spans, not whole-page OCR error.</p><p><b>How this label is checked:</b> text supplies the reference for fuzzy span alignment. Earnings Conference Call has 24 normalized characters: one substitution in an otherwise matching span gives 1/24 ≈ 4.2% CER. Insertions and deletions also count. Footnote labels generate this metric too.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.title&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;text&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Central title&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Earnings Conference Call&quot;
+}</code></pre></details><details class="metric-example" id="metric-visual_label_value_sequence"><summary>Visual label and value follow the expected text sequence</summary><p><code>visual_label_value_sequence</code></p><p>Looks for the expected amount between its metric label and the next labeled card within a short text window.</p><p class="muted">Higher is better. Valid alternative reading orders can fail; textual proximity does not prove a visual relationship.</p><p><b>How this label is checked:</b> The scorer looks for value between label and next_label: Operating profit → £2.5bn → Operating margin. The default window is 120 characters when max_chars is absent. Unlike amount presence, this check includes the currency symbol.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;rolls_royce_2026h1_presentation.p5.card_operating_profit&quot;,
+  &quot;document&quot;: &quot;rolls_royce_2026h1_presentation&quot;,
+  &quot;page&quot;: 5,
+  &quot;kind&quot;: &quot;visual_fact&quot;,
+  &quot;source_sha256&quot;: &quot;eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named metric card or divisional-margin panel&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;label&quot;: &quot;Operating profit&quot;,
+  &quot;value&quot;: &quot;£2.5bn&quot;,
+  &quot;next_label&quot;: &quot;Operating margin&quot;,
+  &quot;context&quot;: {
+    &quot;period&quot;: &quot;H1 2026&quot;,
+    &quot;basis&quot;: &quot;underlying for operating profit and margin&quot;
+  },
+  &quot;review_note&quot;: &quot;Next label bounds a proposed text-sequence diagnostic, not a required global reading order.&quot;
+}</code></pre></details><details class="metric-example" id="metric-metadata_evidence_retention"><summary>Document identity wording retained</summary><p><code>metadata_evidence_retention</code></p><p>Looks for source wording supporting issuer, period and document type: eighteen field-evidence checks.</p><p class="muted">Higher is better. Does not evaluate extracted metadata fields, since existing metadata contains manifest-supplied information.</p><p><b>How this label is checked:</b> evidence_text = CVS Health must survive in the page text. field and value describe the intended metadata; the check does not test whether an independent issuer field was extracted.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.metadata_issuer&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;metadata&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Cover/title block&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;field&quot;: &quot;issuer&quot;,
+  &quot;value&quot;: &quot;CVS Health&quot;,
+  &quot;evidence_text&quot;: &quot;CVS Health&quot;
+}</code></pre></details></section><div id="evaluation-content"></div><h2>CVS Health 2025 Q2 Earnings Presentation</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td></tr></tbody></table></div><h2>EDF Consolidated Segmental Statement 2024</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr></tbody></table></div><h2>Hippodrome Casino Limited 2025 Full Accounts</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Footnote wording retained</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr></tbody></table></div><h2>Peterborough Care Limited Unaudited Financial Statements 2025</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>50.0%</b><small>1 / 2 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr></tbody></table></div><h2>Rolls-Royce Holdings plc 2026 Half Year Results Presentation</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>0.0%</b><small>0 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr></tbody></table></div><h2>Rolls-Royce Holdings plc 2026 Half Year Results Press Release</h2><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th><th>PaddleOCR PP-StructureV3 (CPU)</th></tr></thead><tbody><tr><th>Selected text passages retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr><tr><th>Footnote wording retained</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>0.0%</b><small>0 / 1 checks</small></td></tr><tr><th>Selected text pairs in the right order</th><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td><td><b>100.0%</b><small>1 / 1 checks</small></td></tr></tbody></table></div><h2>PaddleOCR failed checks (9)</h2><details><summary>footnote_text_retention · cvs_2025q2.p12.prescription_note</summary><pre>null</pre></details><details><summary>metadata_evidence_retention · cvs_2025q2.p1.metadata_issuer</summary><pre>{
+  &quot;field&quot;: &quot;issuer&quot;,
+  &quot;expected&quot;: &quot;CVS Health&quot;
+}</pre></details><details><summary>text_span_retention · peterborough_2025.p3.income_omission</summary><pre>null</pre></details><details><summary>visual_label_value_sequence · rolls_royce_2026h1_presentation.p5.card_operating_profit</summary><pre>{
+  &quot;expected&quot;: &quot;£2.5bn&quot;,
+  &quot;tokens_between_labels&quot;: []
+}</pre></details><details><summary>visual_label_value_sequence · rolls_royce_2026h1_presentation.p5.card_operating_margin</summary><pre>{
+  &quot;expected&quot;: &quot;22.5%&quot;,
+  &quot;tokens_between_labels&quot;: null
+}</pre></details><details><summary>visual_label_value_sequence · rolls_royce_2026h1_presentation.p5.card_free_cash_flow</summary><pre>{
+  &quot;expected&quot;: &quot;£2.0bn&quot;,
+  &quot;tokens_between_labels&quot;: null
+}</pre></details><details><summary>visual_label_value_sequence · rolls_royce_2026h1_presentation.p5.card_civil_aerospace</summary><pre>{
+  &quot;expected&quot;: &quot;25.3%&quot;,
+  &quot;tokens_between_labels&quot;: null
+}</pre></details><details><summary>visual_label_value_sequence · rolls_royce_2026h1_presentation.p5.card_defence</summary><pre>{
+  &quot;expected&quot;: &quot;21.0%&quot;,
+  &quot;tokens_between_labels&quot;: null
+}</pre></details><details><summary>footnote_text_retention · rolls_royce_2026h1_release.p13.financing_note</summary><pre>null</pre></details><p><a href="../README.md">Method and commands</a> · <a href="../results/preliminary.json">Scores and provenance</a> · <a href="../results/preliminary_checks.jsonl">Every check</a></p></body></html>

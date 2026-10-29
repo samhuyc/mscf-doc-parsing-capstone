@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "image_sha256": "157dffe8d8b916d1c3c9aadbdb11e07787c442caceef597ff5cf498e80135d8d",
+  "image_size": [
+    4000,
+    2250
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          171.0,
+          409.0
+        ],
+        [
+          204.0,
+          409.0
+        ],
+        [
+          204.0,
+          447.0
+        ],
+        [
+          171.0,
+          447.0
+        ]
+      ],
+      "text": "▶",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          3392.0,
+          2080.0
+        ],
+        [
+          3812.0,
+          2080.0
+        ],
+        [
+          3812.0,
+          2151.0
+        ],
+        [
+          3392.0,
+          2151.0
+        ]
+      ],
+      "text": "♥CVSHealth®",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.1915912628173828,
+  "elapsed_seconds": 0.8580027502030134
+}

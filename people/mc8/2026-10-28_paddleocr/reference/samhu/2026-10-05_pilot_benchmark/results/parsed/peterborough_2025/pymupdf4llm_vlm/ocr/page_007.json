@@ -1,0 +1,760 @@
+{
+  "status": "success",
+  "image_sha256": "e16b9adfc16ad9ed9335dbe9c56a88b1e0e65eea7b5288030ea350eb0b6a706c",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          181.0,
+          201.0
+        ],
+        [
+          749.0,
+          201.0
+        ],
+        [
+          749.0,
+          238.0
+        ],
+        [
+          181.0,
+          238.0
+        ]
+      ],
+      "text": "PETERBOROUGH CARE LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          366.0
+        ],
+        [
+          893.0,
+          366.0
+        ],
+        [
+          893.0,
+          402.0
+        ],
+        [
+          177.0,
+          402.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          413.0
+        ],
+        [
+          864.0,
+          413.0
+        ],
+        [
+          864.0,
+          450.0
+        ],
+        [
+          181.0,
+          450.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          570.0
+        ],
+        [
+          214.0,
+          570.0
+        ],
+        [
+          214.0,
+          607.0
+        ],
+        [
+          181.0,
+          607.0
+        ]
+      ],
+      "text": "2.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          295.0,
+          567.0
+        ],
+        [
+          849.0,
+          567.0
+        ],
+        [
+          849.0,
+          614.0
+        ],
+        [
+          295.0,
+          614.0
+        ]
+      ],
+      "text": "Accounting policies (continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          284.0,
+          661.0
+        ],
+        [
+          617.0,
+          665.0
+        ],
+        [
+          616.0,
+          706.0
+        ],
+        [
+          284.0,
+          702.0
+        ]
+      ],
+      "text": "2.8 Finance costs",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          764.0
+        ],
+        [
+          2299.0,
+          764.0
+        ],
+        [
+          2299.0,
+          800.0
+        ],
+        [
+          391.0,
+          800.0
+        ]
+      ],
+      "text": "Finance costs are charged to profit or loss over the term of the debt using the effective interest method so that the amount",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          811.0
+        ],
+        [
+          2299.0,
+          811.0
+        ],
+        [
+          2299.0,
+          848.0
+        ],
+        [
+          391.0,
+          848.0
+        ]
+      ],
+      "text": "charged is at a constant rate on the carrying amount. Issue costs are initially recognised as a reduction in the proceeds of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          859.0
+        ],
+        [
+          919.0,
+          859.0
+        ],
+        [
+          919.0,
+          896.0
+        ],
+        [
+          388.0,
+          896.0
+        ]
+      ],
+      "text": "the associated capital instrument.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          950.0
+        ],
+        [
+          539.0,
+          950.0
+        ],
+        [
+          539.0,
+          991.0
+        ],
+        [
+          288.0,
+          991.0
+        ]
+      ],
+      "text": "2.9 Pensions",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1049.0
+        ],
+        [
+          967.0,
+          1049.0
+        ],
+        [
+          967.0,
+          1086.0
+        ],
+        [
+          391.0,
+          1086.0
+        ]
+      ],
+      "text": "Defined contribution pension plan",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1148.0
+        ],
+        [
+          2299.0,
+          1148.0
+        ],
+        [
+          2299.0,
+          1184.0
+        ],
+        [
+          391.0,
+          1184.0
+        ]
+      ],
+      "text": "The company operates a defined contribution plan for its employees. A defined contribution plan is a pension plan under",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1195.0
+        ],
+        [
+          2299.0,
+          1195.0
+        ],
+        [
+          2299.0,
+          1232.0
+        ],
+        [
+          388.0,
+          1232.0
+        ]
+      ],
+      "text": "which the company pays fixed contributions into a separate entity. Once the contributions have been paid the company",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          399.0,
+          1239.0
+        ],
+        [
+          948.0,
+          1239.0
+        ],
+        [
+          948.0,
+          1276.0
+        ],
+        [
+          399.0,
+          1276.0
+        ]
+      ],
+      "text": "has no further payment obligations",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1330.0
+        ],
+        [
+          2303.0,
+          1330.0
+        ],
+        [
+          2303.0,
+          1378.0
+        ],
+        [
+          388.0,
+          1378.0
+        ]
+      ],
+      "text": "The contributions are recognised as an expense in profit or loss when they fall due. Amounts not paid are shown in other",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1382.0
+        ],
+        [
+          2299.0,
+          1382.0
+        ],
+        [
+          2299.0,
+          1418.0
+        ],
+        [
+          391.0,
+          1418.0
+        ]
+      ],
+      "text": "creditors as a liability in the Balance Sheet. The assets of the plan are held separately from the company in independently",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1429.0
+        ],
+        [
+          698.0,
+          1429.0
+        ],
+        [
+          698.0,
+          1466.0
+        ],
+        [
+          388.0,
+          1466.0
+        ]
+      ],
+      "text": "administered funds.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          1524.0
+        ],
+        [
+          642.0,
+          1524.0
+        ],
+        [
+          642.0,
+          1561.0
+        ],
+        [
+          288.0,
+          1561.0
+        ]
+      ],
+      "text": "2.10 Interest income",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1619.0
+        ],
+        [
+          1642.0,
+          1619.0
+        ],
+        [
+          1642.0,
+          1656.0
+        ],
+        [
+          391.0,
+          1656.0
+        ]
+      ],
+      "text": "Interest income is recognised in profit or loss using the effective interest method",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          1710.0
+        ],
+        [
+          661.0,
+          1714.0
+        ],
+        [
+          660.0,
+          1755.0
+        ],
+        [
+          288.0,
+          1751.0
+        ]
+      ],
+      "text": "2.11 Borrowing costs",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1813.0
+        ],
+        [
+          1764.0,
+          1813.0
+        ],
+        [
+          1764.0,
+          1850.0
+        ],
+        [
+          388.0,
+          1850.0
+        ]
+      ],
+      "text": "All borrowing costs are recognised in profit or loss in the year in which they are incurred",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          1904.0
+        ],
+        [
+          528.0,
+          1904.0
+        ],
+        [
+          528.0,
+          1945.0
+        ],
+        [
+          288.0,
+          1945.0
+        ]
+      ],
+      "text": "2.12 Taxation",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2003.0
+        ],
+        [
+          2295.0,
+          2003.0
+        ],
+        [
+          2295.0,
+          2040.0
+        ],
+        [
+          391.0,
+          2040.0
+        ]
+      ],
+      "text": "Tax is recognised in profit or loss except that a charge attributable to an item of income and expense recognised as other",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2051.0
+        ],
+        [
+          2295.0,
+          2051.0
+        ],
+        [
+          2295.0,
+          2087.0
+        ],
+        [
+          391.0,
+          2087.0
+        ]
+      ],
+      "text": "comprehensive income or to an item recognised directly in equity is also recognised in other comprehensive income or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2098.0
+        ],
+        [
+          852.0,
+          2098.0
+        ],
+        [
+          852.0,
+          2135.0
+        ],
+        [
+          391.0,
+          2135.0
+        ]
+      ],
+      "text": "directly in equity respectively.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          2193.0
+        ],
+        [
+          2295.0,
+          2193.0
+        ],
+        [
+          2295.0,
+          2230.0
+        ],
+        [
+          388.0,
+          2230.0
+        ]
+      ],
+      "text": "The current income tax charge is calculated on the basis of tax rates and laws that have been enacted or substantively",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          2237.0
+        ],
+        [
+          2011.0,
+          2237.0
+        ],
+        [
+          2011.0,
+          2274.0
+        ],
+        [
+          388.0,
+          2274.0
+        ]
+      ],
+      "text": "enacted by the balance sheet date in the countries where the company operates and generates income",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          284.0,
+          2376.0
+        ],
+        [
+          683.0,
+          2380.0
+        ],
+        [
+          682.0,
+          2420.0
+        ],
+        [
+          284.0,
+          2416.0
+        ]
+      ],
+      "text": "2.13 Exceptional items",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2478.0
+        ],
+        [
+          2299.0,
+          2478.0
+        ],
+        [
+          2299.0,
+          2515.0
+        ],
+        [
+          391.0,
+          2515.0
+        ]
+      ],
+      "text": "Exceptional items are transactions that fall within the ordinary activities of the company but are presented separately due",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          2526.0
+        ],
+        [
+          782.0,
+          2526.0
+        ],
+        [
+          782.0,
+          2562.0
+        ],
+        [
+          388.0,
+          2562.0
+        ]
+      ],
+      "text": "to their size or incidence.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          2668.0
+        ],
+        [
+          218.0,
+          2668.0
+        ],
+        [
+          218.0,
+          2701.0
+        ],
+        [
+          181.0,
+          2701.0
+        ]
+      ],
+      "text": "3.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          2665.0
+        ],
+        [
+          483.0,
+          2665.0
+        ],
+        [
+          483.0,
+          2705.0
+        ],
+        [
+          288.0,
+          2705.0
+        ]
+      ],
+      "text": "Employees",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          292.0,
+          2763.0
+        ],
+        [
+          1845.0,
+          2763.0
+        ],
+        [
+          1845.0,
+          2800.0
+        ],
+        [
+          292.0,
+          2800.0
+        ]
+      ],
+      "text": "The average monthly number of employees, including directors, during the year was 49 (2024 - 49).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1170.0,
+          3381.0
+        ],
+        [
+          1295.0,
+          3381.0
+        ],
+        [
+          1295.0,
+          3421.0
+        ],
+        [
+          1170.0,
+          3421.0
+        ]
+      ],
+      "text": "Page 6",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2235419750213623,
+  "elapsed_seconds": 14.249242832884192
+}

@@ -1,0 +1,2643 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "doc_title",
+        "block_content": "HIPPODROME CASINO LIMITED ",
+        "block_bbox": [
+          265,
+          290,
+          1120,
+          340
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "STRATEGIC REPORT (CONTINUED)FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "block_bbox": [
+          262,
+          415,
+          1279,
+          544
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "• Gambling Ombudsman - The Government has committed to the establishment of an independent Gambling Ombudsman to handle disputes between customers and operators and provide redress where appropriate. Implementation remains subject to further legislative and operational development.",
+        "block_bbox": [
+          367,
+          658,
+          2204,
+          780
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "Gaming Machine Allowances and Land-Based Casino Reforms - The Government has progressed a number of reforms affecting the land-based casino sector, including changes to gaming machine entitlements and measures intended to modernise the regulatory framework. Certain elements remain subject to ongoing implementation and commencement arrangements.\n",
+        "block_bbox": [
+          367,
+          790,
+          2204,
+          952
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "Player Protections – The Gambling Commission has introduced, and continues to develop, a range of customer protection measures arising from the White Paper, including financial risk assessments,enhanced consumer information requirements and other safeguards designed to reduce gambling-related harm.\n",
+        "block_bbox": [
+          367,
+          961,
+          2206,
+          1121
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": " Local Authority Premises Licence Fees - The Government has reviewed the fee caps applicable to premises licences issued by local authorities, with implementation of any revised arrangements subject to the relevant legislative and administrative processes.\n",
+        "block_bbox": [
+          368,
+          1133,
+          2203,
+          1255
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "text",
+        "block_content": "The Group continues to monitor regulatory developments and implementation guidance issued by the Gambling Commission and other relevant authorities and is working to ensure ongoing compliance with applicable requirements.\n",
+        "block_bbox": [
+          260,
+          1304,
+          2202,
+          1426
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Capital Investment at The Hippodrome Casino ",
+        "block_bbox": [
+          263,
+          1475,
+          1098,
+          1513
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "text",
+        "block_content": "We continue to invest in creating exceptional spaces for our customers to enjoy with the introduction of Paddy's Sportsbook and our new Slots Lounge in 2025. As we look ahead, we expect to maintain our progress and keep investing selectively across the business. Our investment decisions are driven by a combination of key drivers:customer experience and choice, safety and compliance, property stewardship, efficiency and revenue growth.",
+        "block_bbox": [
+          260,
+          1562,
+          2202,
+          1729
+        ],
+        "block_id": 8,
+        "block_order": 9
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Our Core Purpose ",
+        "block_bbox": [
+          265,
+          1779,
+          596,
+          1813
+        ],
+        "block_id": 9,
+        "block_order": 10
+      },
+      {
+        "block_label": "text",
+        "block_content": "The Hippodrome exists to·fulfil the needs of our customers by delivering an experience unmatched by any other business around the world. Customers are at the centre of everything we do. We are a casino based entertainment complex that aims to Surprise, Amaze, make Memorable and Entertain. Defined as S.A.M.E this is applied to and integrated with every aspect of the Hippodrome business, every day, to world class standards.",
+        "block_bbox": [
+          245,
+          1863,
+          2204,
+          2030
+        ],
+        "block_id": 10,
+        "block_order": 11
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Our Fundamental Principles ",
+        "block_bbox": [
+          263,
+          2078,
+          774,
+          2114
+        ],
+        "block_id": 11,
+        "block_order": 12
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Freedom ",
+        "block_bbox": [
+          315,
+          2165,
+          587,
+          2198
+        ],
+        "block_id": 12,
+        "block_order": 13
+      },
+      {
+        "block_label": "text",
+        "block_content": "We value individual freedom above all else. No one has the night to tell another how to be or act.",
+        "block_bbox": [
+          262,
+          2207,
+          1877,
+          2242
+        ],
+        "block_id": 13,
+        "block_order": 14
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "2Eguality & Eguity ",
+        "block_bbox": [
+          314,
+          2295,
+          738,
+          2330
+        ],
+        "block_id": 14,
+        "block_order": 15
+      },
+      {
+        "block_label": "text",
+        "block_content": "We are all equal and equal in all things, regardless of gender, race, religion, language, family or any other matters.",
+        "block_bbox": [
+          264,
+          2337,
+          2175,
+          2375
+        ],
+        "block_id": 15,
+        "block_order": 16
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Community ",
+        "block_bbox": [
+          315,
+          2424,
+          635,
+          2458
+        ],
+        "block_id": 16,
+        "block_order": 17
+      },
+      {
+        "block_label": "text",
+        "block_content": "We build and participate in communities to enrich lives, provide for the needs of our associates, and keep them safe from ham.\n",
+        "block_bbox": [
+          262,
+          2466,
+          2202,
+          2543
+        ],
+        "block_id": 17,
+        "block_order": 18
+      },
+      {
+        "block_label": "text",
+        "block_content": "Underpinning our Fundamental Principles is a strengthened focus and investment on simplifying the customer  journey through the various elements of the Hippodrome, ensuring an easy and above all enjoyable experience.",
+        "block_bbox": [
+          260,
+          2594,
+          2201,
+          2676
+        ],
+        "block_id": 18,
+        "block_order": 19
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Our Shared Values ",
+        "block_bbox": [
+          265,
+          2724,
+          607,
+          2757
+        ],
+        "block_id": 19,
+        "block_order": 20
+      },
+      {
+        "block_label": "text",
+        "block_content": "Our Shared Values support our strategy. They represent what we believe in and who we aspire to be. It's not just what we achieve, but how we work together, that sets us apart. Guided by our values, we'll make the Hippodrome an even better place to visit and work.\n",
+        "block_bbox": [
+          261,
+          2810,
+          2202,
+          2934
+        ],
+        "block_id": 20,
+        "block_order": 21
+      },
+      {
+        "block_label": "number",
+        "block_content": "-6",
+        "block_bbox": [
+          1209,
+          3316,
+          1271,
+          3343
+        ],
+        "block_id": 21,
+        "block_order": 22
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9841026663780212,
+          "coordinate": [
+            260.62530517578125,
+            1562.976318359375,
+            2202.453857421875,
+            1729.78857421875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9833110570907593,
+          "coordinate": [
+            245.83837890625,
+            1863.3414306640625,
+            2204.353759765625,
+            2030.6468505859375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9810560345649719,
+          "coordinate": [
+            367.75677490234375,
+            961.24609375,
+            2206.1748046875,
+            1121.762939453125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9795215725898743,
+          "coordinate": [
+            367.70367431640625,
+            790.1998291015625,
+            2204.73046875,
+            952.2017822265625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9793367385864258,
+          "coordinate": [
+            261.63720703125,
+            2810.3505859375,
+            2202.400634765625,
+            2934.306640625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9791389107704163,
+          "coordinate": [
+            260.7689208984375,
+            1304.119140625,
+            2202.91796875,
+            1426.29931640625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9791009426116943,
+          "coordinate": [
+            368.15069580078125,
+            1133.28125,
+            2203.49853515625,
+            1255.1884765625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9741479158401489,
+          "coordinate": [
+            367.3291015625,
+            658.1204833984375,
+            2204.857666015625,
+            780.4661865234375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9724657535552979,
+          "coordinate": [
+            260.703369140625,
+            2594.82080078125,
+            2201.4287109375,
+            2676.0751953125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9685925245285034,
+          "coordinate": [
+            262.888427734375,
+            2466.79638671875,
+            2202.347900390625,
+            2543.79150390625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9478380084037781,
+          "coordinate": [
+            263.59027099609375,
+            2078.56005859375,
+            774.1373901367188,
+            2114.63623046875
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9473278522491455,
+          "coordinate": [
+            263.87213134765625,
+            1475.430419921875,
+            1098.324951171875,
+            1513.090087890625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9472895264625549,
+          "coordinate": [
+            265.52239990234375,
+            2724.808837890625,
+            607.3246459960938,
+            2757.774658203125
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9454304575920105,
+          "coordinate": [
+            265.5159912109375,
+            1779.034912109375,
+            596.994873046875,
+            1813.103759765625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9314814209938049,
+          "coordinate": [
+            315.23590087890625,
+            2424.190673828125,
+            635.6266479492188,
+            2458.105224609375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9167181253433228,
+          "coordinate": [
+            262.968505859375,
+            2207.5048828125,
+            1877.957763671875,
+            2242.994140625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9152571558952332,
+          "coordinate": [
+            264.0267333984375,
+            2337.866455078125,
+            2175.18505859375,
+            2375.980224609375
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9131656289100647,
+          "coordinate": [
+            314.1028137207031,
+            2295.05517578125,
+            738.5654296875,
+            2330.20654296875
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8754671216011047,
+          "coordinate": [
+            1209.5933837890625,
+            3316.64013671875,
+            1271.1046142578125,
+            3343.89599609375
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.7830258011817932,
+          "coordinate": [
+            315.57208251953125,
+            2165.0400390625,
+            587.7951049804688,
+            2198.59375
+          ]
+        },
+        {
+          "cls_id": 10,
+          "label": "doc_title",
+          "score": 0.5718039870262146,
+          "coordinate": [
+            265.96636962890625,
+            290.1518249511719,
+            1120.26220703125,
+            340.0885314941406
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.34811848402023315,
+          "coordinate": [
+            262.3233642578125,
+            415.0281982421875,
+            1279.26806640625,
+            544.3372802734375
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            274,
+            296
+          ],
+          [
+            1118,
+            296
+          ],
+          [
+            1118,
+            343
+          ],
+          [
+            274,
+            343
+          ]
+        ],
+        [
+          [
+            271,
+            414
+          ],
+          [
+            1085,
+            417
+          ],
+          [
+            1085,
+            472
+          ],
+          [
+            271,
+            469
+          ]
+        ],
+        [
+          [
+            277,
+            504
+          ],
+          [
+            1279,
+            504
+          ],
+          [
+            1279,
+            543
+          ],
+          [
+            277,
+            543
+          ]
+        ],
+        [
+          [
+            374,
+            655
+          ],
+          [
+            2209,
+            655
+          ],
+          [
+            2209,
+            702
+          ],
+          [
+            374,
+            702
+          ]
+        ],
+        [
+          [
+            415,
+            705
+          ],
+          [
+            2206,
+            705
+          ],
+          [
+            2206,
+            743
+          ],
+          [
+            415,
+            743
+          ]
+        ],
+        [
+          [
+            410,
+            748
+          ],
+          [
+            2004,
+            746
+          ],
+          [
+            2004,
+            784
+          ],
+          [
+            410,
+            787
+          ]
+        ],
+        [
+          [
+            410,
+            787
+          ],
+          [
+            2203,
+            787
+          ],
+          [
+            2203,
+            825
+          ],
+          [
+            410,
+            825
+          ]
+        ],
+        [
+          [
+            412,
+            833
+          ],
+          [
+            2206,
+            833
+          ],
+          [
+            2206,
+            872
+          ],
+          [
+            412,
+            872
+          ]
+        ],
+        [
+          [
+            410,
+            869
+          ],
+          [
+            2209,
+            872
+          ],
+          [
+            2209,
+            918
+          ],
+          [
+            410,
+            916
+          ]
+        ],
+        [
+          [
+            412,
+            921
+          ],
+          [
+            1597,
+            921
+          ],
+          [
+            1597,
+            959
+          ],
+          [
+            412,
+            959
+          ]
+        ],
+        [
+          [
+            410,
+            957
+          ],
+          [
+            2211,
+            954
+          ],
+          [
+            2212,
+            1001
+          ],
+          [
+            410,
+            1003
+          ]
+        ],
+        [
+          [
+            415,
+            1006
+          ],
+          [
+            2203,
+            1006
+          ],
+          [
+            2203,
+            1044
+          ],
+          [
+            415,
+            1044
+          ]
+        ],
+        [
+          [
+            412,
+            1050
+          ],
+          [
+            2203,
+            1050
+          ],
+          [
+            2203,
+            1086
+          ],
+          [
+            412,
+            1086
+          ]
+        ],
+        [
+          [
+            410,
+            1091
+          ],
+          [
+            515,
+            1091
+          ],
+          [
+            515,
+            1129
+          ],
+          [
+            410,
+            1129
+          ]
+        ],
+        [
+          [
+            396,
+            1127
+          ],
+          [
+            2209,
+            1129
+          ],
+          [
+            2209,
+            1176
+          ],
+          [
+            396,
+            1173
+          ]
+        ],
+        [
+          [
+            415,
+            1179
+          ],
+          [
+            2203,
+            1179
+          ],
+          [
+            2203,
+            1217
+          ],
+          [
+            415,
+            1217
+          ]
+        ],
+        [
+          [
+            410,
+            1214
+          ],
+          [
+            1301,
+            1217
+          ],
+          [
+            1301,
+            1264
+          ],
+          [
+            410,
+            1261
+          ]
+        ],
+        [
+          [
+            269,
+            1299
+          ],
+          [
+            2206,
+            1305
+          ],
+          [
+            2206,
+            1352
+          ],
+          [
+            268,
+            1346
+          ]
+        ],
+        [
+          [
+            269,
+            1343
+          ],
+          [
+            2206,
+            1346
+          ],
+          [
+            2206,
+            1393
+          ],
+          [
+            268,
+            1390
+          ]
+        ],
+        [
+          [
+            268,
+            1390
+          ],
+          [
+            503,
+            1384
+          ],
+          [
+            504,
+            1431
+          ],
+          [
+            269,
+            1437
+          ]
+        ],
+        [
+          [
+            271,
+            1475
+          ],
+          [
+            1099,
+            1478
+          ],
+          [
+            1099,
+            1519
+          ],
+          [
+            271,
+            1516
+          ]
+        ],
+        [
+          [
+            266,
+            1557
+          ],
+          [
+            2206,
+            1560
+          ],
+          [
+            2206,
+            1606
+          ],
+          [
+            266,
+            1604
+          ]
+        ],
+        [
+          [
+            269,
+            1601
+          ],
+          [
+            2206,
+            1604
+          ],
+          [
+            2206,
+            1653
+          ],
+          [
+            268,
+            1650
+          ]
+        ],
+        [
+          [
+            263,
+            1645
+          ],
+          [
+            2206,
+            1648
+          ],
+          [
+            2206,
+            1694
+          ],
+          [
+            263,
+            1691
+          ]
+        ],
+        [
+          [
+            268,
+            1697
+          ],
+          [
+            2115,
+            1697
+          ],
+          [
+            2115,
+            1735
+          ],
+          [
+            268,
+            1735
+          ]
+        ],
+        [
+          [
+            266,
+            1774
+          ],
+          [
+            604,
+            1777
+          ],
+          [
+            603,
+            1823
+          ],
+          [
+            266,
+            1820
+          ]
+        ],
+        [
+          [
+            266,
+            1861
+          ],
+          [
+            2209,
+            1861
+          ],
+          [
+            2209,
+            1908
+          ],
+          [
+            266,
+            1908
+          ]
+        ],
+        [
+          [
+            268,
+            1908
+          ],
+          [
+            2206,
+            1908
+          ],
+          [
+            2206,
+            1946
+          ],
+          [
+            268,
+            1946
+          ]
+        ],
+        [
+          [
+            271,
+            1952
+          ],
+          [
+            2203,
+            1952
+          ],
+          [
+            2203,
+            1990
+          ],
+          [
+            271,
+            1990
+          ]
+        ],
+        [
+          [
+            271,
+            1996
+          ],
+          [
+            1846,
+            1996
+          ],
+          [
+            1846,
+            2034
+          ],
+          [
+            271,
+            2034
+          ]
+        ],
+        [
+          [
+            274,
+            2081
+          ],
+          [
+            775,
+            2081
+          ],
+          [
+            775,
+            2119
+          ],
+          [
+            274,
+            2119
+          ]
+        ],
+        [
+          [
+            412,
+            2166
+          ],
+          [
+            587,
+            2166
+          ],
+          [
+            587,
+            2204
+          ],
+          [
+            412,
+            2204
+          ]
+        ],
+        [
+          [
+            274,
+            2210
+          ],
+          [
+            1877,
+            2210
+          ],
+          [
+            1877,
+            2248
+          ],
+          [
+            274,
+            2248
+          ]
+        ],
+        [
+          [
+            318,
+            2295
+          ],
+          [
+            365,
+            2295
+          ],
+          [
+            365,
+            2330
+          ],
+          [
+            318,
+            2330
+          ]
+        ],
+        [
+          [
+            352,
+            2292
+          ],
+          [
+            739,
+            2297
+          ],
+          [
+            739,
+            2336
+          ],
+          [
+            351,
+            2330
+          ]
+        ],
+        [
+          [
+            274,
+            2336
+          ],
+          [
+            2178,
+            2336
+          ],
+          [
+            2178,
+            2382
+          ],
+          [
+            274,
+            2382
+          ]
+        ],
+        [
+          [
+            413,
+            2418
+          ],
+          [
+            637,
+            2424
+          ],
+          [
+            636,
+            2465
+          ],
+          [
+            412,
+            2459
+          ]
+        ],
+        [
+          [
+            271,
+            2465
+          ],
+          [
+            2209,
+            2465
+          ],
+          [
+            2209,
+            2511
+          ],
+          [
+            271,
+            2511
+          ]
+        ],
+        [
+          [
+            266,
+            2503
+          ],
+          [
+            540,
+            2509
+          ],
+          [
+            539,
+            2555
+          ],
+          [
+            265,
+            2549
+          ]
+        ],
+        [
+          [
+            269,
+            2591
+          ],
+          [
+            2206,
+            2593
+          ],
+          [
+            2206,
+            2640
+          ],
+          [
+            268,
+            2637
+          ]
+        ],
+        [
+          [
+            263,
+            2632
+          ],
+          [
+            2137,
+            2635
+          ],
+          [
+            2137,
+            2689
+          ],
+          [
+            263,
+            2687
+          ]
+        ],
+        [
+          [
+            269,
+            2719
+          ],
+          [
+            612,
+            2722
+          ],
+          [
+            611,
+            2769
+          ],
+          [
+            268,
+            2766
+          ]
+        ],
+        [
+          [
+            266,
+            2804
+          ],
+          [
+            2206,
+            2807
+          ],
+          [
+            2206,
+            2854
+          ],
+          [
+            266,
+            2851
+          ]
+        ],
+        [
+          [
+            271,
+            2857
+          ],
+          [
+            2203,
+            2857
+          ],
+          [
+            2203,
+            2895
+          ],
+          [
+            271,
+            2895
+          ]
+        ],
+        [
+          [
+            268,
+            2900
+          ],
+          [
+            905,
+            2900
+          ],
+          [
+            905,
+            2939
+          ],
+          [
+            268,
+            2939
+          ]
+        ],
+        [
+          [
+            1204,
+            3312
+          ],
+          [
+            1282,
+            3312
+          ],
+          [
+            1282,
+            3355
+          ],
+          [
+            1204,
+            3355
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "HIPPODROME CASINO LIMITED",
+        "STRATEGIC REPORT (CONTINUED)",
+        "FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "• Gambling Ombudsman - The Government has committed to the establishment of an independent",
+        "Gambling Ombudsman to handle disputes between customers and operators and provide redress where",
+        "appropriate. Implementation remains subject to further legislative and operational development.",
+        "Gaming Machine Allowances and Land-Based Casino Reforms - The Government has progressed a",
+        "number of reforms affecting the land-based casino sector, including changes to gaming machine",
+        "entitlements and measures intended to modernise the regulatory framework. Certain elements remain",
+        "subject to ongoing implementation and commencement arrangements.",
+        "Player Protections – The Gambling Commission has introduced, and continues to develop, a range of",
+        "customer protection measures arising from the White Paper, including financial risk assessments,",
+        "enhanced consumer information requirements and other safeguards designed to reduce gambling-related",
+        "harm.",
+        " Local Authority Premises Licence Fees - The Government has reviewed the fee caps applicable to",
+        "premises licences issued by local authorities, with implementation of any revised arrangements subject to",
+        "the relevant legislative and administrative processes.",
+        "The Group continues to monitor regulatory developments and implementation guidance issued by the Gambling",
+        "Commission and other relevant authorities and is working to ensure ongoing compliance with applicable",
+        "requirements.",
+        "Capital Investment at The Hippodrome Casino",
+        "We continue to invest in creating exceptional spaces for our customers to enjoy with the introduction of Paddy's",
+        "Sportsbook and our new Slots Lounge in 2025. As we look ahead, we expect to maintain our progress and keep",
+        "investing selectively across the business. Our investment decisions are driven by a combination of key drivers:",
+        "customer experience and choice, safety and compliance, property stewardship, efficiency and revenue growth.",
+        "Our Core Purpose",
+        "The Hippodrome exists to·fulfil the needs of our customers by delivering an experience unmatched by any other",
+        "business around the world. Customers are at the centre of everything we do. We are a casino based entertainment",
+        "complex that aims to Surprise, Amaze, make Memorable and Entertain. Defined as S.A.M.E this is applied to and",
+        "integrated with every aspect of the Hippodrome business, every day, to world class standards.",
+        "Our Fundamental Principles",
+        "Freedom",
+        "We value individual freedom above all else. No one has the night to tell another how to be or act.",
+        "2",
+        "Eguality & Eguity",
+        "We are all equal and equal in all things, regardless of gender, race, religion, language, family or any other matters.",
+        "Community",
+        "We build and participate in communities to enrich lives, provide for the needs of our associates, and keep them",
+        "safe from ham.",
+        "Underpinning our Fundamental Principles is a strengthened focus and investment on simplifying the customer",
+        " journey through the various elements of the Hippodrome, ensuring an easy and above all enjoyable experience.",
+        "Our Shared Values",
+        "Our Shared Values support our strategy. They represent what we believe in and who we aspire to be. It's not just",
+        "what we achieve, but how we work together, that sets us apart. Guided by our values, we'll make the Hippodrome",
+        "an even better place to visit and work.",
+        "-6-"
+      ],
+      "rec_scores": [
+        0.9740507006645203,
+        0.9589617848396301,
+        0.9815606474876404,
+        0.973572313785553,
+        0.9860749840736389,
+        0.9895558953285217,
+        0.9812273383140564,
+        0.9897066950798035,
+        0.9850530028343201,
+        0.9873300790786743,
+        0.9768415093421936,
+        0.9806758761405945,
+        0.9869005084037781,
+        0.9983843564987183,
+        0.9589610695838928,
+        0.9874298572540283,
+        0.9847157001495361,
+        0.9818716049194336,
+        0.9889863729476929,
+        0.9991986751556396,
+        0.9799508452415466,
+        0.9906777143478394,
+        0.9840150475502014,
+        0.9883368015289307,
+        0.9881547093391418,
+        0.9911415576934814,
+        0.9741258025169373,
+        0.9828657507896423,
+        0.9811736345291138,
+        0.9838023781776428,
+        0.9870856404304504,
+        0.9990502595901489,
+        0.9541128277778625,
+        0.9981389045715332,
+        0.9314069747924805,
+        0.9801838994026184,
+        0.99862140417099,
+        0.9757232666015625,
+        0.9846509695053101,
+        0.9897810816764832,
+        0.9739081859588623,
+        0.9911061525344849,
+        0.9795967936515808,
+        0.9745974540710449,
+        0.9577833414077759,
+        0.9962802529335022
+      ],
+      "rec_polys": [
+        [
+          [
+            274,
+            296
+          ],
+          [
+            1118,
+            296
+          ],
+          [
+            1118,
+            343
+          ],
+          [
+            274,
+            343
+          ]
+        ],
+        [
+          [
+            271,
+            414
+          ],
+          [
+            1085,
+            417
+          ],
+          [
+            1085,
+            472
+          ],
+          [
+            271,
+            469
+          ]
+        ],
+        [
+          [
+            277,
+            504
+          ],
+          [
+            1279,
+            504
+          ],
+          [
+            1279,
+            543
+          ],
+          [
+            277,
+            543
+          ]
+        ],
+        [
+          [
+            374,
+            655
+          ],
+          [
+            2209,
+            655
+          ],
+          [
+            2209,
+            702
+          ],
+          [
+            374,
+            702
+          ]
+        ],
+        [
+          [
+            415,
+            705
+          ],
+          [
+            2206,
+            705
+          ],
+          [
+            2206,
+            743
+          ],
+          [
+            415,
+            743
+          ]
+        ],
+        [
+          [
+            410,
+            748
+          ],
+          [
+            2004,
+            746
+          ],
+          [
+            2004,
+            784
+          ],
+          [
+            410,
+            787
+          ]
+        ],
+        [
+          [
+            410,
+            787
+          ],
+          [
+            2203,
+            787
+          ],
+          [
+            2203,
+            825
+          ],
+          [
+            410,
+            825
+          ]
+        ],
+        [
+          [
+            412,
+            833
+          ],
+          [
+            2206,
+            833
+          ],
+          [
+            2206,
+            872
+          ],
+          [
+            412,
+            872
+          ]
+        ],
+        [
+          [
+            410,
+            869
+          ],
+          [
+            2209,
+            872
+          ],
+          [
+            2209,
+            918
+          ],
+          [
+            410,
+            916
+          ]
+        ],
+        [
+          [
+            412,
+            921
+          ],
+          [
+            1597,
+            921
+          ],
+          [
+            1597,
+            959
+          ],
+          [
+            412,
+            959
+          ]
+        ],
+        [
+          [
+            410,
+            957
+          ],
+          [
+            2211,
+            954
+          ],
+          [
+            2212,
+            1001
+          ],
+          [
+            410,
+            1003
+          ]
+        ],
+        [
+          [
+            415,
+            1006
+          ],
+          [
+            2203,
+            1006
+          ],
+          [
+            2203,
+            1044
+          ],
+          [
+            415,
+            1044
+          ]
+        ],
+        [
+          [
+            412,
+            1050
+          ],
+          [
+            2203,
+            1050
+          ],
+          [
+            2203,
+            1086
+          ],
+          [
+            412,
+            1086
+          ]
+        ],
+        [
+          [
+            410,
+            1091
+          ],
+          [
+            515,
+            1091
+          ],
+          [
+            515,
+            1129
+          ],
+          [
+            410,
+            1129
+          ]
+        ],
+        [
+          [
+            396,
+            1127
+          ],
+          [
+            2209,
+            1129
+          ],
+          [
+            2209,
+            1176
+          ],
+          [
+            396,
+            1173
+          ]
+        ],
+        [
+          [
+            415,
+            1179
+          ],
+          [
+            2203,
+            1179
+          ],
+          [
+            2203,
+            1217
+          ],
+          [
+            415,
+            1217
+          ]
+        ],
+        [
+          [
+            410,
+            1214
+          ],
+          [
+            1301,
+            1217
+          ],
+          [
+            1301,
+            1264
+          ],
+          [
+            410,
+            1261
+          ]
+        ],
+        [
+          [
+            269,
+            1299
+          ],
+          [
+            2206,
+            1305
+          ],
+          [
+            2206,
+            1352
+          ],
+          [
+            268,
+            1346
+          ]
+        ],
+        [
+          [
+            269,
+            1343
+          ],
+          [
+            2206,
+            1346
+          ],
+          [
+            2206,
+            1393
+          ],
+          [
+            268,
+            1390
+          ]
+        ],
+        [
+          [
+            268,
+            1390
+          ],
+          [
+            503,
+            1384
+          ],
+          [
+            504,
+            1431
+          ],
+          [
+            269,
+            1437
+          ]
+        ],
+        [
+          [
+            271,
+            1475
+          ],
+          [
+            1099,
+            1478
+          ],
+          [
+            1099,
+            1519
+          ],
+          [
+            271,
+            1516
+          ]
+        ],
+        [
+          [
+            266,
+            1557
+          ],
+          [
+            2206,
+            1560
+          ],
+          [
+            2206,
+            1606
+          ],
+          [
+            266,
+            1604
+          ]
+        ],
+        [
+          [
+            269,
+            1601
+          ],
+          [
+            2206,
+            1604
+          ],
+          [
+            2206,
+            1653
+          ],
+          [
+            268,
+            1650
+          ]
+        ],
+        [
+          [
+            263,
+            1645
+          ],
+          [
+            2206,
+            1648
+          ],
+          [
+            2206,
+            1694
+          ],
+          [
+            263,
+            1691
+          ]
+        ],
+        [
+          [
+            268,
+            1697
+          ],
+          [
+            2115,
+            1697
+          ],
+          [
+            2115,
+            1735
+          ],
+          [
+            268,
+            1735
+          ]
+        ],
+        [
+          [
+            266,
+            1774
+          ],
+          [
+            604,
+            1777
+          ],
+          [
+            603,
+            1823
+          ],
+          [
+            266,
+            1820
+          ]
+        ],
+        [
+          [
+            266,
+            1861
+          ],
+          [
+            2209,
+            1861
+          ],
+          [
+            2209,
+            1908
+          ],
+          [
+            266,
+            1908
+          ]
+        ],
+        [
+          [
+            268,
+            1908
+          ],
+          [
+            2206,
+            1908
+          ],
+          [
+            2206,
+            1946
+          ],
+          [
+            268,
+            1946
+          ]
+        ],
+        [
+          [
+            271,
+            1952
+          ],
+          [
+            2203,
+            1952
+          ],
+          [
+            2203,
+            1990
+          ],
+          [
+            271,
+            1990
+          ]
+        ],
+        [
+          [
+            271,
+            1996
+          ],
+          [
+            1846,
+            1996
+          ],
+          [
+            1846,
+            2034
+          ],
+          [
+            271,
+            2034
+          ]
+        ],
+        [
+          [
+            274,
+            2081
+          ],
+          [
+            775,
+            2081
+          ],
+          [
+            775,
+            2119
+          ],
+          [
+            274,
+            2119
+          ]
+        ],
+        [
+          [
+            412,
+            2166
+          ],
+          [
+            587,
+            2166
+          ],
+          [
+            587,
+            2204
+          ],
+          [
+            412,
+            2204
+          ]
+        ],
+        [
+          [
+            274,
+            2210
+          ],
+          [
+            1877,
+            2210
+          ],
+          [
+            1877,
+            2248
+          ],
+          [
+            274,
+            2248
+          ]
+        ],
+        [
+          [
+            318,
+            2295
+          ],
+          [
+            365,
+            2295
+          ],
+          [
+            365,
+            2330
+          ],
+          [
+            318,
+            2330
+          ]
+        ],
+        [
+          [
+            352,
+            2292
+          ],
+          [
+            739,
+            2297
+          ],
+          [
+            739,
+            2336
+          ],
+          [
+            351,
+            2330
+          ]
+        ],
+        [
+          [
+            274,
+            2336
+          ],
+          [
+            2178,
+            2336
+          ],
+          [
+            2178,
+            2382
+          ],
+          [
+            274,
+            2382
+          ]
+        ],
+        [
+          [
+            413,
+            2418
+          ],
+          [
+            637,
+            2424
+          ],
+          [
+            636,
+            2465
+          ],
+          [
+            412,
+            2459
+          ]
+        ],
+        [
+          [
+            271,
+            2465
+          ],
+          [
+            2209,
+            2465
+          ],
+          [
+            2209,
+            2511
+          ],
+          [
+            271,
+            2511
+          ]
+        ],
+        [
+          [
+            266,
+            2503
+          ],
+          [
+            540,
+            2509
+          ],
+          [
+            539,
+            2555
+          ],
+          [
+            265,
+            2549
+          ]
+        ],
+        [
+          [
+            269,
+            2591
+          ],
+          [
+            2206,
+            2593
+          ],
+          [
+            2206,
+            2640
+          ],
+          [
+            268,
+            2637
+          ]
+        ],
+        [
+          [
+            263,
+            2632
+          ],
+          [
+            2137,
+            2635
+          ],
+          [
+            2137,
+            2689
+          ],
+          [
+            263,
+            2687
+          ]
+        ],
+        [
+          [
+            269,
+            2719
+          ],
+          [
+            612,
+            2722
+          ],
+          [
+            611,
+            2769
+          ],
+          [
+            268,
+            2766
+          ]
+        ],
+        [
+          [
+            266,
+            2804
+          ],
+          [
+            2206,
+            2807
+          ],
+          [
+            2206,
+            2854
+          ],
+          [
+            266,
+            2851
+          ]
+        ],
+        [
+          [
+            271,
+            2857
+          ],
+          [
+            2203,
+            2857
+          ],
+          [
+            2203,
+            2895
+          ],
+          [
+            271,
+            2895
+          ]
+        ],
+        [
+          [
+            268,
+            2900
+          ],
+          [
+            905,
+            2900
+          ],
+          [
+            905,
+            2939
+          ],
+          [
+            268,
+            2939
+          ]
+        ],
+        [
+          [
+            1204,
+            3312
+          ],
+          [
+            1282,
+            3312
+          ],
+          [
+            1282,
+            3355
+          ],
+          [
+            1204,
+            3355
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          274,
+          296,
+          1118,
+          343
+        ],
+        [
+          271,
+          414,
+          1085,
+          472
+        ],
+        [
+          277,
+          504,
+          1279,
+          543
+        ],
+        [
+          374,
+          655,
+          2209,
+          702
+        ],
+        [
+          415,
+          705,
+          2206,
+          743
+        ],
+        [
+          410,
+          746,
+          2004,
+          787
+        ],
+        [
+          410,
+          787,
+          2203,
+          825
+        ],
+        [
+          412,
+          833,
+          2206,
+          872
+        ],
+        [
+          410,
+          869,
+          2209,
+          918
+        ],
+        [
+          412,
+          921,
+          1597,
+          959
+        ],
+        [
+          410,
+          954,
+          2212,
+          1003
+        ],
+        [
+          415,
+          1006,
+          2203,
+          1044
+        ],
+        [
+          412,
+          1050,
+          2203,
+          1086
+        ],
+        [
+          410,
+          1091,
+          515,
+          1129
+        ],
+        [
+          396,
+          1127,
+          2209,
+          1176
+        ],
+        [
+          415,
+          1179,
+          2203,
+          1217
+        ],
+        [
+          410,
+          1214,
+          1301,
+          1264
+        ],
+        [
+          268,
+          1299,
+          2206,
+          1352
+        ],
+        [
+          268,
+          1343,
+          2206,
+          1393
+        ],
+        [
+          268,
+          1384,
+          504,
+          1437
+        ],
+        [
+          271,
+          1475,
+          1099,
+          1519
+        ],
+        [
+          266,
+          1557,
+          2206,
+          1606
+        ],
+        [
+          268,
+          1601,
+          2206,
+          1653
+        ],
+        [
+          263,
+          1645,
+          2206,
+          1694
+        ],
+        [
+          268,
+          1697,
+          2115,
+          1735
+        ],
+        [
+          266,
+          1774,
+          604,
+          1823
+        ],
+        [
+          266,
+          1861,
+          2209,
+          1908
+        ],
+        [
+          268,
+          1908,
+          2206,
+          1946
+        ],
+        [
+          271,
+          1952,
+          2203,
+          1990
+        ],
+        [
+          271,
+          1996,
+          1846,
+          2034
+        ],
+        [
+          274,
+          2081,
+          775,
+          2119
+        ],
+        [
+          412,
+          2166,
+          587,
+          2204
+        ],
+        [
+          274,
+          2210,
+          1877,
+          2248
+        ],
+        [
+          318,
+          2295,
+          365,
+          2330
+        ],
+        [
+          351,
+          2292,
+          739,
+          2336
+        ],
+        [
+          274,
+          2336,
+          2178,
+          2382
+        ],
+        [
+          412,
+          2418,
+          637,
+          2465
+        ],
+        [
+          271,
+          2465,
+          2209,
+          2511
+        ],
+        [
+          265,
+          2503,
+          540,
+          2555
+        ],
+        [
+          268,
+          2591,
+          2206,
+          2640
+        ],
+        [
+          263,
+          2632,
+          2137,
+          2689
+        ],
+        [
+          268,
+          2719,
+          612,
+          2769
+        ],
+        [
+          266,
+          2804,
+          2206,
+          2854
+        ],
+        [
+          271,
+          2857,
+          2203,
+          2895
+        ],
+        [
+          268,
+          2900,
+          905,
+          2939
+        ],
+        [
+          1204,
+          3312,
+          1282,
+          3355
+        ]
+      ]
+    }
+  }
+}

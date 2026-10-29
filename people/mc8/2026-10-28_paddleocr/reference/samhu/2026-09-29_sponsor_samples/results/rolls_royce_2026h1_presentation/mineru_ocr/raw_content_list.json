@@ -1,0 +1,2554 @@
+[
+    {
+        "type": "text",
+        "text": "HALF YEAR 2026 RESULTS",
+        "text_level": 2,
+        "bbox": [
+            48,
+            383,
+            454,
+            559
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            55,
+            70,
+            123,
+            281
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "footer",
+        "text": "The information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only - copying and onward distribution is prohibited other than for the purpose for which it was made available.",
+        "bbox": [
+            50,
+            888,
+            506,
+            951
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/179483b365d98200f39264fc01aab3aaf6577f27b504b2b25fd6815727839a19.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            0,
+            1,
+            342,
+            998
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "SAFE HARBOUR STATEMENT",
+        "text_level": 2,
+        "bbox": [
+            384,
+            116,
+            772,
+            179
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "This announcement contains certain forward-looking statements. These forward-looking statements can be identified by the fact that they do not relate only to historical or current facts. In particular, all statements that express forecasts, expectations and projections with respect to future matters, including trends in results of operations, margins, growth rates, overall market trends, the impact of interest or exchange rates, the availability of financing to the Company, anticipated cost savings or synergies and the completion of the Company's strategic transactions, are forward-looking statements. By their nature, these statements and forecasts involve risk and uncertainty because they relate to events and depend on circumstances that may or may not occur in the future. There are a number of factors that could cause actual results or developments to differ materially from those expressed or implied by these forward-looking statements and forecasts.",
+        "bbox": [
+            382,
+            270,
+            912,
+            555
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The forward-looking statements reflect the knowledge and information available at the date of preparation of this announcement and will not be updated during the year. Nothing in this announcement should be construed as a profit forecast. All figures are on an underlying basis unless otherwise stated - for the definition see note 2 to the condensed consolidated financial statements section of the 2026 Half Year Results Statement.",
+        "bbox": [
+            382,
+            574,
+            926,
+            705
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            969,
+            168
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+            965,
+            955,
+            975,
+            975
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TUFAN ERGINBILGIC",
+        "text_level": 2,
+        "bbox": [
+            178,
+            398,
+            541,
+            485
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Chief Executive Officer",
+        "bbox": [
+            178,
+            501,
+            403,
+            550
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            920,
+            57,
+            957,
+            162
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            746,
+            940,
+            934,
+            961
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Transforming Rolls-Royce into a high performing, competitive, resilient, and growing business",
+        "bbox": [
+            26,
+            166,
+            798,
+            207
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Significant operational and strategic progress",
+        "bbox": [
+            40,
+            335,
+            420,
+            379
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Strong first half results driven by transformation and business improvements",
+        "bbox": [
+            40,
+            396,
+            433,
+            490
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "-FY26 guidance raised",
+        "bbox": [
+            42,
+            509,
+            236,
+            553
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "\\- Further confidence in mid-term guidance",
+        "bbox": [
+            41,
+            570,
+            388,
+            614
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "-6.Op interim dividend announced",
+        "bbox": [
+            42,
+            633,
+            325,
+            675
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "On track for £2.5bn share buyback in 2026",
+        "bbox": [
+            41,
+            694,
+            389,
+            737
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Resilient and diversified portfolio with significant growth potential",
+        "bbox": [
+            40,
+            755,
+            438,
+            851
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/97af7adcddbba6e1fe6713430a12ada36fab3d2aeb76495506c9399f36216e78.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            525,
+            268,
+            971,
+            903
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED",
+        "bbox": [
+            26,
+            61,
+            791,
+            124
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            969,
+            168
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            953,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+            965,
+            955,
+            975,
+            975
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "KEY GROUP FINANCIAL METRICS",
+        "text_level": 2,
+        "bbox": [
+            28,
+            201,
+            216,
+            237
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Operating profit'   \n£2.5bn   \n+46% yoy   \nOperating margin'   \n22.5%   \n+3.1pts yoy   \nFree cash flow   \n£2.0bn   \n+24% yoy   \nReturn on capital   \n22%   \n+5.1pts yoy",
+        "bbox": [
+            42,
+            316,
+            185,
+            481
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            277,
+            316,
+            433,
+            481
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            42,
+            624,
+            171,
+            787
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            275,
+            625,
+            426,
+            787
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "DIVISIONAL OPERATING MARGIN",
+        "text_level": 2,
+        "bbox": [
+            513,
+            201,
+            702,
+            237
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/4fbbe4d045948e0f643953e7565e0fdb889599c39101ef28b250ee168333b72b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            517,
+            283,
+            705,
+            488
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/ec5c10cca554ee4d375053630ff87fdf0213b8ca80a8071fead0c1d726dc3eca.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            536,
+            512,
+            700,
+            666
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "CIVIL AEROSPACE   \n25.3%   \n+0.5pts   \nDEFENCE   \n21.0%   \n+5.4pts   \nPOWER SYSTEMS   \n20.3%   \n+5.3pts",
+        "bbox": [
+            716,
+            322,
+            845,
+            455
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            716,
+            527,
+            785,
+            662
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/b56b0115d734f4549ebf5ee05ee7a5270e2603793239da168cca135a506dcdbd.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            516,
+            675,
+            705,
+            879
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            716,
+            716,
+            841,
+            850
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE",
+        "bbox": [
+            28,
+            66,
+            723,
+            131
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            968,
+            168
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "1Operating profit and operating margin shown on an underlying basis",
+        "bbox": [
+            27,
+            957,
+            295,
+            979
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            766,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5",
+        "bbox": [
+            965,
+            955,
+            975,
+            977
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Contract and LTSA margin improvement across in-production engines",
+        "bbox": [
+            26,
+            201,
+            344,
+            261
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/405dbc5e751430348c8bda3e7c810250c408b7811a2b17397e7269fb2d36dbce.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            31,
+            275,
+            482,
+            929
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "chart",
+        "img_path": "images/c1fcb3752ede80172ef84dc7b71b12198e1b4dc9e7a5b70beb0d7941b97081f7.jpg",
+        "content": "",
+        "chart_caption": [
+            "More than 100% improvement in time on wing of in-production engines with cash benefits significantly beyond the mid-term"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            519,
+            277,
+            964,
+            929
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "CONTINUED STRATEGIC PROGRESS",
+        "bbox": [
+            28,
+            62,
+            507,
+            122
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            968,
+            170
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+            965,
+            955,
+            973,
+            975
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1. Portfolio choices & partnerships",
+        "text_level": 2,
+        "bbox": [
+            35,
+            190,
+            127,
+            312
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Power Systems capacity expansion and next generation engine development on track",
+        "bbox": [
+            32,
+            368,
+            226,
+            479
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Beneficiary of the UK Defence Investment Plan and NATO summit commitments",
+        "bbox": [
+            33,
+            501,
+            220,
+            612
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Civil Aerospace - MRO' capacity expansion across the network",
+        "bbox": [
+            33,
+            637,
+            228,
+            709
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Project Sunrise A350-1000ULR test flight; Falcon 10X first flight",
+        "bbox": [
+            32,
+            733,
+            227,
+            809
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2. Strategic initiatives",
+        "text_level": 2,
+        "bbox": [
+            278,
+            190,
+            359,
+            268
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Growing Civil LTSA margins²",
+        "bbox": [
+            275,
+            362,
+            452,
+            403
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Continued progress towards Time on Wing target",
+        "bbox": [
+            275,
+            414,
+            455,
+            483
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Best-in-class AOG³ benefitting us and our customers",
+        "bbox": [
+            273,
+            494,
+            462,
+            562
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Strong Trent 1000 XE commercial momentum",
+        "bbox": [
+            275,
+            575,
+            429,
+            642
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Defence - global leader in autonomous propulsion",
+        "bbox": [
+            273,
+            655,
+            441,
+            725
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Power Systems - capturing strong growth in power generation and governmental",
+        "bbox": [
+            275,
+            737,
+            464,
+            838
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3. Efficiency & simplification",
+        "text_level": 2,
+        "bbox": [
+            520,
+            190,
+            618,
+            270
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Further improvement of TCC/GM ratio to 0.27x",
+        "bbox": [
+            517,
+            370,
+            672,
+            444
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Second phase of efficiency programme to support disciplined growth...",
+        "bbox": [
+            517,
+            470,
+            690,
+            587
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• ..including GBS⁴ scale-up and further SIOP⁵ improvements",
+        "bbox": [
+            517,
+            609,
+            701,
+            685
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• ...alongside further digital and lean manufacturing benefits",
+        "bbox": [
+            517,
+            711,
+            703,
+            787
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4. Lower carbon & digitally enabled businesses",
+        "text_level": 2,
+        "bbox": [
+            762,
+            190,
+            890,
+            309
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Trent XWB-84 EP fuel efficiency above target",
+        "bbox": [
+            760,
+            368,
+            955,
+            444
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Rolls-Royce SMR - selected in Sweden; contracts signed in UK and Czech Republic",
+        "bbox": [
+            760,
+            470,
+            958,
+            585
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "• Digital thread across engineering, MRO, and the supply chain to drive further efficiencies and effectiveness",
+        "bbox": [
+            760,
+            611,
+            948,
+            764
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "CONTINUED STRATEGIC PROGRESS",
+        "bbox": [
+            28,
+            61,
+            507,
+            122
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            934,
+            68,
+            968,
+            170
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "1 Maintenance, Repair, and Overhaul; 2 For in-production engines; 3 Aircraft on Ground; 4 Group Business Services; 5 Sales, Inventory, Operational Planning",
+        "bbox": [
+            26,
+            955,
+            613,
+            977
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            953,
+            977
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            966,
+            955,
+            975,
+            975
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "02",
+        "text_level": 2,
+        "bbox": [
+            67,
+            344,
+            171,
+            550
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "Chief Financial Officer",
+        "bbox": [
+            205,
+            501,
+            423,
+            550
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "HELEN McCABE",
+        "text_level": 2,
+        "bbox": [
+            205,
+            400,
+            490,
+            487
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            921,
+            59,
+            956,
+            162
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            746,
+            940,
+            934,
+            961
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/700bea97c93b32a1f9957a276bb036d075df2be3bf8fc07a2cf13f78fcc8b4d7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Underlying results £m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change1</td><td>Organic Change %1</td></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr></table>",
+        "bbox": [
+            38,
+            233,
+            588,
+            505
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/76c87e35f3d771817d3274b7fcdd140417f75bb4e5c603dadc764d71ecca6792.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>pence</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td>Change %</td></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr></table>",
+        "bbox": [
+            38,
+            544,
+            587,
+            672
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/f5a5579de1fb90a692ccdfceddabe20d2d18a1549d3908fdf4ada6b2725a926d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td></tr></table>",
+        "bbox": [
+            38,
+            709,
+            471,
+            879
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Strong results - double-digit profit and cash growth across every division",
+        "bbox": [
+            625,
+            237,
+            868,
+            320
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Operating profit growth of £0.8bn and free cash flow growth of £0.4bn",
+        "bbox": [
+            625,
+            412,
+            864,
+            494
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Resilient balance sheet -net cash of £2.1bn Interim dividend of 6.0p per share",
+        "bbox": [
+            626,
+            587,
+            886,
+            672
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Best-in-class return on capital demonstrates significant value creation",
+        "bbox": [
+            625,
+            766,
+            875,
+            844
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "2026 HALF YEAR UNDERLYING RESULTS",
+        "bbox": [
+            26,
+            61,
+            581,
+            122
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            968,
+            170
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "1Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated",
+        "bbox": [
+            28,
+            920,
+            591,
+            961
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "g",
+        "bbox": [
+            965,
+            955,
+            973,
+            977
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/14b9b4068871ab0b2d47eda377e26a41ba46d24832b175033a2a75026baa85f7.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "UNDERLYING REVENUE SPLITS"
+        ],
+        "table_body": "<table><tr><td>Underlying results £m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>6,186</td><td>4,786</td><td>1,380</td><td>29%</td></tr><tr><td>Gross profit</td><td>1,857</td><td>1,477</td><td>378</td><td>26%</td></tr><tr><td>Gross margin %</td><td>30.0%</td><td>30.9%</td><td>(0.8)pts</td><td></td></tr><tr><td>Operating profit</td><td>1,567</td><td>1,193</td><td>374</td><td>31%</td></tr><tr><td>Operating margin %</td><td>25.3%</td><td>24.9%</td><td>0.5pts</td><td></td></tr><tr><td>Trading cash flow</td><td>1,458</td><td>1,111</td><td>347</td><td>31%</td></tr></table>",
+        "bbox": [
+            23,
+            200,
+            616,
+            583
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/38decabe591bdbe002295a1b75b6f70f794a2af36e665f7b9b6afa6a711169ed.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            207,
+            668,
+            297,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7d1caedb16be8b1aacf7bfb7585a07fd391f1a380ab92d917a030daeb0fbba42.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            87,
+            674,
+            201,
+            881
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a705ec8ebe1e55fcc65603904b9d5d5f4086f2a4605c450b24d2144da96d7ef2.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            331,
+            653,
+            601,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "KEY POINTS",
+        "text_level": 2,
+        "bbox": [
+            653,
+            231,
+            719,
+            262
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• Higher large engine aftermarket profit across LTSA and time and materials",
+        "bbox": [
+            652,
+            340,
+            939,
+            411
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• 29% revenue growth, 31% profit growth",
+        "bbox": [
+            652,
+            294,
+            901,
+            329
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• Higher net contractual margin improvements",
+        "bbox": [
+            652,
+            422,
+            938,
+            457
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "• Stronger business aviation performance",
+        "bbox": [
+            652,
+            468,
+            909,
+            503
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "OE DELIVERIES",
+        "text_level": 2,
+        "bbox": [
+            643,
+            622,
+            716,
+            651
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "LARGE ENGINE OE DELIVERIES",
+        "bbox": [
+            818,
+            624,
+            958,
+            651
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "279",
+        "bbox": [
+            646,
+            662,
+            697,
+            725
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "+18%",
+        "bbox": [
+            742,
+            696,
+            771,
+            729
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "157",
+        "bbox": [
+            821,
+            662,
+            861,
+            725
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "+29%",
+        "bbox": [
+            915,
+            698,
+            946,
+            727
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "LTSA ENGINE FLYING HOURS",
+        "bbox": [
+            641,
+            779,
+            776,
+            809
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "TOTAL LTSA SHOP VISITS",
+        "bbox": [
+            815,
+            779,
+            934,
+            809
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "10.0m +5%",
+        "bbox": [
+            646,
+            825,
+            769,
+            887
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "712",
+        "bbox": [
+            819,
+            824,
+            862,
+            887
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "+2%",
+        "bbox": [
+            916,
+            855,
+            939,
+            885
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "CIVIL AEROSPACE",
+        "bbox": [
+            28,
+            61,
+            276,
+            122
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            305,
+            61,
+            339,
+            122
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            934,
+            66,
+            968,
+            170
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+            962,
+            955,
+            973,
+            977
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/8aa8ac5e1c9c37bbabc6967057fd7b79aeddc9e392391fff769350fc8f65f44e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Underlying results £m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>2,484</td><td>2,223</td><td>358</td><td>17%</td></tr><tr><td>Gross profit</td><td>639</td><td>462</td><td>192</td><td>42%</td></tr><tr><td>Gross margin %</td><td>25.7%</td><td>20.8%</td><td>4.6pts</td><td></td></tr><tr><td>Operating profit</td><td>522</td><td>342</td><td>192</td><td>57%</td></tr><tr><td>Operating margin %</td><td>21.0%</td><td>15.4%</td><td>5.4pts</td><td></td></tr><tr><td>Trading cash flow</td><td>615</td><td>327</td><td>288</td><td>88%</td></tr></table>",
+        "bbox": [
+            26,
+            201,
+            614,
+            583
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "KEY POINTS",
+        "text_level": 2,
+        "bbox": [
+            655,
+            237,
+            721,
+            268
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• 17% revenue growth, 57% profit growth",
+        "bbox": [
+            654,
+            301,
+            898,
+            337
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Higher aftermarket profit across transport and combat",
+        "bbox": [
+            654,
+            348,
+            920,
+            414
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Continued self-help benefits",
+        "bbox": [
+            654,
+            427,
+            842,
+            461
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• Submarines growth",
+        "bbox": [
+            654,
+            472,
+            791,
+            507
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "chart",
+        "img_path": "images/d9b9ea728376f70f660666557df8df501d0a4978e6e710c741d441e260691c66.jpg",
+        "content": "",
+        "chart_caption": [
+            "UNDERLYING REVENUE SPLITS"
+        ],
+        "chart_footnote": [],
+        "bbox": [
+            84,
+            672,
+            296,
+            885
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "chart",
+        "img_path": "images/100db852c5907d2e7c275a16a3e8313352cb8285a22ac98b4c7bb9df9c3a4bf6.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            331,
+            657,
+            600,
+            885
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "ORDER INTAKE",
+        "text_level": 2,
+        "bbox": [
+            647,
+            622,
+            725,
+            653
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "ORDER BACKLOG",
+        "bbox": [
+            816,
+            624,
+            906,
+            653
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "£2.4bn",
+        "text_level": 2,
+        "bbox": [
+            648,
+            692,
+            745,
+            757
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Book-to-bill ratio 1.0x",
+        "bbox": [
+            647,
+            781,
+            771,
+            814
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "£17.5bn",
+        "bbox": [
+            818,
+            694,
+            921,
+            759
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "-7%",
+        "bbox": [
+            821,
+            783,
+            844,
+            816
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "DEFENCE",
+        "bbox": [
+            28,
+            62,
+            156,
+            120
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "小",
+        "bbox": [
+            187,
+            62,
+            218,
+            122
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            934,
+            66,
+            968,
+            170
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            766,
+            955,
+            952,
+            975
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            965,
+            955,
+            975,
+            975
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "images/199ca3bef354a8a5eb32aba199be5fa06cdac7c338e316a10bf1d1a01531ca8a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Underlying results £m</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change</td><td>Organic Change %</td></tr><tr><td>Revenue</td><td>2,604</td><td>2,042</td><td>573</td><td>28%</td></tr><tr><td>Gross profit</td><td>901</td><td>635</td><td>267</td><td>42%</td></tr><tr><td>Gross margin %</td><td>34.6%</td><td>31.1%</td><td>3.4pts</td><td></td></tr><tr><td>Operating profit</td><td>528</td><td>313</td><td>224</td><td>72%</td></tr><tr><td>Operating margin %</td><td>20.3%</td><td>15.3%</td><td>5.3pts</td><td></td></tr><tr><td>Trading cash flow</td><td>507</td><td>425</td><td>82</td><td>19%</td></tr></table>",
+        "bbox": [
+            26,
+            201,
+            614,
+            581
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "chart",
+        "img_path": "images/3c6433a54f26e727c5cb2bbff4dc8233fedf3440aca7592aa1da1162b485b7e5.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [
+            "UNDERLYING REVENUE SPLITS"
+        ],
+        "bbox": [
+            208,
+            685,
+            297,
+            885
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "chart",
+        "img_path": "images/a6f6056566c3d0b9fc231f421f2779982c0cdc9e604bd7fefbd63787e3381cc6.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            334,
+            657,
+            447,
+            879
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "chart",
+        "img_path": "images/7ce735afaa5cc7f8fb0333b1feb0964353f80117729312d4fda7c834c6ba63a6.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [],
+        "bbox": [
+            86,
+            674,
+            201,
+            883
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "KEY POINTS",
+        "text_level": 2,
+        "bbox": [
+            655,
+            233,
+            721,
+            264
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• 28% revenue growth, 72% profit growth",
+        "bbox": [
+            654,
+            296,
+            904,
+            333
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• Higher governmental profit",
+        "bbox": [
+            654,
+            427,
+            837,
+            462
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• Strong power generation profit growth, driven by data centres",
+        "bbox": [
+            654,
+            342,
+            945,
+            416
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "• Continued cost control",
+        "bbox": [
+            654,
+            475,
+            810,
+            507
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "ORDER INTAKE",
+        "text_level": 2,
+        "bbox": [
+            647,
+            624,
+            725,
+            653
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "ORDER BACKLOG",
+        "bbox": [
+            816,
+            624,
+            906,
+            653
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "£4.6bn",
+        "bbox": [
+            648,
+            692,
+            747,
+            759
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "Book-to-bill ratio 1.8x",
+        "bbox": [
+            647,
+            781,
+            770,
+            814
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "£8.0bn",
+        "bbox": [
+            818,
+            694,
+            921,
+            759
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "+42%",
+        "bbox": [
+            820,
+            783,
+            854,
+            816
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "POWER SYSTEMS",
+        "bbox": [
+            28,
+            62,
+            265,
+            122
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            293,
+            61,
+            331,
+            122
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            934,
+            66,
+            968,
+            170
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "1 Battery Energy Storage Systems",
+        "bbox": [
+            29,
+            944,
+            157,
+            966
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            975
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+            964,
+            955,
+            973,
+            975
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "images/4ed623c69f461efc4e4fac4cbdc108249844f59fb4cf6bf3e6bf682ccc3d199e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>£m</td><td>H1 2026</td><td>H1 2025</td><td>Change</td></tr><tr><td>Underlying operating profit</td><td>2,534</td><td>1,733</td><td>801</td></tr><tr><td>Net investments1</td><td>(73)</td><td>37</td><td>(110)</td></tr><tr><td>Movement in Civil LTSA balance, net of RRSAs²</td><td>86</td><td>472</td><td>(386)</td></tr><tr><td>Working capital, excluding Civil Net LTSA</td><td>65</td><td>(22)</td><td>87</td></tr><tr><td>Movement in provisions</td><td>(159)</td><td>(294)</td><td>135</td></tr><tr><td>Settlement of excess derivatives</td><td>(27)</td><td>(116)</td><td>89</td></tr><tr><td>Net interest</td><td>(7)</td><td>14</td><td>(21)</td></tr><tr><td>Tax</td><td>(525)</td><td>(259)</td><td>(266)</td></tr><tr><td>Other</td><td>70</td><td>17</td><td>53</td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td></tr></table>",
+        "bbox": [
+            26,
+            203,
+            621,
+            833
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "KEY DRIVERS OF HIGHER YEAR ON YEAR FCF",
+        "text_level": 2,
+        "bbox": [
+            657,
+            242,
+            947,
+            279
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Higher underlying operating profit",
+        "bbox": [
+            658,
+            316,
+            882,
+            353
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Higher net investments as we invest for future profitable growth",
+        "bbox": [
+            657,
+            379,
+            947,
+            455
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Lower net LTSA balance growth due to more shop visits and business improvements",
+        "bbox": [
+            657,
+            483,
+            939,
+            559
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Broadly similar working capital performance",
+        "bbox": [
+            658,
+            585,
+            936,
+            622
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Movement in provisions reflects renegotiations of onerous contracts",
+        "bbox": [
+            657,
+            648,
+            891,
+            725
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Higher cash tax costs",
+        "bbox": [
+            658,
+            751,
+            806,
+            787
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "SUMMARY FUNDS FLOW",
+        "bbox": [
+            26,
+            61,
+            362,
+            122
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            934,
+            66,
+            969,
+            168
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "1 Net investments = D&A - capital element of lease payments - capital expenditure - investment 2 Risk and Revenue Sharing Arrangements",
+        "bbox": [
+            26,
+            959,
+            557,
+            981
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+            963,
+            955,
+            975,
+            977
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "CAPITAL FRAMEWORK Maintaining resilience, investing strategically, and rewarding shareholders",
+        "text_level": 2,
+        "bbox": [
+            27,
+            62,
+            639,
+            170
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "STRONG BALANCE SHEET",
+        "bbox": [
+            108,
+            350,
+            323,
+            396
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Net cash position of £2.1bn",
+        "bbox": [
+            543,
+            303,
+            726,
+            337
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• £1.1bn of bonds repaid from cash",
+        "bbox": [
+            542,
+            337,
+            760,
+            370
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• €1bn of bonds issued maturing in 2031 and 2036",
+        "bbox": [
+            543,
+            370,
+            850,
+            403
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Upgraded to A3 / A- rating by Moody's / Fitch",
+        "bbox": [
+            543,
+            405,
+            837,
+            442
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "REGULAR AND GROWING DIVIDENDS",
+        "text_level": 2,
+        "bbox": [
+            109,
+            544,
+            415,
+            590
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "SHRTHOLDES ISTENTSUTIONS",
+        "text_level": 2,
+        "bbox": [
+            66,
+            716,
+            371,
+            805
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Interim dividend of 6.0p",
+        "bbox": [
+            543,
+            527,
+            710,
+            561
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Target annual payout of 30%-40% of underlying profit after tax",
+        "bbox": [
+            543,
+            568,
+            933,
+            605
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• 2026 £2.5bn share buyback progressing: £1.4bn completed'",
+        "bbox": [
+            543,
+            720,
+            914,
+            755
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Disciplined investments: strategically aligned and value creative",
+        "bbox": [
+            543,
+            761,
+            943,
+            796
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            66,
+            969,
+            168
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "1 As of 29 July 2026",
+        "bbox": [
+            28,
+            929,
+            105,
+            950
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            975
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+            963,
+            955,
+            973,
+            975
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "03 TUFAN ERGINBILGIC Chief Executive Officer",
+        "text_level": 2,
+        "bbox": [
+            68,
+            346,
+            564,
+            551
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            920,
+            57,
+            957,
+            162
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            745,
+            940,
+            934,
+            961
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "Operating profit'",
+        "bbox": [
+            28,
+            212,
+            134,
+            246
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "chart",
+        "img_path": "images/0d28b8726d45efa1841ca86acb3ea65f74c757448df73b62d70dd6db55a98b86.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [
+            "Free cash flow"
+        ],
+        "bbox": [
+            29,
+            277,
+            481,
+            705
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "chart",
+        "img_path": "images/419bac90e715aa93ec96edf79d63d9151d8da573f7942cb410a669cffb6cf663.jpg",
+        "content": "",
+        "chart_caption": [],
+        "chart_footnote": [
+            "Civil Aerospace drivers"
+        ],
+        "bbox": [
+            513,
+            277,
+            962,
+            703
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/88e11c8c83d18858c60c01088d33c99a4794cb4d94348473b840ffcbed4e7511.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Large engine EFH</td><td>Towards the lower end of the range of 115-120% of 2019</td></tr><tr><td>Total OE deliveries</td><td>550-600</td></tr><tr><td>Total shop visits</td><td>1,480-1,550</td></tr></table>",
+        "bbox": [
+            28,
+            785,
+            967,
+            937
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "FULL YEAR 2026 GUIDANCE RAISED",
+        "bbox": [
+            27,
+            61,
+            516,
+            122
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "Strong delivery driven by transformation gives us confidence to raise our FY26 guidance",
+        "bbox": [
+            28,
+            125,
+            677,
+            162
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "ROLLS PR ROYCE",
+        "bbox": [
+            933,
+            66,
+            969,
+            170
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+            963,
+            955,
+            973,
+            977
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "footer",
+        "text": "1Underlying operating profit",
+        "bbox": [
+            28,
+            955,
+            139,
+            979
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            952,
+            977
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "OUR TRANSFORMATION",
+        "text_level": 2,
+        "bbox": [
+            159,
+            207,
+            342,
+            250
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "■ Significant operational and strategic progress",
+        "bbox": [
+            63,
+            324,
+            409,
+            366
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Strong first half results driven by transformation and business improvements",
+        "bbox": [
+            62,
+            379,
+            451,
+            466
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "■ FY26 guidance raised",
+        "bbox": [
+            64,
+            483,
+            243,
+            524
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "■ Further confidence in mid-term guidance",
+        "bbox": [
+            63,
+            538,
+            380,
+            581
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "6.0p interim dividend announced",
+        "bbox": [
+            63,
+            596,
+            325,
+            637
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "■ On track for £2.5bn share buyback in 2026",
+        "bbox": [
+            63,
+            651,
+            382,
+            694
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Resilient and diversified portfolio with significant growth potential",
+        "bbox": [
+            63,
+            709,
+            426,
+            796
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "HIGH PERFORMING, COMPETITIVE, AND RESILIENT BUSINESS",
+        "bbox": [
+            614,
+            305,
+            871,
+            385
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "GROWING SUSTAINABLE CASH FLOWS",
+        "text_level": 2,
+        "bbox": [
+            607,
+            518,
+            812,
+            598
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "STRONG BALANCE SHEET AND GROWING SHAREHOLDER RETURNS",
+        "text_level": 2,
+        "bbox": [
+            606,
+            733,
+            884,
+            811
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "ACHIEVING THE ROLLS-ROYCE PROPOSITION",
+        "bbox": [
+            26,
+            61,
+            642,
+            124
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            933,
+            68,
+            969,
+            170
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            765,
+            955,
+            953,
+            975
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+            964,
+            955,
+            975,
+            975
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "Q&A",
+        "text_level": 2,
+        "bbox": [
+            66,
+            377,
+            198,
+            533
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "ROLLS R ROYCE",
+        "bbox": [
+            921,
+            59,
+            956,
+            161
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "footer",
+        "text": "© 2026 Rolls-Royce. Not Subject to Export Control",
+        "bbox": [
+            747,
+            940,
+            933,
+            961
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "footer",
+        "text": "Photo courtesy of Boeing",
+        "bbox": [
+            0,
+            975,
+            115,
+            994
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "ROLLS R ROYCE",
+        "text_level": 2,
+        "bbox": [
+            460,
+            183,
+            539,
+            427
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "footer",
+        "text": "The information in this document is proprietary and confidential to Rolls-Royce and is available to authorized recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.",
+        "bbox": [
+            269,
+            885,
+            728,
+            924
+        ],
+        "page_idx": 18
+    }
+]

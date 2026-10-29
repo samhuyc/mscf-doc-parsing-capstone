@@ -1,0 +1,524 @@
+{
+  "aggregate": [
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "documents": 6,
+      "completed": 6,
+      "nonempty_pages": 46,
+      "pages": 140,
+      "elapsed_seconds": 3133.319,
+      "pages_per_second": 0.01468091822122165,
+      "checked_value_recall": 0.94,
+      "checked_exact_row_rate": 0.6111111111111112
+    }
+  ],
+  "documents": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 12,
+      "processed_pages": 12,
+      "nonempty_pages": 12,
+      "elapsed_seconds": 474.748,
+      "pages_per_second": 0.0253,
+      "html_tables": 6,
+      "extracted_chars": 9874,
+      "native_text_pages": 12,
+      "native_word_recall": 0.8808559861191441,
+      "native_numeric_f1": 0.8391167192429022,
+      "checked_values_retained": 6,
+      "checked_values_total": 6,
+      "checked_rows_exact": 3,
+      "checked_rows_total": 3
+    },
+    {
+      "document": "edf_2024",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 6,
+      "processed_pages": 6,
+      "nonempty_pages": 6,
+      "elapsed_seconds": 382.951,
+      "pages_per_second": 0.0157,
+      "html_tables": 2,
+      "extracted_chars": 8234,
+      "native_text_pages": 6,
+      "native_word_recall": 0.9926524614254225,
+      "native_numeric_f1": 0.9773755656108597,
+      "checked_values_retained": 15,
+      "checked_values_total": 15,
+      "checked_rows_exact": 3,
+      "checked_rows_total": 3
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 39,
+      "processed_pages": 19,
+      "nonempty_pages": 19,
+      "elapsed_seconds": 1688.348,
+      "pages_per_second": null,
+      "html_tables": 3,
+      "extracted_chars": 47340,
+      "native_text_pages": 0,
+      "native_word_recall": null,
+      "native_numeric_f1": null,
+      "checked_values_retained": 6,
+      "checked_values_total": 6,
+      "checked_rows_exact": 3,
+      "checked_rows_total": 3
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 12,
+      "processed_pages": 3,
+      "nonempty_pages": 3,
+      "elapsed_seconds": 86.414,
+      "pages_per_second": null,
+      "html_tables": 1,
+      "extracted_chars": 2164,
+      "native_text_pages": 0,
+      "native_word_recall": null,
+      "native_numeric_f1": null,
+      "checked_values_retained": 6,
+      "checked_values_total": 6,
+      "checked_rows_exact": 0,
+      "checked_rows_total": 3
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 19,
+      "processed_pages": 3,
+      "nonempty_pages": 3,
+      "elapsed_seconds": 95.658,
+      "pages_per_second": null,
+      "html_tables": 1,
+      "extracted_chars": 1658,
+      "native_text_pages": 19,
+      "native_word_recall": 0.15060558188520273,
+      "native_numeric_f1": 0.26737967914438504,
+      "checked_values_retained": 11,
+      "checked_values_total": 11,
+      "checked_rows_exact": 2,
+      "checked_rows_total": 3
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "pages": 52,
+      "processed_pages": 3,
+      "nonempty_pages": 3,
+      "elapsed_seconds": 405.2,
+      "pages_per_second": null,
+      "html_tables": 4,
+      "extracted_chars": 8426,
+      "native_text_pages": 52,
+      "native_word_recall": 0.049722991689750695,
+      "native_numeric_f1": 0.11116367076631978,
+      "checked_values_retained": 3,
+      "checked_values_total": 6,
+      "checked_rows_exact": 0,
+      "checked_rows_total": 3
+    }
+  ],
+  "checks": [
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "cvs_2025q2",
+      "page": 6,
+      "label": "Total Revenues",
+      "values": [
+        "$98.9",
+        "$91.2"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Total Revenues",
+          "$98.9",
+          "$91.2"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "cvs_2025q2",
+      "page": 6,
+      "label": "GAAP Earnings per Share",
+      "values": [
+        "$0.80",
+        "$1.41"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "GAAP Earnings per Share",
+          "$0.80",
+          "$1.41"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "cvs_2025q2",
+      "page": 6,
+      "label": "Cash Flow from Operations",
+      "values": [
+        "$1.9",
+        "$3.1"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Cash Flow from Operations",
+          "$1.9",
+          "$3.1"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "edf_2024",
+      "page": 3,
+      "label": "Total revenue",
+      "values": [
+        "3,037.1",
+        "8,674.9",
+        "1,693.1",
+        "126.6",
+        "13,531.6"
+      ],
+      "values_retained": 5,
+      "values_expected": 5,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Total revenue",
+          "\u00a3'M",
+          "3,037.1",
+          "8,674.9",
+          "1,693.1",
+          "126.6",
+          "13,531.6"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "edf_2024",
+      "page": 3,
+      "label": "EBITDA",
+      "values": [
+        "174.9",
+        "192.7",
+        "(84.6)",
+        "10.4",
+        "293.4"
+      ],
+      "values_retained": 5,
+      "values_expected": 5,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "EBITDA",
+          "\u00a3'M",
+          "174.9",
+          "192.7",
+          "(84.6)",
+          "10.4",
+          "293.4"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "edf_2024",
+      "page": 3,
+      "label": "EBIT",
+      "values": [
+        "164.2",
+        "150.1",
+        "(92.0)",
+        "6.4",
+        "228.7"
+      ],
+      "values_retained": 5,
+      "values_expected": 5,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "EBIT",
+          "\u00a3'M",
+          "164.2",
+          "150.1",
+          "(92.0)",
+          "6.4",
+          "228.7"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "hippodrome_2025",
+      "page": 20,
+      "label": "Turnover",
+      "values": [
+        "116,787,681",
+        "114,583,476"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Turnover",
+          "3",
+          "116,787,681",
+          "114,583,476"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "hippodrome_2025",
+      "page": 20,
+      "label": "Gross profit",
+      "values": [
+        "67,233,959",
+        "64,913,838"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Gross profit",
+          "",
+          "67,233,959",
+          "64,913,838"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "hippodrome_2025",
+      "page": 20,
+      "label": "Profit for the financial year",
+      "values": [
+        "2,727,857",
+        "12,484,952"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Profit for the financial year",
+          "",
+          "2,727,857",
+          "12,484,952"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "peterborough_2025",
+      "page": 2,
+      "label": "Tangible assets",
+      "values": [
+        "967,756",
+        "992,467"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": [
+        [
+          "Tangible assets",
+          "4",
+          "",
+          "967,756",
+          "",
+          "",
+          "992,467"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "peterborough_2025",
+      "page": 2,
+      "label": "Bank and cash balances",
+      "values": [
+        "2,751,541",
+        "821,700"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": []
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "peterborough_2025",
+      "page": 2,
+      "label": "Net assets",
+      "values": [
+        "4,484,956",
+        "5,194,638"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": [
+        [
+          "Net assets",
+          "",
+          "",
+          "",
+          "4,484,956",
+          "",
+          "5,194,638"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_presentation",
+      "page": 9,
+      "label": "Revenue",
+      "values": [
+        "11,279",
+        "9,057",
+        "2,310",
+        "26%"
+      ],
+      "values_retained": 4,
+      "values_expected": 4,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Revenue",
+          "11,279",
+          "9,057",
+          "2,310",
+          "26%"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_presentation",
+      "page": 9,
+      "label": "Operating profit",
+      "values": [
+        "2,534",
+        "1,733",
+        "796",
+        "46%"
+      ],
+      "values_retained": 4,
+      "values_expected": 4,
+      "exact_row_cells": true,
+      "candidate_rows": [
+        [
+          "Operating profit",
+          "2,534",
+          "1,733",
+          "796",
+          "46%"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_presentation",
+      "page": 9,
+      "label": "Free cash flow",
+      "values": [
+        "1,964",
+        "1,582",
+        "382"
+      ],
+      "values_retained": 3,
+      "values_expected": 3,
+      "exact_row_cells": false,
+      "candidate_rows": [
+        [
+          "Free cash flow",
+          "1,964",
+          "1,582",
+          "382",
+          ""
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_release",
+      "page": 13,
+      "label": "Revenue",
+      "values": [
+        "11,448",
+        "9,490"
+      ],
+      "values_retained": 2,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": [
+        [
+          "Revenue",
+          "2",
+          "11,448"
+        ]
+      ]
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_release",
+      "page": 13,
+      "label": "Cost of sales",
+      "values": [
+        "(8,021)",
+        "(6,563)"
+      ],
+      "values_retained": 0,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": []
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_release",
+      "page": 13,
+      "label": "Profit for the period",
+      "values": [
+        "1,615",
+        "4,408"
+      ],
+      "values_retained": 1,
+      "values_expected": 2,
+      "exact_row_cells": false,
+      "candidate_rows": [
+        [
+          "Profit for the period",
+          "1,615",
+          ""
+        ]
+      ]
+    }
+  ]
+}

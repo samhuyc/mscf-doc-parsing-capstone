@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "sponsor_documents": 6,
+  "paddle_pages": 46,
+  "sam_original_files_unchanged": 736,
+  "sam_source_baseline": "frozen_upstream",
+  "upstream_reference_files_unchanged": 736,
+  "labels_and_scorer_byte_identical": true,
+  "all_four_baseline_metrics_unchanged": true,
+  "per_document_baselines_exact": true,
+  "equal_document_mean_roundoff_tolerance": 1e-14,
+  "local_report_links_checked": 286,
+  "hosted_model_calls": 0,
+  "all_18_labeled_pages_present": true,
+  "coverage": [
+    {
+      "document": "cvs_2025q2",
+      "source_pages": 12,
+      "processed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "labeled_pages": [
+        1,
+        6,
+        12
+      ],
+      "all_labeled_pages_present": true
+    },
+    {
+      "document": "edf_2024",
+      "source_pages": 6,
+      "processed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "labeled_pages": [
+        1,
+        3,
+        6
+      ],
+      "all_labeled_pages_present": true
+    },
+    {
+      "document": "hippodrome_2025",
+      "source_pages": 39,
+      "processed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21
+      ],
+      "labeled_pages": [
+        1,
+        20,
+        21
+      ],
+      "all_labeled_pages_present": true
+    },
+    {
+      "document": "peterborough_2025",
+      "source_pages": 12,
+      "processed_pages": [
+        1,
+        2,
+        3
+      ],
+      "labeled_pages": [
+        1,
+        2,
+        3
+      ],
+      "all_labeled_pages_present": true
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "source_pages": 19,
+      "processed_pages": [
+        1,
+        5,
+        9
+      ],
+      "labeled_pages": [
+        1,
+        5,
+        9
+      ],
+      "all_labeled_pages_present": true
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "source_pages": 52,
+      "processed_pages": [
+        1,
+        13,
+        17
+      ],
+      "labeled_pages": [
+        1,
+        13,
+        17
+      ],
+      "all_labeled_pages_present": true
+    }
+  ],
+  "full_document_coverage": false,
+  "full_document_runtime_comparable": false,
+  "evaluation_scope": "Same 54 unchanged draft labels; all 18 referenced physical pages present.",
+  "previous_artifacts_preserved": 105,
+  "original_hippodrome_checkpoint_pages_preserved": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "original_trial_pages": 0,
+  "dataset_status": {
+    "omni": {
+      "status": "success",
+      "pages": 8
+    },
+    "fin": {
+      "status": "blocked",
+      "error": "GatedRepoError('401 Client Error. (Request ID: Root=1-6ae29cb7-2b4ad0f65133742c5adab67c;cdd72d6a-dd8c-4a15-a94b-cb21d4cdf5b9)\\n\\nCannot access gated repo for url https://huggingface.co/datasets/TheFinAI/FinCriticalED/resolve/2ac95f3dc2f0b55caf35f3d942bb5d32945f7c3e/raw_input.csv.\\nAccess to dataset TheFinAI/FinCriticalED is restricted. You must have access to it and be authenticated to access it. Please log in.')"
+    }
+  },
+  "dataset_pages": 0,
+  "total_public_input_pages_verified": 46,
+  "selected_scope_verification": {
+    "status": "passed",
+    "retained_predictions": 46,
+    "pruned_predictions": 18,
+    "selected_labels": 54,
+    "individual_checks": 689,
+    "every_check_identical": true,
+    "all_aggregate_metrics_identical": true,
+    "all_six_document_metrics_identical": true,
+    "parser_reruns": 0
+  },
+  "image_pdf_negative_controls": 8,
+  "native_pdf_positive_control": true
+}

@@ -1,0 +1,879 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 4000,
+    "height": 2250,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Cautionary Statement concerning forward-looking statements ",
+        "block_bbox": [
+          300,
+          338,
+          1811,
+          574
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "This presentation includes forward-looking statements. The Private Securities Litigation Reform Act of 1995 provides a safe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (\"CVS Health\"). By their nature,all forward-looking statements are not guarantees of future performance or results and are subject to risks and uncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated by the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission filings, including those set forth in the Risk Factors section and under the heading \"Cautionary Statement Concerning Forward-Looking Statements” in our most recent Annual Report on Form 1O-K, our most recent Quarterly Report on Form 1O-Q, our recent Current Reports on Form 8-K, and this morning's earnings press release.",
+        "block_bbox": [
+          290,
+          800,
+          3568,
+          1354
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "This presentation includes non-GAAP financial measures that we use to describe our company's performance. In accordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to the most directly comparable GAAP measures, in our press release we issued in connection with the release of our results for the second quarter of 2o25 and our non-GAAP reconciliation document, which are both available on the Investor Relations portion of our website.\n",
+        "block_bbox": [
+          289,
+          1435,
+          3534,
+          1775
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "footer",
+        "block_content": "✔CVSHealth。",
+        "block_bbox": [
+          3383,
+          2081,
+          3812,
+          2142
+        ],
+        "block_id": 3,
+        "block_order": 4
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9258098006248474,
+          "coordinate": [
+            290.4747314453125,
+            800.635009765625,
+            3568.56884765625,
+            1354.779296875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9233922958374023,
+          "coordinate": [
+            289.8375244140625,
+            1435.7069091796875,
+            3534.8740234375,
+            1775.3499755859375
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "footer",
+          "score": 0.58226478099823,
+          "coordinate": [
+            3383.19287109375,
+            2081.7451171875,
+            3812.97412109375,
+            2142.6435546875
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.5441198348999023,
+          "coordinate": [
+            300.0286865234375,
+            338.00592041015625,
+            1811.5948486328125,
+            574.93115234375
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            319,
+            339
+          ],
+          [
+            1759,
+            339
+          ],
+          [
+            1759,
+            470
+          ],
+          [
+            319,
+            470
+          ]
+        ],
+        [
+          [
+            312,
+            489
+          ],
+          [
+            1818,
+            482
+          ],
+          [
+            1819,
+            582
+          ],
+          [
+            313,
+            588
+          ]
+        ],
+        [
+          [
+            303,
+            796
+          ],
+          [
+            3541,
+            799
+          ],
+          [
+            3541,
+            873
+          ],
+          [
+            303,
+            869
+          ]
+        ],
+        [
+          [
+            306,
+            876
+          ],
+          [
+            3556,
+            876
+          ],
+          [
+            3556,
+            940
+          ],
+          [
+            306,
+            940
+          ]
+        ],
+        [
+          [
+            303,
+            940
+          ],
+          [
+            3231,
+            936
+          ],
+          [
+            3231,
+            1010
+          ],
+          [
+            303,
+            1013
+          ]
+        ],
+        [
+          [
+            303,
+            1013
+          ],
+          [
+            3519,
+            1010
+          ],
+          [
+            3519,
+            1077
+          ],
+          [
+            303,
+            1080
+          ]
+        ],
+        [
+          [
+            309,
+            1083
+          ],
+          [
+            3572,
+            1083
+          ],
+          [
+            3572,
+            1147
+          ],
+          [
+            309,
+            1147
+          ]
+        ],
+        [
+          [
+            300,
+            1147
+          ],
+          [
+            3397,
+            1154
+          ],
+          [
+            3397,
+            1227
+          ],
+          [
+            300,
+            1221
+          ]
+        ],
+        [
+          [
+            303,
+            1221
+          ],
+          [
+            3506,
+            1221
+          ],
+          [
+            3506,
+            1294
+          ],
+          [
+            303,
+            1294
+          ]
+        ],
+        [
+          [
+            303,
+            1288
+          ],
+          [
+            2672,
+            1291
+          ],
+          [
+            2672,
+            1365
+          ],
+          [
+            303,
+            1361
+          ]
+        ],
+        [
+          [
+            306,
+            1435
+          ],
+          [
+            3288,
+            1438
+          ],
+          [
+            3287,
+            1505
+          ],
+          [
+            306,
+            1502
+          ]
+        ],
+        [
+          [
+            303,
+            1509
+          ],
+          [
+            3478,
+            1505
+          ],
+          [
+            3478,
+            1572
+          ],
+          [
+            303,
+            1576
+          ]
+        ],
+        [
+          [
+            309,
+            1579
+          ],
+          [
+            3528,
+            1579
+          ],
+          [
+            3528,
+            1643
+          ],
+          [
+            309,
+            1643
+          ]
+        ],
+        [
+          [
+            306,
+            1649
+          ],
+          [
+            3366,
+            1649
+          ],
+          [
+            3366,
+            1713
+          ],
+          [
+            306,
+            1713
+          ]
+        ],
+        [
+          [
+            306,
+            1716
+          ],
+          [
+            1153,
+            1716
+          ],
+          [
+            1153,
+            1780
+          ],
+          [
+            306,
+            1780
+          ]
+        ],
+        [
+          [
+            3394,
+            2084
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3816,
+            2148
+          ],
+          [
+            3394,
+            2148
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "Cautionary Statement",
+        "concerning forward-looking statements",
+        "This presentation includes forward-looking statements. The Private Securities Litigation Reform Act of 1995 provides a",
+        "safe harbor for forward-looking statements made by or on behalf of CVS Health Corporation (\"CVS Health\"). By their nature,",
+        "all forward-looking statements are not guarantees of future performance or results and are subject to risks and",
+        "uncertainties that are difficult to predict and/or quantify. Actual results may also differ materially from those contemplated",
+        "by the forward-looking statements due to the risks and uncertainties described in our Securities and Exchange Commission",
+        "filings, including those set forth in the Risk Factors section and under the heading \"Cautionary Statement Concerning",
+        "Forward-Looking Statements” in our most recent Annual Report on Form 1O-K, our most recent Quarterly Report on Form",
+        "1O-Q, our recent Current Reports on Form 8-K, and this morning's earnings press release.",
+        "This presentation includes non-GAAP financial measures that we use to describe our company's performance. In",
+        "accordance with SEC regulations, you can find the definitions of these non-GAAP measures, as well as reconciliations to",
+        "the most directly comparable GAAP measures, in our press release we issued in connection with the release of our results",
+        "for the second quarter of 2o25 and our non-GAAP reconciliation document, which are both available on the Investor",
+        "Relations portion of our website.",
+        "✔CVSHealth。"
+      ],
+      "rec_scores": [
+        0.9988061189651489,
+        0.9980248212814331,
+        0.9944505095481873,
+        0.9727767705917358,
+        0.9924644231796265,
+        0.9905272126197815,
+        0.9901756644248962,
+        0.9847599267959595,
+        0.9740300178527832,
+        0.9829879999160767,
+        0.9809097051620483,
+        0.9811808466911316,
+        0.9881525635719299,
+        0.9862234592437744,
+        0.9824971556663513,
+        0.9077684879302979
+      ],
+      "rec_polys": [
+        [
+          [
+            319,
+            339
+          ],
+          [
+            1759,
+            339
+          ],
+          [
+            1759,
+            470
+          ],
+          [
+            319,
+            470
+          ]
+        ],
+        [
+          [
+            312,
+            489
+          ],
+          [
+            1818,
+            482
+          ],
+          [
+            1819,
+            582
+          ],
+          [
+            313,
+            588
+          ]
+        ],
+        [
+          [
+            303,
+            796
+          ],
+          [
+            3541,
+            799
+          ],
+          [
+            3541,
+            873
+          ],
+          [
+            303,
+            869
+          ]
+        ],
+        [
+          [
+            306,
+            876
+          ],
+          [
+            3556,
+            876
+          ],
+          [
+            3556,
+            940
+          ],
+          [
+            306,
+            940
+          ]
+        ],
+        [
+          [
+            303,
+            940
+          ],
+          [
+            3231,
+            936
+          ],
+          [
+            3231,
+            1010
+          ],
+          [
+            303,
+            1013
+          ]
+        ],
+        [
+          [
+            303,
+            1013
+          ],
+          [
+            3519,
+            1010
+          ],
+          [
+            3519,
+            1077
+          ],
+          [
+            303,
+            1080
+          ]
+        ],
+        [
+          [
+            309,
+            1083
+          ],
+          [
+            3572,
+            1083
+          ],
+          [
+            3572,
+            1147
+          ],
+          [
+            309,
+            1147
+          ]
+        ],
+        [
+          [
+            300,
+            1147
+          ],
+          [
+            3397,
+            1154
+          ],
+          [
+            3397,
+            1227
+          ],
+          [
+            300,
+            1221
+          ]
+        ],
+        [
+          [
+            303,
+            1221
+          ],
+          [
+            3506,
+            1221
+          ],
+          [
+            3506,
+            1294
+          ],
+          [
+            303,
+            1294
+          ]
+        ],
+        [
+          [
+            303,
+            1288
+          ],
+          [
+            2672,
+            1291
+          ],
+          [
+            2672,
+            1365
+          ],
+          [
+            303,
+            1361
+          ]
+        ],
+        [
+          [
+            306,
+            1435
+          ],
+          [
+            3288,
+            1438
+          ],
+          [
+            3287,
+            1505
+          ],
+          [
+            306,
+            1502
+          ]
+        ],
+        [
+          [
+            303,
+            1509
+          ],
+          [
+            3478,
+            1505
+          ],
+          [
+            3478,
+            1572
+          ],
+          [
+            303,
+            1576
+          ]
+        ],
+        [
+          [
+            309,
+            1579
+          ],
+          [
+            3528,
+            1579
+          ],
+          [
+            3528,
+            1643
+          ],
+          [
+            309,
+            1643
+          ]
+        ],
+        [
+          [
+            306,
+            1649
+          ],
+          [
+            3366,
+            1649
+          ],
+          [
+            3366,
+            1713
+          ],
+          [
+            306,
+            1713
+          ]
+        ],
+        [
+          [
+            306,
+            1716
+          ],
+          [
+            1153,
+            1716
+          ],
+          [
+            1153,
+            1780
+          ],
+          [
+            306,
+            1780
+          ]
+        ],
+        [
+          [
+            3394,
+            2084
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3816,
+            2148
+          ],
+          [
+            3394,
+            2148
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          319,
+          339,
+          1759,
+          470
+        ],
+        [
+          312,
+          482,
+          1819,
+          588
+        ],
+        [
+          303,
+          796,
+          3541,
+          873
+        ],
+        [
+          306,
+          876,
+          3556,
+          940
+        ],
+        [
+          303,
+          936,
+          3231,
+          1013
+        ],
+        [
+          303,
+          1010,
+          3519,
+          1080
+        ],
+        [
+          309,
+          1083,
+          3572,
+          1147
+        ],
+        [
+          300,
+          1147,
+          3397,
+          1227
+        ],
+        [
+          303,
+          1221,
+          3506,
+          1294
+        ],
+        [
+          303,
+          1288,
+          2672,
+          1365
+        ],
+        [
+          306,
+          1435,
+          3288,
+          1505
+        ],
+        [
+          303,
+          1505,
+          3478,
+          1576
+        ],
+        [
+          309,
+          1579,
+          3528,
+          1643
+        ],
+        [
+          306,
+          1649,
+          3366,
+          1713
+        ],
+        [
+          306,
+          1716,
+          1153,
+          1780
+        ],
+        [
+          3394,
+          2084,
+          3816,
+          2148
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "observed_progress": "Hippodrome checkpoint advanced from 16 to 17 complete pages during inspection.",
+  "diagnosis": "Making progress, with slow per-page OCR; no evidence of a hang during inspection.",
+  "completed_pages_at_switch": 17,
+  "page_seconds_min": 14.676,
+  "page_seconds_max": 163.039,
+  "page_seconds_mean": 95.61141176470588,
+  "remaining_evaluation_pages_at_switch": {
+    "hippodrome_2025": [
+      20,
+      21
+    ],
+    "peterborough_2025": [
+      1,
+      2,
+      3
+    ],
+    "rolls_royce_2026h1_presentation": [
+      1,
+      5,
+      9
+    ],
+    "rolls_royce_2026h1_release": [
+      1,
+      13,
+      17
+    ]
+  },
+  "settings_changed": false,
+  "completed_pages_reprocessed": 0,
+  "checkpoint_snapshot": "checkpoints/before_selected_pages"
+}

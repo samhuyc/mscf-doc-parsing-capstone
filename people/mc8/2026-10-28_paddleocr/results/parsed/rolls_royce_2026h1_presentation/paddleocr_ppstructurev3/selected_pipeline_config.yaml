@@ -1,0 +1,215 @@
+SubModules:
+  ChartRecognition:
+    batch_size: 1
+    model_dir: null
+    model_name: PP-Chart2Table
+    module_name: chart_recognition
+  LayoutDetection:
+    batch_size: 8
+    layout_merge_bboxes_mode:
+      0: large
+      1: large
+      2: union
+      3: union
+      4: union
+      5: union
+      6: union
+      7: large
+      8: union
+      9: union
+      10: union
+      11: union
+      12: union
+      13: union
+      14: union
+      15: union
+      16: large
+      17: union
+      18: union
+      19: union
+    layout_nms: true
+    layout_unclip_ratio:
+    - 1.0
+    - 1.0
+    model_dir: null
+    model_name: PP-DocLayout_plus-L
+    module_name: layout_detection
+    threshold:
+      0: 0.3
+      1: 0.5
+      2: 0.4
+      3: 0.5
+      4: 0.5
+      5: 0.5
+      6: 0.5
+      7: 0.3
+      8: 0.5
+      9: 0.5
+      10: 0.5
+      11: 0.5
+      12: 0.5
+      13: 0.5
+      14: 0.5
+      15: 0.45
+      16: 0.5
+      17: 0.5
+      18: 0.5
+      19: 0.5
+  RegionDetection:
+    layout_merge_bboxes_mode: small
+    layout_nms: true
+    model_dir: null
+    model_name: PP-DocBlockLayout
+    module_name: layout_detection
+SubPipelines:
+  DocPreprocessor:
+    SubModules:
+      DocOrientationClassify:
+        batch_size: 8
+        model_dir: null
+        model_name: PP-LCNet_x1_0_doc_ori
+        module_name: doc_text_orientation
+      DocUnwarping:
+        model_dir: null
+        model_name: UVDoc
+        module_name: image_unwarping
+    batch_size: 8
+    pipeline_name: doc_preprocessor
+    use_doc_orientation_classify: false
+    use_doc_unwarping: false
+  FormulaRecognition:
+    SubModules:
+      FormulaRecognition:
+        batch_size: 8
+        model_dir: null
+        model_name: PP-FormulaNet_plus-L
+        module_name: formula_recognition
+    batch_size: 8
+    pipeline_name: formula_recognition
+    use_doc_preprocessor: false
+    use_layout_detection: false
+  GeneralOCR:
+    SubModules:
+      TextDetection:
+        box_thresh: 0.6
+        limit_side_len: 1280
+        limit_type: max
+        max_side_limit: 4000
+        model_dir: null
+        model_name: PP-OCRv5_mobile_det
+        module_name: text_detection
+        thresh: 0.3
+        unclip_ratio: 1.5
+      TextLineOrientation:
+        batch_size: 8
+        model_dir: null
+        model_name: PP-LCNet_x1_0_textline_ori
+        module_name: textline_orientation
+      TextRecognition:
+        batch_size: 8
+        model_dir: null
+        model_name: PP-OCRv5_mobile_rec
+        module_name: text_recognition
+        score_thresh: 0.0
+    batch_size: 8
+    pipeline_name: OCR
+    text_type: general
+    use_doc_preprocessor: false
+    use_textline_orientation: false
+  SealRecognition:
+    SubPipelines:
+      SealOCR:
+        SubModules:
+          TextDetection:
+            box_thresh: 0.6
+            limit_side_len: 1280
+            limit_type: min
+            max_side_limit: 4000
+            model_dir: null
+            model_name: PP-OCRv4_server_seal_det
+            module_name: seal_text_detection
+            thresh: 0.2
+            unclip_ratio: 0.5
+          TextRecognition:
+            batch_size: 8
+            model_dir: null
+            model_name: PP-OCRv5_server_rec
+            module_name: text_recognition
+            score_thresh: 0
+        batch_size: 8
+        pipeline_name: OCR
+        text_type: seal
+        use_doc_preprocessor: false
+        use_textline_orientation: false
+    batch_size: 8
+    pipeline_name: seal_recognition
+    use_doc_preprocessor: false
+    use_layout_detection: false
+  TableRecognition:
+    SubModules:
+      TableClassification:
+        model_dir: null
+        model_name: PP-LCNet_x1_0_table_cls
+        module_name: table_classification
+      TableOrientationClassify:
+        model_dir: null
+        model_name: PP-LCNet_x1_0_doc_ori
+        module_name: doc_text_orientation
+      WiredTableCellsDetection:
+        model_dir: null
+        model_name: RT-DETR-L_wired_table_cell_det
+        module_name: table_cells_detection
+      WiredTableStructureRecognition:
+        model_dir: null
+        model_name: SLANeXt_wired
+        module_name: table_structure_recognition
+      WirelessTableCellsDetection:
+        model_dir: null
+        model_name: RT-DETR-L_wireless_table_cell_det
+        module_name: table_cells_detection
+      WirelessTableStructureRecognition:
+        model_dir: null
+        model_name: SLANet_plus
+        module_name: table_structure_recognition
+    SubPipelines:
+      GeneralOCR:
+        SubModules:
+          TextDetection:
+            box_thresh: 0.4
+            limit_side_len: 1280
+            limit_type: max
+            max_side_limit: 4000
+            model_dir: null
+            model_name: PP-OCRv5_mobile_det
+            module_name: text_detection
+            thresh: 0.3
+            unclip_ratio: 1.5
+          TextLineOrientation:
+            batch_size: 8
+            model_dir: null
+            model_name: PP-LCNet_x1_0_textline_ori
+            module_name: textline_orientation
+          TextRecognition:
+            batch_size: 8
+            model_dir: null
+            model_name: PP-OCRv5_mobile_rec
+            module_name: text_recognition
+        pipeline_name: OCR
+        score_thresh: 0.0
+        text_type: general
+        use_doc_preprocessor: false
+        use_textline_orientation: false
+    pipeline_name: table_recognition_v2
+    use_doc_preprocessor: false
+    use_layout_detection: false
+    use_ocr_model: false
+batch_size: 8
+format_block_content: false
+markdown_ignore_labels: []
+pipeline_name: PP-StructureV3
+use_chart_recognition: false
+use_doc_preprocessor: false
+use_formula_recognition: false
+use_region_detection: true
+use_seal_recognition: false
+use_table_recognition: true

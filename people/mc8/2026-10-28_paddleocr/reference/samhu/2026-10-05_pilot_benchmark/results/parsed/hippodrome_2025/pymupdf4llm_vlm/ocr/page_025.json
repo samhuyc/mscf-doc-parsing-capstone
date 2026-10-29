@@ -1,0 +1,1068 @@
+{
+  "status": "success",
+  "image_sha256": "9285919cbfe744a80585b94102db39788e2a4f776f051d5c1bf9e07dbfd59124",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          285.0
+        ],
+        [
+          1118.0,
+          285.0
+        ],
+        [
+          1118.0,
+          333.0
+        ],
+        [
+          258.0,
+          333.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          406.0
+        ],
+        [
+          1550.0,
+          409.0
+        ],
+        [
+          1550.0,
+          461.0
+        ],
+        [
+          255.0,
+          457.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          497.0
+        ],
+        [
+          1277.0,
+          497.0
+        ],
+        [
+          1277.0,
+          534.0
+        ],
+        [
+          262.0,
+          534.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          654.0
+        ],
+        [
+          280.0,
+          654.0
+        ],
+        [
+          280.0,
+          680.0
+        ],
+        [
+          262.0,
+          680.0
+        ]
+      ],
+      "text": "1",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          651.0
+        ],
+        [
+          945.0,
+          651.0
+        ],
+        [
+          945.0,
+          687.0
+        ],
+        [
+          358.0,
+          687.0
+        ]
+      ],
+      "text": "Accounting policies (Continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          749.0
+        ],
+        [
+          2214.0,
+          749.0
+        ],
+        [
+          2214.0,
+          797.0
+        ],
+        [
+          354.0,
+          797.0
+        ]
+      ],
+      "text": "Depreciation is recognised so as to write off the cost of assets less their residual values over their useful lives",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          355.0,
+          793.0
+        ],
+        [
+          753.0,
+          797.0
+        ],
+        [
+          753.0,
+          837.0
+        ],
+        [
+          354.0,
+          833.0
+        ]
+      ],
+      "text": "on the following bases:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          892.0
+        ],
+        [
+          779.0,
+          892.0
+        ],
+        [
+          779.0,
+          939.0
+        ],
+        [
+          354.0,
+          939.0
+        ]
+      ],
+      "text": "Short leasehold property",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1155.0,
+          892.0
+        ],
+        [
+          1845.0,
+          892.0
+        ],
+        [
+          1845.0,
+          939.0
+        ],
+        [
+          1155.0,
+          939.0
+        ]
+      ],
+      "text": "Straight line over the course of the lease",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          947.0
+        ],
+        [
+          550.0,
+          947.0
+        ],
+        [
+          550.0,
+          987.0
+        ],
+        [
+          358.0,
+          987.0
+        ]
+      ],
+      "text": "Equipment",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1155.0,
+          947.0
+        ],
+        [
+          1727.0,
+          947.0
+        ],
+        [
+          1727.0,
+          983.0
+        ],
+        [
+          1155.0,
+          983.0
+        ]
+      ],
+      "text": "20%-25% reducing balance basis",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          991.0
+        ],
+        [
+          694.0,
+          991.0
+        ],
+        [
+          694.0,
+          1038.0
+        ],
+        [
+          354.0,
+          1038.0
+        ]
+      ],
+      "text": "Fixtures and fittings",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1151.0,
+          991.0
+        ],
+        [
+          1639.0,
+          991.0
+        ],
+        [
+          1639.0,
+          1038.0
+        ],
+        [
+          1151.0,
+          1038.0
+        ]
+      ],
+      "text": "20% reducing balance basis",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1093.0
+        ],
+        [
+          2214.0,
+          1093.0
+        ],
+        [
+          2214.0,
+          1140.0
+        ],
+        [
+          354.0,
+          1140.0
+        ]
+      ],
+      "text": "The gain or loss arising on the disposal of an asset is determined as the difference between the sale",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          347.0,
+          1137.0
+        ],
+        [
+          1838.0,
+          1133.0
+        ],
+        [
+          1838.0,
+          1181.0
+        ],
+        [
+          347.0,
+          1184.0
+        ]
+      ],
+      "text": "proceeds and the carrying value of the asset, and is credited or charged to profit or loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1232.0
+        ],
+        [
+          2218.0,
+          1235.0
+        ],
+        [
+          2218.0,
+          1283.0
+        ],
+        [
+          351.0,
+          1279.0
+        ]
+      ],
+      "text": "Residual value is calculated on prices prevailing at the reporting date, after estimated costs of disposal, for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1283.0
+        ],
+        [
+          1853.0,
+          1283.0
+        ],
+        [
+          1853.0,
+          1320.0
+        ],
+        [
+          358.0,
+          1320.0
+        ]
+      ],
+      "text": "the asset as if it were at the age and in the condition expected at the end of its useful life.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1385.0
+        ],
+        [
+          801.0,
+          1385.0
+        ],
+        [
+          801.0,
+          1422.0
+        ],
+        [
+          358.0,
+          1422.0
+        ]
+      ],
+      "text": "Fixed asset investments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1425.0
+        ],
+        [
+          2214.0,
+          1429.0
+        ],
+        [
+          2214.0,
+          1477.0
+        ],
+        [
+          351.0,
+          1473.0
+        ]
+      ],
+      "text": "Interests in subsidiaries are initially measured at cost and subsequently measured at cost less any",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1477.0
+        ],
+        [
+          2211.0,
+          1477.0
+        ],
+        [
+          2211.0,
+          1513.0
+        ],
+        [
+          358.0,
+          1513.0
+        ]
+      ],
+      "text": "accumulated impairment losses. The investments are assessed for impairment at each reporting date and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1521.0
+        ],
+        [
+          2048.0,
+          1521.0
+        ],
+        [
+          2048.0,
+          1557.0
+        ],
+        [
+          354.0,
+          1557.0
+        ]
+      ],
+      "text": "any impairment losses or reversals of impairment losses are recognised immediately in profit or loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          347.0,
+          1612.0
+        ],
+        [
+          2211.0,
+          1616.0
+        ],
+        [
+          2211.0,
+          1663.0
+        ],
+        [
+          347.0,
+          1659.0
+        ]
+      ],
+      "text": "A subsidiary is an entity controlled by the Company. Control is the power to govern the financial and operating",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1663.0
+        ],
+        [
+          1395.0,
+          1663.0
+        ],
+        [
+          1395.0,
+          1700.0
+        ],
+        [
+          354.0,
+          1700.0
+        ]
+      ],
+      "text": "policies of the entity so as to obtain benefits from its activities.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1762.0
+        ],
+        [
+          841.0,
+          1762.0
+        ],
+        [
+          841.0,
+          1798.0
+        ],
+        [
+          358.0,
+          1798.0
+        ]
+      ],
+      "text": "Impairment of fixed assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1813.0
+        ],
+        [
+          2211.0,
+          1813.0
+        ],
+        [
+          2211.0,
+          1850.0
+        ],
+        [
+          354.0,
+          1850.0
+        ]
+      ],
+      "text": "At each reporting period end date, the Company reviews the carrying amounts of its intangible and tangible",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1857.0
+        ],
+        [
+          2207.0,
+          1857.0
+        ],
+        [
+          2207.0,
+          1893.0
+        ],
+        [
+          358.0,
+          1893.0
+        ]
+      ],
+      "text": "assets to determine whether there is any indication that those assets have suffered an impairment loss. If any",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1897.0
+        ],
+        [
+          2207.0,
+          1893.0
+        ],
+        [
+          2207.0,
+          1934.0
+        ],
+        [
+          354.0,
+          1937.0
+        ]
+      ],
+      "text": "such indication exists, the recoverable amount of the asset is estimated in order to determine the extent of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1941.0
+        ],
+        [
+          2207.0,
+          1941.0
+        ],
+        [
+          2207.0,
+          1977.0
+        ],
+        [
+          358.0,
+          1977.0
+        ]
+      ],
+      "text": "impairment loss (if any). Where it is not possible to estimate the recoverable amount of an individual asset,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1985.0
+        ],
+        [
+          2100.0,
+          1985.0
+        ],
+        [
+          2100.0,
+          2021.0
+        ],
+        [
+          358.0,
+          2021.0
+        ]
+      ],
+      "text": "the Company estimates the recoverable amount of the cash-generating unit to which the asset belongs.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          2080.0
+        ],
+        [
+          2211.0,
+          2076.0
+        ],
+        [
+          2211.0,
+          2124.0
+        ],
+        [
+          351.0,
+          2127.0
+        ]
+      ],
+      "text": "Recoverable amount is the higher of fair value less costs to sell and value in use. In assessing value in use,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2124.0
+        ],
+        [
+          2214.0,
+          2124.0
+        ],
+        [
+          2214.0,
+          2171.0
+        ],
+        [
+          354.0,
+          2171.0
+        ]
+      ],
+      "text": "the estimated future cash flows are discounted to their present value using a pre-tax discount rate that reflects",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2171.0
+        ],
+        [
+          2211.0,
+          2171.0
+        ],
+        [
+          2211.0,
+          2208.0
+        ],
+        [
+          358.0,
+          2208.0
+        ]
+      ],
+      "text": "current market assessments of the time value of money and the risks specific to the asset for which the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2215.0
+        ],
+        [
+          1277.0,
+          2215.0
+        ],
+        [
+          1277.0,
+          2252.0
+        ],
+        [
+          358.0,
+          2252.0
+        ]
+      ],
+      "text": "estimates of future cash flows have not been adjusted.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          2295.0
+        ],
+        [
+          2214.0,
+          2295.0
+        ],
+        [
+          2214.0,
+          2343.0
+        ],
+        [
+          351.0,
+          2343.0
+        ]
+      ],
+      "text": "If the recoverable amount of an asset (or cash-generating unit) is estimated to be less than its carrying",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2339.0
+        ],
+        [
+          2214.0,
+          2339.0
+        ],
+        [
+          2214.0,
+          2387.0
+        ],
+        [
+          354.0,
+          2387.0
+        ]
+      ],
+      "text": "amount, the carrying amount of the asset (or cash-generating unit) is reduced to its recoverable amount. An",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2387.0
+        ],
+        [
+          2211.0,
+          2387.0
+        ],
+        [
+          2211.0,
+          2423.0
+        ],
+        [
+          358.0,
+          2423.0
+        ]
+      ],
+      "text": "impairment loss is recognised immediately in profit or loss, unless the relevant asset is carried at a revalued",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2431.0
+        ],
+        [
+          1698.0,
+          2431.0
+        ],
+        [
+          1698.0,
+          2467.0
+        ],
+        [
+          358.0,
+          2467.0
+        ]
+      ],
+      "text": "amount, in which case the impairment loss is treated as a revaluation decrease.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2529.0
+        ],
+        [
+          2211.0,
+          2529.0
+        ],
+        [
+          2211.0,
+          2566.0
+        ],
+        [
+          354.0,
+          2566.0
+        ]
+      ],
+      "text": "Recognised impairment losses are reversed if, and only if, the reasons for the impairment loss have ceased",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2573.0
+        ],
+        [
+          2207.0,
+          2573.0
+        ],
+        [
+          2207.0,
+          2610.0
+        ],
+        [
+          354.0,
+          2610.0
+        ]
+      ],
+      "text": "to apply. Where an impairment loss subsequently reverses, the carrying amount of the asset (or cash-",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2617.0
+        ],
+        [
+          2211.0,
+          2617.0
+        ],
+        [
+          2211.0,
+          2654.0
+        ],
+        [
+          358.0,
+          2654.0
+        ]
+      ],
+      "text": "generating unit) is increased to the revised estimate of its recoverable amount, but so that the increased",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2661.0
+        ],
+        [
+          2211.0,
+          2661.0
+        ],
+        [
+          2211.0,
+          2698.0
+        ],
+        [
+          358.0,
+          2698.0
+        ]
+      ],
+      "text": "carrying amount does not exceed the carrying amount that would have been determined had no impairment",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2705.0
+        ],
+        [
+          2211.0,
+          2705.0
+        ],
+        [
+          2211.0,
+          2741.0
+        ],
+        [
+          358.0,
+          2741.0
+        ]
+      ],
+      "text": "loss been recognised for the asset (or cash-generating unit) in prior years. A reversal of an impairment loss is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2749.0
+        ],
+        [
+          2211.0,
+          2749.0
+        ],
+        [
+          2211.0,
+          2785.0
+        ],
+        [
+          358.0,
+          2785.0
+        ]
+      ],
+      "text": "recognised immediately in profit or loss, unless the relevant asset is carried at a revalued amount, in which",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2793.0
+        ],
+        [
+          1642.0,
+          2793.0
+        ],
+        [
+          1642.0,
+          2829.0
+        ],
+        [
+          358.0,
+          2829.0
+        ]
+      ],
+      "text": "case the reversal of the impairment loss is treated as a revaluation increase.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2888.0
+        ],
+        [
+          487.0,
+          2888.0
+        ],
+        [
+          487.0,
+          2928.0
+        ],
+        [
+          354.0,
+          2928.0
+        ]
+      ],
+      "text": "Stocks",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2935.0
+        ],
+        [
+          2211.0,
+          2935.0
+        ],
+        [
+          2211.0,
+          2983.0
+        ],
+        [
+          354.0,
+          2983.0
+        ]
+      ],
+      "text": "Stocks are valued at the lower of cost and estimated selling price less costs to complete and sell. Provision is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2979.0
+        ],
+        [
+          1070.0,
+          2979.0
+        ],
+        [
+          1070.0,
+          3027.0
+        ],
+        [
+          354.0,
+          3027.0
+        ]
+      ],
+      "text": "made for obsolete and slow moving items.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1188.0,
+          3319.0
+        ],
+        [
+          1284.0,
+          3319.0
+        ],
+        [
+          1284.0,
+          3363.0
+        ],
+        [
+          1188.0,
+          3363.0
+        ]
+      ],
+      "text": "-23-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2914869785308838,
+  "elapsed_seconds": 23.9253817088902
+}

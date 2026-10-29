@@ -1,0 +1,61 @@
+{
+  "audit": {
+    "page": 1,
+    "image_width": 4000,
+    "image_height": 2250,
+    "render_dpi": 300,
+    "image_pixels_sha256": "a7d264209b2b9e931ebeaf7a2aa89d8c17195ae7d2b10ff76ffcd8ee66d6c53f",
+    "raw_prediction": "raw/page_001.json",
+    "raw_sha256": "efd0335f90532992ddad6edeaea8c6103962c4d241ab84c66028fd34db6c6cd4",
+    "blocks": 3,
+    "tables": 0,
+    "elapsed_seconds": 16.367
+  },
+  "chunk": {
+    "text": "ＲＯＬＬＳR ROYＣE \n\n# HALF YEAR RESULTS 2026\n\nThe information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n\n",
+    "native": {
+      "page_index": 0,
+      "raw_prediction": "raw/page_001.json",
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "ＲＯＬＬＳR ROYＣE ",
+          "block_bbox": [
+            226,
+            161,
+            500,
+            629
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "doc_title",
+          "block_content": "HALF YEAR RESULTS 2026",
+          "block_bbox": [
+            193,
+            858,
+            1850,
+            1274
+          ],
+          "block_id": 1,
+          "block_order": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "The information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n",
+          "block_bbox": [
+            202,
+            2003,
+            2023,
+            2134
+          ],
+          "block_id": 2,
+          "block_order": 3
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "c7ff3019430ea318b3120a0c654ec9efcdfd8713cf701947fba881332cf84431",
+  "provenance": "selected_page_worker"
+}

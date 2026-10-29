@@ -1,0 +1,73 @@
+{
+  "audit": {
+    "page": 20,
+    "image_width": 2480,
+    "image_height": 3509,
+    "render_dpi": 300,
+    "image_pixels_sha256": "f943db048f1e914ce1f274f13b83f1c368a9b8cb24c38d7fcfe286c9d142a411",
+    "raw_prediction": "raw/page_020.json",
+    "raw_sha256": "3347c7e77e5d39785ed63637fa5274492438980e7d8d8aefb8382ad17470a22a",
+    "blocks": 4,
+    "tables": 1,
+    "elapsed_seconds": 27.771
+  },
+  "chunk": {
+    "text": "## HIPPODROME CASINO LIMITED \n\n<div style=\"text-align: center;\">STATEMENT OF COMPREHENSIVE INCOME FOR THE YEAR ENDED 31 DECEMBER 2025</div>\n\n\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tbody><tr><td></td><td>Notes</td><td>2025 £</td><td>2024 £</td></tr><tr><td>Turnover</td><td>3</td><td>116,787,681</td><td>114,583,476</td></tr><tr><td>Cost of sales</td><td></td><td>(49,553,722)</td><td>(49,669,638)</td></tr><tr><td>Gross profit</td><td></td><td>67,233,959</td><td>64,913,838</td></tr><tr><td>Administrative expenses</td><td></td><td>(61,723,344)</td><td>(56,732,754)</td></tr><tr><td>Operating profit</td><td>6</td><td>5,510,615</td><td>8,181,084</td></tr><tr><td>Interest receivable and similar income</td><td>8</td><td>913,167</td><td>1,000,725</td></tr><tr><td>Interest payable and similar expenses</td><td>9</td><td>(2,809,776)</td><td>(3,288,591)</td></tr><tr><td>Other gains and losses</td><td>10</td><td>169,884</td><td>8,941,676</td></tr><tr><td>Profit before taxation</td><td></td><td>3,783,890</td><td>14,834,894</td></tr><tr><td>Tax on profit</td><td>11</td><td>(1,056,033)</td><td>(2,349,942)</td></tr><tr><td>Profit for the financial year</td><td></td><td>2,727,857</td><td>12,484,952</td></tr></tbody></table></body></html></div>\n\n\n-18",
+    "native": {
+      "page_index": 19,
+      "raw_prediction": "raw/page_020.json",
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "HIPPODROME CASINO LIMITED ",
+          "block_bbox": [
+            257,
+            287,
+            1113,
+            338
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "STATEMENT OF COMPREHENSIVE INCOME FOR THE YEAR ENDED 31 DECEMBER 2025",
+          "block_bbox": [
+            255,
+            411,
+            1271,
+            541
+          ],
+          "block_id": 1,
+          "block_order": null
+        },
+        {
+          "block_label": "table",
+          "block_content": "<html><body><table><tbody><tr><td></td><td>Notes</td><td>2025 £</td><td>2024 £</td></tr><tr><td>Turnover</td><td>3</td><td>116,787,681</td><td>114,583,476</td></tr><tr><td>Cost of sales</td><td></td><td>(49,553,722)</td><td>(49,669,638)</td></tr><tr><td>Gross profit</td><td></td><td>67,233,959</td><td>64,913,838</td></tr><tr><td>Administrative expenses</td><td></td><td>(61,723,344)</td><td>(56,732,754)</td></tr><tr><td>Operating profit</td><td>6</td><td>5,510,615</td><td>8,181,084</td></tr><tr><td>Interest receivable and similar income</td><td>8</td><td>913,167</td><td>1,000,725</td></tr><tr><td>Interest payable and similar expenses</td><td>9</td><td>(2,809,776)</td><td>(3,288,591)</td></tr><tr><td>Other gains and losses</td><td>10</td><td>169,884</td><td>8,941,676</td></tr><tr><td>Profit before taxation</td><td></td><td>3,783,890</td><td>14,834,894</td></tr><tr><td>Tax on profit</td><td>11</td><td>(1,056,033)</td><td>(2,349,942)</td></tr><tr><td>Profit for the financial year</td><td></td><td>2,727,857</td><td>12,484,952</td></tr></tbody></table></body></html>",
+          "block_bbox": [
+            253,
+            588,
+            2218,
+            1723
+          ],
+          "block_id": 2,
+          "block_order": null
+        },
+        {
+          "block_label": "number",
+          "block_content": "-18",
+          "block_bbox": [
+            1192,
+            3314,
+            1275,
+            3345
+          ],
+          "block_id": 3,
+          "block_order": 2
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "a6bac9647cf1812d033e965076d5c927eccb7ef8f53cfbfb7e891a9e6695ea65",
+  "provenance": "selected_page_worker"
+}

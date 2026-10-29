@@ -1,0 +1,60 @@
+{
+  "engine": "MinerU2.5-Pro VLM crop recognition",
+  "mode": "automatic",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars_before": 90,
+      "invoked": true,
+      "recognized_regions": 1,
+      "elapsed_seconds": 1.447543959133327,
+      "raw_prediction": "ocr/page_001.json",
+      "text_chars_after": 95
+    },
+    {
+      "page": 2,
+      "text_chars_before": 1058,
+      "invoked": true,
+      "recognized_regions": 1,
+      "elapsed_seconds": 0.7473897500894964,
+      "raw_prediction": "ocr/page_002.json",
+      "text_chars_after": 1085
+    },
+    {
+      "page": 3,
+      "text_chars_before": 1722,
+      "invoked": true,
+      "recognized_regions": 2,
+      "elapsed_seconds": 0.9283424578607082,
+      "raw_prediction": "ocr/page_003.json",
+      "text_chars_after": 1733
+    },
+    {
+      "page": 4,
+      "text_chars_before": 2763,
+      "invoked": true,
+      "recognized_regions": 1,
+      "elapsed_seconds": 0.837913750205189,
+      "raw_prediction": "ocr/page_004.json",
+      "text_chars_after": 2772
+    },
+    {
+      "page": 5,
+      "text_chars_before": 2029,
+      "invoked": true,
+      "recognized_regions": 1,
+      "elapsed_seconds": 0.7454245840199292,
+      "raw_prediction": "ocr/page_005.json",
+      "text_chars_after": 2035
+    },
+    {
+      "page": 6,
+      "text_chars_before": 1039,
+      "invoked": true,
+      "recognized_regions": 1,
+      "elapsed_seconds": 0.7564730830490589,
+      "raw_prediction": "ocr/page_006.json",
+      "text_chars_after": 1049
+    }
+  ]
+}

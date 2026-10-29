@@ -1,0 +1,2710 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "paragraph_title",
+        "block_content": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED \n",
+        "block_bbox": [
+          252,
+          278,
+          2158,
+          378
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "We have audited the financial statements of Hippodrome Casino Limited (the company') for the year ended 31December 2025 which comprise the Statement of Comprehensive Income, Statement of Financial Position,Statement of Changes in Equity and notes to the financial statements, including significant accounting policies. The financial reporting framework that has been applied in their preparation is applicable law and United Kingdom Accounting Standards, including FRS 1o2 \"The Financial Reporting Standard applicable in the UK and Republic of Ireland\" (United Kingdom Generally Accepted Accounting Practice).\n",
+        "block_bbox": [
+          249,
+          479,
+          2212,
+          736
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "In our opinion, the financial statements:",
+        "block_bbox": [
+          252,
+          798,
+          928,
+          833
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "• give a true and fair view of the state of the company's affairs as at 31 December 2025 and of its profit for the year then ended;",
+        "block_bbox": [
+          359,
+          839,
+          2214,
+          919
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "• have been properly prepared in accordance with United Kingdom Generally Accepted Accounting Practice;and \n",
+        "block_bbox": [
+          359,
+          928,
+          2212,
+          1003
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": "• have been prepared in accordance with the requirements of the Companies Act 2006.",
+        "block_bbox": [
+          361,
+          1014,
+          1842,
+          1050
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Basis for opinion ",
+        "block_bbox": [
+          253,
+          1113,
+          577,
+          1147
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "text",
+        "block_content": "We conducted our audit in accordance with International Standards on Auditing (UK) (ISAs (UK)) and applicable law. Our responsibilities under those standards are further described in the Auditor's responsibilites for the audit of the financial statements section of our report. We are independent of the company in accordance with the ethical requirements that are relevant to our audit of the financial statements in the UK, including the FRC's Ethical Standard, and we have fulfilled our. other ethical responsibilities in accordance with these requirements. We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our opinion.",
+        "block_bbox": [
+          248,
+          1161,
+          2212,
+          1416
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Conclusions relating to going concern ",
+        "block_bbox": [
+          252,
+          1478,
+          959,
+          1514
+        ],
+        "block_id": 8,
+        "block_order": 9
+      },
+      {
+        "block_label": "text",
+        "block_content": "In auditing the financial statements, we have concluded that the directors' use of the going concern basis of accounting in the preparation of the financial statements is appropriate.\n",
+        "block_bbox": [
+          249,
+          1527,
+          2214,
+          1607
+        ],
+        "block_id": 9,
+        "block_order": 10
+      },
+      {
+        "block_label": "text",
+        "block_content": "Based on the work we have performed, we have not identified any material uncertainties relating to events or conditions that, individually or collectively, may cast significant doubt on the company's ability to continue as a going concern for a period of at least twelve months from when the financial statements are authorised for issue.",
+        "block_bbox": [
+          250,
+          1656,
+          2213,
+          1779
+        ],
+        "block_id": 10,
+        "block_order": 11
+      },
+      {
+        "block_label": "text",
+        "block_content": "Our responsibilities and the responsibilities of the directors with respect to going concern are described in the relevant sections of this report.\n",
+        "block_bbox": [
+          249,
+          1829,
+          2211,
+          1908
+        ],
+        "block_id": 11,
+        "block_order": 12
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Other information ",
+        "block_bbox": [
+          252,
+          1971,
+          586,
+          2005
+        ],
+        "block_id": 12,
+        "block_order": 13
+      },
+      {
+        "block_label": "text",
+        "block_content": "The other information comprises the information included in the annual report, other than the financial statements and our auditor's report thereon. The directors are responsible for the other information contained within the annual report. Our opinion on the financial statements does not cover the other information and, except to the extent otherwise explicitly stated in our report, we do not express any form of assurance conclusion thereon.",
+        "block_bbox": [
+          249,
+          2019,
+          2212,
+          2188
+        ],
+        "block_id": 13,
+        "block_order": 14
+      },
+      {
+        "block_label": "text",
+        "block_content": "Our responsibility is to read the other information and, in doing so, consider whether the other information is materially inconsistent with the financial statements or our knowledge obtained in the course of the audit or otherwise appears to be materially misstated. If we identify such material inconsistencies or apparent material misstatements, we are required to determine whether this gives rise to a material misstatement in the financial statements themselves. If, based on the work we have performed, we conclude that there is a material misstatement of this other information, we are required to report that fact ",
+        "block_bbox": [
+          247,
+          2236,
+          2212,
+          2491
+        ],
+        "block_id": 14,
+        "block_order": 15
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "We have nothing to report in this regard ",
+        "block_bbox": [
+          251,
+          2540,
+          935,
+          2578
+        ],
+        "block_id": 15,
+        "block_order": 16
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "Opinions on other matters prescribed by the Companies Act 2006",
+        "block_bbox": [
+          250,
+          2639,
+          1449,
+          2676
+        ],
+        "block_id": 16,
+        "block_order": 17
+      },
+      {
+        "block_label": "text",
+        "block_content": "In our opinion, based on the work undertaken in the course of the audit:",
+        "block_bbox": [
+          250,
+          2689,
+          1466,
+          2725
+        ],
+        "block_id": 17,
+        "block_order": 18
+      },
+      {
+        "block_label": "text",
+        "block_content": "• the information given in the strategic report and the directors' report for the financial year for which the financial statements are prepared is consistent with the financial statements; and ",
+        "block_bbox": [
+          356,
+          2731,
+          2209,
+          2811
+        ],
+        "block_id": 18,
+        "block_order": 19
+      },
+      {
+        "block_label": "text",
+        "block_content": "• the strategic report and the directors' report have been prepared in accordance with applicable legal requirements.\n",
+        "block_bbox": [
+          357,
+          2820,
+          2209,
+          2900
+        ],
+        "block_id": 19,
+        "block_order": 20
+      },
+      {
+        "block_label": "number",
+        "block_content": "- 15",
+        "block_bbox": [
+          1193,
+          3327,
+          1277,
+          3356
+        ],
+        "block_id": 20,
+        "block_order": 21
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.98725825548172,
+          "coordinate": [
+            247.95294189453125,
+            2236.26025390625,
+            2212.025390625,
+            2491.30908203125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9871246814727783,
+          "coordinate": [
+            249.117919921875,
+            479.4725341796875,
+            2212.324462890625,
+            736.888427734375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9866950511932373,
+          "coordinate": [
+            248.98236083984375,
+            1161.647216796875,
+            2212.8994140625,
+            1416.519287109375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9841493964195251,
+          "coordinate": [
+            249.01177978515625,
+            2019.493408203125,
+            2212.699462890625,
+            2188.723876953125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9818741083145142,
+          "coordinate": [
+            250.061767578125,
+            1656.6488037109375,
+            2213.942626953125,
+            1779.3477783203125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9692527055740356,
+          "coordinate": [
+            249.14306640625,
+            1829.805908203125,
+            2211.033203125,
+            1908.425537109375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9684244990348816,
+          "coordinate": [
+            249.666015625,
+            1527.5374755859375,
+            2214.126708984375,
+            1607.9371337890625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9617998600006104,
+          "coordinate": [
+            357.138671875,
+            2820.88232421875,
+            2209.824951171875,
+            2900.564453125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9616202712059021,
+          "coordinate": [
+            359.241455078125,
+            839.4896240234375,
+            2214.376953125,
+            919.8682861328125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9613986611366272,
+          "coordinate": [
+            359.38861083984375,
+            928.1022338867188,
+            2212.574462890625,
+            1003.5958862304688
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9573923945426941,
+          "coordinate": [
+            356.59716796875,
+            2731.87841796875,
+            2209.7587890625,
+            2811.80029296875
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9389799237251282,
+          "coordinate": [
+            252.05157470703125,
+            1478.947509765625,
+            959.3311157226562,
+            1514.231689453125
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9320096969604492,
+          "coordinate": [
+            253.28695678710938,
+            1113.28759765625,
+            577.332275390625,
+            1147.974609375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9295451641082764,
+          "coordinate": [
+            361.2593994140625,
+            1014.078857421875,
+            1842.7391357421875,
+            1050.228759765625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.9278863072395325,
+          "coordinate": [
+            252.0348663330078,
+            1971.7083740234375,
+            586.9298706054688,
+            2005.1339111328125
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.8990597724914551,
+          "coordinate": [
+            250.928955078125,
+            2639.2138671875,
+            1449.2288818359375,
+            2676.86767578125
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8748923540115356,
+          "coordinate": [
+            1193.1220703125,
+            3327.919677734375,
+            1277.37255859375,
+            3356.945556640625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.8501613140106201,
+          "coordinate": [
+            252.78497314453125,
+            798.3797607421875,
+            928.0977172851562,
+            833.607177734375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.788705587387085,
+          "coordinate": [
+            250.8123779296875,
+            2689.27587890625,
+            1466.9154052734375,
+            2725.26123046875
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.6022756695747375,
+          "coordinate": [
+            251.7989501953125,
+            2540.269775390625,
+            935.1859130859375,
+            2578.260986328125
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.5663524270057678,
+          "coordinate": [
+            252.82183837890625,
+            278.7650146484375,
+            2158.675048828125,
+            378.5355224609375
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            260,
+            282
+          ],
+          [
+            2162,
+            282
+          ],
+          [
+            2162,
+            329
+          ],
+          [
+            260,
+            329
+          ]
+        ],
+        [
+          [
+            260,
+            337
+          ],
+          [
+            459,
+            337
+          ],
+          [
+            459,
+            387
+          ],
+          [
+            260,
+            387
+          ]
+        ],
+        [
+          [
+            263,
+            482
+          ],
+          [
+            2212,
+            482
+          ],
+          [
+            2212,
+            521
+          ],
+          [
+            263,
+            521
+          ]
+        ],
+        [
+          [
+            263,
+            526
+          ],
+          [
+            2214,
+            526
+          ],
+          [
+            2214,
+            565
+          ],
+          [
+            263,
+            565
+          ]
+        ],
+        [
+          [
+            263,
+            570
+          ],
+          [
+            2217,
+            570
+          ],
+          [
+            2217,
+            609
+          ],
+          [
+            263,
+            609
+          ]
+        ],
+        [
+          [
+            260,
+            614
+          ],
+          [
+            2217,
+            614
+          ],
+          [
+            2217,
+            652
+          ],
+          [
+            260,
+            652
+          ]
+        ],
+        [
+          [
+            255,
+            652
+          ],
+          [
+            2220,
+            650
+          ],
+          [
+            2220,
+            696
+          ],
+          [
+            255,
+            699
+          ]
+        ],
+        [
+          [
+            260,
+            702
+          ],
+          [
+            1392,
+            702
+          ],
+          [
+            1392,
+            740
+          ],
+          [
+            260,
+            740
+          ]
+        ],
+        [
+          [
+            260,
+            798
+          ],
+          [
+            927,
+            798
+          ],
+          [
+            927,
+            836
+          ],
+          [
+            260,
+            836
+          ]
+        ],
+        [
+          [
+            360,
+            839
+          ],
+          [
+            2217,
+            836
+          ],
+          [
+            2217,
+            883
+          ],
+          [
+            360,
+            885
+          ]
+        ],
+        [
+          [
+            401,
+            888
+          ],
+          [
+            761,
+            888
+          ],
+          [
+            761,
+            927
+          ],
+          [
+            401,
+            927
+          ]
+        ],
+        [
+          [
+            374,
+            927
+          ],
+          [
+            2214,
+            927
+          ],
+          [
+            2214,
+            973
+          ],
+          [
+            374,
+            973
+          ]
+        ],
+        [
+          [
+            401,
+            976
+          ],
+          [
+            479,
+            976
+          ],
+          [
+            479,
+            1012
+          ],
+          [
+            401,
+            1012
+          ]
+        ],
+        [
+          [
+            365,
+            1012
+          ],
+          [
+            1846,
+            1012
+          ],
+          [
+            1846,
+            1058
+          ],
+          [
+            365,
+            1058
+          ]
+        ],
+        [
+          [
+            263,
+            1116
+          ],
+          [
+            576,
+            1116
+          ],
+          [
+            576,
+            1154
+          ],
+          [
+            263,
+            1154
+          ]
+        ],
+        [
+          [
+            263,
+            1165
+          ],
+          [
+            2214,
+            1165
+          ],
+          [
+            2214,
+            1203
+          ],
+          [
+            263,
+            1203
+          ]
+        ],
+        [
+          [
+            263,
+            1209
+          ],
+          [
+            2217,
+            1209
+          ],
+          [
+            2217,
+            1247
+          ],
+          [
+            263,
+            1247
+          ]
+        ],
+        [
+          [
+            260,
+            1253
+          ],
+          [
+            2214,
+            1253
+          ],
+          [
+            2214,
+            1288
+          ],
+          [
+            260,
+            1288
+          ]
+        ],
+        [
+          [
+            263,
+            1294
+          ],
+          [
+            2214,
+            1294
+          ],
+          [
+            2214,
+            1332
+          ],
+          [
+            263,
+            1332
+          ]
+        ],
+        [
+          [
+            260,
+            1338
+          ],
+          [
+            2214,
+            1338
+          ],
+          [
+            2214,
+            1376
+          ],
+          [
+            260,
+            1376
+          ]
+        ],
+        [
+          [
+            260,
+            1382
+          ],
+          [
+            1998,
+            1382
+          ],
+          [
+            1998,
+            1420
+          ],
+          [
+            260,
+            1420
+          ]
+        ],
+        [
+          [
+            263,
+            1480
+          ],
+          [
+            960,
+            1480
+          ],
+          [
+            960,
+            1519
+          ],
+          [
+            263,
+            1519
+          ]
+        ],
+        [
+          [
+            260,
+            1530
+          ],
+          [
+            2217,
+            1530
+          ],
+          [
+            2217,
+            1568
+          ],
+          [
+            260,
+            1568
+          ]
+        ],
+        [
+          [
+            260,
+            1574
+          ],
+          [
+            1453,
+            1574
+          ],
+          [
+            1453,
+            1612
+          ],
+          [
+            260,
+            1612
+          ]
+        ],
+        [
+          [
+            263,
+            1659
+          ],
+          [
+            2217,
+            1659
+          ],
+          [
+            2217,
+            1697
+          ],
+          [
+            263,
+            1697
+          ]
+        ],
+        [
+          [
+            252,
+            1691
+          ],
+          [
+            2220,
+            1697
+          ],
+          [
+            2220,
+            1752
+          ],
+          [
+            252,
+            1746
+          ]
+        ],
+        [
+          [
+            260,
+            1746
+          ],
+          [
+            2040,
+            1746
+          ],
+          [
+            2040,
+            1785
+          ],
+          [
+            260,
+            1785
+          ]
+        ],
+        [
+          [
+            263,
+            1831
+          ],
+          [
+            2214,
+            1831
+          ],
+          [
+            2214,
+            1870
+          ],
+          [
+            263,
+            1870
+          ]
+        ],
+        [
+          [
+            257,
+            1875
+          ],
+          [
+            783,
+            1875
+          ],
+          [
+            783,
+            1914
+          ],
+          [
+            257,
+            1914
+          ]
+        ],
+        [
+          [
+            260,
+            1968
+          ],
+          [
+            587,
+            1971
+          ],
+          [
+            587,
+            2012
+          ],
+          [
+            260,
+            2009
+          ]
+        ],
+        [
+          [
+            263,
+            2023
+          ],
+          [
+            2214,
+            2023
+          ],
+          [
+            2214,
+            2062
+          ],
+          [
+            263,
+            2062
+          ]
+        ],
+        [
+          [
+            260,
+            2067
+          ],
+          [
+            2214,
+            2067
+          ],
+          [
+            2214,
+            2105
+          ],
+          [
+            260,
+            2105
+          ]
+        ],
+        [
+          [
+            255,
+            2105
+          ],
+          [
+            2220,
+            2103
+          ],
+          [
+            2220,
+            2149
+          ],
+          [
+            255,
+            2152
+          ]
+        ],
+        [
+          [
+            260,
+            2152
+          ],
+          [
+            1962,
+            2152
+          ],
+          [
+            1962,
+            2190
+          ],
+          [
+            260,
+            2190
+          ]
+        ],
+        [
+          [
+            263,
+            2237
+          ],
+          [
+            2214,
+            2237
+          ],
+          [
+            2214,
+            2275
+          ],
+          [
+            263,
+            2275
+          ]
+        ],
+        [
+          [
+            257,
+            2284
+          ],
+          [
+            2214,
+            2284
+          ],
+          [
+            2214,
+            2319
+          ],
+          [
+            257,
+            2319
+          ]
+        ],
+        [
+          [
+            260,
+            2327
+          ],
+          [
+            2214,
+            2327
+          ],
+          [
+            2214,
+            2366
+          ],
+          [
+            260,
+            2366
+          ]
+        ],
+        [
+          [
+            257,
+            2369
+          ],
+          [
+            2212,
+            2369
+          ],
+          [
+            2212,
+            2407
+          ],
+          [
+            257,
+            2407
+          ]
+        ],
+        [
+          [
+            257,
+            2412
+          ],
+          [
+            2212,
+            2412
+          ],
+          [
+            2212,
+            2451
+          ],
+          [
+            257,
+            2451
+          ]
+        ],
+        [
+          [
+            260,
+            2456
+          ],
+          [
+            1486,
+            2456
+          ],
+          [
+            1486,
+            2495
+          ],
+          [
+            260,
+            2495
+          ]
+        ],
+        [
+          [
+            260,
+            2541
+          ],
+          [
+            933,
+            2541
+          ],
+          [
+            933,
+            2580
+          ],
+          [
+            260,
+            2580
+          ]
+        ],
+        [
+          [
+            257,
+            2637
+          ],
+          [
+            1448,
+            2634
+          ],
+          [
+            1448,
+            2681
+          ],
+          [
+            257,
+            2684
+          ]
+        ],
+        [
+          [
+            260,
+            2692
+          ],
+          [
+            1461,
+            2692
+          ],
+          [
+            1461,
+            2730
+          ],
+          [
+            260,
+            2730
+          ]
+        ],
+        [
+          [
+            360,
+            2728
+          ],
+          [
+            2214,
+            2730
+          ],
+          [
+            2214,
+            2777
+          ],
+          [
+            360,
+            2774
+          ]
+        ],
+        [
+          [
+            396,
+            2772
+          ],
+          [
+            1766,
+            2774
+          ],
+          [
+            1766,
+            2821
+          ],
+          [
+            396,
+            2818
+          ]
+        ],
+        [
+          [
+            371,
+            2815
+          ],
+          [
+            2214,
+            2818
+          ],
+          [
+            2214,
+            2865
+          ],
+          [
+            371,
+            2862
+          ]
+        ],
+        [
+          [
+            404,
+            2868
+          ],
+          [
+            639,
+            2868
+          ],
+          [
+            639,
+            2906
+          ],
+          [
+            404,
+            2906
+          ]
+        ],
+        [
+          [
+            1190,
+            3323
+          ],
+          [
+            1287,
+            3323
+          ],
+          [
+            1287,
+            3364
+          ],
+          [
+            1190,
+            3364
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO",
+        "LIMITED",
+        "We have audited the financial statements of Hippodrome Casino Limited (the company') for the year ended 31",
+        "December 2025 which comprise the Statement of Comprehensive Income, Statement of Financial Position,",
+        "Statement of Changes in Equity and notes to the financial statements, including significant accounting policies. The",
+        "financial reporting framework that has been applied in their preparation is applicable law and United Kingdom",
+        "Accounting Standards, including FRS 1o2 \"The Financial Reporting Standard applicable in the UK and Republic of",
+        "Ireland\" (United Kingdom Generally Accepted Accounting Practice).",
+        "In our opinion, the financial statements:",
+        "• give a true and fair view of the state of the company's affairs as at 31 December 2025 and of its profit for",
+        "the year then ended;",
+        "• have been properly prepared in accordance with United Kingdom Generally Accepted Accounting Practice;",
+        "and",
+        "• have been prepared in accordance with the requirements of the Companies Act 2006.",
+        "Basis for opinion",
+        "We conducted our audit in accordance with International Standards on Auditing (UK) (ISAs (UK)) and applicable",
+        "law. Our responsibilities under those standards are further described in the Auditor's responsibilites for the audit of",
+        "the financial statements section of our report. We are independent of the company in accordance with the ethical",
+        "requirements that are relevant to our audit of the financial statements in the UK, including the FRC's Ethical",
+        "Standard, and we have fulfilled our. other ethical responsibilities in accordance with these requirements. We believe",
+        "that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our opinion.",
+        "Conclusions relating to going concern",
+        "In auditing the financial statements, we have concluded that the directors' use of the going concern basis of",
+        "accounting in the preparation of the financial statements is appropriate.",
+        "Based on the work we have performed, we have not identified any material uncertainties relating to events or",
+        "conditions that, individually or collectively, may cast significant doubt on the company's ability to continue as a going",
+        "concern for a period of at least twelve months from when the financial statements are authorised for issue.",
+        "Our responsibilities and the responsibilities of the directors with respect to going concern are described in the",
+        "relevant sections of this report.",
+        "Other information",
+        "The other information comprises the information included in the annual report, other than the financial statements",
+        "and our auditor's report thereon. The directors are responsible for the other information contained within the annual",
+        "report. Our opinion on the financial statements does not cover the other information and, except to the extent",
+        "otherwise explicitly stated in our report, we do not express any form of assurance conclusion thereon.",
+        "Our responsibility is to read the other information and, in doing so, consider whether the other information is",
+        "materially inconsistent with the financial statements or our knowledge obtained in the course of the audit or",
+        "otherwise appears to be materially misstated. If we identify such material inconsistencies or apparent material",
+        "misstatements, we are required to determine whether this gives rise to a material misstatement in the financial",
+        "statements themselves. If, based on the work we have performed, we conclude that there is a material",
+        "misstatement of this other information, we are required to report that fact",
+        "We have nothing to report in this regard",
+        "Opinions on other matters prescribed by the Companies Act 2006",
+        "In our opinion, based on the work undertaken in the course of the audit:",
+        "• the information given in the strategic report and the directors' report for the financial year for which the",
+        "financial statements are prepared is consistent with the financial statements; and",
+        "• the strategic report and the directors' report have been prepared in accordance with applicable legal",
+        "requirements.",
+        "- 15-"
+      ],
+      "rec_scores": [
+        0.9299530982971191,
+        0.9962538480758667,
+        0.9709582328796387,
+        0.9778205752372742,
+        0.9916471838951111,
+        0.9755833745002747,
+        0.965083658695221,
+        0.9859960675239563,
+        0.984451174736023,
+        0.9775468111038208,
+        0.946522057056427,
+        0.9779604077339172,
+        0.9992704391479492,
+        0.9767563343048096,
+        0.9916282892227173,
+        0.9688636064529419,
+        0.9821022152900696,
+        0.9776564836502075,
+        0.9778769016265869,
+        0.9804099202156067,
+        0.9801101684570312,
+        0.990140438079834,
+        0.9802104234695435,
+        0.9905749559402466,
+        0.9838951230049133,
+        0.989719808101654,
+        0.9716476798057556,
+        0.9759414196014404,
+        0.9970116019248962,
+        0.997823178768158,
+        0.9855517148971558,
+        0.9815230965614319,
+        0.979689359664917,
+        0.9825698733329773,
+        0.9823698401451111,
+        0.9849950671195984,
+        0.9810713529586792,
+        0.9732431173324585,
+        0.9635450839996338,
+        0.9684724807739258,
+        0.9600422978401184,
+        0.9795985817909241,
+        0.9862534403800964,
+        0.9673202633857727,
+        0.9869898557662964,
+        0.986191987991333,
+        0.9987589120864868,
+        0.9006489515304565
+      ],
+      "rec_polys": [
+        [
+          [
+            260,
+            282
+          ],
+          [
+            2162,
+            282
+          ],
+          [
+            2162,
+            329
+          ],
+          [
+            260,
+            329
+          ]
+        ],
+        [
+          [
+            260,
+            337
+          ],
+          [
+            459,
+            337
+          ],
+          [
+            459,
+            387
+          ],
+          [
+            260,
+            387
+          ]
+        ],
+        [
+          [
+            263,
+            482
+          ],
+          [
+            2212,
+            482
+          ],
+          [
+            2212,
+            521
+          ],
+          [
+            263,
+            521
+          ]
+        ],
+        [
+          [
+            263,
+            526
+          ],
+          [
+            2214,
+            526
+          ],
+          [
+            2214,
+            565
+          ],
+          [
+            263,
+            565
+          ]
+        ],
+        [
+          [
+            263,
+            570
+          ],
+          [
+            2217,
+            570
+          ],
+          [
+            2217,
+            609
+          ],
+          [
+            263,
+            609
+          ]
+        ],
+        [
+          [
+            260,
+            614
+          ],
+          [
+            2217,
+            614
+          ],
+          [
+            2217,
+            652
+          ],
+          [
+            260,
+            652
+          ]
+        ],
+        [
+          [
+            255,
+            652
+          ],
+          [
+            2220,
+            650
+          ],
+          [
+            2220,
+            696
+          ],
+          [
+            255,
+            699
+          ]
+        ],
+        [
+          [
+            260,
+            702
+          ],
+          [
+            1392,
+            702
+          ],
+          [
+            1392,
+            740
+          ],
+          [
+            260,
+            740
+          ]
+        ],
+        [
+          [
+            260,
+            798
+          ],
+          [
+            927,
+            798
+          ],
+          [
+            927,
+            836
+          ],
+          [
+            260,
+            836
+          ]
+        ],
+        [
+          [
+            360,
+            839
+          ],
+          [
+            2217,
+            836
+          ],
+          [
+            2217,
+            883
+          ],
+          [
+            360,
+            885
+          ]
+        ],
+        [
+          [
+            401,
+            888
+          ],
+          [
+            761,
+            888
+          ],
+          [
+            761,
+            927
+          ],
+          [
+            401,
+            927
+          ]
+        ],
+        [
+          [
+            374,
+            927
+          ],
+          [
+            2214,
+            927
+          ],
+          [
+            2214,
+            973
+          ],
+          [
+            374,
+            973
+          ]
+        ],
+        [
+          [
+            401,
+            976
+          ],
+          [
+            479,
+            976
+          ],
+          [
+            479,
+            1012
+          ],
+          [
+            401,
+            1012
+          ]
+        ],
+        [
+          [
+            365,
+            1012
+          ],
+          [
+            1846,
+            1012
+          ],
+          [
+            1846,
+            1058
+          ],
+          [
+            365,
+            1058
+          ]
+        ],
+        [
+          [
+            263,
+            1116
+          ],
+          [
+            576,
+            1116
+          ],
+          [
+            576,
+            1154
+          ],
+          [
+            263,
+            1154
+          ]
+        ],
+        [
+          [
+            263,
+            1165
+          ],
+          [
+            2214,
+            1165
+          ],
+          [
+            2214,
+            1203
+          ],
+          [
+            263,
+            1203
+          ]
+        ],
+        [
+          [
+            263,
+            1209
+          ],
+          [
+            2217,
+            1209
+          ],
+          [
+            2217,
+            1247
+          ],
+          [
+            263,
+            1247
+          ]
+        ],
+        [
+          [
+            260,
+            1253
+          ],
+          [
+            2214,
+            1253
+          ],
+          [
+            2214,
+            1288
+          ],
+          [
+            260,
+            1288
+          ]
+        ],
+        [
+          [
+            263,
+            1294
+          ],
+          [
+            2214,
+            1294
+          ],
+          [
+            2214,
+            1332
+          ],
+          [
+            263,
+            1332
+          ]
+        ],
+        [
+          [
+            260,
+            1338
+          ],
+          [
+            2214,
+            1338
+          ],
+          [
+            2214,
+            1376
+          ],
+          [
+            260,
+            1376
+          ]
+        ],
+        [
+          [
+            260,
+            1382
+          ],
+          [
+            1998,
+            1382
+          ],
+          [
+            1998,
+            1420
+          ],
+          [
+            260,
+            1420
+          ]
+        ],
+        [
+          [
+            263,
+            1480
+          ],
+          [
+            960,
+            1480
+          ],
+          [
+            960,
+            1519
+          ],
+          [
+            263,
+            1519
+          ]
+        ],
+        [
+          [
+            260,
+            1530
+          ],
+          [
+            2217,
+            1530
+          ],
+          [
+            2217,
+            1568
+          ],
+          [
+            260,
+            1568
+          ]
+        ],
+        [
+          [
+            260,
+            1574
+          ],
+          [
+            1453,
+            1574
+          ],
+          [
+            1453,
+            1612
+          ],
+          [
+            260,
+            1612
+          ]
+        ],
+        [
+          [
+            263,
+            1659
+          ],
+          [
+            2217,
+            1659
+          ],
+          [
+            2217,
+            1697
+          ],
+          [
+            263,
+            1697
+          ]
+        ],
+        [
+          [
+            252,
+            1691
+          ],
+          [
+            2220,
+            1697
+          ],
+          [
+            2220,
+            1752
+          ],
+          [
+            252,
+            1746
+          ]
+        ],
+        [
+          [
+            260,
+            1746
+          ],
+          [
+            2040,
+            1746
+          ],
+          [
+            2040,
+            1785
+          ],
+          [
+            260,
+            1785
+          ]
+        ],
+        [
+          [
+            263,
+            1831
+          ],
+          [
+            2214,
+            1831
+          ],
+          [
+            2214,
+            1870
+          ],
+          [
+            263,
+            1870
+          ]
+        ],
+        [
+          [
+            257,
+            1875
+          ],
+          [
+            783,
+            1875
+          ],
+          [
+            783,
+            1914
+          ],
+          [
+            257,
+            1914
+          ]
+        ],
+        [
+          [
+            260,
+            1968
+          ],
+          [
+            587,
+            1971
+          ],
+          [
+            587,
+            2012
+          ],
+          [
+            260,
+            2009
+          ]
+        ],
+        [
+          [
+            263,
+            2023
+          ],
+          [
+            2214,
+            2023
+          ],
+          [
+            2214,
+            2062
+          ],
+          [
+            263,
+            2062
+          ]
+        ],
+        [
+          [
+            260,
+            2067
+          ],
+          [
+            2214,
+            2067
+          ],
+          [
+            2214,
+            2105
+          ],
+          [
+            260,
+            2105
+          ]
+        ],
+        [
+          [
+            255,
+            2105
+          ],
+          [
+            2220,
+            2103
+          ],
+          [
+            2220,
+            2149
+          ],
+          [
+            255,
+            2152
+          ]
+        ],
+        [
+          [
+            260,
+            2152
+          ],
+          [
+            1962,
+            2152
+          ],
+          [
+            1962,
+            2190
+          ],
+          [
+            260,
+            2190
+          ]
+        ],
+        [
+          [
+            263,
+            2237
+          ],
+          [
+            2214,
+            2237
+          ],
+          [
+            2214,
+            2275
+          ],
+          [
+            263,
+            2275
+          ]
+        ],
+        [
+          [
+            257,
+            2284
+          ],
+          [
+            2214,
+            2284
+          ],
+          [
+            2214,
+            2319
+          ],
+          [
+            257,
+            2319
+          ]
+        ],
+        [
+          [
+            260,
+            2327
+          ],
+          [
+            2214,
+            2327
+          ],
+          [
+            2214,
+            2366
+          ],
+          [
+            260,
+            2366
+          ]
+        ],
+        [
+          [
+            257,
+            2369
+          ],
+          [
+            2212,
+            2369
+          ],
+          [
+            2212,
+            2407
+          ],
+          [
+            257,
+            2407
+          ]
+        ],
+        [
+          [
+            257,
+            2412
+          ],
+          [
+            2212,
+            2412
+          ],
+          [
+            2212,
+            2451
+          ],
+          [
+            257,
+            2451
+          ]
+        ],
+        [
+          [
+            260,
+            2456
+          ],
+          [
+            1486,
+            2456
+          ],
+          [
+            1486,
+            2495
+          ],
+          [
+            260,
+            2495
+          ]
+        ],
+        [
+          [
+            260,
+            2541
+          ],
+          [
+            933,
+            2541
+          ],
+          [
+            933,
+            2580
+          ],
+          [
+            260,
+            2580
+          ]
+        ],
+        [
+          [
+            257,
+            2637
+          ],
+          [
+            1448,
+            2634
+          ],
+          [
+            1448,
+            2681
+          ],
+          [
+            257,
+            2684
+          ]
+        ],
+        [
+          [
+            260,
+            2692
+          ],
+          [
+            1461,
+            2692
+          ],
+          [
+            1461,
+            2730
+          ],
+          [
+            260,
+            2730
+          ]
+        ],
+        [
+          [
+            360,
+            2728
+          ],
+          [
+            2214,
+            2730
+          ],
+          [
+            2214,
+            2777
+          ],
+          [
+            360,
+            2774
+          ]
+        ],
+        [
+          [
+            396,
+            2772
+          ],
+          [
+            1766,
+            2774
+          ],
+          [
+            1766,
+            2821
+          ],
+          [
+            396,
+            2818
+          ]
+        ],
+        [
+          [
+            371,
+            2815
+          ],
+          [
+            2214,
+            2818
+          ],
+          [
+            2214,
+            2865
+          ],
+          [
+            371,
+            2862
+          ]
+        ],
+        [
+          [
+            404,
+            2868
+          ],
+          [
+            639,
+            2868
+          ],
+          [
+            639,
+            2906
+          ],
+          [
+            404,
+            2906
+          ]
+        ],
+        [
+          [
+            1190,
+            3323
+          ],
+          [
+            1287,
+            3323
+          ],
+          [
+            1287,
+            3364
+          ],
+          [
+            1190,
+            3364
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          260,
+          282,
+          2162,
+          329
+        ],
+        [
+          260,
+          337,
+          459,
+          387
+        ],
+        [
+          263,
+          482,
+          2212,
+          521
+        ],
+        [
+          263,
+          526,
+          2214,
+          565
+        ],
+        [
+          263,
+          570,
+          2217,
+          609
+        ],
+        [
+          260,
+          614,
+          2217,
+          652
+        ],
+        [
+          255,
+          650,
+          2220,
+          699
+        ],
+        [
+          260,
+          702,
+          1392,
+          740
+        ],
+        [
+          260,
+          798,
+          927,
+          836
+        ],
+        [
+          360,
+          836,
+          2217,
+          885
+        ],
+        [
+          401,
+          888,
+          761,
+          927
+        ],
+        [
+          374,
+          927,
+          2214,
+          973
+        ],
+        [
+          401,
+          976,
+          479,
+          1012
+        ],
+        [
+          365,
+          1012,
+          1846,
+          1058
+        ],
+        [
+          263,
+          1116,
+          576,
+          1154
+        ],
+        [
+          263,
+          1165,
+          2214,
+          1203
+        ],
+        [
+          263,
+          1209,
+          2217,
+          1247
+        ],
+        [
+          260,
+          1253,
+          2214,
+          1288
+        ],
+        [
+          263,
+          1294,
+          2214,
+          1332
+        ],
+        [
+          260,
+          1338,
+          2214,
+          1376
+        ],
+        [
+          260,
+          1382,
+          1998,
+          1420
+        ],
+        [
+          263,
+          1480,
+          960,
+          1519
+        ],
+        [
+          260,
+          1530,
+          2217,
+          1568
+        ],
+        [
+          260,
+          1574,
+          1453,
+          1612
+        ],
+        [
+          263,
+          1659,
+          2217,
+          1697
+        ],
+        [
+          252,
+          1691,
+          2220,
+          1752
+        ],
+        [
+          260,
+          1746,
+          2040,
+          1785
+        ],
+        [
+          263,
+          1831,
+          2214,
+          1870
+        ],
+        [
+          257,
+          1875,
+          783,
+          1914
+        ],
+        [
+          260,
+          1968,
+          587,
+          2012
+        ],
+        [
+          263,
+          2023,
+          2214,
+          2062
+        ],
+        [
+          260,
+          2067,
+          2214,
+          2105
+        ],
+        [
+          255,
+          2103,
+          2220,
+          2152
+        ],
+        [
+          260,
+          2152,
+          1962,
+          2190
+        ],
+        [
+          263,
+          2237,
+          2214,
+          2275
+        ],
+        [
+          257,
+          2284,
+          2214,
+          2319
+        ],
+        [
+          260,
+          2327,
+          2214,
+          2366
+        ],
+        [
+          257,
+          2369,
+          2212,
+          2407
+        ],
+        [
+          257,
+          2412,
+          2212,
+          2451
+        ],
+        [
+          260,
+          2456,
+          1486,
+          2495
+        ],
+        [
+          260,
+          2541,
+          933,
+          2580
+        ],
+        [
+          257,
+          2634,
+          1448,
+          2684
+        ],
+        [
+          260,
+          2692,
+          1461,
+          2730
+        ],
+        [
+          360,
+          2728,
+          2214,
+          2777
+        ],
+        [
+          396,
+          2772,
+          1766,
+          2821
+        ],
+        [
+          371,
+          2815,
+          2214,
+          2865
+        ],
+        [
+          404,
+          2868,
+          639,
+          2906
+        ],
+        [
+          1190,
+          3323,
+          1287,
+          3364
+        ]
+      ]
+    }
+  }
+}

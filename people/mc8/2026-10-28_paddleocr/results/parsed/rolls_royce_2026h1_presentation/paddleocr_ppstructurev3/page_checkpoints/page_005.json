@@ -1,0 +1,121 @@
+{
+  "audit": {
+    "page": 5,
+    "image_width": 4000,
+    "image_height": 2250,
+    "render_dpi": 300,
+    "image_pixels_sha256": "26e5ea22fd680fe5d0d5942764eb19f340373bada7ea4fe66f538e84dca754c5",
+    "raw_prediction": "raw/page_005.json",
+    "raw_sha256": "a73ed50f1af9f0e3d964fe143f27e621c3a537240fcd6decd0c7376519c5befe",
+    "blocks": 8,
+    "tables": 0,
+    "elapsed_seconds": 21.587
+  },
+  "chunk": {
+    "text": "## STRONG OPERATIONAL AND FINANCIAL PERFORMANCE \n\nDIVISIONAL OPERATING MARGIN \n\n<div style=\"text-align: center;\"><img src=\"images/page_005/img_in_image_box_120_634_3880_1977.jpg\" alt=\"Image\" width=\"94%\" /></div>\n\n\nKEY GROUP FINANCIAL METRICS \n\nROLLS R ROYCE \n\n1 Operating profit and operating margin shown on an underlying basis \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n5",
+    "native": {
+      "page_index": 4,
+      "raw_prediction": "raw/page_005.json",
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE ",
+          "block_bbox": [
+            119,
+            153,
+            2886,
+            279
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "text",
+          "block_content": "DIVISIONAL OPERATING MARGIN ",
+          "block_bbox": [
+            2059,
+            457,
+            2803,
+            521
+          ],
+          "block_id": 1,
+          "block_order": 2
+        },
+        {
+          "block_label": "image",
+          "block_content": "Operating profit'Operating margin'CIVILAEROSPACE £2.5bn 22.5%25.3%+46%yoy +3.1pts yoy +0.5pts DEFENCE 21.0%Free cash flow Return on capital +5.4pts £2.0bn 22%\nPOWER SYSTEMS +24%yoy +5.1pts yoy \n20.3%\n+5.3pts ",
+          "block_bbox": [
+            120,
+            634,
+            3880,
+            1977
+          ],
+          "block_id": 2,
+          "block_order": null
+        },
+        {
+          "block_label": "header",
+          "block_content": "KEY GROUP FINANCIAL METRICS ",
+          "block_bbox": [
+            118,
+            459,
+            857,
+            519
+          ],
+          "block_id": 3,
+          "block_order": 3
+        },
+        {
+          "block_label": "header",
+          "block_content": "ROLLS R ROYCE ",
+          "block_bbox": [
+            3735,
+            153,
+            3879,
+            380
+          ],
+          "block_id": 4,
+          "block_order": 4
+        },
+        {
+          "block_label": "footer",
+          "block_content": "1 Operating profit and operating margin shown on an underlying basis ",
+          "block_bbox": [
+            116,
+            2160,
+            1171,
+            2194
+          ],
+          "block_id": 5,
+          "block_order": 5
+        },
+        {
+          "block_label": "footer",
+          "block_content": "© 2026 Rolls-Royce. Not Subject to Export Control ",
+          "block_bbox": [
+            3073,
+            2157,
+            3806,
+            2190
+          ],
+          "block_id": 6,
+          "block_order": 6
+        },
+        {
+          "block_label": "number",
+          "block_content": "5",
+          "block_bbox": [
+            3867,
+            2156,
+            3892,
+            2192
+          ],
+          "block_id": 7,
+          "block_order": 7
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "db77951b495a40ee3dd47fe6f811d363dc265944c15cb0df70d5796241aa4238",
+  "provenance": "selected_page_worker"
+}

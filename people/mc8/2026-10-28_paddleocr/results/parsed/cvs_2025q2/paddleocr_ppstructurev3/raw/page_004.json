@@ -1,0 +1,591 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 4000,
+    "height": 2250,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "〜",
+        "block_bbox": [
+          1807,
+          526,
+          2193,
+          811
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "OUR FOCUS ",
+        "block_bbox": [
+          1772,
+          857,
+          2225,
+          941
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "doc_title",
+        "block_content": "Becoming America's  most trusted health  care company ",
+        "block_bbox": [
+          917,
+          990,
+          3089,
+          1765
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "number",
+        "block_content": "4",
+        "block_bbox": [
+          226,
+          2113,
+          258,
+          2144
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "footer",
+        "block_content": "©2025 CVS Health and/or one of its afiliates. Confidential and proprietary.",
+        "block_bbox": [
+          368,
+          2106,
+          1805,
+          2150
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "footer",
+        "block_content": "`CVSHealth.",
+        "block_bbox": [
+          3385,
+          2082,
+          3814,
+          2142
+        ],
+        "block_id": 5,
+        "block_order": 6
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 14,
+          "label": "footer",
+          "score": 0.9005534648895264,
+          "coordinate": [
+            368.3997802734375,
+            2106.954833984375,
+            1805.0445556640625,
+            2150.055908203125
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.7642068862915039,
+          "coordinate": [
+            226.25094604492188,
+            2113.3486328125,
+            258.57489013671875,
+            2144.3828125
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "footer",
+          "score": 0.7562881708145142,
+          "coordinate": [
+            3385.530029296875,
+            2082.7587890625,
+            3814.505126953125,
+            2142.49267578125
+          ]
+        },
+        {
+          "cls_id": 10,
+          "label": "doc_title",
+          "score": 0.7372721433639526,
+          "coordinate": [
+            917.7703857421875,
+            990.8093872070312,
+            3089.5361328125,
+            1765.645751953125
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.5378926396369934,
+          "coordinate": [
+            1807.57763671875,
+            526.2098388671875,
+            2193.0341796875,
+            811.52685546875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.4329279661178589,
+          "coordinate": [
+            1772.213134765625,
+            857.7529296875,
+            2225.0556640625,
+            941.959716796875
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            1776,
+            850
+          ],
+          [
+            2219,
+            857
+          ],
+          [
+            2218,
+            946
+          ],
+          [
+            1775,
+            939
+          ]
+        ],
+        [
+          [
+            888,
+            968
+          ],
+          [
+            3122,
+            975
+          ],
+          [
+            3121,
+            1247
+          ],
+          [
+            887,
+            1240
+          ]
+        ],
+        [
+          [
+            953,
+            1266
+          ],
+          [
+            3040,
+            1252
+          ],
+          [
+            3041,
+            1473
+          ],
+          [
+            954,
+            1487
+          ]
+        ],
+        [
+          [
+            1235,
+            1539
+          ],
+          [
+            2761,
+            1577
+          ],
+          [
+            2756,
+            1785
+          ],
+          [
+            1230,
+            1747
+          ]
+        ],
+        [
+          [
+            357,
+            2090
+          ],
+          [
+            1810,
+            2103
+          ],
+          [
+            1809,
+            2167
+          ],
+          [
+            356,
+            2154
+          ]
+        ],
+        [
+          [
+            3431,
+            2084
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3816,
+            2148
+          ],
+          [
+            3431,
+            2148
+          ]
+        ],
+        [
+          [
+            3403,
+            2097
+          ],
+          [
+            3462,
+            2097
+          ],
+          [
+            3462,
+            2132
+          ],
+          [
+            3403,
+            2132
+          ]
+        ],
+        [
+          [
+            225,
+            2113
+          ],
+          [
+            256,
+            2113
+          ],
+          [
+            256,
+            2148
+          ],
+          [
+            225,
+            2148
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "OUR FOCUS",
+        "Becoming America's",
+        "most trusted health",
+        "care company",
+        "©2025 CVS Health and/or one of its afiliates. Confidential and proprietary.",
+        "CVSHealth.",
+        "`",
+        "4",
+        "〜"
+      ],
+      "rec_scores": [
+        0.9614095687866211,
+        0.9952388405799866,
+        0.9979457855224609,
+        0.9881162643432617,
+        0.976993203163147,
+        0.9326915740966797,
+        0.9517635703086853,
+        0.9939928650856018,
+        0.4509565532207489
+      ],
+      "rec_polys": [
+        [
+          [
+            1776,
+            850
+          ],
+          [
+            2219,
+            857
+          ],
+          [
+            2218,
+            946
+          ],
+          [
+            1775,
+            939
+          ]
+        ],
+        [
+          [
+            888,
+            968
+          ],
+          [
+            3122,
+            975
+          ],
+          [
+            3121,
+            1247
+          ],
+          [
+            887,
+            1240
+          ]
+        ],
+        [
+          [
+            953,
+            1266
+          ],
+          [
+            3040,
+            1252
+          ],
+          [
+            3041,
+            1473
+          ],
+          [
+            954,
+            1487
+          ]
+        ],
+        [
+          [
+            1235,
+            1539
+          ],
+          [
+            2761,
+            1577
+          ],
+          [
+            2756,
+            1785
+          ],
+          [
+            1230,
+            1747
+          ]
+        ],
+        [
+          [
+            357,
+            2090
+          ],
+          [
+            1810,
+            2103
+          ],
+          [
+            1809,
+            2167
+          ],
+          [
+            356,
+            2154
+          ]
+        ],
+        [
+          [
+            3431,
+            2084
+          ],
+          [
+            3816,
+            2084
+          ],
+          [
+            3816,
+            2148
+          ],
+          [
+            3431,
+            2148
+          ]
+        ],
+        [
+          [
+            3403,
+            2097
+          ],
+          [
+            3462,
+            2097
+          ],
+          [
+            3462,
+            2132
+          ],
+          [
+            3403,
+            2132
+          ]
+        ],
+        [
+          [
+            225,
+            2113
+          ],
+          [
+            256,
+            2113
+          ],
+          [
+            256,
+            2148
+          ],
+          [
+            225,
+            2148
+          ]
+        ],
+        [
+          [
+            1807,
+            526
+          ],
+          [
+            2193,
+            526
+          ],
+          [
+            2193,
+            811
+          ],
+          [
+            1807,
+            811
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          1775.0,
+          850.0,
+          2219.0,
+          946.0
+        ],
+        [
+          887.0,
+          968.0,
+          3122.0,
+          1247.0
+        ],
+        [
+          953.0,
+          1252.0,
+          3041.0,
+          1487.0
+        ],
+        [
+          1230.0,
+          1539.0,
+          2761.0,
+          1785.0
+        ],
+        [
+          356.0,
+          2090.0,
+          1810.0,
+          2167.0
+        ],
+        [
+          3431.0,
+          2084.0,
+          3816.0,
+          2148.0
+        ],
+        [
+          3403.0,
+          2097.0,
+          3462.0,
+          2132.0
+        ],
+        [
+          225.0,
+          2113.0,
+          256.0,
+          2148.0
+        ],
+        [
+          1807.57763671875,
+          526.2098388671875,
+          2193.0341796875,
+          811.52685546875
+        ]
+      ]
+    }
+  }
+}

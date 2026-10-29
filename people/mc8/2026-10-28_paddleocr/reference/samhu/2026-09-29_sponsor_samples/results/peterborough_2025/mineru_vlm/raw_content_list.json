@@ -1,0 +1,1618 @@
+[
+    {
+        "type": "text",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "text_level": 1,
+        "bbox": [
+            339,
+            330,
+            658,
+            345
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "UNAUDITED",
+        "bbox": [
+            447,
+            409,
+            549,
+            422
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "FINANCIAL STATEMENTS",
+        "bbox": [
+            391,
+            460,
+            606,
+            473
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+        "bbox": [
+            332,
+            511,
+            665,
+            524
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Registered number: 01814662",
+        "bbox": [
+            631,
+            24,
+            838,
+            38
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/29301e693f3df28a265878216daa1f3022f22bc0f5ed92103db76e29d66fa0b0.jpg",
+        "table_caption": [
+            "BALANCE SHEET",
+            "AS AT 31 MARCH 2025"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Note</td><td>2025£</td><td>2024£</td></tr><tr><td colspan=\"4\">Fixed assets</td></tr><tr><td>Tangible assets</td><td>4</td><td>967,756</td><td>992,467</td></tr><tr><td colspan=\"4\">Current assets</td></tr><tr><td>Debtors: amounts falling due within one year</td><td>5</td><td>2,278,941</td><td>4,936,255</td></tr><tr><td>Bank and cash balances</td><td></td><td>2,751,541</td><td>821,700</td></tr><tr><td></td><td></td><td>5,030,482</td><td>5,757,955</td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td>(504,045)</td><td>(508,936)</td></tr><tr><td>Net current assets</td><td></td><td>4,526,437</td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td>5,494,193</td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one year</td><td>7</td><td>(1,009,237)</td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td>4,484,956</td><td>5,194,638</td></tr><tr><td colspan=\"4\">Capital and reserves</td></tr><tr><td>Called up share capital</td><td></td><td>130</td><td>130</td></tr><tr><td>Share premium account</td><td></td><td>40,698</td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td>4,444,128</td><td>5,153,810</td></tr><tr><td></td><td></td><td>4,484,956</td><td>5,194,638</td></tr></table>",
+        "bbox": [
+            68,
+            152,
+            924,
+            579
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            58,
+            302,
+            70
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "REGISTERED NUMBER:01814662",
+        "bbox": [
+            70,
+            72,
+            302,
+            84
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "Page 1",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.",
+        "bbox": [
+            68,
+            167,
+            927,
+            207
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of financial statements.",
+        "bbox": [
+            68,
+            220,
+            927,
+            248
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+        "bbox": [
+            68,
+            261,
+            927,
+            289
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.",
+        "bbox": [
+            68,
+            302,
+            927,
+            328
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies' regime.",
+        "bbox": [
+            68,
+            342,
+            927,
+            369
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+        "bbox": [
+            68,
+            383,
+            779,
+            397
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Mr Ajay Marjara",
+        "text_level": 1,
+        "bbox": [
+            70,
+            460,
+            181,
+            473
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Director",
+        "bbox": [
+            70,
+            475,
+            124,
+            486
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Date: 19 December 2025",
+        "bbox": [
+            68,
+            501,
+            233,
+            513
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "The notes on pages 3 to 10 form part of these financial statements.",
+        "bbox": [
+            68,
+            528,
+            497,
+            541
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            67
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "REGISTERED NUMBER:01814662",
+        "bbox": [
+            70,
+            68,
+            302,
+            81
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "BALANCE SHEET (CONTINUED)",
+        "bbox": [
+            70,
+            102,
+            294,
+            115
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "AS AT 31 MARCH 2025",
+        "bbox": [
+            70,
+            116,
+            231,
+            129
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "Page 2",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1. General information",
+        "text_level": 1,
+        "bbox": [
+            70,
+            165,
+            245,
+            178
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Peterborough Care Limited (\"the Company\") is a private company limited by shares incorporated in England and Wales under the Companies Act.",
+        "bbox": [
+            115,
+            192,
+            927,
+            219
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The registered number and address of the registered office is given in the Company information.",
+        "bbox": [
+            117,
+            245,
+            727,
+            260
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The functional and presentational currency of the Company is pounds sterling (£) and rounded to the nearest whole pound.",
+        "bbox": [
+            117,
+            286,
+            895,
+            300
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Accounting policies",
+        "text_level": 1,
+        "bbox": [
+            70,
+            314,
+            260,
+            327
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.1 Basis of preparation of financial statements",
+        "text_level": 1,
+        "bbox": [
+            112,
+            338,
+            450,
+            351
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The financial statements have been prepared under the historical cost convention unless otherwise specified within these accounting policies and in accordance with Financial Reporting Standard 102, the Financial Reporting Standard applicable in the UK and the Republic of Ireland and the requirements and the Companies Act 2006. The disclosure requirements of Section 1A of FRS 102 have been applied other than where additional disclosure is required to show a true and fair view.",
+        "bbox": [
+            152,
+            365,
+            929,
+            432
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "The following principal accounting policies have been applied:",
+        "bbox": [
+            154,
+            446,
+            549,
+            459
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.2 Revenue",
+        "text_level": 1,
+        "bbox": [
+            114,
+            473,
+            215,
+            485
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Revenue is recognised to the extent that it is probable that the economic benefits will flow to the company and the revenue can be reliably measured. Revenue is measured as the fair value of the consideration received or receivable, excluding discounts, rebates, value added tax and other sales taxes. The following criteria must also be met before revenue is recognised:",
+        "bbox": [
+            152,
+            500,
+            927,
+            554
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Rendering of services",
+        "text_level": 1,
+        "bbox": [
+            154,
+            568,
+            309,
+            581
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Revenue from a contract to provide services is recognised in the period in which the services are provided in accordance with the stage of completion of the contract when all of the following conditions are satisfied:",
+        "bbox": [
+            152,
+            596,
+            927,
+            622
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• the amount of revenue can be measured reliably;",
+            "it is probable that the company will receive the consideration due under the contract;",
+            "the stage of completion of the contract at the end of the reporting period can be measured reliably; and",
+            "the costs incurred and the costs to complete the contract can be measured reliably."
+        ],
+        "bbox": [
+            156,
+            628,
+            857,
+            701
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2.3 Tangible fixed assets",
+        "text_level": 1,
+        "bbox": [
+            114,
+            716,
+            299,
+            729
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Tangible fixed assets under the cost model are stated at historical cost less accumulated depreciation and any accumulated impairment losses. Historical cost includes expenditure that is directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management.",
+        "bbox": [
+            152,
+            744,
+            927,
+            785
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "At each reporting date the company assesses whether there is any indication of impairment. If such indication exists, the recoverable amount of the asset is determined which is the higher of its fair value less costs to sell and its value in use. An impairment loss is recognised where the carrying amount exceeds the recoverable amount.",
+        "bbox": [
+            152,
+            798,
+            927,
+            838
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS",
+        "bbox": [
+            68,
+            102,
+            359,
+            114
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+        "bbox": [
+            70,
+            116,
+            347,
+            129
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "Page 3",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2. Accounting policies (continued)",
+        "text_level": 1,
+        "bbox": [
+            70,
+            160,
+            341,
+            174
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.3 Tangible fixed assets (continued)",
+        "text_level": 1,
+        "bbox": [
+            105,
+            188,
+            371,
+            201
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Depreciation is charged so as to allocate the cost of assets less their residual value over their estimated useful lives, on a reducing balance and straight line basis.",
+        "bbox": [
+            152,
+            216,
+            927,
+            243
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Depreciation is provided on the following basis:",
+        "bbox": [
+            154,
+            256,
+            455,
+            270
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/bbe387891dfd7b56450f74b0225d7f4b64faf20406a5eb6ec10e5baf9444b274.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Freehold property</td><td>- 2% straight line on cost</td></tr><tr><td>Plant and machinery</td><td>- 15% on reducing balance</td></tr><tr><td>Fixtures and fittings</td><td>- 15% on reducing balance</td></tr><tr><td>Computer equipment</td><td>- 25% on reducing balance</td></tr></table>",
+        "bbox": [
+            189,
+            283,
+            618,
+            338
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The assets' residual values, useful lives and depreciation methods are reviewed, and adjusted prospectively if appropriate, or if there is an indication of a significant change since the last reporting date.",
+        "bbox": [
+            152,
+            350,
+            929,
+            378
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Gains and losses on disposals are determined by comparing the proceeds with the carrying amount and are recognised in profit or loss.",
+        "bbox": [
+            152,
+            391,
+            927,
+            416
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.4 Debtors",
+        "text_level": 1,
+        "bbox": [
+            114,
+            431,
+            208,
+            444
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Short-term debtors are measured at transaction price, less any impairment. Loans receivable are measured initially at fair value, net of transaction costs, and are measured subsequently at amortised cost using the effective interest method, less any impairment.",
+        "bbox": [
+            152,
+            459,
+            927,
+            500
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.5 Cash and cash equivalents",
+        "text_level": 1,
+        "bbox": [
+            114,
+            513,
+            337,
+            526
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Cash is represented by cash in hand and deposits with financial institutions repayable without penalty on notice of not more than 24 hours. Cash equivalents are highly liquid investments that mature in no more than three months from the date of acquisition and that are readily convertible to known amounts of cash with insignificant risk of change in value.",
+        "bbox": [
+            152,
+            541,
+            927,
+            581
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.6 Financial instruments",
+        "text_level": 1,
+        "bbox": [
+            114,
+            593,
+            302,
+            606
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The company has elected to apply the provisions of Section 11 “Basic Financial Instruments” of FRS 102 to all of its financial instruments.",
+        "bbox": [
+            152,
+            622,
+            927,
+            648
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Financial instruments are recognised in the company's Balance Sheet when the company becomes party to the contractual provisions of the instrument.",
+        "bbox": [
+            152,
+            662,
+            927,
+            688
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Financial assets and liabilities are offset, with the net amounts presented in the financial statements, when there is a legally enforceable right to set off the recognised amounts and there is an intention to settle on a net basis or to realise the asset and settle the liability simultaneously.",
+        "bbox": [
+            152,
+            703,
+            927,
+            743
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Basic financial assets",
+        "text_level": 1,
+        "bbox": [
+            154,
+            757,
+            307,
+            768
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Basic financial assets, which include trade and other debtors, cash and bank balances, are initially measured at their transaction price (adjusted for transaction costs except in the initial measurement of financial assets that are subsequently measured at fair value through profit and loss) and are subsequently carried at their amortised cost using the effective interest method, less any provision for impairment, unless the arrangement constitutes a financing transaction, where the transaction is measured at the present value of the future receipts discounted at a market rate of interest.",
+        "bbox": [
+            152,
+            783,
+            929,
+            864
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS",
+        "bbox": [
+            68,
+            102,
+            359,
+            114
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+        "bbox": [
+            70,
+            116,
+            347,
+            129
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "Page 4",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2. Accounting policies (continued)",
+        "text_level": 1,
+        "bbox": [
+            70,
+            160,
+            341,
+            174
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2.6 Financial instruments (continued)",
+        "text_level": 1,
+        "bbox": [
+            105,
+            188,
+            374,
+            201
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Discounting is omitted where the effect of discounting is immaterial. The company's cash and cash equivalents, trade and most other debtors due with the operating cycle fall into this category of financial instruments.",
+        "bbox": [
+            152,
+            216,
+            927,
+            242
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Basic financial liabilities",
+        "text_level": 1,
+        "bbox": [
+            154,
+            256,
+            322,
+            269
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Financial liabilities and equity instruments are classified according to the substance of the contractual arrangements entered into. An equity instrument is any contract that evidences a residual interest in the assets of the company after the deduction of all its liabilities.",
+        "bbox": [
+            152,
+            283,
+            927,
+            324
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Basic financial liabilities, which include trade and other creditors, bank loans and other loans are initially measured at their transaction price (adjusting for transaction costs except in the initial measurement of financial liabilities that are subsequently measured at fair value through profit and loss). When this constitutes a financing transaction, whereby the debt instrument is measured at the present value of the future payments discounted at a market rate of interest, discounting is omitted where the effect of discounting is immaterial.",
+        "bbox": [
+            152,
+            338,
+            927,
+            404
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Debt instruments are subsequently carried at their amortised cost using the effective interest rate method.",
+        "bbox": [
+            154,
+            419,
+            821,
+            432
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Trade creditors are obligations to pay for goods and services that have been acquired in the ordinary course of business from suppliers. Trade creditors are classified as current liabilities if the payment is due within one year. If not, they represent non-current liabilities. Trade creditors are initially recognised at their transaction price and subsequently are measured at amortised cost using the effective interest method. Discounting is omitted where the effect of discounting is immaterial.",
+        "bbox": [
+            152,
+            445,
+            927,
+            511
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Derecognition of financial instruments",
+        "text_level": 1,
+        "bbox": [
+            154,
+            526,
+            418,
+            540
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Derecognition of financial assets",
+        "text_level": 1,
+        "bbox": [
+            154,
+            554,
+            381,
+            567
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Financial assets are derecognised when their contractual right to future cash flow expire, or are settled, or when the company transfers the asset and substantially all the risks and rewards of ownership to another party. If significant risks and rewards of ownership are retained after the transfer to another party, then the company will continue to recognise the value of the portion of the risks and rewards retained.",
+        "bbox": [
+            152,
+            581,
+            927,
+            634
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Derecognition of financial liabilities",
+        "text_level": 1,
+        "bbox": [
+            154,
+            649,
+            400,
+            662
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Financial liabilities are derecognised when the company's contractual obligations expire or are discharged or cancelled.",
+        "bbox": [
+            152,
+            676,
+            909,
+            688
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2.7 Creditors",
+        "text_level": 1,
+        "bbox": [
+            114,
+            704,
+            216,
+            714
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Short-term creditors are measured at the transaction price. Other financial liabilities, including bank loans, are measured initially at fair value, net of transaction costs, and are measured subsequently at amortised cost using the effective interest method.",
+        "bbox": [
+            152,
+            731,
+            927,
+            770
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS\nFOR THE YEAR ENDED 31 MARCH 2025",
+        "bbox": [
+            68,
+            102,
+            359,
+            129
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "Page 5",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2. Accounting policies (continued)",
+        "text_level": 1,
+        "bbox": [
+            70,
+            160,
+            341,
+            174
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.8 Finance costs",
+        "text_level": 1,
+        "bbox": [
+            114,
+            188,
+            250,
+            200
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Finance costs are charged to profit or loss over the term of the debt using the effective interest method so that the amount charged is at a constant rate on the carrying amount. Issue costs are initially recognised as a reduction in the proceeds of the associated capital instrument.",
+        "bbox": [
+            152,
+            214,
+            929,
+            256
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.9 Pensions",
+        "text_level": 1,
+        "bbox": [
+            114,
+            269,
+            216,
+            282
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Defined contribution pension plan",
+        "text_level": 1,
+        "bbox": [
+            154,
+            296,
+            391,
+            311
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The company operates a defined contribution plan for its employees. A defined contribution plan is a pension plan under which the company pays fixed contributions into a separate entity. Once the contributions have been paid the company has no further payment obligations.",
+        "bbox": [
+            152,
+            324,
+            927,
+            365
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The contributions are recognised as an expense in profit or loss when they fall due. Amounts not paid are shown in other creditors as a liability in the Balance Sheet. The assets of the plan are held separately from the company in independently administered funds.",
+        "bbox": [
+            152,
+            378,
+            927,
+            418
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.10 Interest income",
+        "text_level": 1,
+        "bbox": [
+            114,
+            432,
+            260,
+            445
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Interest income is recognised in profit or loss using the effective interest method.",
+        "bbox": [
+            152,
+            459,
+            665,
+            473
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.11 Borrowing costs",
+        "text_level": 1,
+        "bbox": [
+            114,
+            486,
+            265,
+            500
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "All borrowing costs are recognised in profit or loss in the year in which they are incurred.",
+        "bbox": [
+            152,
+            514,
+            712,
+            528
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.12 Taxation",
+        "text_level": 1,
+        "bbox": [
+            114,
+            541,
+            213,
+            554
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Tax is recognised in profit or loss except that a charge attributable to an item of income and expense recognised as other comprehensive income or to an item recognised directly in equity is also recognised in other comprehensive income or directly in equity respectively.",
+        "bbox": [
+            152,
+            568,
+            927,
+            609
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The current income tax charge is calculated on the basis of tax rates and laws that have been enacted or substantively enacted by the balance sheet date in the countries where the company operates and generates income.",
+        "bbox": [
+            152,
+            622,
+            927,
+            650
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2.13 Exceptional items",
+        "text_level": 1,
+        "bbox": [
+            114,
+            676,
+            275,
+            688
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Exceptional items are transactions that fall within the ordinary activities of the company but are presented separately due to their size or incidence.",
+        "bbox": [
+            152,
+            704,
+            927,
+            730
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3. Employees",
+        "text_level": 1,
+        "bbox": [
+            70,
+            758,
+            194,
+            771
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "The average monthly number of employees, including directors, during the year was 49 (2024 - 49).",
+        "bbox": [
+            112,
+            785,
+            746,
+            799
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS\nFOR THE YEAR ENDED 31 MARCH 2025",
+        "bbox": [
+            68,
+            102,
+            359,
+            129
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "Page 6",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS",
+        "text_level": 1,
+        "bbox": [
+            70,
+            100,
+            359,
+            114
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+        "text_level": 1,
+        "bbox": [
+            70,
+            116,
+            347,
+            129
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "images/3da921e275d0f729c3a1223b057fa3ee2f72c62e80fa60c112bd5298ab2b016c.jpg",
+        "table_caption": [
+            "4. Tangible fixed assets"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>Freehold property£</td><td>Plant and machinery£</td><td>Fixtures and fittings£</td><td>Computer equipment£</td><td>Total£</td></tr><tr><td colspan=\"6\">Cost</td></tr><tr><td>At 1 April 2024</td><td>1,584,404</td><td>236,949</td><td>776,063</td><td>26,736</td><td>2,624,152</td></tr><tr><td>Additions</td><td>-</td><td>-</td><td>37,138</td><td>986</td><td>38,124</td></tr><tr><td>At 31 March 2025</td><td>1,584,404</td><td>236,949</td><td>813,201</td><td>27,722</td><td>2,662,276</td></tr><tr><td colspan=\"6\">Depreciation</td></tr><tr><td>At 1 April 2024</td><td>781,232</td><td>199,643</td><td>627,408</td><td>23,402</td><td>1,631,685</td></tr><tr><td>Charge for the year on owned assets</td><td>31,688</td><td>5,596</td><td>24,677</td><td>874</td><td>62,835</td></tr><tr><td>At 31 March 2025</td><td>812,920</td><td>205,239</td><td>652,085</td><td>24,276</td><td>1,694,520</td></tr><tr><td colspan=\"6\">Net book value</td></tr><tr><td>At 31 March 2025</td><td>771,484</td><td>31,710</td><td>161,116</td><td>3,446</td><td>967,756</td></tr><tr><td>At 31 March 2024</td><td>803,172</td><td>37,306</td><td>148,655</td><td>3,334</td><td>992,467</td></tr></table>",
+        "bbox": [
+            112,
+            182,
+            921,
+            524
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "Page 7",
+        "bbox": [
+            473,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+        "text_level": 1,
+        "bbox": [
+            70,
+            100,
+            359,
+            129
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/b66ecf4e8f25ae05fd37eb24d64f101a7c18f3079b1239684b3da3a38c956164.jpg",
+        "table_caption": [
+            "5. Debtors"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\"></td><td>2025</td><td>2024</td></tr><tr><td>£</td><td>£</td></tr><tr><td>Trade debtors</td><td>28,862</td><td>20,231</td></tr><tr><td>Other debtors</td><td>2,110,963</td><td>4,849,789</td></tr><tr><td>Called up share capital not paid</td><td>28</td><td>28</td></tr><tr><td>Prepayments and accrued income</td><td>139,088</td><td>66,207</td></tr><tr><td></td><td>2,278,941</td><td>4,936,255</td></tr></table>",
+        "bbox": [
+            112,
+            193,
+            921,
+            331
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/9d78f75206ecd9147149f08323c2bd87a67d940a09e084d00823a664e0b3f0aa.jpg",
+        "table_caption": [
+            "6. Creditors: Amounts falling due within one year"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\"></td><td>2025</td><td>2024</td></tr><tr><td>£</td><td>£</td></tr><tr><td>Bank loans</td><td>31,524</td><td>25,436</td></tr><tr><td>Other loans</td><td>9,233</td><td>10,996</td></tr><tr><td>Trade creditors</td><td>174,192</td><td>29,726</td></tr><tr><td>Corporation tax</td><td>139,651</td><td>79,444</td></tr><tr><td>Other taxation and social security</td><td>51,674</td><td>37,355</td></tr><tr><td>Other creditors</td><td>79,790</td><td>312,939</td></tr><tr><td>Accruals and deferred income</td><td>17,981</td><td>13,040</td></tr><tr><td></td><td>504,045</td><td>508,936</td></tr></table>",
+        "bbox": [
+            112,
+            389,
+            921,
+            574
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Bank loans due within one year totalling £31,524 (2024: £25,436) are secured by a fixed and floating charge over the company's assets.",
+        "bbox": [
+            110,
+            593,
+            919,
+            619
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "images/d66b82d3acfebea2dae348f71f454d9525131020dd90720e544517043aa04e05.jpg",
+        "table_caption": [
+            "7. Creditors: Amounts falling due after more than one year"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td></td><td>2025</td><td>2024</td></tr><tr><td></td><td>£</td><td>£</td></tr><tr><td>Bank loans</td><td>1,009,237</td><td>1,046,848</td></tr></table>",
+        "bbox": [
+            112,
+            674,
+            919,
+            728
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Bank loans due after more than one year totalling £1,009,237 (2024: £1,046,848) are secured by a fixed and floating charge over the company's assets.",
+        "bbox": [
+            110,
+            745,
+            919,
+            771
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "Page 8",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+        "text_level": 1,
+        "bbox": [
+            70,
+            100,
+            359,
+            129
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "8. Loans",
+        "text_level": 1,
+        "bbox": [
+            72,
+            157,
+            161,
+            169
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "Analysis of the maturity of loans is given below:",
+        "bbox": [
+            112,
+            184,
+            416,
+            197
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "images/33d8defa0a0ba6cc32dbb6950a255fed54f21baed9a850e3e6919f858edc0ea4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\"></td><td>2025</td><td>2024</td></tr><tr><td>£</td><td>£</td></tr><tr><td>Amounts falling due within 1 year</td><td></td><td></td></tr><tr><td>Bank loans</td><td>31,524</td><td>25,436</td></tr><tr><td>Other loans</td><td>9,233</td><td>10,996</td></tr><tr><td></td><td>40,757</td><td>36,432</td></tr><tr><td>Amounts falling due 1-2 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>31,523</td><td>25,436</td></tr><tr><td>Amounts falling due 2-5 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>94,570</td><td>76,309</td></tr><tr><td>Amounts falling due after more than 5 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>883,144</td><td>945,103</td></tr><tr><td></td><td>1,049,994</td><td>1,083,280</td></tr></table>",
+        "bbox": [
+            112,
+            214,
+            921,
+            488
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "9. Pension commitments",
+        "text_level": 1,
+        "bbox": [
+            70,
+            517,
+            270,
+            530
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "The company operates a defined contributions pension scheme. The assets of the scheme are held separately from those of the company in an independently administered fund. Contributions totalling £4,065 (2024: £4,063) were payable to the fund at the balance sheet date and are included in other creditors.",
+        "bbox": [
+            115,
+            545,
+            929,
+            585
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "Page 9",
+        "bbox": [
+            472,
+            961,
+            519,
+            973
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+        "text_level": 1,
+        "bbox": [
+            68,
+            100,
+            361,
+            130
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "10. Related party transactions",
+        "text_level": 1,
+        "bbox": [
+            72,
+            156,
+            299,
+            171
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Included within other debtors is a balance due from Peterborough Property Investments Ltd, a company with directors and shareholders in common, totalling £829,221 (2024: £383,721).",
+        "bbox": [
+            112,
+            184,
+            922,
+            212
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Pride Care Homes Peterborough Limited, a company with directors and shareholders in common, totalling £25,887 (2024: £3,546,575). Interest of £103,550 (2024: £103,550) was charged on this balance.",
+        "bbox": [
+            112,
+            238,
+            922,
+            277
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Northamptonshire Care Limited, a company with directors and shareholders in common, totalling £Nil (2024: £857,359).",
+        "bbox": [
+            112,
+            305,
+            922,
+            333
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Kuni Coffee Peterborough Limited, a company with directors and shareholders of whom are close family members of the directors and shareholders in this company, totalling £13,150 (2024: £13,150).",
+        "bbox": [
+            112,
+            359,
+            922,
+            399
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Lavender House Care Home LLP, a limited liability partnership with members in common with the directors and shareholders of Peterborough Care Limited, totalling £703,983 (2024: £46,785).",
+        "bbox": [
+            112,
+            426,
+            921,
+            454
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is balance due from Corby Care Homes Limited, a company with directors and shareholders in common, of £3,300 (2024: £1,296).",
+        "bbox": [
+            112,
+            480,
+            921,
+            507
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Park Vista Care Homes Limited, a company with directors and shareholders in common, totalling £296,728 (2024: £12,289 included within other creditors).",
+        "bbox": [
+            112,
+            534,
+            922,
+            561
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Also included within other debtors is a balance due from Thorpe Wood Care Homes Limited, a company with directors and shareholders in common, totalling £552 (2024: £218,138 included within other creditors).",
+        "bbox": [
+            112,
+            587,
+            922,
+            615
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "Included within other creditors is a balance due to a director of the company totalling £Nil (2024: £6,802).",
+        "bbox": [
+            112,
+            641,
+            778,
+            656
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "All balances, except that with Pride Care Homes Peterborough Limited, are interest free and all are repayable on demand.",
+        "bbox": [
+            112,
+            682,
+            885,
+            695
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "PETERBOROUGH CARE LIMITED",
+        "bbox": [
+            70,
+            55,
+            302,
+            68
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "Page 10",
+        "bbox": [
+            468,
+            958,
+            524,
+            971
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "This document was delivered using electronic communications and authenticated in accordance with the registrar's rules relating to electronic form, authentication and manner of delivery under section 1072 of the Companies Act 2006.",
+        "bbox": [
+            68,
+            30,
+            910,
+            79
+        ],
+        "page_idx": 11
+    }
+]

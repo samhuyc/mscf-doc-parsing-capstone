@@ -1,0 +1,15 @@
+# Python 3.10; PaddlePaddle 3.0.0 is available for this Intel macOS host.
+paddlepaddle==3.0.0
+paddleocr[doc-parser]==3.3.3
+paddlex==3.3.13
+# Compatible prebuilt dependencies and Hub API for PaddleX 3.3 on Intel macOS.
+cryptography==46.0.5
+huggingface-hub==0.36.2
+numpy<2
+PyMuPDF==1.28.2
+beautifulsoup4==4.15.0
+markdown-it-py==4.0.0
+rapidfuzz==3.14.3
+scipy
+apted
+Pillow

@@ -1,0 +1,1508 @@
+{
+  "status": "success",
+  "image_sha256": "191662c6631b24cbcff132cdea50796acf144cd50ecf93864dea161dfd88e728",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          281.0
+        ],
+        [
+          1115.0,
+          281.0
+        ],
+        [
+          1115.0,
+          333.0
+        ],
+        [
+          258.0,
+          333.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          413.0
+        ],
+        [
+          1081.0,
+          413.0
+        ],
+        [
+          1081.0,
+          461.0
+        ],
+        [
+          262.0,
+          461.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          493.0
+        ],
+        [
+          1281.0,
+          493.0
+        ],
+        [
+          1281.0,
+          541.0
+        ],
+        [
+          258.0,
+          541.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          647.0
+        ],
+        [
+          2203.0,
+          651.0
+        ],
+        [
+          2203.0,
+          698.0
+        ],
+        [
+          255.0,
+          694.0
+        ]
+      ],
+      "text": "Particular emphasis is given to legal & regulatory, health & safety, security, environmental, cyber, data, commercial,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          698.0
+        ],
+        [
+          797.0,
+          698.0
+        ],
+        [
+          797.0,
+          735.0
+        ],
+        [
+          262.0,
+          735.0
+        ]
+      ],
+      "text": "financial, and reputational risks.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          779.0
+        ],
+        [
+          2207.0,
+          782.0
+        ],
+        [
+          2207.0,
+          830.0
+        ],
+        [
+          262.0,
+          826.0
+        ]
+      ],
+      "text": "The Board is responsible for generating a long-term shareholder value by setting the Hippodrome's strategic",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          830.0
+        ],
+        [
+          2207.0,
+          830.0
+        ],
+        [
+          2207.0,
+          866.0
+        ],
+        [
+          262.0,
+          866.0
+        ]
+      ],
+      "text": "direction and approving the Hippodrome's risk appetite, determining the nature and extent of risk the Hippodrome is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          874.0
+        ],
+        [
+          2207.0,
+          874.0
+        ],
+        [
+          2207.0,
+          910.0
+        ],
+        [
+          262.0,
+          910.0
+        ]
+      ],
+      "text": "willing to take to achieve its objectives. The Board is also responsible for effective management of operations and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          906.0
+        ],
+        [
+          1620.0,
+          910.0
+        ],
+        [
+          1620.0,
+          958.0
+        ],
+        [
+          255.0,
+          954.0
+        ]
+      ],
+      "text": "the internal control framework to monitor financial risks and control effectiveness.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          998.0
+        ],
+        [
+          2211.0,
+          1002.0
+        ],
+        [
+          2211.0,
+          1042.0
+        ],
+        [
+          262.0,
+          1038.0
+        ]
+      ],
+      "text": "Our principal risks are kept under review as the risk environment within which we operate is continually evolving. If",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1034.0
+        ],
+        [
+          2211.0,
+          1042.0
+        ],
+        [
+          2210.0,
+          1089.0
+        ],
+        [
+          255.0,
+          1082.0
+        ]
+      ],
+      "text": "the Board identifies changes in the risk profile, new or emerging risks; these will be added to our principal risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1089.0
+        ],
+        [
+          406.0,
+          1089.0
+        ],
+        [
+          406.0,
+          1126.0
+        ],
+        [
+          262.0,
+          1126.0
+        ]
+      ],
+      "text": "register.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1173.0
+        ],
+        [
+          664.0,
+          1173.0
+        ],
+        [
+          664.0,
+          1210.0
+        ],
+        [
+          262.0,
+          1210.0
+        ]
+      ],
+      "text": "Future considerations",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1257.0
+        ],
+        [
+          2214.0,
+          1257.0
+        ],
+        [
+          2214.0,
+          1305.0
+        ],
+        [
+          258.0,
+          1305.0
+        ]
+      ],
+      "text": "Following recent management changes, the Board intends to continue its review of its risk management",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1298.0
+        ],
+        [
+          2211.0,
+          1298.0
+        ],
+        [
+          2211.0,
+          1349.0
+        ],
+        [
+          258.0,
+          1349.0
+        ]
+      ],
+      "text": "programme during the course of 2026 to ensure that it remains relevant and effective. Following this and where",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1349.0
+        ],
+        [
+          2207.0,
+          1349.0
+        ],
+        [
+          2207.0,
+          1385.0
+        ],
+        [
+          262.0,
+          1385.0
+        ]
+      ],
+      "text": "appropriate, we will make any necessary changes and refinements to our risk management and governance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1393.0
+        ],
+        [
+          2207.0,
+          1393.0
+        ],
+        [
+          2207.0,
+          1429.0
+        ],
+        [
+          262.0,
+          1429.0
+        ]
+      ],
+      "text": "practices, as well as increasing our use of appropriate technology tools to further operationalise our risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1433.0
+        ],
+        [
+          701.0,
+          1433.0
+        ],
+        [
+          701.0,
+          1469.0
+        ],
+        [
+          262.0,
+          1469.0
+        ]
+      ],
+      "text": "management imperatives:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1521.0
+        ],
+        [
+          1561.0,
+          1521.0
+        ],
+        [
+          1561.0,
+          1557.0
+        ],
+        [
+          262.0,
+          1557.0
+        ]
+      ],
+      "text": "The following list highlights some of the principal risks identified by the Board:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1627.0
+        ],
+        [
+          354.0,
+          1627.0
+        ],
+        [
+          354.0,
+          1670.0
+        ],
+        [
+          262.0,
+          1670.0
+        ]
+      ],
+      "text": "Risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          1623.0
+        ],
+        [
+          1613.0,
+          1623.0
+        ],
+        [
+          1613.0,
+          1670.0
+        ],
+        [
+          1166.0,
+          1670.0
+        ]
+      ],
+      "text": "Risk Status / Mitigations",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1714.0
+        ],
+        [
+          864.0,
+          1714.0
+        ],
+        [
+          864.0,
+          1751.0
+        ],
+        [
+          266.0,
+          1751.0
+        ]
+      ],
+      "text": "Cyber Security & Data Protection",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          1711.0
+        ],
+        [
+          2192.0,
+          1711.0
+        ],
+        [
+          2192.0,
+          1758.0
+        ],
+        [
+          1166.0,
+          1758.0
+        ]
+      ],
+      "text": "We continue to invest in appropriate I.T. tools and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          1754.0
+        ],
+        [
+          2185.0,
+          1754.0
+        ],
+        [
+          2185.0,
+          1802.0
+        ],
+        [
+          1159.0,
+          1802.0
+        ]
+      ],
+      "text": "resources, to improve the resilience of our critical",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1773.0
+        ],
+        [
+          1107.0,
+          1776.0
+        ],
+        [
+          1107.0,
+          1817.0
+        ],
+        [
+          266.0,
+          1813.0
+        ]
+      ],
+      "text": "Threat of cyber-attacks via phishing, ransom,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          1795.0
+        ],
+        [
+          2189.0,
+          1798.0
+        ],
+        [
+          2188.0,
+          1846.0
+        ],
+        [
+          1159.0,
+          1842.0
+        ]
+      ],
+      "text": "technology systems and guard against the ever-increasing",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1809.0
+        ],
+        [
+          1115.0,
+          1817.0
+        ],
+        [
+          1114.0,
+          1864.0
+        ],
+        [
+          254.0,
+          1857.0
+        ]
+      ],
+      "text": "hacking, viruses, or unauthorised data breaches;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          1846.0
+        ],
+        [
+          1495.0,
+          1846.0
+        ],
+        [
+          1495.0,
+          1882.0
+        ],
+        [
+          1166.0,
+          1882.0
+        ]
+      ],
+      "text": "risk of cyber-attack.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1857.0
+        ],
+        [
+          1115.0,
+          1861.0
+        ],
+        [
+          1114.0,
+          1908.0
+        ],
+        [
+          258.0,
+          1904.0
+        ]
+      ],
+      "text": "and unintentional loss of controlled data by",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1908.0
+        ],
+        [
+          1115.0,
+          1908.0
+        ],
+        [
+          1115.0,
+          1945.0
+        ],
+        [
+          266.0,
+          1945.0
+        ]
+      ],
+      "text": "authorised users. These can cause significant",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          1926.0
+        ],
+        [
+          2192.0,
+          1926.0
+        ],
+        [
+          2192.0,
+          1974.0
+        ],
+        [
+          1166.0,
+          1974.0
+        ]
+      ],
+      "text": "Cyber and phishing awareness training and tests are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1948.0
+        ],
+        [
+          1107.0,
+          1948.0
+        ],
+        [
+          1107.0,
+          1985.0
+        ],
+        [
+          262.0,
+          1985.0
+        ]
+      ],
+      "text": "disruption to the business as well as financial and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1162.0,
+          1970.0
+        ],
+        [
+          2192.0,
+          1970.0
+        ],
+        [
+          2192.0,
+          2018.0
+        ],
+        [
+          1162.0,
+          2018.0
+        ]
+      ],
+      "text": "undertaken periodically by all staff, supplemented by",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1996.0
+        ],
+        [
+          620.0,
+          1996.0
+        ],
+        [
+          620.0,
+          2032.0
+        ],
+        [
+          262.0,
+          2032.0
+        ]
+      ],
+      "text": "reputational damage.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          2014.0
+        ],
+        [
+          1775.0,
+          2010.0
+        ],
+        [
+          1775.0,
+          2058.0
+        ],
+        [
+          1159.0,
+          2062.0
+        ]
+      ],
+      "text": "appropriate updates and reminders.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2105.0
+        ],
+        [
+          2185.0,
+          2105.0
+        ],
+        [
+          2185.0,
+          2142.0
+        ],
+        [
+          1166.0,
+          2142.0
+        ]
+      ],
+      "text": "The Company has a dedicated and experienced Data",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          2138.0
+        ],
+        [
+          2192.0,
+          2142.0
+        ],
+        [
+          2192.0,
+          2190.0
+        ],
+        [
+          1159.0,
+          2186.0
+        ]
+      ],
+      "text": "Protection Officer (\"DPO\") to ensure that we are aware of,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2193.0
+        ],
+        [
+          2185.0,
+          2193.0
+        ],
+        [
+          2185.0,
+          2230.0
+        ],
+        [
+          1166.0,
+          2230.0
+        ]
+      ],
+      "text": "and adhere to, all legal requirements and best practices.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2226.0
+        ],
+        [
+          2189.0,
+          2230.0
+        ],
+        [
+          2188.0,
+          2277.0
+        ],
+        [
+          1166.0,
+          2273.0
+        ]
+      ],
+      "text": "The DPO provides regular reports to the Chief Risk Officer",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1163.0,
+          2273.0
+        ],
+        [
+          2185.0,
+          2277.0
+        ],
+        [
+          2185.0,
+          2317.0
+        ],
+        [
+          1162.0,
+          2314.0
+        ]
+      ],
+      "text": "on relevant matters, ongoing projects and any potential data",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1170.0,
+          2321.0
+        ],
+        [
+          2188.0,
+          2321.0
+        ],
+        [
+          2188.0,
+          2358.0
+        ],
+        [
+          1170.0,
+          2358.0
+        ]
+      ],
+      "text": "protection or privacy matters. The Hippodrome has",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          2361.0
+        ],
+        [
+          2192.0,
+          2358.0
+        ],
+        [
+          2192.0,
+          2405.0
+        ],
+        [
+          1159.0,
+          2409.0
+        ]
+      ],
+      "text": "appropriate data protection policies and processes in order",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2409.0
+        ],
+        [
+          2188.0,
+          2409.0
+        ],
+        [
+          2188.0,
+          2445.0
+        ],
+        [
+          1166.0,
+          2445.0
+        ]
+      ],
+      "text": "to protect the privacy rights of individuals in accordance with",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2453.0
+        ],
+        [
+          1524.0,
+          2453.0
+        ],
+        [
+          1524.0,
+          2489.0
+        ],
+        [
+          1166.0,
+          2489.0
+        ]
+      ],
+      "text": "prevailing legislation.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2537.0
+        ],
+        [
+          793.0,
+          2537.0
+        ],
+        [
+          793.0,
+          2573.0
+        ],
+        [
+          266.0,
+          2573.0
+        ]
+      ],
+      "text": "Funding Risk / Financial Risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          2529.0
+        ],
+        [
+          2192.0,
+          2537.0
+        ],
+        [
+          2192.0,
+          2584.0
+        ],
+        [
+          1159.0,
+          2577.0
+        ]
+      ],
+      "text": "The Company seeks to manage financial risk by ensuring",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2581.0
+        ],
+        [
+          2188.0,
+          2581.0
+        ],
+        [
+          2188.0,
+          2617.0
+        ],
+        [
+          1166.0,
+          2617.0
+        ]
+      ],
+      "text": "sufficient liquidity is available to meet foreseeable needs",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          2599.0
+        ],
+        [
+          1115.0,
+          2599.0
+        ],
+        [
+          1115.0,
+          2635.0
+        ],
+        [
+          266.0,
+          2635.0
+        ]
+      ],
+      "text": "Demands on cash, pressure from suppliers for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1162.0,
+          2624.0
+        ],
+        [
+          2188.0,
+          2624.0
+        ],
+        [
+          2188.0,
+          2661.0
+        ],
+        [
+          1162.0,
+          2661.0
+        ]
+      ],
+      "text": "and is managed by a regular cash flow forecast. Combined",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2643.0
+        ],
+        [
+          1111.0,
+          2643.0
+        ],
+        [
+          1111.0,
+          2679.0
+        ],
+        [
+          262.0,
+          2679.0
+        ]
+      ],
+      "text": "revised payment terms, pricing, and reduced",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2668.0
+        ],
+        [
+          2188.0,
+          2668.0
+        ],
+        [
+          2188.0,
+          2705.0
+        ],
+        [
+          1166.0,
+          2705.0
+        ]
+      ],
+      "text": "with cash reserves, facilities with the Company's banker",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2683.0
+        ],
+        [
+          1111.0,
+          2683.0
+        ],
+        [
+          1111.0,
+          2730.0
+        ],
+        [
+          258.0,
+          2730.0
+        ]
+      ],
+      "text": "margins, coupled with inflation would negatively",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1162.0,
+          2705.0
+        ],
+        [
+          2192.0,
+          2705.0
+        ],
+        [
+          2192.0,
+          2752.0
+        ],
+        [
+          1162.0,
+          2752.0
+        ]
+      ],
+      "text": "have been maintained in order to provide a safe level of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2730.0
+        ],
+        [
+          974.0,
+          2730.0
+        ],
+        [
+          974.0,
+          2767.0
+        ],
+        [
+          262.0,
+          2767.0
+        ]
+      ],
+      "text": "impact cash management and profitability.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1163.0,
+          2745.0
+        ],
+        [
+          2189.0,
+          2749.0
+        ],
+        [
+          2188.0,
+          2796.0
+        ],
+        [
+          1162.0,
+          2793.0
+        ]
+      ],
+      "text": "headroom to cover trading fluctuations and the timing of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1162.0,
+          2793.0
+        ],
+        [
+          2192.0,
+          2793.0
+        ],
+        [
+          2192.0,
+          2840.0
+        ],
+        [
+          1162.0,
+          2840.0
+        ]
+      ],
+      "text": "payment of taxes and duties. The Directors have",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1162.0,
+          2836.0
+        ],
+        [
+          2192.0,
+          2836.0
+        ],
+        [
+          2192.0,
+          2884.0
+        ],
+        [
+          1162.0,
+          2884.0
+        ]
+      ],
+      "text": "communicated with the holders of the preference shares",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          2884.0
+        ],
+        [
+          2185.0,
+          2884.0
+        ],
+        [
+          2185.0,
+          2921.0
+        ],
+        [
+          1166.0,
+          2921.0
+        ]
+      ],
+      "text": "and agreed with them a delay in preferential dividend",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          2924.0
+        ],
+        [
+          1956.0,
+          2920.0
+        ],
+        [
+          1956.0,
+          2968.0
+        ],
+        [
+          1159.0,
+          2972.0
+        ]
+      ],
+      "text": "payments, and therefore redemption of shares.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3012.0
+        ],
+        [
+          587.0,
+          3012.0
+        ],
+        [
+          587.0,
+          3048.0
+        ],
+        [
+          262.0,
+          3048.0
+        ]
+      ],
+      "text": "Interest Rate Risk",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          3005.0
+        ],
+        [
+          2192.0,
+          3008.0
+        ],
+        [
+          2192.0,
+          3056.0
+        ],
+        [
+          1159.0,
+          3052.0
+        ]
+      ],
+      "text": "The Hippodrome is exposed to interest rate fluctuations on",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          3052.0
+        ],
+        [
+          2188.0,
+          3052.0
+        ],
+        [
+          2188.0,
+          3100.0
+        ],
+        [
+          1159.0,
+          3100.0
+        ]
+      ],
+      "text": "its floating rate debt as well as the income it earns on its",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3070.0
+        ],
+        [
+          1111.0,
+          3070.0
+        ],
+        [
+          1111.0,
+          3118.0
+        ],
+        [
+          258.0,
+          3118.0
+        ]
+      ],
+      "text": "Changes in interest rates may impact profitability",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          3092.0
+        ],
+        [
+          2189.0,
+          3096.0
+        ],
+        [
+          2188.0,
+          3144.0
+        ],
+        [
+          1159.0,
+          3140.0
+        ]
+      ],
+      "text": "excess liquidity via bank deposits. The Company does not",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3114.0
+        ],
+        [
+          1111.0,
+          3114.0
+        ],
+        [
+          1111.0,
+          3162.0
+        ],
+        [
+          258.0,
+          3162.0
+        ]
+      ],
+      "text": "of the business and negatively impact cashflow",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          3140.0
+        ],
+        [
+          2185.0,
+          3140.0
+        ],
+        [
+          2185.0,
+          3187.0
+        ],
+        [
+          1159.0,
+          3187.0
+        ]
+      ],
+      "text": "hedge its interest rate exposure but the Board regularly",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3162.0
+        ],
+        [
+          664.0,
+          3162.0
+        ],
+        [
+          664.0,
+          3198.0
+        ],
+        [
+          262.0,
+          3198.0
+        ]
+      ],
+      "text": "and banking covenants.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1159.0,
+          3180.0
+        ],
+        [
+          1982.0,
+          3184.0
+        ],
+        [
+          1982.0,
+          3231.0
+        ],
+        [
+          1159.0,
+          3227.0
+        ]
+      ],
+      "text": "reviews its treasury policy in relation to this area.",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.27765512466430664,
+  "elapsed_seconds": 28.16340154223144
+}

@@ -1,0 +1,925 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2481,
+    "height": 3508,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "-eDF ",
+        "block_bbox": [
+          1988,
+          95,
+          2377,
+          264
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "EXECUTIVE SUMMARY ",
+        "block_bbox": [
+          134,
+          441,
+          673,
+          483
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "This Consolidated Segmental Statement (\"Css'\") has been prepared in accordance with Standard Licence Condition 19A of the Gas and Electricity Supply Licences (\"Financial Information Reporting'\") and the associated published Ofgem Guidance. The CsS provides transparency of the supply activities and profitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December 2024.\n",
+        "block_bbox": [
+          128,
+          558,
+          2333,
+          851
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "EDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (\"EDF UK Group\"' which holds electricity and gas supply licences used to supply energy to residential, commercial and industrial customers in the UK. This statement includes all supply licensed activities with the EDF Energy Customers Limited as required under the license conditions. The other entities within the EDF UK Group are not in scope of the CSS.\n",
+        "block_bbox": [
+          127,
+          930,
+          2335,
+          1231
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "The figures have been reconciled to the statutory accounts for the licensed entity EDF Energy Customers Limited for financial year ended 31 December 2024.\n",
+        "block_bbox": [
+          128,
+          1306,
+          2332,
+          1418
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "number",
+        "block_content": "Page 2 of 6",
+        "block_bbox": [
+          1148,
+          3408,
+          1323,
+          3447
+        ],
+        "block_id": 5,
+        "block_order": 6
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9840594530105591,
+          "coordinate": [
+            127.858154296875,
+            930.8562622070312,
+            2335.317138671875,
+            1231.836669921875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.982348620891571,
+          "coordinate": [
+            128.1878662109375,
+            558.5901489257812,
+            2333.505859375,
+            851.3372192382812
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9563975930213928,
+          "coordinate": [
+            128.9166259765625,
+            1306.97509765625,
+            2332.21044921875,
+            1418.453125
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.9001718759536743,
+          "coordinate": [
+            1988.7076416015625,
+            95.98489379882812,
+            2377.08056640625,
+            264.9699401855469
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.8727709054946899,
+          "coordinate": [
+            134.05587768554688,
+            441.12945556640625,
+            673.6478271484375,
+            483.812255859375
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8589511513710022,
+          "coordinate": [
+            1148.9208984375,
+            3408.7861328125,
+            1323.180419921875,
+            3447.568359375
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            2143,
+            133
+          ],
+          [
+            2387,
+            118
+          ],
+          [
+            2395,
+            242
+          ],
+          [
+            2151,
+            257
+          ]
+        ],
+        [
+          [
+            2117,
+            199
+          ],
+          [
+            2153,
+            234
+          ],
+          [
+            2129,
+            258
+          ],
+          [
+            2093,
+            222
+          ]
+        ],
+        [
+          [
+            138,
+            444
+          ],
+          [
+            678,
+            444
+          ],
+          [
+            678,
+            491
+          ],
+          [
+            138,
+            491
+          ]
+        ],
+        [
+          [
+            136,
+            556
+          ],
+          [
+            2340,
+            559
+          ],
+          [
+            2340,
+            617
+          ],
+          [
+            136,
+            614
+          ]
+        ],
+        [
+          [
+            136,
+            619
+          ],
+          [
+            2340,
+            625
+          ],
+          [
+            2340,
+            680
+          ],
+          [
+            136,
+            674
+          ]
+        ],
+        [
+          [
+            133,
+            682
+          ],
+          [
+            2340,
+            685
+          ],
+          [
+            2340,
+            743
+          ],
+          [
+            133,
+            740
+          ]
+        ],
+        [
+          [
+            133,
+            743
+          ],
+          [
+            2343,
+            743
+          ],
+          [
+            2343,
+            806
+          ],
+          [
+            133,
+            806
+          ]
+        ],
+        [
+          [
+            133,
+            808
+          ],
+          [
+            263,
+            808
+          ],
+          [
+            263,
+            861
+          ],
+          [
+            133,
+            861
+          ]
+        ],
+        [
+          [
+            133,
+            926
+          ],
+          [
+            2343,
+            929
+          ],
+          [
+            2343,
+            992
+          ],
+          [
+            133,
+            989
+          ]
+        ],
+        [
+          [
+            133,
+            995
+          ],
+          [
+            2345,
+            995
+          ],
+          [
+            2345,
+            1058
+          ],
+          [
+            133,
+            1058
+          ]
+        ],
+        [
+          [
+            136,
+            1058
+          ],
+          [
+            2343,
+            1058
+          ],
+          [
+            2343,
+            1113
+          ],
+          [
+            136,
+            1113
+          ]
+        ],
+        [
+          [
+            138,
+            1121
+          ],
+          [
+            2343,
+            1121
+          ],
+          [
+            2343,
+            1176
+          ],
+          [
+            138,
+            1176
+          ]
+        ],
+        [
+          [
+            136,
+            1184
+          ],
+          [
+            947,
+            1184
+          ],
+          [
+            947,
+            1239
+          ],
+          [
+            136,
+            1239
+          ]
+        ],
+        [
+          [
+            138,
+            1302
+          ],
+          [
+            2343,
+            1305
+          ],
+          [
+            2342,
+            1368
+          ],
+          [
+            138,
+            1365
+          ]
+        ],
+        [
+          [
+            138,
+            1370
+          ],
+          [
+            1246,
+            1370
+          ],
+          [
+            1246,
+            1425
+          ],
+          [
+            138,
+            1425
+          ]
+        ],
+        [
+          [
+            1140,
+            3404
+          ],
+          [
+            1336,
+            3398
+          ],
+          [
+            1338,
+            3455
+          ],
+          [
+            1142,
+            3462
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "eDF",
+        "-",
+        "EXECUTIVE SUMMARY",
+        "This Consolidated Segmental Statement (\"Css'\") has been prepared in accordance with Standard Licence",
+        "Condition 19A of the Gas and Electricity Supply Licences (\"Financial Information Reporting'\") and the",
+        "associated published Ofgem Guidance. The CsS provides transparency of the supply activities and",
+        "profitability for the licensed entity EDF Energy Customers Limited for financial year ended 31 December",
+        "2024.",
+        "EDF Energy Customers Limited is the entity within the EDF Energy Holdings Limited Group (\"EDF UK",
+        "Group\"' which holds electricity and gas supply licences used to supply energy to residential, commercial",
+        "and industrial customers in the UK. This statement includes all supply licensed activities with the EDF",
+        "Energy Customers Limited as required under the license conditions. The other entities within the EDF",
+        "UK Group are not in scope of the CSS.",
+        "The figures have been reconciled to the statutory accounts for the licensed entity EDF Energy Customers",
+        "Limited for financial year ended 31 December 2024.",
+        "Page 2 of 6"
+      ],
+      "rec_scores": [
+        0.9941657185554504,
+        0.359028160572052,
+        0.9707598686218262,
+        0.9796383380889893,
+        0.9863374829292297,
+        0.9744548797607422,
+        0.9828095436096191,
+        0.9632917642593384,
+        0.9880412220954895,
+        0.977106511592865,
+        0.9831989407539368,
+        0.988023042678833,
+        0.9728158712387085,
+        0.9823281764984131,
+        0.9861295223236084,
+        0.9190840125083923
+      ],
+      "rec_polys": [
+        [
+          [
+            2143,
+            133
+          ],
+          [
+            2387,
+            118
+          ],
+          [
+            2395,
+            242
+          ],
+          [
+            2151,
+            257
+          ]
+        ],
+        [
+          [
+            2117,
+            199
+          ],
+          [
+            2153,
+            234
+          ],
+          [
+            2129,
+            258
+          ],
+          [
+            2093,
+            222
+          ]
+        ],
+        [
+          [
+            138,
+            444
+          ],
+          [
+            678,
+            444
+          ],
+          [
+            678,
+            491
+          ],
+          [
+            138,
+            491
+          ]
+        ],
+        [
+          [
+            136,
+            556
+          ],
+          [
+            2340,
+            559
+          ],
+          [
+            2340,
+            617
+          ],
+          [
+            136,
+            614
+          ]
+        ],
+        [
+          [
+            136,
+            619
+          ],
+          [
+            2340,
+            625
+          ],
+          [
+            2340,
+            680
+          ],
+          [
+            136,
+            674
+          ]
+        ],
+        [
+          [
+            133,
+            682
+          ],
+          [
+            2340,
+            685
+          ],
+          [
+            2340,
+            743
+          ],
+          [
+            133,
+            740
+          ]
+        ],
+        [
+          [
+            133,
+            743
+          ],
+          [
+            2343,
+            743
+          ],
+          [
+            2343,
+            806
+          ],
+          [
+            133,
+            806
+          ]
+        ],
+        [
+          [
+            133,
+            808
+          ],
+          [
+            263,
+            808
+          ],
+          [
+            263,
+            861
+          ],
+          [
+            133,
+            861
+          ]
+        ],
+        [
+          [
+            133,
+            926
+          ],
+          [
+            2343,
+            929
+          ],
+          [
+            2343,
+            992
+          ],
+          [
+            133,
+            989
+          ]
+        ],
+        [
+          [
+            133,
+            995
+          ],
+          [
+            2345,
+            995
+          ],
+          [
+            2345,
+            1058
+          ],
+          [
+            133,
+            1058
+          ]
+        ],
+        [
+          [
+            136,
+            1058
+          ],
+          [
+            2343,
+            1058
+          ],
+          [
+            2343,
+            1113
+          ],
+          [
+            136,
+            1113
+          ]
+        ],
+        [
+          [
+            138,
+            1121
+          ],
+          [
+            2343,
+            1121
+          ],
+          [
+            2343,
+            1176
+          ],
+          [
+            138,
+            1176
+          ]
+        ],
+        [
+          [
+            136,
+            1184
+          ],
+          [
+            947,
+            1184
+          ],
+          [
+            947,
+            1239
+          ],
+          [
+            136,
+            1239
+          ]
+        ],
+        [
+          [
+            138,
+            1302
+          ],
+          [
+            2343,
+            1305
+          ],
+          [
+            2342,
+            1368
+          ],
+          [
+            138,
+            1365
+          ]
+        ],
+        [
+          [
+            138,
+            1370
+          ],
+          [
+            1246,
+            1370
+          ],
+          [
+            1246,
+            1425
+          ],
+          [
+            138,
+            1425
+          ]
+        ],
+        [
+          [
+            1140,
+            3404
+          ],
+          [
+            1336,
+            3398
+          ],
+          [
+            1338,
+            3455
+          ],
+          [
+            1142,
+            3462
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          2143,
+          118,
+          2395,
+          257
+        ],
+        [
+          2093,
+          199,
+          2153,
+          258
+        ],
+        [
+          138,
+          444,
+          678,
+          491
+        ],
+        [
+          136,
+          556,
+          2340,
+          617
+        ],
+        [
+          136,
+          619,
+          2340,
+          680
+        ],
+        [
+          133,
+          682,
+          2340,
+          743
+        ],
+        [
+          133,
+          743,
+          2343,
+          806
+        ],
+        [
+          133,
+          808,
+          263,
+          861
+        ],
+        [
+          133,
+          926,
+          2343,
+          992
+        ],
+        [
+          133,
+          995,
+          2345,
+          1058
+        ],
+        [
+          136,
+          1058,
+          2343,
+          1113
+        ],
+        [
+          138,
+          1121,
+          2343,
+          1176
+        ],
+        [
+          136,
+          1184,
+          947,
+          1239
+        ],
+        [
+          138,
+          1302,
+          2343,
+          1368
+        ],
+        [
+          138,
+          1370,
+          1246,
+          1425
+        ],
+        [
+          1140,
+          3398,
+          1338,
+          3462
+        ]
+      ]
+    }
+  }
+}

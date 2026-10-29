@@ -1,0 +1,1288 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662",
+        "block_bbox": [
+          176,
+          198,
+          746,
+          280
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "BALANCE SHEET (CONTINUED)AS AT 31 MARCH 2025",
+        "block_bbox": [
+          176,
+          361,
+          726,
+          447
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.\n",
+        "block_bbox": [
+          171,
+          594,
+          2295,
+          721
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to accounting records and the preparation of financial statements.\n",
+        "block_bbox": [
+          172,
+          782,
+          2294,
+          866
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+        "block_bbox": [
+          173,
+          924,
+          2296,
+          1008
+        ],
+        "block_id": 4,
+        "block_order": 5
+      },
+      {
+        "block_label": "text",
+        "block_content": "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.\n",
+        "block_bbox": [
+          173,
+          1066,
+          2294,
+          1149
+        ],
+        "block_id": 5,
+        "block_order": 6
+      },
+      {
+        "block_label": "text",
+        "block_content": "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies'regime.\n",
+        "block_bbox": [
+          172,
+          1207,
+          2294,
+          1290
+        ],
+        "block_id": 6,
+        "block_order": 7
+      },
+      {
+        "block_label": "text",
+        "block_content": "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+        "block_bbox": [
+          176,
+          1350,
+          1930,
+          1386
+        ],
+        "block_id": 7,
+        "block_order": 8
+      },
+      {
+        "block_label": "text",
+        "block_content": "Mr Ajay Marjara Director ",
+        "block_bbox": [
+          175,
+          1622,
+          448,
+          1704
+        ],
+        "block_id": 8,
+        "block_order": 9
+      },
+      {
+        "block_label": "text",
+        "block_content": "Date: 19 December 2025",
+        "block_bbox": [
+          176,
+          1764,
+          578,
+          1798
+        ],
+        "block_id": 9,
+        "block_order": 10
+      },
+      {
+        "block_label": "text",
+        "block_content": "The notes on pages 3 to 10 form part of these financial statements.",
+        "block_bbox": [
+          176,
+          1861,
+          1228,
+          1895
+        ],
+        "block_id": 10,
+        "block_order": 11
+      },
+      {
+        "block_label": "number",
+        "block_content": "Page 2",
+        "block_bbox": [
+          1174,
+          3379,
+          1286,
+          3412
+        ],
+        "block_id": 11,
+        "block_order": 12
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9798164963722229,
+          "coordinate": [
+            171.0784912109375,
+            594.0050048828125,
+            2295.05517578125,
+            721.351806640625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9760550856590271,
+          "coordinate": [
+            173.154296875,
+            1066.870849609375,
+            2294.38037109375,
+            1149.037841796875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9756302237510681,
+          "coordinate": [
+            172.5997314453125,
+            1207.74365234375,
+            2294.07275390625,
+            1290.51318359375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9743572473526001,
+          "coordinate": [
+            172.4266357421875,
+            782.6494140625,
+            2294.93408203125,
+            866.3623046875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.974353551864624,
+          "coordinate": [
+            173.1212158203125,
+            924.3901977539062,
+            2296.37744140625,
+            1008.7835083007812
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9405180811882019,
+          "coordinate": [
+            176.113037109375,
+            1350.380126953125,
+            1930.5966796875,
+            1386.34521484375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.9363117814064026,
+          "coordinate": [
+            176.058349609375,
+            1861.099365234375,
+            1228.488525390625,
+            1895.574951171875
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.9071683883666992,
+          "coordinate": [
+            1174.4287109375,
+            3379.984375,
+            1286.548828125,
+            3412.80419921875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.86574387550354,
+          "coordinate": [
+            176.51254272460938,
+            1764.649169921875,
+            578.9793701171875,
+            1798.350341796875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.7972075939178467,
+          "coordinate": [
+            175.3671112060547,
+            1622.307373046875,
+            448.67474365234375,
+            1704.951416015625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.626542329788208,
+          "coordinate": [
+            176.72079467773438,
+            361.989990234375,
+            726.959716796875,
+            447.88446044921875
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.5229009985923767,
+          "coordinate": [
+            176.49798583984375,
+            198.34332275390625,
+            746.4279174804688,
+            280.9746398925781
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            180,
+            200
+          ],
+          [
+            750,
+            200
+          ],
+          [
+            750,
+            239
+          ],
+          [
+            180,
+            239
+          ]
+        ],
+        [
+          [
+            180,
+            249
+          ],
+          [
+            753,
+            249
+          ],
+          [
+            753,
+            285
+          ],
+          [
+            180,
+            285
+          ]
+        ],
+        [
+          [
+            177,
+            362
+          ],
+          [
+            731,
+            362
+          ],
+          [
+            731,
+            408
+          ],
+          [
+            177,
+            408
+          ]
+        ],
+        [
+          [
+            180,
+            414
+          ],
+          [
+            573,
+            414
+          ],
+          [
+            573,
+            452
+          ],
+          [
+            180,
+            452
+          ]
+        ],
+        [
+          [
+            183,
+            595
+          ],
+          [
+            2300,
+            595
+          ],
+          [
+            2300,
+            633
+          ],
+          [
+            183,
+            633
+          ]
+        ],
+        [
+          [
+            177,
+            641
+          ],
+          [
+            2300,
+            641
+          ],
+          [
+            2300,
+            680
+          ],
+          [
+            177,
+            680
+          ]
+        ],
+        [
+          [
+            177,
+            688
+          ],
+          [
+            335,
+            688
+          ],
+          [
+            335,
+            726
+          ],
+          [
+            177,
+            726
+          ]
+        ],
+        [
+          [
+            177,
+            776
+          ],
+          [
+            2303,
+            779
+          ],
+          [
+            2303,
+            825
+          ],
+          [
+            177,
+            822
+          ]
+        ],
+        [
+          [
+            180,
+            833
+          ],
+          [
+            1168,
+            833
+          ],
+          [
+            1168,
+            869
+          ],
+          [
+            180,
+            869
+          ]
+        ],
+        [
+          [
+            180,
+            921
+          ],
+          [
+            2306,
+            921
+          ],
+          [
+            2306,
+            968
+          ],
+          [
+            180,
+            968
+          ]
+        ],
+        [
+          [
+            180,
+            973
+          ],
+          [
+            1686,
+            973
+          ],
+          [
+            1686,
+            1012
+          ],
+          [
+            180,
+            1012
+          ]
+        ],
+        [
+          [
+            185,
+            1066
+          ],
+          [
+            2295,
+            1066
+          ],
+          [
+            2295,
+            1105
+          ],
+          [
+            185,
+            1105
+          ]
+        ],
+        [
+          [
+            180,
+            1116
+          ],
+          [
+            482,
+            1116
+          ],
+          [
+            482,
+            1154
+          ],
+          [
+            180,
+            1154
+          ]
+        ],
+        [
+          [
+            177,
+            1201
+          ],
+          [
+            2303,
+            1206
+          ],
+          [
+            2303,
+            1253
+          ],
+          [
+            177,
+            1247
+          ]
+        ],
+        [
+          [
+            180,
+            1258
+          ],
+          [
+            800,
+            1258
+          ],
+          [
+            800,
+            1297
+          ],
+          [
+            180,
+            1297
+          ]
+        ],
+        [
+          [
+            177,
+            1343
+          ],
+          [
+            1935,
+            1349
+          ],
+          [
+            1935,
+            1395
+          ],
+          [
+            177,
+            1390
+          ]
+        ],
+        [
+          [
+            175,
+            1614
+          ],
+          [
+            452,
+            1620
+          ],
+          [
+            450,
+            1670
+          ],
+          [
+            174,
+            1664
+          ]
+        ],
+        [
+          [
+            174,
+            1667
+          ],
+          [
+            316,
+            1667
+          ],
+          [
+            316,
+            1716
+          ],
+          [
+            174,
+            1716
+          ]
+        ],
+        [
+          [
+            180,
+            1765
+          ],
+          [
+            578,
+            1765
+          ],
+          [
+            578,
+            1804
+          ],
+          [
+            180,
+            1804
+          ]
+        ],
+        [
+          [
+            183,
+            1861
+          ],
+          [
+            1232,
+            1861
+          ],
+          [
+            1232,
+            1900
+          ],
+          [
+            183,
+            1900
+          ]
+        ],
+        [
+          [
+            1168,
+            3375
+          ],
+          [
+            1301,
+            3375
+          ],
+          [
+            1301,
+            3424
+          ],
+          [
+            1168,
+            3424
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "PETERBOROUGH CARE LIMITED",
+        "REGISTERED NUMBER:01814662",
+        "BALANCE SHEET (CONTINUED)",
+        "AS AT 31 MARCH 2025",
+        "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and",
+        "members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies",
+        "Act 2006.",
+        "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to",
+        "accounting records and the preparation of financial statements.",
+        "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small",
+        "companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+        "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small",
+        "companies regime.",
+        "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies",
+        "subject to the small companies'regime.",
+        "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+        "Mr Ajay Marjara",
+        "Director",
+        "Date: 19 December 2025",
+        "The notes on pages 3 to 10 form part of these financial statements.",
+        "Page 2"
+      ],
+      "rec_scores": [
+        0.9830546379089355,
+        0.9856987595558167,
+        0.9605255722999573,
+        0.943991482257843,
+        0.973045825958252,
+        0.9762459993362427,
+        0.9560892581939697,
+        0.9661052823066711,
+        0.9875856041908264,
+        0.985386848449707,
+        0.9794219732284546,
+        0.9900196194648743,
+        0.9957432746887207,
+        0.9820491075515747,
+        0.9906470775604248,
+        0.9848436117172241,
+        0.9683859348297119,
+        0.988716185092926,
+        0.9610183835029602,
+        0.9857774376869202,
+        0.9372571110725403
+      ],
+      "rec_polys": [
+        [
+          [
+            180,
+            200
+          ],
+          [
+            750,
+            200
+          ],
+          [
+            750,
+            239
+          ],
+          [
+            180,
+            239
+          ]
+        ],
+        [
+          [
+            180,
+            249
+          ],
+          [
+            753,
+            249
+          ],
+          [
+            753,
+            285
+          ],
+          [
+            180,
+            285
+          ]
+        ],
+        [
+          [
+            177,
+            362
+          ],
+          [
+            731,
+            362
+          ],
+          [
+            731,
+            408
+          ],
+          [
+            177,
+            408
+          ]
+        ],
+        [
+          [
+            180,
+            414
+          ],
+          [
+            573,
+            414
+          ],
+          [
+            573,
+            452
+          ],
+          [
+            180,
+            452
+          ]
+        ],
+        [
+          [
+            183,
+            595
+          ],
+          [
+            2300,
+            595
+          ],
+          [
+            2300,
+            633
+          ],
+          [
+            183,
+            633
+          ]
+        ],
+        [
+          [
+            177,
+            641
+          ],
+          [
+            2300,
+            641
+          ],
+          [
+            2300,
+            680
+          ],
+          [
+            177,
+            680
+          ]
+        ],
+        [
+          [
+            177,
+            688
+          ],
+          [
+            335,
+            688
+          ],
+          [
+            335,
+            726
+          ],
+          [
+            177,
+            726
+          ]
+        ],
+        [
+          [
+            177,
+            776
+          ],
+          [
+            2303,
+            779
+          ],
+          [
+            2303,
+            825
+          ],
+          [
+            177,
+            822
+          ]
+        ],
+        [
+          [
+            180,
+            833
+          ],
+          [
+            1168,
+            833
+          ],
+          [
+            1168,
+            869
+          ],
+          [
+            180,
+            869
+          ]
+        ],
+        [
+          [
+            180,
+            921
+          ],
+          [
+            2306,
+            921
+          ],
+          [
+            2306,
+            968
+          ],
+          [
+            180,
+            968
+          ]
+        ],
+        [
+          [
+            180,
+            973
+          ],
+          [
+            1686,
+            973
+          ],
+          [
+            1686,
+            1012
+          ],
+          [
+            180,
+            1012
+          ]
+        ],
+        [
+          [
+            185,
+            1066
+          ],
+          [
+            2295,
+            1066
+          ],
+          [
+            2295,
+            1105
+          ],
+          [
+            185,
+            1105
+          ]
+        ],
+        [
+          [
+            180,
+            1116
+          ],
+          [
+            482,
+            1116
+          ],
+          [
+            482,
+            1154
+          ],
+          [
+            180,
+            1154
+          ]
+        ],
+        [
+          [
+            177,
+            1201
+          ],
+          [
+            2303,
+            1206
+          ],
+          [
+            2303,
+            1253
+          ],
+          [
+            177,
+            1247
+          ]
+        ],
+        [
+          [
+            180,
+            1258
+          ],
+          [
+            800,
+            1258
+          ],
+          [
+            800,
+            1297
+          ],
+          [
+            180,
+            1297
+          ]
+        ],
+        [
+          [
+            177,
+            1343
+          ],
+          [
+            1935,
+            1349
+          ],
+          [
+            1935,
+            1395
+          ],
+          [
+            177,
+            1390
+          ]
+        ],
+        [
+          [
+            175,
+            1614
+          ],
+          [
+            452,
+            1620
+          ],
+          [
+            450,
+            1670
+          ],
+          [
+            174,
+            1664
+          ]
+        ],
+        [
+          [
+            174,
+            1667
+          ],
+          [
+            316,
+            1667
+          ],
+          [
+            316,
+            1716
+          ],
+          [
+            174,
+            1716
+          ]
+        ],
+        [
+          [
+            180,
+            1765
+          ],
+          [
+            578,
+            1765
+          ],
+          [
+            578,
+            1804
+          ],
+          [
+            180,
+            1804
+          ]
+        ],
+        [
+          [
+            183,
+            1861
+          ],
+          [
+            1232,
+            1861
+          ],
+          [
+            1232,
+            1900
+          ],
+          [
+            183,
+            1900
+          ]
+        ],
+        [
+          [
+            1168,
+            3375
+          ],
+          [
+            1301,
+            3375
+          ],
+          [
+            1301,
+            3424
+          ],
+          [
+            1168,
+            3424
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          180,
+          200,
+          750,
+          239
+        ],
+        [
+          180,
+          249,
+          753,
+          285
+        ],
+        [
+          177,
+          362,
+          731,
+          408
+        ],
+        [
+          180,
+          414,
+          573,
+          452
+        ],
+        [
+          183,
+          595,
+          2300,
+          633
+        ],
+        [
+          177,
+          641,
+          2300,
+          680
+        ],
+        [
+          177,
+          688,
+          335,
+          726
+        ],
+        [
+          177,
+          776,
+          2303,
+          825
+        ],
+        [
+          180,
+          833,
+          1168,
+          869
+        ],
+        [
+          180,
+          921,
+          2306,
+          968
+        ],
+        [
+          180,
+          973,
+          1686,
+          1012
+        ],
+        [
+          185,
+          1066,
+          2295,
+          1105
+        ],
+        [
+          180,
+          1116,
+          482,
+          1154
+        ],
+        [
+          177,
+          1201,
+          2303,
+          1253
+        ],
+        [
+          180,
+          1258,
+          800,
+          1297
+        ],
+        [
+          177,
+          1343,
+          1935,
+          1395
+        ],
+        [
+          174,
+          1614,
+          452,
+          1670
+        ],
+        [
+          174,
+          1667,
+          316,
+          1716
+        ],
+        [
+          180,
+          1765,
+          578,
+          1804
+        ],
+        [
+          183,
+          1861,
+          1232,
+          1900
+        ],
+        [
+          1168,
+          3375,
+          1301,
+          3424
+        ]
+      ]
+    }
+  }
+}

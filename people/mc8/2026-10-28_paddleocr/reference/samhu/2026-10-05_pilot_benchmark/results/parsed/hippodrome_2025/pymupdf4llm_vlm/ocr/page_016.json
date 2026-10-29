@@ -1,0 +1,518 @@
+{
+  "status": "success",
+  "image_sha256": "f975f4411b82a8cbff1cc0f7aa0a5695678b2c20910dcf02cc824d37c0841be4",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          292.0
+        ],
+        [
+          1115.0,
+          292.0
+        ],
+        [
+          1115.0,
+          340.0
+        ],
+        [
+          262.0,
+          340.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          417.0
+        ],
+        [
+          1310.0,
+          417.0
+        ],
+        [
+          1310.0,
+          464.0
+        ],
+        [
+          262.0,
+          464.0
+        ]
+      ],
+      "text": "DIRECTORS' RESPONSIBILITIES STATEMENT",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          497.0
+        ],
+        [
+          1277.0,
+          497.0
+        ],
+        [
+          1277.0,
+          545.0
+        ],
+        [
+          258.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          651.0
+        ],
+        [
+          2207.0,
+          651.0
+        ],
+        [
+          2207.0,
+          698.0
+        ],
+        [
+          258.0,
+          698.0
+        ]
+      ],
+      "text": "The directors are responsible for preparing the Strategic Report and the Directors' Report and the financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          698.0
+        ],
+        [
+          1303.0,
+          698.0
+        ],
+        [
+          1303.0,
+          746.0
+        ],
+        [
+          258.0,
+          746.0
+        ]
+      ],
+      "text": "statements in accordance with applicable law and regulations.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          790.0
+        ],
+        [
+          2207.0,
+          790.0
+        ],
+        [
+          2207.0,
+          826.0
+        ],
+        [
+          262.0,
+          826.0
+        ]
+      ],
+      "text": "Company law requires the directors to prepare financial statements for each financial year. Under that law the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          833.0
+        ],
+        [
+          2207.0,
+          833.0
+        ],
+        [
+          2207.0,
+          870.0
+        ],
+        [
+          262.0,
+          870.0
+        ]
+      ],
+      "text": "directors have elected to prepare the financial statements in accordance with United Kingdom Generally Accepted",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          870.0
+        ],
+        [
+          2211.0,
+          870.0
+        ],
+        [
+          2211.0,
+          917.0
+        ],
+        [
+          258.0,
+          917.0
+        ]
+      ],
+      "text": "Accounting Practice (United Kingdom Accounting Standards and applicable law). Under company law the directors",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          914.0
+        ],
+        [
+          2211.0,
+          914.0
+        ],
+        [
+          2211.0,
+          961.0
+        ],
+        [
+          258.0,
+          961.0
+        ]
+      ],
+      "text": "must not approve the financial statements unless they are satisfied that they give a true and fair view of the state of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          958.0
+        ],
+        [
+          2211.0,
+          958.0
+        ],
+        [
+          2211.0,
+          1005.0
+        ],
+        [
+          258.0,
+          1005.0
+        ]
+      ],
+      "text": "affairs of the company and of the profit or loss of the company for that period. In preparing these financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1005.0
+        ],
+        [
+          948.0,
+          1005.0
+        ],
+        [
+          948.0,
+          1042.0
+        ],
+        [
+          262.0,
+          1042.0
+        ]
+      ],
+      "text": "statements, the directors are required to:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          295.0,
+          1093.0
+        ],
+        [
+          1480.0,
+          1093.0
+        ],
+        [
+          1480.0,
+          1129.0
+        ],
+        [
+          295.0,
+          1129.0
+        ]
+      ],
+      "text": "- select suitable accounting policies and then apply them consistently;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          1126.0
+        ],
+        [
+          1635.0,
+          1126.0
+        ],
+        [
+          1635.0,
+          1173.0
+        ],
+        [
+          288.0,
+          1173.0
+        ]
+      ],
+      "text": "- make judgements and accounting estimates that are reasonable and prudent;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          317.0,
+          1173.0
+        ],
+        [
+          2207.0,
+          1173.0
+        ],
+        [
+          2207.0,
+          1210.0
+        ],
+        [
+          317.0,
+          1210.0
+        ]
+      ],
+      "text": "state whether applicable UK Accounting Standards have been followed, subject to any material departures",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          325.0,
+          1210.0
+        ],
+        [
+          1277.0,
+          1210.0
+        ],
+        [
+          1277.0,
+          1257.0
+        ],
+        [
+          325.0,
+          1257.0
+        ]
+      ],
+      "text": "disclosed and explained in the financial statements; and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          317.0,
+          1261.0
+        ],
+        [
+          2211.0,
+          1257.0
+        ],
+        [
+          2211.0,
+          1305.0
+        ],
+        [
+          317.0,
+          1309.0
+        ]
+      ],
+      "text": "prepare the financial statements on the going concern basis unless it is inappropriate to presume that the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          332.0,
+          1309.0
+        ],
+        [
+          915.0,
+          1309.0
+        ],
+        [
+          915.0,
+          1345.0
+        ],
+        [
+          332.0,
+          1345.0
+        ]
+      ],
+      "text": "company will continue in business.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1389.0
+        ],
+        [
+          2207.0,
+          1389.0
+        ],
+        [
+          2207.0,
+          1426.0
+        ],
+        [
+          262.0,
+          1426.0
+        ]
+      ],
+      "text": "The directors are responsible for keeping adequate accounting records that are sufficient to show and explain the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1429.0
+        ],
+        [
+          2211.0,
+          1429.0
+        ],
+        [
+          2211.0,
+          1477.0
+        ],
+        [
+          258.0,
+          1477.0
+        ]
+      ],
+      "text": "company's transactions and disclose with reasonable accuracy at any time the financial position of the company",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1477.0
+        ],
+        [
+          2207.0,
+          1477.0
+        ],
+        [
+          2207.0,
+          1513.0
+        ],
+        [
+          262.0,
+          1513.0
+        ]
+      ],
+      "text": "and enable them to ensure that the financial statements comply with the Companies Act 2006. They are also",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1521.0
+        ],
+        [
+          2207.0,
+          1521.0
+        ],
+        [
+          2207.0,
+          1557.0
+        ],
+        [
+          262.0,
+          1557.0
+        ]
+      ],
+      "text": "responsible for safeguarding the assets of the company and hence for taking reasonable steps for the prevention",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1557.0
+        ],
+        [
+          1030.0,
+          1557.0
+        ],
+        [
+          1030.0,
+          1605.0
+        ],
+        [
+          258.0,
+          1605.0
+        ]
+      ],
+      "text": "and detection of fraud and other irregularities.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1188.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3355.0
+        ],
+        [
+          1188.0,
+          3355.0
+        ]
+      ],
+      "text": "- 14 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.3031580448150635,
+  "elapsed_seconds": 11.168551874812692
+}

@@ -1,0 +1,12 @@
+{
+  "cpu_threads": 4,
+  "OMP_NUM_THREADS": 1,
+  "OPENBLAS_NUM_THREADS": 1,
+  "MKL_NUM_THREADS": 1,
+  "probe_source": "EDF physical PDF page 4",
+  "source_pixels_identical": true,
+  "native_markdown_identical": true,
+  "one_thread_page_seconds": 105.0,
+  "four_thread_worker_seconds": 83.241,
+  "note": "Operational preflight, not a controlled throughput score. Four-thread worker includes model startup."
+}

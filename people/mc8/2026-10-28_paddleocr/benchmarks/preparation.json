@@ -1,0 +1,10 @@
+{
+  "omni": {
+    "status": "success",
+    "pages": 8
+  },
+  "fin": {
+    "status": "blocked",
+    "error": "GatedRepoError('401 Client Error. (Request ID: Root=1-6ae29cb7-2b4ad0f65133742c5adab67c;cdd72d6a-dd8c-4a15-a94b-cb21d4cdf5b9)\\n\\nCannot access gated repo for url https://huggingface.co/datasets/TheFinAI/FinCriticalED/resolve/2ac95f3dc2f0b55caf35f3d942bb5d32945f7c3e/raw_input.csv.\\nAccess to dataset TheFinAI/FinCriticalED is restricted. You must have access to it and be authenticated to access it. Please log in.')"
+  }
+}

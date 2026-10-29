@@ -1,0 +1,78 @@
+{
+  "completed_pages": 6,
+  "expected_pages": 6,
+  "pages": [
+    {
+      "page": 1,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "76ed3cfd458adfa2226a0790f1ab120444229397679ed90e26b5d006d79f5d4d",
+      "raw_prediction": "raw/page_001.json",
+      "raw_sha256": "916516aa744534eefbf967a2dd79b16117273ae875323fb033218280390ca660",
+      "blocks": 4,
+      "tables": 0,
+      "elapsed_seconds": 13.194
+    },
+    {
+      "page": 2,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "c83e2d00aa15806586a3c9056e5dd48d8f5e13342156a801db12f8a15ff4db58",
+      "raw_prediction": "raw/page_002.json",
+      "raw_sha256": "3a7ba3b474319389895ef8ed3d36735152591de1a391c04271679fc397d2cc6b",
+      "blocks": 6,
+      "tables": 0,
+      "elapsed_seconds": 38.751
+    },
+    {
+      "page": 3,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "b849caf13e41e63db912a7008fcf58e15d269abf26d55f101236582f51d301e2",
+      "raw_prediction": "raw/page_003.json",
+      "raw_sha256": "0cac6264502846088f1766ab1db0f179e13b8052b236fdfc2fdb617a6465db76",
+      "blocks": 11,
+      "tables": 1,
+      "elapsed_seconds": 70.985
+    },
+    {
+      "page": 4,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "5e760be185639e77d23e12e99604bd09d32dc200121423a5091221e6d0fbe86a",
+      "raw_prediction": "raw/page_004.json",
+      "raw_sha256": "883c6e46e041996bcd0849a96da4c794d461729a4746dc14e0860105f4ead99d",
+      "blocks": 10,
+      "tables": 0,
+      "elapsed_seconds": 92.069
+    },
+    {
+      "page": 5,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "de6acb08b56e780d549ba1c5c4200f235920d45cb32de993482aa3eae4ea4d63",
+      "raw_prediction": "raw/page_005.json",
+      "raw_sha256": "844d71af6d33dde6ac8bcb6c570f8cc2dd82c18fda25282cf1e4af87b67f5c2a",
+      "blocks": 14,
+      "tables": 0,
+      "elapsed_seconds": 80.383
+    },
+    {
+      "page": 6,
+      "image_width": 2481,
+      "image_height": 3508,
+      "render_dpi": 300,
+      "image_pixels_sha256": "fd4deedf38aee22f97818d4b02437cf55424a102e2a44e55c491a8ae2b6bea25",
+      "raw_prediction": "raw/page_006.json",
+      "raw_sha256": "8c39bd71b2f28a56b74bd51452d4ca61d43e5aa4a62c085696df5d294401c093",
+      "blocks": 7,
+      "tables": 1,
+      "elapsed_seconds": 66.116
+    }
+  ]
+}

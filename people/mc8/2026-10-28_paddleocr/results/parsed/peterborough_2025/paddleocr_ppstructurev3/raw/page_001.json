@@ -1,0 +1,407 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Registered number: 01814662",
+        "block_bbox": [
+          1570,
+          95,
+          2073,
+          130
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "doc_title",
+        "block_content": "PETERBOROUGH CARE LIMITED ",
+        "block_bbox": [
+          844,
+          1163,
+          1630,
+          1207
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "UNAUDITED ",
+        "block_bbox": [
+          1111,
+          1441,
+          1365,
+          1477
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "FINANCIAL STATEMENTS ",
+        "block_bbox": [
+          971,
+          1621,
+          1504,
+          1657
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "text",
+        "block_content": "FOR THE YEAR ENDED 31 MARCH 2025",
+        "block_bbox": [
+          830,
+          1799,
+          1645,
+          1836
+        ],
+        "block_id": 4,
+        "block_order": 5
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.8066373467445374,
+          "coordinate": [
+            971.8792724609375,
+            1621.27294921875,
+            1504.2926025390625,
+            1657.62353515625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.8000003099441528,
+          "coordinate": [
+            830.8219604492188,
+            1799.4345703125,
+            1645.549072265625,
+            1836.715576171875
+          ]
+        },
+        {
+          "cls_id": 10,
+          "label": "doc_title",
+          "score": 0.7957869172096252,
+          "coordinate": [
+            844.538818359375,
+            1163.975341796875,
+            1630.888427734375,
+            1207.640869140625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.7666749954223633,
+          "coordinate": [
+            1570.898681640625,
+            95.40653991699219,
+            2073.8359375,
+            130.630126953125
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.7367340326309204,
+          "coordinate": [
+            1111.26416015625,
+            1441.5072021484375,
+            1365.6630859375,
+            1477.9273681640625
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            1572,
+            90
+          ],
+          [
+            2076,
+            90
+          ],
+          [
+            2076,
+            137
+          ],
+          [
+            1572,
+            137
+          ]
+        ],
+        [
+          [
+            847,
+            1165
+          ],
+          [
+            1633,
+            1165
+          ],
+          [
+            1633,
+            1212
+          ],
+          [
+            847,
+            1212
+          ]
+        ],
+        [
+          [
+            1113,
+            1439
+          ],
+          [
+            1367,
+            1439
+          ],
+          [
+            1367,
+            1486
+          ],
+          [
+            1113,
+            1486
+          ]
+        ],
+        [
+          [
+            974,
+            1615
+          ],
+          [
+            1506,
+            1615
+          ],
+          [
+            1506,
+            1670
+          ],
+          [
+            974,
+            1670
+          ]
+        ],
+        [
+          [
+            833,
+            1793
+          ],
+          [
+            1650,
+            1793
+          ],
+          [
+            1650,
+            1848
+          ],
+          [
+            833,
+            1848
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "Registered number: 01814662",
+        "PETERBOROUGH CARE LIMITED",
+        "UNAUDITED",
+        "FINANCIAL STATEMENTS",
+        "FOR THE YEAR ENDED 31 MARCH 2025"
+      ],
+      "rec_scores": [
+        0.9909491539001465,
+        0.9129787683486938,
+        0.998206377029419,
+        0.9595028162002563,
+        0.9255235195159912
+      ],
+      "rec_polys": [
+        [
+          [
+            1572,
+            90
+          ],
+          [
+            2076,
+            90
+          ],
+          [
+            2076,
+            137
+          ],
+          [
+            1572,
+            137
+          ]
+        ],
+        [
+          [
+            847,
+            1165
+          ],
+          [
+            1633,
+            1165
+          ],
+          [
+            1633,
+            1212
+          ],
+          [
+            847,
+            1212
+          ]
+        ],
+        [
+          [
+            1113,
+            1439
+          ],
+          [
+            1367,
+            1439
+          ],
+          [
+            1367,
+            1486
+          ],
+          [
+            1113,
+            1486
+          ]
+        ],
+        [
+          [
+            974,
+            1615
+          ],
+          [
+            1506,
+            1615
+          ],
+          [
+            1506,
+            1670
+          ],
+          [
+            974,
+            1670
+          ]
+        ],
+        [
+          [
+            833,
+            1793
+          ],
+          [
+            1650,
+            1793
+          ],
+          [
+            1650,
+            1848
+          ],
+          [
+            833,
+            1848
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          1572,
+          90,
+          2076,
+          137
+        ],
+        [
+          847,
+          1165,
+          1633,
+          1212
+        ],
+        [
+          1113,
+          1439,
+          1367,
+          1486
+        ],
+        [
+          974,
+          1615,
+          1506,
+          1670
+        ],
+        [
+          833,
+          1793,
+          1650,
+          1848
+        ]
+      ]
+    }
+  }
+}

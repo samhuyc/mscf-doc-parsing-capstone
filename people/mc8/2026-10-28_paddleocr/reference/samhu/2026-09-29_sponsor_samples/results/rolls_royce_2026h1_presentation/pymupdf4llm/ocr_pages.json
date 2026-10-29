@@ -1,0 +1,26 @@
+{
+  "engine": "PyMuPDF bundled Tesseract",
+  "mode": "automatic",
+  "pages": [
+    {
+      "page": 1,
+      "text_chars_before": 260,
+      "text_chars_after": 278
+    },
+    {
+      "page": 3,
+      "text_chars_before": 94,
+      "text_chars_after": 180
+    },
+    {
+      "page": 4,
+      "text_chars_before": 533,
+      "text_chars_after": 792
+    },
+    {
+      "page": 5,
+      "text_chars_before": 440,
+      "text_chars_after": 493
+    }
+  ]
+}

@@ -1,0 +1,2212 @@
+[
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 1
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          376,
+          21,
+          500,
+          33
+        ],
+        "pos": [
+          0,
+          30
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          202,
+          279,
+          393,
+          288
+        ],
+        "pos": [
+          30,
+          60
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          267,
+          346,
+          327,
+          354
+        ],
+        "pos": [
+          60,
+          72
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          233,
+          388,
+          362,
+          397
+        ],
+        "pos": [
+          72,
+          98
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          200,
+          431,
+          396,
+          440
+        ],
+        "pos": [
+          98,
+          133
+        ]
+      }
+    ],
+    "text": "Registered number: 01814662 \n\n# PETERBOROUGH CARE LIMITED \n\nUNAUDITED \n\n## FINANCIAL STATEMENTS \n\nFOR THE YEAR ENDED 31 MARCH 2025 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 2
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          51,
+          180,
+          70
+        ],
+        "pos": [
+          0,
+          55
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          96,
+          118,
+          105
+        ],
+        "pos": [
+          55,
+          74
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          109,
+          137,
+          116
+        ],
+        "pos": [
+          74,
+          101
+        ]
+      },
+      {
+        "index": 3,
+        "class": "table",
+        "bbox": [
+          42,
+          143,
+          548,
+          484
+        ],
+        "pos": [
+          101,
+          1815
+        ]
+      },
+      {
+        "index": 4,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          311,
+          823
+        ],
+        "pos": [
+          1815,
+          1824
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662 \n\n## BALANCE SHEET \n\n#### AS AT 31 MARCH 2025 \n\n<table><tr><th></th><th>Note</th><th></th><th>2025<br/>£</th><th></th><th>2024<br/>£</th></tr><tr><td>Fixed assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Debtors: amounts falling due within one year</td><td>5</td><td>2,278,941</td><td></td><td>4,936,255</td><td></td></tr><tr><td>Bank and cash balances</td><td></td><td>2,751,541</td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one<br/>year</td><td>\\(\\rightharpoondown\\)</td><td></td><td>(1,009,237)</td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr></table>\n\nPage 1 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 3
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "text",
+        "bbox": [
+          43,
+          48,
+          180,
+          67
+        ],
+        "pos": [
+          0,
+          55
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          174,
+          108
+        ],
+        "pos": [
+          55,
+          107
+        ]
+      },
+      {
+        "index": 2,
+        "class": "text",
+        "bbox": [
+          41,
+          143,
+          551,
+          173
+        ],
+        "pos": [
+          107,
+          373
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          43,
+          188,
+          551,
+          208
+        ],
+        "pos": [
+          373,
+          566
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          42,
+          221,
+          552,
+          244
+        ],
+        "pos": [
+          566,
+          786
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          43,
+          255,
+          550,
+          278
+        ],
+        "pos": [
+          786,
+          930
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          43,
+          290,
+          551,
+          311
+        ],
+        "pos": [
+          930,
+          1098
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          43,
+          324,
+          463,
+          334
+        ],
+        "pos": [
+          1098,
+          1211
+        ]
+      },
+      {
+        "index": 8,
+        "class": "section-header",
+        "bbox": [
+          42,
+          390,
+          108,
+          410
+        ],
+        "pos": [
+          1211,
+          1242
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          43,
+          423,
+          139,
+          431
+        ],
+        "pos": [
+          1242,
+          1267
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          42,
+          445,
+          294,
+          457
+        ],
+        "pos": [
+          1267,
+          1336
+        ]
+      },
+      {
+        "index": 11,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          312,
+          823
+        ],
+        "pos": [
+          1336,
+          1345
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662 \n\n### BALANCE SHEET (CONTINUED) AS AT 31 MARCH 2025 \n\nThe directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006. \n\nThe directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to accounting records and the preparation of financial statements. \n\nThe financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities. \n\nThe financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime. \n\nThe company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies' regime. \n\nThe financial statements were approved and authorised for issue by the board and were signed on its behalf by: \n\n### Mr Ajay Marjara Director \n\nDate: 19 December 2025 \n\nThe notes on pages 3 to 10 form part of these financial statements \n\nPage 2 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 4
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          179,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          44,
+          140,
+          146,
+          148
+        ],
+        "pos": [
+          102,
+          132
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          70,
+          164,
+          551,
+          185
+        ],
+        "pos": [
+          132,
+          274
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          73,
+          210,
+          431,
+          217
+        ],
+        "pos": [
+          274,
+          371
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          72,
+          243,
+          532,
+          253
+        ],
+        "pos": [
+          371,
+          494
+        ]
+      },
+      {
+        "index": 6,
+        "class": "section-header",
+        "bbox": [
+          43,
+          266,
+          154,
+          275
+        ],
+        "pos": [
+          494,
+          524
+        ]
+      },
+      {
+        "index": 7,
+        "class": "section-header",
+        "bbox": [
+          69,
+          286,
+          268,
+          295
+        ],
+        "pos": [
+          524,
+          580
+        ]
+      },
+      {
+        "index": 8,
+        "class": "text",
+        "bbox": [
+          91,
+          309,
+          552,
+          362
+        ],
+        "pos": [
+          580,
+          1063
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          93,
+          377,
+          326,
+          387
+        ],
+        "pos": [
+          1063,
+          1128
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          69,
+          400,
+          128,
+          408
+        ],
+        "pos": [
+          1128,
+          1146
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          92,
+          423,
+          550,
+          468
+        ],
+        "pos": [
+          1146,
+          1520
+        ]
+      },
+      {
+        "index": 12,
+        "class": "section-header",
+        "bbox": [
+          93,
+          479,
+          184,
+          488
+        ],
+        "pos": [
+          1520,
+          1549
+        ]
+      },
+      {
+        "index": 13,
+        "class": "text",
+        "bbox": [
+          92,
+          501,
+          551,
+          524
+        ],
+        "pos": [
+          1549,
+          1769
+        ]
+      },
+      {
+        "index": 14,
+        "class": "text",
+        "bbox": [
+          123,
+          530,
+          308,
+          540
+        ],
+        "pos": [
+          1769,
+          1819
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          124,
+          549,
+          439,
+          556
+        ],
+        "pos": [
+          1819,
+          1908
+        ]
+      },
+      {
+        "index": 16,
+        "class": "text",
+        "bbox": [
+          123,
+          565,
+          509,
+          575
+        ],
+        "pos": [
+          1908,
+          2015
+        ]
+      },
+      {
+        "index": 17,
+        "class": "text",
+        "bbox": [
+          121,
+          581,
+          435,
+          592
+        ],
+        "pos": [
+          2015,
+          2101
+        ]
+      },
+      {
+        "index": 18,
+        "class": "section-header",
+        "bbox": [
+          68,
+          603,
+          178,
+          616
+        ],
+        "pos": [
+          2101,
+          2132
+        ]
+      },
+      {
+        "index": 19,
+        "class": "text",
+        "bbox": [
+          92,
+          627,
+          552,
+          660
+        ],
+        "pos": [
+          2132,
+          2477
+        ]
+      },
+      {
+        "index": 20,
+        "class": "text",
+        "bbox": [
+          92,
+          673,
+          552,
+          706
+        ],
+        "pos": [
+          2477,
+          2817
+        ]
+      },
+      {
+        "index": 21,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          312,
+          823
+        ],
+        "pos": [
+          2817,
+          2826
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n#### 1. General information \n\nPeterborough Care Limited (\"the Company\") is a private company limited by shares incorporated in England and Wales under the Companies Act. \n\nThe registered number and address of the registered office is given in the Company information \n\nThe functional and presentational currency of the Company is pounds sterling (£) and rounded to the nearest whole pound. \n\n#### 2. Accounting policies \n\n#### 2.1 Basis of preparation of financial statements \n\nThe financial statements have been prepared under the historical cost convention unless otherwise specified within these accounting policies and in accordance with Financial Reporting Standard 102, the Financial Reporting Standard applicable in the UK and the Republic of Ireland and the requirements and the Companies Act 2006. The disclosure requirements of Section 1A of FRS 102 have been applied other than where additional disclosure is required to show a true and fair view. \n\nThe following principal accounting policies have been applied: \n\n### 2.2 Revenue \n\nRevenue is recognised to the extent that it is probable that the economic benefits will flow to the company and the revenue can be reliably measured. Revenue is measured as the fair value of the consideration received or receivable. excluding discounts, rebates, value added tax and other sales taxes. The following criteria must also be met before revenue is recognised: \n\n#### Rendering of services \n\nRevenue from a contract to provide services is recognised in the period in which the services are provided in accordance with the stage of completion of the contract when all of the following conditions are satisfied: \n\nthe amount of revenue can be measured reliably; \n\nit is probable that the company will receive the consideration due under the contract: \n\nthe stage of completion of the contract at the end of the reporting period can be measured reliably; and \n\nthe costs incurred and the costs to complete the contract can be measured reliably. \n\n## 2.3 Tangible fixed assets \n\nTangible fixed assets under the cost model are stated at historical cost less accumulated depreciation and any accumulated impairment losses. Historical cost includes expenditure that is directly attributable to bringing the asset to the location and condition necessary for it to be capable of operating in the manner intended by management. \n\nAt each reporting date the company assesses whether there is any indication of impairment. If such indication exists, the recoverable amount of the asset is determined which is the higher of its fair value less costs to sell and its value in use. An impairment loss is recognised where the carrying amount exceeds the recoverable amount. \n\nPage 3 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 5
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          180,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          136,
+          204,
+          148
+        ],
+        "pos": [
+          102,
+          143
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          63,
+          158,
+          221,
+          171
+        ],
+        "pos": [
+          143,
+          186
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          93,
+          184,
+          552,
+          205
+        ],
+        "pos": [
+          186,
+          357
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          114,
+          239,
+          368,
+          284
+        ],
+        "pos": [
+          357,
+          543
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          93,
+          297,
+          552,
+          318
+        ],
+        "pos": [
+          543,
+          753
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          92,
+          329,
+          553,
+          353
+        ],
+        "pos": [
+          753,
+          889
+        ]
+      },
+      {
+        "index": 8,
+        "class": "section-header",
+        "bbox": [
+          69,
+          365,
+          124,
+          373
+        ],
+        "pos": [
+          889,
+          907
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          93,
+          388,
+          552,
+          421
+        ],
+        "pos": [
+          907,
+          1171
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          68,
+          432,
+          201,
+          445
+        ],
+        "pos": [
+          1171,
+          1206
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          93,
+          457,
+          551,
+          488
+        ],
+        "pos": [
+          1206,
+          1567
+        ]
+      },
+      {
+        "index": 12,
+        "class": "section-header",
+        "bbox": [
+          69,
+          502,
+          180,
+          509
+        ],
+        "pos": [
+          1567,
+          1600
+        ]
+      },
+      {
+        "index": 13,
+        "class": "text",
+        "bbox": [
+          93,
+          525,
+          551,
+          544
+        ],
+        "pos": [
+          1600,
+          1742
+        ]
+      },
+      {
+        "index": 14,
+        "class": "text",
+        "bbox": [
+          93,
+          559,
+          552,
+          581
+        ],
+        "pos": [
+          1742,
+          1892
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          92,
+          592,
+          552,
+          626
+        ],
+        "pos": [
+          1892,
+          2191
+        ]
+      },
+      {
+        "index": 16,
+        "class": "text",
+        "bbox": [
+          92,
+          662,
+          552,
+          727
+        ],
+        "pos": [
+          2191,
+          2790
+        ]
+      },
+      {
+        "index": 17,
+        "class": "page-footer",
+        "bbox": [
+          280,
+          812,
+          311,
+          822
+        ],
+        "pos": [
+          2790,
+          2799
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 2. Accounting policies (continued) \n\n## 2.3 Tangible fixed assets (continued) \n\nDepreciation is charged so as to allocate the cost of assets less their residual value over their estimated useful lives, on a reducing balance and straight line basis. \n\nFreehold property - 2% straight line on cost Plant and machinery - 15% on reducing balance Fixtures and fittings - 15% on reducing balance Computer equipment - 25% on reducing balance \n\nThe assets' residual values, useful lives and depreciation methods are reviewed, and adjusted prospectively if appropriate, or if there is an indication of a significant change since the last reporting date. \n\nGains and losses on disposals are determined by comparing the proceeds with the carrying amount and are recognised in profit or loss. \n\n### 2.4 Debtors \n\nShort-term debtors are measured at transaction price, less any impairment. Loans receivable are measured initially at fair value, net of transaction costs, and are measured subsequently at amortised cost using the effective interest method, less any impairment. \n\n## 2.5 Cash and cash equivalents \n\nCash is represented by cash in hand and deposits with financial institutions repayable without penalty on notice of not more than 24 hours. Cash equivalents are highly liquid investments that mature in no more than three months from the date of acquisition and that are readily convertible to known amounts of cash with insignificant risk of change in value. \n\n#### 2.6 Financial instruments \n\nThe company has elected to apply the provisions of Section 11 \"Basic Financial Instruments\" of FRS 102 to all of its financial instruments. \n\nFinancial instruments are recognised in the company's Balance Sheet when the company becomes party to the contractual provisions of the instrument. \n\nFinancial assets and liabilities are offset, with the net amounts presented in the financial statements, when there is a legally enforceable right to set off the recognised amounts and there is an intention to settle on a net basis or to realise the asset and settle the liability simultaneously. \n\nBasic financial assets, which include trade and other debtors, cash and bank balances, are initially measured at their transaction price (adjusted for transaction costs except in the initial measurement of financial assets that are subsequently measured at fair value through profit and loss) and are subsequently carried at their amortised cost using the effective interest method, less any provision for impairment, unless the arrangement constitutes a financing transaction, where the transaction is measured at the present value of the future receipts discounted at a market rate of interest. \n\nPage 4 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 6
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          180,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          136,
+          204,
+          148
+        ],
+        "pos": [
+          102,
+          143
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          63,
+          159,
+          222,
+          169
+        ],
+        "pos": [
+          143,
+          187
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          93,
+          184,
+          552,
+          205
+        ],
+        "pos": [
+          187,
+          408
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          94,
+          219,
+          192,
+          225
+        ],
+        "pos": [
+          408,
+          444
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          93,
+          241,
+          551,
+          270
+        ],
+        "pos": [
+          444,
+          724
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          93,
+          287,
+          551,
+          341
+        ],
+        "pos": [
+          724,
+          1278
+        ]
+      },
+      {
+        "index": 8,
+        "class": "text",
+        "bbox": [
+          93,
+          354,
+          489,
+          364
+        ],
+        "pos": [
+          1278,
+          1388
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          93,
+          377,
+          552,
+          430
+        ],
+        "pos": [
+          1388,
+          1891
+        ]
+      },
+      {
+        "index": 10,
+        "class": "section-header",
+        "bbox": [
+          94,
+          446,
+          248,
+          453
+        ],
+        "pos": [
+          1891,
+          1938
+        ]
+      },
+      {
+        "index": 11,
+        "class": "section-header",
+        "bbox": [
+          94,
+          468,
+          227,
+          478
+        ],
+        "pos": [
+          1938,
+          1979
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          93,
+          491,
+          552,
+          535
+        ],
+        "pos": [
+          1979,
+          2403
+        ]
+      },
+      {
+        "index": 13,
+        "class": "section-header",
+        "bbox": [
+          93,
+          548,
+          238,
+          558
+        ],
+        "pos": [
+          2403,
+          2449
+        ]
+      },
+      {
+        "index": 14,
+        "class": "section-header",
+        "bbox": [
+          69,
+          594,
+          130,
+          602
+        ],
+        "pos": [
+          2449,
+          2469
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          93,
+          617,
+          552,
+          647
+        ],
+        "pos": [
+          2469,
+          2731
+        ]
+      },
+      {
+        "index": 16,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          809,
+          312,
+          824
+        ],
+        "pos": [
+          2731,
+          2740
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 2. Accounting policies (continued) \n\n### 2.6 Financial instruments (continued) \n\nDiscounting is omitted where the effect of discounting is immaterial. The company's cash and cash equivalents, trade and most other debtors due with the operating cycle fall into this category of financial instruments. \n\n##### Basic financial liabilities \n\nFinancial liabilities and equity instruments are classified according to the substance of the contractual arrangements entered into. An equity instrument is any contract that evidences a residual interest in the assets of the company after the deduction of all its liabilities. \n\nBasic financial liabilities, which include trade and other creditors, bank loans and other loans are initially measured at their transaction price (adjusting for transaction costs except in the initial measurement of financial liabilities that are subsequently measured at fair value through profit and loss). When this constitutes a financing transaction, whereby the debt instrument is measured at the present value of the future payments discounted at a market rate of interest, discounting is omitted where the effect of discounting is immaterial. \n\nDebt instruments are subsequently carried at their amortised cost using the effective interest rate method. \n\nTrade creditors are obligations to pay for goods and services that have been acquired in the ordinary course of business from suppliers. Trade creditors are classified as current liabilities if the payment is due within one year. If not, they represent non-current liabilities. Trade creditors are initially recognised at their transaction price and subsequently are measured at amortised cost using the effective interest method. Discounting is omitted where the effect of discounting is immaterial. \n\n##### Derecognition of financial instruments \n\n#### Derecognition of financial assets \n\nFinancial assets are derecognised when their contractual right to future cash flow expire, or are settled, or when the company transfers the asset and substantially all the risks and rewards of ownership to another party. If significant risks and rewards of ownership are retained after the transfer to another party, then the company will continue to recognise the value of the portion of the risks and rewards retained. \n\n#### Derecognition of financial liabilities \n\n### 2.7 Creditors \n\nShort-term creditors are measured at the transaction price. Other financial liabilities, including bank loans, are measured initially at fair value, net of transaction costs, and are measured subsequently at amortised cost using the effective interest method. \n\nPage 5 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 7
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          180,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          136,
+          204,
+          148
+        ],
+        "pos": [
+          102,
+          143
+        ]
+      },
+      {
+        "index": 3,
+        "class": "section-header",
+        "bbox": [
+          68,
+          159,
+          148,
+          168
+        ],
+        "pos": [
+          143,
+          166
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          93,
+          183,
+          552,
+          216
+        ],
+        "pos": [
+          166,
+          453
+        ]
+      },
+      {
+        "index": 5,
+        "class": "section-header",
+        "bbox": [
+          69,
+          228,
+          130,
+          236
+        ],
+        "pos": [
+          453,
+          472
+        ]
+      },
+      {
+        "index": 6,
+        "class": "section-header",
+        "bbox": [
+          93,
+          252,
+          232,
+          261
+        ],
+        "pos": [
+          472,
+          513
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          93,
+          275,
+          551,
+          307
+        ],
+        "pos": [
+          513,
+          787
+        ]
+      },
+      {
+        "index": 8,
+        "class": "text",
+        "bbox": [
+          93,
+          319,
+          552,
+          351
+        ],
+        "pos": [
+          787,
+          1054
+        ]
+      },
+      {
+        "index": 9,
+        "class": "section-header",
+        "bbox": [
+          69,
+          366,
+          154,
+          373
+        ],
+        "pos": [
+          1054,
+          1082
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          93,
+          388,
+          394,
+          398
+        ],
+        "pos": [
+          1082,
+          1168
+        ]
+      },
+      {
+        "index": 11,
+        "class": "section-header",
+        "bbox": [
+          69,
+          410,
+          159,
+          422
+        ],
+        "pos": [
+          1168,
+          1195
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          93,
+          435,
+          423,
+          445
+        ],
+        "pos": [
+          1195,
+          1289
+        ]
+      },
+      {
+        "index": 13,
+        "class": "section-header",
+        "bbox": [
+          69,
+          457,
+          127,
+          465
+        ],
+        "pos": [
+          1289,
+          1309
+        ]
+      },
+      {
+        "index": 14,
+        "class": "text",
+        "bbox": [
+          93,
+          480,
+          551,
+          513
+        ],
+        "pos": [
+          1309,
+          1584
+        ]
+      },
+      {
+        "index": 15,
+        "class": "text",
+        "bbox": [
+          93,
+          526,
+          551,
+          546
+        ],
+        "pos": [
+          1584,
+          1804
+        ]
+      },
+      {
+        "index": 16,
+        "class": "section-header",
+        "bbox": [
+          68,
+          570,
+          164,
+          582
+        ],
+        "pos": [
+          1804,
+          1833
+        ]
+      },
+      {
+        "index": 17,
+        "class": "text",
+        "bbox": [
+          93,
+          594,
+          551,
+          614
+        ],
+        "pos": [
+          1833,
+          1987
+        ]
+      },
+      {
+        "index": 18,
+        "class": "section-header",
+        "bbox": [
+          43,
+          639,
+          116,
+          650
+        ],
+        "pos": [
+          1987,
+          2006
+        ]
+      },
+      {
+        "index": 19,
+        "class": "text",
+        "bbox": [
+          70,
+          663,
+          443,
+          673
+        ],
+        "pos": [
+          2006,
+          2106
+        ]
+      },
+      {
+        "index": 20,
+        "class": "page-footer",
+        "bbox": [
+          280,
+          812,
+          311,
+          822
+        ],
+        "pos": [
+          2106,
+          2115
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 2. Accounting policies (continued) \n\n## 2.8 Finance costs \n\nFinance costs are charged to profit or loss over the term of the debt using the effective interest method so that the amount charged is at a constant rate on the carrying amount. Issue costs are initially recognised as a reduction in the proceeds of the associated capital instrument. \n\n### 2.9 Pensions \n\n#### Defined contribution pension plan \n\nThe company operates a defined contribution plan for its employees. A defined contribution plan is a pension plan under which the company pays fixed contributions into a separate entity. Once the contributions have been paid the company has no further payment obligations \n\nThe contributions are recognised as an expense in profit or loss when they fall due. Amounts not paid are shown in other creditors as a liability in the Balance Sheet. The assets of the plan are held separately from the company in independently administered funds. \n\n#### 2.10 Interest income \n\nInterest income is recognised in profit or loss using the effective interest method \n\n### 2.11 Borrowing costs \n\nAll borrowing costs are recognised in profit or loss in the year in which they are incurred \n\n### 2.12 Taxation \n\nTax is recognised in profit or loss except that a charge attributable to an item of income and expense recognised as other comprehensive income or to an item recognised directly in equity is also recognised in other comprehensive income or directly in equity respectively. \n\nThe current income tax charge is calculated on the basis of tax rates and laws that have been enacted or substantively enacted by the balance sheet date in the countries where the company operates and generates income \n\n### 2.13 Exceptional items \n\nExceptional items are transactions that fall within the ordinary activities of the company but are presented separately due to their size or incidence. \n\n### 3. Employees \n\nThe average monthly number of employees, including directors, during the year was 49 (2024 - 49). \n\nPage 6 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 8
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          179,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "table",
+        "bbox": [
+          43,
+          132,
+          548,
+          437
+        ],
+        "pos": [
+          102,
+          1450
+        ]
+      },
+      {
+        "index": 3,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          311,
+          823
+        ],
+        "pos": [
+          1450,
+          1459
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n<table><tr><th>4. Tangible fixed assets</th><th>Freehold<br/>property<br/>£</th><th>Plant and<br/>machinery<br/>£</th><th>Fixtures and<br/>fittings<br/>£</th><th>Computer<br/>equipment<br/>£</th><th>Total<br/>£</th></tr><tr><td>Cost</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>At 1 April 2024</td><td>1,584,404</td><td>236,949</td><td>776,063</td><td>26,736</td><td>2,624,152</td></tr><tr><td>Additions</td><td></td><td></td><td>37,138</td><td>986</td><td>38,124</td></tr><tr><td>At 31 March 2025</td><td>1,584,404</td><td>236,949</td><td>813,201</td><td>27,722</td><td>2,662,276</td></tr><tr><td>Depreciation</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>At 1 April 2024</td><td>781,232</td><td>199,643</td><td>627,408</td><td>23,402</td><td>1,631,685</td></tr><tr><td>Charge for the year on owned<br/>assets</td><td>31,688</td><td>5,596</td><td>24,677</td><td>874</td><td>62,835</td></tr><tr><td>At 31 March 2025</td><td>812,920</td><td>205,239</td><td>652,085</td><td>24,276</td><td>1,694,520</td></tr><tr><td>Net book value</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>At 31 March 2025</td><td>771,484</td><td>31,710</td><td>161,116</td><td>3,446</td><td>967,756</td></tr><tr><td>At 31 March 2024</td><td>803,172</td><td>37,306</td><td>148,655</td><td>3,334</td><td>992,467</td></tr></table>\n\nPage 7 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 9
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "section-header",
+        "bbox": [
+          43,
+          48,
+          179,
+          56
+        ],
+        "pos": [
+          0,
+          33
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          33,
+          107
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          142,
+          103,
+          150
+        ],
+        "pos": [
+          107,
+          124
+        ]
+      },
+      {
+        "index": 3,
+        "class": "table",
+        "bbox": [
+          69,
+          164,
+          548,
+          275
+        ],
+        "pos": [
+          124,
+          530
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          43,
+          307,
+          53,
+          315
+        ],
+        "pos": [
+          530,
+          539
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          69,
+          306,
+          260,
+          318
+        ],
+        "pos": [
+          539,
+          588
+        ]
+      },
+      {
+        "index": 6,
+        "class": "table",
+        "bbox": [
+          68,
+          329,
+          548,
+          481
+        ],
+        "pos": [
+          588,
+          1177
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          67,
+          500,
+          548,
+          523
+        ],
+        "pos": [
+          1177,
+          1314
+        ]
+      },
+      {
+        "index": 8,
+        "class": "text",
+        "bbox": [
+          43,
+          548,
+          52,
+          555
+        ],
+        "pos": [
+          1314,
+          1319
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          69,
+          547,
+          297,
+          557
+        ],
+        "pos": [
+          1319,
+          1377
+        ]
+      },
+      {
+        "index": 10,
+        "class": "table",
+        "bbox": [
+          68,
+          569,
+          548,
+          608
+        ],
+        "pos": [
+          1377,
+          1540
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          67,
+          628,
+          548,
+          651
+        ],
+        "pos": [
+          1540,
+          1692
+        ]
+      },
+      {
+        "index": 12,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          311,
+          823
+        ],
+        "pos": [
+          1692,
+          1701
+        ]
+      }
+    ],
+    "text": "#### PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 5. Debtors \n\n<table><tr><th></th><th>2025<br/>£</th><th>2024<br/>£</th></tr><tr><td>Trade debtors</td><td>28,862</td><td>20,231</td></tr><tr><td>Other debtors</td><td>2,110,963</td><td>4,849,789</td></tr><tr><td>Called up share capital not paid</td><td>28</td><td>28</td></tr><tr><td>Prepayments and accrued income</td><td>139,088</td><td>66,207</td></tr><tr><td></td><td>2,278,941</td><td>4,936,255</td></tr></table>\n\n### 6. \n\nCreditors: Amounts falling due within one year \n\n<table><tr><th></th><th>2025<br/>£</th><th>2024<br/>£</th></tr><tr><td>Bank loans</td><td>31,524</td><td>25,436</td></tr><tr><td>Other loans</td><td>9,233</td><td>10,996</td></tr><tr><td>Trade creditors</td><td>174,192</td><td>29,726</td></tr><tr><td>Corporation tax</td><td>139,651</td><td>79,444</td></tr><tr><td>Other taxation and social security</td><td>51,674</td><td>37,355</td></tr><tr><td>Other creditors</td><td>79,790</td><td>312,939</td></tr><tr><td>Accruals and deferred income</td><td>17,981</td><td>13,040</td></tr><tr><td></td><td>504,045</td><td>508,936</td></tr></table>\n\nBank loans due within one year totalling £31,524 (2024: £25,436) are secured by a fixed and floating charge over the company's assets. \n\n7. \n\nCreditors: Amounts falling due after more than one year \n\n<table><tr><th></th><th>2025</th><th>2024</th></tr><tr><td></td><td>£</td><td>£</td></tr><tr><td>Bank loans</td><td>1,009,237</td><td>1,046,848</td></tr></table>\n\nBank loans due after more than one year totalling £1,009,237 (2024: £1,046,848) are secured by a fixed and floating charge over the company's assets. \n\nPage 8 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 10
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          179,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "section-header",
+        "bbox": [
+          43,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          102
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          134,
+          97,
+          142
+        ],
+        "pos": [
+          102,
+          117
+        ]
+      },
+      {
+        "index": 3,
+        "class": "table",
+        "bbox": [
+          67,
+          156,
+          548,
+          407
+        ],
+        "pos": [
+          117,
+          947
+        ]
+      },
+      {
+        "index": 4,
+        "class": "section-header",
+        "bbox": [
+          44,
+          438,
+          161,
+          445
+        ],
+        "pos": [
+          947,
+          977
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          70,
+          459,
+          553,
+          491
+        ],
+        "pos": [
+          977,
+          1284
+        ]
+      },
+      {
+        "index": 6,
+        "class": "page-footer",
+        "bbox": [
+          279,
+          810,
+          312,
+          823
+        ],
+        "pos": [
+          1284,
+          1293
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\n#### NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 8. Loans \n\n<table><tr><th>Analysis of the maturity of loans is given below:</th><th></th><th></th></tr><tr><td></td><td>2025<br/>£</td><td>2024<br/>£</td></tr><tr><td>Amounts falling due within 1 year</td><td></td><td></td></tr><tr><td>Bank loans</td><td>31,524</td><td>25,436</td></tr><tr><td>Other loans</td><td>9,233</td><td>10,996</td></tr><tr><td></td><td>40,757</td><td>36,432</td></tr><tr><td>Amounts falling due 1-2 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>31,523</td><td>25,436</td></tr><tr><td>Amounts falling due 2-5 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>94,570</td><td>76,309</td></tr><tr><td>Amounts falling due after more than 5 years</td><td></td><td></td></tr><tr><td>Bank loans</td><td>883,144</td><td>945,103</td></tr><tr><td></td><td>1,049,994</td><td>1,083,280</td></tr></table>\n\n#### 9. Pension commitments \n\nThe company operates a defined contributions pension scheme. The assets of the scheme are held separately from those of the company in an independently administered fund. Contributions totalling £4,065 (2024: £4,063) were payable to the fund at the balance sheet date and are included in other creditors. \n\nPage 9 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 11
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          43,
+          48,
+          180,
+          56
+        ],
+        "pos": [
+          0,
+          28
+        ]
+      },
+      {
+        "index": 1,
+        "class": "text",
+        "bbox": [
+          42,
+          88,
+          215,
+          107
+        ],
+        "pos": [
+          28,
+          97
+        ]
+      },
+      {
+        "index": 2,
+        "class": "section-header",
+        "bbox": [
+          43,
+          132,
+          178,
+          144
+        ],
+        "pos": [
+          97,
+          134
+        ]
+      },
+      {
+        "index": 3,
+        "class": "text",
+        "bbox": [
+          68,
+          157,
+          548,
+          179
+        ],
+        "pos": [
+          134,
+          317
+        ]
+      },
+      {
+        "index": 4,
+        "class": "text",
+        "bbox": [
+          68,
+          201,
+          548,
+          233
+        ],
+        "pos": [
+          317,
+          573
+        ]
+      },
+      {
+        "index": 5,
+        "class": "text",
+        "bbox": [
+          69,
+          258,
+          548,
+          280
+        ],
+        "pos": [
+          573,
+          749
+        ]
+      },
+      {
+        "index": 6,
+        "class": "text",
+        "bbox": [
+          69,
+          304,
+          548,
+          336
+        ],
+        "pos": [
+          749,
+          1003
+        ]
+      },
+      {
+        "index": 7,
+        "class": "text",
+        "bbox": [
+          68,
+          360,
+          547,
+          381
+        ],
+        "pos": [
+          1003,
+          1249
+        ]
+      },
+      {
+        "index": 8,
+        "class": "text",
+        "bbox": [
+          69,
+          406,
+          548,
+          426
+        ],
+        "pos": [
+          1249,
+          1411
+        ]
+      },
+      {
+        "index": 9,
+        "class": "text",
+        "bbox": [
+          69,
+          451,
+          548,
+          473
+        ],
+        "pos": [
+          1411,
+          1622
+        ]
+      },
+      {
+        "index": 10,
+        "class": "text",
+        "bbox": [
+          69,
+          497,
+          548,
+          517
+        ],
+        "pos": [
+          1622,
+          1831
+        ]
+      },
+      {
+        "index": 11,
+        "class": "text",
+        "bbox": [
+          69,
+          541,
+          460,
+          551
+        ],
+        "pos": [
+          1831,
+          1941
+        ]
+      },
+      {
+        "index": 12,
+        "class": "text",
+        "bbox": [
+          69,
+          576,
+          527,
+          586
+        ],
+        "pos": [
+          1941,
+          2064
+        ]
+      },
+      {
+        "index": 13,
+        "class": "page-footer",
+        "bbox": [
+          278,
+          807,
+          315,
+          820
+        ],
+        "pos": [
+          2064,
+          2074
+        ]
+      }
+    ],
+    "text": "PETERBOROUGH CARE LIMITED \n\nNOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025 \n\n### 10. Related party transactions \n\nIncluded within other debtors is a balance due from Peterborough Property Investments Ltd, a company with directors and shareholders in common, totalling £829,221 (2024: £383,721). \n\nAlso included within other debtors is a balance due from Pride Care Homes Peterborough Limited, a company with directors and shareholders in common, totalling £25,887 (2024: £3,546,575). Interest of £103,550 (2024: £103,550) was charged on this balance. \n\nAlso included within other debtors is a balance due from Northamptonshire Care Limited, a company with directors and shareholders in common, totalling £Nil (2024: £857,359). \n\nAlso included within other debtors is a balance due from Kuni Coffee Peterborough Limited, a company with directors and shareholders of whom are close family members of the directors and shareholders in this company, totalling £13,150 (2024: £13,150). \n\nAlso included within other debtors is a balance due from Lavender House Care Home LLP, a limited liability partnership with members in common with the directors and shareholders of Peterborough Care Limited, totalling £703,983 (2024: £46,785). \n\nAlso included within other debtors is balance due from Corby Care Homes Limited, a company with directors and shareholders in common, of £3,300 (2024: £1,296). \n\nAlso included within other debtors is a balance due from Park Vista Care Homes Limited, a company with directors and shareholders in common, totalling £296,728 (2024: £12,289 included within other creditors). \n\nAlso included within other debtors is a balance due from Thorpe Wood Care Homes Limited, a company with directors and shareholders in common, totalling £552 (2024: £218,138 included within other creditors). \n\nIncluded within other creditors is a balance due to a director of the company totalling £Nil (2024: £6,802) \n\nAll balances, except that with Pride Care Homes Peterborough Limited, are interest free and all are repayable on demand. \n\nPage 10 \n\n"
+  },
+  {
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150912",
+      "creationDate": "D:20251222154702",
+      "modDate": "D:20251222154702",
+      "trapped": "",
+      "encryption": null,
+      "file_path": "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+      "page_count": 12,
+      "page_number": 12
+    },
+    "toc_items": [],
+    "page_boxes": [
+      {
+        "index": 0,
+        "class": "page-header",
+        "bbox": [
+          39,
+          27,
+          541,
+          67
+        ],
+        "pos": [
+          0,
+          234
+        ]
+      }
+    ],
+    "text": "This document was delivered using electronic communications and authenticated in accordance with the registrar's rules relating to electronic form, authentication and manner of delivery under section 1072 of the Companies Act 2006. \n\n"
+  }
+]

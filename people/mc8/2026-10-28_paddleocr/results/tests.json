@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "suites": [
+    {
+      "directory": "reference/samhu/2026-10-05_pilot_benchmark",
+      "command": "python -m unittest -v test_benchmark test_reviews",
+      "tests": 26
+    },
+    {
+      "directory": "reference/samhu/2026-09-20_evaluation",
+      "command": "python -m unittest -v",
+      "tests": 9
+    },
+    {
+      "directory": "reference/samhu/2026-09-29_sponsor_samples",
+      "command": "python -m unittest -v test_parse test_evaluate",
+      "tests": 9
+    },
+    {
+      "directory": ".",
+      "command": "python -m unittest -v test_report",
+      "tests": 2
+    },
+    {
+      "directory": ".",
+      "command": "python -m unittest -v test_selected_pages",
+      "tests": 2
+    }
+  ],
+  "total_tests": 48
+}

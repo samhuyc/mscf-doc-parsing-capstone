@@ -1,0 +1,1112 @@
+{
+  "status": "success",
+  "image_sha256": "985faa04f175eb2d9a99f64e1766bb3319ff398f3df355d799d4f11f146091f8",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          296.0
+        ],
+        [
+          1118.0,
+          296.0
+        ],
+        [
+          1118.0,
+          344.0
+        ],
+        [
+          262.0,
+          344.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          420.0
+        ],
+        [
+          1550.0,
+          420.0
+        ],
+        [
+          1550.0,
+          468.0
+        ],
+        [
+          266.0,
+          468.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          493.0
+        ],
+        [
+          1281.0,
+          497.0
+        ],
+        [
+          1280.0,
+          548.0
+        ],
+        [
+          262.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          348.0,
+          646.0
+        ],
+        [
+          580.0,
+          655.0
+        ],
+        [
+          578.0,
+          706.0
+        ],
+        [
+          346.0,
+          698.0
+        ]
+      ],
+      "text": "Borrowings",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          658.0
+        ],
+        [
+          321.0,
+          658.0
+        ],
+        [
+          321.0,
+          698.0
+        ],
+        [
+          258.0,
+          698.0
+        ]
+      ],
+      "text": "20",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1849.0,
+          705.0
+        ],
+        [
+          1952.0,
+          705.0
+        ],
+        [
+          1952.0,
+          753.0
+        ],
+        [
+          1849.0,
+          753.0
+        ]
+      ],
+      "text": "2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2109.0,
+          703.0
+        ],
+        [
+          2218.0,
+          693.0
+        ],
+        [
+          2223.0,
+          748.0
+        ],
+        [
+          2115.0,
+          758.0
+        ]
+      ],
+      "text": "2024",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1912.0,
+          757.0
+        ],
+        [
+          1945.0,
+          757.0
+        ],
+        [
+          1945.0,
+          797.0
+        ],
+        [
+          1912.0,
+          797.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2177.0,
+          753.0
+        ],
+        [
+          2222.0,
+          753.0
+        ],
+        [
+          2222.0,
+          804.0
+        ],
+        [
+          2177.0,
+          804.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          852.0
+        ],
+        [
+          683.0,
+          852.0
+        ],
+        [
+          683.0,
+          899.0
+        ],
+        [
+          358.0,
+          899.0
+        ]
+      ],
+      "text": "Preference shares",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1746.0,
+          855.0
+        ],
+        [
+          1945.0,
+          855.0
+        ],
+        [
+          1945.0,
+          896.0
+        ],
+        [
+          1746.0,
+          896.0
+        ]
+      ],
+      "text": "35,813,158",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2015.0,
+          855.0
+        ],
+        [
+          2214.0,
+          855.0
+        ],
+        [
+          2214.0,
+          896.0
+        ],
+        [
+          2015.0,
+          896.0
+        ]
+      ],
+      "text": "33,173,266",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1002.0
+        ],
+        [
+          753.0,
+          1002.0
+        ],
+        [
+          753.0,
+          1049.0
+        ],
+        [
+          358.0,
+          1049.0
+        ]
+      ],
+      "text": "Payable after one year",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1746.0,
+          1005.0
+        ],
+        [
+          1945.0,
+          1005.0
+        ],
+        [
+          1945.0,
+          1045.0
+        ],
+        [
+          1746.0,
+          1045.0
+        ]
+      ],
+      "text": "35,813,158",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2015.0,
+          1005.0
+        ],
+        [
+          2214.0,
+          1005.0
+        ],
+        [
+          2214.0,
+          1045.0
+        ],
+        [
+          2015.0,
+          1045.0
+        ]
+      ],
+      "text": "33,173,266",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1144.0
+        ],
+        [
+          2200.0,
+          1144.0
+        ],
+        [
+          2200.0,
+          1192.0
+        ],
+        [
+          362.0,
+          1192.0
+        ]
+      ],
+      "text": "Redeemable preference shares are comprised of 23,906,293 (2024: 23,906,293) Preference Shares of £1",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1192.0
+        ],
+        [
+          1628.0,
+          1192.0
+        ],
+        [
+          1628.0,
+          1239.0
+        ],
+        [
+          358.0,
+          1239.0
+        ]
+      ],
+      "text": "each and 23,800,446 (2024: 23,800,446) Preference 'A' Shares of £1 each.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1283.0
+        ],
+        [
+          2207.0,
+          1283.0
+        ],
+        [
+          2207.0,
+          1320.0
+        ],
+        [
+          362.0,
+          1320.0
+        ]
+      ],
+      "text": "Both classes of preference shares may be redeemed at the Company's option at any time without payment of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1323.0
+        ],
+        [
+          2211.0,
+          1323.0
+        ],
+        [
+          2211.0,
+          1371.0
+        ],
+        [
+          358.0,
+          1371.0
+        ]
+      ],
+      "text": "a premium. On winding up both sets of preference shares rank equally ahead of only the ordinary shares and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1367.0
+        ],
+        [
+          2203.0,
+          1367.0
+        ],
+        [
+          2203.0,
+          1404.0
+        ],
+        [
+          362.0,
+          1404.0
+        ]
+      ],
+      "text": "will be repaid at par and any accrued preferential dividends. No voting rights are allocated to either class of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1415.0
+        ],
+        [
+          2203.0,
+          1415.0
+        ],
+        [
+          2203.0,
+          1451.0
+        ],
+        [
+          362.0,
+          1451.0
+        ]
+      ],
+      "text": "preference shares. Both classes of preference shares may be redeemed at the Company's option at any time",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1451.0
+        ],
+        [
+          2207.0,
+          1451.0
+        ],
+        [
+          2207.0,
+          1499.0
+        ],
+        [
+          358.0,
+          1499.0
+        ]
+      ],
+      "text": "without payment of a premium. On winding up both sets of preference shares rank equally ahead of only the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1499.0
+        ],
+        [
+          2200.0,
+          1499.0
+        ],
+        [
+          2200.0,
+          1535.0
+        ],
+        [
+          362.0,
+          1535.0
+        ]
+      ],
+      "text": "ordinary shares and will be repaid at par. No voting rights are allocated to either class of preference shares.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1542.0
+        ],
+        [
+          2203.0,
+          1542.0
+        ],
+        [
+          2203.0,
+          1579.0
+        ],
+        [
+          362.0,
+          1579.0
+        ]
+      ],
+      "text": "At the discretion of the Board, the holders of the preference shares of £1 each are entitled to a non-",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1579.0
+        ],
+        [
+          2207.0,
+          1579.0
+        ],
+        [
+          2207.0,
+          1627.0
+        ],
+        [
+          358.0,
+          1627.0
+        ]
+      ],
+      "text": "cumulative preferential dividend of 3% on the nominal value in preference of the ordinary shareholders in the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1623.0
+        ],
+        [
+          2211.0,
+          1623.0
+        ],
+        [
+          2211.0,
+          1670.0
+        ],
+        [
+          358.0,
+          1670.0
+        ]
+      ],
+      "text": "event of the directors declaring a distribution subject to certain conditions. These conditions require there are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          1670.0
+        ],
+        [
+          2200.0,
+          1670.0
+        ],
+        [
+          2200.0,
+          1707.0
+        ],
+        [
+          365.0,
+          1707.0
+        ]
+      ],
+      "text": "sufficient profits available for the distribution of the entire (and not part) of the amount of the calculated",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1707.0
+        ],
+        [
+          2207.0,
+          1707.0
+        ],
+        [
+          2207.0,
+          1754.0
+        ],
+        [
+          362.0,
+          1754.0
+        ]
+      ],
+      "text": "dividend, with such distributable profits being determined with reference to the final audited financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1751.0
+        ],
+        [
+          2207.0,
+          1751.0
+        ],
+        [
+          2207.0,
+          1798.0
+        ],
+        [
+          358.0,
+          1798.0
+        ]
+      ],
+      "text": "statements of the Company for that year and also provided the group retain free cash flow in excess of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1798.0
+        ],
+        [
+          565.0,
+          1798.0
+        ],
+        [
+          565.0,
+          1839.0
+        ],
+        [
+          362.0,
+          1839.0
+        ]
+      ],
+      "text": "£6,000,000.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1879.0
+        ],
+        [
+          2211.0,
+          1879.0
+        ],
+        [
+          2211.0,
+          1926.0
+        ],
+        [
+          362.0,
+          1926.0
+        ]
+      ],
+      "text": "During the year distributable reserves exceeded that of £6,000,000, however there were no redemptions",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          1926.0
+        ],
+        [
+          2203.0,
+          1926.0
+        ],
+        [
+          2203.0,
+          1963.0
+        ],
+        [
+          365.0,
+          1963.0
+        ]
+      ],
+      "text": "made by the company. Redemptions are now not expected to commence until 2027 at the earliest. The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1967.0
+        ],
+        [
+          2207.0,
+          1967.0
+        ],
+        [
+          2207.0,
+          2014.0
+        ],
+        [
+          362.0,
+          2014.0
+        ]
+      ],
+      "text": "impact of this change in estimate around the timing of redemptions and cash flows has been quantified within",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2010.0
+        ],
+        [
+          1428.0,
+          2010.0
+        ],
+        [
+          1428.0,
+          2058.0
+        ],
+        [
+          358.0,
+          2058.0
+        ]
+      ],
+      "text": "the critical judgements note to the financial statements (note 2).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2091.0
+        ],
+        [
+          2207.0,
+          2098.0
+        ],
+        [
+          2207.0,
+          2146.0
+        ],
+        [
+          358.0,
+          2138.0
+        ]
+      ],
+      "text": "Preference Shares are recognised as a basic financial liability and are measured at amortised cost using an",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2146.0
+        ],
+        [
+          2203.0,
+          2146.0
+        ],
+        [
+          2203.0,
+          2182.0
+        ],
+        [
+          365.0,
+          2182.0
+        ]
+      ],
+      "text": "effective interest rate. The total value of Preference Shares at amortised cost using the effective interest rate",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2182.0
+        ],
+        [
+          1321.0,
+          2178.0
+        ],
+        [
+          1321.0,
+          2226.0
+        ],
+        [
+          354.0,
+          2230.0
+        ]
+      ],
+      "text": "at the reporting date is £17,946,308 (2024: £16,623,434).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2266.0
+        ],
+        [
+          2207.0,
+          2270.0
+        ],
+        [
+          2207.0,
+          2317.0
+        ],
+        [
+          358.0,
+          2314.0
+        ]
+      ],
+      "text": "'A' Preference Shares are recognised as a basic financial liability and are measured at amortised cost using",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2317.0
+        ],
+        [
+          2203.0,
+          2317.0
+        ],
+        [
+          2203.0,
+          2354.0
+        ],
+        [
+          365.0,
+          2354.0
+        ]
+      ],
+      "text": "an effective interest rate. The total value of 'A' Preference Shares at amortised cost using the effective",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2354.0
+        ],
+        [
+          1535.0,
+          2354.0
+        ],
+        [
+          1535.0,
+          2401.0
+        ],
+        [
+          362.0,
+          2401.0
+        ]
+      ],
+      "text": "interest rate at the reporting date is £17,866,850 (2024: £16,549,832).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2174.0,
+          2449.0
+        ],
+        [
+          2222.0,
+          2449.0
+        ],
+        [
+          2222.0,
+          2500.0
+        ],
+        [
+          2174.0,
+          2500.0
+        ]
+      ],
+      "text": "£",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2507.0
+        ],
+        [
+          1635.0,
+          2507.0
+        ],
+        [
+          1635.0,
+          2544.0
+        ],
+        [
+          365.0,
+          2544.0
+        ]
+      ],
+      "text": "Carrying value of Preference and A Preference shares as at 1 January 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2015.0,
+          2500.0
+        ],
+        [
+          2218.0,
+          2500.0
+        ],
+        [
+          2218.0,
+          2551.0
+        ],
+        [
+          2015.0,
+          2551.0
+        ]
+      ],
+      "text": "33,173,266",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2551.0
+        ],
+        [
+          1159.0,
+          2551.0
+        ],
+        [
+          1159.0,
+          2599.0
+        ],
+        [
+          362.0,
+          2599.0
+        ]
+      ],
+      "text": "Interest charge in respect of preference shares",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2030.0,
+          2548.0
+        ],
+        [
+          2218.0,
+          2548.0
+        ],
+        [
+          2218.0,
+          2599.0
+        ],
+        [
+          2030.0,
+          2599.0
+        ]
+      ],
+      "text": "2,809,776",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2603.0
+        ],
+        [
+          1155.0,
+          2603.0
+        ],
+        [
+          1155.0,
+          2639.0
+        ],
+        [
+          365.0,
+          2639.0
+        ]
+      ],
+      "text": "Re-measurement of expected future cash flows",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2048.0,
+          2599.0
+        ],
+        [
+          2229.0,
+          2599.0
+        ],
+        [
+          2229.0,
+          2650.0
+        ],
+        [
+          2048.0,
+          2650.0
+        ]
+      ],
+      "text": "(169,884)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2705.0
+        ],
+        [
+          1698.0,
+          2705.0
+        ],
+        [
+          1698.0,
+          2741.0
+        ],
+        [
+          365.0,
+          2741.0
+        ]
+      ],
+      "text": "Carrying value of Preference and A Preference shares as at 31 December 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          2015.0,
+          2698.0
+        ],
+        [
+          2211.0,
+          2698.0
+        ],
+        [
+          2211.0,
+          2738.0
+        ],
+        [
+          2015.0,
+          2738.0
+        ]
+      ],
+      "text": "35.813.158",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3312.0
+        ],
+        [
+          1288.0,
+          3355.0
+        ],
+        [
+          1192.0,
+          3355.0
+        ]
+      ],
+      "text": "- 34 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.24490022659301758,
+  "elapsed_seconds": 24.397275167051703
+}

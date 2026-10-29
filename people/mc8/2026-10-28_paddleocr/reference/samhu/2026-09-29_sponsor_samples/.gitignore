@@ -1,0 +1,5 @@
+inputs/
+cache/
+tmp/
+results/*/*/raw/
+:memory:.ses

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "retained_predictions": 46,
+  "pruned_predictions": 18,
+  "selected_labels": 54,
+  "individual_checks": 689,
+  "every_check_identical": true,
+  "all_aggregate_metrics_identical": true,
+  "all_six_document_metrics_identical": true,
+  "parser_reruns": 0
+}

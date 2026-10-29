@@ -1,0 +1,804 @@
+{
+  "status": "success",
+  "image_sha256": "df98ba778be7569ea4ea6661d9ae077c3aa253e31369ec63e0a7492e0bfd37eb",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          289.0
+        ],
+        [
+          1118.0,
+          289.0
+        ],
+        [
+          1118.0,
+          336.0
+        ],
+        [
+          258.0,
+          336.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          413.0
+        ],
+        [
+          1218.0,
+          413.0
+        ],
+        [
+          1218.0,
+          461.0
+        ],
+        [
+          255.0,
+          461.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          497.0
+        ],
+        [
+          1281.0,
+          497.0
+        ],
+        [
+          1281.0,
+          545.0
+        ],
+        [
+          258.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          350.0,
+          651.0
+        ],
+        [
+          727.0,
+          647.0
+        ],
+        [
+          727.0,
+          698.0
+        ],
+        [
+          351.0,
+          702.0
+        ]
+      ],
+      "text": "Accounting policies",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          753.0
+        ],
+        [
+          760.0,
+          753.0
+        ],
+        [
+          760.0,
+          800.0
+        ],
+        [
+          358.0,
+          800.0
+        ]
+      ],
+      "text": "Company information",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          800.0
+        ],
+        [
+          2211.0,
+          800.0
+        ],
+        [
+          2211.0,
+          848.0
+        ],
+        [
+          358.0,
+          848.0
+        ]
+      ],
+      "text": "Hippodrome Casino Limited is a private company limited by shares and is registered and incorporated in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          844.0
+        ],
+        [
+          2126.0,
+          844.0
+        ],
+        [
+          2126.0,
+          892.0
+        ],
+        [
+          358.0,
+          892.0
+        ]
+      ],
+      "text": "England and Wales. The registered office is Hippodrome Casino, Cranbourn Street, London, WC2H 7JH.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          932.0
+        ],
+        [
+          2052.0,
+          932.0
+        ],
+        [
+          2052.0,
+          980.0
+        ],
+        [
+          358.0,
+          980.0
+        ]
+      ],
+      "text": "The Company's principal activities and nature of its operations are disclosed in the Directors' Report.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1027.0
+        ],
+        [
+          790.0,
+          1027.0
+        ],
+        [
+          790.0,
+          1075.0
+        ],
+        [
+          358.0,
+          1075.0
+        ]
+      ],
+      "text": "Accounting convention",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1086.0
+        ],
+        [
+          2207.0,
+          1086.0
+        ],
+        [
+          2207.0,
+          1122.0
+        ],
+        [
+          362.0,
+          1122.0
+        ]
+      ],
+      "text": "These financial statements have been prepared in accordance with FRS 102 \"The Financial Reporting",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1122.0
+        ],
+        [
+          2211.0,
+          1122.0
+        ],
+        [
+          2211.0,
+          1170.0
+        ],
+        [
+          358.0,
+          1170.0
+        ]
+      ],
+      "text": "Standard applicable in the UK and Republic of Ireland\" (\"FRS 102\") and the requirements of the Companies",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1166.0
+        ],
+        [
+          2214.0,
+          1166.0
+        ],
+        [
+          2214.0,
+          1214.0
+        ],
+        [
+          358.0,
+          1214.0
+        ]
+      ],
+      "text": "Act 2006, including the provisions of the Large and Medium-sized Companies and Groups (Accounts and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1210.0
+        ],
+        [
+          823.0,
+          1210.0
+        ],
+        [
+          823.0,
+          1257.0
+        ],
+        [
+          358.0,
+          1257.0
+        ]
+      ],
+      "text": "Reports) Regulations 2008.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1312.0
+        ],
+        [
+          2203.0,
+          1312.0
+        ],
+        [
+          2203.0,
+          1349.0
+        ],
+        [
+          358.0,
+          1349.0
+        ]
+      ],
+      "text": "The financial statements are prepared in sterling, which is the functional currency of the Company. Monetary",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1352.0
+        ],
+        [
+          1520.0,
+          1349.0
+        ],
+        [
+          1521.0,
+          1396.0
+        ],
+        [
+          354.0,
+          1400.0
+        ]
+      ],
+      "text": "amounts in these financial statements are rounded to the nearest £1.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1451.0
+        ],
+        [
+          2211.0,
+          1451.0
+        ],
+        [
+          2211.0,
+          1499.0
+        ],
+        [
+          354.0,
+          1499.0
+        ]
+      ],
+      "text": "The financial statements have been prepared under the historical cost convention, modified to include certain",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1499.0
+        ],
+        [
+          1949.0,
+          1499.0
+        ],
+        [
+          1949.0,
+          1535.0
+        ],
+        [
+          358.0,
+          1535.0
+        ]
+      ],
+      "text": "financial instruments at fair value. The principal accounting policies adopted are set out below.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1597.0
+        ],
+        [
+          2211.0,
+          1597.0
+        ],
+        [
+          2211.0,
+          1634.0
+        ],
+        [
+          362.0,
+          1634.0
+        ]
+      ],
+      "text": "The Company is a qualifying entity for the purposes of FRS 102, being a member of a group where the parent",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1641.0
+        ],
+        [
+          2207.0,
+          1641.0
+        ],
+        [
+          2207.0,
+          1678.0
+        ],
+        [
+          362.0,
+          1678.0
+        ]
+      ],
+      "text": "of that group prepares publicly available consolidated financial statements, including this Company, which are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1685.0
+        ],
+        [
+          2207.0,
+          1685.0
+        ],
+        [
+          2207.0,
+          1722.0
+        ],
+        [
+          362.0,
+          1722.0
+        ]
+      ],
+      "text": "intended to give a true and fair view of the assets, liabilities, financial position and profit or loss of the group.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1729.0
+        ],
+        [
+          2203.0,
+          1729.0
+        ],
+        [
+          2203.0,
+          1765.0
+        ],
+        [
+          362.0,
+          1765.0
+        ]
+      ],
+      "text": "The Company has therefore taken advantage of exemptions from the following disclosure requirements for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1765.0
+        ],
+        [
+          1775.0,
+          1765.0
+        ],
+        [
+          1775.0,
+          1813.0
+        ],
+        [
+          354.0,
+          1813.0
+        ]
+      ],
+      "text": "parent Company information presented within the consolidated financial statements:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          461.0,
+          1857.0
+        ],
+        [
+          2211.0,
+          1857.0
+        ],
+        [
+          2211.0,
+          1893.0
+        ],
+        [
+          461.0,
+          1893.0
+        ]
+      ],
+      "text": "• Section 7 'Statement of Cash Flows': Presentation of a statement of cash flow and related notes and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          498.0,
+          1901.0
+        ],
+        [
+          705.0,
+          1901.0
+        ],
+        [
+          705.0,
+          1937.0
+        ],
+        [
+          498.0,
+          1937.0
+        ]
+      ],
+      "text": "disclosures;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          491.0,
+          1937.0
+        ],
+        [
+          2214.0,
+          1937.0
+        ],
+        [
+          2214.0,
+          1985.0
+        ],
+        [
+          491.0,
+          1985.0
+        ]
+      ],
+      "text": "Section 11 'Basic Financial Instruments' and Section 12 'Other Financial Instrument Issues: Interest",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          498.0,
+          1981.0
+        ],
+        [
+          2218.0,
+          1981.0
+        ],
+        [
+          2218.0,
+          2029.0
+        ],
+        [
+          498.0,
+          2029.0
+        ]
+      ],
+      "text": "income/expense and net gains/losses for financial instruments not measured at fair value; basis of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          498.0,
+          2025.0
+        ],
+        [
+          2214.0,
+          2025.0
+        ],
+        [
+          2214.0,
+          2073.0
+        ],
+        [
+          498.0,
+          2073.0
+        ]
+      ],
+      "text": "determining fair values; details of collateral, loan defaults or breaches, details of hedges, hedging fair",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          498.0,
+          2073.0
+        ],
+        [
+          1834.0,
+          2073.0
+        ],
+        [
+          1834.0,
+          2109.0
+        ],
+        [
+          498.0,
+          2109.0
+        ]
+      ],
+      "text": "value changes recognised in profit or loss and in other comprehensive income;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          461.0,
+          2116.0
+        ],
+        [
+          1960.0,
+          2116.0
+        ],
+        [
+          1960.0,
+          2153.0
+        ],
+        [
+          461.0,
+          2153.0
+        ]
+      ],
+      "text": "• Section 33 'Related Party Disclosures': Compensation for key management personnel.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2204.0
+        ],
+        [
+          2211.0,
+          2204.0
+        ],
+        [
+          2211.0,
+          2241.0
+        ],
+        [
+          358.0,
+          2241.0
+        ]
+      ],
+      "text": "The financial statements of the Company are consolidated in the financial statements of Hippodrome",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2241.0
+        ],
+        [
+          2211.0,
+          2241.0
+        ],
+        [
+          2211.0,
+          2288.0
+        ],
+        [
+          354.0,
+          2288.0
+        ]
+      ],
+      "text": "Holdings Limited. These consolidated financial statements are available from its registered office,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2285.0
+        ],
+        [
+          1384.0,
+          2285.0
+        ],
+        [
+          1384.0,
+          2332.0
+        ],
+        [
+          354.0,
+          2332.0
+        ]
+      ],
+      "text": "Hippodrome Casino, Cranbourn Street, London, WC2H 7JH.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2383.0
+        ],
+        [
+          2207.0,
+          2383.0
+        ],
+        [
+          2207.0,
+          2420.0
+        ],
+        [
+          358.0,
+          2420.0
+        ]
+      ],
+      "text": "The Company has taken advantage of the exemption under section 400 of the Companies Act 2006 not to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2427.0
+        ],
+        [
+          2207.0,
+          2427.0
+        ],
+        [
+          2207.0,
+          2464.0
+        ],
+        [
+          358.0,
+          2464.0
+        ]
+      ],
+      "text": "prepare consolidated financial statements. The financial statements present information about the Company",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2471.0
+        ],
+        [
+          1129.0,
+          2471.0
+        ],
+        [
+          1129.0,
+          2507.0
+        ],
+        [
+          358.0,
+          2507.0
+        ]
+      ],
+      "text": "as an individual entity and not about its group.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1181.0,
+          3319.0
+        ],
+        [
+          1295.0,
+          3319.0
+        ],
+        [
+          1295.0,
+          3374.0
+        ],
+        [
+          1181.0,
+          3374.0
+        ]
+      ],
+      "text": "-21 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.30158519744873047,
+  "elapsed_seconds": 18.288744958117604
+}

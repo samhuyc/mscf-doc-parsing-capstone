@@ -1,0 +1,70 @@
+{
+  "parser": "pymupdf native text only",
+  "image_pdf_controls": [
+    {
+      "id": "omni_b2dbf2b054e6",
+      "dataset": "omni",
+      "input_sha256": "7fff14a4fd4acd78e88f9f634a38f0d26fc4c6509737f2440bb612d26e2d46fa",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_0eaffab62e6a",
+      "dataset": "omni",
+      "input_sha256": "915eef0355706e830931fac07d1ce860131dc9b8cbfc8680cfb90f5e5a951861",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_59a2d4260bbd",
+      "dataset": "omni",
+      "input_sha256": "c6f774a5e1d19f9cceb7166da27fefb9c2c942c03c4231d33abe47a7fa248ba0",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_004b206c01d7",
+      "dataset": "omni",
+      "input_sha256": "9390b075f4a0d3c5479803b51ae2c41ffc153b2257570b5faa6a5b51a9e2fe8e",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_0da5ee88f572",
+      "dataset": "omni",
+      "input_sha256": "e6d47b41e182d04bdbb41acf007aa6b016d6d4f9e164526d002d246d9fb1f0af",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_2ba78c71fa3a",
+      "dataset": "omni",
+      "input_sha256": "e04cbc70629a53eeca24262e0b8bb1c642540ca4797c03b5143b57df23cb37b1",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_070b60900a6e",
+      "dataset": "omni",
+      "input_sha256": "c750d221eeae0fdabe3308355e4eeb9a0e28485cc1e53b6558f0c1306803e42f",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    },
+    {
+      "id": "omni_0e041edf8bc9",
+      "dataset": "omni",
+      "input_sha256": "915abf26a7afeeed290409691741cedca126984f5f645f3131a54c61c20e8919",
+      "native_text_chars": 0,
+      "status": "expected_empty"
+    }
+  ],
+  "native_pdf_control": {
+    "document": "apple_2026q3",
+    "page": 1,
+    "input_sha256": "3518726963892d32ec11a876a5dfa44810cd557d577b91eae28fccad29962505",
+    "native_text_chars": 2712,
+    "status": "success",
+    "note": "Same Apple PDF as original trial. Sam did not commit the exact page used for his native smoke check; this repeat explicitly uses physical page 1."
+  },
+  "note": "Input-layer controls only. Native text is never supplied to PaddleOCR predictions."
+}

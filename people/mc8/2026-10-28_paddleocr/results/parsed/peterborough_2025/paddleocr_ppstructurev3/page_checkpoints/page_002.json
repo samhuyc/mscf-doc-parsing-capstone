@@ -1,0 +1,73 @@
+{
+  "audit": {
+    "page": 2,
+    "image_width": 2480,
+    "image_height": 3509,
+    "render_dpi": 300,
+    "image_pixels_sha256": "8e988b1c64b0af7aaf827a7dff15acbba2c2d68107617777c3c4c271a2b7a27d",
+    "raw_prediction": "raw/page_002.json",
+    "raw_sha256": "a37e253a476ad952fbbdd75513838cec41e5c5222db2ce86d5d0d149113532f1",
+    "blocks": 4,
+    "tables": 1,
+    "elapsed_seconds": 26.989
+  },
+  "chunk": {
+    "text": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662\n\n<div style=\"text-align: center;\">BALANCE SHEET AS AT 31 MARCH 2025</div>\n\n\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tbody><tr><td></td><td colspan=\"3\">Note</td><td colspan=\"2\">2025 £</td><td>2024 6</td></tr><tr><td>Fixed assets</td><td colspan=\"3\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td>2,278,941</td><td></td><td></td><td>4,936,255</td><td></td></tr><tr><td>Debtors: amounts falling due within one year Bank and cash balances</td><td>5</td><td>2,751,541</td><td></td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td></td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one</td><td></td><td></td><td></td><td>(1,009,237)</td><td></td><td></td></tr><tr><td>year</td><td>7</td><td></td><td></td><td></td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html></div>\n\n\nPage 1",
+    "native": {
+      "page_index": 1,
+      "raw_prediction": "raw/page_002.json",
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662",
+          "block_bbox": [
+            177,
+            208,
+            746,
+            293
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "figure_title",
+          "block_content": "BALANCE SHEET AS AT 31 MARCH 2025",
+          "block_bbox": [
+            176,
+            402,
+            568,
+            487
+          ],
+          "block_id": 1,
+          "block_order": null
+        },
+        {
+          "block_label": "table",
+          "block_content": "<html><body><table><tbody><tr><td></td><td colspan=\"3\">Note</td><td colspan=\"2\">2025 £</td><td>2024 6</td></tr><tr><td>Fixed assets</td><td colspan=\"3\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td>2,278,941</td><td></td><td></td><td>4,936,255</td><td></td></tr><tr><td>Debtors: amounts falling due within one year Bank and cash balances</td><td>5</td><td>2,751,541</td><td></td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td></td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one</td><td></td><td></td><td></td><td>(1,009,237)</td><td></td><td></td></tr><tr><td>year</td><td>7</td><td></td><td></td><td></td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+          "block_bbox": [
+            174,
+            537,
+            2282,
+            2027
+          ],
+          "block_id": 2,
+          "block_order": null
+        },
+        {
+          "block_label": "number",
+          "block_content": "Page 1",
+          "block_bbox": [
+            1175,
+            3380,
+            1284,
+            3413
+          ],
+          "block_id": 3,
+          "block_order": 2
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "ff48f773d5614130e8c543039e306ade057b29d9069c9f90e19aad24e6057fbf",
+  "provenance": "selected_page_worker"
+}

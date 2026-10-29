@@ -1,0 +1,52 @@
+{
+  "parser": "mineru_ocr",
+  "document": "peterborough_2025",
+  "input_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+  "expected_pages": 12,
+  "status": "success",
+  "started_at_utc": "2026-09-29T23:59:59.142374+00:00",
+  "platform": "macOS-15.0.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+  "settings": {
+    "backend": "pipeline",
+    "method": "ocr",
+    "device": "cpu",
+    "formulas": false,
+    "tables": true,
+    "image_analysis": false
+  },
+  "versions": {
+    "mineru": "mineru, version 3.4.5"
+  },
+  "model_config": {
+    "config_version": "1.3.2",
+    "model-source": "huggingface",
+    "models-dir": {
+      "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+      "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+    }
+  },
+  "command": [
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/.venv/bin/mineru",
+    "-p",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/inputs/peterborough_2025.pdf",
+    "-o",
+    "/Users/hu/Desktop/CMU MSCF/ML Capstone/mscf-doc-parsing-capstone/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/raw",
+    "-b",
+    "pipeline",
+    "-m",
+    "ocr",
+    "-f",
+    "false",
+    "-t",
+    "true"
+  ],
+  "elapsed_seconds": 48.094,
+  "parsed_pages": 12,
+  "nonempty_pages": 12,
+  "pages_per_second": 0.2495,
+  "document_sha256": "bac13f9d7043bcc214cfc43921f809f4807ba6f5449789d38e39879be4dcf31b",
+  "exported_at_utc": "2026-09-30T00:07:09.511194+00:00"
+}

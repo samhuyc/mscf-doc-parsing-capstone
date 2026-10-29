@@ -1,0 +1,60 @@
+[
+  {
+    "id": "lamray_2012",
+    "title": "Lamray Holdings Limited 2012 annual report",
+    "pages": 23,
+    "url": "https://find-and-update.company-information.service.gov.uk/company/01415057/filing-history/MzA4MTc5NTUwNGFkaXF6a2N4/document?format=pdf&download=0",
+    "sample_pages": [
+      4,
+      8,
+      9,
+      16
+    ],
+    "sha256": "ad5facd22ae7bad3e4464db981988f762c6b4933479dcc32f91a933b8075837a",
+    "outline": [],
+    "metadata": {
+      "format": "PDF 1.1",
+      "title": "",
+      "author": "",
+      "subject": "/company/01415057",
+      "keywords": "",
+      "creator": "go-tiff2pdf",
+      "producer": "libtiff / tiff2pdf - 20150126",
+      "creationDate": "D:20150407232227",
+      "modDate": "D:20150407232227",
+      "trapped": "",
+      "encryption": null
+    },
+    "status": "success",
+    "identity_note": "Original trial records URLs and page counts, but no original PDF hashes were committed. Current downloaded hash recorded here."
+  },
+  {
+    "id": "apple_2026q3",
+    "title": "Apple Inc. Form 10-Q, quarter ended June 27, 2026",
+    "pages": 32,
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320193/e0dac020-713e-47ce-809a-f58dd78dfa91.pdf",
+    "sample_pages": [
+      4,
+      6,
+      10,
+      24
+    ],
+    "sha256": "3518726963892d32ec11a876a5dfa44810cd557d577b91eae28fccad29962505",
+    "outline": [],
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "0000320193-26-000020",
+      "author": "EDGAR Online LLC, a subsidiary of OTC Markets Group Inc",
+      "subject": "Form 10-Q filed on 2026-07-31 for the period ending 2026-06-27",
+      "keywords": "0000320193-26-000020; ; 10-Q",
+      "creator": "EDGAR Filing HTML Converter",
+      "producer": "EDGRpdf Service w/ EO.Pdf 26.1.34.0",
+      "creationDate": "D:20260731060725-04'00'",
+      "modDate": "D:20260731060732-04'00'",
+      "trapped": "",
+      "encryption": "Standard V2 R3 128-bit RC4"
+    },
+    "status": "success",
+    "identity_note": "Original trial records URLs and page counts, but no original PDF hashes were committed. Current downloaded hash recorded here."
+  }
+]

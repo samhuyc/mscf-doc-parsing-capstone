@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+  "parser": "paddleocr_ppstructurev3",
+  "page_numbering": "1-based physical PDF pages",
+  "pages": [
+    {
+      "page": 1,
+      "markdown": "Registered number: 01814662\n\n# PETERBOROUGH CARE LIMITED \n\nUNAUDITED \n\nFINANCIAL STATEMENTS \n\nFOR THE YEAR ENDED 31 MARCH 2025\n",
+      "native": {
+        "page_index": 0,
+        "raw_prediction": "raw/page_001.json",
+        "parsing_res_list": [
+          {
+            "block_label": "text",
+            "block_content": "Registered number: 01814662",
+            "block_bbox": [
+              1570,
+              95,
+              2073,
+              130
+            ],
+            "block_id": 0,
+            "block_order": 1
+          },
+          {
+            "block_label": "doc_title",
+            "block_content": "PETERBOROUGH CARE LIMITED ",
+            "block_bbox": [
+              844,
+              1163,
+              1630,
+              1207
+            ],
+            "block_id": 1,
+            "block_order": 2
+          },
+          {
+            "block_label": "text",
+            "block_content": "UNAUDITED ",
+            "block_bbox": [
+              1111,
+              1441,
+              1365,
+              1477
+            ],
+            "block_id": 2,
+            "block_order": 3
+          },
+          {
+            "block_label": "text",
+            "block_content": "FINANCIAL STATEMENTS ",
+            "block_bbox": [
+              971,
+              1621,
+              1504,
+              1657
+            ],
+            "block_id": 3,
+            "block_order": 4
+          },
+          {
+            "block_label": "text",
+            "block_content": "FOR THE YEAR ENDED 31 MARCH 2025",
+            "block_bbox": [
+              830,
+              1799,
+              1645,
+              1836
+            ],
+            "block_id": 4,
+            "block_order": 5
+          }
+        ]
+      },
+      "text_chars": 117,
+      "confidence": null
+    },
+    {
+      "page": 2,
+      "markdown": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662\n\n<div style=\"text-align: center;\">BALANCE SHEET AS AT 31 MARCH 2025</div>\n\n\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tbody><tr><td></td><td colspan=\"3\">Note</td><td colspan=\"2\">2025 £</td><td>2024 6</td></tr><tr><td>Fixed assets</td><td colspan=\"3\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td>2,278,941</td><td></td><td></td><td>4,936,255</td><td></td></tr><tr><td>Debtors: amounts falling due within one year Bank and cash balances</td><td>5</td><td>2,751,541</td><td></td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td></td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one</td><td></td><td></td><td></td><td>(1,009,237)</td><td></td><td></td></tr><tr><td>year</td><td>7</td><td></td><td></td><td></td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html></div>\n\n\nPage 1\n",
+      "native": {
+        "page_index": 1,
+        "raw_prediction": "raw/page_002.json",
+        "parsing_res_list": [
+          {
+            "block_label": "header",
+            "block_content": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662",
+            "block_bbox": [
+              177,
+              208,
+              746,
+              293
+            ],
+            "block_id": 0,
+            "block_order": 1
+          },
+          {
+            "block_label": "figure_title",
+            "block_content": "BALANCE SHEET AS AT 31 MARCH 2025",
+            "block_bbox": [
+              176,
+              402,
+              568,
+              487
+            ],
+            "block_id": 1,
+            "block_order": null
+          },
+          {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td></td><td colspan=\"3\">Note</td><td colspan=\"2\">2025 £</td><td>2024 6</td></tr><tr><td>Fixed assets</td><td colspan=\"3\"></td><td colspan=\"2\"></td><td></td></tr><tr><td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td></td><td>992,467</td></tr><tr><td>Current assets</td><td></td><td>2,278,941</td><td></td><td></td><td>4,936,255</td><td></td></tr><tr><td>Debtors: amounts falling due within one year Bank and cash balances</td><td>5</td><td>2,751,541</td><td></td><td></td><td>821,700</td><td></td></tr><tr><td></td><td></td><td>5,030,482</td><td></td><td></td><td>5,757,955</td><td></td></tr><tr><td>Creditors: amounts falling due within one year</td><td>6</td><td></td><td>(504,045)</td><td></td><td>(508,936)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td></td><td>4,526,437</td><td></td><td>5,249,019</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td></td><td>5,494,193</td><td></td><td>6,241,486</td></tr><tr><td>Creditors: amounts falling due after more than one</td><td></td><td></td><td></td><td>(1,009,237)</td><td></td><td></td></tr><tr><td>year</td><td>7</td><td></td><td></td><td></td><td></td><td>(1,046,848)</td></tr><tr><td>Net assets</td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td></td><td></td><td></td><td>130</td><td></td><td>130</td></tr><tr><td>Share premium account</td><td></td><td></td><td></td><td>40,698</td><td></td><td>40,698</td></tr><tr><td>Profit and loss account</td><td></td><td></td><td></td><td>4,444,128</td><td></td><td>5,153,810</td></tr><tr><td></td><td></td><td></td><td></td><td>4,484,956</td><td></td><td>5,194,638</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></body></html>",
+            "block_bbox": [
+              174,
+              537,
+              2282,
+              2027
+            ],
+            "block_id": 2,
+            "block_order": null
+          },
+          {
+            "block_label": "number",
+            "block_content": "Page 1",
+            "block_bbox": [
+              1175,
+              3380,
+              1284,
+              3413
+            ],
+            "block_id": 3,
+            "block_order": 2
+          }
+        ]
+      },
+      "text_chars": 734,
+      "confidence": null
+    },
+    {
+      "page": 3,
+      "markdown": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662\n\n## BALANCE SHEET (CONTINUED)AS AT 31 MARCH 2025\n\nThe directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.\n\n\n\nThe directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to accounting records and the preparation of financial statements.\n\n\n\nThe financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.\n\nThe financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.\n\n\n\nThe company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies'regime.\n\n\n\nThe financial statements were approved and authorised for issue by the board and were signed on its behalf by:\n\nMr Ajay Marjara Director \n\nDate: 19 December 2025\n\nThe notes on pages 3 to 10 form part of these financial statements.\n\nPage 2\n",
+      "native": {
+        "page_index": 2,
+        "raw_prediction": "raw/page_003.json",
+        "parsing_res_list": [
+          {
+            "block_label": "header",
+            "block_content": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662",
+            "block_bbox": [
+              176,
+              198,
+              746,
+              280
+            ],
+            "block_id": 0,
+            "block_order": 1
+          },
+          {
+            "block_label": "paragraph_title",
+            "block_content": "BALANCE SHEET (CONTINUED)AS AT 31 MARCH 2025",
+            "block_bbox": [
+              176,
+              361,
+              726,
+              447
+            ],
+            "block_id": 1,
+            "block_order": 2
+          },
+          {
+            "block_label": "text",
+            "block_content": "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.\n",
+            "block_bbox": [
+              171,
+              594,
+              2295,
+              721
+            ],
+            "block_id": 2,
+            "block_order": 3
+          },
+          {
+            "block_label": "text",
+            "block_content": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to accounting records and the preparation of financial statements.\n",
+            "block_bbox": [
+              172,
+              782,
+              2294,
+              866
+            ],
+            "block_id": 3,
+            "block_order": 4
+          },
+          {
+            "block_label": "text",
+            "block_content": "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+            "block_bbox": [
+              173,
+              924,
+              2296,
+              1008
+            ],
+            "block_id": 4,
+            "block_order": 5
+          },
+          {
+            "block_label": "text",
+            "block_content": "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.\n",
+            "block_bbox": [
+              173,
+              1066,
+              2294,
+              1149
+            ],
+            "block_id": 5,
+            "block_order": 6
+          },
+          {
+            "block_label": "text",
+            "block_content": "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies'regime.\n",
+            "block_bbox": [
+              172,
+              1207,
+              2294,
+              1290
+            ],
+            "block_id": 6,
+            "block_order": 7
+          },
+          {
+            "block_label": "text",
+            "block_content": "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+            "block_bbox": [
+              176,
+              1350,
+              1930,
+              1386
+            ],
+            "block_id": 7,
+            "block_order": 8
+          },
+          {
+            "block_label": "text",
+            "block_content": "Mr Ajay Marjara Director ",
+            "block_bbox": [
+              175,
+              1622,
+              448,
+              1704
+            ],
+            "block_id": 8,
+            "block_order": 9
+          },
+          {
+            "block_label": "text",
+            "block_content": "Date: 19 December 2025",
+            "block_bbox": [
+              176,
+              1764,
+              578,
+              1798
+            ],
+            "block_id": 9,
+            "block_order": 10
+          },
+          {
+            "block_label": "text",
+            "block_content": "The notes on pages 3 to 10 form part of these financial statements.",
+            "block_bbox": [
+              176,
+              1861,
+              1228,
+              1895
+            ],
+            "block_id": 10,
+            "block_order": 11
+          },
+          {
+            "block_label": "number",
+            "block_content": "Page 2",
+            "block_bbox": [
+              1174,
+              3379,
+              1286,
+              3412
+            ],
+            "block_id": 11,
+            "block_order": 12
+          }
+        ]
+      },
+      "text_chars": 1311,
+      "confidence": null
+    }
+  ],
+  "coverage": {
+    "source_pages": 12,
+    "processed_pages": [
+      1,
+      2,
+      3
+    ],
+    "unprocessed_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "note": "Only actual predictions are exported. Page IDs remain 1-based physical PDF pages."
+  }
+}

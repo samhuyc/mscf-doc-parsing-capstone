@@ -1,0 +1,892 @@
+{
+  "status": "success",
+  "image_sha256": "646c1011639c994ae837ef9a8826580a44c5c51710534d5e333d2ed02195021e",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          292.0
+        ],
+        [
+          1115.0,
+          292.0
+        ],
+        [
+          1115.0,
+          344.0
+        ],
+        [
+          262.0,
+          344.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          420.0
+        ],
+        [
+          1546.0,
+          420.0
+        ],
+        [
+          1546.0,
+          468.0
+        ],
+        [
+          262.0,
+          468.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          493.0
+        ],
+        [
+          1277.0,
+          497.0
+        ],
+        [
+          1277.0,
+          548.0
+        ],
+        [
+          255.0,
+          545.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          654.0
+        ],
+        [
+          948.0,
+          654.0
+        ],
+        [
+          948.0,
+          702.0
+        ],
+        [
+          354.0,
+          702.0
+        ]
+      ],
+      "text": "Accounting policies (Continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          757.0
+        ],
+        [
+          760.0,
+          757.0
+        ],
+        [
+          760.0,
+          804.0
+        ],
+        [
+          354.0,
+          804.0
+        ]
+      ],
+      "text": "Financial instruments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          804.0
+        ],
+        [
+          2211.0,
+          804.0
+        ],
+        [
+          2211.0,
+          852.0
+        ],
+        [
+          358.0,
+          852.0
+        ]
+      ],
+      "text": "The Company has elected to apply the provisions of Section 11 'Basic Financial Instruments' and Section 12",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          848.0
+        ],
+        [
+          1716.0,
+          848.0
+        ],
+        [
+          1716.0,
+          896.0
+        ],
+        [
+          358.0,
+          896.0
+        ]
+      ],
+      "text": "'Other Financial Instruments Issues' of FRS 102 to all of its financial instruments.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          936.0
+        ],
+        [
+          2207.0,
+          936.0
+        ],
+        [
+          2207.0,
+          983.0
+        ],
+        [
+          354.0,
+          983.0
+        ]
+      ],
+      "text": "Financial instruments are recognised when the Company becomes party to the contractual provisions of the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          983.0
+        ],
+        [
+          550.0,
+          983.0
+        ],
+        [
+          550.0,
+          1020.0
+        ],
+        [
+          358.0,
+          1020.0
+        ]
+      ],
+      "text": "instrument.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1064.0
+        ],
+        [
+          2207.0,
+          1064.0
+        ],
+        [
+          2207.0,
+          1111.0
+        ],
+        [
+          354.0,
+          1111.0
+        ]
+      ],
+      "text": "Financial assets and liabilities are offset, with the net amounts presented in the financial statements, when",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1108.0
+        ],
+        [
+          2211.0,
+          1108.0
+        ],
+        [
+          2211.0,
+          1155.0
+        ],
+        [
+          354.0,
+          1155.0
+        ]
+      ],
+      "text": "there is a legally enforceable right to set off the recognised amounts and there is an intention to settle on a",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1148.0
+        ],
+        [
+          1521.0,
+          1151.0
+        ],
+        [
+          1520.0,
+          1199.0
+        ],
+        [
+          351.0,
+          1195.0
+        ]
+      ],
+      "text": "net basis or to realise the asset and settle the liability simultaneously.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1254.0
+        ],
+        [
+          760.0,
+          1254.0
+        ],
+        [
+          760.0,
+          1290.0
+        ],
+        [
+          362.0,
+          1290.0
+        ]
+      ],
+      "text": "Basic financial assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1298.0
+        ],
+        [
+          2211.0,
+          1298.0
+        ],
+        [
+          2211.0,
+          1345.0
+        ],
+        [
+          358.0,
+          1345.0
+        ]
+      ],
+      "text": "Basic financial assets, which include trade and other debtors and amounts owed by group undertakings, are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1338.0
+        ],
+        [
+          2207.0,
+          1338.0
+        ],
+        [
+          2207.0,
+          1385.0
+        ],
+        [
+          354.0,
+          1385.0
+        ]
+      ],
+      "text": "initially measured at transaction price including transaction costs and are subsequently carried at amortised",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1385.0
+        ],
+        [
+          2211.0,
+          1385.0
+        ],
+        [
+          2211.0,
+          1433.0
+        ],
+        [
+          358.0,
+          1433.0
+        ]
+      ],
+      "text": "cost using the effective interest method unless the arrangement constitutes a financing transaction, where the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1433.0
+        ],
+        [
+          2174.0,
+          1433.0
+        ],
+        [
+          2174.0,
+          1469.0
+        ],
+        [
+          358.0,
+          1469.0
+        ]
+      ],
+      "text": "financial asset is measured at the present value of the future receipts discounted at a market rate of interest.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1521.0
+        ],
+        [
+          1509.0,
+          1521.0
+        ],
+        [
+          1509.0,
+          1557.0
+        ],
+        [
+          358.0,
+          1557.0
+        ]
+      ],
+      "text": "Any re-measurement gain or loss is recognised in the profit and loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1612.0
+        ],
+        [
+          912.0,
+          1612.0
+        ],
+        [
+          912.0,
+          1659.0
+        ],
+        [
+          354.0,
+          1659.0
+        ]
+      ],
+      "text": "Impairment of financial assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1667.0
+        ],
+        [
+          2207.0,
+          1667.0
+        ],
+        [
+          2207.0,
+          1703.0
+        ],
+        [
+          358.0,
+          1703.0
+        ]
+      ],
+      "text": "Financial assets, other than those held at fair value through profit and loss, are assessed for indicators of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1711.0
+        ],
+        [
+          1011.0,
+          1711.0
+        ],
+        [
+          1011.0,
+          1747.0
+        ],
+        [
+          358.0,
+          1747.0
+        ]
+      ],
+      "text": "impairment at each reporting end date.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1791.0
+        ],
+        [
+          2211.0,
+          1791.0
+        ],
+        [
+          2211.0,
+          1839.0
+        ],
+        [
+          354.0,
+          1839.0
+        ]
+      ],
+      "text": "Financial assets are impaired where there is objective evidence that, as a result of one or more events that",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1839.0
+        ],
+        [
+          2203.0,
+          1839.0
+        ],
+        [
+          2203.0,
+          1875.0
+        ],
+        [
+          358.0,
+          1875.0
+        ]
+      ],
+      "text": "occurred after the initial recognition of the financial asset, the estimated future cash flows have been affected.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1875.0
+        ],
+        [
+          2211.0,
+          1875.0
+        ],
+        [
+          2211.0,
+          1923.0
+        ],
+        [
+          354.0,
+          1923.0
+        ]
+      ],
+      "text": "If an asset is impaired, the impairment loss is the difference between the carrying amount and the present",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          351.0,
+          1915.0
+        ],
+        [
+          2207.0,
+          1919.0
+        ],
+        [
+          2207.0,
+          1967.0
+        ],
+        [
+          351.0,
+          1963.0
+        ]
+      ],
+      "text": "value of the estimated cash flows discounted at the asset's original effective interest rate. The impairment loss",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1959.0
+        ],
+        [
+          856.0,
+          1963.0
+        ],
+        [
+          856.0,
+          2010.0
+        ],
+        [
+          354.0,
+          2007.0
+        ]
+      ],
+      "text": "is recognised in profit or loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2054.0
+        ],
+        [
+          2207.0,
+          2054.0
+        ],
+        [
+          2207.0,
+          2091.0
+        ],
+        [
+          358.0,
+          2091.0
+        ]
+      ],
+      "text": "If there is a decrease in the impairment loss arising from an event occurring after the impairment was",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2098.0
+        ],
+        [
+          2207.0,
+          2098.0
+        ],
+        [
+          2207.0,
+          2135.0
+        ],
+        [
+          362.0,
+          2135.0
+        ]
+      ],
+      "text": "recognised, the impairment is reversed. The reversal is such that the current carrying amount does not",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2135.0
+        ],
+        [
+          2207.0,
+          2135.0
+        ],
+        [
+          2207.0,
+          2182.0
+        ],
+        [
+          354.0,
+          2182.0
+        ]
+      ],
+      "text": "exceed what the carrying amount would have been, had the impairment not previously been recognised. The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2179.0
+        ],
+        [
+          1192.0,
+          2179.0
+        ],
+        [
+          1192.0,
+          2215.0
+        ],
+        [
+          362.0,
+          2215.0
+        ]
+      ],
+      "text": "impairment reversal is recognised in profit or loss.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2281.0
+        ],
+        [
+          956.0,
+          2281.0
+        ],
+        [
+          956.0,
+          2317.0
+        ],
+        [
+          362.0,
+          2317.0
+        ]
+      ],
+      "text": "Derecognition of financial assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2321.0
+        ],
+        [
+          2207.0,
+          2321.0
+        ],
+        [
+          2207.0,
+          2369.0
+        ],
+        [
+          358.0,
+          2369.0
+        ]
+      ],
+      "text": "Financial assets are derecognised only when the contractual rights to the cash flows from the asset expire or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2369.0
+        ],
+        [
+          2211.0,
+          2369.0
+        ],
+        [
+          2211.0,
+          2416.0
+        ],
+        [
+          354.0,
+          2416.0
+        ]
+      ],
+      "text": "are settled, or when the company transfers the financial asset and substantially all the risks and rewards of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2416.0
+        ],
+        [
+          2207.0,
+          2416.0
+        ],
+        [
+          2207.0,
+          2453.0
+        ],
+        [
+          362.0,
+          2453.0
+        ]
+      ],
+      "text": "ownership to another entity, or if some significant risks and rewards of ownership are retained but control of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2456.0
+        ],
+        [
+          2203.0,
+          2456.0
+        ],
+        [
+          2203.0,
+          2504.0
+        ],
+        [
+          358.0,
+          2504.0
+        ]
+      ],
+      "text": "the asset has transferred to another party that is able to sell the asset in its entirety to an unrelated third party.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2551.0
+        ],
+        [
+          996.0,
+          2551.0
+        ],
+        [
+          996.0,
+          2599.0
+        ],
+        [
+          362.0,
+          2599.0
+        ]
+      ],
+      "text": "Classification of financial liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2603.0
+        ],
+        [
+          2207.0,
+          2603.0
+        ],
+        [
+          2207.0,
+          2650.0
+        ],
+        [
+          358.0,
+          2650.0
+        ]
+      ],
+      "text": "Financial liabilities and equity instruments are classified according to the substance of the contractual",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2646.0
+        ],
+        [
+          2207.0,
+          2646.0
+        ],
+        [
+          2207.0,
+          2694.0
+        ],
+        [
+          354.0,
+          2694.0
+        ]
+      ],
+      "text": "arrangements entered into. An equity instrument is any contract that evidences a residual interest in the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2690.0
+        ],
+        [
+          1310.0,
+          2690.0
+        ],
+        [
+          1310.0,
+          2727.0
+        ],
+        [
+          362.0,
+          2727.0
+        ]
+      ],
+      "text": "assets of the Company after deducting all of its liabilities.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3312.0
+        ],
+        [
+          1284.0,
+          3355.0
+        ],
+        [
+          1192.0,
+          3355.0
+        ]
+      ],
+      "text": "-24-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.26790785789489746,
+  "elapsed_seconds": 20.61477475007996
+}

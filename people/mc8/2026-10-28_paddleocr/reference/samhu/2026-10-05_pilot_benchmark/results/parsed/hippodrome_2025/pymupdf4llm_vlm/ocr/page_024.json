@@ -1,0 +1,1090 @@
+{
+  "status": "success",
+  "image_sha256": "ce9b5f1c81c7f53f43b8ecdc6be574e9722ff49a1b3b601fdfe6c9e75359e9bc",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          296.0
+        ],
+        [
+          1115.0,
+          296.0
+        ],
+        [
+          1115.0,
+          344.0
+        ],
+        [
+          262.0,
+          344.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          420.0
+        ],
+        [
+          1546.0,
+          420.0
+        ],
+        [
+          1546.0,
+          468.0
+        ],
+        [
+          262.0,
+          468.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          501.0
+        ],
+        [
+          1277.0,
+          501.0
+        ],
+        [
+          1277.0,
+          548.0
+        ],
+        [
+          258.0,
+          548.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          654.0
+        ],
+        [
+          948.0,
+          654.0
+        ],
+        [
+          948.0,
+          702.0
+        ],
+        [
+          354.0,
+          702.0
+        ]
+      ],
+      "text": "Accounting policies (Continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          760.0
+        ],
+        [
+          635.0,
+          760.0
+        ],
+        [
+          635.0,
+          800.0
+        ],
+        [
+          362.0,
+          800.0
+        ]
+      ],
+      "text": "Going concern",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          800.0
+        ],
+        [
+          2207.0,
+          808.0
+        ],
+        [
+          2207.0,
+          855.0
+        ],
+        [
+          358.0,
+          848.0
+        ]
+      ],
+      "text": "The directors have prepared the financial statements on a going concern basis. In assessing the going",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          855.0
+        ],
+        [
+          2200.0,
+          855.0
+        ],
+        [
+          2200.0,
+          892.0
+        ],
+        [
+          362.0,
+          892.0
+        ]
+      ],
+      "text": "concern position of the Company, the directors have considered the ongoing political and economic situations",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          892.0
+        ],
+        [
+          2203.0,
+          892.0
+        ],
+        [
+          2203.0,
+          939.0
+        ],
+        [
+          358.0,
+          939.0
+        ]
+      ],
+      "text": "and their impact on the cash flow and liquidity of the Company over the next 12 months, and the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          943.0
+        ],
+        [
+          1775.0,
+          943.0
+        ],
+        [
+          1775.0,
+          980.0
+        ],
+        [
+          362.0,
+          980.0
+        ]
+      ],
+      "text": "corresponding impact on the covenants associated with our financing arrangements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1020.0
+        ],
+        [
+          2207.0,
+          1020.0
+        ],
+        [
+          2207.0,
+          1067.0
+        ],
+        [
+          358.0,
+          1067.0
+        ]
+      ],
+      "text": "As at the balance sheet date the Company had cash reserves of £24,768,430 (2024: £30,767,822). The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1064.0
+        ],
+        [
+          2207.0,
+          1060.0
+        ],
+        [
+          2207.0,
+          1107.0
+        ],
+        [
+          354.0,
+          1111.0
+        ]
+      ],
+      "text": "business is fully open, trading profitably and generating cash. The Company is reporting net current assets of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1108.0
+        ],
+        [
+          2203.0,
+          1108.0
+        ],
+        [
+          2203.0,
+          1155.0
+        ],
+        [
+          358.0,
+          1155.0
+        ]
+      ],
+      "text": "£32,213,462 (2024: £27,430,986) and has produced financial and cash flow forecasts sufficient to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1155.0
+        ],
+        [
+          1956.0,
+          1155.0
+        ],
+        [
+          1956.0,
+          1192.0
+        ],
+        [
+          362.0,
+          1192.0
+        ]
+      ],
+      "text": "demonstrate the business will continue to trade profitably and meet all liabilities as they fall due.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1243.0
+        ],
+        [
+          2207.0,
+          1243.0
+        ],
+        [
+          2207.0,
+          1279.0
+        ],
+        [
+          358.0,
+          1279.0
+        ]
+      ],
+      "text": "Included within the Company's net current assets is a debtor balance due from a group undertaking of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1276.0
+        ],
+        [
+          2207.0,
+          1279.0
+        ],
+        [
+          2207.0,
+          1327.0
+        ],
+        [
+          354.0,
+          1323.0
+        ]
+      ],
+      "text": "£34,224,002 (2024: £20,971,472). The balance is unsecured, interest free and repayable on demand,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1323.0
+        ],
+        [
+          2207.0,
+          1323.0
+        ],
+        [
+          2207.0,
+          1371.0
+        ],
+        [
+          354.0,
+          1371.0
+        ]
+      ],
+      "text": "however the directors have confirmed that repayment is not expected to be demanded within the next 12",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1367.0
+        ],
+        [
+          2207.0,
+          1367.0
+        ],
+        [
+          2207.0,
+          1415.0
+        ],
+        [
+          354.0,
+          1415.0
+        ]
+      ],
+      "text": "months. Having considered the recoverability of this balance, and supported by the profitable trading",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1415.0
+        ],
+        [
+          2196.0,
+          1415.0
+        ],
+        [
+          2196.0,
+          1451.0
+        ],
+        [
+          362.0,
+          1451.0
+        ]
+      ],
+      "text": "performance and cash reserves of the wider group, the directors are satisfied the balance is fully recoverable",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1458.0
+        ],
+        [
+          1517.0,
+          1458.0
+        ],
+        [
+          1517.0,
+          1495.0
+        ],
+        [
+          358.0,
+          1495.0
+        ]
+      ],
+      "text": "and does not present a risk to the Company's going concern position.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1539.0
+        ],
+        [
+          2207.0,
+          1539.0
+        ],
+        [
+          2207.0,
+          1586.0
+        ],
+        [
+          358.0,
+          1586.0
+        ]
+      ],
+      "text": "Therefore the directors continue to adopt the going concern basis of accounting for the next 12 months in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1583.0
+        ],
+        [
+          941.0,
+          1579.0
+        ],
+        [
+          941.0,
+          1626.0
+        ],
+        [
+          358.0,
+          1630.0
+        ]
+      ],
+      "text": "preparing the financial statements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1685.0
+        ],
+        [
+          528.0,
+          1685.0
+        ],
+        [
+          528.0,
+          1725.0
+        ],
+        [
+          362.0,
+          1725.0
+        ]
+      ],
+      "text": "Turnover",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1722.0
+        ],
+        [
+          2207.0,
+          1722.0
+        ],
+        [
+          2207.0,
+          1769.0
+        ],
+        [
+          358.0,
+          1769.0
+        ]
+      ],
+      "text": "Turnover comprises the fair value of the consideration received or receivable for the sale of goods and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1773.0
+        ],
+        [
+          1465.0,
+          1773.0
+        ],
+        [
+          1465.0,
+          1809.0
+        ],
+        [
+          362.0,
+          1809.0
+        ]
+      ],
+      "text": "services, in the normal course of business, net of value added tax",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1857.0
+        ],
+        [
+          1557.0,
+          1857.0
+        ],
+        [
+          1557.0,
+          1893.0
+        ],
+        [
+          362.0,
+          1893.0
+        ]
+      ],
+      "text": "The Company recognises turnover for each activity as described below.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          360.0,
+          1937.0
+        ],
+        [
+          510.0,
+          1945.0
+        ],
+        [
+          508.0,
+          1989.0
+        ],
+        [
+          357.0,
+          1980.0
+        ]
+      ],
+      "text": "Gaming:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1977.0
+        ],
+        [
+          2203.0,
+          1977.0
+        ],
+        [
+          2203.0,
+          2025.0
+        ],
+        [
+          358.0,
+          2025.0
+        ]
+      ],
+      "text": "Gaming turnover represents the gross gaming profit or loss received from casino gaming activities (including",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2025.0
+        ],
+        [
+          2207.0,
+          2025.0
+        ],
+        [
+          2207.0,
+          2073.0
+        ],
+        [
+          358.0,
+          2073.0
+        ]
+      ],
+      "text": "casino gaming machines and fees from card room income). Amounts stated are before the deduction of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          2069.0
+        ],
+        [
+          1328.0,
+          2065.0
+        ],
+        [
+          1329.0,
+          2113.0
+        ],
+        [
+          354.0,
+          2116.0
+        ]
+      ],
+      "text": "gaming-related duties which are included in cost of sales.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2157.0
+        ],
+        [
+          624.0,
+          2157.0
+        ],
+        [
+          624.0,
+          2197.0
+        ],
+        [
+          362.0,
+          2197.0
+        ]
+      ],
+      "text": "Ticket turnover:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2197.0
+        ],
+        [
+          1978.0,
+          2193.0
+        ],
+        [
+          1978.0,
+          2241.0
+        ],
+        [
+          358.0,
+          2244.0
+        ]
+      ],
+      "text": "Ticket turnover is recognised at the time of the performance and is stated net of value added tax.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2288.0
+        ],
+        [
+          1011.0,
+          2288.0
+        ],
+        [
+          1011.0,
+          2325.0
+        ],
+        [
+          362.0,
+          2325.0
+        ]
+      ],
+      "text": "Food, beverage and tobacco turnover:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2321.0
+        ],
+        [
+          2203.0,
+          2321.0
+        ],
+        [
+          2203.0,
+          2369.0
+        ],
+        [
+          358.0,
+          2369.0
+        ]
+      ],
+      "text": "Turnover from the sale of food, beverages and tobacco (excluding value added tax) is recognised at the point",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2372.0
+        ],
+        [
+          1476.0,
+          2372.0
+        ],
+        [
+          1476.0,
+          2409.0
+        ],
+        [
+          362.0,
+          2409.0
+        ]
+      ],
+      "text": "of sale. Payment of the transaction price is due at the point of sale.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2475.0
+        ],
+        [
+          1129.0,
+          2475.0
+        ],
+        [
+          1129.0,
+          2511.0
+        ],
+        [
+          362.0,
+          2511.0
+        ]
+      ],
+      "text": "Intangible fixed assets other than goodwill",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          2522.0
+        ],
+        [
+          2203.0,
+          2522.0
+        ],
+        [
+          2203.0,
+          2559.0
+        ],
+        [
+          358.0,
+          2559.0
+        ]
+      ],
+      "text": "Intangible assets acquired separately from a business are recognised at cost and are subsequently measured",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2562.0
+        ],
+        [
+          1613.0,
+          2562.0
+        ],
+        [
+          1613.0,
+          2599.0
+        ],
+        [
+          362.0,
+          2599.0
+        ]
+      ],
+      "text": "at cost less accumulated amortisation and accumulated impairment losses",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2661.0
+        ],
+        [
+          2196.0,
+          2661.0
+        ],
+        [
+          2196.0,
+          2698.0
+        ],
+        [
+          362.0,
+          2698.0
+        ]
+      ],
+      "text": "Amortisation is recognised so as to write off the cost of assets less their residual values over their useful lives",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2705.0
+        ],
+        [
+          749.0,
+          2705.0
+        ],
+        [
+          749.0,
+          2741.0
+        ],
+        [
+          362.0,
+          2741.0
+        ]
+      ],
+      "text": "on the following bases:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2804.0
+        ],
+        [
+          517.0,
+          2804.0
+        ],
+        [
+          517.0,
+          2844.0
+        ],
+        [
+          362.0,
+          2844.0
+        ]
+      ],
+      "text": "Software",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1151.0,
+          2804.0
+        ],
+        [
+          1539.0,
+          2804.0
+        ],
+        [
+          1539.0,
+          2851.0
+        ],
+        [
+          1151.0,
+          2851.0
+        ]
+      ],
+      "text": "20% reducing balance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2855.0
+        ],
+        [
+          568.0,
+          2855.0
+        ],
+        [
+          568.0,
+          2895.0
+        ],
+        [
+          362.0,
+          2895.0
+        ]
+      ],
+      "text": "Insight Data",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1151.0,
+          2851.0
+        ],
+        [
+          1535.0,
+          2851.0
+        ],
+        [
+          1535.0,
+          2899.0
+        ],
+        [
+          1151.0,
+          2899.0
+        ]
+      ],
+      "text": "33% reducing balance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2906.0
+        ],
+        [
+          753.0,
+          2906.0
+        ],
+        [
+          753.0,
+          2942.0
+        ],
+        [
+          362.0,
+          2942.0
+        ]
+      ],
+      "text": "Other intangible assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1151.0,
+          2902.0
+        ],
+        [
+          1539.0,
+          2902.0
+        ],
+        [
+          1539.0,
+          2950.0
+        ],
+        [
+          1151.0,
+          2950.0
+        ]
+      ],
+      "text": "20% reducing balance",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          3001.0
+        ],
+        [
+          745.0,
+          3001.0
+        ],
+        [
+          745.0,
+          3048.0
+        ],
+        [
+          358.0,
+          3048.0
+        ]
+      ],
+      "text": "Tangible fixed assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          3056.0
+        ],
+        [
+          2203.0,
+          3056.0
+        ],
+        [
+          2203.0,
+          3092.0
+        ],
+        [
+          362.0,
+          3092.0
+        ]
+      ],
+      "text": "Tangible fixed assets are initially measured at cost and subsequently measured at cost, net of depreciation",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          3100.0
+        ],
+        [
+          819.0,
+          3100.0
+        ],
+        [
+          819.0,
+          3136.0
+        ],
+        [
+          362.0,
+          3136.0
+        ]
+      ],
+      "text": "and any impairment losses.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1192.0,
+          3312.0
+        ],
+        [
+          1281.0,
+          3312.0
+        ],
+        [
+          1281.0,
+          3355.0
+        ],
+        [
+          1192.0,
+          3355.0
+        ]
+      ],
+      "text": "- 22 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2402358055114746,
+  "elapsed_seconds": 23.929025458171964
+}

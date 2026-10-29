@@ -1,0 +1,936 @@
+{
+  "status": "success",
+  "image_sha256": "524c563946228b2fedb0db15c681b84f3b623e8b09a24d6b0f5153a5a44f6fe5",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          262.0,
+          285.0
+        ],
+        [
+          1118.0,
+          285.0
+        ],
+        [
+          1118.0,
+          336.0
+        ],
+        [
+          262.0,
+          336.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          409.0
+        ],
+        [
+          771.0,
+          406.0
+        ],
+        [
+          771.0,
+          457.0
+        ],
+        [
+          259.0,
+          461.0
+        ]
+      ],
+      "text": "DIRECTORS' REPORT",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          490.0
+        ],
+        [
+          1277.0,
+          490.0
+        ],
+        [
+          1277.0,
+          537.0
+        ],
+        [
+          258.0,
+          537.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          651.0
+        ],
+        [
+          2026.0,
+          651.0
+        ],
+        [
+          2026.0,
+          698.0
+        ],
+        [
+          258.0,
+          698.0
+        ]
+      ],
+      "text": "The directors present their annual report and financial statements for the year ended 31 December 2025.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          749.0
+        ],
+        [
+          602.0,
+          749.0
+        ],
+        [
+          602.0,
+          797.0
+        ],
+        [
+          258.0,
+          797.0
+        ]
+      ],
+      "text": "Principal activities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          797.0
+        ],
+        [
+          2015.0,
+          797.0
+        ],
+        [
+          2015.0,
+          844.0
+        ],
+        [
+          258.0,
+          844.0
+        ]
+      ],
+      "text": "The principal activity of the Company continued to be that of a gaming and entertainment establishment.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          260.0,
+          891.0
+        ],
+        [
+          436.0,
+          900.0
+        ],
+        [
+          434.0,
+          944.0
+        ],
+        [
+          258.0,
+          935.0
+        ]
+      ],
+      "text": "Directors",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          947.0
+        ],
+        [
+          2214.0,
+          947.0
+        ],
+        [
+          2214.0,
+          994.0
+        ],
+        [
+          258.0,
+          994.0
+        ]
+      ],
+      "text": "The directors who held office during the year and up to the date of signature of the financial statements were as",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          991.0
+        ],
+        [
+          399.0,
+          991.0
+        ],
+        [
+          399.0,
+          1042.0
+        ],
+        [
+          255.0,
+          1042.0
+        ]
+      ],
+      "text": "follows:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1093.0
+        ],
+        [
+          524.0,
+          1093.0
+        ],
+        [
+          524.0,
+          1133.0
+        ],
+        [
+          258.0,
+          1133.0
+        ]
+      ],
+      "text": "Mr J S Thomas",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          1133.0
+        ],
+        [
+          443.0,
+          1133.0
+        ],
+        [
+          443.0,
+          1184.0
+        ],
+        [
+          251.0,
+          1184.0
+        ]
+      ],
+      "text": "Mr M King",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1188.0
+        ],
+        [
+          539.0,
+          1188.0
+        ],
+        [
+          539.0,
+          1239.0
+        ],
+        [
+          255.0,
+          1239.0
+        ]
+      ],
+      "text": "Mr J C Barnsley",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1235.0
+        ],
+        [
+          458.0,
+          1235.0
+        ],
+        [
+          458.0,
+          1276.0
+        ],
+        [
+          255.0,
+          1276.0
+        ]
+      ],
+      "text": "Mr J R Delf",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1287.0
+        ],
+        [
+          561.0,
+          1287.0
+        ],
+        [
+          561.0,
+          1334.0
+        ],
+        [
+          255.0,
+          1334.0
+        ]
+      ],
+      "text": "Mr T Bowry-Blum",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1334.0
+        ],
+        [
+          653.0,
+          1334.0
+        ],
+        [
+          653.0,
+          1382.0
+        ],
+        [
+          255.0,
+          1382.0
+        ]
+      ],
+      "text": "Mr D C A Addenbrooke",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1122.0,
+          1338.0
+        ],
+        [
+          1587.0,
+          1338.0
+        ],
+        [
+          1587.0,
+          1385.0
+        ],
+        [
+          1122.0,
+          1385.0
+        ]
+      ],
+      "text": "(Resigned 3 October 2025)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1389.0
+        ],
+        [
+          476.0,
+          1389.0
+        ],
+        [
+          476.0,
+          1429.0
+        ],
+        [
+          258.0,
+          1429.0
+        ]
+      ],
+      "text": "Mr P I Lewis",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1433.0
+        ],
+        [
+          502.0,
+          1433.0
+        ],
+        [
+          502.0,
+          1484.0
+        ],
+        [
+          255.0,
+          1484.0
+        ]
+      ],
+      "text": "Mr R A Bangs",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1126.0,
+          1436.0
+        ],
+        [
+          1546.0,
+          1436.0
+        ],
+        [
+          1546.0,
+          1484.0
+        ],
+        [
+          1126.0,
+          1484.0
+        ]
+      ],
+      "text": "(Appointed 1 June 2025)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1539.0
+        ],
+        [
+          668.0,
+          1539.0
+        ],
+        [
+          668.0,
+          1575.0
+        ],
+        [
+          262.0,
+          1575.0
+        ]
+      ],
+      "text": "Results and dividends",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1590.0
+        ],
+        [
+          1052.0,
+          1590.0
+        ],
+        [
+          1052.0,
+          1627.0
+        ],
+        [
+          266.0,
+          1627.0
+        ]
+      ],
+      "text": "The results for the year are set out on page 18.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1681.0
+        ],
+        [
+          2214.0,
+          1681.0
+        ],
+        [
+          2214.0,
+          1729.0
+        ],
+        [
+          258.0,
+          1729.0
+        ]
+      ],
+      "text": "No ordinary or preference share dividends were paid in the year (2024: £Nil). The directors do not recommend",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1725.0
+        ],
+        [
+          1484.0,
+          1725.0
+        ],
+        [
+          1484.0,
+          1773.0
+        ],
+        [
+          258.0,
+          1773.0
+        ]
+      ],
+      "text": "payment of any final ordinary or preference share dividends (2024: £Nil).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1831.0
+        ],
+        [
+          1041.0,
+          1831.0
+        ],
+        [
+          1041.0,
+          1868.0
+        ],
+        [
+          262.0,
+          1868.0
+        ]
+      ],
+      "text": "Qualifying third party indemnity provisions",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1871.0
+        ],
+        [
+          2214.0,
+          1871.0
+        ],
+        [
+          2214.0,
+          1919.0
+        ],
+        [
+          258.0,
+          1919.0
+        ]
+      ],
+      "text": "The Company has made qualifying third party indemnity provisions for the benefit of its directors during the year.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          1923.0
+        ],
+        [
+          1170.0,
+          1923.0
+        ],
+        [
+          1170.0,
+          1959.0
+        ],
+        [
+          266.0,
+          1959.0
+        ]
+      ],
+      "text": "These provisions remain in force at the reporting date.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2014.0
+        ],
+        [
+          587.0,
+          2014.0
+        ],
+        [
+          587.0,
+          2062.0
+        ],
+        [
+          258.0,
+          2062.0
+        ]
+      ],
+      "text": "Disabled persons",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2065.0
+        ],
+        [
+          2214.0,
+          2065.0
+        ],
+        [
+          2214.0,
+          2113.0
+        ],
+        [
+          258.0,
+          2113.0
+        ]
+      ],
+      "text": "The Hippodrome's aim is to ensure that all employees and job applicants are given equal opportunity and that we",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2109.0
+        ],
+        [
+          2211.0,
+          2109.0
+        ],
+        [
+          2211.0,
+          2157.0
+        ],
+        [
+          255.0,
+          2157.0
+        ]
+      ],
+      "text": "represent our customer base, Stakeholders and wider local community. In accordance with our ED&I policy,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2153.0
+        ],
+        [
+          2211.0,
+          2153.0
+        ],
+        [
+          2211.0,
+          2200.0
+        ],
+        [
+          258.0,
+          2200.0
+        ]
+      ],
+      "text": "candidates are selected for employment, promotion or training on the basis of their merit, regardless of age, gender,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2197.0
+        ],
+        [
+          1963.0,
+          2197.0
+        ],
+        [
+          1963.0,
+          2244.0
+        ],
+        [
+          258.0,
+          2244.0
+        ]
+      ],
+      "text": "gender identity, race, religion, sexual orientation, disability, marital status or maternity and pregnancy.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2277.0
+        ],
+        [
+          2214.0,
+          2281.0
+        ],
+        [
+          2214.0,
+          2328.0
+        ],
+        [
+          255.0,
+          2325.0
+        ]
+      ],
+      "text": "Disabled people are encouraged to apply and progress their career with us. We see people for their abilities, not",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2325.0
+        ],
+        [
+          2211.0,
+          2325.0
+        ],
+        [
+          2211.0,
+          2372.0
+        ],
+        [
+          258.0,
+          2372.0
+        ]
+      ],
+      "text": "their disabilities. Adjustments are made for job applicants and employees to guarantee we're breaking or minimising",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2369.0
+        ],
+        [
+          834.0,
+          2369.0
+        ],
+        [
+          834.0,
+          2416.0
+        ],
+        [
+          258.0,
+          2416.0
+        ]
+      ],
+      "text": "any barriers to their development.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2460.0
+        ],
+        [
+          1934.0,
+          2460.0
+        ],
+        [
+          1934.0,
+          2497.0
+        ],
+        [
+          262.0,
+          2497.0
+        ]
+      ],
+      "text": "Our policies are continuously being reviewed to ensure we're an inclusive and accessible employer.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2548.0
+        ],
+        [
+          2203.0,
+          2548.0
+        ],
+        [
+          2203.0,
+          2584.0
+        ],
+        [
+          262.0,
+          2584.0
+        ]
+      ],
+      "text": "All employees will be given help and encouragement to develop their full potential and use their unique talents.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2584.0
+        ],
+        [
+          2211.0,
+          2584.0
+        ],
+        [
+          2211.0,
+          2632.0
+        ],
+        [
+          258.0,
+          2632.0
+        ]
+      ],
+      "text": "Therefore, the skills and resources of the Hippodrome will be fully used to maximise the efficiency of the whole",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2632.0
+        ],
+        [
+          435.0,
+          2632.0
+        ],
+        [
+          435.0,
+          2672.0
+        ],
+        [
+          258.0,
+          2672.0
+        ]
+      ],
+      "text": "workforce.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2719.0
+        ],
+        [
+          2203.0,
+          2719.0
+        ],
+        [
+          2203.0,
+          2756.0
+        ],
+        [
+          262.0,
+          2756.0
+        ]
+      ],
+      "text": "All employees, no matter whether they are part-time, full-time, or temporary, will be treated fairly and with respect.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2760.0
+        ],
+        [
+          2211.0,
+          2760.0
+        ],
+        [
+          2211.0,
+          2807.0
+        ],
+        [
+          258.0,
+          2807.0
+        ]
+      ],
+      "text": "This policy is adopted throughout the Hippodrome in relation to all recruitment and to succession planning, to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2804.0
+        ],
+        [
+          709.0,
+          2804.0
+        ],
+        [
+          709.0,
+          2851.0
+        ],
+        [
+          255.0,
+          2851.0
+        ]
+      ],
+      "text": "support a diverse pipeline.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1188.0,
+          3319.0
+        ],
+        [
+          1292.0,
+          3319.0
+        ],
+        [
+          1292.0,
+          3366.0
+        ],
+        [
+          1188.0,
+          3366.0
+        ]
+      ],
+      "text": "- 11 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2705700397491455,
+  "elapsed_seconds": 19.81132558407262
+}

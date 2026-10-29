@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "sponsor_inputs",
+    "started_at_utc": "2026-10-29T01:46:50.215996+00:00",
+    "return_code": 0,
+    "status": "success"
+  },
+  {
+    "stage": "model_downloads",
+    "started_at_utc": "2026-10-29T01:46:50.578235+00:00",
+    "return_code": 0,
+    "status": "success"
+  },
+  {
+    "stage": "sponsor_parsing",
+    "started_at_utc": "2026-10-29T01:46:51.285653+00:00",
+    "return_code": 1,
+    "status": "failed"
+  }
+]

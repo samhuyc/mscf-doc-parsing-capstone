@@ -1,0 +1,127 @@
+{
+  "labels": 54,
+  "selected_pages": 18,
+  "source_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+  "documents": [
+    {
+      "document": "cvs_2025q2",
+      "source_pages": 12,
+      "requested_pages": [
+        1,
+        6,
+        12
+      ],
+      "completed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "remaining_pages": []
+    },
+    {
+      "document": "edf_2024",
+      "source_pages": 6,
+      "requested_pages": [
+        1,
+        3,
+        6
+      ],
+      "completed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "remaining_pages": []
+    },
+    {
+      "document": "hippodrome_2025",
+      "source_pages": 39,
+      "requested_pages": [
+        1,
+        20,
+        21
+      ],
+      "completed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "remaining_pages": [
+        20,
+        21
+      ]
+    },
+    {
+      "document": "peterborough_2025",
+      "source_pages": 12,
+      "requested_pages": [
+        1,
+        2,
+        3
+      ],
+      "completed_pages": [],
+      "remaining_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "source_pages": 19,
+      "requested_pages": [
+        1,
+        5,
+        9
+      ],
+      "completed_pages": [],
+      "remaining_pages": [
+        1,
+        5,
+        9
+      ]
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "source_pages": 52,
+      "requested_pages": [
+        1,
+        13,
+        17
+      ],
+      "completed_pages": [],
+      "remaining_pages": [
+        1,
+        13,
+        17
+      ]
+    }
+  ],
+  "remaining_pages": 11
+}

@@ -1,0 +1,31 @@
+{
+  "completed_pages": 19,
+  "expected_pages": 39,
+  "requested_pages": [
+    1,
+    20,
+    21
+  ],
+  "completed_page_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20,
+    21
+  ],
+  "remaining_requested_pages": []
+}

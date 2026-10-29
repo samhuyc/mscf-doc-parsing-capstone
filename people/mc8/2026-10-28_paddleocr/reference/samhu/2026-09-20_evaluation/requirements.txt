@@ -1,0 +1,6 @@
+beautifulsoup4==4.15.0
+rapidfuzz==3.14.3
+markdown-it-py==4.0.0
+apted==1.0.3
+scipy==1.17.1
+PyMuPDF==1.28.0

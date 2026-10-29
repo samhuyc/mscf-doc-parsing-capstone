@@ -1,0 +1,474 @@
+{
+  "status": "success",
+  "image_sha256": "12a5466d7d539fd96ac57d25c5ce583cf2e6b7784076cd1a5e1dd6f622f8b337",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          181.0,
+          201.0
+        ],
+        [
+          745.0,
+          201.0
+        ],
+        [
+          745.0,
+          238.0
+        ],
+        [
+          181.0,
+          238.0
+        ]
+      ],
+      "text": "PETERBOROUGH CARE LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          249.0
+        ],
+        [
+          749.0,
+          249.0
+        ],
+        [
+          749.0,
+          285.0
+        ],
+        [
+          181.0,
+          285.0
+        ]
+      ],
+      "text": "REGISTERED NUMBER:01814662",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          366.0
+        ],
+        [
+          723.0,
+          366.0
+        ],
+        [
+          723.0,
+          402.0
+        ],
+        [
+          181.0,
+          402.0
+        ]
+      ],
+      "text": "BALANCE SHEET (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          409.0
+        ],
+        [
+          572.0,
+          409.0
+        ],
+        [
+          572.0,
+          457.0
+        ],
+        [
+          177.0,
+          457.0
+        ]
+      ],
+      "text": "AS AT 31 MARCH 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          596.0
+        ],
+        [
+          2299.0,
+          596.0
+        ],
+        [
+          2299.0,
+          632.0
+        ],
+        [
+          181.0,
+          632.0
+        ]
+      ],
+      "text": "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          173.0,
+          632.0
+        ],
+        [
+          2299.0,
+          632.0
+        ],
+        [
+          2299.0,
+          680.0
+        ],
+        [
+          173.0,
+          680.0
+        ]
+      ],
+      "text": "members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          687.0
+        ],
+        [
+          332.0,
+          687.0
+        ],
+        [
+          332.0,
+          727.0
+        ],
+        [
+          181.0,
+          727.0
+        ]
+      ],
+      "text": "Act 2006.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          786.0
+        ],
+        [
+          2299.0,
+          786.0
+        ],
+        [
+          2299.0,
+          822.0
+        ],
+        [
+          181.0,
+          822.0
+        ]
+      ],
+      "text": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 2006 with respect to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          185.0,
+          837.0
+        ],
+        [
+          1170.0,
+          837.0
+        ],
+        [
+          1170.0,
+          863.0
+        ],
+        [
+          185.0,
+          863.0
+        ]
+      ],
+      "text": "accounting records and the preparation of financial statements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          921.0
+        ],
+        [
+          2303.0,
+          921.0
+        ],
+        [
+          2303.0,
+          969.0
+        ],
+        [
+          177.0,
+          969.0
+        ]
+      ],
+      "text": "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          972.0
+        ],
+        [
+          1686.0,
+          969.0
+        ],
+        [
+          1687.0,
+          1009.0
+        ],
+        [
+          177.0,
+          1013.0
+        ]
+      ],
+      "text": "companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1064.0
+        ],
+        [
+          2295.0,
+          1064.0
+        ],
+        [
+          2295.0,
+          1100.0
+        ],
+        [
+          181.0,
+          1100.0
+        ]
+      ],
+      "text": "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1118.0
+        ],
+        [
+          480.0,
+          1118.0
+        ],
+        [
+          480.0,
+          1155.0
+        ],
+        [
+          181.0,
+          1155.0
+        ]
+      ],
+      "text": "companies regime.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1210.0
+        ],
+        [
+          2299.0,
+          1210.0
+        ],
+        [
+          2299.0,
+          1246.0
+        ],
+        [
+          181.0,
+          1246.0
+        ]
+      ],
+      "text": "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1257.0
+        ],
+        [
+          797.0,
+          1257.0
+        ],
+        [
+          797.0,
+          1294.0
+        ],
+        [
+          181.0,
+          1294.0
+        ]
+      ],
+      "text": "subject to the small companies' regime.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1352.0
+        ],
+        [
+          1930.0,
+          1352.0
+        ],
+        [
+          1930.0,
+          1389.0
+        ],
+        [
+          181.0,
+          1389.0
+        ]
+      ],
+      "text": "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1623.0
+        ],
+        [
+          447.0,
+          1623.0
+        ],
+        [
+          447.0,
+          1663.0
+        ],
+        [
+          181.0,
+          1663.0
+        ]
+      ],
+      "text": "Mr Ajay Marjara",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          1667.0
+        ],
+        [
+          314.0,
+          1667.0
+        ],
+        [
+          314.0,
+          1718.0
+        ],
+        [
+          177.0,
+          1718.0
+        ]
+      ],
+      "text": "Director",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          1765.0
+        ],
+        [
+          579.0,
+          1765.0
+        ],
+        [
+          579.0,
+          1802.0
+        ],
+        [
+          181.0,
+          1802.0
+        ]
+      ],
+      "text": "Date: 19 December 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          1861.0
+        ],
+        [
+          1225.0,
+          1857.0
+        ],
+        [
+          1225.0,
+          1897.0
+        ],
+        [
+          177.0,
+          1901.0
+        ]
+      ],
+      "text": "The notes on pages 3 to 10 form part of these financial statements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1166.0,
+          3374.0
+        ],
+        [
+          1299.0,
+          3374.0
+        ],
+        [
+          1299.0,
+          3425.0
+        ],
+        [
+          1166.0,
+          3425.0
+        ]
+      ],
+      "text": "Page 2",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2374110221862793,
+  "elapsed_seconds": 9.801467082928866
+}

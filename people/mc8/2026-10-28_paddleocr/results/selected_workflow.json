@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "selected_page_parsing",
+    "started_at_utc": "2026-10-29T02:46:45.181039+00:00",
+    "return_code": 0,
+    "status": "success"
+  },
+  {
+    "stage": "sponsor_evaluation",
+    "started_at_utc": "2026-10-29T02:46:45.800591+00:00",
+    "return_code": 0,
+    "status": "success"
+  },
+  {
+    "stage": "sponsor_report",
+    "started_at_utc": "2026-10-29T02:47:00.900687+00:00",
+    "return_code": 0,
+    "status": "success"
+  },
+  {
+    "stage": "selected_page_verification",
+    "started_at_utc": "2026-10-29T02:47:02.448562+00:00",
+    "return_code": 0,
+    "status": "success"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "audit": {
+    "page": 1,
+    "image_width": 2480,
+    "image_height": 3509,
+    "render_dpi": 300,
+    "image_pixels_sha256": "61d073b41ee326b399be1b847ff0a12abbd8f943729c4970ae4708e33d6cfce6",
+    "raw_prediction": "raw/page_001.json",
+    "raw_sha256": "f0c6d40d218e5f01c022c97c5629e292196b0663b4293b33caee3de68a9cb322",
+    "blocks": 5,
+    "tables": 0,
+    "elapsed_seconds": 13.472
+  },
+  "chunk": {
+    "text": "Registered number: 01814662\n\n# PETERBOROUGH CARE LIMITED \n\nUNAUDITED \n\nFINANCIAL STATEMENTS \n\nFOR THE YEAR ENDED 31 MARCH 2025",
+    "native": {
+      "page_index": 0,
+      "raw_prediction": "raw/page_001.json",
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Registered number: 01814662",
+          "block_bbox": [
+            1570,
+            95,
+            2073,
+            130
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "doc_title",
+          "block_content": "PETERBOROUGH CARE LIMITED ",
+          "block_bbox": [
+            844,
+            1163,
+            1630,
+            1207
+          ],
+          "block_id": 1,
+          "block_order": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "UNAUDITED ",
+          "block_bbox": [
+            1111,
+            1441,
+            1365,
+            1477
+          ],
+          "block_id": 2,
+          "block_order": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "FINANCIAL STATEMENTS ",
+          "block_bbox": [
+            971,
+            1621,
+            1504,
+            1657
+          ],
+          "block_id": 3,
+          "block_order": 4
+        },
+        {
+          "block_label": "text",
+          "block_content": "FOR THE YEAR ENDED 31 MARCH 2025",
+          "block_bbox": [
+            830,
+            1799,
+            1645,
+            1836
+          ],
+          "block_id": 4,
+          "block_order": 5
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "ccc345f58da72590d0d6986708ee8cb52d82539848a6657a9b902d71e6190af8",
+  "provenance": "selected_page_worker"
+}

@@ -1,0 +1,30 @@
+{
+  "unit_tests_passed": 9,
+  "model_runs": {
+    "omni_pipeline": {
+      "success": 8,
+      "empty": 0
+    },
+    "omni_vlm": {
+      "success": 8,
+      "empty": 0
+    },
+    "fin_pipeline": {
+      "success": 7,
+      "empty": 1
+    },
+    "fin_vlm": {
+      "success": 7,
+      "empty": 1
+    }
+  },
+  "import_roundtrip_pages": 8,
+  "direct_image_smoke": "passed",
+  "native_pdf_smoke": "passed",
+  "native_text_on_image_pdf_control": "8 empty, as expected",
+  "visual_audit": {
+    "fin_348": "readable balance sheet; pipeline empty, VLM nonempty",
+    "fin_367": "published image contains CSS and compressed values; VLM empty; retained in scores",
+    "omni_b2dbf2b054e6": "electronics datasheet, despite research_report attribute"
+  }
+}

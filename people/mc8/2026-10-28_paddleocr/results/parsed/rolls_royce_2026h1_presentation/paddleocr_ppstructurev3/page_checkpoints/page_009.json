@@ -1,0 +1,145 @@
+{
+  "audit": {
+    "page": 9,
+    "image_width": 4000,
+    "image_height": 2250,
+    "render_dpi": 300,
+    "image_pixels_sha256": "b6f1abd9ab31d146b8d1b354a71867d1cf2784194e15c050bb933b31ba0b035e",
+    "raw_prediction": "raw/page_009.json",
+    "raw_sha256": "31f8288d708107a314b25affb33341dfea7dcfb54181dbeb664e7974355ba5dc",
+    "blocks": 10,
+    "tables": 2,
+    "elapsed_seconds": 57.704
+  },
+  "chunk": {
+    "text": "## 2026 HALF YEAR UNDERLYING [RESULTS \n\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tbody><tr><td>Underlying results Em</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change'</td><td>Organic Change %1</td></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>pence</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td>Change %</td></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Em</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td></td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td><td></td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td><td></td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td><td></td></tr></table></body></html></div>\n\n\nStrong results - double-digit profit and cash growth across every division \n\nOperating profit growth of £0.8bn and free cash flow growth of £0.4bn \n\nResilient balance sheet-net cash of £2.lbn Interim dividend of 6.0p per share \n\nBest-in-class return on capital demonstrates significant value creation \n\nROLLS R ROYCE \n\n1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated \n\n© 2026 Rolls-Royce. Not Subject to Export Control \n\n9",
+    "native": {
+      "page_index": 8,
+      "raw_prediction": "raw/page_009.json",
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "2026 HALF YEAR UNDERLYING [RESULTS ",
+          "block_bbox": [
+            117,
+            141,
+            2320,
+            264
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "table",
+          "block_content": "<html><body><table><tbody><tr><td>Underlying results Em</td><td>H1 2026</td><td>H1 2025</td><td>Organic Change'</td><td>Organic Change %1</td></tr><tr><td>Revenue</td><td>11,279</td><td>9,057</td><td>2,310</td><td>26%</td></tr><tr><td>Gross profit</td><td>3,397</td><td>2,572</td><td>839</td><td>33%</td></tr><tr><td>Gross margin %</td><td>30.1%</td><td>28.4%</td><td>1.6pts</td><td></td></tr><tr><td>Operating profit</td><td>2,534</td><td>1,733</td><td>796</td><td>46%</td></tr><tr><td>Operating margin %</td><td>22.5%</td><td>19.1%</td><td>3.1pts</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>pence</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td>Change %</td></tr><tr><td>Basic earnings per share</td><td>22.17</td><td>15.74</td><td>6.43</td><td>41%</td></tr><tr><td>Dividend per share</td><td>6.0</td><td>4.5</td><td>1.5</td><td>33%</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Em</td><td>H1 2026</td><td>H1 2025</td><td>Change</td><td></td></tr><tr><td>Free cash flow</td><td>1,964</td><td>1,582</td><td>382</td><td></td></tr><tr><td>Net cash</td><td>2,136</td><td>1,084</td><td>1,052</td><td></td></tr><tr><td>Return on capital</td><td>22.0%</td><td>16.9%</td><td>5.1pts</td><td></td></tr></table></body></html>",
+          "block_bbox": [
+            145,
+            451,
+            2369,
+            1984
+          ],
+          "block_id": 1,
+          "block_order": null
+        },
+        {
+          "block_label": "text",
+          "block_content": "Strong results - double-digit profit and cash growth across every division ",
+          "block_bbox": [
+            2506,
+            540,
+            3472,
+            712
+          ],
+          "block_id": 2,
+          "block_order": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "Operating profit growth of £0.8bn and free cash flow growth of £0.4bn ",
+          "block_bbox": [
+            2503,
+            934,
+            3454,
+            1106
+          ],
+          "block_id": 3,
+          "block_order": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "Resilient balance sheet-net cash of £2.lbn Interim dividend of 6.0p per share ",
+          "block_bbox": [
+            2508,
+            1326,
+            3542,
+            1501
+          ],
+          "block_id": 4,
+          "block_order": 4
+        },
+        {
+          "block_label": "text",
+          "block_content": "Best-in-class return on capital demonstrates significant value creation ",
+          "block_bbox": [
+            2503,
+            1727,
+            3496,
+            1894
+          ],
+          "block_id": 5,
+          "block_order": 5
+        },
+        {
+          "block_label": "header",
+          "block_content": "ROLLS R ROYCE ",
+          "block_bbox": [
+            3735,
+            153,
+            3879,
+            381
+          ],
+          "block_id": 6,
+          "block_order": 6
+        },
+        {
+          "block_label": "footer",
+          "block_content": "1 Organic change is the measure of change at constant translational currency applying half year 2025 average rates to 2025 and 2026 and excludes M&A and business closures. All underlying income statement commentary is provided on an organic basis unless otherwise stated ",
+          "block_bbox": [
+            114,
+            2075,
+            2358,
+            2150
+          ],
+          "block_id": 7,
+          "block_order": 7
+        },
+        {
+          "block_label": "footer",
+          "block_content": "© 2026 Rolls-Royce. Not Subject to Export Control ",
+          "block_bbox": [
+            3073,
+            2157,
+            3805,
+            2190
+          ],
+          "block_id": 8,
+          "block_order": 8
+        },
+        {
+          "block_label": "number",
+          "block_content": "9",
+          "block_bbox": [
+            3867,
+            2156,
+            3890,
+            2192
+          ],
+          "block_id": 9,
+          "block_order": 9
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "dff3750c2a5bac6354eee72a6703feadf9623c241723b19b9f13526017f9cd40",
+  "provenance": "selected_page_worker"
+}

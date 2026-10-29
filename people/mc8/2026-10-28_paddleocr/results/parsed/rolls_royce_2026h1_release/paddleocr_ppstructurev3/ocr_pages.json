@@ -1,0 +1,42 @@
+{
+  "engine": "PaddleOCR PP-StructureV3",
+  "mode": "selected evaluation pages, retaining every previously completed page",
+  "pages": [
+    {
+      "page": 1,
+      "image_width": 2481,
+      "image_height": 3509,
+      "render_dpi": 300,
+      "image_pixels_sha256": "22e5159ce440330bbfb258bd13da39cbb529d440bc5ceb4be7561c4aaefa6ac1",
+      "raw_prediction": "raw/page_001.json",
+      "raw_sha256": "8d23361295f9db08185974c6eeb63b8ccd8a143e6255828292f475daa92b3773",
+      "blocks": 18,
+      "tables": 2,
+      "elapsed_seconds": 132.416
+    },
+    {
+      "page": 13,
+      "image_width": 2481,
+      "image_height": 3509,
+      "render_dpi": 300,
+      "image_pixels_sha256": "5111ad31f15bea0053289d36f0ed624d00b6e12410780c8369180df8f9c943a1",
+      "raw_prediction": "raw/page_013.json",
+      "raw_sha256": "3d95e7440255ea2b8761c853ba3a8c0cb538b5b92ece800452614a8c20200208",
+      "blocks": 5,
+      "tables": 1,
+      "elapsed_seconds": 88.917
+    },
+    {
+      "page": 17,
+      "image_width": 2481,
+      "image_height": 3509,
+      "render_dpi": 300,
+      "image_pixels_sha256": "e13cc6a3241afa45ec05aacfc7bf45ad5aa38af0528e360e1705ee6fa8502861",
+      "raw_prediction": "raw/page_017.json",
+      "raw_sha256": "b57e406249ddbb08bc0eb9cd8c5a687967eadab711272ef611c60bbff3f72722",
+      "blocks": 9,
+      "tables": 2,
+      "elapsed_seconds": 183.867
+    }
+  ]
+}

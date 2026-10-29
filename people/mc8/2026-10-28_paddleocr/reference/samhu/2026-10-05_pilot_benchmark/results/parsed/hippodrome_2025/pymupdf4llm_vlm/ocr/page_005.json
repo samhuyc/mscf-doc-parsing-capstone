@@ -1,0 +1,1354 @@
+{
+  "status": "success",
+  "image_sha256": "bf2474556922920d406d7230d0055ba3a3e304b31f3239af04a455958509e2a1",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          255.0,
+          285.0
+        ],
+        [
+          1115.0,
+          285.0
+        ],
+        [
+          1115.0,
+          336.0
+        ],
+        [
+          255.0,
+          336.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          413.0
+        ],
+        [
+          1081.0,
+          413.0
+        ],
+        [
+          1081.0,
+          461.0
+        ],
+        [
+          255.0,
+          461.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          493.0
+        ],
+        [
+          1277.0,
+          493.0
+        ],
+        [
+          1277.0,
+          541.0
+        ],
+        [
+          255.0,
+          541.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          651.0
+        ],
+        [
+          358.0,
+          651.0
+        ],
+        [
+          358.0,
+          698.0
+        ],
+        [
+          255.0,
+          698.0
+        ]
+      ],
+      "text": "2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          651.0
+        ],
+        [
+          2211.0,
+          651.0
+        ],
+        [
+          2211.0,
+          698.0
+        ],
+        [
+          594.0,
+          698.0
+        ]
+      ],
+      "text": "Slot machine capacity increased from 20 to 80 following the Government's White Paper,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          702.0
+        ],
+        [
+          2111.0,
+          702.0
+        ],
+        [
+          2111.0,
+          738.0
+        ],
+        [
+          602.0,
+          738.0
+        ]
+      ],
+      "text": "enabling the launch of a dedicated Slots Lounge and strengthening the core gaming offer.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          738.0
+        ],
+        [
+          2207.0,
+          738.0
+        ],
+        [
+          2207.0,
+          786.0
+        ],
+        [
+          594.0,
+          786.0
+        ]
+      ],
+      "text": "Paddy's Sportsbook launched in partnership with Paddy Power, introducing a new sports-led",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          782.0
+        ],
+        [
+          1085.0,
+          782.0
+        ],
+        [
+          1085.0,
+          830.0
+        ],
+        [
+          594.0,
+          830.0
+        ]
+      ],
+      "text": "experience within the venue.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          874.0
+        ],
+        [
+          509.0,
+          874.0
+        ],
+        [
+          509.0,
+          914.0
+        ],
+        [
+          258.0,
+          914.0
+        ]
+      ],
+      "text": "Our Business",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          958.0
+        ],
+        [
+          2074.0,
+          958.0
+        ],
+        [
+          2074.0,
+          1005.0
+        ],
+        [
+          255.0,
+          1005.0
+        ]
+      ],
+      "text": "The Hippodrome sits on the corner of Leicester Square, in the heart of London's world-renowned West End.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1045.0
+        ],
+        [
+          2211.0,
+          1045.0
+        ],
+        [
+          2211.0,
+          1093.0
+        ],
+        [
+          255.0,
+          1093.0
+        ]
+      ],
+      "text": "The building, one of the city's most famous theatrical icons, has hosted many of the last century's groundbreaking",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1093.0
+        ],
+        [
+          2211.0,
+          1093.0
+        ],
+        [
+          2211.0,
+          1129.0
+        ],
+        [
+          258.0,
+          1129.0
+        ]
+      ],
+      "text": "diversions, shows and entertainments. Since opening in 1900 it has pushed boundaries, presented the bold, the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1133.0
+        ],
+        [
+          734.0,
+          1133.0
+        ],
+        [
+          734.0,
+          1170.0
+        ],
+        [
+          255.0,
+          1170.0
+        ]
+      ],
+      "text": "new, the never-seen-before.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1217.0
+        ],
+        [
+          2155.0,
+          1214.0
+        ],
+        [
+          2155.0,
+          1261.0
+        ],
+        [
+          258.0,
+          1265.0
+        ]
+      ],
+      "text": "Today one in eight casino visits in the country are to the Hippodrome. In London, that rises to one in every three.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1309.0
+        ],
+        [
+          2211.0,
+          1309.0
+        ],
+        [
+          2211.0,
+          1345.0
+        ],
+        [
+          262.0,
+          1345.0
+        ]
+      ],
+      "text": "Since opening in 2012, our 700+ staff have welcomed over 20 million visitors from 157 different countries. And if",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1352.0
+        ],
+        [
+          1340.0,
+          1352.0
+        ],
+        [
+          1340.0,
+          1389.0
+        ],
+        [
+          258.0,
+          1389.0
+        ]
+      ],
+      "text": "that is not enough, we've won fame and a cabinet full of awards.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          1433.0
+        ],
+        [
+          2211.0,
+          1429.0
+        ],
+        [
+          2211.0,
+          1477.0
+        ],
+        [
+          251.0,
+          1480.0
+        ]
+      ],
+      "text": "As the first casino in the UK to embrace the 'Las Vegas-style' of world class entertainment, food and drink",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1484.0
+        ],
+        [
+          819.0,
+          1484.0
+        ],
+        [
+          819.0,
+          1521.0
+        ],
+        [
+          258.0,
+          1521.0
+        ]
+      ],
+      "text": "alongside our gambling we have:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1568.0
+        ],
+        [
+          2104.0,
+          1568.0
+        ],
+        [
+          2104.0,
+          1605.0
+        ],
+        [
+          362.0,
+          1605.0
+        ]
+      ],
+      "text": "- Three uniquely themed gaming floors full of exciting live tables, electronic terminal and slot machines",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1612.0
+        ],
+        [
+          1646.0,
+          1612.0
+        ],
+        [
+          1646.0,
+          1648.0
+        ],
+        [
+          362.0,
+          1648.0
+        ]
+      ],
+      "text": "- Two multi-award winning restaurants: Heliot Steak House and Chop Chop",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1656.0
+        ],
+        [
+          576.0,
+          1656.0
+        ],
+        [
+          576.0,
+          1692.0
+        ],
+        [
+          362.0,
+          1692.0
+        ]
+      ],
+      "text": "- Nine bars",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1700.0
+        ],
+        [
+          893.0,
+          1700.0
+        ],
+        [
+          893.0,
+          1736.0
+        ],
+        [
+          362.0,
+          1736.0
+        ]
+      ],
+      "text": "• London's largest Poker room",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          358.0,
+          1736.0
+        ],
+        [
+          2137.0,
+          1736.0
+        ],
+        [
+          2137.0,
+          1784.0
+        ],
+        [
+          358.0,
+          1784.0
+        ]
+      ],
+      "text": "- Theatrical juggernaut Magic Mike Live – now in its eighth year and continuing to deliver strong demand",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          1780.0
+        ],
+        [
+          1823.0,
+          1776.0
+        ],
+        [
+          1823.0,
+          1824.0
+        ],
+        [
+          354.0,
+          1828.0
+        ]
+      ],
+      "text": "- Central London's largest three-tier outdoor terrace with magnificent views over Soho",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1828.0
+        ],
+        [
+          1255.0,
+          1828.0
+        ],
+        [
+          1255.0,
+          1864.0
+        ],
+        [
+          362.0,
+          1864.0
+        ]
+      ],
+      "text": "- London's first fully integrated Sportsbook & Casino",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1915.0
+        ],
+        [
+          2207.0,
+          1915.0
+        ],
+        [
+          2207.0,
+          1952.0
+        ],
+        [
+          255.0,
+          1952.0
+        ]
+      ],
+      "text": "With around 1.6 million guests annually, a visit to the Hippodrome is now classed as a ‘must do’ tourist experience",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1956.0
+        ],
+        [
+          2118.0,
+          1952.0
+        ],
+        [
+          2118.0,
+          1992.0
+        ],
+        [
+          255.0,
+          1996.0
+        ]
+      ],
+      "text": "that sits alongside a trip to the Tower of London or Fortnum's amongst the many other iconic tourist attractions.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2036.0
+        ],
+        [
+          805.0,
+          2036.0
+        ],
+        [
+          805.0,
+          2073.0
+        ],
+        [
+          255.0,
+          2073.0
+        ]
+      ],
+      "text": "The Hippodrome in NUMB3RS",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2102.0
+        ],
+        [
+          439.0,
+          2102.0
+        ],
+        [
+          439.0,
+          2142.0
+        ],
+        [
+          258.0,
+          2142.0
+        ]
+      ],
+      "text": "Staff: 703",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1343.0,
+          2102.0
+        ],
+        [
+          2026.0,
+          2102.0
+        ],
+        [
+          2026.0,
+          2138.0
+        ],
+        [
+          1343.0,
+          2138.0
+        ]
+      ],
+      "text": "Magic Mike performances so far: 3000+",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2142.0
+        ],
+        [
+          738.0,
+          2142.0
+        ],
+        [
+          738.0,
+          2189.0
+        ],
+        [
+          251.0,
+          2189.0
+        ]
+      ],
+      "text": "Visitors annually: 1.6 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1343.0,
+          2138.0
+        ],
+        [
+          2048.0,
+          2138.0
+        ],
+        [
+          2048.0,
+          2186.0
+        ],
+        [
+          1343.0,
+          2186.0
+        ]
+      ],
+      "text": "Bottles of wine served each year: 40,000",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2186.0
+        ],
+        [
+          827.0,
+          2186.0
+        ],
+        [
+          827.0,
+          2233.0
+        ],
+        [
+          251.0,
+          2233.0
+        ]
+      ],
+      "text": "Visitors since opening: 20 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2189.0
+        ],
+        [
+          2115.0,
+          2189.0
+        ],
+        [
+          2115.0,
+          2226.0
+        ],
+        [
+          1347.0,
+          2226.0
+        ]
+      ],
+      "text": "Electronic roulette games played: 187 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2233.0
+        ],
+        [
+          805.0,
+          2233.0
+        ],
+        [
+          805.0,
+          2270.0
+        ],
+        [
+          258.0,
+          2270.0
+        ]
+      ],
+      "text": "Steaks served annually: 37,000",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2233.0
+        ],
+        [
+          1956.0,
+          2233.0
+        ],
+        [
+          1956.0,
+          2270.0
+        ],
+        [
+          1347.0,
+          2270.0
+        ]
+      ],
+      "text": "Roulette games played: 127 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2277.0
+        ],
+        [
+          797.0,
+          2277.0
+        ],
+        [
+          797.0,
+          2314.0
+        ],
+        [
+          258.0,
+          2314.0
+        ]
+      ],
+      "text": "Pints served annually: 270,000",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2277.0
+        ],
+        [
+          1886.0,
+          2277.0
+        ],
+        [
+          1886.0,
+          2314.0
+        ],
+        [
+          1347.0,
+          2314.0
+        ]
+      ],
+      "text": "Slots games played: 993 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2314.0
+        ],
+        [
+          867.0,
+          2310.0
+        ],
+        [
+          867.0,
+          2358.0
+        ],
+        [
+          251.0,
+          2361.0
+        ]
+      ],
+      "text": "Cocktails served annually: 275,000",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2314.0
+        ],
+        [
+          2089.0,
+          2314.0
+        ],
+        [
+          2089.0,
+          2361.0
+        ],
+        [
+          1347.0,
+          2361.0
+        ]
+      ],
+      "text": "Three card poker games played: 37 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2358.0
+        ],
+        [
+          945.0,
+          2358.0
+        ],
+        [
+          945.0,
+          2405.0
+        ],
+        [
+          255.0,
+          2405.0
+        ]
+      ],
+      "text": "Share of the British casino market: 12%",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1343.0,
+          2358.0
+        ],
+        [
+          1956.0,
+          2358.0
+        ],
+        [
+          1956.0,
+          2405.0
+        ],
+        [
+          1343.0,
+          2405.0
+        ]
+      ],
+      "text": "Blackjack games played: 90 million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2401.0
+        ],
+        [
+          1089.0,
+          2401.0
+        ],
+        [
+          1089.0,
+          2449.0
+        ],
+        [
+          255.0,
+          2449.0
+        ]
+      ],
+      "text": "Magic Mike audience members so far: 900,000+",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2405.0
+        ],
+        [
+          2188.0,
+          2405.0
+        ],
+        [
+          2188.0,
+          2442.0
+        ],
+        [
+          1347.0,
+          2442.0
+        ]
+      ],
+      "text": "Dim Sum served in Chop Chop each year: 18,000",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2445.0
+        ],
+        [
+          1255.0,
+          2445.0
+        ],
+        [
+          1255.0,
+          2493.0
+        ],
+        [
+          258.0,
+          2493.0
+        ]
+      ],
+      "text": "Total in machine jackpots won since opening: £12+ million",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1347.0,
+          2449.0
+        ],
+        [
+          1967.0,
+          2449.0
+        ],
+        [
+          1967.0,
+          2486.0
+        ],
+        [
+          1347.0,
+          2486.0
+        ]
+      ],
+      "text": "Decks of cards used each week: 465",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2526.0
+        ],
+        [
+          587.0,
+          2526.0
+        ],
+        [
+          587.0,
+          2573.0
+        ],
+        [
+          255.0,
+          2573.0
+        ]
+      ],
+      "text": "Our Stakeholders",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2617.0
+        ],
+        [
+          2207.0,
+          2617.0
+        ],
+        [
+          2207.0,
+          2654.0
+        ],
+        [
+          258.0,
+          2654.0
+        ]
+      ],
+      "text": "The directors consider the following groups to be our key Stakeholders. The Board seeks to understand the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2661.0
+        ],
+        [
+          2207.0,
+          2661.0
+        ],
+        [
+          2207.0,
+          2698.0
+        ],
+        [
+          255.0,
+          2698.0
+        ]
+      ],
+      "text": "interests of the Stakeholder groups so that they may be properly considered in the decision-making process. This is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2701.0
+        ],
+        [
+          2207.0,
+          2698.0
+        ],
+        [
+          2207.0,
+          2738.0
+        ],
+        [
+          255.0,
+          2741.0
+        ]
+      ],
+      "text": "done through direct engagement, receiving reports from management and inclusion of stakeholder interests in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2741.0
+        ],
+        [
+          757.0,
+          2741.0
+        ],
+        [
+          757.0,
+          2789.0
+        ],
+        [
+          255.0,
+          2789.0
+        ]
+      ],
+      "text": "Board papers as appropriate.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2822.0
+        ],
+        [
+          432.0,
+          2822.0
+        ],
+        [
+          432.0,
+          2873.0
+        ],
+        [
+          255.0,
+          2873.0
+        ]
+      ],
+      "text": "Our Staff",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2906.0
+        ],
+        [
+          2211.0,
+          2906.0
+        ],
+        [
+          2211.0,
+          2953.0
+        ],
+        [
+          255.0,
+          2953.0
+        ]
+      ],
+      "text": "Fundamental to the delivery of our vision and strategy are our staff who expect a workplace that is safe, inclusive",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2950.0
+        ],
+        [
+          2211.0,
+          2946.0
+        ],
+        [
+          2211.0,
+          2997.0
+        ],
+        [
+          251.0,
+          3001.0
+        ]
+      ],
+      "text": "and offers them opportunity to develop, learn and engage. We are committed to equal opportunities and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          3001.0
+        ],
+        [
+          2207.0,
+          3001.0
+        ],
+        [
+          2207.0,
+          3037.0
+        ],
+        [
+          258.0,
+          3037.0
+        ]
+      ],
+      "text": "employment where everyone is treated with fairness, dignity and respect. We strive to be a responsible employer",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          3037.0
+        ],
+        [
+          2211.0,
+          3037.0
+        ],
+        [
+          2211.0,
+          3085.0
+        ],
+        [
+          255.0,
+          3085.0
+        ]
+      ],
+      "text": "and this is reflected in our approach to pay, benefits and the health & safety and wellbeing of our staff. We",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3089.0
+        ],
+        [
+          2207.0,
+          3089.0
+        ],
+        [
+          2207.0,
+          3125.0
+        ],
+        [
+          262.0,
+          3125.0
+        ]
+      ],
+      "text": "recognise the ongoing issues around the cost-of-living crisis and are actively reviewing the market to ensure that",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          3129.0
+        ],
+        [
+          2207.0,
+          3129.0
+        ],
+        [
+          2207.0,
+          3176.0
+        ],
+        [
+          255.0,
+          3176.0
+        ]
+      ],
+      "text": "our pay rates remain competitive. Our staff want to be part of the decisions that affect them, being empowered to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          3176.0
+        ],
+        [
+          2203.0,
+          3176.0
+        ],
+        [
+          2203.0,
+          3213.0
+        ],
+        [
+          262.0,
+          3213.0
+        ]
+      ],
+      "text": "make decisions, be safe to challenge management, be curious to ask questions and be supported by effective",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          3217.0
+        ],
+        [
+          727.0,
+          3217.0
+        ],
+        [
+          727.0,
+          3264.0
+        ],
+        [
+          255.0,
+          3264.0
+        ]
+      ],
+      "text": "systems of communication.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1203.0,
+          3323.0
+        ],
+        [
+          1270.0,
+          3323.0
+        ],
+        [
+          1270.0,
+          3366.0
+        ],
+        [
+          1203.0,
+          3366.0
+        ]
+      ],
+      "text": "-3-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.2514228820800781,
+  "elapsed_seconds": 28.641543874982744
+}

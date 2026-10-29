@@ -1,0 +1,384 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2481,
+    "height": 3508,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "大eDF ",
+        "block_bbox": [
+          1952,
+          104,
+          2369,
+          282
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "doc_title",
+        "block_content": "EDF Consolidated  Segmental Statement ",
+        "block_bbox": [
+          284,
+          847,
+          1909,
+          1214
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "for the year ended 31 December 2024",
+        "block_bbox": [
+          277,
+          1296,
+          1681,
+          1371
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "number",
+        "block_content": "Page 1 of 6",
+        "block_bbox": [
+          1149,
+          3408,
+          1323,
+          3447
+        ],
+        "block_id": 3,
+        "block_order": 4
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.920136570930481,
+          "coordinate": [
+            1952.26806640625,
+            104.32438659667969,
+            2369.1328125,
+            282.13348388671875
+          ]
+        },
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8968644142150879,
+          "coordinate": [
+            1149.61767578125,
+            3408.5078125,
+            1323.77294921875,
+            3447.9443359375
+          ]
+        },
+        {
+          "cls_id": 10,
+          "label": "doc_title",
+          "score": 0.7125208973884583,
+          "coordinate": [
+            284.6199951171875,
+            847.6976928710938,
+            1909.8031005859375,
+            1214.12646484375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.5650320649147034,
+          "coordinate": [
+            277.6729736328125,
+            1296.682373046875,
+            1681.8441162109375,
+            1371.516845703125
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            2013,
+            110
+          ],
+          [
+            2390,
+            110
+          ],
+          [
+            2390,
+            285
+          ],
+          [
+            2013,
+            285
+          ]
+        ],
+        [
+          [
+            291,
+            850
+          ],
+          [
+            1592,
+            850
+          ],
+          [
+            1592,
+            998
+          ],
+          [
+            291,
+            998
+          ]
+        ],
+        [
+          [
+            270,
+            1056
+          ],
+          [
+            1936,
+            1030
+          ],
+          [
+            1939,
+            1208
+          ],
+          [
+            273,
+            1234
+          ]
+        ],
+        [
+          [
+            288,
+            1296
+          ],
+          [
+            1686,
+            1296
+          ],
+          [
+            1686,
+            1379
+          ],
+          [
+            288,
+            1379
+          ]
+        ],
+        [
+          [
+            1146,
+            3407
+          ],
+          [
+            1334,
+            3401
+          ],
+          [
+            1335,
+            3453
+          ],
+          [
+            1148,
+            3459
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "大eDF",
+        "EDF Consolidated",
+        "Segmental Statement",
+        "for the year ended 31 December 2024",
+        "Page 1 of 6"
+      ],
+      "rec_scores": [
+        0.7905423641204834,
+        0.9899884462356567,
+        0.9973527789115906,
+        0.9878214001655579,
+        0.9374733567237854
+      ],
+      "rec_polys": [
+        [
+          [
+            2013,
+            110
+          ],
+          [
+            2390,
+            110
+          ],
+          [
+            2390,
+            285
+          ],
+          [
+            2013,
+            285
+          ]
+        ],
+        [
+          [
+            291,
+            850
+          ],
+          [
+            1592,
+            850
+          ],
+          [
+            1592,
+            998
+          ],
+          [
+            291,
+            998
+          ]
+        ],
+        [
+          [
+            270,
+            1056
+          ],
+          [
+            1936,
+            1030
+          ],
+          [
+            1939,
+            1208
+          ],
+          [
+            273,
+            1234
+          ]
+        ],
+        [
+          [
+            288,
+            1296
+          ],
+          [
+            1686,
+            1296
+          ],
+          [
+            1686,
+            1379
+          ],
+          [
+            288,
+            1379
+          ]
+        ],
+        [
+          [
+            1146,
+            3407
+          ],
+          [
+            1334,
+            3401
+          ],
+          [
+            1335,
+            3453
+          ],
+          [
+            1148,
+            3459
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          2013,
+          110,
+          2390,
+          285
+        ],
+        [
+          291,
+          850,
+          1592,
+          998
+        ],
+        [
+          270,
+          1030,
+          1939,
+          1234
+        ],
+        [
+          288,
+          1296,
+          1686,
+          1379
+        ],
+        [
+          1146,
+          3401,
+          1335,
+          3459
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "audit": {
+    "page": 21,
+    "image_width": 2480,
+    "image_height": 3509,
+    "render_dpi": 300,
+    "image_pixels_sha256": "680aa15da0ca50ade4576e3767d51313c4ab8030745a9ed963fab82f609da9cd",
+    "raw_prediction": "raw/page_021.json",
+    "raw_sha256": "da50f7e74477f435f4d1a39f234fc5a2f85799ab60f7a5b7d01fbf754e01874e",
+    "blocks": 5,
+    "tables": 1,
+    "elapsed_seconds": 35.183
+  },
+  "chunk": {
+    "text": "Company registration number 05497987\n\n## HIPPODROME CASINO LIMITED STATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2025\n\n\n<div style=\"text-align: center;\"><html><body><table border=\"1\"><tr><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td></td><td>Notes</td><td>2025 £</td><td>£</td><td>2024 £</td><td>£</td></tr><tr><td>Fixed assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intangible assets</td><td>12</td><td></td><td>292,280</td><td></td><td>262,352</td></tr><tr><td>Tangible assets</td><td>13</td><td></td><td>49,022,342 31,001</td><td></td><td>47,854,347 31,001</td></tr><tr><td>Investments</td><td>14</td><td></td><td>49,345,623</td><td></td><td>48,147,700</td></tr><tr><td>Current assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Stocks Debtors</td><td>16</td><td>270,584</td><td></td><td>294,487 26,258,481</td><td></td></tr><tr><td>Cash at bank and in hand</td><td>17</td><td>39,890,644 24,768,430</td><td></td><td>30,767,822</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Creditors: amounts falling due within</td><td></td><td>64,929,658</td><td></td><td>57,320,790</td><td></td></tr><tr><td>one year</td><td>18</td><td>(32,716,196)</td><td></td><td>(29,889,894)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td>32,213,462</td><td></td><td>27,430,896</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td>81,559,085</td><td></td><td>75,578,596</td></tr><tr><td>Creditors: amounts falling due after</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>more than one year</td><td>19</td><td></td><td>(36,104,541)</td><td></td><td>(33,283,391)</td></tr><tr><td>Provisions for liabilities</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deferred tax liability</td><td>22</td><td>3,493,319</td><td>(3,493,319)</td><td>3,061,837</td><td>(3,061,837)</td></tr><tr><td>Net assets</td><td></td><td></td><td>41,961,225</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>39,233,368</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td>24</td><td></td><td>9,662,983</td><td></td><td>9,662,983</td></tr><tr><td>Profit and loss reserves</td><td>25</td><td></td><td>32,298,242</td><td></td><td>29,570,385</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total equity</td><td></td><td></td><td>41,961,225</td><td></td><td>39,233,368</td></tr></table></body></html></div>\n\n\nThe financial statemenwere approved by the board of directors and authorised for issue on . 2/o6/2o26. and are signed on its bebaf by:\n\n-19",
+    "native": {
+      "page_index": 20,
+      "raw_prediction": "raw/page_021.json",
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "Company registration number 05497987",
+          "block_bbox": [
+            1451,
+            347,
+            2136,
+            388
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "HIPPODROME CASINO LIMITED STATEMENT OF FINANCIAL POSITION AS AT 31 DECEMBER 2025",
+          "block_bbox": [
+            279,
+            392,
+            1123,
+            639
+          ],
+          "block_id": 1,
+          "block_order": 2
+        },
+        {
+          "block_label": "table",
+          "block_content": "<html><body><table><tr><td colspan=\"3\"></td><td colspan=\"3\"></td></tr><tr><td></td><td>Notes</td><td>2025 £</td><td>£</td><td>2024 £</td><td>£</td></tr><tr><td>Fixed assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intangible assets</td><td>12</td><td></td><td>292,280</td><td></td><td>262,352</td></tr><tr><td>Tangible assets</td><td>13</td><td></td><td>49,022,342 31,001</td><td></td><td>47,854,347 31,001</td></tr><tr><td>Investments</td><td>14</td><td></td><td>49,345,623</td><td></td><td>48,147,700</td></tr><tr><td>Current assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Stocks Debtors</td><td>16</td><td>270,584</td><td></td><td>294,487 26,258,481</td><td></td></tr><tr><td>Cash at bank and in hand</td><td>17</td><td>39,890,644 24,768,430</td><td></td><td>30,767,822</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Creditors: amounts falling due within</td><td></td><td>64,929,658</td><td></td><td>57,320,790</td><td></td></tr><tr><td>one year</td><td>18</td><td>(32,716,196)</td><td></td><td>(29,889,894)</td><td></td></tr><tr><td>Net current assets</td><td></td><td></td><td>32,213,462</td><td></td><td>27,430,896</td></tr><tr><td>Total assets less current liabilities</td><td></td><td></td><td>81,559,085</td><td></td><td>75,578,596</td></tr><tr><td>Creditors: amounts falling due after</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>more than one year</td><td>19</td><td></td><td>(36,104,541)</td><td></td><td>(33,283,391)</td></tr><tr><td>Provisions for liabilities</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deferred tax liability</td><td>22</td><td>3,493,319</td><td>(3,493,319)</td><td>3,061,837</td><td>(3,061,837)</td></tr><tr><td>Net assets</td><td></td><td></td><td>41,961,225</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>39,233,368</td></tr><tr><td>Capital and reserves</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Called up share capital</td><td>24</td><td></td><td>9,662,983</td><td></td><td>9,662,983</td></tr><tr><td>Profit and loss reserves</td><td>25</td><td></td><td>32,298,242</td><td></td><td>29,570,385</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total equity</td><td></td><td></td><td>41,961,225</td><td></td><td>39,233,368</td></tr></table></body></html>",
+          "block_bbox": [
+            278,
+            677,
+            2152,
+            2464
+          ],
+          "block_id": 2,
+          "block_order": null
+        },
+        {
+          "block_label": "text",
+          "block_content": "The financial statemenwere approved by the board of directors and authorised for issue on . 2/o6/2o26. and are signed on its bebaf by:",
+          "block_bbox": [
+            282,
+            2504,
+            2141,
+            2604
+          ],
+          "block_id": 3,
+          "block_order": 3
+        },
+        {
+          "block_label": "number",
+          "block_content": "-19",
+          "block_bbox": [
+            1177,
+            3249,
+            1256,
+            3276
+          ],
+          "block_id": 4,
+          "block_order": 4
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "d983f8e1f99e9da1b2a22769bb1b6e47b911f28d8f00870a68b12af7a1201ee5",
+  "provenance": "selected_page_worker"
+}

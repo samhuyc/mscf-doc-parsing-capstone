@@ -1,0 +1,4 @@
+# Original run: Apple M1 Pro, macOS, Python 3.12.
+mineru[pipeline,mlx]==3.4.5; sys_platform == "darwin"
+mineru[pipeline,vlm]==3.4.5; sys_platform != "darwin"
+pypdf==6.18.0

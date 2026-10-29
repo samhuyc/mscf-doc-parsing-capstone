@@ -1,0 +1,804 @@
+{
+  "status": "success",
+  "image_sha256": "9bb6a65809efe5292d7956853be8ddee633ad36b6bd4bea943ccecd25ffc98f4",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          181.0,
+          201.0
+        ],
+        [
+          749.0,
+          201.0
+        ],
+        [
+          749.0,
+          238.0
+        ],
+        [
+          181.0,
+          238.0
+        ]
+      ],
+      "text": "PETERBOROUGH CARE LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          177.0,
+          366.0
+        ],
+        [
+          893.0,
+          366.0
+        ],
+        [
+          893.0,
+          402.0
+        ],
+        [
+          177.0,
+          402.0
+        ]
+      ],
+      "text": "NOTES TO THE FINANCIAL STATEMENTS",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          413.0
+        ],
+        [
+          864.0,
+          413.0
+        ],
+        [
+          864.0,
+          450.0
+        ],
+        [
+          181.0,
+          450.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 MARCH 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          181.0,
+          570.0
+        ],
+        [
+          214.0,
+          570.0
+        ],
+        [
+          214.0,
+          607.0
+        ],
+        [
+          181.0,
+          607.0
+        ]
+      ],
+      "text": "2.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          299.0,
+          567.0
+        ],
+        [
+          849.0,
+          567.0
+        ],
+        [
+          849.0,
+          614.0
+        ],
+        [
+          299.0,
+          614.0
+        ]
+      ],
+      "text": "Accounting policies (continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          662.0
+        ],
+        [
+          926.0,
+          665.0
+        ],
+        [
+          926.0,
+          706.0
+        ],
+        [
+          266.0,
+          702.0
+        ]
+      ],
+      "text": "2.6 Financial instruments (continued)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          768.0
+        ],
+        [
+          2299.0,
+          768.0
+        ],
+        [
+          2299.0,
+          804.0
+        ],
+        [
+          391.0,
+          804.0
+        ]
+      ],
+      "text": "Discounting is omitted where the effect of discounting is immaterial. The company's cash and cash equivalents, trade and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          815.0
+        ],
+        [
+          1845.0,
+          815.0
+        ],
+        [
+          1845.0,
+          852.0
+        ],
+        [
+          391.0,
+          852.0
+        ]
+      ],
+      "text": "most other debtors due with the operating cycle fall into this category of financial instruments.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          914.0
+        ],
+        [
+          797.0,
+          914.0
+        ],
+        [
+          797.0,
+          939.0
+        ],
+        [
+          395.0,
+          939.0
+        ]
+      ],
+      "text": "Basic financial liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1005.0
+        ],
+        [
+          2299.0,
+          1005.0
+        ],
+        [
+          2299.0,
+          1042.0
+        ],
+        [
+          391.0,
+          1042.0
+        ]
+      ],
+      "text": "Financial liabilities and equity instruments are classified according to the substance of the contractual arrangements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1053.0
+        ],
+        [
+          2299.0,
+          1053.0
+        ],
+        [
+          2299.0,
+          1089.0
+        ],
+        [
+          388.0,
+          1089.0
+        ]
+      ],
+      "text": "entered into. An equity instrument is any contract that evidences a residual interest in the assets of the company after the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          1104.0
+        ],
+        [
+          823.0,
+          1104.0
+        ],
+        [
+          823.0,
+          1129.0
+        ],
+        [
+          395.0,
+          1129.0
+        ]
+      ],
+      "text": "deduction of all its liabilities.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          1199.0
+        ],
+        [
+          2295.0,
+          1199.0
+        ],
+        [
+          2295.0,
+          1224.0
+        ],
+        [
+          395.0,
+          1224.0
+        ]
+      ],
+      "text": "Basic financial liabilities, which include trade and other creditors, bank loans and other loans are initially measured at their",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1239.0
+        ],
+        [
+          2299.0,
+          1239.0
+        ],
+        [
+          2299.0,
+          1276.0
+        ],
+        [
+          388.0,
+          1276.0
+        ]
+      ],
+      "text": "transaction price (adjusting for transaction costs except in the initial measurement of financial liabilities that are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1287.0
+        ],
+        [
+          2295.0,
+          1287.0
+        ],
+        [
+          2295.0,
+          1323.0
+        ],
+        [
+          388.0,
+          1323.0
+        ]
+      ],
+      "text": "subsequently measured at fair value through profit and loss). When this constitutes a financing transaction, whereby the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1334.0
+        ],
+        [
+          2295.0,
+          1334.0
+        ],
+        [
+          2295.0,
+          1371.0
+        ],
+        [
+          391.0,
+          1371.0
+        ]
+      ],
+      "text": "debt instrument is measured at the present value of the future payments discounted at a market rate of interest,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1382.0
+        ],
+        [
+          1439.0,
+          1382.0
+        ],
+        [
+          1439.0,
+          1418.0
+        ],
+        [
+          391.0,
+          1418.0
+        ]
+      ],
+      "text": "discounting is omitted where the effect of discounting is immaterial.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1477.0
+        ],
+        [
+          2037.0,
+          1477.0
+        ],
+        [
+          2037.0,
+          1513.0
+        ],
+        [
+          391.0,
+          1513.0
+        ]
+      ],
+      "text": "Debt instruments are subsequently carried at their amortised cost using the effective interest rate method.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1572.0
+        ],
+        [
+          2299.0,
+          1572.0
+        ],
+        [
+          2299.0,
+          1608.0
+        ],
+        [
+          391.0,
+          1608.0
+        ]
+      ],
+      "text": "Trade creditors are obligations to pay for goods and services that have been acquired in the ordinary course of business",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1619.0
+        ],
+        [
+          2295.0,
+          1619.0
+        ],
+        [
+          2295.0,
+          1656.0
+        ],
+        [
+          391.0,
+          1656.0
+        ]
+      ],
+      "text": "from suppliers. Trade creditors are classified as current liabilities if the payment is due within one year. If not, they",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          1667.0
+        ],
+        [
+          2299.0,
+          1667.0
+        ],
+        [
+          2299.0,
+          1703.0
+        ],
+        [
+          388.0,
+          1703.0
+        ]
+      ],
+      "text": "represent non-current liabilities. Trade creditors are initially recognised at their transaction price and subsequently are",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1714.0
+        ],
+        [
+          2299.0,
+          1714.0
+        ],
+        [
+          2299.0,
+          1751.0
+        ],
+        [
+          391.0,
+          1751.0
+        ]
+      ],
+      "text": "measured at amortised cost using the effective interest method. Discounting is omitted where the effect of discounting is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          1758.0
+        ],
+        [
+          565.0,
+          1758.0
+        ],
+        [
+          565.0,
+          1795.0
+        ],
+        [
+          391.0,
+          1795.0
+        ]
+      ],
+      "text": "immaterial.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          1861.0
+        ],
+        [
+          1033.0,
+          1861.0
+        ],
+        [
+          1033.0,
+          1886.0
+        ],
+        [
+          395.0,
+          1886.0
+        ]
+      ],
+      "text": "Derecognition of financial instruments",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          395.0,
+          1952.0
+        ],
+        [
+          945.0,
+          1952.0
+        ],
+        [
+          945.0,
+          1988.0
+        ],
+        [
+          395.0,
+          1988.0
+        ]
+      ],
+      "text": "Derecognition of financial assets",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2047.0
+        ],
+        [
+          2284.0,
+          2047.0
+        ],
+        [
+          2284.0,
+          2083.0
+        ],
+        [
+          391.0,
+          2083.0
+        ]
+      ],
+      "text": "Financial assets are derecognised when their contractual right to future cash flow expire, or are settled, or when the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2094.0
+        ],
+        [
+          2299.0,
+          2094.0
+        ],
+        [
+          2299.0,
+          2131.0
+        ],
+        [
+          391.0,
+          2131.0
+        ]
+      ],
+      "text": "company transfers the asset and substantially all the risks and rewards of ownership to another party. If significant risks",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          2142.0
+        ],
+        [
+          2299.0,
+          2142.0
+        ],
+        [
+          2299.0,
+          2179.0
+        ],
+        [
+          388.0,
+          2179.0
+        ]
+      ],
+      "text": "and rewards of ownership are retained after the transfer to another party, then the company will continue to recognise the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          388.0,
+          2189.0
+        ],
+        [
+          1225.0,
+          2189.0
+        ],
+        [
+          1225.0,
+          2226.0
+        ],
+        [
+          388.0,
+          2226.0
+        ]
+      ],
+      "text": "value of the portion of the risks and rewards retained.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2285.0
+        ],
+        [
+          989.0,
+          2285.0
+        ],
+        [
+          989.0,
+          2321.0
+        ],
+        [
+          391.0,
+          2321.0
+        ]
+      ],
+      "text": "Derecognition of financial liabilities",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          288.0,
+          2478.0
+        ],
+        [
+          351.0,
+          2478.0
+        ],
+        [
+          351.0,
+          2507.0
+        ],
+        [
+          288.0,
+          2507.0
+        ]
+      ],
+      "text": "2.7",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2475.0
+        ],
+        [
+          539.0,
+          2475.0
+        ],
+        [
+          539.0,
+          2515.0
+        ],
+        [
+          365.0,
+          2515.0
+        ]
+      ],
+      "text": "Creditors",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2573.0
+        ],
+        [
+          2299.0,
+          2573.0
+        ],
+        [
+          2299.0,
+          2610.0
+        ],
+        [
+          391.0,
+          2610.0
+        ]
+      ],
+      "text": "Short-term creditors are measured at the transaction price. Other financial liabilities, including bank loans, are measured",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2621.0
+        ],
+        [
+          2299.0,
+          2621.0
+        ],
+        [
+          2299.0,
+          2657.0
+        ],
+        [
+          391.0,
+          2657.0
+        ]
+      ],
+      "text": "initially at fair value, net of transaction costs, and are measured subsequently at amortised cost using the effective",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          391.0,
+          2665.0
+        ],
+        [
+          646.0,
+          2665.0
+        ],
+        [
+          646.0,
+          2701.0
+        ],
+        [
+          391.0,
+          2701.0
+        ]
+      ],
+      "text": "interest method.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1165.0,
+          3378.0
+        ],
+        [
+          1293.0,
+          3369.0
+        ],
+        [
+          1297.0,
+          3420.0
+        ],
+        [
+          1169.0,
+          3429.0
+        ]
+      ],
+      "text": "Page 5",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.22967815399169922,
+  "elapsed_seconds": 15.402783459052444
+}

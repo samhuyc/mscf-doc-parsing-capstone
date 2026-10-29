@@ -1,0 +1,609 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 2480,
+    "height": 3509,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "HIPPODROME CASINO LIMITED DIRECTORS' REPORT (CONTINUED)FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "block_bbox": [
+          282,
+          343,
+          1326,
+          593
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "text",
+        "block_content": "On behalf of the boaxd ",
+        "block_bbox": [
+          288,
+          693,
+          667,
+          740
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "MrMKigg Director ",
+        "block_bbox": [
+          288,
+          881,
+          461,
+          974
+        ],
+        "block_id": 2,
+        "block_order": 3
+      },
+      {
+        "block_label": "text",
+        "block_content": "Date:12/06/2026",
+        "block_bbox": [
+          290,
+          1044,
+          845,
+          1118
+        ],
+        "block_id": 3,
+        "block_order": 4
+      },
+      {
+        "block_label": "number",
+        "block_content": "-13",
+        "block_bbox": [
+          1185,
+          3247,
+          1267,
+          3279
+        ],
+        "block_id": 4,
+        "block_order": 5
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 3,
+          "label": "number",
+          "score": 0.8648990988731384,
+          "coordinate": [
+            1185.727783203125,
+            3247.87939453125,
+            1267.823974609375,
+            3279.85693359375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.6748529672622681,
+          "coordinate": [
+            290.34832763671875,
+            1044.9697265625,
+            845.4057006835938,
+            1118.08447265625
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.5722801089286804,
+          "coordinate": [
+            284.4360656738281,
+            465.1968688964844,
+            1261.06591796875,
+            591.1771240234375
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.5016573667526245,
+          "coordinate": [
+            288.6959228515625,
+            881.4887084960938,
+            461.2081298828125,
+            974.0657348632812
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.4848213493824005,
+          "coordinate": [
+            288.37432861328125,
+            693.93310546875,
+            667.0816040039062,
+            740.2294921875
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.44402652978897095,
+          "coordinate": [
+            282.94189453125,
+            343.606689453125,
+            1326.48974609375,
+            593.4453735351562
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.3766985833644867,
+          "coordinate": [
+            285.67755126953125,
+            345.196044921875,
+            1329.12451171875,
+            398.91015625
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            290,
+            348
+          ],
+          [
+            1115,
+            343
+          ],
+          [
+            1116,
+            397
+          ],
+          [
+            291,
+            403
+          ]
+        ],
+        [
+          [
+            1128,
+            348
+          ],
+          [
+            1321,
+            354
+          ],
+          [
+            1319,
+            401
+          ],
+          [
+            1126,
+            394
+          ]
+        ],
+        [
+          [
+            291,
+            460
+          ],
+          [
+            1096,
+            466
+          ],
+          [
+            1096,
+            524
+          ],
+          [
+            290,
+            518
+          ]
+        ],
+        [
+          [
+            291,
+            543
+          ],
+          [
+            1265,
+            540
+          ],
+          [
+            1265,
+            595
+          ],
+          [
+            291,
+            598
+          ]
+        ],
+        [
+          [
+            288,
+            691
+          ],
+          [
+            664,
+            691
+          ],
+          [
+            664,
+            746
+          ],
+          [
+            288,
+            746
+          ]
+        ],
+        [
+          [
+            284,
+            874
+          ],
+          [
+            471,
+            881
+          ],
+          [
+            469,
+            941
+          ],
+          [
+            282,
+            934
+          ]
+        ],
+        [
+          [
+            287,
+            923
+          ],
+          [
+            449,
+            930
+          ],
+          [
+            447,
+            990
+          ],
+          [
+            284,
+            983
+          ]
+        ],
+        [
+          [
+            275,
+            1040
+          ],
+          [
+            716,
+            1018
+          ],
+          [
+            721,
+            1114
+          ],
+          [
+            280,
+            1136
+          ]
+        ],
+        [
+          [
+            1174,
+            3235
+          ],
+          [
+            1284,
+            3235
+          ],
+          [
+            1284,
+            3295
+          ],
+          [
+            1174,
+            3295
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "HIPPODROME CASINO LIMITED",
+        "",
+        "DIRECTORS' REPORT (CONTINUED)",
+        "FOR THE YEAR ENDED 31 DECEMBER 2025",
+        "On behalf of the boaxd",
+        "MrMKigg",
+        "Director",
+        "Date:12/06/2026",
+        "-13-"
+      ],
+      "rec_scores": [
+        0.9574440717697144,
+        0.0,
+        0.9546546936035156,
+        0.9634457230567932,
+        0.9394883513450623,
+        0.7873619794845581,
+        0.9944034814834595,
+        0.876995861530304,
+        0.9780558347702026
+      ],
+      "rec_polys": [
+        [
+          [
+            290,
+            348
+          ],
+          [
+            1115,
+            343
+          ],
+          [
+            1116,
+            397
+          ],
+          [
+            291,
+            403
+          ]
+        ],
+        [
+          [
+            1128,
+            348
+          ],
+          [
+            1321,
+            354
+          ],
+          [
+            1319,
+            401
+          ],
+          [
+            1126,
+            394
+          ]
+        ],
+        [
+          [
+            291,
+            460
+          ],
+          [
+            1096,
+            466
+          ],
+          [
+            1096,
+            524
+          ],
+          [
+            290,
+            518
+          ]
+        ],
+        [
+          [
+            291,
+            543
+          ],
+          [
+            1265,
+            540
+          ],
+          [
+            1265,
+            595
+          ],
+          [
+            291,
+            598
+          ]
+        ],
+        [
+          [
+            288,
+            691
+          ],
+          [
+            664,
+            691
+          ],
+          [
+            664,
+            746
+          ],
+          [
+            288,
+            746
+          ]
+        ],
+        [
+          [
+            284,
+            874
+          ],
+          [
+            471,
+            881
+          ],
+          [
+            469,
+            941
+          ],
+          [
+            282,
+            934
+          ]
+        ],
+        [
+          [
+            287,
+            923
+          ],
+          [
+            449,
+            930
+          ],
+          [
+            447,
+            990
+          ],
+          [
+            284,
+            983
+          ]
+        ],
+        [
+          [
+            275,
+            1040
+          ],
+          [
+            716,
+            1018
+          ],
+          [
+            721,
+            1114
+          ],
+          [
+            280,
+            1136
+          ]
+        ],
+        [
+          [
+            1174,
+            3235
+          ],
+          [
+            1284,
+            3235
+          ],
+          [
+            1284,
+            3295
+          ],
+          [
+            1174,
+            3295
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          290,
+          343,
+          1116,
+          403
+        ],
+        [
+          1126,
+          348,
+          1321,
+          401
+        ],
+        [
+          290,
+          460,
+          1096,
+          524
+        ],
+        [
+          291,
+          540,
+          1265,
+          598
+        ],
+        [
+          288,
+          691,
+          664,
+          746
+        ],
+        [
+          282,
+          874,
+          471,
+          941
+        ],
+        [
+          284,
+          923,
+          449,
+          990
+        ],
+        [
+          275,
+          1018,
+          721,
+          1136
+        ],
+        [
+          1174,
+          3235,
+          1284,
+          3295
+        ]
+      ]
+    }
+  }
+}

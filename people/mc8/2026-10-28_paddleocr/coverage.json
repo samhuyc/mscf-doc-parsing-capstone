@@ -1,0 +1,20 @@
+{
+  "documents": 6,
+  "source_pages": 140,
+  "annotated_pages": 18,
+  "labels": 54,
+  "kinds": {
+    "table": 11,
+    "text": 8,
+    "footnote": 5,
+    "reading_order": 7,
+    "metadata": 18,
+    "visual_fact": 5
+  },
+  "review_status": {
+    "draft": 54
+  },
+  "table_facts": 133,
+  "hosted_model_calls": 0,
+  "parser_reruns": 0
+}

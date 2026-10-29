@@ -1,0 +1,6 @@
+pymupdf4llm==1.28.2
+pymupdf-layout==1.28.2
+pymupdf==1.28.2
+beautifulsoup4==4.15.0
+markdown-it-py==4.0.0
+rapidfuzz==3.14.3

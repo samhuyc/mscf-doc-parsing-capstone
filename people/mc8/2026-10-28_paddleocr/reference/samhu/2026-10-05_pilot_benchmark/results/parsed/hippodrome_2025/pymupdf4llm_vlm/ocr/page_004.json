@@ -1,0 +1,1354 @@
+{
+  "status": "success",
+  "image_sha256": "50d1fd71afc3929e68c1acbdb593f1a89206a3ee791c41ba4f0db6b5d65522bc",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          266.0,
+          289.0
+        ],
+        [
+          1122.0,
+          289.0
+        ],
+        [
+          1122.0,
+          336.0
+        ],
+        [
+          266.0,
+          336.0
+        ]
+      ],
+      "text": "HIPPODROME CASINO LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          266.0,
+          413.0
+        ],
+        [
+          1085.0,
+          413.0
+        ],
+        [
+          1085.0,
+          461.0
+        ],
+        [
+          266.0,
+          461.0
+        ]
+      ],
+      "text": "STRATEGIC REPORT (CONTINUED)",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          493.0
+        ],
+        [
+          1284.0,
+          493.0
+        ],
+        [
+          1284.0,
+          541.0
+        ],
+        [
+          262.0,
+          541.0
+        ]
+      ],
+      "text": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          647.0
+        ],
+        [
+          365.0,
+          647.0
+        ],
+        [
+          365.0,
+          702.0
+        ],
+        [
+          258.0,
+          702.0
+        ]
+      ],
+      "text": "2014",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          654.0
+        ],
+        [
+          2214.0,
+          654.0
+        ],
+        [
+          2214.0,
+          702.0
+        ],
+        [
+          598.0,
+          702.0
+        ]
+      ],
+      "text": "Pop star ‘Prince’ performs at the Hippodrome in what was, tragically, to be his final ever London",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          609.0,
+          702.0
+        ],
+        [
+          830.0,
+          702.0
+        ],
+        [
+          830.0,
+          738.0
+        ],
+        [
+          609.0,
+          738.0
+        ]
+      ],
+      "text": "performance.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          746.0
+        ],
+        [
+          2207.0,
+          746.0
+        ],
+        [
+          2207.0,
+          782.0
+        ],
+        [
+          605.0,
+          782.0
+        ]
+      ],
+      "text": "Tennis legend Rafael Nadal played a charity poker match against Brazilian footballer Ronaldo",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          601.0,
+          782.0
+        ],
+        [
+          2218.0,
+          779.0
+        ],
+        [
+          2218.0,
+          826.0
+        ],
+        [
+          602.0,
+          830.0
+        ]
+      ],
+      "text": "raising \\$50,000 for The Rafa Nadal Foundation. As a forfeit for losing, the former Real Madrid",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          609.0,
+          833.0
+        ],
+        [
+          2148.0,
+          833.0
+        ],
+        [
+          2148.0,
+          870.0
+        ],
+        [
+          609.0,
+          870.0
+        ]
+      ],
+      "text": "star is forced to don a pair of marigolds and do the washing up in the Hippodrome's kitchen.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          906.0
+        ],
+        [
+          365.0,
+          906.0
+        ],
+        [
+          365.0,
+          961.0
+        ],
+        [
+          262.0,
+          961.0
+        ]
+      ],
+      "text": "2015",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          910.0
+        ],
+        [
+          2218.0,
+          914.0
+        ],
+        [
+          2218.0,
+          961.0
+        ],
+        [
+          594.0,
+          958.0
+        ]
+      ],
+      "text": "Purchased the Crystal Rooms Adult Gaming Centre, located on the building's frontage on",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          609.0,
+          961.0
+        ],
+        [
+          2214.0,
+          961.0
+        ],
+        [
+          2214.0,
+          998.0
+        ],
+        [
+          609.0,
+          998.0
+        ]
+      ],
+      "text": "Cranbourn Street, but owned separately. This allowed the integration of the space into the main",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          1002.0
+        ],
+        [
+          937.0,
+          1002.0
+        ],
+        [
+          937.0,
+          1038.0
+        ],
+        [
+          605.0,
+          1038.0
+        ]
+      ],
+      "text": "Hippodrome venue.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1089.0
+        ],
+        [
+          365.0,
+          1089.0
+        ],
+        [
+          365.0,
+          1144.0
+        ],
+        [
+          262.0,
+          1144.0
+        ]
+      ],
+      "text": "2016",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1093.0
+        ],
+        [
+          2218.0,
+          1093.0
+        ],
+        [
+          2218.0,
+          1140.0
+        ],
+        [
+          602.0,
+          1140.0
+        ]
+      ],
+      "text": "Comedy legend Micky Flanagan performs his raft of trial material in a series of 20 sell-out",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1133.0
+        ],
+        [
+          1155.0,
+          1133.0
+        ],
+        [
+          1155.0,
+          1181.0
+        ],
+        [
+          598.0,
+          1181.0
+        ]
+      ],
+      "text": "shows called 'Work In Progress'.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1224.0
+        ],
+        [
+          365.0,
+          1224.0
+        ],
+        [
+          365.0,
+          1279.0
+        ],
+        [
+          258.0,
+          1279.0
+        ]
+      ],
+      "text": "2017",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1232.0
+        ],
+        [
+          2214.0,
+          1232.0
+        ],
+        [
+          2214.0,
+          1279.0
+        ],
+        [
+          598.0,
+          1279.0
+        ]
+      ],
+      "text": "Michael Ball's fans are the most loyal we've experienced. Queues outside the then-cabaret",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1279.0
+        ],
+        [
+          1425.0,
+          1279.0
+        ],
+        [
+          1425.0,
+          1316.0
+        ],
+        [
+          602.0,
+          1316.0
+        ]
+      ],
+      "text": "theatre form six hours ahead of his performance.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1319.0
+        ],
+        [
+          2218.0,
+          1323.0
+        ],
+        [
+          2218.0,
+          1371.0
+        ],
+        [
+          598.0,
+          1367.0
+        ]
+      ],
+      "text": "The Daily Telegraph reports: \"Since the Brexit vote last summer, Simon Thomas's numbers",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          1371.0
+        ],
+        [
+          2218.0,
+          1371.0
+        ],
+        [
+          2218.0,
+          1407.0
+        ],
+        [
+          605.0,
+          1407.0
+        ]
+      ],
+      "text": "keep coming up. At the roulette wheels and blackjack tables of his Hippodrome Casino in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          609.0,
+          1415.0
+        ],
+        [
+          1860.0,
+          1415.0
+        ],
+        [
+          1860.0,
+          1451.0
+        ],
+        [
+          609.0,
+          1451.0
+        ]
+      ],
+      "text": "Leicester Square, London, dollar and euro income has increased by 20pc.'",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1462.0
+        ],
+        [
+          2211.0,
+          1462.0
+        ],
+        [
+          2211.0,
+          1499.0
+        ],
+        [
+          602.0,
+          1499.0
+        ]
+      ],
+      "text": "Organised by the European Casino Association (ECA) we host the 2017 European Dealer",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1499.0
+        ],
+        [
+          2211.0,
+          1499.0
+        ],
+        [
+          2211.0,
+          1546.0
+        ],
+        [
+          598.0,
+          1546.0
+        ]
+      ],
+      "text": "Championship, the first time in London in the competition's history. Thirty-one judges from 20",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          601.0,
+          1546.0
+        ],
+        [
+          1089.0,
+          1542.0
+        ],
+        [
+          1089.0,
+          1583.0
+        ],
+        [
+          602.0,
+          1586.0
+        ]
+      ],
+      "text": "countries oversee the event.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1630.0
+        ],
+        [
+          365.0,
+          1630.0
+        ],
+        [
+          365.0,
+          1685.0
+        ],
+        [
+          258.0,
+          1685.0
+        ]
+      ],
+      "text": "2018",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1641.0
+        ],
+        [
+          2211.0,
+          1641.0
+        ],
+        [
+          2211.0,
+          1678.0
+        ],
+        [
+          602.0,
+          1678.0
+        ]
+      ],
+      "text": "On the live final of ITV's Britain's Got Talent, Channing Tatum announces the Hippodrome will",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1678.0
+        ],
+        [
+          2218.0,
+          1678.0
+        ],
+        [
+          2218.0,
+          1725.0
+        ],
+        [
+          602.0,
+          1725.0
+        ]
+      ],
+      "text": "host Magic Mike Live. His announcement 'breaks' TicketMaster, puts Twitter into meltdown and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          1722.0
+        ],
+        [
+          1746.0,
+          1722.0
+        ],
+        [
+          1746.0,
+          1769.0
+        ],
+        [
+          602.0,
+          1769.0
+        ]
+      ],
+      "text": "trends No. 9 globally. The show opens in November the same year.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1809.0
+        ],
+        [
+          365.0,
+          1809.0
+        ],
+        [
+          365.0,
+          1864.0
+        ],
+        [
+          258.0,
+          1864.0
+        ]
+      ],
+      "text": "2020",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1817.0
+        ],
+        [
+          2214.0,
+          1817.0
+        ],
+        [
+          2214.0,
+          1864.0
+        ],
+        [
+          598.0,
+          1864.0
+        ]
+      ],
+      "text": "During lockdown, we took the opportunity to add an extra floor to our terrace to create an iconic",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          1864.0
+        ],
+        [
+          801.0,
+          1864.0
+        ],
+        [
+          801.0,
+          1901.0
+        ],
+        [
+          605.0,
+          1901.0
+        ]
+      ],
+      "text": "rooftop bar.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1952.0
+        ],
+        [
+          358.0,
+          1952.0
+        ],
+        [
+          358.0,
+          1996.0
+        ],
+        [
+          262.0,
+          1996.0
+        ]
+      ],
+      "text": "2021",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          1948.0
+        ],
+        [
+          2211.0,
+          1948.0
+        ],
+        [
+          2211.0,
+          1996.0
+        ],
+        [
+          598.0,
+          1996.0
+        ]
+      ],
+      "text": "Simon Thomas declares the Hippodrome open post-Covid on May 17, with a pledge never to",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          2003.0
+        ],
+        [
+          2211.0,
+          2003.0
+        ],
+        [
+          2211.0,
+          2040.0
+        ],
+        [
+          605.0,
+          2040.0
+        ]
+      ],
+      "text": "shut the doors again. Customers entering at midnight are the first to experience the new three",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2040.0
+        ],
+        [
+          1384.0,
+          2043.0
+        ],
+        [
+          1384.0,
+          2087.0
+        ],
+        [
+          598.0,
+          2083.0
+        ]
+      ],
+      "text": "tier outdoor terrace, built during the lockdown.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          2083.0
+        ],
+        [
+          2218.0,
+          2087.0
+        ],
+        [
+          2218.0,
+          2135.0
+        ],
+        [
+          594.0,
+          2131.0
+        ]
+      ],
+      "text": "We launch our expanded poker facilities covering an entire third floor with 17 tables, London's",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2131.0
+        ],
+        [
+          1288.0,
+          2131.0
+        ],
+        [
+          1288.0,
+          2179.0
+        ],
+        [
+          602.0,
+          2179.0
+        ]
+      ],
+      "text": "largest and by far (still) its most popular.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2171.0
+        ],
+        [
+          2218.0,
+          2175.0
+        ],
+        [
+          2218.0,
+          2226.0
+        ],
+        [
+          598.0,
+          2222.0
+        ]
+      ],
+      "text": "Hailed as the \"best party of the year\" we host British grime MC, rapper, record producer and DJ",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          2226.0
+        ],
+        [
+          1270.0,
+          2226.0
+        ],
+        [
+          1270.0,
+          2263.0
+        ],
+        [
+          605.0,
+          2263.0
+        ]
+      ],
+      "text": "Skepta's launch for his latest EP 'All In'.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2314.0
+        ],
+        [
+          365.0,
+          2314.0
+        ],
+        [
+          365.0,
+          2361.0
+        ],
+        [
+          262.0,
+          2361.0
+        ]
+      ],
+      "text": "2022",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2321.0
+        ],
+        [
+          2211.0,
+          2321.0
+        ],
+        [
+          2211.0,
+          2358.0
+        ],
+        [
+          598.0,
+          2358.0
+        ]
+      ],
+      "text": "We publish a book, 'The Hippodrome: An Entertainment of Unexampled Brilliance', by",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2365.0
+        ],
+        [
+          2214.0,
+          2365.0
+        ],
+        [
+          2214.0,
+          2401.0
+        ],
+        [
+          602.0,
+          2401.0
+        ]
+      ],
+      "text": "renowned author Luci Gosling, which critics agree is a definitive history of the building and the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2401.0
+        ],
+        [
+          1989.0,
+          2401.0
+        ],
+        [
+          1989.0,
+          2449.0
+        ],
+        [
+          598.0,
+          2449.0
+        ]
+      ],
+      "text": "hundreds of performers who have entertained London here since opening in 1900.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2445.0
+        ],
+        [
+          2214.0,
+          2449.0
+        ],
+        [
+          2214.0,
+          2497.0
+        ],
+        [
+          598.0,
+          2493.0
+        ]
+      ],
+      "text": "Chop Chop by Four Seasons opens on our lower ground floor to wide acclaim. Reviewer Jay",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          602.0,
+          2489.0
+        ],
+        [
+          2214.0,
+          2493.0
+        ],
+        [
+          2214.0,
+          2540.0
+        ],
+        [
+          601.0,
+          2537.0
+        ]
+      ],
+      "text": "Rayner for the Guardian was an unequivocal fan: \"For great Chinese food at any time in central",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2533.0
+        ],
+        [
+          2214.0,
+          2537.0
+        ],
+        [
+          2214.0,
+          2584.0
+        ],
+        [
+          598.0,
+          2581.0
+        ]
+      ],
+      "text": "London, Chop Chop is an absolute winner\". Chop Chop currently sits securely within the top 20",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          605.0,
+          2584.0
+        ],
+        [
+          1709.0,
+          2584.0
+        ],
+        [
+          1709.0,
+          2621.0
+        ],
+        [
+          605.0,
+          2621.0
+        ]
+      ],
+      "text": "best London restaurants on Trip Advisor, out of more than 15,000.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2672.0
+        ],
+        [
+          365.0,
+          2672.0
+        ],
+        [
+          365.0,
+          2719.0
+        ],
+        [
+          262.0,
+          2719.0
+        ]
+      ],
+      "text": "2023",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          591.0,
+          2668.0
+        ],
+        [
+          2214.0,
+          2676.0
+        ],
+        [
+          2214.0,
+          2723.0
+        ],
+        [
+          590.0,
+          2716.0
+        ]
+      ],
+      "text": "We welcome back Dame Shirley Bassey for a birthday dinner. She performed here in its glory",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2716.0
+        ],
+        [
+          2214.0,
+          2716.0
+        ],
+        [
+          2214.0,
+          2763.0
+        ],
+        [
+          598.0,
+          2763.0
+        ]
+      ],
+      "text": "days of Talk of the Town. Press headlines follow with speculation that one day she may perform",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2760.0
+        ],
+        [
+          1074.0,
+          2760.0
+        ],
+        [
+          1074.0,
+          2796.0
+        ],
+        [
+          598.0,
+          2796.0
+        ]
+      ],
+      "text": "here one more time. If only.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          2800.0
+        ],
+        [
+          2214.0,
+          2804.0
+        ],
+        [
+          2214.0,
+          2855.0
+        ],
+        [
+          594.0,
+          2851.0
+        ]
+      ],
+      "text": "Max Halley and his 'Max's Sandwich Shop', joins forces with the Hippodrome and adds his",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2855.0
+        ],
+        [
+          1343.0,
+          2855.0
+        ],
+        [
+          1343.0,
+          2891.0
+        ],
+        [
+          598.0,
+          2891.0
+        ]
+      ],
+      "text": "legendary sandwiches to our 24-hour menu.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2939.0
+        ],
+        [
+          358.0,
+          2939.0
+        ],
+        [
+          358.0,
+          2983.0
+        ],
+        [
+          262.0,
+          2983.0
+        ]
+      ],
+      "text": "2024",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          2939.0
+        ],
+        [
+          2214.0,
+          2939.0
+        ],
+        [
+          2214.0,
+          2986.0
+        ],
+        [
+          594.0,
+          2986.0
+        ]
+      ],
+      "text": "The Heliot Steakhouse is remodelled to include an elegant and expanded mid-tier restaurant",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          2986.0
+        ],
+        [
+          701.0,
+          2986.0
+        ],
+        [
+          701.0,
+          3034.0
+        ],
+        [
+          598.0,
+          3034.0
+        ]
+      ],
+      "text": "deck.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          594.0,
+          3030.0
+        ],
+        [
+          2211.0,
+          3030.0
+        ],
+        [
+          2211.0,
+          3078.0
+        ],
+        [
+          594.0,
+          3078.0
+        ]
+      ],
+      "text": "Archive and Myth, our new cocktail bar, launches and lands within the top 50 cocktail bars in",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          598.0,
+          3074.0
+        ],
+        [
+          1214.0,
+          3074.0
+        ],
+        [
+          1214.0,
+          3122.0
+        ],
+        [
+          598.0,
+          3122.0
+        ]
+      ],
+      "text": "the UK in its first year of operations.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          591.0,
+          3118.0
+        ],
+        [
+          2052.0,
+          3122.0
+        ],
+        [
+          2052.0,
+          3173.0
+        ],
+        [
+          590.0,
+          3169.0
+        ]
+      ],
+      "text": "We threw a party for our Stakeholders to mark the 12-year anniversary of our opening.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1207.0,
+          3319.0
+        ],
+        [
+          1277.0,
+          3319.0
+        ],
+        [
+          1277.0,
+          3359.0
+        ],
+        [
+          1207.0,
+          3359.0
+        ]
+      ],
+      "text": "-2 -",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.24741697311401367,
+  "elapsed_seconds": 29.54745745798573
+}

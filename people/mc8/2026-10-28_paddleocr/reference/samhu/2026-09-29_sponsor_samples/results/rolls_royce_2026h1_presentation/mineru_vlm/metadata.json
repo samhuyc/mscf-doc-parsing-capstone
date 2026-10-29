@@ -1,0 +1,575 @@
+{
+  "source": {
+    "id": "rolls_royce_2026h1_presentation",
+    "title": "Rolls-Royce Holdings plc 2026 Half Year Results Presentation",
+    "url": "https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-presentation.pdf",
+    "status": "success",
+    "pages": 19,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Rolls-Royce Holdings plc - 2026 Half Year Results Presentation",
+      "author": "",
+      "subject": "",
+      "keywords": "|1:Pvt|5:NonExpCont|6:NonGov|2:Rolls-Royce|22:No|",
+      "creator": "Microsoft® PowerPoint® for Microsoft 365",
+      "producer": "Microsoft® PowerPoint® for Microsoft 365",
+      "creationDate": "D:20260730164357+01'00'",
+      "modDate": "D:20260730173522+01'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "outline": [
+      [
+        1,
+        "Title Templates",
+        1
+      ],
+      [
+        2,
+        "Slide 1",
+        1
+      ],
+      [
+        1,
+        "Safe Harbour Statement",
+        2
+      ],
+      [
+        2,
+        "Slide 2: Safe harbour statement",
+        2
+      ],
+      [
+        1,
+        "Tufan's Introduction content",
+        3
+      ],
+      [
+        2,
+        "Slide 3: TUFAN ERGINBILGIC",
+        3
+      ],
+      [
+        2,
+        "Slide 4: strong first half delivery; FY26 guidance raised",
+        4
+      ],
+      [
+        2,
+        "Slide 5",
+        5
+      ],
+      [
+        2,
+        "Slide 6: CONTINUED strategic progress",
+        6
+      ],
+      [
+        2,
+        "Slide 7: CONTINUED strategic PROGRESS",
+        7
+      ],
+      [
+        1,
+        "Helen's content",
+        8
+      ],
+      [
+        2,
+        "Slide 8: HELEN McCABE",
+        8
+      ],
+      [
+        2,
+        "Slide 9: 2026 half Year underlying results",
+        9
+      ],
+      [
+        2,
+        "Slide 10: CIVIL AEROSPACE",
+        10
+      ],
+      [
+        2,
+        "Slide 11: DEFENCE",
+        11
+      ],
+      [
+        2,
+        "Slide 12: POWER SYSTEMS",
+        12
+      ],
+      [
+        2,
+        "Slide 13: SUMMARY FUNDS FLOW",
+        13
+      ],
+      [
+        2,
+        "Slide 14: CAPITAL FRAMEWORK",
+        14
+      ],
+      [
+        1,
+        "Tufan's end content",
+        15
+      ],
+      [
+        2,
+        "Slide 15: TUFAN ERGINBILGIC",
+        15
+      ],
+      [
+        2,
+        "Slide 16: Full year 2026 guidance raised",
+        16
+      ],
+      [
+        2,
+        "Slide 17: Achieving the Rolls-Royce proposition",
+        17
+      ],
+      [
+        1,
+        "End slides",
+        18
+      ],
+      [
+        2,
+        "Slide 18",
+        18
+      ],
+      [
+        2,
+        "Slide 19",
+        19
+      ]
+    ],
+    "native_text_chars": [
+      260,
+      1489,
+      94,
+      533,
+      440,
+      655,
+      1483,
+      89,
+      1142,
+      822,
+      696,
+      757,
+      970,
+      655,
+      94,
+      563,
+      607,
+      78,
+      285
+    ],
+    "sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+    "bytes": 3357653,
+    "checked_at_utc": "2026-09-29T23:54:05.420512+00:00"
+  },
+  "parser": "mineru_vlm",
+  "source_outline": [
+    [
+      1,
+      "Title Templates",
+      1
+    ],
+    [
+      2,
+      "Slide 1",
+      1
+    ],
+    [
+      1,
+      "Safe Harbour Statement",
+      2
+    ],
+    [
+      2,
+      "Slide 2: Safe harbour statement",
+      2
+    ],
+    [
+      1,
+      "Tufan's Introduction content",
+      3
+    ],
+    [
+      2,
+      "Slide 3: TUFAN ERGINBILGIC",
+      3
+    ],
+    [
+      2,
+      "Slide 4: strong first half delivery; FY26 guidance raised",
+      4
+    ],
+    [
+      2,
+      "Slide 5",
+      5
+    ],
+    [
+      2,
+      "Slide 6: CONTINUED strategic progress",
+      6
+    ],
+    [
+      2,
+      "Slide 7: CONTINUED strategic PROGRESS",
+      7
+    ],
+    [
+      1,
+      "Helen's content",
+      8
+    ],
+    [
+      2,
+      "Slide 8: HELEN McCABE",
+      8
+    ],
+    [
+      2,
+      "Slide 9: 2026 half Year underlying results",
+      9
+    ],
+    [
+      2,
+      "Slide 10: CIVIL AEROSPACE",
+      10
+    ],
+    [
+      2,
+      "Slide 11: DEFENCE",
+      11
+    ],
+    [
+      2,
+      "Slide 12: POWER SYSTEMS",
+      12
+    ],
+    [
+      2,
+      "Slide 13: SUMMARY FUNDS FLOW",
+      13
+    ],
+    [
+      2,
+      "Slide 14: CAPITAL FRAMEWORK",
+      14
+    ],
+    [
+      1,
+      "Tufan's end content",
+      15
+    ],
+    [
+      2,
+      "Slide 15: TUFAN ERGINBILGIC",
+      15
+    ],
+    [
+      2,
+      "Slide 16: Full year 2026 guidance raised",
+      16
+    ],
+    [
+      2,
+      "Slide 17: Achieving the Rolls-Royce proposition",
+      17
+    ],
+    [
+      1,
+      "End slides",
+      18
+    ],
+    [
+      2,
+      "Slide 18",
+      18
+    ],
+    [
+      2,
+      "Slide 19",
+      19
+    ]
+  ],
+  "generated_heading_index": [
+    {
+      "page": 1,
+      "level": 1,
+      "title": "HALF YEAR RESULTS 2026",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 2,
+      "level": 1,
+      "title": "SAFE HARBOUR STATEMENT",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 1,
+      "title": "01",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 1,
+      "title": "TUFAN ERGINBILGIC",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 3,
+      "level": 1,
+      "title": "Chief Executive Officer",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 4,
+      "level": 1,
+      "title": "STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 1,
+      "title": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 1,
+      "title": "KEY GROUP FINANCIAL METRICS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 5,
+      "level": 1,
+      "title": "DIVISIONAL OPERATING MARGIN¹",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 6,
+      "level": 1,
+      "title": "CONTINUED STRATEGIC PROGRESS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 1,
+      "title": "CONTINUED STRATEGIC PROGRESS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 1,
+      "title": "1. Portfolio choices & partnerships",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 1,
+      "title": "2. Strategic initiatives",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 1,
+      "title": "3. Efficiency & simplification",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 7,
+      "level": 1,
+      "title": "4. Lower carbon & digitally enabled businesses",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 1,
+      "title": "02",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 1,
+      "title": "HELEN McCABE",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 8,
+      "level": 1,
+      "title": "Chief Financial Officer",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 9,
+      "level": 1,
+      "title": "2026 HALF YEAR UNDERLYING RESULTS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 1,
+      "title": "CIVIL AEROSPACE",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 10,
+      "level": 1,
+      "title": "KEY POINTS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "KEY POINTS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "ORDER INTAKE",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "£2.4bn",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "Book-to-bill ratio 1.0x",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "ORDER BACKLOG",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 11,
+      "level": 1,
+      "title": "£17.5bn",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "POWER SYSTEMS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "KEY POINTS",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "ORDER INTAKE",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "£4.6bn",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "Book-to-bill ratio 1.8x",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "ORDER BACKLOG",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "£8.0bn",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 12,
+      "level": 1,
+      "title": "+42%",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 1,
+      "title": "SUMMARY FUNDS FLOW",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 13,
+      "level": 1,
+      "title": "KEY DRIVERS OF HIGHER YEAR ON YEAR FCF",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 14,
+      "level": 1,
+      "title": "CAPITAL FRAMEWORK",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 15,
+      "level": 1,
+      "title": "03",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 15,
+      "level": 1,
+      "title": "TUFAN ERGINBILGIC",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 15,
+      "level": 1,
+      "title": "Chief Executive Officer",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 16,
+      "level": 1,
+      "title": "FULL YEAR 2026 GUIDANCE RAISED",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 1,
+      "title": "ACHIEVING THE ROLLS-ROYCE PROPOSITION",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 17,
+      "level": 1,
+      "title": "OUR TRANSFORMATION",
+      "origin": "parser_heading"
+    },
+    {
+      "page": 18,
+      "level": 1,
+      "title": "Q&A",
+      "origin": "parser_heading"
+    }
+  ],
+  "confidence": null,
+  "confidence_note": "No calibrated document confidence is available. Native scores are not comparable across parsers."
+}

@@ -1,0 +1,169 @@
+{
+  "audit": {
+    "page": 3,
+    "image_width": 2480,
+    "image_height": 3509,
+    "render_dpi": 300,
+    "image_pixels_sha256": "fc6386720ba5feda436dab8b6d1c15323813017c1abb819771f75ca26a14fff4",
+    "raw_prediction": "raw/page_003.json",
+    "raw_sha256": "8215c58978eb9935e8ea03c63abddda1f6910cff0851d4e5aa6ed9fc4fb35c98",
+    "blocks": 12,
+    "tables": 0,
+    "elapsed_seconds": 45.953
+  },
+  "chunk": {
+    "text": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662\n\n## BALANCE SHEET (CONTINUED)AS AT 31 MARCH 2025\n\nThe directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.\n\n\n\nThe directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to accounting records and the preparation of financial statements.\n\n\n\nThe financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.\n\nThe financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.\n\n\n\nThe company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies'regime.\n\n\n\nThe financial statements were approved and authorised for issue by the board and were signed on its behalf by:\n\nMr Ajay Marjara Director \n\nDate: 19 December 2025\n\nThe notes on pages 3 to 10 form part of these financial statements.\n\nPage 2",
+    "native": {
+      "page_index": 2,
+      "raw_prediction": "raw/page_003.json",
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662",
+          "block_bbox": [
+            176,
+            198,
+            746,
+            280
+          ],
+          "block_id": 0,
+          "block_order": 1
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "BALANCE SHEET (CONTINUED)AS AT 31 MARCH 2025",
+          "block_bbox": [
+            176,
+            361,
+            726,
+            447
+          ],
+          "block_id": 1,
+          "block_order": 2
+        },
+        {
+          "block_label": "text",
+          "block_content": "The directors consider that the company is entitled to exemption from audit under section 477 of the Companies Act 2006 and members have not required the company to obtain an audit for the year in question in accordance with section 476 of the Companies Act 2006.\n",
+          "block_bbox": [
+            171,
+            594,
+            2295,
+            721
+          ],
+          "block_id": 2,
+          "block_order": 3
+        },
+        {
+          "block_label": "text",
+          "block_content": "The directors acknowledge their responsibilities for complying with the requirements of the Companies Act 20o6 with respect to accounting records and the preparation of financial statements.\n",
+          "block_bbox": [
+            172,
+            782,
+            2294,
+            866
+          ],
+          "block_id": 3,
+          "block_order": 4
+        },
+        {
+          "block_label": "text",
+          "block_content": "The financial statements have been prepared in accordance with the provisions applicable to companies subject to the small companies regime and in accordance with the provisions of FRS 102 Section 1A - small entities.",
+          "block_bbox": [
+            173,
+            924,
+            2296,
+            1008
+          ],
+          "block_id": 4,
+          "block_order": 5
+        },
+        {
+          "block_label": "text",
+          "block_content": "The financial statements have been delivered in accordance with the provisions applicable to companies subject to the small companies regime.\n",
+          "block_bbox": [
+            173,
+            1066,
+            2294,
+            1149
+          ],
+          "block_id": 5,
+          "block_order": 6
+        },
+        {
+          "block_label": "text",
+          "block_content": "The company has opted not to file the statement of comprehensive income in accordance with provisions applicable to companies subject to the small companies'regime.\n",
+          "block_bbox": [
+            172,
+            1207,
+            2294,
+            1290
+          ],
+          "block_id": 6,
+          "block_order": 7
+        },
+        {
+          "block_label": "text",
+          "block_content": "The financial statements were approved and authorised for issue by the board and were signed on its behalf by:",
+          "block_bbox": [
+            176,
+            1350,
+            1930,
+            1386
+          ],
+          "block_id": 7,
+          "block_order": 8
+        },
+        {
+          "block_label": "text",
+          "block_content": "Mr Ajay Marjara Director ",
+          "block_bbox": [
+            175,
+            1622,
+            448,
+            1704
+          ],
+          "block_id": 8,
+          "block_order": 9
+        },
+        {
+          "block_label": "text",
+          "block_content": "Date: 19 December 2025",
+          "block_bbox": [
+            176,
+            1764,
+            578,
+            1798
+          ],
+          "block_id": 9,
+          "block_order": 10
+        },
+        {
+          "block_label": "text",
+          "block_content": "The notes on pages 3 to 10 form part of these financial statements.",
+          "block_bbox": [
+            176,
+            1861,
+            1228,
+            1895
+          ],
+          "block_id": 10,
+          "block_order": 11
+        },
+        {
+          "block_label": "number",
+          "block_content": "Page 2",
+          "block_bbox": [
+            1174,
+            3379,
+            1286,
+            3412
+          ],
+          "block_id": 11,
+          "block_order": 12
+        }
+      ]
+    }
+  },
+  "raw_markdown_sha256": "23a852383728aedfeca70788a75428f6b8fd6435789e774d2f75f3222fb14dde",
+  "provenance": "selected_page_worker"
+}

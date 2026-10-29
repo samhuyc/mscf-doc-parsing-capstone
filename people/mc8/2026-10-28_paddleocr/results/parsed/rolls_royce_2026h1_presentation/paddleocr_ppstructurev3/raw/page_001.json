@@ -1,0 +1,586 @@
+{
+  "res": {
+    "input_path": null,
+    "page_index": null,
+    "page_count": null,
+    "width": 4000,
+    "height": 2250,
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_seal_recognition": false,
+      "use_table_recognition": true,
+      "use_formula_recognition": false,
+      "use_chart_recognition": false,
+      "use_region_detection": true,
+      "format_block_content": false,
+      "markdown_ignore_labels": []
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "ＲＯＬＬＳR ROYＣE ",
+        "block_bbox": [
+          226,
+          161,
+          500,
+          629
+        ],
+        "block_id": 0,
+        "block_order": 1
+      },
+      {
+        "block_label": "doc_title",
+        "block_content": "HALF YEAR RESULTS 2026",
+        "block_bbox": [
+          193,
+          858,
+          1850,
+          1274
+        ],
+        "block_id": 1,
+        "block_order": 2
+      },
+      {
+        "block_label": "text",
+        "block_content": "The information in this document is proprietary and confidential to Rolls-Royce and is available to authorised recipients only – copying and onward distribution is prohibited other than for the purpose for which it was made available.\n",
+        "block_bbox": [
+          202,
+          2003,
+          2023,
+          2134
+        ],
+        "block_id": 2,
+        "block_order": 3
+      }
+    ],
+    "doc_preprocessor_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false
+      },
+      "angle": -1
+    },
+    "layout_det_res": {
+      "input_path": null,
+      "page_index": null,
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "text",
+          "score": 0.7852163910865784,
+          "coordinate": [
+            202.9781494140625,
+            2003.572021484375,
+            2023.3096923828125,
+            2134.031494140625
+          ]
+        },
+        {
+          "cls_id": 0,
+          "label": "paragraph_title",
+          "score": 0.67942214012146,
+          "coordinate": [
+            193.14599609375,
+            858.5606689453125,
+            1850.9068603515625,
+            1274.7635498046875
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.6731783747673035,
+          "coordinate": [
+            226.1111602783203,
+            161.14959716796875,
+            500.56793212890625,
+            629.6170043945312
+          ]
+        }
+      ]
+    },
+    "overall_ocr_res": {
+      "input_path": null,
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            238,
+            166
+          ],
+          [
+            484,
+            166
+          ],
+          [
+            484,
+            233
+          ],
+          [
+            238,
+            233
+          ]
+        ],
+        [
+          [
+            225,
+            243
+          ],
+          [
+            500,
+            243
+          ],
+          [
+            500,
+            559
+          ],
+          [
+            225,
+            559
+          ]
+        ],
+        [
+          [
+            234,
+            559
+          ],
+          [
+            491,
+            559
+          ],
+          [
+            491,
+            626
+          ],
+          [
+            234,
+            626
+          ]
+        ],
+        [
+          [
+            823,
+            756
+          ],
+          [
+            1295,
+            423
+          ],
+          [
+            1341,
+            491
+          ],
+          [
+            869,
+            824
+          ]
+        ],
+        [
+          [
+            1059,
+            831
+          ],
+          [
+            1875,
+            831
+          ],
+          [
+            1875,
+            1269
+          ],
+          [
+            1059,
+            1269
+          ]
+        ],
+        [
+          [
+            197,
+            866
+          ],
+          [
+            1047,
+            866
+          ],
+          [
+            1047,
+            1045
+          ],
+          [
+            197,
+            1045
+          ]
+        ],
+        [
+          [
+            200,
+            1071
+          ],
+          [
+            1047,
+            1071
+          ],
+          [
+            1047,
+            1237
+          ],
+          [
+            200,
+            1237
+          ]
+        ],
+        [
+          [
+            216,
+            2004
+          ],
+          [
+            1894,
+            2004
+          ],
+          [
+            1894,
+            2049
+          ],
+          [
+            216,
+            2049
+          ]
+        ],
+        [
+          [
+            212,
+            2049
+          ],
+          [
+            2012,
+            2049
+          ],
+          [
+            2012,
+            2093
+          ],
+          [
+            212,
+            2093
+          ]
+        ],
+        [
+          [
+            212,
+            2097
+          ],
+          [
+            697,
+            2097
+          ],
+          [
+            697,
+            2138
+          ],
+          [
+            212,
+            2138
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 1280,
+        "limit_type": "max",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "ＲＯＬＬＳ",
+        "R",
+        "ROYＣE",
+        "mtu Kinetic PowerPack",
+        "2026",
+        "HALF YEAR",
+        "RESULTS",
+        "The information in this document is proprietary and confidential to Rolls-Royce and is available to",
+        "authorised recipients only – copying and onward distribution is prohibited other than for the purpose for",
+        "which it was made available."
+      ],
+      "rec_scores": [
+        0.7964261174201965,
+        0.9629343152046204,
+        0.7859070897102356,
+        0.899132251739502,
+        0.9985395073890686,
+        0.9176924228668213,
+        0.9955052733421326,
+        0.9869555234909058,
+        0.9912905693054199,
+        0.981709897518158
+      ],
+      "rec_polys": [
+        [
+          [
+            238,
+            166
+          ],
+          [
+            484,
+            166
+          ],
+          [
+            484,
+            233
+          ],
+          [
+            238,
+            233
+          ]
+        ],
+        [
+          [
+            225,
+            243
+          ],
+          [
+            500,
+            243
+          ],
+          [
+            500,
+            559
+          ],
+          [
+            225,
+            559
+          ]
+        ],
+        [
+          [
+            234,
+            559
+          ],
+          [
+            491,
+            559
+          ],
+          [
+            491,
+            626
+          ],
+          [
+            234,
+            626
+          ]
+        ],
+        [
+          [
+            823,
+            756
+          ],
+          [
+            1295,
+            423
+          ],
+          [
+            1341,
+            491
+          ],
+          [
+            869,
+            824
+          ]
+        ],
+        [
+          [
+            1059,
+            831
+          ],
+          [
+            1875,
+            831
+          ],
+          [
+            1875,
+            1269
+          ],
+          [
+            1059,
+            1269
+          ]
+        ],
+        [
+          [
+            197,
+            866
+          ],
+          [
+            1047,
+            866
+          ],
+          [
+            1047,
+            1045
+          ],
+          [
+            197,
+            1045
+          ]
+        ],
+        [
+          [
+            200,
+            1071
+          ],
+          [
+            1047,
+            1071
+          ],
+          [
+            1047,
+            1237
+          ],
+          [
+            200,
+            1237
+          ]
+        ],
+        [
+          [
+            216,
+            2004
+          ],
+          [
+            1894,
+            2004
+          ],
+          [
+            1894,
+            2049
+          ],
+          [
+            216,
+            2049
+          ]
+        ],
+        [
+          [
+            212,
+            2049
+          ],
+          [
+            2012,
+            2049
+          ],
+          [
+            2012,
+            2093
+          ],
+          [
+            212,
+            2093
+          ]
+        ],
+        [
+          [
+            212,
+            2097
+          ],
+          [
+            697,
+            2097
+          ],
+          [
+            697,
+            2138
+          ],
+          [
+            212,
+            2138
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          238,
+          166,
+          484,
+          233
+        ],
+        [
+          225,
+          243,
+          500,
+          559
+        ],
+        [
+          234,
+          559,
+          491,
+          626
+        ],
+        [
+          823,
+          423,
+          1341,
+          824
+        ],
+        [
+          1059,
+          831,
+          1875,
+          1269
+        ],
+        [
+          197,
+          866,
+          1047,
+          1045
+        ],
+        [
+          200,
+          1071,
+          1047,
+          1237
+        ],
+        [
+          216,
+          2004,
+          1894,
+          2049
+        ],
+        [
+          212,
+          2049,
+          2012,
+          2093
+        ],
+        [
+          212,
+          2097,
+          697,
+          2138
+        ]
+      ]
+    }
+  }
+}

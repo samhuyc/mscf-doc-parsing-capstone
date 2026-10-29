@@ -1,0 +1,334 @@
+{
+  "runs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/pages.json"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_vlm/pages.json"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 6,
+      "parsed_pages": 6,
+      "nonempty_pages": 6,
+      "exported_pages": 6,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr/pages.json"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 6,
+      "parsed_pages": 6,
+      "nonempty_pages": 6,
+      "exported_pages": 6,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_vlm/pages.json"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 6,
+      "parsed_pages": 6,
+      "nonempty_pages": 6,
+      "exported_pages": 6,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 39,
+      "parsed_pages": 39,
+      "nonempty_pages": 39,
+      "exported_pages": 39,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/pages.json"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 39,
+      "parsed_pages": 39,
+      "nonempty_pages": 39,
+      "exported_pages": 39,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_vlm/pages.json"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 39,
+      "parsed_pages": 39,
+      "nonempty_pages": 39,
+      "exported_pages": 39,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/pages.json"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_vlm/pages.json"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 19,
+      "parsed_pages": 19,
+      "nonempty_pages": 19,
+      "exported_pages": 19,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 19,
+      "parsed_pages": 19,
+      "nonempty_pages": 19,
+      "exported_pages": 19,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_vlm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 19,
+      "parsed_pages": 19,
+      "nonempty_pages": 19,
+      "exported_pages": 19,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "expected_pages": 52,
+      "parsed_pages": 52,
+      "nonempty_pages": 52,
+      "exported_pages": 52,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "expected_pages": 52,
+      "parsed_pages": 52,
+      "nonempty_pages": 52,
+      "exported_pages": 52,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "expected_pages": 52,
+      "parsed_pages": 52,
+      "nonempty_pages": 52,
+      "exported_pages": 52,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/pages.json"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/cvs_2025q2/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/cvs_2025q2/pymupdf4llm_vlm/pages.json"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 6,
+      "parsed_pages": 6,
+      "nonempty_pages": 6,
+      "exported_pages": 6,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/edf_2024/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/edf_2024/pymupdf4llm_vlm/pages.json"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 39,
+      "parsed_pages": 39,
+      "nonempty_pages": 39,
+      "exported_pages": 39,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/hippodrome_2025/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/hippodrome_2025/pymupdf4llm_vlm/pages.json"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 12,
+      "parsed_pages": 12,
+      "nonempty_pages": 12,
+      "exported_pages": 12,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/peterborough_2025/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/peterborough_2025/pymupdf4llm_vlm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 19,
+      "parsed_pages": 19,
+      "nonempty_pages": 19,
+      "exported_pages": 19,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/pages.json"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "expected_pages": 52,
+      "parsed_pages": 52,
+      "nonempty_pages": 52,
+      "exported_pages": 52,
+      "contiguous": true,
+      "run": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_release/pymupdf4llm_vlm/run.json",
+      "pages": "/Users/cbc/Desktop/MSCF/capstone/github_repo/people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_release/pymupdf4llm_vlm/pages.json"
+    }
+  ],
+  "totals_per_parser": {
+    "mineru_ocr": 140,
+    "mineru_vlm": 140,
+    "pymupdf4llm": 140,
+    "pymupdf4llm_vlm": 140
+  },
+  "labeled_pages": {
+    "cvs_2025q2": [
+      1,
+      6,
+      12
+    ],
+    "edf_2024": [
+      1,
+      3,
+      6
+    ],
+    "hippodrome_2025": [
+      1,
+      20,
+      21
+    ],
+    "peterborough_2025": [
+      1,
+      2,
+      3
+    ],
+    "rolls_royce_2026h1_presentation": [
+      1,
+      5,
+      9
+    ],
+    "rolls_royce_2026h1_release": [
+      1,
+      13,
+      17
+    ]
+  },
+  "labels": 54,
+  "review_status": {
+    "draft": 54
+  }
+}

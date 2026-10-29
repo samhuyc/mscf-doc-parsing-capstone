@@ -1,0 +1,5659 @@
+{
+  "schema_version": 1,
+  "label_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+  "scorer_sha256": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
+  "evaluation_status": "PRELIMINARY_ASSISTANT_DRAFTS",
+  "selected_labels": 54,
+  "total_labels": 54,
+  "inputs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "pages_sha256": "1a11f6f344b0731d2604e232d38284650157d69f771669444ea72fb5eef43ff1",
+      "run_sha256": "6f17bdc66417010137d6fe5d885c0ae190d71f3473d83947b4fe7d8db9e094bc"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "pages_sha256": "3dc4c35fbea5e9602cf13420c4f4919af6f976dfb9092513fd0a0197be01e1af",
+      "run_sha256": "974952785052918e03e0c56ac7410b8a974b9cb24a47ae3b2d91d4ef3edd42d7"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "pages_sha256": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+      "run_sha256": "0a83484b10bf855da06ecb862db3c5605536fffbaf590f746ca0b074bbd25e29"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "pages_sha256": "f654fa50c560e1dca24a3a14d615463b3913ee432c372a3f158f1322fabf5532",
+      "run_sha256": "f6aac6723a6607b5f4ab3f88d58b9cad68173354cec589b669e11bb4c59a4836"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "pages_sha256": "a5b507173a782b58b05defde753f166a62f17373aa726b6f3671bdb85ada5162",
+      "run_sha256": "6347fd90720082a597dec6f4c9c40a2daa8d48162662454a35843e58bb8ad65a"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "pages_sha256": "d09ff696dc2d26f54ead3aa9946831a1f04f0323b57d37d21720cb897406a797",
+      "run_sha256": "8cdbd60f1bc38bf766ebcade4f7b7a95ac1cf999265288901bc87e586d064f6b"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "pages_sha256": "9d2d8368f365f34d7f8ad390084c4c3f9650bdd579902cf74b1ec03bc5a2d836",
+      "run_sha256": "0573d4fa081e0a0d90403f679d567855ace261a1bcd95311679bca45b4de7b5d"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "pages_sha256": "d4c588a42fded3fb27793d4aa4f791fab1fef5ab0be03d8f998da18bd8032e5d",
+      "run_sha256": "d35b3ac4fbb86d95ec012d69ecfafa2e2a4f4b35a3d1caa44188322683be8fe4"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "pages_sha256": "5d9fd8d9d5302dc6601250c861631e18bcf8301b920bcb5afc2d03dbc8f391b4",
+      "run_sha256": "51341277c5a2449957aef2a3930e64531b6c7a2d1d0cb86f87d48c58f7ee2634"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "pages_sha256": "1f111d12e364f57829cf89e94fa5a323a04ba2f6bc6960a9911abea47fa86568",
+      "run_sha256": "7637391b85f8d95b430b4e201d211092964bc9e3bb0574a7412d81ea8b223cc7"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "pages_sha256": "b9f82ee401c2a328466b19d3e4c40b06122fabfdef8bca81b678c296ea2375e1",
+      "run_sha256": "e8da9d69eaf6f86366388e093313e63abe8783d9d2f7d15afb25b126b4dae524"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "pages_sha256": "c40ef050a55fdc3aae1c8168f473cae8181535431e7bc1e4b9d8f8a753f256b2",
+      "run_sha256": "607eb03850f806895e88a2891b11f7068870b4c03b47432c8173b9d8e516ea56"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+      "run_sha256": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+      "run_sha256": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+      "run_sha256": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+      "run_sha256": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+      "run_sha256": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "pages_sha256": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+      "run_sha256": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "e7576c02e32102561cdb9e9f818954d0d0834462e95bb4a01d062594f24a9795",
+      "run_sha256": "52da701f846d602db3dd6fa938880882aacb6a05c1b50984d45ebfe6756e8920"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "a9a81eb0d1707f1ced9ab4e6610e0f6300106b725f29192d0f504f1d6407078b",
+      "run_sha256": "319580be647a45cb0f7e8d4ed10c2e1288b5363359497718586ee5d33018c54c"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "05fe7563945017f0af1ad83f007bbe05fa94988b5f48fd4660a01fb7d84ee290",
+      "run_sha256": "2632fa7455bd7674992ec63584e55f6191781d95d2586862580fbccb0afa045b"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "d46c554c8ee8b0d2d566aa162d8997a289f33d34f37cbf0509f3a048c4d983df",
+      "run_sha256": "0a83fb9b2d7a84ae58f3201f012f7b2043f4437528795aa48544247f6c57fa74"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "24cf458fdbde6faee1a50cc742deda6259050a8a2f87f21b4dbd3ab5c013b197",
+      "run_sha256": "356fbcb911e716796f233a4a67eb5aa7fce9af375e72fe99e85e14635f2ce09b"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "pages_sha256": "5291a92b16648d11866f0b38feac850874bd516298ff2201959e09595c209a44",
+      "run_sha256": "bf75dfeefbe8a5254458de11297401ba4738a36d505e1c41cbb9fa959c2808f4"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "23fd66d647edca46e69d8fc7fe83d8fa3ecc9cb661bd6fed7d906292882abf44",
+      "run_sha256": "0f7c04f3d385cba565eeb56681782a3d5331cda455954e0669c776d7a04c4dae"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "a1c85dcde7eeec12e13f82edcbad46b2f6c20470ad7701ab6a5dfad3423ed38a",
+      "run_sha256": "01b2e0ee1264dedb520c92bafa6d1cf9f4cf17fc8edde3da41c99ea39a51759f"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "b414c53046cb88cab7c2a614afbe045822a7f129fcf733da4c2123bbb1d1cbcf",
+      "run_sha256": "763694ab1ac8a996eb41ce12a498c08d2ed06646dd13f310be43e988f2983753"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "ceb7ae0a8ba8d8a19a6adf116bf0e491e444941ce200248fadcf489d451463d1",
+      "run_sha256": "44f599b3bc25ce03f4aa96410a35b95c6c2a7730995c8e3dc1dec24ccb731988"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "23e1c35b6ac54aae290b14fb670d3d572dd32a99828f2f5db2c044db2475f5e2",
+      "run_sha256": "94676e56684eee59d85042aa0d9ce2fed46db2aa12a35ed66173332bd78d85a7"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "paddleocr_ppstructurev3",
+      "pages_sha256": "bfff73876242adf11c39413a4eb4a4a419bb79b6b569c595b87a97f0a951ce0b",
+      "run_sha256": "1848f491fac872424a6045c590e9e77247368bb68b1763845e282b112f36ee9e"
+    }
+  ],
+  "aggregate": {
+    "mineru_ocr": {
+      "associated_value_accuracy": {
+        "value": 0.40601503759398494,
+        "passed": 54,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.43875457875457874,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 1.0,
+        "numerator": 47,
+        "denominator": 47,
+        "tables": 4,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 4
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.8103448275862069,
+        "numerator": 47,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.7951388888888888,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.40601503759398494,
+        "passed": 54,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.43875457875457874,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 0.0,
+        "passed": 0,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 0.8,
+        "passed": 4,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.6086956521739131,
+        "passed": 14,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.48148148148148145,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.005780346820809248,
+        "character_errors": 7,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.014056224899598393,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 0.8888888888888888,
+        "passed": 16,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8888888888888888,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.4444444444444444,
+        "passed": 8,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.25,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.42857142857142855,
+        "passed": 57,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.45586767399267397,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 0.984375,
+        "passed": 126,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9788647342995169,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 0.8181818181818182,
+        "passed": 9,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.75,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 0.9090909090909091,
+        "passed": 10,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9444444444444445,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.8,
+        "passed": 4,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      }
+    },
+    "mineru_vlm": {
+      "associated_value_accuracy": {
+        "value": 0.7142857142857143,
+        "passed": 95,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6710164835164836,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 1.0,
+        "numerator": 40,
+        "denominator": 40,
+        "tables": 4,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 3
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.6896551724137931,
+        "numerator": 40,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.6388888888888888,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.7142857142857143,
+        "passed": 95,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6710164835164836,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 1.0,
+        "passed": 2,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.2608695652173913,
+        "passed": 6,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.3148148148148148,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.016515276630883566,
+        "character_errors": 20,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.014814814814814815,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 0.9444444444444444,
+        "passed": 17,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9444444444444443,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.8888888888888888,
+        "passed": 16,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.875,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.7142857142857143,
+        "passed": 95,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6710164835164836,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 0.9921875,
+        "passed": 127,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9946236559139785,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 0.7272727272727273,
+        "passed": 8,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6944444444444445,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.6,
+        "passed": 3,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      }
+    },
+    "pymupdf4llm": {
+      "associated_value_accuracy": {
+        "value": 0.8646616541353384,
+        "passed": 115,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.859508547008547,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 1.0,
+        "numerator": 50,
+        "denominator": 50,
+        "tables": 4,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 4
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.8620689655172413,
+        "numerator": 50,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.8888888888888888,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.8646616541353384,
+        "passed": 115,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.859508547008547,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 1.0,
+        "passed": 2,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.782608695652174,
+        "passed": 18,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8148148148148149,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.0016515276630883566,
+        "character_errors": 2,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.0014814814814814814,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 0.8333333333333334,
+        "passed": 15,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.7777777777777778,
+        "passed": 14,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.625,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.8947368421052632,
+        "passed": 119,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9150641025641025,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 1.0,
+        "passed": 128,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.2,
+        "passed": 1,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.2,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 0.8,
+        "passed": 4,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8,
+        "documents_with_metric": 1
+      }
+    },
+    "pymupdf4llm_vlm": {
+      "associated_value_accuracy": {
+        "value": 0.8195488721804511,
+        "passed": 109,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8237942612942613,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 1.0,
+        "numerator": 50,
+        "denominator": 50,
+        "tables": 4,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 4
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.8620689655172413,
+        "numerator": 50,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.8888888888888888,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.8195488721804511,
+        "passed": 109,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8237942612942613,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 1.0,
+        "passed": 2,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 0.8,
+        "passed": 4,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.782608695652174,
+        "passed": 18,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8148148148148149,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.002477291494632535,
+        "character_errors": 3,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.0018181818181818184,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 1.0,
+        "passed": 18,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.7777777777777778,
+        "passed": 14,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.625,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.849624060150376,
+        "passed": 113,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.879349816849817,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 1.0,
+        "passed": 128,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 0.9090909090909091,
+        "passed": 10,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9166666666666666,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.4,
+        "passed": 2,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.4,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 1.0,
+        "passed": 5,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 1
+      }
+    },
+    "paddleocr_ppstructurev3": {
+      "associated_value_accuracy": {
+        "value": 0.5338345864661654,
+        "passed": 71,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.5636233211233211,
+        "documents_with_metric": 6
+      },
+      "complete_matrix_numeric_precision": {
+        "value": 0.765625,
+        "numerator": 49,
+        "denominator": 64,
+        "tables": 4,
+        "equal_document_mean": 0.875,
+        "documents_with_metric": 4
+      },
+      "complete_matrix_numeric_recall": {
+        "value": 0.8448275862068966,
+        "numerator": 49,
+        "denominator": 58,
+        "tables": 4,
+        "equal_document_mean": 0.7708333333333334,
+        "documents_with_metric": 4
+      },
+      "display_form_accuracy": {
+        "value": 0.5338345864661654,
+        "passed": 71,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.5636233211233211,
+        "documents_with_metric": 6
+      },
+      "explicit_header_span_accuracy": {
+        "value": 0.0,
+        "passed": 0,
+        "total": 2,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.0,
+        "documents_with_metric": 1
+      },
+      "footnote_target_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "footnote_text_retention": {
+        "value": 0.6,
+        "passed": 3,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6,
+        "documents_with_metric": 5
+      },
+      "inline_currency_unit_accuracy": {
+        "value": 0.782608695652174,
+        "passed": 18,
+        "total": 23,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.7222222222222222,
+        "documents_with_metric": 3
+      },
+      "matched_span_character_error_rate": {
+        "value": 0.07844756399669695,
+        "character_errors": 95,
+        "reference_chars": 1211,
+        "checks": 13,
+        "equal_document_mean": 0.08710406232353558,
+        "documents_with_metric": 6
+      },
+      "metadata_evidence_retention": {
+        "value": 0.9444444444444444,
+        "passed": 17,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9444444444444443,
+        "documents_with_metric": 6
+      },
+      "metadata_field_accuracy": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 18,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "negative_value_accuracy": {
+        "value": 0.4444444444444444,
+        "passed": 8,
+        "total": 18,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.25,
+        "documents_with_metric": 4
+      },
+      "reading_order_accuracy": {
+        "value": 1.0,
+        "passed": 7,
+        "total": 7,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "row_header_resolved": {
+        "value": 0.6466165413533834,
+        "passed": 86,
+        "total": 133,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.6592681623931624,
+        "documents_with_metric": 6
+      },
+      "selected_value_presence": {
+        "value": 0.9453125,
+        "passed": 121,
+        "total": 128,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9604955586722768,
+        "documents_with_metric": 6
+      },
+      "table_detected_by_row_labels": {
+        "value": 1.0,
+        "passed": 11,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 1.0,
+        "documents_with_metric": 6
+      },
+      "text_span_retention": {
+        "value": 0.875,
+        "passed": 7,
+        "total": 8,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.9166666666666666,
+        "documents_with_metric": 6
+      },
+      "unit_evidence_retention": {
+        "value": 0.8181818181818182,
+        "passed": 9,
+        "total": 11,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.8333333333333334,
+        "documents_with_metric": 6
+      },
+      "visual_label_value_sequence": {
+        "value": 0.0,
+        "passed": 0,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.0,
+        "documents_with_metric": 1
+      },
+      "visual_semantic_association": {
+        "value": null,
+        "passed": 0,
+        "total": 0,
+        "not_automatically_scored": 5,
+        "equal_document_mean": null,
+        "documents_with_metric": 0
+      },
+      "visual_value_presence": {
+        "value": 0.0,
+        "passed": 0,
+        "total": 5,
+        "not_automatically_scored": 0,
+        "equal_document_mean": 0.0,
+        "documents_with_metric": 1
+      }
+    }
+  },
+  "documents": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.16,
+          "passed": 4,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 5,
+          "denominator": 5,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.625,
+          "numerator": 5,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.16,
+          "passed": 4,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.16,
+          "passed": 4,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.9565217391304348,
+          "passed": 22,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.5,
+          "passed": 1,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.8571428571428571,
+          "passed": 24,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.8571428571428571,
+          "passed": 24,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.9285714285714286,
+          "passed": 26,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.9166666666666666,
+          "passed": 11,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.5555555555555556,
+          "numerator": 10,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 4,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.08433734939759036,
+          "character_errors": 7,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.03125,
+          "passed": 1,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 31,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": null,
+          "numerator": 0,
+          "denominator": 0,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.0,
+          "numerator": 0,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.08888888888888889,
+          "character_errors": 20,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 23,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.5,
+          "passed": 1,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.5555555555555556,
+          "numerator": 10,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 4,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.6,
+          "passed": 3,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.625,
+          "passed": 20,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.625,
+          "passed": 20,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.625,
+          "passed": 20,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.967741935483871,
+          "passed": 30,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.008888888888888889,
+          "character_errors": 2,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 23,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.5555555555555556,
+          "numerator": 10,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 4,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.2,
+          "passed": 1,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 31,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 8,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.008888888888888889,
+          "character_errors": 2,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 25,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 23,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.5,
+          "passed": 1,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 8,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.00202020202020202,
+          "character_errors": 1,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.5555555555555556,
+          "numerator": 10,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 4,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6153846153846154,
+          "passed": 16,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.4,
+          "passed": 2,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 4,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.875,
+          "passed": 28,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 31,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 10,
+          "denominator": 10,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.01020408163265306,
+          "character_errors": 2,
+          "reference_chars": 196,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 0.6666666666666666,
+          "passed": 2,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 10,
+          "total": 10,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "edf_2024",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.08,
+          "passed": 2,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 2,
+          "denominator": 2,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.25,
+          "numerator": 2,
+          "denominator": 8,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.08,
+          "passed": 2,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 225,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.2,
+          "passed": 5,
+          "total": 25,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.9565217391304348,
+          "passed": 22,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 1.0,
+          "numerator": 22,
+          "denominator": 22,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.7857142857142857,
+          "passed": 22,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 33,
+          "checks": 1
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 1.0,
+          "passed": 8,
+          "total": 8,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 28,
+          "total": 28,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.3333333333333333,
+          "passed": 4,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.3333333333333333,
+          "passed": 4,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.00404040404040404,
+          "character_errors": 2,
+          "reference_chars": 495,
+          "checks": 3
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.4166666666666667,
+          "passed": 5,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 12,
+          "total": 12,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.5,
+          "passed": 1,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.8076923076923077,
+          "passed": 21,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 0.5,
+          "numerator": 15,
+          "denominator": 30,
+          "tables": 1
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8333333333333334,
+          "numerator": 15,
+          "denominator": 18,
+          "tables": 1
+        },
+        "display_form_accuracy": {
+          "value": 0.8076923076923077,
+          "passed": 21,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.6666666666666666,
+          "passed": 6,
+          "total": 9,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0,
+          "character_errors": 0,
+          "reference_chars": 83,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.8076923076923077,
+          "passed": 21,
+          "total": 26,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 24,
+          "total": 24,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      }
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "paddleocr_ppstructurev3",
+      "metrics": {
+        "associated_value_accuracy": {
+          "value": 0.375,
+          "passed": 12,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "display_form_accuracy": {
+          "value": 0.375,
+          "passed": 12,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 1
+        },
+        "footnote_text_retention": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.5,
+          "passed": 2,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.5083798882681564,
+          "character_errors": 91,
+          "reference_chars": 179,
+          "checks": 2
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 3
+        },
+        "negative_value_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 4,
+          "not_automatically_scored": 0
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.53125,
+          "passed": 17,
+          "total": 32,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.8064516129032258,
+          "passed": 25,
+          "total": 31,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 1.0,
+          "passed": 1,
+          "total": 1,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 3,
+          "total": 3,
+          "not_automatically_scored": 0
+        }
+      }
+    }
+  ],
+  "runs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 45.996,
+      "pages_per_second": 0.2609,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 30.793,
+      "pages_per_second": 0.1948,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 179.894,
+      "pages_per_second": 0.2168,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 48.094,
+      "pages_per_second": 0.2495,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 58.315,
+      "pages_per_second": 0.3258,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "status": "success",
+      "elapsed_seconds": 291.484,
+      "pages_per_second": 0.1784,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 234.157,
+      "pages_per_second": 0.0512,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 124.849,
+      "pages_per_second": 0.0481,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 983.713,
+      "pages_per_second": 0.0396,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 241.448,
+      "pages_per_second": 0.0497,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 335.615,
+      "pages_per_second": 0.0566,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "status": "success",
+      "elapsed_seconds": 1626.114,
+      "pages_per_second": 0.032,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 8.071,
+      "pages_per_second": 1.4868,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 3.989,
+      "pages_per_second": 1.5041,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 75.985,
+      "pages_per_second": 0.5133,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 15.503,
+      "pages_per_second": 0.774,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 8.377,
+      "pages_per_second": 2.2681,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "status": "success",
+      "elapsed_seconds": 30.591,
+      "pages_per_second": 1.6998,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "timing_note": "Single sequential full-document run; wall time includes child process startup and model loading, excludes download/export/scoring; cached MinerU weights.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 24.428,
+      "pages_per_second": 0.4912,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 13.51,
+      "pages_per_second": 0.4441,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 884.143,
+      "pages_per_second": 0.0441,
+      "source_pages": 39,
+      "exported_pages": 39,
+      "nonempty_pages": 39,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 184.026,
+      "pages_per_second": 0.0652,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 18.378,
+      "pages_per_second": 1.0338,
+      "source_pages": 19,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "status": "success",
+      "elapsed_seconds": 29.93,
+      "pages_per_second": 1.7374,
+      "source_pages": 52,
+      "exported_pages": 52,
+      "nonempty_pages": 52,
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "timing_note": "New sequential document run; includes worker startup, detector/VLM model loading and OCR, excludes canonical export/scoring. Historical pipelines were run on other dates; not a controlled speed comparison.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 474.748,
+      "pages_per_second": 0.0253,
+      "source_pages": 12,
+      "exported_pages": 12,
+      "nonempty_pages": 12,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Sequential full-document child process; includes Python/model startup, page rendering and native output persistence; excludes canonical export and evaluation. Weights downloaded before timing. Historical Sam timings are from a different host.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "edf_2024",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 382.951,
+      "pages_per_second": 0.0157,
+      "source_pages": 6,
+      "exported_pages": 6,
+      "nonempty_pages": 6,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Sequential full-document child process; includes Python/model startup, page rendering and native output persistence; excludes canonical export and evaluation. Weights downloaded before timing. Historical Sam timings are from a different host.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 1688.348,
+      "pages_per_second": null,
+      "source_pages": 39,
+      "exported_pages": 19,
+      "nonempty_pages": 19,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Resumed selected evaluation pages. Preserves previous page predictions. Full-document runtime is incomplete and not comparable.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 86.414,
+      "pages_per_second": null,
+      "source_pages": 12,
+      "exported_pages": 3,
+      "nonempty_pages": 3,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Resumed selected evaluation pages. Preserves previous page predictions. Full-document runtime is incomplete and not comparable.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 95.658,
+      "pages_per_second": null,
+      "source_pages": 19,
+      "exported_pages": 3,
+      "nonempty_pages": 3,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Resumed selected evaluation pages. Preserves previous page predictions. Full-document runtime is incomplete and not comparable.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "paddleocr_ppstructurev3",
+      "status": "success",
+      "elapsed_seconds": 405.2,
+      "pages_per_second": null,
+      "source_pages": 52,
+      "exported_pages": 3,
+      "nonempty_pages": 3,
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "timing_note": "Resumed selected evaluation pages. Preserves previous page predictions. Full-document runtime is incomplete and not comparable.",
+      "peak_memory_mb": null,
+      "memory_note": "Not instrumented in saved runs; scoring does not rerun parsers."
+    }
+  ],
+  "by_importance": {
+    "mineru_ocr": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.40601503759398494,
+          "passed": 54,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 47,
+          "denominator": 47,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8103448275862069,
+          "numerator": 47,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.40601503759398494,
+          "passed": 54,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.6086956521739131,
+          "passed": 14,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 8,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.42857142857142855,
+          "passed": 57,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.984375,
+          "passed": 126,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.8181818181818182,
+          "passed": 9,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.9090909090909091,
+          "passed": 10,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.005780346820809248,
+          "character_errors": 7,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 0.8888888888888888,
+          "passed": 16,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
+    },
+    "mineru_vlm": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.7142857142857143,
+          "passed": 95,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 40,
+          "denominator": 40,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.6896551724137931,
+          "numerator": 40,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.7142857142857143,
+          "passed": 95,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.2608695652173913,
+          "passed": 6,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.8888888888888888,
+          "passed": 16,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.7142857142857143,
+          "passed": 95,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.9921875,
+          "passed": 127,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.7272727272727273,
+          "passed": 8,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.6,
+          "passed": 3,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.016515276630883566,
+          "character_errors": 20,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 0.9444444444444444,
+          "passed": 17,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
+    },
+    "pymupdf4llm": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.8646616541353384,
+          "passed": 115,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 50,
+          "denominator": 50,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8620689655172413,
+          "numerator": 50,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.8646616541353384,
+          "passed": 115,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.782608695652174,
+          "passed": 18,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.7777777777777778,
+          "passed": 14,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.8947368421052632,
+          "passed": 119,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 128,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.2,
+          "passed": 1,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.0016515276630883566,
+          "character_errors": 2,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 0.8333333333333334,
+          "passed": 15,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
+    },
+    "pymupdf4llm_vlm": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.8195488721804511,
+          "passed": 109,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 1.0,
+          "numerator": 50,
+          "denominator": 50,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8620689655172413,
+          "numerator": 50,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.8195488721804511,
+          "passed": 109,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 1.0,
+          "passed": 2,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.782608695652174,
+          "passed": 18,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.7777777777777778,
+          "passed": 14,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.849624060150376,
+          "passed": 113,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 1.0,
+          "passed": 128,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 0.9090909090909091,
+          "passed": 10,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.4,
+          "passed": 2,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 1.0,
+          "passed": 5,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 0.8,
+          "passed": 4,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.002477291494632535,
+          "character_errors": 3,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 1.0,
+          "passed": 18,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
+    },
+    "paddleocr_ppstructurev3": {
+      "critical": {
+        "associated_value_accuracy": {
+          "value": 0.5338345864661654,
+          "passed": 71,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "complete_matrix_numeric_precision": {
+          "value": 0.765625,
+          "numerator": 49,
+          "denominator": 64,
+          "tables": 4
+        },
+        "complete_matrix_numeric_recall": {
+          "value": 0.8448275862068966,
+          "numerator": 49,
+          "denominator": 58,
+          "tables": 4
+        },
+        "display_form_accuracy": {
+          "value": 0.5338345864661654,
+          "passed": 71,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "explicit_header_span_accuracy": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 2,
+          "not_automatically_scored": 0
+        },
+        "inline_currency_unit_accuracy": {
+          "value": 0.782608695652174,
+          "passed": 18,
+          "total": 23,
+          "not_automatically_scored": 0
+        },
+        "negative_value_accuracy": {
+          "value": 0.4444444444444444,
+          "passed": 8,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "row_header_resolved": {
+          "value": 0.6466165413533834,
+          "passed": 86,
+          "total": 133,
+          "not_automatically_scored": 0
+        },
+        "selected_value_presence": {
+          "value": 0.9453125,
+          "passed": 121,
+          "total": 128,
+          "not_automatically_scored": 0
+        },
+        "table_detected_by_row_labels": {
+          "value": 1.0,
+          "passed": 11,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "unit_evidence_retention": {
+          "value": 0.8181818181818182,
+          "passed": 9,
+          "total": 11,
+          "not_automatically_scored": 0
+        },
+        "visual_label_value_sequence": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "visual_semantic_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "visual_value_presence": {
+          "value": 0.0,
+          "passed": 0,
+          "total": 5,
+          "not_automatically_scored": 0
+        }
+      },
+      "supporting": {
+        "footnote_target_association": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 5
+        },
+        "footnote_text_retention": {
+          "value": 0.6,
+          "passed": 3,
+          "total": 5,
+          "not_automatically_scored": 0
+        },
+        "matched_span_character_error_rate": {
+          "value": 0.07844756399669695,
+          "character_errors": 95,
+          "reference_chars": 1211,
+          "checks": 13
+        },
+        "metadata_evidence_retention": {
+          "value": 0.9444444444444444,
+          "passed": 17,
+          "total": 18,
+          "not_automatically_scored": 0
+        },
+        "metadata_field_accuracy": {
+          "value": null,
+          "passed": 0,
+          "total": 0,
+          "not_automatically_scored": 18
+        },
+        "reading_order_accuracy": {
+          "value": 1.0,
+          "passed": 7,
+          "total": 7,
+          "not_automatically_scored": 0
+        },
+        "text_span_retention": {
+          "value": 0.875,
+          "passed": 7,
+          "total": 8,
+          "not_automatically_scored": 0
+        }
+      },
+      "cosmetic": {}
+    }
+  },
+  "evaluation_seconds": 4.792,
+  "hosted_model_calls": 0,
+  "parser_reruns": 0,
+  "limitations": [
+    "Six previously inspected documents; development case study, not held-out generalization.",
+    "Association scores require explicit HTML/Markdown table relationships; flattened prose may contain recoverable facts.",
+    "Unit evidence and visual sequence checks are proxies, not semantic association scores.",
+    "Sparse labels do not measure global hallucination precision.",
+    "Draft labels are not independently human-verified gold."
+  ]
+}

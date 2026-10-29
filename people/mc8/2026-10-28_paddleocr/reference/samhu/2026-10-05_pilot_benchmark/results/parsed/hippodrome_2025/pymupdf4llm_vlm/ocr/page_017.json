@@ -1,0 +1,1068 @@
+{
+  "status": "success",
+  "image_sha256": "eaa56eb16fb5932b3672b9914b63b296bdad08bc38588523ff1456c5b0642fff",
+  "image_size": [
+    2480,
+    3509
+  ],
+  "predictions": [
+    {
+      "box": [
+        [
+          258.0,
+          281.0
+        ],
+        [
+          2163.0,
+          281.0
+        ],
+        [
+          2163.0,
+          329.0
+        ],
+        [
+          258.0,
+          329.0
+        ]
+      ],
+      "text": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          333.0
+        ],
+        [
+          458.0,
+          333.0
+        ],
+        [
+          458.0,
+          384.0
+        ],
+        [
+          255.0,
+          384.0
+        ]
+      ],
+      "text": "LIMITED",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          482.0
+        ],
+        [
+          2214.0,
+          482.0
+        ],
+        [
+          2214.0,
+          519.0
+        ],
+        [
+          258.0,
+          519.0
+        ]
+      ],
+      "text": "We have audited the financial statements of Hippodrome Casino Limited (the ‘company’) for the year ended 31",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          526.0
+        ],
+        [
+          2214.0,
+          526.0
+        ],
+        [
+          2214.0,
+          563.0
+        ],
+        [
+          262.0,
+          563.0
+        ]
+      ],
+      "text": "December 2025 which comprise the Statement of Comprehensive Income, Statement of Financial Position,",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          570.0
+        ],
+        [
+          2218.0,
+          570.0
+        ],
+        [
+          2218.0,
+          607.0
+        ],
+        [
+          262.0,
+          607.0
+        ]
+      ],
+      "text": "Statement of Changes in Equity and notes to the financial statements, including significant accounting policies. The",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          614.0
+        ],
+        [
+          2214.0,
+          614.0
+        ],
+        [
+          2214.0,
+          651.0
+        ],
+        [
+          258.0,
+          651.0
+        ]
+      ],
+      "text": "financial reporting framework that has been applied in their preparation is applicable law and United Kingdom",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          651.0
+        ],
+        [
+          2222.0,
+          647.0
+        ],
+        [
+          2222.0,
+          694.0
+        ],
+        [
+          251.0,
+          698.0
+        ]
+      ],
+      "text": "Accounting Standards, including FRS 102 \"The Financial Reporting Standard applicable in the UK and Republic of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          702.0
+        ],
+        [
+          1395.0,
+          702.0
+        ],
+        [
+          1395.0,
+          738.0
+        ],
+        [
+          258.0,
+          738.0
+        ]
+      ],
+      "text": "Ireland\" (United Kingdom Generally Accepted Accounting Practice).",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          800.0
+        ],
+        [
+          926.0,
+          800.0
+        ],
+        [
+          926.0,
+          837.0
+        ],
+        [
+          258.0,
+          837.0
+        ]
+      ],
+      "text": "In our opinion, the financial statements:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          354.0,
+          837.0
+        ],
+        [
+          2218.0,
+          833.0
+        ],
+        [
+          2218.0,
+          885.0
+        ],
+        [
+          354.0,
+          888.0
+        ]
+      ],
+      "text": "- give a true and fair view of the state of the company's affairs as at 31 December 2025 and of its profit for",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          399.0,
+          888.0
+        ],
+        [
+          757.0,
+          888.0
+        ],
+        [
+          757.0,
+          925.0
+        ],
+        [
+          399.0,
+          925.0
+        ]
+      ],
+      "text": "the year then ended;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          925.0
+        ],
+        [
+          2218.0,
+          925.0
+        ],
+        [
+          2218.0,
+          972.0
+        ],
+        [
+          362.0,
+          972.0
+        ]
+      ],
+      "text": "• have been properly prepared in accordance with United Kingdom Generally Accepted Accounting Practice;",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          399.0,
+          972.0
+        ],
+        [
+          476.0,
+          972.0
+        ],
+        [
+          476.0,
+          1012.0
+        ],
+        [
+          399.0,
+          1012.0
+        ]
+      ],
+      "text": "and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          1009.0
+        ],
+        [
+          1845.0,
+          1009.0
+        ],
+        [
+          1845.0,
+          1056.0
+        ],
+        [
+          362.0,
+          1056.0
+        ]
+      ],
+      "text": "• have been prepared in accordance with the requirements of the Companies Act 2006.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          1115.0
+        ],
+        [
+          572.0,
+          1115.0
+        ],
+        [
+          572.0,
+          1151.0
+        ],
+        [
+          262.0,
+          1151.0
+        ]
+      ],
+      "text": "Basis for opinion",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1159.0
+        ],
+        [
+          2218.0,
+          1159.0
+        ],
+        [
+          2218.0,
+          1206.0
+        ],
+        [
+          255.0,
+          1206.0
+        ]
+      ],
+      "text": "We conducted our audit in accordance with International Standards on Auditing (UK) (ISAs (UK)) and applicable",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1203.0
+        ],
+        [
+          2222.0,
+          1203.0
+        ],
+        [
+          2222.0,
+          1250.0
+        ],
+        [
+          255.0,
+          1250.0
+        ]
+      ],
+      "text": "law. Our responsibilities under those standards are further described in the Auditor's responsibilities for the audit of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1246.0
+        ],
+        [
+          2222.0,
+          1246.0
+        ],
+        [
+          2222.0,
+          1294.0
+        ],
+        [
+          255.0,
+          1294.0
+        ]
+      ],
+      "text": "the financial statements section of our report. We are independent of the company in accordance with the ethical",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1287.0
+        ],
+        [
+          2222.0,
+          1287.0
+        ],
+        [
+          2222.0,
+          1334.0
+        ],
+        [
+          255.0,
+          1334.0
+        ]
+      ],
+      "text": "requirements that are relevant to our audit of the financial statements in the UK, including the FRC's Ethical",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1330.0
+        ],
+        [
+          2218.0,
+          1330.0
+        ],
+        [
+          2218.0,
+          1378.0
+        ],
+        [
+          258.0,
+          1378.0
+        ]
+      ],
+      "text": "Standard, and we have fulfilled our other ethical responsibilities in accordance with these requirements. We believe",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1382.0
+        ],
+        [
+          2004.0,
+          1382.0
+        ],
+        [
+          2004.0,
+          1418.0
+        ],
+        [
+          258.0,
+          1418.0
+        ]
+      ],
+      "text": "that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our opinion.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1480.0
+        ],
+        [
+          956.0,
+          1480.0
+        ],
+        [
+          956.0,
+          1517.0
+        ],
+        [
+          258.0,
+          1517.0
+        ]
+      ],
+      "text": "Conclusions relating to going concern",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1524.0
+        ],
+        [
+          2222.0,
+          1524.0
+        ],
+        [
+          2222.0,
+          1572.0
+        ],
+        [
+          255.0,
+          1572.0
+        ]
+      ],
+      "text": "In auditing the financial statements, we have concluded that the directors' use of the going concern basis of",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          1568.0
+        ],
+        [
+          1458.0,
+          1564.0
+        ],
+        [
+          1458.0,
+          1612.0
+        ],
+        [
+          251.0,
+          1616.0
+        ]
+      ],
+      "text": "accounting in the preparation of the financial statements is appropriate.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1659.0
+        ],
+        [
+          2218.0,
+          1659.0
+        ],
+        [
+          2218.0,
+          1696.0
+        ],
+        [
+          258.0,
+          1696.0
+        ]
+      ],
+      "text": "Based on the work we have performed, we have not identified any material uncertainties relating to events or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1696.0
+        ],
+        [
+          2222.0,
+          1696.0
+        ],
+        [
+          2222.0,
+          1744.0
+        ],
+        [
+          255.0,
+          1744.0
+        ]
+      ],
+      "text": "conditions that, individually or collectively, may cast significant doubt on the company's ability to continue as a going",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1740.0
+        ],
+        [
+          2045.0,
+          1740.0
+        ],
+        [
+          2045.0,
+          1787.0
+        ],
+        [
+          255.0,
+          1787.0
+        ]
+      ],
+      "text": "concern for a period of at least twelve months from when the financial statements are authorised for issue.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1831.0
+        ],
+        [
+          2214.0,
+          1831.0
+        ],
+        [
+          2214.0,
+          1868.0
+        ],
+        [
+          258.0,
+          1868.0
+        ]
+      ],
+      "text": "Our responsibilities and the responsibilities of the directors with respect to going concern are described in the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          1875.0
+        ],
+        [
+          782.0,
+          1875.0
+        ],
+        [
+          782.0,
+          1912.0
+        ],
+        [
+          258.0,
+          1912.0
+        ]
+      ],
+      "text": "relevant sections of this report.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          1967.0
+        ],
+        [
+          590.0,
+          1967.0
+        ],
+        [
+          590.0,
+          2014.0
+        ],
+        [
+          255.0,
+          2014.0
+        ]
+      ],
+      "text": "Other information",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2018.0
+        ],
+        [
+          2218.0,
+          2018.0
+        ],
+        [
+          2218.0,
+          2065.0
+        ],
+        [
+          255.0,
+          2065.0
+        ]
+      ],
+      "text": "The other information comprises the information included in the annual report, other than the financial statements",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2065.0
+        ],
+        [
+          2214.0,
+          2065.0
+        ],
+        [
+          2214.0,
+          2102.0
+        ],
+        [
+          258.0,
+          2102.0
+        ]
+      ],
+      "text": "and our auditor's report thereon. The directors are responsible for the other information contained within the annual",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2109.0
+        ],
+        [
+          2218.0,
+          2109.0
+        ],
+        [
+          2218.0,
+          2146.0
+        ],
+        [
+          258.0,
+          2146.0
+        ]
+      ],
+      "text": "report. Our opinion on the financial statements does not cover the other information and, except to the extent",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2149.0
+        ],
+        [
+          1960.0,
+          2149.0
+        ],
+        [
+          1960.0,
+          2186.0
+        ],
+        [
+          262.0,
+          2186.0
+        ]
+      ],
+      "text": "otherwise explicitly stated in our report, we do not express any form of assurance conclusion thereon.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2233.0
+        ],
+        [
+          2218.0,
+          2233.0
+        ],
+        [
+          2218.0,
+          2281.0
+        ],
+        [
+          255.0,
+          2281.0
+        ]
+      ],
+      "text": "Our responsibility is to read the other information and, in doing so, consider whether the other information is",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2277.0
+        ],
+        [
+          2222.0,
+          2274.0
+        ],
+        [
+          2222.0,
+          2321.0
+        ],
+        [
+          251.0,
+          2325.0
+        ]
+      ],
+      "text": "materially inconsistent with the financial statements or our knowledge obtained in the course of the audit or",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          255.0,
+          2321.0
+        ],
+        [
+          2218.0,
+          2321.0
+        ],
+        [
+          2218.0,
+          2369.0
+        ],
+        [
+          255.0,
+          2369.0
+        ]
+      ],
+      "text": "otherwise appears to be materially misstated. If we identify such material inconsistencies or apparent material",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2369.0
+        ],
+        [
+          2214.0,
+          2369.0
+        ],
+        [
+          2214.0,
+          2405.0
+        ],
+        [
+          258.0,
+          2405.0
+        ]
+      ],
+      "text": "misstatements, we are required to determine whether this gives rise to a material misstatement in the financial",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2412.0
+        ],
+        [
+          2211.0,
+          2412.0
+        ],
+        [
+          2211.0,
+          2449.0
+        ],
+        [
+          258.0,
+          2449.0
+        ]
+      ],
+      "text": "statements themselves. If, based on the work we have performed, we conclude that there is a material",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2456.0
+        ],
+        [
+          1487.0,
+          2456.0
+        ],
+        [
+          1487.0,
+          2493.0
+        ],
+        [
+          258.0,
+          2493.0
+        ]
+      ],
+      "text": "misstatement of this other information, we are required to report that fact.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          251.0,
+          2537.0
+        ],
+        [
+          937.0,
+          2537.0
+        ],
+        [
+          937.0,
+          2584.0
+        ],
+        [
+          251.0,
+          2584.0
+        ]
+      ],
+      "text": "We have nothing to report in this regard.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          258.0,
+          2635.0
+        ],
+        [
+          1450.0,
+          2635.0
+        ],
+        [
+          1450.0,
+          2683.0
+        ],
+        [
+          258.0,
+          2683.0
+        ]
+      ],
+      "text": "Opinions on other matters prescribed by the Companies Act 2006",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          262.0,
+          2687.0
+        ],
+        [
+          1461.0,
+          2687.0
+        ],
+        [
+          1461.0,
+          2723.0
+        ],
+        [
+          262.0,
+          2723.0
+        ]
+      ],
+      "text": "In our opinion, based on the work undertaken in the course of the audit:",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          362.0,
+          2734.0
+        ],
+        [
+          2214.0,
+          2734.0
+        ],
+        [
+          2214.0,
+          2771.0
+        ],
+        [
+          362.0,
+          2771.0
+        ]
+      ],
+      "text": "- the information given in the strategic report and the directors' report for the financial year for which the",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          399.0,
+          2778.0
+        ],
+        [
+          1764.0,
+          2778.0
+        ],
+        [
+          1764.0,
+          2815.0
+        ],
+        [
+          399.0,
+          2815.0
+        ]
+      ],
+      "text": "financial statements are prepared is consistent with the financial statements; and",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          365.0,
+          2822.0
+        ],
+        [
+          2211.0,
+          2822.0
+        ],
+        [
+          2211.0,
+          2858.0
+        ],
+        [
+          365.0,
+          2858.0
+        ]
+      ],
+      "text": "- the strategic report and the directors' report have been prepared in accordance with applicable legal",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          399.0,
+          2866.0
+        ],
+        [
+          638.0,
+          2866.0
+        ],
+        [
+          638.0,
+          2902.0
+        ],
+        [
+          399.0,
+          2902.0
+        ]
+      ],
+      "text": "requirements.",
+      "confidence": null
+    },
+    {
+      "box": [
+        [
+          1185.0,
+          3315.0
+        ],
+        [
+          1292.0,
+          3315.0
+        ],
+        [
+          1292.0,
+          3370.0
+        ],
+        [
+          1185.0,
+          3370.0
+        ]
+      ],
+      "text": "-15-",
+      "confidence": null
+    }
+  ],
+  "detection_seconds": 0.262545108795166,
+  "elapsed_seconds": 24.79021962499246
+}

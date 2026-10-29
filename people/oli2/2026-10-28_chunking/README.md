@@ -5,7 +5,9 @@ source references, measured token sizes, and a working retrieval/context interfa
 All six sponsor samples have been processed. No OCR rerun, API key, GPU, embedding
 service or LLM call is required.
 
-Start with the [interactive comparison](results/final/preview.html),
+**New to the output? Start with [Read the chunking output](results/final/README.md)**
+for one real chunk and a short guide to the files.
+Then use the [interactive comparison](results/final/preview.html),
 [results report](REPORT.md), and [RAG handoff](HANDOFF.md).
 Open the HTML locally; GitHub displays its source. EDF page 4 demonstrates two
 topics on one page, page 3 an intact table, and page 6 linked reconciliation notes.

@@ -10,7 +10,604 @@ article,.card{background:white;border:1px solid #d8e2df;padding:20px;margin:16px
 dt{font-size:12px;color:#52666b;margin-top:8px}dd{margin:3px 0;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;background:#eef2f1;padding:12px}
 nav,.links{display:flex;gap:18px;flex-wrap:wrap}nav{padding-bottom:18px;border-bottom:1px solid #d8e2df}nav a[aria-current]{font-weight:700;color:#173033;text-decoration:none}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 @media(max-width:850px){body{padding:16px}.page,.cards{display:block}.source{position:static}h1{font-size:27px}}
-</style></head><body><nav><a href="workspace.html">Review labels</a><a href="index.html">Overview</a><a href="comparison.html">Page comparisons</a><a href="outputs.html">Full parsed results</a><a href="tables.html">Tables</a><a href="numbers.html" aria-current="page">Numbers</a><a href="text.html">Text &amp; organization</a><a href="labels.html">Source &amp; labels</a></nav><main><h1>Number retention</h1><div class="banner"><b>0 / 16 relevant label records human-verified in the saved benchmark.</b> This counts reference labels, not tables or parser checks. Browser decisions enter this count after export/import. <a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div><p><a href="workspace.html#numbers">Review this category’s labels →</a> Labels overlap across categories; approving a table reference also supports number checks.</p><h2>Did the expected numbers, signs and units survive?</h2><p>128 numeric table expectations, including 18 negative values; five additional visual-card values. Five blank/dash cells are excluded from numeric presence.</p><div class="card"><b>Example</b><p>If 98.9 survives but moves under the wrong year, page-level number presence passes and table association fails. If (84.6) becomes 84.6, the negative-value check fails.</p></div><p><b>Interpretation:</b> Finding a number anywhere on the page does not prove its meaning, row, year or unit. Sign and formatting checks use resolved table cells, so they also fail when a cell cannot be matched.</p><article><h3>Expected table number appears on the page</h3><p>Looks for each signed numeric amount and inline scale anywhere on its labeled page, ignoring row and column.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>98.4%</b><small>126 / 128 checks</small></td><td><b>99.2%</b><small>127 / 128 checks</small></td><td><b>100.0%</b><small>128 / 128 checks</small></td><td><b>100.0%</b><small>128 / 128 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Repeated facts can be satisfied by the same occurrence; currency symbols are checked separately. This does not verify association.</p></article><article><h3>Negative values correct in their cells</h3><p>Checks the eighteen negative table expectations, including the amount and sign, in the correctly associated cell.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Negative values correct in their cells</th><td><b>44.4%</b><small>8 / 18 checks</small></td><td><b>88.9%</b><small>16 / 18 checks</small></td><td><b>77.8%</b><small>14 / 18 checks</small></td><td><b>77.8%</b><small>14 / 18 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Parentheses and a minus sign are equivalent. Unresolved cells also fail, so failures are not necessarily lost minus signs.</p></article><article><h3>Visual-card number appears on the page</h3><p>Looks for the five labeled slide-card amounts in the extracted page text.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Visual-card number appears on the page</th><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Does not prove the number remains attached to its metric label.</p></article><details><summary>Supporting diagnostics — definitions and results</summary><article><h3>Original cell formatting retained</h3><p>Compares each resolved cell with its source display after case, Unicode and whitespace normalization.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Original cell formatting retained</th><td><b>40.6%</b><small>54 / 133 checks</small></td><td><b>71.4%</b><small>95 / 133 checks</small></td><td><b>86.5%</b><small>115 / 133 checks</small></td><td><b>82.0%</b><small>109 / 133 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Equivalent numeric displays such as (84.6) and -84.6 can differ here; this is presentation fidelity.</p></article><article><h3>Inline currency and unit retained</h3><p>For labeled cells with an inline currency or suffix, checks those symbols in the resolved cell.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Inline currency and unit retained</th><td><b>60.9%</b><small>14 / 23 checks</small></td><td><b>26.1%</b><small>6 / 23 checks</small></td><td><b>78.3%</b><small>18 / 23 checks</small></td><td><b>78.3%</b><small>18 / 23 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. This checks symbols, not the numeric amount or a separate table-wide unit heading.</p></article><article><h3>Unit wording appears on the page</h3><p>Looks for labeled unit phrases such as “In billions, except per share amounts”.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Unit wording appears on the page</th><td><b>90.9%</b><small>10 / 11 checks</small></td><td><b>72.7%</b><small>8 / 11 checks</small></td><td><b>100.0%</b><small>11 / 11 checks</small></td><td><b>100.0%</b><small>11 / 11 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Presence alone cannot prove which numbers the unit applies to.</p></article><article><h3>Numbers recovered in complete reference matrices</h3><p>Counts matching numeric occurrences in four fully labeled data matrices, divided by their 58 expected numeric occurrences.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Numbers recovered in complete reference matrices</th><td><b>81.0%</b><small>47 / 58 values</small></td><td><b>69.0%</b><small>40 / 58 values</small></td><td><b>86.2%</b><small>50 / 58 values</small></td><td><b>86.2%</b><small>50 / 58 values</small></td></tr></tbody></table></div><p class="muted">Higher is better. Repeated values are counted; associations are ignored. Missing table/header matches reduce recall.</p></article><article><h3>Extracted matrix numbers match the reference</h3><p>Within the four declared matrices, divides matching numeric occurrences by the extracted occurrences admitted by the table/header matcher.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Extracted matrix numbers match the reference</th><td><b>100.0%</b><small>47 / 47 values</small></td><td><b>100.0%</b><small>40 / 40 values</small></td><td><b>100.0%</b><small>50 / 50 values</small></td><td><b>100.0%</b><small>50 / 50 values</small></td></tr></tbody></table></div><p class="muted">Higher is better. A 100% score can coexist with missing values: always read with recall. Zero extracted values gives N/A. This is not document-wide hallucination precision.</p></article></details><details><summary>Breakdown by source document — main checks only</summary><h3>CVS Health 2025 Q2 Earnings Presentation</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>EDF Consolidated Segmental Statement 2024</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>95.7%</b><small>22 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Hippodrome Casino Limited 2025 Full Accounts</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Peterborough Care Limited Unaudited Financial Statements 2025</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>91.7%</b><small>11 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>0.0%</b><small>0 / 2 checks</small></td><td><b>0.0%</b><small>0 / 2 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Rolls-Royce Holdings plc 2026 Half Year Results Presentation</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr><tr><th>Visual-card number appears on the page</th><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td></tr></tbody></table></div><h3>Rolls-Royce Holdings plc 2026 Half Year Results Press Release</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>31 / 31 checks</small></td><td><b>96.8%</b><small>30 / 31 checks</small></td><td><b>100.0%</b><small>31 / 31 checks</small></td><td><b>100.0%</b><small>31 / 31 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div></details><details><summary>Review source labels and failures in this category</summary><p>Original pages and relevant label records appear below. Failed checks are filtered to this category; full reference tables retain their source context.</p><h3>CVS Health 2025 Q2 Earnings Presentation</h3><p>12 PDF pages · <a href="https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf">Original public PDF</a></p><details id="cvs_2025q2-p6"><summary>PDF page 6 · 1 label records</summary><div class="page"><div class="source"><a href="assets/cvs_2025q2_6.png"><img loading="lazy" src="assets/cvs_2025q2_6.png" alt="Original PDF page 6"></a></div><div><article><div class="tag">table · critical · draft</div><h4>cvs_2025q2.p6.quarter_results</h4><p class="muted">Source region: Left-hand Quarter Results table; all five data rows</p><div class="scroll"><table>
+</style></head><body><nav><a href="workspace.html">Review labels</a><a href="index.html">Overview</a><a href="comparison.html">Page comparisons</a><a href="outputs.html">Full parsed results</a><a href="tables.html">Tables</a><a href="numbers.html" aria-current="page">Numbers</a><a href="text.html">Text &amp; organization</a><a href="labels.html">Source &amp; labels</a></nav><main><h1>Number retention</h1><div class="banner"><b>0 / 16 relevant label records human-verified in the saved benchmark.</b> This counts reference labels, not tables or parser checks. Browser decisions enter this count after export/import. <a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div><section class="metric-glossary card" id="metric-glossary" aria-labelledby="glossary-title"><h2 id="glossary-title">Metric glossary &amp; label JSON examples</h2><p>A <b>label</b> records the expected source content; a <b>metric</b> tests one aspect of the extracted output. One label can generate several checks. Every entry below includes its definition, how its fields are used, and a complete real JSON record from <a href="../labels.jsonl">labels.jsonl</a>.</p><p>Most scores are passed / applicable checks; higher is better. Character error rate is lower-is-better. Precision and recall count numeric occurrences. Missing or ambiguous matches fail applicable checks; N/A means not measured. These selected draft references are not independently verified gold.</p><p><a href="#evaluation-content">Skip glossary and continue to results ↓</a> · Expand any metric to see its JSON example.</p><details class="metric-example" id="metric-selected_value_presence" open><summary>Expected table number appears on the page</summary><p><code>selected_value_presence</code></p><p>Looks for each signed numeric amount and inline scale anywhere on its labeled page, ignoring row and column.</p><p class="muted">Higher is better. Repeated facts can be satisfied by the same occurrence; currency symbols are checked separately. This does not verify association.</p><p><b>How this label is checked:</b> Each numeric entry in rows[].values is sought anywhere on this page. Finding 98.9 under the wrong year still passes presence. Currency is ignored, but sign and inline suffix are retained.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-negative_value_accuracy"><summary>Negative values correct in their cells</summary><p><code>negative_value_accuracy</code></p><p>Checks the eighteen negative table expectations, including the amount and sign, in the correctly associated cell.</p><p class="muted">Higher is better. Parentheses and a minus sign are equivalent. Unresolved cells also fail, so failures are not necessarily lost minus signs.</p><p><b>How this label is checked:</b> rows[1].values[2] is (84.6), under EBITDA → Gas supply → Domestic. -84.6 passes; 84.6 or an unresolved cell fails.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;edf_2024.p3.segment_statement&quot;,
+  &quot;document&quot;: &quot;edf_2024&quot;,
+  &quot;page&quot;: 3,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Main table: selected total revenue, EBITDA, EBIT rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Aggregate supply business&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total revenue&quot;,
+      &quot;values&quot;: [
+        &quot;3,037.1&quot;,
+        &quot;8,674.9&quot;,
+        &quot;1,693.1&quot;,
+        &quot;126.6&quot;,
+        &quot;13,531.6&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBITDA&quot;,
+      &quot;values&quot;: [
+        &quot;174.9&quot;,
+        &quot;192.7&quot;,
+        &quot;(84.6)&quot;,
+        &quot;10.4&quot;,
+        &quot;293.4&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBIT&quot;,
+      &quot;values&quot;: [
+        &quot;164.2&quot;,
+        &quot;150.1&quot;,
+        &quot;(92.0)&quot;,
+        &quot;6.4&quot;,
+        &quot;228.7&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;£&#x27;M&quot;
+  ],
+  &quot;coverage&quot;: &quot;selected_rows&quot;,
+  &quot;header_spans&quot;: [
+    {
+      &quot;text&quot;: &quot;Electricity supply&quot;,
+      &quot;colspan&quot;: 2
+    },
+    {
+      &quot;text&quot;: &quot;Gas supply&quot;,
+      &quot;colspan&quot;: 2
+    }
+  ],
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;EDF supply business&quot;,
+    &quot;period&quot;: &quot;year ended 31 December 2024&quot;,
+    &quot;currency&quot;: &quot;GBP&quot;,
+    &quot;scale&quot;: &quot;million&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-visual_value_presence"><summary>Visual-card number appears on the page</summary><p><code>visual_value_presence</code></p><p>Looks for the five labeled slide-card amounts in the extracted page text.</p><p class="muted">Higher is better. Does not prove the number remains attached to its metric label.</p><p><b>How this label is checked:</b> value is £2.5bn. Finding 2.5bn anywhere on page 5 passes this amount-presence check, even without the currency symbol or its Operating profit label.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;rolls_royce_2026h1_presentation.p5.card_operating_profit&quot;,
+  &quot;document&quot;: &quot;rolls_royce_2026h1_presentation&quot;,
+  &quot;page&quot;: 5,
+  &quot;kind&quot;: &quot;visual_fact&quot;,
+  &quot;source_sha256&quot;: &quot;eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named metric card or divisional-margin panel&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;label&quot;: &quot;Operating profit&quot;,
+  &quot;value&quot;: &quot;£2.5bn&quot;,
+  &quot;next_label&quot;: &quot;Operating margin&quot;,
+  &quot;context&quot;: {
+    &quot;period&quot;: &quot;H1 2026&quot;,
+    &quot;basis&quot;: &quot;underlying for operating profit and margin&quot;
+  },
+  &quot;review_note&quot;: &quot;Next label bounds a proposed text-sequence diagnostic, not a required global reading order.&quot;
+}</code></pre></details><details class="metric-example" id="metric-display_form_accuracy"><summary>Original cell formatting retained</summary><p><code>display_form_accuracy</code></p><p>Compares each resolved cell with its source display after case, Unicode and whitespace normalization.</p><p class="muted">Higher is better. Equivalent numeric displays such as (84.6) and -84.6 can differ here; this is presentation fidelity.</p><p><b>How this label is checked:</b> For the expected (84.6), an extracted -84.6 is numerically correct but fails display-form accuracy. Comparison normalizes case, Unicode and whitespace, not equivalent numeric notation.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;edf_2024.p3.segment_statement&quot;,
+  &quot;document&quot;: &quot;edf_2024&quot;,
+  &quot;page&quot;: 3,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Main table: selected total revenue, EBITDA, EBIT rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Aggregate supply business&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total revenue&quot;,
+      &quot;values&quot;: [
+        &quot;3,037.1&quot;,
+        &quot;8,674.9&quot;,
+        &quot;1,693.1&quot;,
+        &quot;126.6&quot;,
+        &quot;13,531.6&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBITDA&quot;,
+      &quot;values&quot;: [
+        &quot;174.9&quot;,
+        &quot;192.7&quot;,
+        &quot;(84.6)&quot;,
+        &quot;10.4&quot;,
+        &quot;293.4&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBIT&quot;,
+      &quot;values&quot;: [
+        &quot;164.2&quot;,
+        &quot;150.1&quot;,
+        &quot;(92.0)&quot;,
+        &quot;6.4&quot;,
+        &quot;228.7&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;£&#x27;M&quot;
+  ],
+  &quot;coverage&quot;: &quot;selected_rows&quot;,
+  &quot;header_spans&quot;: [
+    {
+      &quot;text&quot;: &quot;Electricity supply&quot;,
+      &quot;colspan&quot;: 2
+    },
+    {
+      &quot;text&quot;: &quot;Gas supply&quot;,
+      &quot;colspan&quot;: 2
+    }
+  ],
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;EDF supply business&quot;,
+    &quot;period&quot;: &quot;year ended 31 December 2024&quot;,
+    &quot;currency&quot;: &quot;GBP&quot;,
+    &quot;scale&quot;: &quot;million&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-inline_currency_unit_accuracy"><summary>Inline currency and unit retained</summary><p><code>inline_currency_unit_accuracy</code></p><p>For labeled cells with an inline currency or suffix, checks those symbols in the resolved cell.</p><p class="muted">Higher is better. This checks symbols, not the numeric amount or a separate table-wide unit heading.</p><p><b>How this label is checked:</b> For rows[0].values[0] = $98.9, an extracted 98.9 fails because $ is missing. This diagnostic checks currency and suffix in the resolved cell, not the numeric amount.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-unit_evidence_retention"><summary>Unit wording appears on the page</summary><p><code>unit_evidence_retention</code></p><p>Looks for labeled unit phrases such as “In billions, except per share amounts”.</p><p class="muted">Higher is better. Presence alone cannot prove which numbers the unit applies to.</p><p><b>How this label is checked:</b> unit_evidence[0] supplies the exact phrase to find: In billions, except per share amounts. Presence does not prove which values the phrase qualifies.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-complete_matrix_numeric_recall"><summary>Numbers recovered in complete reference matrices</summary><p><code>complete_matrix_numeric_recall</code></p><p>Counts matching numeric occurrences in four fully labeled data matrices, divided by their 58 expected numeric occurrences.</p><p class="muted">Higher is better. Repeated values are counted; associations are ignored. Missing table/header matches reduce recall.</p><p><b>How this label is checked:</b> coverage = complete_data_matrix enables this check. All ten numeric occurrences in this full label are expected. If eight match, recall is 8/10 = 80%; their row associations are ignored.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-complete_matrix_numeric_precision"><summary>Extracted matrix numbers match the reference</summary><p><code>complete_matrix_numeric_precision</code></p><p>Within the four declared matrices, divides matching numeric occurrences by the extracted occurrences admitted by the table/header matcher.</p><p class="muted">Higher is better. A 100% score can coexist with missing values: always read with recall. Zero extracted values gives N/A. This is not document-wide hallucination precision.</p><p><b>How this label is checked:</b> The same complete matrix supplies the expected numeric multiset. If the matcher admits eight extracted occurrences and all eight match, precision is 8/8 = 100%, even though recall is only 8/10. No admitted numbers gives N/A precision.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details></section><div id="evaluation-content"></div><p><a href="workspace.html#numbers">Review this category’s labels →</a> Labels overlap across categories; approving a table reference also supports number checks.</p><h2>Did the expected numbers, signs and units survive?</h2><p>128 numeric table expectations, including 18 negative values; five additional visual-card values. Five blank/dash cells are excluded from numeric presence.</p><div class="card"><b>Example</b><p>If 98.9 survives but moves under the wrong year, page-level number presence passes and table association fails. If (84.6) becomes 84.6, the negative-value check fails.</p></div><p><b>Interpretation:</b> Finding a number anywhere on the page does not prove its meaning, row, year or unit. Sign and formatting checks use resolved table cells, so they also fail when a cell cannot be matched.</p><article><h3>Expected table number appears on the page</h3><p>Looks for each signed numeric amount and inline scale anywhere on its labeled page, ignoring row and column.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>98.4%</b><small>126 / 128 checks</small></td><td><b>99.2%</b><small>127 / 128 checks</small></td><td><b>100.0%</b><small>128 / 128 checks</small></td><td><b>100.0%</b><small>128 / 128 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Repeated facts can be satisfied by the same occurrence; currency symbols are checked separately. This does not verify association.</p></article><article><h3>Negative values correct in their cells</h3><p>Checks the eighteen negative table expectations, including the amount and sign, in the correctly associated cell.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Negative values correct in their cells</th><td><b>44.4%</b><small>8 / 18 checks</small></td><td><b>88.9%</b><small>16 / 18 checks</small></td><td><b>77.8%</b><small>14 / 18 checks</small></td><td><b>77.8%</b><small>14 / 18 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Parentheses and a minus sign are equivalent. Unresolved cells also fail, so failures are not necessarily lost minus signs.</p></article><article><h3>Visual-card number appears on the page</h3><p>Looks for the five labeled slide-card amounts in the extracted page text.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Visual-card number appears on the page</th><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Does not prove the number remains attached to its metric label.</p></article><details><summary>Supporting diagnostics — definitions and results</summary><article><h3>Original cell formatting retained</h3><p>Compares each resolved cell with its source display after case, Unicode and whitespace normalization.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Original cell formatting retained</th><td><b>40.6%</b><small>54 / 133 checks</small></td><td><b>71.4%</b><small>95 / 133 checks</small></td><td><b>86.5%</b><small>115 / 133 checks</small></td><td><b>82.0%</b><small>109 / 133 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Equivalent numeric displays such as (84.6) and -84.6 can differ here; this is presentation fidelity.</p></article><article><h3>Inline currency and unit retained</h3><p>For labeled cells with an inline currency or suffix, checks those symbols in the resolved cell.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Inline currency and unit retained</th><td><b>60.9%</b><small>14 / 23 checks</small></td><td><b>26.1%</b><small>6 / 23 checks</small></td><td><b>78.3%</b><small>18 / 23 checks</small></td><td><b>78.3%</b><small>18 / 23 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. This checks symbols, not the numeric amount or a separate table-wide unit heading.</p></article><article><h3>Unit wording appears on the page</h3><p>Looks for labeled unit phrases such as “In billions, except per share amounts”.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Unit wording appears on the page</th><td><b>90.9%</b><small>10 / 11 checks</small></td><td><b>72.7%</b><small>8 / 11 checks</small></td><td><b>100.0%</b><small>11 / 11 checks</small></td><td><b>100.0%</b><small>11 / 11 checks</small></td></tr></tbody></table></div><p class="muted">Higher is better. Presence alone cannot prove which numbers the unit applies to.</p></article><article><h3>Numbers recovered in complete reference matrices</h3><p>Counts matching numeric occurrences in four fully labeled data matrices, divided by their 58 expected numeric occurrences.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Numbers recovered in complete reference matrices</th><td><b>81.0%</b><small>47 / 58 values</small></td><td><b>69.0%</b><small>40 / 58 values</small></td><td><b>86.2%</b><small>50 / 58 values</small></td><td><b>86.2%</b><small>50 / 58 values</small></td></tr></tbody></table></div><p class="muted">Higher is better. Repeated values are counted; associations are ignored. Missing table/header matches reduce recall.</p></article><article><h3>Extracted matrix numbers match the reference</h3><p>Within the four declared matrices, divides matching numeric occurrences by the extracted occurrences admitted by the table/header matcher.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Extracted matrix numbers match the reference</th><td><b>100.0%</b><small>47 / 47 values</small></td><td><b>100.0%</b><small>40 / 40 values</small></td><td><b>100.0%</b><small>50 / 50 values</small></td><td><b>100.0%</b><small>50 / 50 values</small></td></tr></tbody></table></div><p class="muted">Higher is better. A 100% score can coexist with missing values: always read with recall. Zero extracted values gives N/A. This is not document-wide hallucination precision.</p></article></details><details><summary>Breakdown by source document — main checks only</summary><h3>CVS Health 2025 Q2 Earnings Presentation</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td><td><b>100.0%</b><small>10 / 10 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>EDF Consolidated Segmental Statement 2024</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>95.7%</b><small>22 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td><td><b>100.0%</b><small>23 / 23 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td><td><b>100.0%</b><small>4 / 4 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Hippodrome Casino Limited 2025 Full Accounts</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td><td><b>100.0%</b><small>28 / 28 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td><td><b>100.0%</b><small>8 / 8 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Peterborough Care Limited Unaudited Financial Statements 2025</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>91.7%</b><small>11 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 2 checks</small></td><td><b>100.0%</b><small>2 / 2 checks</small></td><td><b>0.0%</b><small>0 / 2 checks</small></td><td><b>0.0%</b><small>0 / 2 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div><h3>Rolls-Royce Holdings plc 2026 Half Year Results Presentation</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td><td><b>100.0%</b><small>24 / 24 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr><tr><th>Visual-card number appears on the page</th><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td><td><b>80.0%</b><small>4 / 5 checks</small></td><td><b>100.0%</b><small>5 / 5 checks</small></td></tr></tbody></table></div><h3>Rolls-Royce Holdings plc 2026 Half Year Results Press Release</h3><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Expected table number appears on the page</th><td><b>100.0%</b><small>31 / 31 checks</small></td><td><b>96.8%</b><small>30 / 31 checks</small></td><td><b>100.0%</b><small>31 / 31 checks</small></td><td><b>100.0%</b><small>31 / 31 checks</small></td></tr><tr><th>Negative values correct in their cells</th><td><b>0.0%</b><small>0 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td><td><b>50.0%</b><small>2 / 4 checks</small></td></tr><tr><th>Visual-card number appears on the page</th><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td><td class="muted">N/A</td></tr></tbody></table></div></details><details><summary>Review source labels and failures in this category</summary><p>Original pages and relevant label records appear below. Failed checks are filtered to this category; full reference tables retain their source context.</p><h3>CVS Health 2025 Q2 Earnings Presentation</h3><p>12 PDF pages · <a href="https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf">Original public PDF</a></p><details id="cvs_2025q2-p6"><summary>PDF page 6 · 1 label records</summary><div class="page"><div class="source"><a href="assets/cvs_2025q2_6.png"><img loading="lazy" src="assets/cvs_2025q2_6.png" alt="Original PDF page 6"></a></div><div><article><div class="tag">table · critical · draft</div><h4>cvs_2025q2.p6.quarter_results</h4><p class="muted">Source region: Left-hand Quarter Results table; all five data rows</p><div class="scroll"><table>
 <tr>
 <th rowspan="1"></th>
 <th colspan="1" rowspan="1">2Q 2025</th>

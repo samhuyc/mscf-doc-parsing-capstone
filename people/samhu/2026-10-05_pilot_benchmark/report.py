@@ -71,13 +71,20 @@ nav,.links{display:flex;gap:18px;flex-wrap:wrap}nav{padding-bottom:18px;border-b
 
 
 def page_start(title, active, verified, total):
+    from metric_glossary import glossary_html
+    names = None
+    if active in GROUPS:
+        names = GROUPS[active]['primary'] + GROUPS[active]['extra']
+        if active == 'text':
+            names += list(UNSCORED)
+    glossary = glossary_html(read_jsonl(ROOT/'labels.jsonl'), METRICS, UNSCORED, names)
     links = [('workspace','Review labels'),('index','Overview'),('comparison','Page comparisons'),('outputs','Full parsed results'),('tables','Tables'),('numbers','Numbers'),('text','Text & organization'),('labels','Source & labels')]
     nav = ''.join(f'<a href="{key}.html"' + (' aria-current="page"' if key == active else '') + '>' + e(name) + '</a>' for key,name in links)
     return ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>' + e(title) + ' · sponsor pilot</title><style>' + CSS + '</style></head><body><nav>' + nav + '</nav><main>'
             '<h1>' + e(title) + '</h1><div class="banner"><b>' + str(verified) + ' / ' + str(total) + ' relevant label records human-verified in the saved benchmark.</b> '
             'This counts reference labels, not tables or parser checks. Browser decisions enter this count after export/import. '
-            '<a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div>')
+            '<a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div>' + glossary)
 
 
 def page_end():

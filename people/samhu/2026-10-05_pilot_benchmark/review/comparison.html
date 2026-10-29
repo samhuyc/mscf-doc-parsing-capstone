@@ -10,7 +10,1108 @@ article,.card{background:white;border:1px solid #d8e2df;padding:20px;margin:16px
 dt{font-size:12px;color:#52666b;margin-top:8px}dd{margin:3px 0;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;background:#eef2f1;padding:12px}
 nav,.links{display:flex;gap:18px;flex-wrap:wrap}nav{padding-bottom:18px;border-bottom:1px solid #d8e2df}nav a[aria-current]{font-weight:700;color:#173033;text-decoration:none}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 @media(max-width:850px){body{padding:16px}.page,.cards{display:block}.source{position:static}h1{font-size:27px}}
-</style></head><body><nav><a href="workspace.html">Review labels</a><a href="index.html">Overview</a><a href="comparison.html" aria-current="page">Page comparisons</a><a href="outputs.html">Full parsed results</a><a href="tables.html">Tables</a><a href="numbers.html">Numbers</a><a href="text.html">Text &amp; organization</a><a href="labels.html">Source &amp; labels</a></nav><main><h1>Same page, four pipelines</h1><div class="banner"><b>0 / 54 relevant label records human-verified in the saved benchmark.</b> This counts reference labels, not tables or parser checks. Browser decisions enter this count after export/import. <a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div><style>.comparison-source{max-width:650px;margin:20px auto}.comparison-source img{width:100%}.predictions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.prediction{min-width:0}.prediction .parsed{max-height:620px;overflow:auto;border:1px solid #ccd8d3;padding:14px;font-size:13px;background:#fff}.parsed img{max-width:100%}.parsed h1{font-size:22px}.parsed h2{font-size:19px}.parsed table{font-size:11px}.example{border-top:3px solid #234e49;margin-top:40px;padding-top:15px}@media(max-width:850px){.predictions{display:block}}</style>
+</style></head><body><nav><a href="workspace.html">Review labels</a><a href="index.html">Overview</a><a href="comparison.html" aria-current="page">Page comparisons</a><a href="outputs.html">Full parsed results</a><a href="tables.html">Tables</a><a href="numbers.html">Numbers</a><a href="text.html">Text &amp; organization</a><a href="labels.html">Source &amp; labels</a></nav><main><h1>Same page, four pipelines</h1><div class="banner"><b>0 / 54 relevant label records human-verified in the saved benchmark.</b> This counts reference labels, not tables or parser checks. Browser decisions enter this count after export/import. <a href="workspace.html">Review labels here</a>. Performance results include drafts and remain preliminary.</div><section class="metric-glossary card" id="metric-glossary" aria-labelledby="glossary-title"><h2 id="glossary-title">Metric glossary &amp; label JSON examples</h2><p>A <b>label</b> records the expected source content; a <b>metric</b> tests one aspect of the extracted output. One label can generate several checks. Every entry below includes its definition, how its fields are used, and a complete real JSON record from <a href="../labels.jsonl">labels.jsonl</a>.</p><p>Most scores are passed / applicable checks; higher is better. Character error rate is lower-is-better. Precision and recall count numeric occurrences. Missing or ambiguous matches fail applicable checks; N/A means not measured. These selected draft references are not independently verified gold.</p><p><a href="#evaluation-content">Skip glossary and continue to results ↓</a> · Expand any metric to see its JSON example.</p><details class="metric-example" id="metric-associated_value_accuracy" open><summary>Correct value in the correct cell</summary><p><code>associated_value_accuracy</code></p><p>Checks the expected amount and inline scale under the labeled row and full column-header path.</p><p class="muted">Higher is better. Missing or ambiguous matches fail. Inline currency is checked separately.</p><p><b>How this label is checked:</b> Read rows[0].values[0] under columns[0].header_path: Total Revenues → 2Q 2025 → $98.9. Moving 98.9 to the 2024 column fails; dropping only the dollar sign does not fail this amount check.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-row_header_resolved"><summary>Row and column can be identified</summary><p><code>row_header_resolved</code></p><p>Checks whether the adapter finds exactly one cell for the labeled row and header path, before judging its value.</p><p class="muted">Higher is better. A gap between this and correct-cell accuracy means some located cells contain incorrect values.</p><p><b>How this label is checked:</b> The scorer must find exactly one cell at Total Revenues → 2Q 2025. A located cell containing 91.2 passes this structural check but fails correct-value accuracy.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-table_detected_by_row_labels"><summary>Reference table can be located</summary><p><code>table_detected_by_row_labels</code></p><p>Chooses a unique table using exact normalized row-label matches, without looking at the expected values.</p><p class="muted">Higher is better. This is a matching diagnostic, not a general table-detector accuracy score.</p><p><b>How this label is checked:</b> rows[].label supplies the table-matching evidence. The unique table with the most matching row labels is selected; rows[].values is not used to choose it.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-explicit_header_span_accuracy"><summary>Selected merged headers retained</summary><p><code>explicit_header_span_accuracy</code></p><p>Checks the two labeled EDF headers for their expected row and column spans.</p><p class="muted">Higher is better. Only two assertions on one document; not a broad merged-cell benchmark.</p><p><b>How this label is checked:</b> header_spans requires Electricity supply and Gas supply each to span two columns. Omitted rowspan means one row. Correct header words without the required span fail.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;edf_2024.p3.segment_statement&quot;,
+  &quot;document&quot;: &quot;edf_2024&quot;,
+  &quot;page&quot;: 3,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Main table: selected total revenue, EBITDA, EBIT rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Aggregate supply business&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total revenue&quot;,
+      &quot;values&quot;: [
+        &quot;3,037.1&quot;,
+        &quot;8,674.9&quot;,
+        &quot;1,693.1&quot;,
+        &quot;126.6&quot;,
+        &quot;13,531.6&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBITDA&quot;,
+      &quot;values&quot;: [
+        &quot;174.9&quot;,
+        &quot;192.7&quot;,
+        &quot;(84.6)&quot;,
+        &quot;10.4&quot;,
+        &quot;293.4&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBIT&quot;,
+      &quot;values&quot;: [
+        &quot;164.2&quot;,
+        &quot;150.1&quot;,
+        &quot;(92.0)&quot;,
+        &quot;6.4&quot;,
+        &quot;228.7&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;£&#x27;M&quot;
+  ],
+  &quot;coverage&quot;: &quot;selected_rows&quot;,
+  &quot;header_spans&quot;: [
+    {
+      &quot;text&quot;: &quot;Electricity supply&quot;,
+      &quot;colspan&quot;: 2
+    },
+    {
+      &quot;text&quot;: &quot;Gas supply&quot;,
+      &quot;colspan&quot;: 2
+    }
+  ],
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;EDF supply business&quot;,
+    &quot;period&quot;: &quot;year ended 31 December 2024&quot;,
+    &quot;currency&quot;: &quot;GBP&quot;,
+    &quot;scale&quot;: &quot;million&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-selected_value_presence"><summary>Expected table number appears on the page</summary><p><code>selected_value_presence</code></p><p>Looks for each signed numeric amount and inline scale anywhere on its labeled page, ignoring row and column.</p><p class="muted">Higher is better. Repeated facts can be satisfied by the same occurrence; currency symbols are checked separately. This does not verify association.</p><p><b>How this label is checked:</b> Each numeric entry in rows[].values is sought anywhere on this page. Finding 98.9 under the wrong year still passes presence. Currency is ignored, but sign and inline suffix are retained.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-negative_value_accuracy"><summary>Negative values correct in their cells</summary><p><code>negative_value_accuracy</code></p><p>Checks the eighteen negative table expectations, including the amount and sign, in the correctly associated cell.</p><p class="muted">Higher is better. Parentheses and a minus sign are equivalent. Unresolved cells also fail, so failures are not necessarily lost minus signs.</p><p><b>How this label is checked:</b> rows[1].values[2] is (84.6), under EBITDA → Gas supply → Domestic. -84.6 passes; 84.6 or an unresolved cell fails.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;edf_2024.p3.segment_statement&quot;,
+  &quot;document&quot;: &quot;edf_2024&quot;,
+  &quot;page&quot;: 3,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Main table: selected total revenue, EBITDA, EBIT rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Aggregate supply business&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total revenue&quot;,
+      &quot;values&quot;: [
+        &quot;3,037.1&quot;,
+        &quot;8,674.9&quot;,
+        &quot;1,693.1&quot;,
+        &quot;126.6&quot;,
+        &quot;13,531.6&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBITDA&quot;,
+      &quot;values&quot;: [
+        &quot;174.9&quot;,
+        &quot;192.7&quot;,
+        &quot;(84.6)&quot;,
+        &quot;10.4&quot;,
+        &quot;293.4&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBIT&quot;,
+      &quot;values&quot;: [
+        &quot;164.2&quot;,
+        &quot;150.1&quot;,
+        &quot;(92.0)&quot;,
+        &quot;6.4&quot;,
+        &quot;228.7&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;£&#x27;M&quot;
+  ],
+  &quot;coverage&quot;: &quot;selected_rows&quot;,
+  &quot;header_spans&quot;: [
+    {
+      &quot;text&quot;: &quot;Electricity supply&quot;,
+      &quot;colspan&quot;: 2
+    },
+    {
+      &quot;text&quot;: &quot;Gas supply&quot;,
+      &quot;colspan&quot;: 2
+    }
+  ],
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;EDF supply business&quot;,
+    &quot;period&quot;: &quot;year ended 31 December 2024&quot;,
+    &quot;currency&quot;: &quot;GBP&quot;,
+    &quot;scale&quot;: &quot;million&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-visual_value_presence"><summary>Visual-card number appears on the page</summary><p><code>visual_value_presence</code></p><p>Looks for the five labeled slide-card amounts in the extracted page text.</p><p class="muted">Higher is better. Does not prove the number remains attached to its metric label.</p><p><b>How this label is checked:</b> value is £2.5bn. Finding 2.5bn anywhere on page 5 passes this amount-presence check, even without the currency symbol or its Operating profit label.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;rolls_royce_2026h1_presentation.p5.card_operating_profit&quot;,
+  &quot;document&quot;: &quot;rolls_royce_2026h1_presentation&quot;,
+  &quot;page&quot;: 5,
+  &quot;kind&quot;: &quot;visual_fact&quot;,
+  &quot;source_sha256&quot;: &quot;eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named metric card or divisional-margin panel&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;label&quot;: &quot;Operating profit&quot;,
+  &quot;value&quot;: &quot;£2.5bn&quot;,
+  &quot;next_label&quot;: &quot;Operating margin&quot;,
+  &quot;context&quot;: {
+    &quot;period&quot;: &quot;H1 2026&quot;,
+    &quot;basis&quot;: &quot;underlying for operating profit and margin&quot;
+  },
+  &quot;review_note&quot;: &quot;Next label bounds a proposed text-sequence diagnostic, not a required global reading order.&quot;
+}</code></pre></details><details class="metric-example" id="metric-display_form_accuracy"><summary>Original cell formatting retained</summary><p><code>display_form_accuracy</code></p><p>Compares each resolved cell with its source display after case, Unicode and whitespace normalization.</p><p class="muted">Higher is better. Equivalent numeric displays such as (84.6) and -84.6 can differ here; this is presentation fidelity.</p><p><b>How this label is checked:</b> For the expected (84.6), an extracted -84.6 is numerically correct but fails display-form accuracy. Comparison normalizes case, Unicode and whitespace, not equivalent numeric notation.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;edf_2024.p3.segment_statement&quot;,
+  &quot;document&quot;: &quot;edf_2024&quot;,
+  &quot;page&quot;: 3,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Main table: selected total revenue, EBITDA, EBIT rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Electricity supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Gas supply&quot;,
+        &quot;Non Domestic&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;Aggregate supply business&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total revenue&quot;,
+      &quot;values&quot;: [
+        &quot;3,037.1&quot;,
+        &quot;8,674.9&quot;,
+        &quot;1,693.1&quot;,
+        &quot;126.6&quot;,
+        &quot;13,531.6&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBITDA&quot;,
+      &quot;values&quot;: [
+        &quot;174.9&quot;,
+        &quot;192.7&quot;,
+        &quot;(84.6)&quot;,
+        &quot;10.4&quot;,
+        &quot;293.4&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;EBIT&quot;,
+      &quot;values&quot;: [
+        &quot;164.2&quot;,
+        &quot;150.1&quot;,
+        &quot;(92.0)&quot;,
+        &quot;6.4&quot;,
+        &quot;228.7&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;£&#x27;M&quot;
+  ],
+  &quot;coverage&quot;: &quot;selected_rows&quot;,
+  &quot;header_spans&quot;: [
+    {
+      &quot;text&quot;: &quot;Electricity supply&quot;,
+      &quot;colspan&quot;: 2
+    },
+    {
+      &quot;text&quot;: &quot;Gas supply&quot;,
+      &quot;colspan&quot;: 2
+    }
+  ],
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;EDF supply business&quot;,
+    &quot;period&quot;: &quot;year ended 31 December 2024&quot;,
+    &quot;currency&quot;: &quot;GBP&quot;,
+    &quot;scale&quot;: &quot;million&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-inline_currency_unit_accuracy"><summary>Inline currency and unit retained</summary><p><code>inline_currency_unit_accuracy</code></p><p>For labeled cells with an inline currency or suffix, checks those symbols in the resolved cell.</p><p class="muted">Higher is better. This checks symbols, not the numeric amount or a separate table-wide unit heading.</p><p><b>How this label is checked:</b> For rows[0].values[0] = $98.9, an extracted 98.9 fails because $ is missing. This diagnostic checks currency and suffix in the resolved cell, not the numeric amount.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-unit_evidence_retention"><summary>Unit wording appears on the page</summary><p><code>unit_evidence_retention</code></p><p>Looks for labeled unit phrases such as “In billions, except per share amounts”.</p><p class="muted">Higher is better. Presence alone cannot prove which numbers the unit applies to.</p><p><b>How this label is checked:</b> unit_evidence[0] supplies the exact phrase to find: In billions, except per share amounts. Presence does not prove which values the phrase qualifies.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-complete_matrix_numeric_recall"><summary>Numbers recovered in complete reference matrices</summary><p><code>complete_matrix_numeric_recall</code></p><p>Counts matching numeric occurrences in four fully labeled data matrices, divided by their 58 expected numeric occurrences.</p><p class="muted">Higher is better. Repeated values are counted; associations are ignored. Missing table/header matches reduce recall.</p><p><b>How this label is checked:</b> coverage = complete_data_matrix enables this check. All ten numeric occurrences in this full label are expected. If eight match, recall is 8/10 = 80%; their row associations are ignored.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-complete_matrix_numeric_precision"><summary>Extracted matrix numbers match the reference</summary><p><code>complete_matrix_numeric_precision</code></p><p>Within the four declared matrices, divides matching numeric occurrences by the extracted occurrences admitted by the table/header matcher.</p><p class="muted">Higher is better. A 100% score can coexist with missing values: always read with recall. Zero extracted values gives N/A. This is not document-wide hallucination precision.</p><p><b>How this label is checked:</b> The same complete matrix supplies the expected numeric multiset. If the matcher admits eight extracted occurrences and all eight match, precision is 8/8 = 100%, even though recall is only 8/10. No admitted numbers gives N/A precision.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.quarter_results&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;table&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Left-hand Quarter Results table; all five data rows&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;columns&quot;: [
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2025&quot;
+      ]
+    },
+    {
+      &quot;header_path&quot;: [
+        &quot;2Q 2024&quot;
+      ]
+    }
+  ],
+  &quot;rows&quot;: [
+    {
+      &quot;label&quot;: &quot;Total Revenues&quot;,
+      &quot;values&quot;: [
+        &quot;$98.9&quot;,
+        &quot;$91.2&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Operating Income&quot;,
+      &quot;values&quot;: [
+        &quot;$3.81&quot;,
+        &quot;$3.74&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;GAAP Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$0.80&quot;,
+        &quot;$1.41&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Adjusted Earnings per Share&quot;,
+      &quot;values&quot;: [
+        &quot;$1.81&quot;,
+        &quot;$1.83&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;Cash Flow from Operations&quot;,
+      &quot;values&quot;: [
+        &quot;$1.9&quot;,
+        &quot;$3.1&quot;
+      ]
+    }
+  ],
+  &quot;unit_evidence&quot;: [
+    &quot;In billions, except per share amounts&quot;
+  ],
+  &quot;coverage&quot;: &quot;complete_data_matrix&quot;,
+  &quot;context&quot;: {
+    &quot;entity&quot;: &quot;CVS Health&quot;,
+    &quot;currency&quot;: &quot;USD&quot;,
+    &quot;scale&quot;: &quot;billions except EPS in dollars per share&quot;,
+    &quot;accounting_basis&quot;: &quot;Explicit GAAP/Adjusted qualifiers are part of row labels&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-text_span_retention"><summary>Selected text passages retained</summary><p><code>text_span_retention</code></p><p>Looks for the eight labeled source strings after case, Unicode and whitespace normalization.</p><p class="muted">Higher is better. Exact wording is required; this does not judge paraphrase meaning or all document text.</p><p><b>How this label is checked:</b> text is the expected phrase: Earnings Conference Call. It must occur after case, Unicode and whitespace normalization; paraphrasing does not count.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.title&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;text&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Central title&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Earnings Conference Call&quot;
+}</code></pre></details><details class="metric-example" id="metric-footnote_text_retention"><summary>Footnote wording retained</summary><p><code>footnote_text_retention</code></p><p>Looks for the five labeled footnote strings in the extracted page text.</p><p class="muted">Higher is better. Correct attachment to the referenced table or fact is not established.</p><p><b>How this label is checked:</b> text supplies the footnote wording, including punctuation. marker and target document the source relationship but are not tested by this retention check. A missing final period can fail.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p12.prescription_note&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 12,
+  &quot;kind&quot;: &quot;footnote&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Footnote 1&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.&quot;,
+  &quot;marker&quot;: &quot;1&quot;,
+  &quot;target&quot;: {
+    &quot;description&quot;: &quot;90-day prescription adjustment; target links on other slides not annotated&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-reading_order_accuracy"><summary>Selected text pairs in the right order</summary><p><code>reading_order_accuracy</code></p><p>Checks that both anchors appear exactly once and the first comes before the second.</p><p class="muted">Higher is better. Missing or repeated anchors fail; seven pairs cannot establish full-document reading order.</p><p><b>How this label is checked:</b> before and after are text anchors. Consolidated Results must occur once and precede the single occurrence of Total Revenues. Missing or repeated anchors fail.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p6.order_title_table&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 6,
+  &quot;kind&quot;: &quot;reading_order&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named source blocks; only this pair has a required order&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;before&quot;: &quot;Consolidated Results&quot;,
+  &quot;after&quot;: &quot;Total Revenues&quot;
+}</code></pre></details><details class="metric-example" id="metric-matched_span_character_error_rate"><summary>Character errors in selected text</summary><p><code>matched_span_character_error_rate</code></p><p>Aligns each of thirteen text/footnote references to its best matching page-text span, then counts character edits relative to reference length.</p><p class="muted">Lower is better. This is a fuzzy-aligned diagnostic on selected spans, not whole-page OCR error.</p><p><b>How this label is checked:</b> text supplies the reference for fuzzy span alignment. Earnings Conference Call has 24 normalized characters: one substitution in an otherwise matching span gives 1/24 ≈ 4.2% CER. Insertions and deletions also count. Footnote labels generate this metric too.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.title&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;text&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Central title&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Earnings Conference Call&quot;
+}</code></pre></details><details class="metric-example" id="metric-visual_label_value_sequence"><summary>Visual label and value follow the expected text sequence</summary><p><code>visual_label_value_sequence</code></p><p>Looks for the expected amount between its metric label and the next labeled card within a short text window.</p><p class="muted">Higher is better. Valid alternative reading orders can fail; textual proximity does not prove a visual relationship.</p><p><b>How this label is checked:</b> The scorer looks for value between label and next_label: Operating profit → £2.5bn → Operating margin. The default window is 120 characters when max_chars is absent. Unlike amount presence, this check includes the currency symbol.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;rolls_royce_2026h1_presentation.p5.card_operating_profit&quot;,
+  &quot;document&quot;: &quot;rolls_royce_2026h1_presentation&quot;,
+  &quot;page&quot;: 5,
+  &quot;kind&quot;: &quot;visual_fact&quot;,
+  &quot;source_sha256&quot;: &quot;eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named metric card or divisional-margin panel&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;label&quot;: &quot;Operating profit&quot;,
+  &quot;value&quot;: &quot;£2.5bn&quot;,
+  &quot;next_label&quot;: &quot;Operating margin&quot;,
+  &quot;context&quot;: {
+    &quot;period&quot;: &quot;H1 2026&quot;,
+    &quot;basis&quot;: &quot;underlying for operating profit and margin&quot;
+  },
+  &quot;review_note&quot;: &quot;Next label bounds a proposed text-sequence diagnostic, not a required global reading order.&quot;
+}</code></pre></details><details class="metric-example" id="metric-metadata_evidence_retention"><summary>Document identity wording retained</summary><p><code>metadata_evidence_retention</code></p><p>Looks for source wording supporting issuer, period and document type: eighteen field-evidence checks.</p><p class="muted">Higher is better. Does not evaluate extracted metadata fields, since existing metadata contains manifest-supplied information.</p><p><b>How this label is checked:</b> evidence_text = CVS Health must survive in the page text. field and value describe the intended metadata; the check does not test whether an independent issuer field was extracted.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.metadata_issuer&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;metadata&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Cover/title block&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;field&quot;: &quot;issuer&quot;,
+  &quot;value&quot;: &quot;CVS Health&quot;,
+  &quot;evidence_text&quot;: &quot;CVS Health&quot;
+}</code></pre></details><details class="metric-example" id="metric-footnote_target_association"><summary>Footnote attachment</summary><p><code>footnote_target_association</code></p><p>Labels store the target, but automatic scoring cannot establish the attachment.</p><p class="muted">Not automatically scored — N/A.</p><p><b>How this label is checked:</b> target stores the intended relationship. The scorer records N/A because retaining the note wording does not establish correct attachment to its target.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p12.prescription_note&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 12,
+  &quot;kind&quot;: &quot;footnote&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Footnote 1&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;text&quot;: &quot;Includes an adjustment to convert 90-day prescriptions to the equivalent of three 30-day prescriptions.&quot;,
+  &quot;marker&quot;: &quot;1&quot;,
+  &quot;target&quot;: {
+    &quot;description&quot;: &quot;90-day prescription adjustment; target links on other slides not annotated&quot;
+  }
+}</code></pre></details><details class="metric-example" id="metric-visual_semantic_association"><summary>Visual meaning</summary><p><code>visual_semantic_association</code></p><p>Labels store metric–value relationships, but text order alone cannot verify their meaning.</p><p class="muted">Not automatically scored — N/A.</p><p><b>How this label is checked:</b> label and value describe the source relationship. The scorer records N/A: textual presence or sequence does not independently establish that the visual card was understood.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;rolls_royce_2026h1_presentation.p5.card_operating_profit&quot;,
+  &quot;document&quot;: &quot;rolls_royce_2026h1_presentation&quot;,
+  &quot;page&quot;: 5,
+  &quot;kind&quot;: &quot;visual_fact&quot;,
+  &quot;source_sha256&quot;: &quot;eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971&quot;,
+  &quot;importance&quot;: &quot;critical&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Named metric card or divisional-margin panel&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;label&quot;: &quot;Operating profit&quot;,
+  &quot;value&quot;: &quot;£2.5bn&quot;,
+  &quot;next_label&quot;: &quot;Operating margin&quot;,
+  &quot;context&quot;: {
+    &quot;period&quot;: &quot;H1 2026&quot;,
+    &quot;basis&quot;: &quot;underlying for operating profit and margin&quot;
+  },
+  &quot;review_note&quot;: &quot;Next label bounds a proposed text-sequence diagnostic, not a required global reading order.&quot;
+}</code></pre></details><details class="metric-example" id="metric-metadata_field_accuracy"><summary>Independent metadata extraction</summary><p><code>metadata_field_accuracy</code></p><p>Existing metadata uses source-manifest fields, so scoring it as an independent extraction would be misleading.</p><p class="muted">Not automatically scored — N/A.</p><p><b>How this label is checked:</b> field = issuer and value = CVS Health show the expected structured field. The scorer records N/A because existing metadata is supplied from the source manifest, not independently predicted.</p><p><b>Actual label record (JSON)</b> — shared across metrics where applicable; values follow the order of columns.</p><pre><code class="language-json">{
+  &quot;id&quot;: &quot;cvs_2025q2.p1.metadata_issuer&quot;,
+  &quot;document&quot;: &quot;cvs_2025q2&quot;,
+  &quot;page&quot;: 1,
+  &quot;kind&quot;: &quot;metadata&quot;,
+  &quot;source_sha256&quot;: &quot;afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a&quot;,
+  &quot;importance&quot;: &quot;supporting&quot;,
+  &quot;review_status&quot;: &quot;draft&quot;,
+  &quot;annotator&quot;: &quot;Codex assistant&quot;,
+  &quot;reviewer&quot;: null,
+  &quot;reviewed_at&quot;: null,
+  &quot;evidence&quot;: {
+    &quot;region&quot;: &quot;Cover/title block&quot;,
+    &quot;basis&quot;: &quot;Original PDF page rendered and visually inspected in this chat&quot;
+  },
+  &quot;annotation_date&quot;: &quot;2026-10-05&quot;,
+  &quot;field&quot;: &quot;issuer&quot;,
+  &quot;value&quot;: &quot;CVS Health&quot;,
+  &quot;evidence_text&quot;: &quot;CVS Health&quot;
+}</code></pre></details></section><div id="evaluation-content"></div><style>.comparison-source{max-width:650px;margin:20px auto}.comparison-source img{width:100%}.predictions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.prediction{min-width:0}.prediction .parsed{max-height:620px;overflow:auto;border:1px solid #ccd8d3;padding:14px;font-size:13px;background:#fff}.parsed img{max-width:100%}.parsed h1{font-size:22px}.parsed h2{font-size:19px}.parsed table{font-size:11px}.example{border-top:3px solid #234e49;margin-top:40px;padding-top:15px}@media(max-width:850px){.predictions{display:block}}</style>
     <p>Original page, selected-reference checks, then the four canonical page exports without value corrections. Examples span all six sources; they are illustrative, not a random sample. Table structure is rendered; raw Markdown remains available. Scroll inside each output to see its complete page.</p><p><a href="#peterborough_2025-p2">Scanned balance sheet</a> · <a href="#hippodrome_2025-p21">Scanned table exported as a picture</a> · <a href="#cvs_2025q2-p6">Digital financial slide</a> · <a href="#edf_2024-p3">Nested table headers</a> · <a href="#rolls_royce_2026h1_presentation-p9">Financial presentation</a> · <a href="#rolls_royce_2026h1_release-p13">Financial release</a></p><section class="example" id="peterborough_2025-p2"><h2>Scanned balance sheet</h2><p>Peterborough Care Limited Unaudited Financial Statements 2025 · physical PDF page 2</p><div class="comparison-source"><a href="assets/peterborough_2025_2.png"><img loading="lazy" src="assets/peterborough_2025_2.png" alt="Original PDF page 2"></a></div><div class="scroll"><table><thead><tr><th>Metric</th><th>MinerU OCR</th><th>MinerU VLM</th><th>PyMuPDF4LLM + Tesseract</th><th>PyMuPDF4LLM + VLM</th></tr></thead><tbody><tr><th>Correct value in the correct cell</th><td><b>0.0%</b><small>0 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>66.7%</b><small>8 / 12 checks</small></td><td><b>66.7%</b><small>8 / 12 checks</small></td></tr><tr><th>Expected table number appears on the page</th><td><b>91.7%</b><small>11 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td><td><b>100.0%</b><small>12 / 12 checks</small></td></tr></tbody></table></div><div class="card"><b>What to inspect</b><p>The source places some detail amounts to the left of each year’s total column. MinerU VLM exports these into one column per year. Both PyMuPDF exports keep separate detail/total columns, so the strict scorer misses some year associations despite retaining the amounts. The VLM OCR output also reads note number 7 as a mathematical symbol; that error is preserved, not corrected.</p></div><p>These counts cover selected labels on this page. A missing/ambiguous row or header fails association even when the number survives. The source image is the visual authority.</p><div class="predictions"><article class="prediction"><h3>MinerU OCR</h3><p><small>Full MinerU OCR pipeline</small> · <a href="../../2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/document.md">Full document</a></p><div class="parsed"><p>BALANCE SHEET AS AT 31 MARCH 2025</p>
 <table><tr><td>Note</td></tr><tr><td>2025 £</td></tr><tr><td>Fixed assets Tangible assets 4 967,756</td></tr><tr><td>Current assets</td></tr><tr><td>Debtors: amounts falling due within one year 5 2,278,941 4,936,255</td></tr><tr><td>Bank and cash balances 2,751,541 821,700</td></tr><tr><td>5,030,482 5,757,955 Creditors: amounts falling due within one year 6 (504,045) (508,936)</td></tr><tr><td>Net current assets 4,526,437</td></tr><tr><td>5,249,019</td></tr><tr><td>Total assets less current liabilities 5,494,193 6,241,486 Creditors: amounts falling due after more than one</td></tr><tr><td>year 7 (1,009,237) (1,046,848)</td></tr><tr><td>Net assets 4,484,956 5,194,638</td></tr><tr><td>Capital and reserves</td></tr><tr><td>Called up share capital 130 130</td></tr><tr><td>Share premium account 40,698 40,698</td></tr><tr><td>Profit and loss account 4,444,128 5,153,810</td></tr><tr><td>4,484,956 5,194,638</td></tr></table>
 <p>PETERBOROUGH CARE LIMITED REGISTERED NUMBER:01814662</p>

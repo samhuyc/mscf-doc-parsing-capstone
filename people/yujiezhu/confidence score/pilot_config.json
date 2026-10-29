@@ -1,0 +1,21 @@
+{
+  "datasets": {
+    "extractbench": {"repo": "llamaindex/ExtractBench", "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4"},
+    "longextract": {"repo": "micro1-inc/longextract-bench-50", "revision": "d4ca332f72f6d3649ecd11b69445a8f4ef5fcb02"}
+  },
+  "evaluators": {
+    "extractbench": {"repo": "run-llama/ExtractBench", "revision": "7004e297707163c492e5c449d89af3c708996f59"},
+    "longextract": {"repo": "micro1-research/longextract-bench", "revision": "b28888d7e864a84dfed810b00c899f308f0d24d0"}
+  },
+  "documents": [
+    {"dataset": "extractbench", "id": "short/aclu_cdwg_invoice", "reason": "Short scanned financial invoice; perception:P2."},
+    {"dataset": "extractbench", "id": "short/13f__audent_global_2025q4", "reason": "Short real SEC holdings list."},
+    {"dataset": "extractbench", "id": "medium/13f__nalls_sherbakoff_2025q4", "reason": "Medium real SEC holdings list, distinct issuer."},
+    {"dataset": "extractbench", "id": "medium/baker_hughes_earnings_deck_q4fy25", "reason": "Medium earnings presentation with targeted financial extraction."},
+    {"dataset": "extractbench", "id": "long/real_credit_strategies_full", "reason": "Long synthetic financial table list with hierarchical headers and page continuation."},
+    {"dataset": "extractbench", "id": "long/dd1155_schedule_continuation_0011", "reason": "Long real procurement document with targeted and dense extraction."},
+    {"dataset": "longextract", "id": "06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1", "reason": "Budget-versus-actual financial reporting; page count verified after download."},
+    {"dataset": "longextract", "id": "m1__Calibration__Quarterly_Report__10-Q__-_JPMorgan", "reason": "Quarterly financial filing with repeated financial tables."},
+    {"dataset": "longextract", "id": "06_10_26_Federal_Reserve_Z_1_Financial_Accounts_of_the_United_States_e", "reason": "Financial accounts statistical tables; longer-document stress case."}
+  ]
+}

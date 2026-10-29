@@ -1,0 +1,23 @@
+[
+  {
+    "local_id": "01_extractbench",
+    "parsed_pages": 1,
+    "markdown_characters": 2708,
+    "html_tables": 3,
+    "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "02_extractbench",
+    "parsed_pages": 2,
+    "markdown_characters": 10054,
+    "html_tables": 2,
+    "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "03_extractbench",
+    "parsed_pages": 12,
+    "markdown_characters": 71152,
+    "html_tables": 11,
+    "interpretation": "Output inventory, not correctness metrics"
+  }
+]

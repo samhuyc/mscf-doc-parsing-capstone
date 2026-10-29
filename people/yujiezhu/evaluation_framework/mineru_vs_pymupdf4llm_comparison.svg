@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1960" viewBox="0 0 1500 1960">
+<rect width="100%" height="100%" fill="#F5F2EA"/>
+<rect x="0" y="0" width="18" height="1960" fill="#087F72"/>
+<text x="55" y="70" font-family="Inter,Arial,sans-serif" font-size="40" font-weight="750" fill="#173033" text-anchor="start">Sponsor PDF parser comparison</text>
+<text x="55" y="108" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500" fill="#496063" text-anchor="start">MinerU OCR · MinerU VLM · PyMuPDF4LLM</text>
+<text x="55" y="142" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="400" fill="#667779" text-anchor="start">October 5 pilot summaries · higher is better for all quality metrics shown</text>
+<rect x="745" y="66" width="18" height="18" rx="3" fill="#D66B3D"/>
+<text x="773" y="81" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">MinerU OCR</text>
+<rect x="980" y="66" width="18" height="18" rx="3" fill="#6659A5"/>
+<text x="1008" y="81" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">MinerU VLM</text>
+<rect x="1215" y="66" width="18" height="18" rx="3" fill="#087F72"/>
+<text x="1243" y="81" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">PyMuPDF4LLM</text>
+<rect x="40" y="180" width="1405" height="42" rx="7" fill="#E2EAE6"/>
+<text x="55" y="209" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#315A57" text-anchor="start">TABLE UNDERSTANDING</text>
+<text x="55" y="273" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Correct value in correct cell</text>
+<text x="55" y="295" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">133 cells</text>
+<line x1="510.0" y1="251" x2="510.0" y2="311" stroke="#D9DEDA" stroke-width="1"/>
+<text x="510.0" y="245" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">0%</text>
+<line x1="715.0" y1="251" x2="715.0" y2="311" stroke="#D9DEDA" stroke-width="1"/>
+<text x="715.0" y="245" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">25%</text>
+<line x1="920.0" y1="251" x2="920.0" y2="311" stroke="#D9DEDA" stroke-width="1"/>
+<text x="920.0" y="245" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">50%</text>
+<line x1="1125.0" y1="251" x2="1125.0" y2="311" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1125.0" y="245" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">75%</text>
+<line x1="1330.0" y1="251" x2="1330.0" y2="311" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1330.0" y="245" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">100%</text>
+<rect x="510" y="260" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="260" width="332.93" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="271" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">41%  (54/133)</text>
+<rect x="510" y="277" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="277" width="585.71" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="288" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">71%  (95/133)</text>
+<rect x="510" y="294" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="294" width="709.02" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="305" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">86%  (115/133)</text>
+<text x="55" y="345" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Row and header uniquely resolved</text>
+<text x="55" y="367" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">133 cells</text>
+<line x1="510.0" y1="323" x2="510.0" y2="383" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="323" x2="715.0" y2="383" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="323" x2="920.0" y2="383" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="323" x2="1125.0" y2="383" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="323" x2="1330.0" y2="383" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="332" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="332" width="351.43" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="343" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">43%  (57/133)</text>
+<rect x="510" y="349" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="349" width="585.71" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="360" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">71%  (95/133)</text>
+<rect x="510" y="366" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="366" width="733.68" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="377" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">89%  (119/133)</text>
+<text x="55" y="417" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Reference table located</text>
+<text x="55" y="439" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">11 tables</text>
+<line x1="510.0" y1="395" x2="510.0" y2="455" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="395" x2="715.0" y2="455" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="395" x2="920.0" y2="455" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="395" x2="1125.0" y2="455" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="395" x2="1330.0" y2="455" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="404" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="404" width="670.91" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="415" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">82%  (9/11)</text>
+<rect x="510" y="421" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="421" width="820.00" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="432" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">100%  (11/11)</text>
+<rect x="510" y="438" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="438" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="449" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (11/11)</text>
+<text x="55" y="489" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Selected merged headers retained</text>
+<text x="55" y="511" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">2 assertions</text>
+<line x1="510.0" y1="467" x2="510.0" y2="527" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="467" x2="715.0" y2="527" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="467" x2="920.0" y2="527" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="467" x2="1125.0" y2="527" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="467" x2="1330.0" y2="527" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="476" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="476" width="0.00" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="487" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">0%  (0/2)</text>
+<rect x="510" y="493" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="493" width="820.00" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="504" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">100%  (2/2)</text>
+<rect x="510" y="510" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="510" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="521" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (2/2)</text>
+<rect x="40" y="548" width="1405" height="42" rx="7" fill="#E2EAE6"/>
+<text x="55" y="577" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#315A57" text-anchor="start">FINANCIAL NUMBER FIDELITY</text>
+<text x="55" y="641" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Expected table number appears</text>
+<text x="55" y="663" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">128 values</text>
+<line x1="510.0" y1="619" x2="510.0" y2="679" stroke="#D9DEDA" stroke-width="1"/>
+<text x="510.0" y="613" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">0%</text>
+<line x1="715.0" y1="619" x2="715.0" y2="679" stroke="#D9DEDA" stroke-width="1"/>
+<text x="715.0" y="613" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">25%</text>
+<line x1="920.0" y1="619" x2="920.0" y2="679" stroke="#D9DEDA" stroke-width="1"/>
+<text x="920.0" y="613" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">50%</text>
+<line x1="1125.0" y1="619" x2="1125.0" y2="679" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1125.0" y="613" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">75%</text>
+<line x1="1330.0" y1="619" x2="1330.0" y2="679" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1330.0" y="613" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">100%</text>
+<rect x="510" y="628" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="628" width="807.19" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="639" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">98%  (126/128)</text>
+<rect x="510" y="645" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="645" width="813.59" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="656" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">99%  (127/128)</text>
+<rect x="510" y="662" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="662" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="673" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (128/128)</text>
+<text x="55" y="713" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Negative values correct in cell</text>
+<text x="55" y="735" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">18 negatives</text>
+<line x1="510.0" y1="691" x2="510.0" y2="751" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="691" x2="715.0" y2="751" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="691" x2="920.0" y2="751" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="691" x2="1125.0" y2="751" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="691" x2="1330.0" y2="751" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="700" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="700" width="364.44" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="711" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">44%  (8/18)</text>
+<rect x="510" y="717" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="717" width="728.89" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="728" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">89%  (16/18)</text>
+<rect x="510" y="734" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="734" width="637.78" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="745" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">78%  (14/18)</text>
+<text x="55" y="785" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Inline currency / unit retained</text>
+<text x="55" y="807" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">23 cells</text>
+<line x1="510.0" y1="763" x2="510.0" y2="823" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="763" x2="715.0" y2="823" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="763" x2="920.0" y2="823" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="763" x2="1125.0" y2="823" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="763" x2="1330.0" y2="823" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="772" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="772" width="499.13" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="783" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">61%  (14/23)</text>
+<rect x="510" y="789" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="789" width="213.91" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="800" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">26%  (6/23)</text>
+<rect x="510" y="806" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="806" width="641.74" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="817" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">78%  (18/23)</text>
+<text x="55" y="857" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Table-wide unit wording retained</text>
+<text x="55" y="879" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">11 labels</text>
+<line x1="510.0" y1="835" x2="510.0" y2="895" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="835" x2="715.0" y2="895" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="835" x2="920.0" y2="895" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="835" x2="1125.0" y2="895" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="835" x2="1330.0" y2="895" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="844" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="844" width="745.45" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="855" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">91%  (10/11)</text>
+<rect x="510" y="861" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="861" width="596.36" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="872" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">73%  (8/11)</text>
+<rect x="510" y="878" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="878" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="889" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (11/11)</text>
+<text x="55" y="929" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Complete-matrix numeric recall</text>
+<text x="55" y="951" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">58 values</text>
+<line x1="510.0" y1="907" x2="510.0" y2="967" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="907" x2="715.0" y2="967" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="907" x2="920.0" y2="967" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="907" x2="1125.0" y2="967" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="907" x2="1330.0" y2="967" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="916" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="916" width="664.48" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="927" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">81%  (47/58)</text>
+<rect x="510" y="933" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="933" width="565.52" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="944" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">69%  (40/58)</text>
+<rect x="510" y="950" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="950" width="706.90" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="961" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">86%  (50/58)</text>
+<rect x="40" y="988" width="1405" height="42" rx="7" fill="#E2EAE6"/>
+<text x="55" y="1017" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#315A57" text-anchor="start">TEXT &amp; DOCUMENT ORGANIZATION</text>
+<text x="55" y="1081" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Selected text retained</text>
+<text x="55" y="1103" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">8 spans</text>
+<line x1="510.0" y1="1059" x2="510.0" y2="1119" stroke="#D9DEDA" stroke-width="1"/>
+<text x="510.0" y="1053" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">0%</text>
+<line x1="715.0" y1="1059" x2="715.0" y2="1119" stroke="#D9DEDA" stroke-width="1"/>
+<text x="715.0" y="1053" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">25%</text>
+<line x1="920.0" y1="1059" x2="920.0" y2="1119" stroke="#D9DEDA" stroke-width="1"/>
+<text x="920.0" y="1053" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">50%</text>
+<line x1="1125.0" y1="1059" x2="1125.0" y2="1119" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1125.0" y="1053" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">75%</text>
+<line x1="1330.0" y1="1059" x2="1330.0" y2="1119" stroke="#D9DEDA" stroke-width="1"/>
+<text x="1330.0" y="1053" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="400" fill="#718083" text-anchor="middle">100%</text>
+<rect x="510" y="1068" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1068" width="717.50" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="1079" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">88%  (7/8)</text>
+<rect x="510" y="1085" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1085" width="717.50" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="1096" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">88%  (7/8)</text>
+<rect x="510" y="1102" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1102" width="717.50" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="1113" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">88%  (7/8)</text>
+<text x="55" y="1153" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Footnote wording retained</text>
+<text x="55" y="1175" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">5 footnotes</text>
+<line x1="510.0" y1="1131" x2="510.0" y2="1191" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="1131" x2="715.0" y2="1191" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="1131" x2="920.0" y2="1191" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="1131" x2="1125.0" y2="1191" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="1131" x2="1330.0" y2="1191" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="1140" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1140" width="656.00" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="1151" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">80%  (4/5)</text>
+<rect x="510" y="1157" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1157" width="820.00" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="1168" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">100%  (5/5)</text>
+<rect x="510" y="1174" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1174" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="1185" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (5/5)</text>
+<text x="55" y="1225" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Selected reading order correct</text>
+<text x="55" y="1247" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">7 pairs</text>
+<line x1="510.0" y1="1203" x2="510.0" y2="1263" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="1203" x2="715.0" y2="1263" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="1203" x2="920.0" y2="1263" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="1203" x2="1125.0" y2="1263" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="1203" x2="1330.0" y2="1263" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="1212" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1212" width="820.00" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="1223" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">100%  (7/7)</text>
+<rect x="510" y="1229" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1229" width="820.00" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="1240" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">100%  (7/7)</text>
+<rect x="510" y="1246" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1246" width="820.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="1257" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">100%  (7/7)</text>
+<text x="55" y="1297" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Metadata evidence wording retained</text>
+<text x="55" y="1319" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">18 fields</text>
+<line x1="510.0" y1="1275" x2="510.0" y2="1335" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="1275" x2="715.0" y2="1335" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="1275" x2="920.0" y2="1335" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="1275" x2="1125.0" y2="1335" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="1275" x2="1330.0" y2="1335" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="1284" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1284" width="728.89" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="1295" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">89%  (16/18)</text>
+<rect x="510" y="1301" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1301" width="774.44" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="1312" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">94%  (17/18)</text>
+<rect x="510" y="1318" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1318" width="683.33" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="1329" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">83%  (15/18)</text>
+<text x="55" y="1369" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#173033" text-anchor="start">Visual label/value sequence retained</text>
+<text x="55" y="1391" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#708083" text-anchor="start">5 cards</text>
+<line x1="510.0" y1="1347" x2="510.0" y2="1407" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="715.0" y1="1347" x2="715.0" y2="1407" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="920.0" y1="1347" x2="920.0" y2="1407" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1125.0" y1="1347" x2="1125.0" y2="1407" stroke="#D9DEDA" stroke-width="1"/>
+<line x1="1330.0" y1="1347" x2="1330.0" y2="1407" stroke="#D9DEDA" stroke-width="1"/>
+<rect x="510" y="1356" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1356" width="656.00" height="12" rx="6" fill="#D66B3D"/>
+<text x="1346" y="1367" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#D66B3D" text-anchor="start">80%  (4/5)</text>
+<rect x="510" y="1373" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1373" width="492.00" height="12" rx="6" fill="#6659A5"/>
+<text x="1346" y="1384" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#6659A5" text-anchor="start">60%  (3/5)</text>
+<rect x="510" y="1390" width="820" height="12" rx="6" fill="#E7E4DC"/>
+<rect x="510" y="1390" width="164.00" height="12" rx="6" fill="#087F72"/>
+<text x="1346" y="1401" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="650" fill="#087F72" text-anchor="start">20%  (1/5)</text>
+<rect x="40" y="1428" width="1405" height="42" rx="7" fill="#E2EAE6"/>
+<text x="55" y="1457" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="750" fill="#315A57" text-anchor="start">OBSERVED FULL-DOCUMENT RUNTIME</text>
+<text x="55" y="1495" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="400" fill="#667779" text-anchor="start">Six sponsor PDFs · 140 pages · September 29 runs · lower is better</text>
+<text x="55" y="1534" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">MinerU OCR</text>
+<rect x="510" y="1519" width="820" height="18" rx="8" fill="#E7E4DC"/>
+<rect x="510" y="1519" width="151.37" height="18" rx="8" fill="#D66B3D"/>
+<text x="1346" y="1534" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="650" fill="#D66B3D" text-anchor="start">654.6s  (10.9 min)</text>
+<text x="55" y="1576" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">MinerU VLM</text>
+<rect x="510" y="1561" width="820" height="18" rx="8" fill="#E7E4DC"/>
+<rect x="510" y="1561" width="820.00" height="18" rx="8" fill="#6659A5"/>
+<text x="1346" y="1576" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="650" fill="#6659A5" text-anchor="start">3545.9s  (59.1 min)</text>
+<text x="55" y="1618" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="600" fill="#173033" text-anchor="start">PyMuPDF4LLM</text>
+<rect x="510" y="1603" width="820" height="18" rx="8" fill="#E7E4DC"/>
+<rect x="510" y="1603" width="32.96" height="18" rx="8" fill="#087F72"/>
+<text x="1346" y="1618" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="650" fill="#087F72" text-anchor="start">142.5s  (2.4 min)</text>
+<rect x="40" y="1674" width="1405" height="145" rx="10" fill="#FFF0D6" stroke="#D89A3D" stroke-width="2"/>
+<text x="65" y="1709" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="750" fill="#824C12" text-anchor="start">Interpret with care</text>
+<text x="65" y="1740" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" fill="#694B2A" text-anchor="start">All 54 reference records are assistant-authored drafts; 0/54 are currently human-verified.</text>
+<text x="65" y="1768" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400" fill="#694B2A" text-anchor="start">The checks cover selected regions, not every fact on all 140 pages. No composite score or overall winner is claimed.</text>
+<text x="65" y="1794" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="400" fill="#694B2A" text-anchor="start">Runtime and quality come from saved local runs; parser configurations include different OCR and model pathways.</text>
+<text x="55" y="1859" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="750" fill="#315A57" text-anchor="start">Sources</text>
+<text x="55" y="1884" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#68787A" text-anchor="start">Quality: samhu/2026-10-05_pilot_benchmark/results/preliminary.json</text>
+<text x="55" y="1906" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#68787A" text-anchor="start">Runtime: samhu/2026-09-29_sponsor_samples/evaluation/metrics.json</text>
+<text x="1445" y="1906" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="400" fill="#68787A" text-anchor="end">Generated by evaluation_framework</text>
+</svg>

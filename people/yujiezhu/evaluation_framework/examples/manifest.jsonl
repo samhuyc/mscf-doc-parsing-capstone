@@ -1,0 +1,3 @@
+{"id":"table-001","document_id":"acme-2025","dataset":"demo-financial-tables","split":"test","input_kind":"table_image","source_sha256":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","attributes":{"language":"en","scan_type":"image"}}
+{"id":"page-001","document_id":"beta-2025","dataset":"demo-pages","split":"test","input_kind":"native_pdf","source_sha256":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","attributes":{"language":"en","scan_type":"digital"}}
+{"id":"meta-001","document_id":"gamma-2024","dataset":"demo-metadata","split":"test","input_kind":"ocr_pdf","source_sha256":"cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc","attributes":{"language":"en","scan_type":"scanned"}}

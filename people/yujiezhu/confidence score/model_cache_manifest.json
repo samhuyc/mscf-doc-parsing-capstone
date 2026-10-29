@@ -1,0 +1,38 @@
+[
+  {
+    "repo": "opendatalab/PDF-Extract-Kit-1.0",
+    "revision": "ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+    "files": [
+      {
+        "path": "models/Layout/YOLO/doclayout_yolo_docstructbench_imgsz1280_2501.pt",
+        "sha256": "1b152460888dc30be6db7f5dfab28bde3dcc999e5202f46187a764a1699c80be",
+        "bytes": 39772550
+      },
+      {
+        "path": "models/OCR/paddleocr_torch/ch_PP-OCRv5_det_infer.pth",
+        "sha256": "df848ed5060bac4d0f6e58572aea97d92e909a8a87cf292849237b0e84f6ffdb",
+        "bytes": 14506268
+      },
+      {
+        "path": "models/OCR/paddleocr_torch/ch_PP-OCRv5_rec_infer.pth",
+        "sha256": "d20ee8dac2ca63e2d1989b02ecc42595c71d61bf8dd8c8ddc5ad2ee68e7b5be2",
+        "bytes": 32611609
+      },
+      {
+        "path": "models/ReadingOrder/layout_reader/config.json",
+        "sha256": "b77e78d8333ee47d5c618eb08ca2070c22347cab5d753b1461e366cda9f42698",
+        "bytes": 24118
+      },
+      {
+        "path": "models/ReadingOrder/layout_reader/model.safetensors",
+        "sha256": "9df7c046b212c1892a649cbf98f2a521bbb32741e8cbc06f10ffd4247b53c451",
+        "bytes": 713217212
+      },
+      {
+        "path": "models/TabRec/SlanetPlus/slanet-plus.onnx",
+        "sha256": "d57a942af6a2f57d6a4a0372573c696a2379bf5857c45e2ac69993f3b334514b",
+        "bytes": 7758305
+      }
+    ]
+  }
+]

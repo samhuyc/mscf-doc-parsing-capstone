@@ -1,0 +1,4 @@
+__pycache__/
+*.py[cod]
+examples/results.json
+examples/summary.csv

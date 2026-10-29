@@ -1,0 +1,258 @@
+[
+  {
+    "dataset": "extractbench",
+    "id": "short/aclu_cdwg_invoice",
+    "reason": "Short scanned financial invoice; perception:P2.",
+    "local_id": "01_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 1,
+    "tags": [
+      "source:real",
+      "challenge:T3.b",
+      "perception:P2",
+      "length:short",
+      "slice:task_slice",
+      "domain:D1"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/01_extractbench/document.pdf",
+        "sha256": "8a87cfd1c8006b7f23c958de052b65316b2d39c32e1699f98861d938510f1c0b"
+      },
+      "schema": {
+        "path": "data/01_extractbench/schema.json",
+        "sha256": "9afebd12b0f089bda9e7b14a7aaa5df7e46b5f6703bb65e064f0ba6f59fc7379"
+      },
+      "reference": {
+        "path": "data/01_extractbench/reference.json",
+        "sha256": "91b07d2f033f6c2147e3eb2d2f8424d248eb09cefdd8f07b080ead8abe56833c"
+      }
+    }
+  },
+  {
+    "dataset": "extractbench",
+    "id": "short/13f__audent_global_2025q4",
+    "reason": "Short real SEC holdings list.",
+    "local_id": "02_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 2,
+    "tags": [
+      "source:real",
+      "challenge:T1.a",
+      "delivery:G1",
+      "length:short",
+      "domain:D1"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/02_extractbench/document.pdf",
+        "sha256": "65735b5f9fb4e836a0a7a95103f54ccd38a92f54762113651170b5abffe55678"
+      },
+      "schema": {
+        "path": "data/02_extractbench/schema.json",
+        "sha256": "c4212957e77966b8400a39b4e7b344e4c93eabce8cbe87a5e810cded91e9fa0d"
+      },
+      "reference": {
+        "path": "data/02_extractbench/reference.json",
+        "sha256": "9100ff6d89adc921f145930486dda03d73146850f122f41a2543d19cb4ec9020"
+      }
+    }
+  },
+  {
+    "dataset": "extractbench",
+    "id": "medium/13f__nalls_sherbakoff_2025q4",
+    "reason": "Medium real SEC holdings list, distinct issuer.",
+    "local_id": "03_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 12,
+    "tags": [
+      "source:real",
+      "challenge:T1.a",
+      "delivery:G1",
+      "length:medium",
+      "domain:D1"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/03_extractbench/document.pdf",
+        "sha256": "7fa98ffef906379db4b11fce751b053f830d8f1348641a40eb84ca00a14b0ac2"
+      },
+      "schema": {
+        "path": "data/03_extractbench/schema.json",
+        "sha256": "c4212957e77966b8400a39b4e7b344e4c93eabce8cbe87a5e810cded91e9fa0d"
+      },
+      "reference": {
+        "path": "data/03_extractbench/reference.json",
+        "sha256": "381f5c468ad8a19949825708470476432a39abed34e3a18b313dc8f6f4ff6c43"
+      }
+    }
+  },
+  {
+    "dataset": "extractbench",
+    "id": "medium/baker_hughes_earnings_deck_q4fy25",
+    "reason": "Medium earnings presentation with targeted financial extraction.",
+    "local_id": "04_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 25,
+    "tags": [
+      "source:real",
+      "challenge:T2.b",
+      "challenge:T2.d",
+      "length:medium",
+      "domain:D1"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/04_extractbench/document.pdf",
+        "sha256": "0aacb98fdb9ee986940f4b1c348f403acfaa42d32621a22909c6f3abb0f75f8f"
+      },
+      "schema": {
+        "path": "data/04_extractbench/schema.json",
+        "sha256": "5d701042c7aa4b5c8db9a3a7c3ab6bfc813cac44cf9a95f087cfb128bc31f626"
+      },
+      "reference": {
+        "path": "data/04_extractbench/reference.json",
+        "sha256": "fb8dc9318d8c74b4e3249289694f97e4c93ab52819233cd6fdde2c43858d5ec5"
+      }
+    }
+  },
+  {
+    "dataset": "extractbench",
+    "id": "long/real_credit_strategies_full",
+    "reason": "Long synthetic financial table list with hierarchical headers and page continuation.",
+    "local_id": "05_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 59,
+    "tags": [
+      "source:synthetic",
+      "challenge:T1.a",
+      "challenge:T1.b",
+      "structure:S1",
+      "structure:S3",
+      "delivery:G1",
+      "length:long",
+      "domain:D1"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/05_extractbench/document.pdf",
+        "sha256": "c5cd96b35269c4d95cf5acbd56de1adebe22f2549b76188cab2fbdc3a156d853"
+      },
+      "schema": {
+        "path": "data/05_extractbench/schema.json",
+        "sha256": "db588de90b8862f0ffeb61058fa7d9e0cb8516a5df0fb20616fe60296853caa6"
+      },
+      "reference": {
+        "path": "data/05_extractbench/reference.json",
+        "sha256": "9674fa5d8caf0d976d12373f257007390052eeb0b18759b9f16ad9e66e0fbe48"
+      }
+    }
+  },
+  {
+    "dataset": "extractbench",
+    "id": "long/dd1155_schedule_continuation_0011",
+    "reason": "Long real procurement document with targeted and dense extraction.",
+    "local_id": "06_extractbench",
+    "revision": "f9b910906cd7e73cc9eb5379a8d5d935c67b92c4",
+    "dataset_repo": "llamaindex/ExtractBench",
+    "pages": 56,
+    "tags": [
+      "source:real",
+      "challenge:T2.a",
+      "challenge:T3.a",
+      "length:long",
+      "domain:D3"
+    ],
+    "files": {
+      "pdf": {
+        "path": "data/06_extractbench/document.pdf",
+        "sha256": "92bf85531f4d525a50421f81a009b63d80987a36e7cd3481d5778f79a5d78ab5"
+      },
+      "schema": {
+        "path": "data/06_extractbench/schema.json",
+        "sha256": "48910b30b46183631ac51cd9849acb439c97a666071b85e4267927d6281ca487"
+      },
+      "reference": {
+        "path": "data/06_extractbench/reference.json",
+        "sha256": "b0de065c4f52af7f333a10e92f9ea6110514563e677b10b52983cc7f6a2e0e84"
+      }
+    }
+  },
+  {
+    "dataset": "longextract",
+    "id": "06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1",
+    "reason": "Budget-versus-actual financial reporting; page count verified after download.",
+    "local_id": "07_longextract",
+    "revision": "d4ca332f72f6d3649ecd11b69445a8f4ef5fcb02",
+    "dataset_repo": "micro1-inc/longextract-bench-50",
+    "pages": 40,
+    "tags": [],
+    "files": {
+      "pdf": {
+        "path": "data/07_longextract/document.pdf",
+        "sha256": "517214c63296dccfc777b96c4ff42930d6336e1744576eae109f551718f48594"
+      },
+      "schema": {
+        "path": "data/07_longextract/schema.json",
+        "sha256": "564c2f62f2205b00fa3c4823c4d19990f263eb3f806d552281a420760e55ef50"
+      },
+      "reference": {
+        "path": "data/07_longextract/reference.json",
+        "sha256": "3ae4d652c0a48c4d607086e707d490c2c5e71074379fb0a032bf84d62f86c344"
+      }
+    }
+  },
+  {
+    "dataset": "longextract",
+    "id": "m1__Calibration__Quarterly_Report__10-Q__-_JPMorgan",
+    "reason": "Quarterly financial filing with repeated financial tables.",
+    "local_id": "08_longextract",
+    "revision": "d4ca332f72f6d3649ecd11b69445a8f4ef5fcb02",
+    "dataset_repo": "micro1-inc/longextract-bench-50",
+    "pages": 204,
+    "tags": [],
+    "files": {
+      "pdf": {
+        "path": "data/08_longextract/document.pdf",
+        "sha256": "a87c7f2b2eda74773773d14d2c5888a31dec6d094b55460836793f8595697975"
+      },
+      "schema": {
+        "path": "data/08_longextract/schema.json",
+        "sha256": "73ccea2c2bbf9806eac800f4abf46f1a7067eb4d88a34be9a55d975758a3d7c3"
+      },
+      "reference": {
+        "path": "data/08_longextract/reference.json",
+        "sha256": "e8894c48c8ac1a97276fea3d62122456d8b7e9ff33a7d51e88226447c94ab007"
+      }
+    }
+  },
+  {
+    "dataset": "longextract",
+    "id": "06_10_26_Federal_Reserve_Z_1_Financial_Accounts_of_the_United_States_e",
+    "reason": "Financial accounts statistical tables; longer-document stress case.",
+    "local_id": "09_longextract",
+    "revision": "d4ca332f72f6d3649ecd11b69445a8f4ef5fcb02",
+    "dataset_repo": "micro1-inc/longextract-bench-50",
+    "pages": 212,
+    "tags": [],
+    "files": {
+      "pdf": {
+        "path": "data/09_longextract/document.pdf",
+        "sha256": "275de9a67b565c85e57311d219faab533c501549c05e7a800c7a41946f3c1271"
+      },
+      "schema": {
+        "path": "data/09_longextract/schema.json",
+        "sha256": "c0370444a82a104d138218dd7226b77144dfac842cc0b562082d3a5e5b4a8ccf"
+      },
+      "reference": {
+        "path": "data/09_longextract/reference.json",
+        "sha256": "a8abc4b5b3422e1a16af7721969749645f6a7af7674967d8782394a10ab5d102"
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+local_id,dataset,id,pages,parser_status,extraction_status,schema_valid,parser_seconds,extraction_seconds,value_f1,precision,recall,leaf_accuracy
+01_extractbench,extractbench,short/aclu_cdwg_invoice,1,success,completed,False,52.436,0.1626,0.24000000000000002,,,
+02_extractbench,extractbench,short/13f__audent_global_2025q4,2,success,completed,False,85.309,0.2417,0.5908629441624365,,,
+03_extractbench,extractbench,medium/13f__nalls_sherbakoff_2025q4,12,success,completed,False,611.391,0.8933,0.13692740201752934,,,
+04_extractbench,extractbench,medium/baker_hughes_earnings_deck_q4fy25,25,running,not_run_parser_running,,,,,,,
+05_extractbench,extractbench,long/real_credit_strategies_full,59,not_run,not_run,,,,,,,
+06_extractbench,extractbench,long/dd1155_schedule_continuation_0011,56,not_run,not_run,,,,,,,
+07_longextract,longextract,06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1,40,not_run,not_run,,,,,,,
+08_longextract,longextract,m1__Calibration__Quarterly_Report__10-Q__-_JPMorgan,204,not_run,not_run,,,,,,,
+09_longextract,longextract,06_10_26_Federal_Reserve_Z_1_Financial_Accounts_of_the_United_States_e,212,not_run,not_run,,,,,,,

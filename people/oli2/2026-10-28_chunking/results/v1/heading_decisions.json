@@ -1,0 +1,3668 @@
+{
+  "edf_2024": [
+    {
+      "page": 1,
+      "start": 117,
+      "end": 198,
+      "json_pointer": "/pages/0/markdown",
+      "title": "EDF Consolidated Segmental Statement for the year ended 31 December 2024",
+      "level": 1,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 27,
+      "json_pointer": "/pages/1/markdown",
+      "title": "EXECUTIVE SUMMARY",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 90,
+      "json_pointer": "/pages/2/markdown",
+      "title": "EDF EDF CONSOLIDATED SEGMENTAL STATEMENT FOR THE YEAR ENDED 31 DECEMBER 2024",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 30,
+      "json_pointer": "/pages/3/markdown",
+      "title": "ACCOUNTING STANDARDS",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 511,
+      "end": 548,
+      "json_pointer": "/pages/3/markdown",
+      "title": "DEFINITIONS AND METHODOLOGY",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 555,
+      "end": 579,
+      "json_pointer": "/pages/4/markdown",
+      "title": "HEDGING POLICY",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 1118,
+      "end": 1145,
+      "json_pointer": "/pages/4/markdown",
+      "title": "GLOSSARY OF TERMS",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 46,
+      "json_pointer": "/pages/5/markdown",
+      "title": "RECONCILIATION TO STATUTORY ACCOUNTS",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 766,
+      "end": 804,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Notes on reconciling items:",
+      "level": 3,
+      "decision": "section_candidate"
+    }
+  ],
+  "rolls_royce_2026h1_release": [
+    {
+      "page": 1,
+      "start": 181,
+      "end": 285,
+      "json_pointer": "/pages/0/markdown",
+      "title": "Strong operational and financial performance driven by transformation; FY26 guidance raised",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 1,
+      "start": 2928,
+      "end": 2968,
+      "json_pointer": "/pages/0/markdown",
+      "title": "Half Year 2026 Group Results",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 46,
+      "json_pointer": "/pages/1/markdown",
+      "title": "2026 Half Year performance summary",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 62,
+      "json_pointer": "/pages/2/markdown",
+      "title": "Transformation programme and strategic initiatives",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 193,
+      "end": 241,
+      "json_pointer": "/pages/2/markdown",
+      "title": "– Portfolio choices & partnerships:",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 37,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Outlook and 2026 guidance",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 1879,
+      "end": 1939,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Half Year 2026 financial performance by division",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 2862,
+      "end": 2891,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Trading cash flow",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 27,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Civil Aerospace",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 19,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Defence",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 2194,
+      "end": 2219,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Power Systems",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 64,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Statutory and underlying Group financial performance",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 26,
+      "json_pointer": "/pages/9/markdown",
+      "title": "Free cash flow",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 25,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Balance Sheet",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 1407,
+      "end": 1460,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Key drivers of balance sheet movements were:",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 40,
+      "json_pointer": "/pages/11/markdown",
+      "title": "Results meeting and webcast",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 743,
+      "end": 765,
+      "json_pointer": "/pages/11/markdown",
+      "title": "Enquiries:",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 60,
+      "json_pointer": "/pages/12/markdown",
+      "title": "Condensed Consolidated Interim Financial Statements",
+      "level": 1,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 13,
+      "start": 60,
+      "end": 110,
+      "json_pointer": "/pages/12/markdown",
+      "title": "Condensed consolidated income statement",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 67,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Condensed consolidated statement of comprehensive income",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 15,
+      "start": 0,
+      "end": 47,
+      "json_pointer": "/pages/14/markdown",
+      "title": "Condensed consolidated balance sheet",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 53,
+      "json_pointer": "/pages/15/markdown",
+      "title": "Condensed consolidated cash flow statement",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 63,
+      "json_pointer": "/pages/16/markdown",
+      "title": "Condensed consolidated cash flow statement continued",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 63,
+      "end": 108,
+      "json_pointer": "/pages/16/markdown",
+      "title": "For the half-year ended 30 June 2026",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 64,
+      "json_pointer": "/pages/17/markdown",
+      "title": "Condensed consolidated statement of changes in equity",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 18,
+      "start": 64,
+      "end": 109,
+      "json_pointer": "/pages/17/markdown",
+      "title": "For the half-year ended 30 June 2026",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 74,
+      "json_pointer": "/pages/18/markdown",
+      "title": "Condensed consolidated statement of changes in equity continued",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 19,
+      "start": 74,
+      "end": 119,
+      "json_pointer": "/pages/18/markdown",
+      "title": "For the half-year ended 30 June 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 67,
+      "json_pointer": "/pages/19/markdown",
+      "title": "Notes to the Condensed Consolidated Financial Statements",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 67,
+      "end": 133,
+      "json_pointer": "/pages/19/markdown",
+      "title": "1 Basis of preparation and accounting policies",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 133,
+      "end": 163,
+      "json_pointer": "/pages/19/markdown",
+      "title": "Reporting entity",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 990,
+      "end": 1027,
+      "json_pointer": "/pages/19/markdown",
+      "title": "Statement of compliance",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 2163,
+      "end": 2213,
+      "json_pointer": "/pages/19/markdown",
+      "title": "Revisions to IFRS applicable in 2026",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 2372,
+      "end": 2426,
+      "json_pointer": "/pages/19/markdown",
+      "title": "Revisions to IFRS not applicable to 2026",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 2874,
+      "end": 2953,
+      "json_pointer": "/pages/19/markdown",
+      "title": "IFRS 18 Presentation and Disclosure in Financial Statements",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 78,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Basis of preparation and accounting policies continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 78,
+      "end": 117,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Post balance sheet events",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 1719,
+      "end": 1747,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Climate change",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 3222,
+      "end": 3249,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Going concern",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 3249,
+      "end": 3273,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Overview",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 3863,
+      "end": 3888,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Forecasts",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 78,
+      "json_pointer": "/pages/21/markdown",
+      "title": "Basis of preparation and accounting policies continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 22,
+      "start": 78,
+      "end": 115,
+      "json_pointer": "/pages/21/markdown",
+      "title": "Going concern continued",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 22,
+      "start": 519,
+      "end": 559,
+      "json_pointer": "/pages/21/markdown",
+      "title": "Liquidity and borrowings",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 22,
+      "start": 1722,
+      "end": 1748,
+      "json_pointer": "/pages/21/markdown",
+      "title": "Conclusion",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 78,
+      "json_pointer": "/pages/22/markdown",
+      "title": "Basis of preparation and accounting policies continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 23,
+      "start": 78,
+      "end": 152,
+      "json_pointer": "/pages/22/markdown",
+      "title": "Key areas of judgement and sources of estimation uncertainty",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/23/markdown",
+      "title": "2 Segmental analysis",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 751,
+      "end": 783,
+      "json_pointer": "/pages/23/markdown",
+      "title": "Underlying results",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 4041,
+      "end": 4114,
+      "json_pointer": "/pages/23/markdown",
+      "title": "Acquisition accounting, business disposals and impairment",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 4241,
+      "end": 4274,
+      "json_pointer": "/pages/23/markdown",
+      "title": "Exceptional items",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 25,
+      "start": 0,
+      "end": 43,
+      "json_pointer": "/pages/24/markdown",
+      "title": "2 Segmental analysis continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 25,
+      "start": 43,
+      "end": 70,
+      "json_pointer": "/pages/24/markdown",
+      "title": "Other items",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 43,
+      "json_pointer": "/pages/25/markdown",
+      "title": "2 Segmental analysis continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 43,
+      "end": 92,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Reconciliation to statutory results",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 43,
+      "json_pointer": "/pages/26/markdown",
+      "title": "2 Segmental analysis continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 43,
+      "end": 112,
+      "json_pointer": "/pages/26/markdown",
+      "title": "Disaggregation of revenue from contracts with customers",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 43,
+      "json_pointer": "/pages/27/markdown",
+      "title": "2 Segmental analysis continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 28,
+      "start": 43,
+      "end": 79,
+      "json_pointer": "/pages/27/markdown",
+      "title": "Underlying adjustments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 37,
+      "end": 73,
+      "json_pointer": "/pages/28/markdown",
+      "title": "Balance sheet analysis",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 3366,
+      "end": 3405,
+      "json_pointer": "/pages/28/markdown",
+      "title": "3 Research and development",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 28,
+      "json_pointer": "/pages/29/markdown",
+      "title": "4 Net financing",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 23,
+      "json_pointer": "/pages/30/markdown",
+      "title": "5 Taxation",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 716,
+      "end": 749,
+      "json_pointer": "/pages/30/markdown",
+      "title": "Tax reconciliation:",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 5517,
+      "end": 5609,
+      "json_pointer": "/pages/30/markdown",
+      "title": "Impact of recognition of UK deferred tax assets on underlying profit after tax",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/31/markdown",
+      "title": "5 Taxation continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 32,
+      "start": 1190,
+      "end": 1239,
+      "json_pointer": "/pages/31/markdown",
+      "title": "6 Earnings per ordinary share",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 32,
+      "start": 3565,
+      "end": 3603,
+      "json_pointer": "/pages/31/markdown",
+      "title": "7 Dividends",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 23,
+      "json_pointer": "/pages/32/markdown",
+      "title": "8 Goodwill",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 33,
+      "start": 1247,
+      "end": 1279,
+      "json_pointer": "/pages/32/markdown",
+      "title": "9 Intangible assets",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 56,
+      "json_pointer": "/pages/33/markdown",
+      "title": "10 Property, plant and equipment",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 2879,
+      "end": 2914,
+      "json_pointer": "/pages/33/markdown",
+      "title": "11 Right-of-use assets",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 50,
+      "json_pointer": "/pages/34/markdown",
+      "title": "12 Trade receivables and other assets",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 47,
+      "json_pointer": "/pages/35/markdown",
+      "title": "13 Contract assets and liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 36,
+      "start": 4271,
+      "end": 4319,
+      "json_pointer": "/pages/35/markdown",
+      "title": "14 Borrowings and lease liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 58,
+      "json_pointer": "/pages/36/markdown",
+      "title": "14 Borrowings and lease liabilities continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 37,
+      "start": 752,
+      "end": 804,
+      "json_pointer": "/pages/36/markdown",
+      "title": "15 Trade payables and other liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 48,
+      "json_pointer": "/pages/37/markdown",
+      "title": "16 Financial assets and liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 48,
+      "end": 118,
+      "json_pointer": "/pages/37/markdown",
+      "title": "Carrying value of other financial assets and liabilities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 2562,
+      "end": 2608,
+      "json_pointer": "/pages/37/markdown",
+      "title": "Derivative financial instruments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 3324,
+      "end": 3436,
+      "json_pointer": "/pages/37/markdown",
+      "title": "Financial risk and revenue sharing arrangements (RRSAs) and other financial assets and liabilities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 58,
+      "json_pointer": "/pages/38/markdown",
+      "title": "16 Financial assets and liabilities continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 4175,
+      "end": 4229,
+      "json_pointer": "/pages/38/markdown",
+      "title": "17 Provisions for liabilities and charges",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 0,
+      "end": 64,
+      "json_pointer": "/pages/39/markdown",
+      "title": "17 Provisions for liabilities and charges continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 64,
+      "end": 95,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Onerous contracts",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 1648,
+      "end": 1685,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Warranty and guarantees",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 1930,
+      "end": 1969,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Employer liability claims",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 2156,
+      "end": 2202,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Transformation and restructuring",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 2637,
+      "end": 2685,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Tax related interest and penalties",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 2951,
+      "end": 2986,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Claims and litigation",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 40,
+      "start": 3947,
+      "end": 3966,
+      "json_pointer": "/pages/39/markdown",
+      "title": "Other",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 41,
+      "start": 0,
+      "end": 40,
+      "json_pointer": "/pages/40/markdown",
+      "title": "18 Post-retirement benefits",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 41,
+      "start": 243,
+      "end": 334,
+      "json_pointer": "/pages/40/markdown",
+      "title": "Amounts recognised in the balance sheet in respect of defined benefit schemes",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 41,
+      "start": 2047,
+      "end": 2114,
+      "json_pointer": "/pages/40/markdown",
+      "title": "Buy-in and Buy-out of the Rolls-Royce UK Pension Fund",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 41,
+      "start": 4047,
+      "end": 4073,
+      "json_pointer": "/pages/40/markdown",
+      "title": "Virgin Media",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 42,
+      "start": 0,
+      "end": 38,
+      "json_pointer": "/pages/41/markdown",
+      "title": "19 Contingent liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 42,
+      "start": 3973,
+      "end": 4015,
+      "json_pointer": "/pages/41/markdown",
+      "title": "20 Related party transactions",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 43,
+      "start": 0,
+      "end": 38,
+      "json_pointer": "/pages/42/markdown",
+      "title": "21 Business held for sale",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 43,
+      "start": 38,
+      "end": 74,
+      "json_pointer": "/pages/42/markdown",
+      "title": "Business held for sale",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 44,
+      "start": 0,
+      "end": 58,
+      "json_pointer": "/pages/43/markdown",
+      "title": "22 Derivation of summary funds flow statement",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 45,
+      "start": 0,
+      "end": 100,
+      "json_pointer": "/pages/44/markdown",
+      "title": "Reconciliation of Alternative Performance Measures (APMs) to their statutory equivalent",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 45,
+      "start": 100,
+      "end": 153,
+      "json_pointer": "/pages/44/markdown",
+      "title": "Alternative Performance Measures (APMs)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 45,
+      "start": 600,
+      "end": 632,
+      "json_pointer": "/pages/44/markdown",
+      "title": "Underlying results",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 46,
+      "start": 0,
+      "end": 110,
+      "json_pointer": "/pages/45/markdown",
+      "title": "Reconciliation of Alternative Performance Measures (APMs) to their statutory equivalent continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 46,
+      "start": 110,
+      "end": 138,
+      "json_pointer": "/pages/45/markdown",
+      "title": "Organic change",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 47,
+      "start": 0,
+      "end": 110,
+      "json_pointer": "/pages/46/markdown",
+      "title": "Reconciliation of Alternative Performance Measures (APMs) to their statutory equivalent continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 47,
+      "start": 110,
+      "end": 141,
+      "json_pointer": "/pages/46/markdown",
+      "title": "Trading cash flow",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 47,
+      "start": 1591,
+      "end": 1619,
+      "json_pointer": "/pages/46/markdown",
+      "title": "Free cash flow",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 47,
+      "start": 3206,
+      "end": 3241,
+      "json_pointer": "/pages/46/markdown",
+      "title": "Gross R&D expenditure",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 47,
+      "start": 3440,
+      "end": 3479,
+      "json_pointer": "/pages/46/markdown",
+      "title": "Gross capital expenditure",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 48,
+      "start": 0,
+      "end": 110,
+      "json_pointer": "/pages/47/markdown",
+      "title": "Reconciliation of Alternative Performance Measures (APMs) to their statutory equivalent continued",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 48,
+      "start": 110,
+      "end": 150,
+      "json_pointer": "/pages/47/markdown",
+      "title": "Key performance indicators",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 48,
+      "start": 302,
+      "end": 329,
+      "json_pointer": "/pages/47/markdown",
+      "title": "Order backlog",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 48,
+      "start": 542,
+      "end": 617,
+      "json_pointer": "/pages/47/markdown",
+      "title": "Adjusted return on capital (abbreviated to return on capital)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 48,
+      "start": 2998,
+      "end": 3106,
+      "json_pointer": "/pages/47/markdown",
+      "title": "Total underlying cash costs as a proportion of underlying gross margin (abbreviated to TCC/GM)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 0,
+      "end": 45,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Principal risks and uncertainties",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 819,
+      "end": 848,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Principal risks",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 848,
+      "end": 868,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Safety",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 1184,
+      "end": 1208,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Compliance",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 1835,
+      "end": 1857,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Strategy",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 2294,
+      "end": 2317,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Execution",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 2548,
+      "end": 2583,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Business interruption",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 3269,
+      "end": 3300,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Energy transition",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 3648,
+      "end": 3698,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Information & data (including cyber)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 4159,
+      "end": 4197,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Market & financial shock",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 4857,
+      "end": 4880,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Political",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 5239,
+      "end": 5272,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Talent & capability",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 49,
+      "start": 5500,
+      "end": 5524,
+      "json_pointer": "/pages/48/markdown",
+      "title": "Technology",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 50,
+      "start": 0,
+      "end": 20,
+      "json_pointer": "/pages/49/markdown",
+      "title": "Dividend",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 50,
+      "start": 415,
+      "end": 467,
+      "json_pointer": "/pages/49/markdown",
+      "title": "Statement of Directors' responsibilities",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 51,
+      "start": 0,
+      "end": 129,
+      "json_pointer": "/pages/50/markdown",
+      "title": "Independent review report to Rolls-Royce Holdings plc Report on the condensed consolidated interim financial statements",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 51,
+      "start": 129,
+      "end": 154,
+      "json_pointer": "/pages/50/markdown",
+      "title": "Our conclusion",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 51,
+      "start": 1628,
+      "end": 1659,
+      "json_pointer": "/pages/50/markdown",
+      "title": "Basis for conclusion",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 51,
+      "start": 2691,
+      "end": 2739,
+      "json_pointer": "/pages/50/markdown",
+      "title": "Conclusions relating to going concern",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 52,
+      "start": 0,
+      "end": 78,
+      "json_pointer": "/pages/51/markdown",
+      "title": "Responsibilities for the interim financial statements and the review",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 52,
+      "start": 78,
+      "end": 136,
+      "json_pointer": "/pages/51/markdown",
+      "title": "Our responsibilities and those of the directors",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 52,
+      "start": 1236,
+      "end": 1265,
+      "json_pointer": "/pages/51/markdown",
+      "title": "Use of this report",
+      "level": 3,
+      "decision": "section_candidate"
+    }
+  ],
+  "hippodrome_2025": [
+    {
+      "page": 2,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/1/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 2,
+      "start": 32,
+      "end": 60,
+      "json_pointer": "/pages/1/markdown",
+      "title": "COMPANY INFORMATION",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/2/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 3,
+      "start": 32,
+      "end": 57,
+      "json_pointer": "/pages/2/markdown",
+      "title": "STRATEGIC REPORT",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 57,
+      "end": 101,
+      "json_pointer": "/pages/2/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 3,
+      "start": 2332,
+      "end": 2369,
+      "json_pointer": "/pages/2/markdown",
+      "title": "About The Hippodrome Casino",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/3/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 4,
+      "start": 32,
+      "end": 68,
+      "json_pointer": "/pages/3/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 68,
+      "end": 112,
+      "json_pointer": "/pages/3/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/4/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 5,
+      "start": 32,
+      "end": 68,
+      "json_pointer": "/pages/4/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 68,
+      "end": 112,
+      "json_pointer": "/pages/4/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 5,
+      "start": 417,
+      "end": 439,
+      "json_pointer": "/pages/4/markdown",
+      "title": "Our Business",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 3036,
+      "end": 3055,
+      "json_pointer": "/pages/4/markdown",
+      "title": "Our Staff",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 30,
+      "json_pointer": "/pages/5/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 1,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 6,
+      "start": 30,
+      "end": 66,
+      "json_pointer": "/pages/5/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 66,
+      "end": 110,
+      "json_pointer": "/pages/5/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 6,
+      "start": 777,
+      "end": 813,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Our Partners and Suppliers",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 2244,
+      "end": 2267,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Our Customers",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 2802,
+      "end": 2828,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Our Shareholders",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 3157,
+      "end": 3189,
+      "json_pointer": "/pages/5/markdown",
+      "title": "People and Communities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 3864,
+      "end": 3905,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Maximising Value and Efficiency",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/6/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 7,
+      "start": 33,
+      "end": 105,
+      "json_pointer": "/pages/6/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 761,
+      "end": 806,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Our Costs - What Are Our Outgoings?",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1912,
+      "end": 1957,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Regulation at The Hippodrome Casino",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 2548,
+      "end": 2599,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Key developments during the year include:",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/7/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 8,
+      "start": 32,
+      "end": 68,
+      "json_pointer": "/pages/7/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 68,
+      "end": 112,
+      "json_pointer": "/pages/7/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 8,
+      "start": 1546,
+      "end": 1599,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Capital Investment at The Hippodrome Casino",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 2041,
+      "end": 2067,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Our Core Purpose",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 2498,
+      "end": 2534,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Our Fundamental Principles",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 3148,
+      "end": 3175,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Our Shared Values",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/8/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 9,
+      "start": 32,
+      "end": 67,
+      "json_pointer": "/pages/8/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED)",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 67,
+      "end": 111,
+      "json_pointer": "/pages/8/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 9,
+      "start": 248,
+      "end": 283,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Section 172 (1) Statement",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 645,
+      "end": 698,
+      "json_pointer": "/pages/8/markdown",
+      "title": "b. The interests of the Company’s employees",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 2254,
+      "end": 2297,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Principal Risks and Uncertainties",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 2408,
+      "end": 2431,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Managing Risk",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 61,
+      "json_pointer": "/pages/9/markdown",
+      "title": "HIPPODROME CASINO LIMITED STRATEGIC REPORT (CONTINUED)",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 61,
+      "end": 105,
+      "json_pointer": "/pages/9/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 10,
+      "start": 935,
+      "end": 966,
+      "json_pointer": "/pages/9/markdown",
+      "title": "Future considerations",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 97,
+      "json_pointer": "/pages/10/markdown",
+      "title": "HIPPODROME CASINO LIMITED STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 97,
+      "end": 111,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Risk",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 111,
+      "end": 150,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Macroeconomic& Political Risk",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 351,
+      "end": 386,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Risk Status / Mitigations",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/11/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 12,
+      "start": 33,
+      "end": 105,
+      "json_pointer": "/pages/11/markdown",
+      "title": "STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 804,
+      "end": 848,
+      "json_pointer": "/pages/11/markdown",
+      "title": "Non-Financial Performance Measures",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 1271,
+      "end": 1295,
+      "json_pointer": "/pages/11/markdown",
+      "title": "Future Outlook",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/12/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 13,
+      "start": 32,
+      "end": 58,
+      "json_pointer": "/pages/12/markdown",
+      "title": "DIRECTORS' REPORT",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 13,
+      "start": 58,
+      "end": 102,
+      "json_pointer": "/pages/12/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 13,
+      "start": 1115,
+      "end": 1141,
+      "json_pointer": "/pages/12/markdown",
+      "title": "Disabled persons",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/13/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 14,
+      "start": 32,
+      "end": 105,
+      "json_pointer": "/pages/13/markdown",
+      "title": "DIRECTORS' REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 105,
+      "end": 135,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Employee involvement",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 661,
+      "end": 678,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Auditor",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 1243,
+      "end": 1266,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Going concern",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 2799,
+      "end": 2840,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Matters of strategic importance",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 3207,
+      "end": 3256,
+      "json_pointer": "/pages/13/markdown",
+      "title": "Streamlined Energy and Carbon Reporting",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/15/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 16,
+      "start": 32,
+      "end": 78,
+      "json_pointer": "/pages/15/markdown",
+      "title": "DIRECTORS' RESPONSIBILITIES STATEMENT",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 78,
+      "end": 122,
+      "json_pointer": "/pages/15/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 82,
+      "json_pointer": "/pages/16/markdown",
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED.",
+      "level": 5,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 17,
+      "start": 1077,
+      "end": 1104,
+      "json_pointer": "/pages/16/markdown",
+      "title": "Basis for opinion",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 1786,
+      "end": 1833,
+      "json_pointer": "/pages/16/markdown",
+      "title": "Conclusions relating to going concern",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 2510,
+      "end": 2537,
+      "json_pointer": "/pages/16/markdown",
+      "title": "Other information",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 3656,
+      "end": 3728,
+      "json_pointer": "/pages/16/markdown",
+      "title": "Opinions on other matters prescribed by the Companies Act 2006",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 18,
+      "start": 0,
+      "end": 93,
+      "json_pointer": "/pages/17/markdown",
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED (CONTINUED)",
+      "level": 5,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 18,
+      "start": 923,
+      "end": 962,
+      "json_pointer": "/pages/17/markdown",
+      "title": "Responsibilities of directors",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 18,
+      "start": 2491,
+      "end": 2598,
+      "json_pointer": "/pages/17/markdown",
+      "title": "The extent to which the audit was considered capable of detecting irregularities, including fraud",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 18,
+      "start": 4007,
+      "end": 4033,
+      "json_pointer": "/pages/17/markdown",
+      "title": "engagement team:",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 19,
+      "start": 0,
+      "end": 92,
+      "json_pointer": "/pages/18/markdown",
+      "title": "INDEPENDENT AUDITOR'S REPORT TO THE MEMBERS OF HIPPODROME CASINO LIMITED (CONTINUED)",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 19,
+      "start": 3064,
+      "end": 3086,
+      "json_pointer": "/pages/18/markdown",
+      "title": "N.C. Cattini",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/19/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 20,
+      "start": 32,
+      "end": 74,
+      "json_pointer": "/pages/19/markdown",
+      "title": "STATEMENT OF COMPREHENSIVE INCOME",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 20,
+      "start": 74,
+      "end": 118,
+      "json_pointer": "/pages/19/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 21,
+      "start": 0,
+      "end": 46,
+      "json_pointer": "/pages/20/markdown",
+      "title": "Company registration number 05497987",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 46,
+      "end": 79,
+      "json_pointer": "/pages/20/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 21,
+      "start": 79,
+      "end": 119,
+      "json_pointer": "/pages/20/markdown",
+      "title": "STATEMENT OF FINANCIAL POSITION",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 21,
+      "start": 119,
+      "end": 149,
+      "json_pointer": "/pages/20/markdown",
+      "title": "AS AT 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "period_context"
+    },
+    {
+      "page": 22,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/21/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 22,
+      "start": 31,
+      "end": 70,
+      "json_pointer": "/pages/21/markdown",
+      "title": "STATEMENT OF CHANGES IN EQUITY",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 22,
+      "start": 70,
+      "end": 114,
+      "json_pointer": "/pages/21/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 23,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/22/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 23,
+      "start": 32,
+      "end": 74,
+      "json_pointer": "/pages/22/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 23,
+      "start": 74,
+      "end": 118,
+      "json_pointer": "/pages/22/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 23,
+      "start": 476,
+      "end": 507,
+      "json_pointer": "/pages/22/markdown",
+      "title": "Accounting convention",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/23/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 24,
+      "start": 32,
+      "end": 121,
+      "json_pointer": "/pages/23/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 157,
+      "end": 180,
+      "json_pointer": "/pages/23/markdown",
+      "title": "Going concern",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 24,
+      "start": 1968,
+      "end": 1985,
+      "json_pointer": "/pages/23/markdown",
+      "title": "Gaming:",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 25,
+      "start": 30,
+      "end": 119,
+      "json_pointer": "/pages/24/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 25,
+      "start": 867,
+      "end": 900,
+      "json_pointer": "/pages/24/markdown",
+      "title": "Fixed asset investments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 25,
+      "start": 1376,
+      "end": 1412,
+      "json_pointer": "/pages/24/markdown",
+      "title": "Impairment of fixed assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/25/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 26,
+      "start": 114,
+      "end": 157,
+      "json_pointer": "/pages/25/markdown",
+      "title": "1 Accounting policies (Continued)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 157,
+      "end": 188,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Financial instruments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 808,
+      "end": 840,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Basic financial assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 1356,
+      "end": 1396,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Impairment of financial assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 2394,
+      "end": 2437,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Derecognition of financial assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 26,
+      "start": 2889,
+      "end": 2938,
+      "json_pointer": "/pages/25/markdown",
+      "title": "Classification of financial liabilities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/26/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 27,
+      "start": 114,
+      "end": 157,
+      "json_pointer": "/pages/26/markdown",
+      "title": "1 Accounting policies (Continued)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 157,
+      "end": 194,
+      "json_pointer": "/pages/26/markdown",
+      "title": "Basic financial liabilities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 1330,
+      "end": 1378,
+      "json_pointer": "/pages/26/markdown",
+      "title": "Derecognition of financial liabilities",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 1521,
+      "end": 1549,
+      "json_pointer": "/pages/26/markdown",
+      "title": "Equity instruments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 27,
+      "start": 1671,
+      "end": 1689,
+      "json_pointer": "/pages/26/markdown",
+      "title": "Taxation",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 28,
+      "start": 0,
+      "end": 115,
+      "json_pointer": "/pages/27/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 28,
+      "start": 151,
+      "end": 178,
+      "json_pointer": "/pages/27/markdown",
+      "title": "Employee benefits",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 28,
+      "start": 268,
+      "end": 297,
+      "json_pointer": "/pages/27/markdown",
+      "title": "Retirement benefits",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/28/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 29,
+      "start": 114,
+      "end": 178,
+      "json_pointer": "/pages/28/markdown",
+      "title": "2 Judgements and key sources of estimation uncertainty",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 1120,
+      "end": 1145,
+      "json_pointer": "/pages/28/markdown",
+      "title": "Loyalty schemes",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 1482,
+      "end": 1504,
+      "json_pointer": "/pages/28/markdown",
+      "title": "Depreciation",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 2748,
+      "end": 2786,
+      "json_pointer": "/pages/28/markdown",
+      "title": "3 Turnover and other revenue",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 29,
+      "start": 2786,
+      "end": 2848,
+      "json_pointer": "/pages/28/markdown",
+      "title": "An analysis of the Company's turnover is as follows:",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 30,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/29/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 4,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 30,
+      "start": 33,
+      "end": 86,
+      "json_pointer": "/pages/29/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 30,
+      "start": 86,
+      "end": 130,
+      "json_pointer": "/pages/29/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 30,
+      "start": 130,
+      "end": 151,
+      "json_pointer": "/pages/29/markdown",
+      "title": "4 Employees",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/30/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 31,
+      "start": 114,
+      "end": 142,
+      "json_pointer": "/pages/30/markdown",
+      "title": "6 Operating profit",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 1256,
+      "end": 1306,
+      "json_pointer": "/pages/30/markdown",
+      "title": "8 Interest receivable and similar income",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 31,
+      "start": 1890,
+      "end": 1925,
+      "json_pointer": "/pages/30/markdown",
+      "title": "10 Other gains and losses",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 32,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/31/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 32,
+      "start": 32,
+      "end": 85,
+      "json_pointer": "/pages/31/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 32,
+      "start": 85,
+      "end": 129,
+      "json_pointer": "/pages/31/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 32,
+      "start": 129,
+      "end": 151,
+      "json_pointer": "/pages/31/markdown",
+      "title": "11. Taxation",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 33,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/32/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 33,
+      "start": 32,
+      "end": 85,
+      "json_pointer": "/pages/32/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 33,
+      "start": 85,
+      "end": 129,
+      "json_pointer": "/pages/32/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 33,
+      "start": 129,
+      "end": 165,
+      "json_pointer": "/pages/32/markdown",
+      "title": "12 Intangible fixed assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 33,
+      "start": 1390,
+      "end": 1402,
+      "json_pointer": "/pages/32/markdown",
+      "title": "13",
+      "level": 6,
+      "decision": "numeric_display"
+    },
+    {
+      "page": 33,
+      "start": 1402,
+      "end": 1433,
+      "json_pointer": "/pages/32/markdown",
+      "title": "Tangible fixed assets",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/33/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 34,
+      "start": 32,
+      "end": 85,
+      "json_pointer": "/pages/33/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 85,
+      "end": 129,
+      "json_pointer": "/pages/33/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 34,
+      "start": 129,
+      "end": 175,
+      "json_pointer": "/pages/33/markdown",
+      "title": "13 Tangible fixed assets (Continued)",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 634,
+      "end": 670,
+      "json_pointer": "/pages/33/markdown",
+      "title": "14 Fixed asset investments",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 34,
+      "start": 975,
+      "end": 1000,
+      "json_pointer": "/pages/33/markdown",
+      "title": "15 Subsidiaries",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 35,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/34/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 35,
+      "start": 32,
+      "end": 85,
+      "json_pointer": "/pages/34/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 35,
+      "start": 85,
+      "end": 129,
+      "json_pointer": "/pages/34/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 36,
+      "start": 0,
+      "end": 32,
+      "json_pointer": "/pages/35/markdown",
+      "title": "HIPPODROME CASINO LIMITED",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 36,
+      "start": 32,
+      "end": 121,
+      "json_pointer": "/pages/35/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 36,
+      "start": 121,
+      "end": 144,
+      "json_pointer": "/pages/35/markdown",
+      "title": "20 Borrowings",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 37,
+      "start": 0,
+      "end": 78,
+      "json_pointer": "/pages/36/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED)",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 37,
+      "start": 78,
+      "end": 122,
+      "json_pointer": "/pages/36/markdown",
+      "title": "FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 5,
+      "decision": "period_context"
+    },
+    {
+      "page": 37,
+      "start": 122,
+      "end": 162,
+      "json_pointer": "/pages/36/markdown",
+      "title": "21 ~+Finance lease obligations",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 37,
+      "start": 639,
+      "end": 672,
+      "json_pointer": "/pages/36/markdown",
+      "title": "22 ~+ODeferred taxation",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/37/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 38,
+      "start": 2315,
+      "end": 2352,
+      "json_pointer": "/pages/37/markdown",
+      "title": "25 Profit and loss reserves",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 38,
+      "start": 2770,
+      "end": 2844,
+      "json_pointer": "/pages/37/markdown",
+      "title": "26 ~ Financial commitments, guarantees and contingent liabilities",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 0,
+      "end": 114,
+      "json_pointer": "/pages/38/markdown",
+      "title": "HIPPODROME CASINO LIMITED NOTES TO THE FINANCIAL STATEMENTS (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025",
+      "level": 3,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 39,
+      "start": 114,
+      "end": 157,
+      "json_pointer": "/pages/38/markdown",
+      "title": "27 ~=Related party transactions |",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 374,
+      "end": 416,
+      "json_pointer": "/pages/38/markdown",
+      "title": "28 Operating lease commitments ‘",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 416,
+      "end": 432,
+      "json_pointer": "/pages/38/markdown",
+      "title": "Lessee",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 1374,
+      "end": 1411,
+      "json_pointer": "/pages/38/markdown",
+      "title": "29 ‘Directors’ transactions",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 39,
+      "start": 1664,
+      "end": 1705,
+      "json_pointer": "/pages/38/markdown",
+      "title": "30 Ultimate controlling party ;",
+      "level": 6,
+      "decision": "section_candidate"
+    }
+  ],
+  "cvs_2025q2": [
+    {
+      "page": 3,
+      "start": 0,
+      "end": 34,
+      "json_pointer": "/pages/2/markdown",
+      "title": "Enterprise Highlights",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 253,
+      "end": 278,
+      "json_pointer": "/pages/2/markdown",
+      "title": "Build Trust",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 623,
+      "end": 654,
+      "json_pointer": "/pages/2/markdown",
+      "title": "Financial Results",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 3,
+      "start": 743,
+      "end": 762,
+      "json_pointer": "/pages/2/markdown",
+      "title": "$6.5B",
+      "level": 6,
+      "decision": "numeric_display"
+    },
+    {
+      "page": 3,
+      "start": 885,
+      "end": 915,
+      "json_pointer": "/pages/2/markdown",
+      "title": "$13.77 – $13.94B",
+      "level": 6,
+      "decision": "numeric_display"
+    },
+    {
+      "page": 3,
+      "start": 989,
+      "end": 1017,
+      "json_pointer": "/pages/2/markdown",
+      "title": "At least $7.5B",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 41,
+      "end": 107,
+      "json_pointer": "/pages/3/markdown",
+      "title": "OUR FOCUS Becoming America’s most trusted health care company",
+      "level": 1,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/4/markdown",
+      "title": "Strategic Imperatives",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Consolidated Results",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 506,
+      "end": 549,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Business highlights ~~§__— —§*~~",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 34,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Consolidated Guidance",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 91,
+      "json_pointer": "/pages/7/markdown",
+      "title": "Superior assets. assets. Superior care. care. Superior value. value.",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 33,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Health Care Benefits",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 28,
+      "json_pointer": "/pages/9/markdown",
+      "title": "Health Services",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 41,
+      "json_pointer": "/pages/10/markdown",
+      "title": "Pharmacy & Consumer Wellness",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 42,
+      "json_pointer": "/pages/11/markdown",
+      "title": "Footnotes Second Quarter 2025",
+      "level": 5,
+      "decision": "section_candidate"
+    }
+  ],
+  "peterborough_2025": [
+    {
+      "page": 1,
+      "start": 70,
+      "end": 95,
+      "json_pointer": "/pages/0/markdown",
+      "title": "FINANCIAL STATEMENTS",
+      "level": 1,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 2,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/1/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 2,
+      "start": 60,
+      "end": 79,
+      "json_pointer": "/pages/1/markdown",
+      "title": "BALANCE SHEET",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 2,
+      "start": 79,
+      "end": 104,
+      "json_pointer": "/pages/1/markdown",
+      "title": "AS AT 31 MARCH 2025",
+      "level": 2,
+      "decision": "period_context"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/3/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 4,
+      "start": 100,
+      "end": 130,
+      "json_pointer": "/pages/3/markdown",
+      "title": "1. General information",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 518,
+      "end": 573,
+      "json_pointer": "/pages/3/markdown",
+      "title": "2.1 Basis of preparation of financial statements",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 1121,
+      "end": 1139,
+      "json_pointer": "/pages/3/markdown",
+      "title": "2.2 Revenue",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 1513,
+      "end": 1540,
+      "json_pointer": "/pages/3/markdown",
+      "title": "Rendering of services",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 2102,
+      "end": 2134,
+      "json_pointer": "/pages/3/markdown",
+      "title": "2.3 Tangible fixed assets",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/4/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 5,
+      "start": 100,
+      "end": 140,
+      "json_pointer": "/pages/4/markdown",
+      "title": "2. Accounting policies (continued)",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 140,
+      "end": 184,
+      "json_pointer": "/pages/4/markdown",
+      "title": "2.3 Tangible fixed assets (continued)",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 1053,
+      "end": 1071,
+      "json_pointer": "/pages/4/markdown",
+      "title": "2.4 Debtors",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 1335,
+      "end": 1370,
+      "json_pointer": "/pages/4/markdown",
+      "title": "2.5 Cash and cash equivalents",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 1731,
+      "end": 1764,
+      "json_pointer": "/pages/4/markdown",
+      "title": "2.6 Financial instruments",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 2355,
+      "end": 2385,
+      "json_pointer": "/pages/4/markdown",
+      "title": "Basic financial assets",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/5/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 6,
+      "start": 31,
+      "end": 103,
+      "json_pointer": "/pages/5/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 103,
+      "end": 143,
+      "json_pointer": "/pages/5/markdown",
+      "title": "2. Accounting policies (continued)",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 143,
+      "end": 187,
+      "json_pointer": "/pages/5/markdown",
+      "title": "2.6 Financial instruments (continued)",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 408,
+      "end": 443,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Basic financial liabilities",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 1890,
+      "end": 1935,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Derecognition of financial instruments",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 1935,
+      "end": 1975,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Derecognition of financial assets",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 2399,
+      "end": 2444,
+      "json_pointer": "/pages/5/markdown",
+      "title": "Derecognition of financial liabilities",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 2567,
+      "end": 2588,
+      "json_pointer": "/pages/5/markdown",
+      "title": "2.7 Creditors",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/6/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 7,
+      "start": 31,
+      "end": 103,
+      "json_pointer": "/pages/6/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 103,
+      "end": 143,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2. Accounting policies (continued)",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 143,
+      "end": 167,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.8 Finance costs",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 454,
+      "end": 473,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.9 Pensions",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 473,
+      "end": 513,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Defined contribution pension plan",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1054,
+      "end": 1081,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.10 Interest income",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1168,
+      "end": 1194,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.11 Borrowing costs",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1289,
+      "end": 1310,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.12 Taxation",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1806,
+      "end": 1835,
+      "json_pointer": "/pages/6/markdown",
+      "title": "2.13 Exceptional items",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 1994,
+      "end": 2009,
+      "json_pointer": "/pages/6/markdown",
+      "title": "Employees",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/7/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 8,
+      "start": 31,
+      "end": 103,
+      "json_pointer": "/pages/7/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS FOR THE YEAR ENDED 31 MARCH 2025",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 8,
+      "start": 103,
+      "end": 134,
+      "json_pointer": "/pages/7/markdown",
+      "title": "4. Tangible fixed assets",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/8/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 9,
+      "start": 100,
+      "end": 118,
+      "json_pointer": "/pages/8/markdown",
+      "title": "5, Debtors",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 524,
+      "end": 534,
+      "json_pointer": "/pages/8/markdown",
+      "title": "6.",
+      "level": 4,
+      "decision": "numeric_display"
+    },
+    {
+      "page": 9,
+      "start": 1372,
+      "end": 1388,
+      "json_pointer": "/pages/8/markdown",
+      "title": "Bank loans",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/9/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 10,
+      "start": 31,
+      "end": 70,
+      "json_pointer": "/pages/9/markdown",
+      "title": "NOTES TO THE FINANCIAL STATEMENTS",
+      "level": 2,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 70,
+      "end": 108,
+      "json_pointer": "/pages/9/markdown",
+      "title": "FOR THE YEAR ENDED 31 MARCH 2025",
+      "level": 2,
+      "decision": "period_context"
+    },
+    {
+      "page": 10,
+      "start": 113,
+      "end": 125,
+      "json_pointer": "/pages/9/markdown",
+      "title": "Loans",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 125,
+      "end": 181,
+      "json_pointer": "/pages/9/markdown",
+      "title": "Analysis of the maturity of loans is given below:",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 926,
+      "end": 955,
+      "json_pointer": "/pages/9/markdown",
+      "title": "9. Pension commitments",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 31,
+      "json_pointer": "/pages/10/markdown",
+      "title": "PETERBOROUGH CARE LIMITED",
+      "level": 2,
+      "decision": "repeated_entity_heading"
+    },
+    {
+      "page": 11,
+      "start": 100,
+      "end": 137,
+      "json_pointer": "/pages/10/markdown",
+      "title": "10. Related party transactions",
+      "level": 3,
+      "decision": "section_candidate"
+    }
+  ],
+  "rolls_royce_2026h1_presentation": [
+    {
+      "page": 1,
+      "start": 128,
+      "end": 160,
+      "json_pointer": "/pages/0/markdown",
+      "title": "HALF YEAR RESULTS 2026",
+      "level": 1,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 2,
+      "start": 125,
+      "end": 154,
+      "json_pointer": "/pages/1/markdown",
+      "title": "SAFE HARBOUR STATEMENT",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 4,
+      "start": 0,
+      "end": 56,
+      "json_pointer": "/pages/3/markdown",
+      "title": "STRONG FIRST HALF DELIVERY; FY26 GUIDANCE RAISED",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 0,
+      "end": 52,
+      "json_pointer": "/pages/4/markdown",
+      "title": "STRONG OPERATIONAL AND FINANCIAL PERFORMANCE",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 5,
+      "start": 186,
+      "end": 223,
+      "json_pointer": "/pages/4/markdown",
+      "title": "KEY GROUP FINANCIAL METRICS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 6,
+      "start": 0,
+      "end": 35,
+      "json_pointer": "/pages/5/markdown",
+      "title": "CONTINUED STRATEGIC PROGRESS",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 0,
+      "end": 35,
+      "json_pointer": "/pages/6/markdown",
+      "title": "CONTINUED STRATEGIC PROGRESS",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 7,
+      "start": 100,
+      "end": 139,
+      "json_pointer": "/pages/6/markdown",
+      "title": "3. Efficiency & simplification",
+      "level": 5,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 9,
+      "start": 0,
+      "end": 40,
+      "json_pointer": "/pages/8/markdown",
+      "title": "2026 HALF YEAR UNDERLYING RESULTS",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 0,
+      "end": 22,
+      "json_pointer": "/pages/9/markdown",
+      "title": "CIVIL AEROSPACE",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 951,
+      "end": 987,
+      "json_pointer": "/pages/9/markdown",
+      "title": "UNDERLYING REVENUE SPLITS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 10,
+      "start": 1049,
+      "end": 1069,
+      "json_pointer": "/pages/9/markdown",
+      "title": "KEY POINTS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 0,
+      "end": 14,
+      "json_pointer": "/pages/10/markdown",
+      "title": "DEFENCE",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 646,
+      "end": 682,
+      "json_pointer": "/pages/10/markdown",
+      "title": "UNDERLYING REVENUE SPLITS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 950,
+      "end": 970,
+      "json_pointer": "/pages/10/markdown",
+      "title": "KEY POINTS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 11,
+      "start": 1266,
+      "end": 1289,
+      "json_pointer": "/pages/10/markdown",
+      "title": "ORDER INTAKE",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 0,
+      "end": 20,
+      "json_pointer": "/pages/11/markdown",
+      "title": "POWER SYSTEMS",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 983,
+      "end": 1019,
+      "json_pointer": "/pages/11/markdown",
+      "title": "UNDERLYING REVENUE SPLITS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 1081,
+      "end": 1101,
+      "json_pointer": "/pages/11/markdown",
+      "title": "KEY POINTS",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 1267,
+      "end": 1289,
+      "json_pointer": "/pages/11/markdown",
+      "title": "ORDER INTAKE",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 12,
+      "start": 1289,
+      "end": 1312,
+      "json_pointer": "/pages/11/markdown",
+      "title": "ORDER BACKLOG",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 13,
+      "start": 0,
+      "end": 25,
+      "json_pointer": "/pages/12/markdown",
+      "title": "SUMMARY FUNDS FLOW",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 14,
+      "start": 0,
+      "end": 24,
+      "json_pointer": "/pages/13/markdown",
+      "title": "CAPITAL FRAMEWORK",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 0,
+      "end": 37,
+      "json_pointer": "/pages/15/markdown",
+      "title": "FULL YEAR 2026 GUIDANCE RAISED",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 210,
+      "end": 235,
+      "json_pointer": "/pages/15/markdown",
+      "title": "Free cash flow",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 16,
+      "start": 678,
+      "end": 711,
+      "json_pointer": "/pages/15/markdown",
+      "title": "Civil Aerospace drivers",
+      "level": 6,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 0,
+      "end": 45,
+      "json_pointer": "/pages/16/markdown",
+      "title": "ACHIEVING THE ROLLS-ROYCE PROPOSITION",
+      "level": 3,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 17,
+      "start": 107,
+      "end": 133,
+      "json_pointer": "/pages/16/markdown",
+      "title": "OUR TRANSFORMATION",
+      "level": 4,
+      "decision": "section_candidate"
+    },
+    {
+      "page": 18,
+      "start": 62,
+      "end": 72,
+      "json_pointer": "/pages/17/markdown",
+      "title": "Q&A",
+      "level": 2,
+      "decision": "section_candidate"
+    }
+  ]
+}

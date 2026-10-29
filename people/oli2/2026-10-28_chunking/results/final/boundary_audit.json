@@ -1,0 +1,566 @@
+{
+  "review_type": "Source-text structural audit, not independent human semantic annotation",
+  "original_small_chunks": 33,
+  "original_small_chunk_dispositions": [
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:f562ee673df983dabfaf",
+      "source_spans": [
+        {
+          "page": 3,
+          "start": 5641,
+          "end": 5643,
+          "json_pointer": "/pages/2/markdown"
+        }
+      ],
+      "excerpt": "3\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:37b5903e05c76458ac0f"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:602073b80047160b399c",
+      "source_spans": [
+        {
+          "page": 13,
+          "start": 0,
+          "end": 60,
+          "json_pointer": "/pages/12/markdown"
+        }
+      ],
+      "excerpt": "# **Condensed Consolidated Interim Financial Statements** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:9fafa838cfd0cd16bbd9"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:f41a1ddd3274b7837f56",
+      "source_spans": [
+        {
+          "page": 16,
+          "start": 0,
+          "end": 92,
+          "json_pointer": "/pages/15/markdown"
+        }
+      ],
+      "excerpt": "### **Condensed consolidated cash flow statement** \n\nFor the half-year ended 30 June 2026 \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:48ce78e76d4d34474deb"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:f4dd21cc5640037fab59",
+      "source_spans": [
+        {
+          "page": 20,
+          "start": 0,
+          "end": 67,
+          "json_pointer": "/pages/19/markdown"
+        }
+      ],
+      "excerpt": "### **Notes to the Condensed Consolidated Financial Statements** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:155d4065c8a716b985d5"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:04399399390a77cc0021",
+      "source_spans": [
+        {
+          "page": 20,
+          "start": 67,
+          "end": 133,
+          "json_pointer": "/pages/19/markdown"
+        }
+      ],
+      "excerpt": "##### **<u>1 Basis of preparation and accounting policies</u>** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:155d4065c8a716b985d5"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:373947e9acf2bef5e4f8",
+      "source_spans": [
+        {
+          "page": 21,
+          "start": 0,
+          "end": 78,
+          "json_pointer": "/pages/20/markdown"
+        }
+      ],
+      "excerpt": "##### **Basis of preparation and accounting** **<u>policies continued</u>** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:f50d2358713dad43dc8a"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:54c74889e90208931f19",
+      "source_spans": [
+        {
+          "page": 21,
+          "start": 3222,
+          "end": 3249,
+          "json_pointer": "/pages/20/markdown"
+        }
+      ],
+      "excerpt": "###### **Going concern** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:173338bd8e60240648af"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:0c0e60afd8bf0ddacddd",
+      "source_spans": [
+        {
+          "page": 22,
+          "start": 0,
+          "end": 78,
+          "json_pointer": "/pages/21/markdown"
+        }
+      ],
+      "excerpt": "##### **Basis of preparation and accounting** **<u>policies continued</u>** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:43d7ccabf08647845b1e"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:f6c0fa09ca3b6621c7a4",
+      "source_spans": [
+        {
+          "page": 23,
+          "start": 0,
+          "end": 78,
+          "json_pointer": "/pages/22/markdown"
+        }
+      ],
+      "excerpt": "##### **Basis of preparation and accounting** **<u>policies continued</u>** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:3b10a4c5b8bc97757c8d"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:e623d46b92e177a9ade3",
+      "source_spans": [
+        {
+          "page": 25,
+          "start": 0,
+          "end": 43,
+          "json_pointer": "/pages/24/markdown"
+        }
+      ],
+      "excerpt": "##### **2 Segmental analysis continued** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:0efeb75606a830d2c57a"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:b74e32e516b4a228289e",
+      "source_spans": [
+        {
+          "page": 26,
+          "start": 0,
+          "end": 43,
+          "json_pointer": "/pages/25/markdown"
+        }
+      ],
+      "excerpt": "##### **2 Segmental analysis continued** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:bb45f0b0ae22bd6688f7"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:d75c3000ea7caa4d0e4f",
+      "source_spans": [
+        {
+          "page": 27,
+          "start": 0,
+          "end": 43,
+          "json_pointer": "/pages/26/markdown"
+        }
+      ],
+      "excerpt": "##### **2 Segmental analysis continued** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:85b8914f4544abda1694"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:6a41a665311cc52257d0",
+      "source_spans": [
+        {
+          "page": 28,
+          "start": 0,
+          "end": 43,
+          "json_pointer": "/pages/27/markdown"
+        }
+      ],
+      "excerpt": "##### **2 Segmental analysis continued** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:d7ec895103cc2292ddc4"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:742b08ba1cd48dc94443",
+      "source_spans": [
+        {
+          "page": 38,
+          "start": 0,
+          "end": 48,
+          "json_pointer": "/pages/37/markdown"
+        }
+      ],
+      "excerpt": "##### **16 Financial assets and liabilities** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:3de16669d261f8edfb12"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:fa9624372e653257c55a",
+      "source_spans": [
+        {
+          "page": 43,
+          "start": 0,
+          "end": 38,
+          "json_pointer": "/pages/42/markdown"
+        }
+      ],
+      "excerpt": "##### **21 Business held for sale** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:9397fc65472c4cee2992"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:e6298b93b7b96e545c33",
+      "source_spans": [
+        {
+          "page": 49,
+          "start": 819,
+          "end": 848,
+          "json_pointer": "/pages/48/markdown"
+        }
+      ],
+      "excerpt": "###### **Principal risks** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:44aac7383b8225200e95"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_release:section:d43141dda429515bcb21",
+      "source_spans": [
+        {
+          "page": 52,
+          "start": 0,
+          "end": 78,
+          "json_pointer": "/pages/51/markdown"
+        }
+      ],
+      "excerpt": "## **Responsibilities for the interim financial statements and the review** \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_release:section:752246b1b2a77430f7e9"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:cd3b8d927a9e80442cb5",
+      "source_spans": [
+        {
+          "page": 1,
+          "start": 0,
+          "end": 6,
+          "json_pointer": "/pages/0/markdown"
+        }
+      ],
+      "excerpt": "j rua\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:9349a870865566bf3ca4"
+      ],
+      "outcome": "retained_low_information"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:fd3fb71e07c5f45503db",
+      "source_spans": [
+        {
+          "page": 11,
+          "start": 0,
+          "end": 97,
+          "json_pointer": "/pages/10/markdown"
+        }
+      ],
+      "excerpt": "### HIPPODROME CASINO LIMITED STRATEGIC REPORT (CONTINUED) FOR THE YEAR ENDED 31 DECEMBER 2025 \n\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:3e7ddc2fef7615785582"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:3491a6c698b66aebc4c9",
+      "source_spans": [
+        {
+          "page": 11,
+          "start": 97,
+          "end": 111,
+          "json_pointer": "/pages/10/markdown"
+        }
+      ],
+      "excerpt": "###### Risk \n\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:3e7ddc2fef7615785582"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:19c0389efd95f71f59c6",
+      "source_spans": [
+        {
+          "page": 21,
+          "start": 0,
+          "end": 79,
+          "json_pointer": "/pages/20/markdown"
+        }
+      ],
+      "excerpt": "###### Company registration number 05497987 \n\n#### HIPPODROME CASINO LIMITED \n\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:d5d6c05f118c382e2037"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:6b324ef65848aa884cc4",
+      "source_spans": [
+        {
+          "page": 29,
+          "start": 2748,
+          "end": 2786,
+          "json_pointer": "/pages/28/markdown"
+        }
+      ],
+      "excerpt": "###### 3 Turnover and other revenue \n\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:1cfedc3defaea1036207"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "hippodrome_2025:section:c5c83f0e5a0f99bf00e5",
+      "source_spans": [
+        {
+          "page": 39,
+          "start": 374,
+          "end": 416,
+          "json_pointer": "/pages/38/markdown"
+        }
+      ],
+      "excerpt": "###### 28 Operating lease commitments ‘ \n\n",
+      "final_chunk_ids": [
+        "hippodrome_2025:section:4cff0202f5484d243d18"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:bf4b2ab9ded90a3ba214",
+      "source_spans": [
+        {
+          "page": 1,
+          "start": 0,
+          "end": 70,
+          "json_pointer": "/pages/0/markdown"
+        }
+      ],
+      "excerpt": "Registered number: 01814662 \n\nPETERBOROUGH CARE LIMITED \n\nUNAUDITED \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:d7c5dd87292fd46ec394"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:caae740a53a53a6d1a0e",
+      "source_spans": [
+        {
+          "page": 5,
+          "start": 100,
+          "end": 140,
+          "json_pointer": "/pages/4/markdown"
+        }
+      ],
+      "excerpt": "## 2. Accounting policies (continued) \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:70c87c8f9a03eec6dea8"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:201142a948000718b864",
+      "source_spans": [
+        {
+          "page": 6,
+          "start": 103,
+          "end": 143,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "excerpt": "## 2. Accounting policies (continued) \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:3fb40f9b89fad953ed12"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:950bc7597ec815758785",
+      "source_spans": [
+        {
+          "page": 6,
+          "start": 1890,
+          "end": 1935,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "excerpt": "### Derecognition of financial instruments \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:5e545e662836df53034a"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:e14528f656dcc1ef43f4",
+      "source_spans": [
+        {
+          "page": 7,
+          "start": 103,
+          "end": 143,
+          "json_pointer": "/pages/6/markdown"
+        }
+      ],
+      "excerpt": "## 2. Accounting policies (continued) \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:3ecce5b566dc4697f2b6"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:bafe6ee695ad6c22539b",
+      "source_spans": [
+        {
+          "page": 7,
+          "start": 454,
+          "end": 473,
+          "json_pointer": "/pages/6/markdown"
+        }
+      ],
+      "excerpt": "### 2.9 Pensions \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:c26bfceefa31a65e005d"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "peterborough_2025:section:740ce8f253e0961f7ebb",
+      "source_spans": [
+        {
+          "page": 10,
+          "start": 113,
+          "end": 125,
+          "json_pointer": "/pages/9/markdown"
+        }
+      ],
+      "excerpt": "### Loans \n\n",
+      "final_chunk_ids": [
+        "peterborough_2025:section:f2a100fb0e8743e57459"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_presentation:section:02a3b351c45248807970",
+      "source_spans": [
+        {
+          "page": 10,
+          "start": 951,
+          "end": 1049,
+          "json_pointer": "/pages/9/markdown"
+        }
+      ],
+      "excerpt": "###### UNDERLYING REVENUE SPLITS \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0010-04.png)\n\n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_presentation:section:6f6686b206e3c4c6e3af"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_presentation:section:2bdbd5d910b7f43690f5",
+      "source_spans": [
+        {
+          "page": 12,
+          "start": 983,
+          "end": 1081,
+          "json_pointer": "/pages/11/markdown"
+        }
+      ],
+      "excerpt": "###### UNDERLYING REVENUE SPLITS \n\n\n![](images/rolls_royce_2026h1_presentation.pdf-0012-04.png)\n\n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_presentation:section:ab253740eef940fc8448"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    },
+    {
+      "original_chunk_id": "rolls_royce_2026h1_presentation:section:93653ed723ded7850c6d",
+      "source_spans": [
+        {
+          "page": 12,
+          "start": 1267,
+          "end": 1289,
+          "json_pointer": "/pages/11/markdown"
+        }
+      ],
+      "excerpt": "###### ORDER INTAKE \n\n",
+      "final_chunk_ids": [
+        "rolls_royce_2026h1_presentation:section:522d0d01497d35a53e58"
+      ],
+      "outcome": "joined_with_adjacent_content"
+    }
+  ],
+  "final_small_chunks": [
+    {
+      "chunk_id": "rolls_royce_2026h1_release:section:766460f88179f2a787b6",
+      "source_spans": [
+        {
+          "page": 38,
+          "start": 2481,
+          "end": 2562,
+          "json_pointer": "/pages/37/markdown"
+        }
+      ],
+      "content": "> 1 Includes the foreign exchange impact of cross-currency interest rate swaps \n\n",
+      "indexable": true,
+      "flags": []
+    },
+    {
+      "chunk_id": "hippodrome_2025:section:9349a870865566bf3ca4",
+      "source_spans": [
+        {
+          "page": 1,
+          "start": 0,
+          "end": 6,
+          "json_pointer": "/pages/0/markdown"
+        }
+      ],
+      "content": "j rua\n",
+      "indexable": false,
+      "flags": [
+        "low_information_preserved"
+      ]
+    }
+  ]
+}

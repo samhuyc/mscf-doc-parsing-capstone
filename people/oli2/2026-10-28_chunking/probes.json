@@ -1,0 +1,14 @@
+{
+  "annotation_origin": "assistant-authored development probes against saved parser text; not independently verified PDF gold",
+  "scope": "within_document",
+  "queries": [
+    {"id": "edf_direct_fuel", "document_id": "edf_2024", "question": "What is included in EDF direct fuel costs?", "evidence": [{"page": 4, "quote": "**Direct fuel costs:** aggregate electricity, gas and imbalance costs."}]},
+    {"id": "edf_hedging", "document_id": "edf_2024", "question": "What is EDF's hedging policy for energy market risk?", "evidence": [{"page": 5, "quote": "hedging strategies which are designed to minimise the impact of energy market risk"}]},
+    {"id": "edf_revenue_table", "document_id": "edf_2024", "question": "What is EDF aggregate supply business total revenue, and in what unit?", "evidence": [{"page": 3, "quote": "Aggregate<br/>supply<br/>business"}, {"page": 3, "quote": "<td>Total revenue</td><td>£'M</td><td>3,037.1</td><td>8,674.9</td><td>1,693.1</td><td>126.6</td><td>13,531.6</td>"}]},
+    {"id": "edf_reconciliation_note", "document_id": "edf_2024", "question": "How does the reconciliation to statutory accounts treat wider business activities beyond licensed energy supply?", "evidence": [{"page": 6, "quote": "wider business activities beyond licensed energy supply"}]},
+    {"id": "hippodrome_turnover", "document_id": "hippodrome_2025", "question": "What supported Hippodrome turnover growth and the expansion of slots?", "evidence": [{"page": 3, "quote": "Turnover increased by 2% to £116.8m (2024: £114.6m), supported by Government White Paper reforms allowing sports betting and the expansion of our Slots portfolio from 20 to 80 machines."}]},
+    {"id": "rolls_free_cash_flow", "document_id": "rolls_royce_2026h1_release", "question": "What drove Rolls-Royce free cash flow in the first half of 2026?", "evidence": [{"page": 1, "quote": "**Free cash flow** of £2.0bn driven by higher underlying operating profit and with increased investments to support profitable growth to the mid-term and beyond"}]},
+    {"id": "cvs_revenues", "document_id": "cvs_2025q2", "question": "What were CVS total revenues in 2Q 2025 compared with 2Q 2024?", "evidence": [{"page": 6, "quote": "<th>2Q 2025</th><th>2Q 2024</th>"}, {"page": 6, "quote": "<td>Total Revenues</td><td>$98.9</td><td>$91.2</td>"}]},
+    {"id": "peterborough_assets", "document_id": "peterborough_2025", "question": "What were Peterborough tangible fixed assets in 2025 and 2024?", "evidence": [{"page": 2, "quote": "<td>Tangible assets</td><td>4</td><td></td><td>967,756</td><td></td><td>992,467</td>"}]}
+  ]
+}

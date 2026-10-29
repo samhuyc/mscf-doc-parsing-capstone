@@ -1,0 +1,316 @@
+{
+  "version": "2.0.0",
+  "parser": "pymupdf4llm",
+  "max_tokens": 1024,
+  "tokenizer": "cl100k_base",
+  "documents": [
+    {
+      "document_id": "edf_2024",
+      "pages": 6,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 9999,
+        "table_blocks_preserved": 2,
+        "chunk_count": 6,
+        "indexable": 6,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 1,
+        "max_context_tokens": 1214,
+        "flags": {
+          "table_preserved_as_exported": 2,
+          "over_token_budget": 1,
+          "atomic_table_exception": 1
+        },
+        "median_chars": 1688.0,
+        "max_chars": 2771,
+        "median_context_tokens": 490.0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 9999,
+        "table_blocks_preserved": 2,
+        "chunk_count": 11,
+        "indexable": 10,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 1,
+        "over_token_budget": 1,
+        "max_context_tokens": 1129,
+        "flags": {
+          "low_information_preserved": 1,
+          "scaffolding_only": 1,
+          "table_preserved_as_exported": 2,
+          "over_token_budget": 1,
+          "atomic_table_exception": 1
+        },
+        "median_chars": 563,
+        "max_chars": 2815,
+        "median_context_tokens": 193,
+        "cross_page_chunks": 1,
+        "chunks_with_adjacent_context": 1
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "pages": 52,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 229182,
+        "table_blocks_preserved": 63,
+        "chunk_count": 52,
+        "indexable": 52,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 42,
+        "max_context_tokens": 2721,
+        "flags": {
+          "table_preserved_as_exported": 38,
+          "over_token_budget": 42,
+          "atomic_table_exception": 35,
+          "page_baseline_exception": 7
+        },
+        "median_chars": 4614.0,
+        "max_chars": 6681,
+        "median_context_tokens": 1352.0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 229182,
+        "table_blocks_preserved": 63,
+        "chunk_count": 148,
+        "indexable": 148,
+        "tiny_under_100_chars": 1,
+        "scaffolding_only": 0,
+        "over_token_budget": 15,
+        "max_context_tokens": 2017,
+        "flags": {
+          "table_preserved_as_exported": 60,
+          "over_token_budget": 15,
+          "atomic_table_exception": 15
+        },
+        "median_chars": 1258.5,
+        "max_chars": 4860,
+        "median_context_tokens": 476.0,
+        "cross_page_chunks": 1,
+        "chunks_with_adjacent_context": 27
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "pages": 39,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 106011,
+        "table_blocks_preserved": 31,
+        "chunk_count": 39,
+        "indexable": 38,
+        "tiny_under_100_chars": 1,
+        "scaffolding_only": 0,
+        "over_token_budget": 3,
+        "max_context_tokens": 1314,
+        "flags": {
+          "low_information_preserved": 1,
+          "table_preserved_as_exported": 18,
+          "over_token_budget": 3,
+          "atomic_table_exception": 3
+        },
+        "median_chars": 3054,
+        "max_chars": 4663,
+        "median_context_tokens": 704,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 106011,
+        "table_blocks_preserved": 31,
+        "chunk_count": 104,
+        "indexable": 103,
+        "tiny_under_100_chars": 1,
+        "scaffolding_only": 0,
+        "over_token_budget": 2,
+        "max_context_tokens": 1086,
+        "flags": {
+          "low_information_preserved": 1,
+          "table_preserved_as_exported": 25,
+          "over_token_budget": 2,
+          "atomic_table_exception": 2
+        },
+        "median_chars": 754.0,
+        "max_chars": 4078,
+        "median_context_tokens": 234.0,
+        "cross_page_chunks": 2,
+        "chunks_with_adjacent_context": 16
+      }
+    },
+    {
+      "document_id": "cvs_2025q2",
+      "pages": 12,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 13463,
+        "table_blocks_preserved": 6,
+        "chunk_count": 12,
+        "indexable": 12,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 0,
+        "max_context_tokens": 735,
+        "flags": {
+          "table_preserved_as_exported": 5
+        },
+        "median_chars": 1152.0,
+        "max_chars": 2080,
+        "median_context_tokens": 357.0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 13463,
+        "table_blocks_preserved": 6,
+        "chunk_count": 14,
+        "indexable": 14,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 0,
+        "max_context_tokens": 780,
+        "flags": {
+          "table_preserved_as_exported": 5
+        },
+        "median_chars": 552.0,
+        "max_chars": 2080,
+        "median_context_tokens": 275.0,
+        "cross_page_chunks": 2,
+        "chunks_with_adjacent_context": 1
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "pages": 12,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 20799,
+        "table_blocks_preserved": 7,
+        "chunk_count": 12,
+        "indexable": 12,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 1,
+        "over_token_budget": 0,
+        "max_context_tokens": 825,
+        "flags": {
+          "scaffolding_only": 1,
+          "table_preserved_as_exported": 5
+        },
+        "median_chars": 1730.5,
+        "max_chars": 2991,
+        "median_context_tokens": 574.5,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 20799,
+        "table_blocks_preserved": 7,
+        "chunk_count": 30,
+        "indexable": 30,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 0,
+        "max_context_tokens": 998,
+        "flags": {
+          "table_preserved_as_exported": 6
+        },
+        "median_chars": 513.0,
+        "max_chars": 2308,
+        "median_context_tokens": 210.5,
+        "cross_page_chunks": 2,
+        "chunks_with_adjacent_context": 5
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "pages": 19,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 19105,
+        "table_blocks_preserved": 8,
+        "chunk_count": 19,
+        "indexable": 19,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 0,
+        "max_context_tokens": 773,
+        "flags": {
+          "table_preserved_as_exported": 6
+        },
+        "median_chars": 1020,
+        "max_chars": 1884,
+        "median_context_tokens": 388,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 19105,
+        "table_blocks_preserved": 8,
+        "chunk_count": 26,
+        "indexable": 25,
+        "tiny_under_100_chars": 0,
+        "scaffolding_only": 0,
+        "over_token_budget": 0,
+        "max_context_tokens": 792,
+        "flags": {
+          "low_information_preserved": 1,
+          "table_preserved_as_exported": 6
+        },
+        "median_chars": 595.5,
+        "max_chars": 1950,
+        "median_context_tokens": 258.0,
+        "cross_page_chunks": 6,
+        "chunks_with_adjacent_context": 4
+      }
+    }
+  ],
+  "total_pages": 140,
+  "total_section_chunks": 333,
+  "source_characters": 398559,
+  "table_blocks": 117,
+  "section_totals": {
+    "indexable": 330,
+    "tiny_under_100_chars": 2,
+    "scaffolding_only": 1,
+    "over_token_budget": 18,
+    "max_context_tokens": 2017,
+    "flags": {
+      "low_information_preserved": 3,
+      "scaffolding_only": 1,
+      "table_preserved_as_exported": 104,
+      "over_token_budget": 18,
+      "atomic_table_exception": 18
+    }
+  },
+  "processing_seconds": 6.5007,
+  "limitations": [
+    "Exact preservation is measured against saved parser text, not original PDF fidelity.",
+    "Heading normalization and adjacent notes remain heuristic.",
+    "Complete tables can exceed the per-chunk token target and are explicitly flagged.",
+    "Cross-page table fragments are not stitched; image content is not reprocessed."
+  ]
+}

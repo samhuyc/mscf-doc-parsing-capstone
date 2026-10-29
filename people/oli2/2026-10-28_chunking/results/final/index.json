@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "default_strategy": "section",
+  "tokenizer": "cl100k_base",
+  "chunk_files": {
+    "page": {
+      "path": "page_chunks.jsonl",
+      "sha256_utf8_lf": "2345309a57b4367a3120d84de2d53d690c947f1034c73d269b7029309ec5009c"
+    },
+    "section": {
+      "path": "section_chunks.jsonl",
+      "sha256_utf8_lf": "680d7cd71f10a0adea843e9dbe5234da53b75569682f65c306777b92c43f0372"
+    }
+  }
+}

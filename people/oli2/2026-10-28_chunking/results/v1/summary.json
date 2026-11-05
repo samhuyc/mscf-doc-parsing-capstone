@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "parser": "pymupdf4llm",
+  "max_chars_soft_budget": 4000,
+  "size_unit": "raw Markdown Unicode characters, not model tokens",
+  "documents": [
+    {
+      "document_id": "edf_2024",
+      "pages": 6,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 9999,
+        "table_blocks_preserved": 2,
+        "chunk_count": 6,
+        "median_chars": 1688.0,
+        "max_chars": 2771,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 2
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 9999,
+        "table_blocks_preserved": 2,
+        "chunk_count": 10,
+        "median_chars": 664.5,
+        "max_chars": 2815,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 1,
+        "chunks_with_adjacent_context": 1,
+        "flags": {
+          "table_preserved_as_exported": 2
+        }
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "pages": 52,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 229182,
+        "table_blocks_preserved": 63,
+        "chunk_count": 52,
+        "median_chars": 4614.0,
+        "max_chars": 6681,
+        "over_budget_chunks": 38,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "soft_budget_exceeded": 38,
+          "table_preserved_as_exported": 38,
+          "oversized_atomic_block": 4
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 229182,
+        "table_blocks_preserved": 63,
+        "chunk_count": 154,
+        "median_chars": 1172.5,
+        "max_chars": 5448,
+        "over_budget_chunks": 5,
+        "cross_page_chunks": 6,
+        "chunks_with_adjacent_context": 13,
+        "flags": {
+          "table_preserved_as_exported": 54,
+          "soft_budget_exceeded": 5,
+          "oversized_atomic_block": 4
+        }
+      }
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "pages": 39,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 106011,
+        "table_blocks_preserved": 31,
+        "chunk_count": 39,
+        "median_chars": 3054,
+        "max_chars": 4663,
+        "over_budget_chunks": 5,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 18,
+          "soft_budget_exceeded": 5
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 106011,
+        "table_blocks_preserved": 31,
+        "chunk_count": 111,
+        "median_chars": 642,
+        "max_chars": 4074,
+        "over_budget_chunks": 1,
+        "cross_page_chunks": 8,
+        "chunks_with_adjacent_context": 1,
+        "flags": {
+          "table_preserved_as_exported": 24,
+          "soft_budget_exceeded": 1
+        }
+      }
+    },
+    {
+      "document_id": "cvs_2025q2",
+      "pages": 12,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 13463,
+        "table_blocks_preserved": 6,
+        "chunk_count": 12,
+        "median_chars": 1152.0,
+        "max_chars": 2080,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 5
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 13463,
+        "table_blocks_preserved": 6,
+        "chunk_count": 15,
+        "median_chars": 545,
+        "max_chars": 2080,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 2,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 5
+        }
+      }
+    },
+    {
+      "document_id": "peterborough_2025",
+      "pages": 12,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 20799,
+        "table_blocks_preserved": 7,
+        "chunk_count": 12,
+        "median_chars": 1730.5,
+        "max_chars": 2991,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 5
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 20799,
+        "table_blocks_preserved": 7,
+        "chunk_count": 41,
+        "median_chars": 290,
+        "max_chars": 3183,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 6,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 6
+        }
+      }
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "pages": 19,
+      "page": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 19105,
+        "table_blocks_preserved": 8,
+        "chunk_count": 19,
+        "median_chars": 1020,
+        "max_chars": 1884,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 0,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 6
+        }
+      },
+      "section": {
+        "exact_character_coverage": true,
+        "ordered": true,
+        "source_characters": 19105,
+        "table_blocks_preserved": 8,
+        "chunk_count": 29,
+        "median_chars": 529,
+        "max_chars": 1950,
+        "over_budget_chunks": 0,
+        "cross_page_chunks": 7,
+        "chunks_with_adjacent_context": 0,
+        "flags": {
+          "table_preserved_as_exported": 6
+        }
+      }
+    }
+  ],
+  "total_pages": 140,
+  "total_section_chunks": 360,
+  "processing_seconds": 1.4655,
+  "limitations": [
+    "Coverage is relative to saved parser text, not original PDF accuracy.",
+    "Heading hierarchy and adjacent table context are heuristics, not semantic gold.",
+    "Large atomic blocks can exceed the soft character budget.",
+    "Cross-page table fragments are retained separately; no automatic table stitching.",
+    "Image references are preserved but image content is not newly recognized.",
+    "Document metadata inherits provisional extractor decisions; no silent correction."
+  ]
+}

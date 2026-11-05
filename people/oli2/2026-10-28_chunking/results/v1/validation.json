@@ -1,0 +1,49 @@
+{
+  "unit_integration_tests": {
+    "passed": 18,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s tests -v"
+  },
+  "browser": {
+    "tested_preview": "results/v1/preview.html",
+    "same_generator_as_final": true,
+    "engine": "Playwright Chromium headless",
+    "javascript_errors": 0,
+    "external_requests": 0,
+    "desktop_viewport": [
+      1440,
+      1000
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "checked": [
+      "six document selection",
+      "page/section toggle",
+      "table rowspan preservation",
+      "source highlighting",
+      "Unicode code-point slicing",
+      "keyword filtering",
+      "empty state",
+      "responsive layout"
+    ]
+  },
+  "reproducibility_checks": {
+    "page_chunks.jsonl": true,
+    "section_chunks.jsonl": true,
+    "heading_decisions.json": true
+  },
+  "source_integrity": {
+    "pages": 140,
+    "characters": 398559,
+    "table_blocks": 117,
+    "all_exact": true
+  },
+  "presentation_update": {
+    "language": "English",
+    "unit_integration_tests_passed": 18,
+    "browser_checks_passed": true,
+    "chunk_outputs_byte_identical": true
+  }
+}

@@ -1,0 +1,1048 @@
+{
+  "annotation_origin": "assistant-authored development probes against saved parser text; not independently verified PDF gold",
+  "scope": "within_document",
+  "retrieval": "BM25 within the specified document, k1=1.5, b=0.75, top_k=3; English lexical tokens",
+  "scope_note": "No embeddings or LLM calls; no cross-document, Chinese, or final-answer evaluation.",
+  "evidence_note": "Exact saved-parser-text spans, including explicitly linked context; not verified PDF facts. Alternative valid evidence is not labeled.",
+  "probe_sha256": "c49aa23ae6112f80c37d757ec4871f8b2d192ead91836c072ef06cfba651d842",
+  "chunk_hashes": {
+    "page": "16900b82cdc1dd59bc29eb898db0eaf1cb476d34ca4187f8112dddf6adf9ef5a",
+    "section": "4f22fb0d3988a4a952be1b11dc06e7bbb1e23499db15ea07f396926a49947a1c"
+  },
+  "aggregate": {
+    "page": {
+      "queries": 8,
+      "hit_at_1": 5,
+      "hit_at_3": 7,
+      "mean_top3_retrieval_chars": 6232.6
+    },
+    "section": {
+      "queries": 8,
+      "hit_at_1": 6,
+      "hit_at_3": 6,
+      "mean_top3_retrieval_chars": 4606.8
+    }
+  },
+  "queries": [
+    {
+      "query_id": "edf_direct_fuel",
+      "document_id": "edf_2024",
+      "question": "What is included in EDF direct fuel costs?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 4,
+          "start": 1201,
+          "end": 1271,
+          "json_pointer": "/pages/3/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 6578,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:page:44bdb727acb8d80c03a1",
+          "score": 4.13453,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 0,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:105a2e5d24be067d2a71",
+          "score": 3.08073,
+          "source_spans": [
+            {
+              "page": 5,
+              "start": 0,
+              "end": 2059,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:4cdca67643f5bc3ed344",
+          "score": 2.5007,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 2574,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_direct_fuel",
+      "document_id": "edf_2024",
+      "question": "What is included in EDF direct fuel costs?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 4,
+          "start": 1201,
+          "end": 1271,
+          "json_pointer": "/pages/3/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 5874,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:section:0e8a52e01f1ff4e1ff4b",
+          "score": 5.05243,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 511,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            },
+            {
+              "page": 5,
+              "start": 0,
+              "end": 555,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:61d274e9ed845b10e01f",
+          "score": 4.68344,
+          "source_spans": [
+            {
+              "page": 5,
+              "start": 1118,
+              "end": 2059,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:4730471ae5cb1076a1b8",
+          "score": 3.61547,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 2574,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_hedging",
+      "document_id": "edf_2024",
+      "question": "What is EDF's hedging policy for energy market risk?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 5,
+          "start": 590,
+          "end": 672,
+          "json_pointer": "/pages/4/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 6105,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:page:105a2e5d24be067d2a71",
+          "score": 8.38677,
+          "source_spans": [
+            {
+              "page": 5,
+              "start": 0,
+              "end": 2059,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:44bdb727acb8d80c03a1",
+          "score": 4.29977,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 0,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:1918a6134a750c3d6a45",
+          "score": 2.24415,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_hedging",
+      "document_id": "edf_2024",
+      "question": "What is EDF's hedging policy for energy market risk?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 5,
+          "start": 590,
+          "end": 672,
+          "json_pointer": "/pages/4/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 4550,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:section:839c9955c53c46a16f9c",
+          "score": 13.88348,
+          "source_spans": [
+            {
+              "page": 5,
+              "start": 555,
+              "end": 1118,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:0e8a52e01f1ff4e1ff4b",
+          "score": 3.75695,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 511,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            },
+            {
+              "page": 5,
+              "start": 0,
+              "end": 555,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:1b2a63a4202eb3099de3",
+          "score": 3.33285,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 0,
+              "end": 511,
+              "json_pointer": "/pages/3/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_revenue_table",
+      "document_id": "edf_2024",
+      "question": "What is EDF aggregate supply business total revenue, and in what unit?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 3,
+          "start": 233,
+          "end": 266,
+          "json_pointer": "/pages/2/markdown"
+        },
+        {
+          "page": 3,
+          "start": 373,
+          "end": 486,
+          "json_pointer": "/pages/2/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 5569,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:page:4cdca67643f5bc3ed344",
+          "score": 5.25996,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 2574,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:1918a6134a750c3d6a45",
+          "score": 3.70714,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:44bdb727acb8d80c03a1",
+          "score": 2.8276,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 0,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_revenue_table",
+      "document_id": "edf_2024",
+      "question": "What is EDF aggregate supply business total revenue, and in what unit?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 3,
+          "start": 233,
+          "end": 266,
+          "json_pointer": "/pages/2/markdown"
+        },
+        {
+          "page": 3,
+          "start": 373,
+          "end": 486,
+          "json_pointer": "/pages/2/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 5985,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:section:4730471ae5cb1076a1b8",
+          "score": 6.13432,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 2574,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:65b1d39c60f0e0f3c37a",
+          "score": 4.8573,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 766,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": [
+            {
+              "page": 6,
+              "start": 766,
+              "end": 804,
+              "json_pointer": "/pages/5/markdown"
+            },
+            {
+              "page": 6,
+              "start": 804,
+              "end": 1297,
+              "json_pointer": "/pages/5/markdown"
+            },
+            {
+              "page": 6,
+              "start": 1297,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ]
+        },
+        {
+          "chunk_id": "edf_2024:section:0e8a52e01f1ff4e1ff4b",
+          "score": 3.18382,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 511,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            },
+            {
+              "page": 5,
+              "start": 0,
+              "end": 555,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_reconciliation_note",
+      "document_id": "edf_2024",
+      "question": "How does the reconciliation to statutory accounts treat wider business activities beyond licensed energy supply?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 6,
+          "start": 852,
+          "end": 907,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 5165,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:page:1918a6134a750c3d6a45",
+          "score": 14.60993,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:2306a7065e0779e33309",
+          "score": 6.58582,
+          "source_spans": [
+            {
+              "page": 2,
+              "start": 0,
+              "end": 1060,
+              "json_pointer": "/pages/1/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:page:44bdb727acb8d80c03a1",
+          "score": 3.97922,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 0,
+              "end": 2771,
+              "json_pointer": "/pages/3/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "edf_reconciliation_note",
+      "document_id": "edf_2024",
+      "question": "How does the reconciliation to statutory accounts treat wider business activities beyond licensed energy supply?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 6,
+          "start": 852,
+          "end": 907,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 3330,
+      "top3": [
+        {
+          "chunk_id": "edf_2024:section:65b1d39c60f0e0f3c37a",
+          "score": 15.90409,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 766,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": [
+            {
+              "page": 6,
+              "start": 766,
+              "end": 804,
+              "json_pointer": "/pages/5/markdown"
+            },
+            {
+              "page": 6,
+              "start": 804,
+              "end": 1297,
+              "json_pointer": "/pages/5/markdown"
+            },
+            {
+              "page": 6,
+              "start": 1297,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ]
+        },
+        {
+          "chunk_id": "edf_2024:section:1748233201c66aff8938",
+          "score": 15.7689,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 766,
+              "end": 1317,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "edf_2024:section:65027c6056325ad091e2",
+          "score": 7.41481,
+          "source_spans": [
+            {
+              "page": 2,
+              "start": 0,
+              "end": 1060,
+              "json_pointer": "/pages/1/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "hippodrome_turnover",
+      "document_id": "hippodrome_2025",
+      "question": "What supported Hippodrome turnover growth and the expansion of slots?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 3,
+          "start": 411,
+          "end": 596,
+          "json_pointer": "/pages/2/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 8473,
+      "top3": [
+        {
+          "chunk_id": "hippodrome_2025:page:33f1397d5cab0ad5fded",
+          "score": 8.8273,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 3738,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "hippodrome_2025:page:4086f79fe646844b33d0",
+          "score": 5.6886,
+          "source_spans": [
+            {
+              "page": 24,
+              "start": 0,
+              "end": 3246,
+              "json_pointer": "/pages/23/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "hippodrome_2025:page:e9c3511a701cd00739bd",
+          "score": 5.41467,
+          "source_spans": [
+            {
+              "page": 12,
+              "start": 0,
+              "end": 1754,
+              "json_pointer": "/pages/11/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "hippodrome_turnover",
+      "document_id": "hippodrome_2025",
+      "question": "What supported Hippodrome turnover growth and the expansion of slots?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 3,
+          "start": 411,
+          "end": 596,
+          "json_pointer": "/pages/2/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 5059,
+      "top3": [
+        {
+          "chunk_id": "hippodrome_2025:section:58ac68658ad74e07b38a",
+          "score": 9.4373,
+          "source_spans": [
+            {
+              "page": 3,
+              "start": 0,
+              "end": 2332,
+              "json_pointer": "/pages/2/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "hippodrome_2025:section:d01746b19905cde90352",
+          "score": 8.71361,
+          "source_spans": [
+            {
+              "page": 8,
+              "start": 1546,
+              "end": 2041,
+              "json_pointer": "/pages/7/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "hippodrome_2025:section:7568c092884d96e7f68c",
+          "score": 5.74114,
+          "source_spans": [
+            {
+              "page": 24,
+              "start": 157,
+              "end": 1968,
+              "json_pointer": "/pages/23/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "rolls_free_cash_flow",
+      "document_id": "rolls_royce_2026h1_release",
+      "question": "What drove Rolls-Royce free cash flow in the first half of 2026?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 1,
+          "start": 608,
+          "end": 768,
+          "json_pointer": "/pages/0/markdown"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 10538,
+      "top3": [
+        {
+          "chunk_id": "rolls_royce_2026h1_release:page:39ebda66af65504f09f9",
+          "score": 8.41782,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 4068,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "rolls_royce_2026h1_release:page:663591be339b92d0a379",
+          "score": 8.3723,
+          "source_spans": [
+            {
+              "page": 1,
+              "start": 0,
+              "end": 4692,
+              "json_pointer": "/pages/0/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "rolls_royce_2026h1_release:page:7703f748c518eade6cab",
+          "score": 7.31929,
+          "source_spans": [
+            {
+              "page": 47,
+              "start": 0,
+              "end": 4014,
+              "json_pointer": "/pages/46/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "rolls_free_cash_flow",
+      "document_id": "rolls_royce_2026h1_release",
+      "question": "What drove Rolls-Royce free cash flow in the first half of 2026?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 1,
+          "start": 608,
+          "end": 768,
+          "json_pointer": "/pages/0/markdown"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3_retrieval_chars": 4967,
+      "top3": [
+        {
+          "chunk_id": "rolls_royce_2026h1_release:section:516a243aedf26e8a2a91",
+          "score": 11.30062,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 1879,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "rolls_royce_2026h1_release:section:97edfe602939e69d9df4",
+          "score": 10.79097,
+          "source_spans": [
+            {
+              "page": 44,
+              "start": 4043,
+              "end": 5094,
+              "json_pointer": "/pages/43/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "rolls_royce_2026h1_release:section:12e0b9c842663253f543",
+          "score": 10.40168,
+          "source_spans": [
+            {
+              "page": 47,
+              "start": 1591,
+              "end": 3206,
+              "json_pointer": "/pages/46/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "cvs_revenues",
+      "document_id": "cvs_2025q2",
+      "question": "What were CVS total revenues in 2Q 2025 compared with 2Q 2024?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 6,
+          "start": 117,
+          "end": 149,
+          "json_pointer": "/pages/5/markdown"
+        },
+        {
+          "page": 6,
+          "start": 158,
+          "end": 209,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3_retrieval_chars": 4462,
+      "top3": [
+        {
+          "chunk_id": "cvs_2025q2:page:e6b82068577c145ff42d",
+          "score": 4.34856,
+          "source_spans": [
+            {
+              "page": 11,
+              "start": 0,
+              "end": 1682,
+              "json_pointer": "/pages/10/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "cvs_2025q2:page:26ec2ebee57d88789ed2",
+          "score": 4.34412,
+          "source_spans": [
+            {
+              "page": 9,
+              "start": 0,
+              "end": 2080,
+              "json_pointer": "/pages/8/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "cvs_2025q2:page:fb55cc51ff99a94daee8",
+          "score": 4.31019,
+          "source_spans": [
+            {
+              "page": 10,
+              "start": 0,
+              "end": 1655,
+              "json_pointer": "/pages/9/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "cvs_revenues",
+      "document_id": "cvs_2025q2",
+      "question": "What were CVS total revenues in 2Q 2025 compared with 2Q 2024?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 6,
+          "start": 117,
+          "end": 149,
+          "json_pointer": "/pages/5/markdown"
+        },
+        {
+          "page": 6,
+          "start": 158,
+          "end": 209,
+          "json_pointer": "/pages/5/markdown"
+        }
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 3969,
+      "top3": [
+        {
+          "chunk_id": "cvs_2025q2:section:ca51de228c42cacbc88f",
+          "score": 5.92621,
+          "source_spans": [
+            {
+              "page": 6,
+              "start": 0,
+              "end": 506,
+              "json_pointer": "/pages/5/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "cvs_2025q2:section:bb56745d8a0b258885dd",
+          "score": 4.89392,
+          "source_spans": [
+            {
+              "page": 9,
+              "start": 0,
+              "end": 2080,
+              "json_pointer": "/pages/8/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "cvs_2025q2:section:3139f8249f481d0a4397",
+          "score": 4.84438,
+          "source_spans": [
+            {
+              "page": 11,
+              "start": 0,
+              "end": 1682,
+              "json_pointer": "/pages/10/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "peterborough_assets",
+      "document_id": "peterborough_2025",
+      "question": "What were Peterborough tangible fixed assets in 2025 and 2024?",
+      "strategy": "page",
+      "evidence": [
+        {
+          "page": 2,
+          "start": 277,
+          "end": 361,
+          "json_pointer": "/pages/1/markdown"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "top3_retrieval_chars": 2971,
+      "top3": [
+        {
+          "chunk_id": "peterborough_2025:page:1bf6ec053285c0a4c707",
+          "score": 3.93711,
+          "source_spans": [
+            {
+              "page": 8,
+              "start": 0,
+              "end": 1505,
+              "json_pointer": "/pages/7/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "peterborough_2025:page:22cf88bef66ec7ea7823",
+          "score": 3.6435,
+          "source_spans": [
+            {
+              "page": 2,
+              "start": 0,
+              "end": 1805,
+              "json_pointer": "/pages/1/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "peterborough_2025:page:db95031e22e28ca73b09",
+          "score": 3.06431,
+          "source_spans": [
+            {
+              "page": 9,
+              "start": 0,
+              "end": 1656,
+              "json_pointer": "/pages/8/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    },
+    {
+      "query_id": "peterborough_assets",
+      "document_id": "peterborough_2025",
+      "question": "What were Peterborough tangible fixed assets in 2025 and 2024?",
+      "strategy": "section",
+      "evidence": [
+        {
+          "page": 2,
+          "start": 277,
+          "end": 361,
+          "json_pointer": "/pages/1/markdown"
+        }
+      ],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "top3_retrieval_chars": 3120,
+      "top3": [
+        {
+          "chunk_id": "peterborough_2025:section:2b8d388a2633db08eb84",
+          "score": 7.70646,
+          "source_spans": [
+            {
+              "page": 8,
+              "start": 103,
+              "end": 1505,
+              "json_pointer": "/pages/7/markdown"
+            },
+            {
+              "page": 9,
+              "start": 0,
+              "end": 100,
+              "json_pointer": "/pages/8/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "peterborough_2025:section:b1080bf8088b59c6f449",
+          "score": 7.48094,
+          "source_spans": [
+            {
+              "page": 4,
+              "start": 2102,
+              "end": 2826,
+              "json_pointer": "/pages/3/markdown"
+            },
+            {
+              "page": 5,
+              "start": 0,
+              "end": 100,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        },
+        {
+          "chunk_id": "peterborough_2025:section:014c2660453d3e8a8315",
+          "score": 6.73598,
+          "source_spans": [
+            {
+              "page": 5,
+              "start": 140,
+              "end": 1053,
+              "json_pointer": "/pages/4/markdown"
+            }
+          ],
+          "context_spans": []
+        }
+      ]
+    }
+  ]
+}

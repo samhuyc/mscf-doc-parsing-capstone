@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "unit_and_integration_tests": {
+    "command": ".venv/Scripts/python.exe -B -m unittest discover -s tests -v",
+    "tests": 36,
+    "failures": 0,
+    "errors": 0,
+    "code_hashes": {
+      "benchmark.py": "09fddb17178d0a1f742d068f6f7b70b473137bb73ae7f28fd535874579e1ee1b",
+      "chunker.py": "9f8176dbac9582f552f14ae6fb2288ed8f3878479b9de5e85ab6e6f45dcd796d",
+      "complete.py": "bd2be1d95fe9f298e9a58168328857e51930b11ef795395212a8f897dd746bf2",
+      "evaluate.py": "d762c22bbf82b9226b8256a0a9bb3c98e7f0b11dd617f9fb193cee03ec9da057",
+      "retrieval.py": "37b628aad3177801024e5ef4d9ad57114ce99970758bfa3263bd9ef3e45d5027",
+      "review.py": "3eddea4cc654eeb21aa3c2ba94932f5fd6b33172ae80aaeb09564e46b2c27f4c",
+      "run.py": "fd7bb51861c4c38a0c5146d8209f33179e88635c73314050c4cdd3d296f10474",
+      "structure.py": "5421769654941edc69e23360b1313a73684af0dd66ee53576360af21b5853382"
+    },
+    "test_hashes": {
+      "check_preview.py": "64bd034c203bf3be409576225df47901804ab7b839c93aed65a93af824bdf355",
+      "test_chunking.py": "f08e058fe3c6cd421a420a8ded8095d1463304b36337f9f3987d455781b018f3",
+      "test_final.py": "276c279b0f158767ff74995b2fdcadd1f2f5ec761ac95ffb01aed0efabbd1cac"
+    }
+  },
+  "data_and_reproducibility": {
+    "status": "passed",
+    "python": "3.13.7",
+    "deterministic_artifacts": {
+      "page_chunks.jsonl": true,
+      "section_chunks.jsonl": true,
+      "documents.json": true,
+      "heading_decisions.json": true,
+      "boundary_audit.json": true,
+      "retrieval.json": true,
+      "rag_example.json": true,
+      "rag_example.txt": true,
+      "manifest.json": true,
+      "index.json": true
+    },
+    "summary_matches_excluding_processing_time": true,
+    "index_hash_checks": true,
+    "duplicate_ids": false,
+    "source_characters": 398559,
+    "tables": 117,
+    "exact_primary_coverage": true,
+    "example_prompt_tokens": 797,
+    "example_first_passage_contains_designated_evidence": true,
+    "optional_metadata_smoke_check": true,
+    "manifest_code_and_test_hashes_match": true
+  },
+  "browser": {
+    "browser": "Chromium headless",
+    "documents": 6,
+    "page_errors": [],
+    "external_requests": [],
+    "desktop_and_mobile": true,
+    "controls_and_source_navigation": true
+  },
+  "cli_smoke_test": {
+    "command": ".venv/Scripts/python.exe -B retrieval.py --results results/final --document edf_2024 --question \"Which accounting standard was used to prepare EDF financial statements?\" --output artifacts/edf-answer-context.json",
+    "status": "evidence_found",
+    "prompt_tokens": 797
+  },
+  "visual_review": {
+    "desktop": "1440x1000",
+    "mobile": "390x844",
+    "reviewed": true
+  },
+  "limitations": [
+    "Tests validate the saved-text contract and implementation; they do not certify original-PDF extraction or semantic hierarchy.",
+    "Retrieval references are assistant-authored development annotations."
+  ]
+}

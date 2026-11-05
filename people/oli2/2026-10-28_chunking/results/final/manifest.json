@@ -1,0 +1,101 @@
+{
+  "version": "2.0.0",
+  "parameters": {
+    "max_tokens": 1024,
+    "context_budget": 3072,
+    "tokenizer": "cl100k_base",
+    "with_metadata": true
+  },
+  "dependencies": {
+    "markdown-it-py": "4.0.0",
+    "tiktoken": "0.12.0"
+  },
+  "code_hashes": {
+    "benchmark.py": "09fddb17178d0a1f742d068f6f7b70b473137bb73ae7f28fd535874579e1ee1b",
+    "chunker.py": "9f8176dbac9582f552f14ae6fb2288ed8f3878479b9de5e85ab6e6f45dcd796d",
+    "complete.py": "bd2be1d95fe9f298e9a58168328857e51930b11ef795395212a8f897dd746bf2",
+    "evaluate.py": "d762c22bbf82b9226b8256a0a9bb3c98e7f0b11dd617f9fb193cee03ec9da057",
+    "retrieval.py": "37b628aad3177801024e5ef4d9ad57114ce99970758bfa3263bd9ef3e45d5027",
+    "review.py": "3eddea4cc654eeb21aa3c2ba94932f5fd6b33172ae80aaeb09564e46b2c27f4c",
+    "run.py": "fd7bb51861c4c38a0c5146d8209f33179e88635c73314050c4cdd3d296f10474",
+    "structure.py": "5421769654941edc69e23360b1313a73684af0dd66ee53576360af21b5853382"
+  },
+  "test_hashes": {
+    "check_preview.py": "64bd034c203bf3be409576225df47901804ab7b839c93aed65a93af824bdf355",
+    "test_chunking.py": "f08e058fe3c6cd421a420a8ded8095d1463304b36337f9f3987d455781b018f3",
+    "test_final.py": "276c279b0f158767ff74995b2fdcadd1f2f5ec761ac95ffb01aed0efabbd1cac"
+  },
+  "requirements_sha256": "be45fec144029f30368a269ea3fc0fba9f31f698cd19f97e33ffb70717c9a8c7",
+  "probe_hashes": {
+    "probes.json": "c49aa23ae6112f80c37d757ec4871f8b2d192ead91836c072ef06cfba651d842",
+    "expanded_probes.json": "972e7a74d63086a4100fbc6f27318ab1630fb05c68ae2be3a72477017d4c70c6"
+  },
+  "sources": [
+    {
+      "document_id": "edf_2024",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/pages.json",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "input_hashes": {
+        "pages.json": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+        "metadata.json": "5c598c5ea934efbedc6310185a1e91e42f051968e8cb3efa4fc405762f3be237",
+        "run.json": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+      },
+      "metadata_sha256": "f9b2347a246c3c5fe3dccf6e421397554adfb4f2f022f109a6c3591e84f71d91"
+    },
+    {
+      "document_id": "rolls_royce_2026h1_release",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/pages.json",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "input_hashes": {
+        "pages.json": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+        "metadata.json": "d64253375e7c18c2864622b5ff75177f434cd24037326766d4e92eb44a87dc0e",
+        "run.json": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+      },
+      "metadata_sha256": "6eb500168831baac6a5e0311f25c078f2cd15569ce92a6df73c1ae168f1f27dd"
+    },
+    {
+      "document_id": "hippodrome_2025",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/pages.json",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "input_hashes": {
+        "pages.json": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+        "metadata.json": "273cc959c95863a1f5099dffec8a61302957d0218a1d339d98be43fec12896a3",
+        "run.json": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65"
+      },
+      "metadata_sha256": "0aaa8e0981a16bb78ed81275b73b11cd70a8c64c75596e9586a5e3b60c4bf053"
+    },
+    {
+      "document_id": "cvs_2025q2",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/pages.json",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "input_hashes": {
+        "pages.json": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+        "metadata.json": "7667a5f6c1e16f1c9342d4a1c01b232834c14e7d739c0225bcd7b77efa43b7fd",
+        "run.json": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+      },
+      "metadata_sha256": "8f02bce3ee01efcded9ee207a0dd2508d3a63e3b51b149f63aec28eb2a3aea5a"
+    },
+    {
+      "document_id": "peterborough_2025",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/pages.json",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "input_hashes": {
+        "pages.json": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+        "metadata.json": "090c963d132391e60230ce0cdd670dcdd50a158fbd82ac3131b7d55f4fc837f6",
+        "run.json": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47"
+      },
+      "metadata_sha256": "8e8347e842b2ea82fde913beb02643a9b6c188e6c817bdb0d2058d030a3b0d1c"
+    },
+    {
+      "document_id": "rolls_royce_2026h1_presentation",
+      "source_artifact": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "input_hashes": {
+        "pages.json": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+        "metadata.json": "1ab4a1078ea874fea2c1ff57d4abd3588e9f4346c174daa9b755222a41269841",
+        "run.json": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717"
+      },
+      "metadata_sha256": "055d44f27904bc9dd949260f9e639a9abe144197dfbd2196f2e2d38099f94635"
+    }
+  ]
+}

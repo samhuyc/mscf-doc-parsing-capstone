@@ -47,6 +47,9 @@ def build(output, max_tokens=1024, context_budget=3072, with_metadata=True):
     output = Path(output)
     if output.exists():
         raise FileExistsError('Use a fresh output directory')
+    for name, value in (('max_tokens', max_tokens), ('context_budget', context_budget)):
+        if value <= 0:
+            raise ValueError(f'{name} must be positive')
     started = time.perf_counter()
     docs = [load_document(SOURCES / name / 'pymupdf4llm', METADATA if with_metadata else None) for name in DEFAULT_DOCS]
     # Validate all references before any scoring. They are never passed to chunk_document.

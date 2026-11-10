@@ -6,6 +6,7 @@ import socket
 from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
+from pydantic import ValidationError
 
 import api_demo as agent
 from mock_responses import MockClient, final_response, tool_response
@@ -81,7 +82,75 @@ class AgentTests(unittest.TestCase):
         evidence = agent.execute_tool("search_report", {"question": "CVS total revenues 2Q 2025 2Q 2024"}, "search", None)
         for value, citation in [("999", "S1"), ("98.9", "S9")]:
             with self.subTest(value=value), self.assertRaises(agent.StopAgent):
-                agent.render_answer(dict(kind="search", value=value, citation=citation), "search", evidence, None)
+                agent.render_answer(dict(kind="search", value=value, unit="十亿美元", citation=citation), "search", evidence, None)
+
+    def run_fake_final(self, final):
+        """Use real search evidence, then substitute only the fake model's final text."""
+        client = MockClient("search")
+        original_create = client.responses.create
+        def create(**payload):
+            result = original_create(**payload)
+            if result.output_text:
+                result.output[0].content[0].text = json.dumps(final)
+            return result
+        with patch.object(client.responses, "create", side_effect=create):
+            return agent.run_agent(client, "search")
+
+    def test_pydantic_normal_result_and_generated_schema(self):
+        final = dict(kind="search", value="98.9", unit="十亿美元", citation="S1")
+        result = agent.FinancialResearchResult.model_validate(final)
+        self.assertEqual(result.value, "98.9")
+        self.assertEqual(result.model_dump(), final)
+        self.assertIn("98.9 十亿美元", self.run_fake_final(final))
+        self.assertEqual(agent.FINAL_FORMAT["schema"], agent.FinancialResearchResult.model_json_schema())
+        self.assertEqual(set(agent.FINAL_FORMAT["schema"]["required"]), set(final))
+        self.assertFalse(agent.FINAL_FORMAT["schema"]["additionalProperties"])
+
+    def test_pydantic_missing_fields_through_loop(self):
+        final = dict(kind="search", value="98.9", unit="十亿美元", citation="S1")
+        for field in final:
+            incomplete = {key: value for key, value in final.items() if key != field}
+            with self.subTest(field=field), self.assertRaisesRegex(agent.StopAgent, "Schema Validation"):
+                self.run_fake_final(incomplete)
+
+    def test_pydantic_wrong_types_and_extra_fields_through_loop(self):
+        for field, value in [
+            ("value", 98.9), ("value", True), ("value", ["98.9"]),
+            ("unit", 1000000000), ("citation", {"id": "S1"}),
+            ("extra", "unexpected"),
+        ]:
+            final = dict(kind="search", value="98.9", unit="十亿美元", citation="S1")
+            final[field] = value
+            with self.subTest(field=field, value=value), self.assertRaisesRegex(agent.StopAgent, "Schema Validation"):
+                self.run_fake_final(final)
+
+    def test_schema_valid_wrong_citation_fails_evidence_validation(self):
+        final = dict(kind="search", value="98.9", unit="十亿美元", citation="S9")
+        agent.FinancialResearchResult.model_validate(final)
+        with self.assertRaisesRegex(agent.StopAgent, "Citation"):
+            self.run_fake_final(final)
+
+    def test_schema_valid_wrong_amount_fails_evidence_validation(self):
+        final = dict(kind="search", value="999", unit="十亿美元", citation="S1")
+        agent.FinancialResearchResult.model_validate(final)
+        with self.assertRaisesRegex(agent.StopAgent, "最终数值"):
+            self.run_fake_final(final)
+
+    def test_schema_valid_wrong_unit_fails_evidence_validation(self):
+        final = dict(kind="search", value="98.9", unit="无单位", citation="S1")
+        agent.FinancialResearchResult.model_validate(final)
+        with self.assertRaisesRegex(agent.StopAgent, "最终单位"):
+            self.run_fake_final(final)
+
+    def test_insufficient_state_and_invalid_amount_format(self):
+        final = dict(kind="insufficient", value=None, unit=None, citation=None)
+        self.assertEqual(self.run_fake_final(final), "证据不足，无法回答。")
+        for field, value in [("value", "98.9"), ("unit", "十亿美元"), ("citation", "S1")]:
+            with self.subTest(field=field), self.assertRaises(ValidationError):
+                agent.FinancialResearchResult.model_validate({**final, field: value})
+        for amount in ("NaN", "Infinity", "not a number", "", None):
+            with self.subTest(amount=amount), self.assertRaisesRegex(agent.StopAgent, "Schema Validation"):
+                self.run_fake_final(dict(kind="search", value=amount, unit="十亿美元", citation="S1"))
 
     def test_request_and_token_limits(self):
         client = MockClient()

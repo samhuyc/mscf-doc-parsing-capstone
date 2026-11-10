@@ -26,10 +26,13 @@ def tool_response(name, arguments, number=1):
 
 
 def final_response(kind, value, citation):
+    unit = "无单位" if kind == "calculate" else "十亿美元"
+    if kind == "insufficient":
+        unit = None
     return response([{
         "type": "message", "id": "msg_offline", "role": "assistant", "status": "completed",
         "content": [{"type": "output_text", "annotations": [],
-                     "text": json.dumps(dict(kind=kind, value=value, citation=citation))}],
+                     "text": json.dumps(dict(kind=kind, value=value, unit=unit, citation=citation))}],
     }])
 
 

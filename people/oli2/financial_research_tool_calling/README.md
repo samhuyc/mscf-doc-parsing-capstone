@@ -27,12 +27,39 @@
 3. Python 核对名称、参数、数字依据，执行对应的现有函数。
 4. Python 用同一个 `call_id` 创建 `function_call_output`，连同之前的
    模型输出送回模型。Reasoning items 也保留在对话中。
-5. 模型选择结束时，返回结构化的答案类型、数值、Citation。
-   Python 对照真实工具结果校验，然后渲染中文答案。
+5. 模型选择结束时，返回结构化的答案类型、数值、单位、Citation。
+   Python 先用 Pydantic 检查结构，再对照真实工具结果校验，最后渲染中文答案。
 
 为使 Citation 和数字可以可靠核对，这版支持四个固定问题。
 答案句子由 Python 模板生成。真实模型负责选择工具、参数和最终答案字段。
 通用财务问答需要后续扩大检索与答案校验范围。
+
+## Structured Outputs
+
+`FinancialResearchResult` 定义四个必填字段。金额沿用十进制字符串，
+例如 `"98.9"`；算术仍使用现有工具中的 Decimal。
+
+```json
+{"kind": "search", "value": "98.9", "unit": "十亿美元", "citation": "S1"}
+```
+
+- `kind` 支持 search、compare、calculate、insufficient。
+- `value` 是十进制数字字符串，或 null。
+- `unit` 支持“十亿美元”、“无单位”，或 null。
+- `citation` 使用 S1、S2 等格式，或 null。
+
+证据不足时，后三个字段都必须明确为 null。纯计算使用“无单位”和 null 引用。
+字段缺失、多余字段和错误类型都会被本地校验拒绝，数字 98.9 也必须明确写成字符串。
+
+Schema Validation 检查数据是否符合这些结构规则。Pydantic 自动生成
+`text.format.schema`，并复用同一个模型检查本地收到的字典。
+本地的跨字段状态校验器也检查“证据不足时三个字段均为空”；
+这个 Python 校验器的逻辑需要在本地执行。
+
+Evidence Validation 复用 `render_answer()` 的证据核对。
+`"999"` 是格式正确的金额，`"S9"` 是格式正确的引用编号，
+两者都能通过 Schema Validation，但与真实财报结果不符时会被 Evidence Validation 拒绝。
+单位也必须与证据一致。
 
 ## 数据与费用边界
 

@@ -34,6 +34,44 @@
 答案句子由 Python 模板生成。真实模型负责选择工具、参数和最终答案字段。
 通用财务问答需要后续扩大检索与答案校验范围。
 
+## Agent State
+
+`AgentState` 把一次任务的信息集中保存在内存中。现有 `run_agent()`
+仍返回答案字符串；调用者可传入一个新的 State，以便在成功或失败后查看任务进度。
+
+```python
+from api_demo import AgentState, StopAgent, run_agent
+from mock_responses import MockClient
+
+state = AgentState()
+try:
+    answer = run_agent(MockClient("compare"), state=state)
+except StopAgent:
+    print(state.failure_stage, state.error)
+print(state.status, state.api_request_count, state.tool_call_count)
+print(state.input_tokens, state.output_tokens, state.total_tokens)
+```
+
+- `user_question` 和 `history` 保存问题、成功调用、工具结果和通过校验的最终模型消息。
+- `evidence` 保存营收和 Citation，`calculation` 保存计算结果。
+- `api_request_count` 在发请求前增加，因此失败请求也计数。
+- `tool_call_count` 延续原有轮数含义，在解析、执行调用前增加，包含失败的尝试。
+- Token 字段累计 API 已返回的 Usage。失败请求没有返回 Usage 时，计数代表已知用量。
+- `status` 从 pending 变为 running，结束时为 completed 或 failed。
+- `stage` 标识当前阶段，`pending_tool_call` 在执行前记录工具名、参数和 call_id。
+- 成功后清空 pending 调用；失败时保留它，以及之前成功的历史和证据，
+  并记录 `failure_stage` 与安全错误信息。外部异常正文会被隐藏。
+- `final_answer` 保存通过校验的答案。“证据不足，无法回答”也属于正常完成的结果。
+
+每次任务使用新的 State。调用者持有的对象在函数报错后仍可查看，
+进程退出后这些内存数据就会消失。
+State 中只放任务数据，API Client、环境变量和 HTTP 凭据不进入 State。
+
+在 CVS compare 的 Fake Responses 中，检索成功后为 1 次请求、1 次工具调用、
+120 total tokens；计算成功后为 2 次请求、2 次工具调用、240 total tokens；
+答案通过校验后为 3 次请求、2 次工具调用、360 total tokens，
+其中 input 300、output 60。这些 Usage 数字由离线模拟响应提供。
+
 ## Structured Outputs
 
 `FinancialResearchResult` 定义四个必填字段。金额沿用十进制字符串，

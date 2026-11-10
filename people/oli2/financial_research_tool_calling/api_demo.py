@@ -1,7 +1,7 @@
 """Responses API teaching demo. Default execution is entirely offline."""
 
 import argparse
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from decimal import Decimal
 import json
 import logging
@@ -10,6 +10,7 @@ import re
 from typing import Annotated, Literal
 
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
+from openai import APIError
 
 from demo import calculate, search_report
 
@@ -98,6 +99,27 @@ class Limits:
     output_tokens: int = 1024
 
 
+@dataclass
+class AgentState:
+    """One task's in-memory state. Pass a fresh instance to inspect success or failure."""
+
+    user_question: str = ""
+    history: list[dict] = field(default_factory=list)
+    evidence: dict | None = None
+    calculation: str | None = None
+    tool_call_count: int = 0
+    api_request_count: int = 0
+    input_tokens: int = 0
+    output_tokens: int = 0
+    total_tokens: int = 0
+    status: Literal["pending", "running", "completed", "failed"] = "pending"
+    stage: str = "initialization"
+    pending_tool_call: dict | None = None
+    final_answer: str | None = None
+    error: str | None = None
+    failure_stage: str | None = None
+
+
 def execute_tool(name, arguments, scenario, evidence):
     allowed = {"search_report": {"question"}, "calculate": {"a", "b", "operation"}}
     if name not in allowed:
@@ -169,68 +191,106 @@ def render_answer(final, scenario, evidence, calculation):
     return f"{answer}\n[S1] {evidence['source_title']}，PDF 第 {evidence['page']} 页\n{evidence['source_url']}"
 
 
-def run_agent(client, scenario="compare", limits=Limits()):
-    if not (1 <= limits.tool_rounds <= 5 and 1 <= limits.requests <= 6
-            and 1 <= limits.total_tokens <= 12000 and 16 <= limits.output_tokens <= 1024):
-        raise StopAgent("预算参数超出 Demo 上限。")
-    history = [{"role": "user", "content": SCENARIOS[scenario]}]
-    evidence = calculation = None
-    rounds = used_tokens = 0
-    for request_number in range(1, limits.requests + 1):
-        payload = dict(
-            model=MODEL, instructions=INSTRUCTIONS, input=history,
-            tools=TOOL_DEFINITIONS, parallel_tool_calls=False,
-            max_output_tokens=limits.output_tokens, reasoning={"effort": "low"},
-            text={"format": FINAL_FORMAT}, store=False,
-            include=["reasoning.encrypted_content"],
-        )
-        # Reserve conservatively before sending. Actual API usage is accumulated
-        # below. This local estimate is not a server-enforced dollar budget.
-        reservation = len(json.dumps(payload, ensure_ascii=False).encode("utf-8")) + 1024
-        if used_tokens + reservation + limits.output_tokens > limits.total_tokens:
-            raise StopAgent("下一次请求可能超过 Token 预算，已停止。")
-        print(f"\nResponses 请求 {request_number}，模型 {MODEL}")
-        response = client.responses.create(**payload)
-        if response.usage is None:
-            raise StopAgent("API 未返回 Usage，已停止后续请求。")
-        used_tokens += response.usage.total_tokens
-        print(f"Token Usage 本次 {response.usage.total_tokens}，累计 {used_tokens}")
-        if used_tokens > limits.total_tokens:
-            raise StopAgent("累计 Token Usage 超限，已停止后续请求。")
-        if response.status != "completed":
-            raise StopAgent("模型响应未完成，已停止。")
-        calls = [item for item in response.output if item.type == "function_call"]
-        if not calls:
+def run_agent(client, scenario="compare", limits=Limits(), *, state=None):
+    # Keep the original answer/exception interface. Callers may retain this object
+    # to inspect state even when the function raises.
+    if state is None:
+        state = AgentState()
+    if state != AgentState():
+        raise StopAgent("每次任务需要一个全新的 AgentState。")
+    state.status = "running"
+    try:
+        if not (1 <= limits.tool_rounds <= 5 and 1 <= limits.requests <= 6
+                and 1 <= limits.total_tokens <= 12000 and 16 <= limits.output_tokens <= 1024):
+            raise StopAgent("预算参数超出 Demo 上限。")
+        state.user_question = SCENARIOS[scenario]
+        state.history.append({"role": "user", "content": state.user_question})
+        for request_number in range(1, limits.requests + 1):
+            state.stage = "budget_check"
+            payload = dict(
+                model=MODEL, instructions=INSTRUCTIONS, input=state.history,
+                tools=TOOL_DEFINITIONS, parallel_tool_calls=False,
+                max_output_tokens=limits.output_tokens, reasoning={"effort": "low"},
+                text={"format": FINAL_FORMAT}, store=False,
+                include=["reasoning.encrypted_content"],
+            )
+            # Reserve conservatively before sending. Actual API usage is accumulated
+            # below. This local estimate is not a server-enforced dollar budget.
+            reservation = len(json.dumps(payload, ensure_ascii=False).encode("utf-8")) + 1024
+            if state.total_tokens + reservation + limits.output_tokens > limits.total_tokens:
+                raise StopAgent("下一次请求可能超过 Token 预算，已停止。")
+            state.stage = "api_request"
+            state.api_request_count += 1  # Attempts count even if the API raises.
+            print(f"\nResponses 请求 {request_number}，模型 {MODEL}")
+            response = client.responses.create(**payload)
+            state.stage = "response_validation"
+            if response.usage is None:
+                raise StopAgent("API 未返回 Usage，已停止后续请求。")
+            state.input_tokens += response.usage.input_tokens
+            state.output_tokens += response.usage.output_tokens
+            state.total_tokens += response.usage.total_tokens
+            print(f"Token Usage 本次 {response.usage.total_tokens}，累计 {state.total_tokens}")
+            if state.total_tokens > limits.total_tokens:
+                raise StopAgent("累计 Token Usage 超限，已停止后续请求。")
+            if response.status != "completed":
+                raise StopAgent("模型响应未完成，已停止。")
+            calls = [item for item in response.output if item.type == "function_call"]
+            if not calls:
+                state.stage = "final_validation"
+                try:
+                    final = json.loads(response.output_text)
+                except (ValueError, TypeError):
+                    raise StopAgent("模型没有返回有效的最终答案。") from None
+                state.final_answer = render_answer(final, scenario, state.evidence, state.calculation)
+                state.history.extend(item.model_dump(mode="json", exclude_none=True) for item in response.output)
+                state.status = "completed"
+                state.stage = "finished"
+                print("\n最终回答\n" + state.final_answer)
+                return state.final_answer
+            state.stage = "tool_validation"
+            if len(calls) != 1 or state.tool_call_count >= limits.tool_rounds:
+                raise StopAgent("每轮只允许一个工具，最多 5 轮。")
+            state.tool_call_count += 1
+            call = calls[0]
+            state.pending_tool_call = {
+                "name": call.name, "call_id": call.call_id, "arguments": call.arguments,
+            }
             try:
-                final = json.loads(response.output_text)
+                arguments = json.loads(call.arguments)
             except (ValueError, TypeError):
-                raise StopAgent("模型没有返回有效的最终答案。") from None
-            answer = render_answer(final, scenario, evidence, calculation)
-            print("\n最终回答\n" + answer)
-            return answer
-        if len(calls) != 1 or rounds >= limits.tool_rounds:
-            raise StopAgent("每轮只允许一个工具，最多 5 轮。")
-        rounds += 1
-        call = calls[0]
-        try:
-            arguments = json.loads(call.arguments)
-        except (ValueError, TypeError):
-            raise StopAgent("Tool Call 参数不是有效 JSON。") from None
-        result = execute_tool(call.name, arguments, scenario, evidence)
-        print("Tool Call", call.name)
-        print("参数", json.dumps(arguments, ensure_ascii=False))
-        print("Tool Result", json.dumps(result, ensure_ascii=False))
-        history.extend(item.model_dump(mode="json", exclude_none=True) for item in response.output)
-        history.append({"type": "function_call_output", "call_id": call.call_id,
-                        "output": json.dumps(result, ensure_ascii=False)})
-        if call.name == "search_report":
-            evidence = result
-            if evidence is None:
+                raise StopAgent("Tool Call 参数不是有效 JSON。") from None
+            state.pending_tool_call["arguments"] = arguments
+            state.stage = "tool_execution"  # execute_tool also validates its inputs.
+            result = execute_tool(call.name, arguments, scenario, state.evidence)
+            print("Tool Call", call.name)
+            print("参数", json.dumps(arguments, ensure_ascii=False))
+            print("Tool Result", json.dumps(result, ensure_ascii=False))
+            state.stage = "state_update"
+            state.history.extend(item.model_dump(mode="json", exclude_none=True) for item in response.output)
+            state.history.append({"type": "function_call_output", "call_id": call.call_id,
+                                  "output": json.dumps(result, ensure_ascii=False)})
+            if call.name == "search_report":
+                state.evidence = result
+            else:
+                state.calculation = result
+            state.pending_tool_call = None
+            if call.name == "search_report" and state.evidence is None:
+                state.final_answer = "证据不足，无法回答。"
+                state.status = "completed"  # A supported abstention is a valid outcome.
+                state.stage = "finished"
                 print("证据不足，无法回答。Python 在此停止。")
-                return "证据不足，无法回答。"
-        else:
-            calculation = result
-    raise StopAgent("已达到总请求次数上限。")
+                return state.final_answer
+        state.stage = "budget_check"
+        raise StopAgent("已达到总请求次数上限。")
+    except Exception as error:
+        state.status = "failed"
+        state.failure_stage = state.stage
+        # Only our controlled StopAgent messages are safe to retain. External
+        # exception bodies may contain credentials, headers or private input.
+        state.error = str(error) if isinstance(error, StopAgent) else "运行失败，外部异常详情已隐藏。"
+        if isinstance(error, (StopAgent, APIError)):
+            raise
+        raise StopAgent(state.error) from None
 
 
 def main():
@@ -242,7 +302,7 @@ def main():
     # Suppress SDK/HTTP debug output before any credential could be loaded.
     for logger in ("openai", "httpx", "httpx2", "httpcore"):
         logging.getLogger(logger).disabled = True
-    from openai import OpenAI, APIError, OpenAIError
+    from openai import OpenAI, OpenAIError
     try:
         if args.live:
             if not args.confirm_paid_api:

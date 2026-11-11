@@ -1,0 +1,45 @@
+{
+  "numeric": {
+    "target": "Numeric content of this returned value is transcribed correctly, including sign/decimal. This is not row/year correctness.",
+    "samples": 50,
+    "correct": 45,
+    "errors": 5,
+    "families": [
+      "cvs_2025q2",
+      "edf_2024",
+      "hippodrome_2025",
+      "rolls_royce_2026h1"
+    ],
+    "error_families": [
+      "edf_2024"
+    ],
+    "independently_reviewed": 0,
+    "calibrated_probability_available": false,
+    "blockers": [
+      "independent_review_incomplete",
+      "errors_cannot_be_distributed_across_three_disjoint_family_partitions"
+    ]
+  },
+  "association": {
+    "target": "The exported cell has the correct unambiguous row and column association. Numeric content and unit correctness are separate.",
+    "samples": 50,
+    "correct": 30,
+    "errors": 20,
+    "families": [
+      "cvs_2025q2",
+      "edf_2024",
+      "hippodrome_2025",
+      "rolls_royce_2026h1"
+    ],
+    "error_families": [
+      "edf_2024",
+      "rolls_royce_2026h1"
+    ],
+    "independently_reviewed": 0,
+    "calibrated_probability_available": false,
+    "blockers": [
+      "independent_review_incomplete",
+      "errors_cannot_be_distributed_across_three_disjoint_family_partitions"
+    ]
+  }
+}

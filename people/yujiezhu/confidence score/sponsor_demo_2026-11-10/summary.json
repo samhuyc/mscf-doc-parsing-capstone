@@ -1,0 +1,87 @@
+{
+  "groups": {
+    "stronger": {
+      "n": 20,
+      "correct": 20,
+      "documents": [
+        "cvs_2025q2",
+        "hippodrome_2025"
+      ],
+      "observed_rate": 1.0
+    },
+    "weaker": {
+      "n": 10,
+      "correct": 0,
+      "documents": [
+        "edf_2024"
+      ],
+      "observed_rate": 0.0
+    }
+  },
+  "sample_count": 50,
+  "development_count": 30,
+  "replay_count": 20,
+  "numeric_correct": 45,
+  "structured_correct": 30,
+  "independent_human_review": false,
+  "by_document": [
+    {
+      "document": "cvs_2025q2",
+      "count": 10,
+      "correct": 10,
+      "numeric_correct": 10,
+      "groups": [
+        "stronger"
+      ]
+    },
+    {
+      "document": "edf_2024",
+      "count": 10,
+      "correct": 0,
+      "numeric_correct": 5,
+      "groups": [
+        "weaker"
+      ]
+    },
+    {
+      "document": "hippodrome_2025",
+      "count": 10,
+      "correct": 10,
+      "numeric_correct": 10,
+      "groups": [
+        "stronger"
+      ]
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "count": 10,
+      "correct": 10,
+      "numeric_correct": 10,
+      "groups": [
+        "stronger"
+      ]
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "count": 10,
+      "correct": 0,
+      "numeric_correct": 10,
+      "groups": [
+        "weaker"
+      ]
+    }
+  ],
+  "replay_groups": [
+    {
+      "group": "stronger",
+      "n": 10,
+      "correct": 10
+    },
+    {
+      "group": "weaker",
+      "n": 10,
+      "correct": 0
+    }
+  ],
+  "confidence_status": "not_estimated_insufficient_validation"
+}

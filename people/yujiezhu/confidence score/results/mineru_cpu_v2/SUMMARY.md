@@ -1,6 +1,6 @@
 # MinerU CPU subset pilot
 
-Status: in progress. MinerU parsed 3/9 complete documents.
+Status: finished. MinerU parsed 7/9 complete documents.
 
 This experiment evaluates **MinerU 2.1.11 pipeline CPU + explicit-labels-tables-v1**, using the official metric functions on a selected subset. It is not a full benchmark submission, a score for MinerU alone, or a calibrated confidence model.
 
@@ -13,19 +13,19 @@ The local extractor uses only explicit labels and HTML table headers. It omits u
 | 01_extractbench | 1 | success | completed | 24.00% | — | — | — | 52.436 |
 | 02_extractbench | 2 | success | completed | 59.09% | — | — | — | 85.309 |
 | 03_extractbench | 12 | success | completed | 13.69% | — | — | — | 611.391 |
-| 04_extractbench | 25 | running | not_run_parser_running | — | — | — | — | — |
-| 05_extractbench | 59 | not_run | not_run | — | — | — | — | — |
-| 06_extractbench | 56 | not_run | not_run | — | — | — | — | — |
-| 07_longextract | 40 | not_run | not_run | — | — | — | — | — |
-| 08_longextract | 204 | not_run | not_run | — | — | — | — | — |
-| 09_longextract | 212 | not_run | not_run | — | — | — | — | — |
+| 04_extractbench | 25 | success | completed | 0.00% | — | — | — | 496.894 |
+| 05_extractbench | 59 | success | empty | 0.00% | — | — | — | 1199.558 |
+| 06_extractbench | 56 | success | completed | 13.48% | — | — | — | 623.629 |
+| 07_longextract | 40 | success | completed | — | 100.00% | 8.58% | 28.12% | 1263.788 |
+| 08_longextract | 204 | timeout | not_run_parser_timeout | — | — | — | — | 1800.21 |
+| 09_longextract | 212 | timeout | not_run_parser_timeout | — | — | — | — | 1800.35 |
 
 ExtractBench reports value F1; LongExtractionBench reports row precision/recall and leaf accuracy. Dashes indicate unavailable/inapplicable metrics.
 
 ## Aggregate interpretation
 
-- **extractbench:** 3/6 scored; value F1 32.26%. Schema-valid outputs: 0/6. Attempted terminal failures score zero; unfinished jobs excluded and disclosed.
-- **longextract:** 0/3 scored; row precision —, row recall —, leaf accuracy —. Schema-valid outputs: 0/3. Completed nonempty extractions only; failures excluded and disclosed.
+- **extractbench:** 6/6 scored; value F1 18.38%. Schema-valid outputs: 2/6. Attempted terminal failures score zero; unfinished jobs excluded and disclosed.
+- **longextract:** 1/3 scored; row precision 100.00%, row recall 8.58%, leaf accuracy 28.12%. Schema-valid outputs: 0/3. Completed nonempty extractions only; failures excluded and disclosed.
 
 A low extraction score can reflect an unsupported schema mapping even when the text is present in MinerU output. Inspect raw outputs before attributing errors to MinerU. Grounding scores are zero where applicable because this adapter supplies no citations.
 
@@ -36,10 +36,10 @@ A low extraction score can reflect an unsupported schema mapping even when the t
 | 01_extractbench: `short/aclu_cdwg_invoice` | [PDF](../../data/01_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/01_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/01_extractbench/prediction.json) |
 | 02_extractbench: `short/13f__audent_global_2025q4` | [PDF](../../data/02_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/02_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/02_extractbench/prediction.json) |
 | 03_extractbench: `medium/13f__nalls_sherbakoff_2025q4` | [PDF](../../data/03_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/03_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/03_extractbench/prediction.json) |
-| 04_extractbench: `medium/baker_hughes_earnings_deck_q4fy25` | [PDF](../../data/04_extractbench/document.pdf) | — | — |
-| 05_extractbench: `long/real_credit_strategies_full` | [PDF](../../data/05_extractbench/document.pdf) | — | — |
-| 06_extractbench: `long/dd1155_schedule_continuation_0011` | [PDF](../../data/06_extractbench/document.pdf) | — | — |
-| 07_longextract: `06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1` | [PDF](../../data/07_longextract/document.pdf) | — | — |
+| 04_extractbench: `medium/baker_hughes_earnings_deck_q4fy25` | [PDF](../../data/04_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/04_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/04_extractbench/prediction.json) |
+| 05_extractbench: `long/real_credit_strategies_full` | [PDF](../../data/05_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/05_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/05_extractbench/prediction.json) |
+| 06_extractbench: `long/dd1155_schedule_continuation_0011` | [PDF](../../data/06_extractbench/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/06_extractbench/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/06_extractbench/prediction.json) |
+| 07_longextract: `06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1` | [PDF](../../data/07_longextract/document.pdf) | [Markdown](../../runs/mineru_cpu_v2/07_longextract/parsed/document/auto/document.md) | [JSON](../../runs/mineru_cpu_v2/07_longextract/prediction.json) |
 | 08_longextract: `m1__Calibration__Quarterly_Report__10-Q__-_JPMorgan` | [PDF](../../data/08_longextract/document.pdf) | — | — |
 | 09_longextract: `06_10_26_Federal_Reserve_Z_1_Financial_Accounts_of_the_United_States_e` | [PDF](../../data/09_longextract/document.pdf) | — | — |
 

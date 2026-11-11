@@ -1,0 +1,8 @@
+{
+  "input_path": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/confidence score/sponsor_demo_2026-11-10/reviewed_cells.json",
+  "input_sha256": "93111f960d60226fe0a3b34dc2ba0673167d92ffb0d5311430e49e78858bb59c",
+  "script_sha256": "93fff80b2e93fbb4397471bf0467ad747b07cdd10ec35d8e4dc2a7d441f36b2c",
+  "numpy_version": "2.5.4",
+  "sklearn_version": "1.9.1",
+  "source_review_csv_sha256": null
+}

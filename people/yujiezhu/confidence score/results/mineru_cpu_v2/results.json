@@ -212,58 +212,126 @@
       "dataset": "extractbench",
       "id": "medium/baker_hughes_earnings_deck_q4fy25",
       "pages": 25,
-      "parser_status": "running",
-      "extraction_status": "not_run_parser_running",
-      "metrics": null,
-      "parser_seconds": null,
-      "extraction_seconds": null,
-      "schema_valid": null
+      "parser_status": "success",
+      "extraction_status": "completed",
+      "metrics": {
+        "extract_unified_value_precision": 0.0,
+        "extract_unified_value_recall": 0.0,
+        "extract_unified_value_f1": 0.0,
+        "extract_unified_page_precision": 0.0,
+        "extract_unified_page_recall": 0.0,
+        "extract_unified_page_f1": 0.0
+      },
+      "parser_seconds": 496.894,
+      "extraction_seconds": 0.4015,
+      "schema_valid": true,
+      "schema_errors": []
     },
     {
       "local_id": "05_extractbench",
       "dataset": "extractbench",
       "id": "long/real_credit_strategies_full",
       "pages": 59,
-      "parser_status": "not_run",
-      "extraction_status": "not_run",
-      "metrics": null,
-      "parser_seconds": null,
-      "extraction_seconds": null,
-      "schema_valid": null
+      "parser_status": "success",
+      "extraction_status": "empty",
+      "metrics": {
+        "extract_unified_value_precision": 0.0,
+        "extract_unified_value_recall": 0.0,
+        "extract_unified_value_f1": 0.0,
+        "extract_unified_page_precision": 0.0,
+        "extract_unified_page_recall": 0.0,
+        "extract_unified_page_f1": 0.0,
+        "extract_unified_grounded_precision": 0.0,
+        "extract_unified_grounded_recall": 0.0,
+        "extract_unified_grounded_f1": 0.0
+      },
+      "parser_seconds": 1199.558,
+      "extraction_seconds": 5.6483,
+      "schema_valid": false,
+      "schema_errors": [
+        "'fund_name' is a required property",
+        "'report_title' is a required property",
+        "'as_of_date' is a required property",
+        "'total_investments_value' is a required property",
+        "'total_net_assets' is a required property",
+        "'holdings' is a required property"
+      ]
     },
     {
       "local_id": "06_extractbench",
       "dataset": "extractbench",
       "id": "long/dd1155_schedule_continuation_0011",
       "pages": 56,
-      "parser_status": "not_run",
-      "extraction_status": "not_run",
-      "metrics": null,
-      "parser_seconds": null,
-      "extraction_seconds": null,
-      "schema_valid": null
+      "parser_status": "success",
+      "extraction_status": "completed",
+      "metrics": {
+        "extract_unified_value_precision": 0.22641509433962265,
+        "extract_unified_value_recall": 0.096,
+        "extract_unified_value_f1": 0.1348314606741573,
+        "extract_unified_page_precision": 0.0,
+        "extract_unified_page_recall": 0.0,
+        "extract_unified_page_f1": 0.0,
+        "extract_unified_grounded_precision": 0.0,
+        "extract_unified_grounded_recall": 0.0,
+        "extract_unified_grounded_f1": 0.0
+      },
+      "parser_seconds": 623.629,
+      "extraction_seconds": 0.2346,
+      "schema_valid": true,
+      "schema_errors": []
     },
     {
       "local_id": "07_longextract",
       "dataset": "longextract",
       "id": "06_10_26_Budget_vs_actuals_report_cbd029d1_2024_09_SEP_Period_3_MFR_1",
       "pages": 40,
-      "parser_status": "not_run",
-      "extraction_status": "not_run",
-      "metrics": null,
-      "parser_seconds": null,
-      "extraction_seconds": null,
-      "schema_valid": null
+      "parser_status": "success",
+      "extraction_status": "completed",
+      "metrics": {
+        "gt_rows": 571,
+        "pred_rows": 49,
+        "matched": 49,
+        "precision": 1.0,
+        "recall": 0.08581436077057793,
+        "leaf_accuracy": 28.115942028985508,
+        "leaf_total": 345,
+        "leaf_match": 97
+      },
+      "parser_seconds": 1263.788,
+      "extraction_seconds": 9.2013,
+      "schema_valid": false,
+      "schema_errors": [
+        "'fund_scope' is a required property",
+        "'expenditure_topic' is a required property",
+        "'annual_expenditures_thousands' is a required property",
+        "'percent_of_annual_expenditures' is a required property",
+        "'performance_status' is a required property",
+        "'fund_scope' is a required property",
+        "'expenditure_topic' is a required property",
+        "'annual_expenditures_thousands' is a required property",
+        "'percent_of_annual_expenditures' is a required property",
+        "'performance_status' is a required property",
+        "'fund_scope' is a required property",
+        "'expenditure_topic' is a required property",
+        "'annual_expenditures_thousands' is a required property",
+        "'percent_of_annual_expenditures' is a required property",
+        "'performance_status' is a required property",
+        "'fund_scope' is a required property",
+        "'expenditure_topic' is a required property",
+        "'annual_expenditures_thousands' is a required property",
+        "'percent_of_annual_expenditures' is a required property",
+        "'performance_status' is a required property"
+      ]
     },
     {
       "local_id": "08_longextract",
       "dataset": "longextract",
       "id": "m1__Calibration__Quarterly_Report__10-Q__-_JPMorgan",
       "pages": 204,
-      "parser_status": "not_run",
-      "extraction_status": "not_run",
+      "parser_status": "timeout",
+      "extraction_status": "not_run_parser_timeout",
       "metrics": null,
-      "parser_seconds": null,
+      "parser_seconds": 1800.21,
       "extraction_seconds": null,
       "schema_valid": null
     },
@@ -272,10 +340,10 @@
       "dataset": "longextract",
       "id": "06_10_26_Federal_Reserve_Z_1_Financial_Accounts_of_the_United_States_e",
       "pages": 212,
-      "parser_status": "not_run",
-      "extraction_status": "not_run",
+      "parser_status": "timeout",
+      "extraction_status": "not_run_parser_timeout",
       "metrics": null,
-      "parser_seconds": null,
+      "parser_seconds": 1800.35,
       "extraction_seconds": null,
       "schema_valid": null
     }
@@ -284,41 +352,44 @@
     "extractbench": {
       "selected": 6,
       "parser_status_counts": {
-        "success": 3,
-        "running": 1,
-        "not_run": 2
+        "success": 6
       },
       "extraction_status_counts": {
-        "completed": 3,
-        "not_run_parser_running": 1,
-        "not_run": 2
+        "completed": 5,
+        "empty": 1
       },
-      "schema_valid": 0,
-      "scored": 3,
+      "schema_valid": 2,
+      "scored": 6,
       "equal_document_mean": {
         "extract_unified_page_precision": 0.0,
-        "extract_unified_grounded_precision": 0.0,
-        "extract_unified_value_precision": 0.9240749598183315,
-        "extract_unified_page_f1": 0.0,
         "extract_unified_grounded_f1": 0.0,
-        "extract_unified_page_recall": 0.0,
-        "extract_unified_value_recall": 0.2122086724733999,
         "extract_unified_grounded_recall": 0.0,
-        "extract_unified_value_f1": 0.3225967820599886
+        "extract_unified_value_precision": 0.49977332896576954,
+        "extract_unified_value_recall": 0.12210433623669996,
+        "extract_unified_page_f1": 0.0,
+        "extract_unified_page_recall": 0.0,
+        "extract_unified_value_f1": 0.18377030114235385,
+        "extract_unified_grounded_precision": 0.0
       },
       "averaging_rule": "Attempted terminal failures score zero; unfinished jobs excluded and disclosed"
     },
     "longextract": {
       "selected": 3,
       "parser_status_counts": {
-        "not_run": 3
+        "success": 1,
+        "timeout": 2
       },
       "extraction_status_counts": {
-        "not_run": 3
+        "completed": 1,
+        "not_run_parser_timeout": 2
       },
       "schema_valid": 0,
-      "scored": 0,
-      "equal_document_mean": {},
+      "scored": 1,
+      "equal_document_mean": {
+        "leaf_accuracy": 28.115942028985508,
+        "precision": 1.0,
+        "recall": 0.08581436077057793
+      },
       "averaging_rule": "Completed nonempty extractions only; failures excluded and disclosed"
     }
   }

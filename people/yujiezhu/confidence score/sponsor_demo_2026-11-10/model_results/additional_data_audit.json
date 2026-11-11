@@ -1,0 +1,269 @@
+{
+  "sponsor": {
+    "label_records": 54,
+    "table_records": 11,
+    "reference_cells": 133,
+    "independently_verified_records": 0,
+    "labels_sha256": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+    "note": "These draft references overlap the demo and are not 133 additional independent observations."
+  },
+  "fintabnet": {
+    "tables": 25,
+    "companies": [
+      "HAL"
+    ],
+    "report_years": [
+      "2004",
+      "2005",
+      "2007",
+      "2008",
+      "2009",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "candidate_pairs": 243,
+    "mismatch_candidates": [
+      {
+        "table_index": 14,
+        "filename": "HAL.2004.page_82.pdf_125315.png",
+        "row": "Machinery, equipment, and other",
+        "numeric_ordinal": 1,
+        "extracted": "4.921",
+        "reference": "4,921",
+        "independently_verified": false,
+        "source_image": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/2026-09-20_evaluation/data/fintabnet_otsl_pilot/images/0014.jpg",
+        "source_image_sha256": "a8052db4e5b7d472d4465e233d7afcfe16d14cc1d0067c30bbad271805340e60",
+        "note": "Assistant source-image inspection supports comma-to-decimal transcription discrepancy. Independent verification still pending."
+      },
+      {
+        "table_index": 19,
+        "filename": "HAL.2014.page_42.pdf_125091.png",
+        "row": "Horizontal",
+        "numeric_ordinal": 0,
+        "extracted": "376",
+        "reference": "1,274",
+        "independently_verified": false,
+        "source_image": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/2026-09-20_evaluation/data/fintabnet_otsl_pilot/images/0019.jpg",
+        "source_image_sha256": "a6e9e8443ac1b68b9ec80c44bfb697da21a1a98428552bc4a75c5e2b81d76964",
+        "note": "Source image shows the comparison values in the Vertical row; this is an association discrepancy, not established numeric transcription failure."
+      },
+      {
+        "table_index": 19,
+        "filename": "HAL.2014.page_42.pdf_125091.png",
+        "row": "Horizontal",
+        "numeric_ordinal": 1,
+        "extracted": "435",
+        "reference": "1,102",
+        "independently_verified": false,
+        "source_image": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/2026-09-20_evaluation/data/fintabnet_otsl_pilot/images/0019.jpg",
+        "source_image_sha256": "a6e9e8443ac1b68b9ec80c44bfb697da21a1a98428552bc4a75c5e2b81d76964",
+        "note": "Source image shows the comparison values in the Vertical row; this is an association discrepancy, not established numeric transcription failure."
+      },
+      {
+        "table_index": 19,
+        "filename": "HAL.2014.page_42.pdf_125091.png",
+        "row": "Horizontal",
+        "numeric_ordinal": 2,
+        "extracted": "552",
+        "reference": "1,151",
+        "independently_verified": false,
+        "source_image": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/2026-09-20_evaluation/data/fintabnet_otsl_pilot/images/0019.jpg",
+        "source_image_sha256": "a6e9e8443ac1b68b9ec80c44bfb697da21a1a98428552bc4a75c5e2b81d76964",
+        "note": "Source image shows the comparison values in the Vertical row; this is an association discrepancy, not established numeric transcription failure."
+      },
+      {
+        "table_index": 23,
+        "filename": "HAL.2017.page_38.pdf_125231.png",
+        "row": "Oil total",
+        "numeric_ordinal": 1,
+        "extracted": "1.198",
+        "reference": "1,198",
+        "independently_verified": false,
+        "source_image": "/Users/yujiezhu/Documents/mscf-doc-parsing-capstone/people/yujiezhu/2026-09-20_evaluation/data/fintabnet_otsl_pilot/images/0023.jpg",
+        "source_image_sha256": "bf5aa0292fe001b4e78757d68bb33823f97e7cded795566984df92b484c566a6",
+        "note": "Assistant source-image inspection supports comma-to-decimal transcription discrepancy. Independent verification still pending."
+      }
+    ],
+    "table_inventory": [
+      {
+        "index": 0,
+        "filename": "HAL.2015.page_43.pdf_125177.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 78,
+        "parser_output_sha256": "92b1576e4e143034d1c034e9bd16c011a3041a296e3fab74bed6a7a182a32274"
+      },
+      {
+        "index": 1,
+        "filename": "HAL.2009.page_77.pdf_125051.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "f9f8aff1689567e23e719033baad09b10fcc25580024476af9e7691f982a99a3"
+      },
+      {
+        "index": 2,
+        "filename": "HAL.2017.page_79.pdf_125247.png",
+        "status": "no_parsed_table",
+        "candidate_pairs": 0
+      },
+      {
+        "index": 3,
+        "filename": "HAL.2005.page_92.pdf_125215.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "0dced265ee213770370ef2610e683a077f227e58a95737c750550f77502eafde"
+      },
+      {
+        "index": 4,
+        "filename": "HAL.2014.page_40.pdf_125088.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "33d237d3ede500d32598db5682eea63fa0e24c6b1447202e47ac155e41ef9297"
+      },
+      {
+        "index": 5,
+        "filename": "HAL.2009.page_49.pdf_125043.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "fa8ddc9cdb15978e2b10ab02213d2db2d43600a21bc63862ddc7d1eb2c9dc765"
+      },
+      {
+        "index": 6,
+        "filename": "HAL.2015.page_42.pdf_125176.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 6,
+        "parser_output_sha256": "09928c37cdb6977063fc15d4728b0bb05fcb523c861d8388f7cf53d25f8c1e80"
+      },
+      {
+        "index": 7,
+        "filename": "HAL.2015.page_76.pdf_125185.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "8092b1bbfd25b1cf10a69a1471fdbed9b207de15b87b08b6e729c86dcaca1ede"
+      },
+      {
+        "index": 8,
+        "filename": "HAL.2004.page_82.pdf_125317.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "2a6f20d2e1eeb4a44ebbfad416bc57fd852b67222c55526ebd603cdebb311c39"
+      },
+      {
+        "index": 9,
+        "filename": "HAL.2008.page_78.pdf_125276.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "d700d8d2153201add11ff4a4b11d2e3f52f98b6902ccd7ac491d45d074247fd4"
+      },
+      {
+        "index": 10,
+        "filename": "HAL.2017.page_82.pdf_125249.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "42e40b7a6fe74bbb7b7b11df1ee17af79ba484e87da943e8c72303f02dc6e121"
+      },
+      {
+        "index": 11,
+        "filename": "HAL.2008.page_38.pdf_125267.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 32,
+        "parser_output_sha256": "fdf3a8bd4e593b87c47fdd2e1e3da85d5a665aae5ef73a0ceaf9729e69a71673"
+      },
+      {
+        "index": 12,
+        "filename": "HAL.2007.page_61.pdf_125136.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "9f8e39516468fc0768b0f0bc8ddb262a8d630ab48e256d215c372f9154c29c93"
+      },
+      {
+        "index": 13,
+        "filename": "HAL.2009.page_91.pdf_125065.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "b6f516c6c4cbb516dccf8773ecfd493abfeb118d97bd1abf5050758231eff19b"
+      },
+      {
+        "index": 14,
+        "filename": "HAL.2004.page_82.pdf_125315.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 14,
+        "parser_output_sha256": "1ba731e4a26f342d85084e3cc27300d9c3ae722d5bae9fb251b20cc912b3caf8"
+      },
+      {
+        "index": 15,
+        "filename": "HAL.2007.page_88.pdf_125153.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 6,
+        "parser_output_sha256": "995b1ea1b7a606889ee597761ffc459361b6ba67021fb1f2e5961b7eacac356f"
+      },
+      {
+        "index": 16,
+        "filename": "HAL.2005.page_116.pdf_125221.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "f748cd9ecd9c420e121090431cdbc500a3f77b8ef475dbb302e258cedb2f81e8"
+      },
+      {
+        "index": 17,
+        "filename": "HAL.2017.page_81.pdf_125248.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "9fa56689a3569de316e02f32b8ae0d20c45780cf6d13fd6f0531f474aa939913"
+      },
+      {
+        "index": 18,
+        "filename": "HAL.2009.page_88.pdf_125063.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 23,
+        "parser_output_sha256": "022ba4c33574e2d0f57fe7fb176822c33a2a597f251494ebd2da097e9e9fb0fc"
+      },
+      {
+        "index": 19,
+        "filename": "HAL.2014.page_42.pdf_125091.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 6,
+        "parser_output_sha256": "63af1b26a88593fbbe2b6dbe99462d6a3a45b8014ae390a8ad2b0325fe9a5ce0"
+      },
+      {
+        "index": 20,
+        "filename": "HAL.2014.page_82.pdf_125106.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "e0c3308847c4cdbdb572874248241a31697c28f4b3cafdd3f5d2c2f07f2663a0"
+      },
+      {
+        "index": 21,
+        "filename": "HAL.2008.page_99.pdf_125298.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "2d1001a3164b0510779e109342c25d9c2effe9620f2e9e2d10abf7cd1f5a8286"
+      },
+      {
+        "index": 22,
+        "filename": "HAL.2004.page_81.pdf_125313.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "35b8238cb374584cbc5e7521cfc9dafeb664f0a1edface5dee65c1d4c6fb426c"
+      },
+      {
+        "index": 23,
+        "filename": "HAL.2017.page_38.pdf_125231.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 78,
+        "parser_output_sha256": "e314821f923c7d47463adc6065186fe5f3039c55fca859be97aab6d46988861f"
+      },
+      {
+        "index": 24,
+        "filename": "HAL.2009.page_105.pdf_125080.png",
+        "status": "candidate_alignment_only",
+        "candidate_pairs": 0,
+        "parser_output_sha256": "848fb3399f31ca2a615695342efa019aaff9eda2940b0b1d76f8ff87e08cbff5"
+      }
+    ],
+    "manifest_sha256": "a89c0b4235b7ca715ba96be3a76a66a4c610172382595986ed0bf813495c8b37",
+    "note": "Candidate pairing uses exact normalized row labels and numeric-order matching only when counts agree. It is not trusted spatial/cell alignment and is not admitted to model training. All tables are HAL, a different input/configuration domain from the sponsor PDFs. Matching candidate values do not prove numeric accuracy or correct association."
+  },
+  "training_data_added": 0,
+  "next_action": "Review source-linked candidates and labels, obtain additional representative documents with actual numeric errors, and freeze document-family splits before fitting."
+}

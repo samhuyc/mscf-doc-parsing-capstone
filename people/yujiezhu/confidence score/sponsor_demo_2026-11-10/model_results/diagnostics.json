@@ -1,0 +1,1198 @@
+{
+  "numeric": {
+    "folds": [
+      {
+        "held_family": "cvs_2025q2",
+        "train_families": [
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 0,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 3.0157009972273742e-05,
+          "log_loss": 0.0055013948145881154,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.994513739275136,
+              "observed": 1.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.015625,
+          "log_loss": 0.13353139262452265,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.875,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "held_family": "edf_2024",
+        "train_families": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 5,
+        "status": "not_scored",
+        "reason": "training_partition_has_only_one_class"
+      },
+      {
+        "held_family": "hippodrome_2025",
+        "train_families": [
+          "cvs_2025q2",
+          "edf_2024",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 0,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 9.617629274903534e-05,
+          "log_loss": 0.009659953030790216,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.9903884724946049,
+              "observed": 1.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.015625,
+          "log_loss": 0.13353139262452265,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.875,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "held_family": "rolls_royce_2026h1",
+        "train_families": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025"
+        ],
+        "train_n": 30,
+        "test_n": 20,
+        "test_errors": 0,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 20,
+          "correct": 20,
+          "errors": 0,
+          "brier": 1.679869778889787e-05,
+          "log_loss": 0.003887398683357654,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 20,
+              "predicted": 0.9961210286774532,
+              "observed": 1.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 20,
+          "correct": 20,
+          "errors": 0,
+          "brier": 0.02777777777777777,
+          "log_loss": 0.18232155679395456,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 20,
+              "predicted": 0.8333333333333334,
+              "observed": 1.0
+            }
+          ]
+        }
+      }
+    ],
+    "predictions": [
+      {
+        "sample_id": "cvs_2025q2:01",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:02",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:03",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:04",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:05",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:06",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:07",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:08",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9943933718884738,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:09",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9949952088217845,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:10",
+        "family": "cvs_2025q2",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9949952088217845,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:01",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:02",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:03",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:04",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:05",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:06",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 0,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:07",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 0,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:08",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 0,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:09",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 0,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "edf_2024:10",
+        "family": "edf_2024",
+        "target": "numeric",
+        "actual": 0,
+        "diagnostic_probability": null,
+        "status": "not_scored"
+      },
+      {
+        "sample_id": "hippodrome_2025:01",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9868319245525218,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:02",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9868319245525218,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:03",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9911544765540496,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:04",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9911544765540496,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:05",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9901553066671956,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:06",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9901553066671956,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:07",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9911544765540496,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:08",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9911544765540496,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:09",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9926461781452077,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:10",
+        "family": "hippodrome_2025",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9926461781452077,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:01",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9957531109524289,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:02",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:03",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:04",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9969679971988215,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:05",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:06",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:07",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9966074250330809,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:08",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9969679971988215,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:09",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.992382708006162,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:10",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.992382708006162,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:01",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9957531109524289,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:02",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:03",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9968028531670878,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:04",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9968028531670878,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:05",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:06",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.9962041361268273,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:07",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.997142714244797,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:08",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.997142714244797,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:09",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.997142714244797,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:10",
+        "family": "rolls_royce_2026h1",
+        "target": "numeric",
+        "actual": 1,
+        "diagnostic_probability": 0.997142714244797,
+        "status": "uncalibrated_out_of_family"
+      }
+    ],
+    "coverage": 0.8,
+    "scored_errors": 0,
+    "total_errors": 5,
+    "metrics_on_scored_only": {
+      "n": 40,
+      "correct": 40,
+      "errors": 0,
+      "brier": 3.9982674574776204e-05,
+      "log_loss": 0.005734036303023411,
+      "roc_auc": null,
+      "reliability": [
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 40,
+          "predicted": 0.9942860672811615,
+          "observed": 1.0
+        }
+      ]
+    },
+    "interpretation": "Draft-label, uncalibrated retrospective diagnostics. Coverage and error coverage must accompany metrics."
+  },
+  "association": {
+    "folds": [
+      {
+        "held_family": "cvs_2025q2",
+        "train_families": [
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 0,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.0011503609717078817,
+          "log_loss": 0.0345054978788083,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.9660830282644828,
+              "observed": 1.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.25,
+          "log_loss": 0.6931471805599453,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 10,
+              "predicted": 0.5,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "held_family": "edf_2024",
+        "train_families": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 10,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 10,
+          "correct": 0,
+          "errors": 10,
+          "brier": 9.877827912006416e-05,
+          "log_loss": 0.009988445074101154,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 10,
+              "predicted": 0.009938726232272611,
+              "observed": 0.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 10,
+          "correct": 0,
+          "errors": 10,
+          "brier": 0.5625,
+          "log_loss": 1.3862943611198906,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 10,
+              "predicted": 0.75,
+              "observed": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "held_family": "hippodrome_2025",
+        "train_families": [
+          "cvs_2025q2",
+          "edf_2024",
+          "rolls_royce_2026h1"
+        ],
+        "train_n": 40,
+        "test_n": 10,
+        "test_errors": 0,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.0011503609717078817,
+          "log_loss": 0.0345054978788083,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 10,
+              "predicted": 0.9660830282644828,
+              "observed": 1.0
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 10,
+          "correct": 10,
+          "errors": 0,
+          "brier": 0.25,
+          "log_loss": 0.6931471805599453,
+          "roc_auc": null,
+          "reliability": [
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 10,
+              "predicted": 0.5,
+              "observed": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "held_family": "rolls_royce_2026h1",
+        "train_families": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025"
+        ],
+        "train_n": 30,
+        "test_n": 20,
+        "test_errors": 10,
+        "status": "scored_exploratory",
+        "metrics": {
+          "n": 20,
+          "correct": 10,
+          "errors": 10,
+          "brier": 0.390568140144426,
+          "log_loss": 1.0839933779907656,
+          "roc_auc": 1.0,
+          "reliability": [
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 20,
+              "predicted": 0.9335427845998806,
+              "observed": 0.5
+            }
+          ]
+        },
+        "constant_train_rate_baseline": {
+          "n": 20,
+          "correct": 10,
+          "errors": 10,
+          "brier": 0.2777777777777778,
+          "log_loss": 0.752038698388137,
+          "roc_auc": 0.5,
+          "reliability": [
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 20,
+              "predicted": 0.6666666666666665,
+              "observed": 0.5
+            }
+          ]
+        }
+      }
+    ],
+    "predictions": [
+      {
+        "sample_id": "cvs_2025q2:01",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:02",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:03",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:04",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:05",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:06",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:07",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:08",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:09",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "cvs_2025q2:10",
+        "family": "cvs_2025q2",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:01",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:02",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:03",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:04",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:05",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:06",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:07",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:08",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:09",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "edf_2024:10",
+        "family": "edf_2024",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.009938726232272611,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:01",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:02",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:03",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:04",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:05",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:06",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:07",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:08",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:09",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "hippodrome_2025:10",
+        "family": "hippodrome_2025",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9660830282644827,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:01",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:02",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:03",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:04",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:05",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:06",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:07",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:08",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:09",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_presentation:10",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 1,
+        "diagnostic_probability": 0.9834219185363223,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:01",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:02",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:03",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:04",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:05",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:06",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:07",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:08",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:09",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      },
+      {
+        "sample_id": "rolls_royce_2026h1_release:10",
+        "family": "rolls_royce_2026h1",
+        "target": "association",
+        "actual": 0,
+        "diagnostic_probability": 0.8836636506634385,
+        "status": "uncalibrated_out_of_family"
+      }
+    ],
+    "coverage": 1.0,
+    "scored_errors": 20,
+    "total_errors": 20,
+    "metrics_on_scored_only": {
+      "n": 50,
+      "correct": 30,
+      "errors": 20,
+      "brier": 0.15670715610227756,
+      "log_loss": 0.4493972393626497,
+      "roc_auc": 1.0,
+      "reliability": [
+        {
+          "lower": 0.0,
+          "upper": 0.2,
+          "n": 10,
+          "predicted": 0.009938726232272611,
+          "observed": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 1.0,
+          "n": 40,
+          "predicted": 0.9498129064321816,
+          "observed": 0.75
+        }
+      ]
+    },
+    "interpretation": "Draft-label, uncalibrated retrospective diagnostics. Coverage and error coverage must accompany metrics."
+  }
+}

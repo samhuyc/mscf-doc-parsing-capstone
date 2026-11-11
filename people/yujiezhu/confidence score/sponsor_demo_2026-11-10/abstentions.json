@@ -1,0 +1,9 @@
+[
+  {
+    "document": "peterborough_2025",
+    "page": 2,
+    "confidence": null,
+    "status": "review_required",
+    "reason": "The primary table has one column containing mixed labels and numbers. The demo cannot emit separately bound financial cells, so it returns no probability and requests review. This example is separate from the 50-cell denominator."
+  }
+]

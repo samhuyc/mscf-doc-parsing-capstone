@@ -37,8 +37,9 @@ def final_response(kind, value, citation):
 
 
 class MockClient:
-    def __init__(self, scenario="compare"):
+    def __init__(self, scenario="compare", *, query=None):
         self.scenario = scenario
+        self.query = query
         self.requests = []
         self.responses = SimpleNamespace(create=self.create)
 
@@ -48,6 +49,8 @@ class MockClient:
         if not results:
             if self.scenario == "calculate":
                 return tool_response("calculate", {"a": "0.3", "b": "0.2", "operation": "subtract"})
+            if self.query is not None:
+                return tool_response("search_report", {"question": self.query.search_question})
             year = "2023" if self.scenario == "insufficient" else "2025"
             return tool_response("search_report", {
                 "question": f"What were CVS consolidated total revenues in 2Q {year} compared with 2Q 2024?"
@@ -56,7 +59,8 @@ class MockClient:
         if last is None:
             return final_response("insufficient", None, None)
         if self.scenario == "search":
-            return final_response("search", last["revenue_2025_q2"], "S1")
+            key = self.query.revenue_key if self.query is not None else "revenue_2025_q2"
+            return final_response("search", last[key], "S1")
         if isinstance(last, dict):
             return tool_response("calculate", {
                 "a": last["revenue_2025_q2"], "b": last["revenue_2024_q2"], "operation": "subtract",

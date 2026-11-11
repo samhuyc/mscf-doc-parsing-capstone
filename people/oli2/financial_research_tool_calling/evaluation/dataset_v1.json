@@ -1,0 +1,87 @@
+{
+  "schema_version": "1",
+  "dataset_id": "financial_research_v1",
+  "frozen_date": "2026-11-10",
+  "evaluation_clock": "2026-11-10T12:00:00Z",
+  "scope": "人工核对现有 search_report、execute_tool、Session 规则、索引表格及来源 metadata。只有 CVS 2025/2024 Q2 合并总营收可作为财务数值 gold。金额单位为十亿美元，简报数值已四舍五入。UNH/Amazon 不提供数值 gold。baseline 与 capability_probe 均冻结，不能根据运行结果改答案。",
+  "sources": {
+    "cvs_q2": {
+      "document_id": "cvs_2025q2",
+      "chunk_id": "cvs_2025q2:section:d25757c94c9016b6ab4f",
+      "title": "CVS Health 2025 Q2 Earnings Presentation",
+      "page": 6,
+      "citation": "S1",
+      "url": "https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf#page=6",
+      "gold_values": {"2025Q2": "98.9", "2024Q2": "91.2", "difference": "7.7"},
+      "unit": "十亿美元"
+    }
+  },
+  "pinned_inputs": {
+    "people/oli2/2026-10-28_chunking/results/final/index.json": "9fa827b12043b1d77e1bc38a408ab4ae3c5b7f0198d9e4d262549cb57caec623",
+    "people/oli2/2026-10-28_chunking/results/final/section_chunks.jsonl": "d1fb828e36d5bd2d80cbd4eb4912b1a5596d0517d54d32197f1eef981b2313be",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/metadata.json": "21e83e2df76180103a0f2a869f2be8760db0d37b0726252b56a60ae1bd84cd44"
+  },
+  "cases": [
+    {"id":"E01","category":"report_search","track":"baseline","fixture":null,"description":"查询当前季度，验证金额、单位、来源。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E02","category":"report_search","track":"baseline","fixture":null,"description":"查询上一年季度，不能误用 2025 金额。","turns":[
+      {"question":"CVS 2024 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"91.2","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2024,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E03","category":"yoy_calculation","track":"baseline","fixture":null,"description":"重新检索两期金额，再以 Decimal 计算同比增加金额。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收比去年增长了多少？","expected":{"behavior":"answer","value":"7.7","unit":"十亿美元","source":"cvs_q2","tools":["search_report","calculate"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"compare"}}}
+    ]},
+    {"id":"E04","category":"followup","track":"baseline","fixture":null,"description":"第二问继承主题，但重新检索；所有轮次均评分。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"那比去年增长了多少？","expected":{"behavior":"answer","value":"7.7","unit":"十亿美元","source":"cvs_q2","tools":["search_report","calculate"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"compare"}}}
+    ]},
+    {"id":"E05","category":"period_switch","track":"baseline","fixture":null,"description":"切换期间后使用对应列，不继承旧金额。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"那 2024 Q2 呢？","expected":{"behavior":"answer","value":"91.2","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2024,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E06","category":"company_switch","track":"baseline","fixture":null,"description":"切换 UNH 后拒绝套用 CVS 数值。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"那 UNH 呢？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"UNH","year":2025,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E07","category":"company_switch","track":"baseline","fixture":null,"description":"Amazon 规范化为 AMZN；没有财报证据就拒答。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"Amazon 2025 Q2 的合并总营收是多少？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"AMZN","year":2025,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E08","category":"missing_context","track":"baseline","fixture":null,"description":"新 Session 没有指代依据，先澄清，不请求模型。","turns":[
+      {"question":"那比去年增长了多少？","expected":{"behavior":"clarify","value":null,"unit":null,"source":null,"tools":[],"query":null}}
+    ]},
+    {"id":"E09","category":"ambiguity","track":"baseline","fixture":null,"description":"同时出现两家公司，不自动选取其中一家。","turns":[
+      {"question":"CVS 和 UNH 2025 Q2 的合并总营收是多少？","expected":{"behavior":"clarify","value":null,"unit":null,"source":null,"tools":[],"query":null,"pending_companies":["CVS","UNH"]}}
+    ]},
+    {"id":"E10","category":"ambiguity","track":"baseline","fixture":null,"description":"显式公司与代词形成两个候选，后续含糊追问仍需澄清。","turns":[
+      {"question":"Amazon 2025 Q2 的合并总营收是多少？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"AMZN","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"它和 UNH 哪家营收更高？","expected":{"behavior":"clarify","value":null,"unit":null,"source":null,"tools":[],"query":null,"pending_companies":["AMZN","UNH"]}},
+      {"question":"那家公司比去年增长了多少？","expected":{"behavior":"clarify","value":null,"unit":null,"source":null,"tools":[],"query":null,"pending_companies":["AMZN","UNH"]}}
+    ]},
+    {"id":"E11","category":"insufficient_evidence","track":"baseline","fixture":null,"description":"2023 Q2 不在现有证据范围，拒答而非使用 2024。","turns":[
+      {"question":"CVS 2023 Q2 的合并总营收是多少？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"CVS","year":2023,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E12","category":"insufficient_evidence","track":"baseline","fixture":null,"description":"2025 Q3 不在现有证据范围，不能误用 Q2。","turns":[
+      {"question":"CVS 2025 Q3 的合并总营收是多少？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":3,"kind":"search"}}}
+    ]},
+    {"id":"E13","category":"insufficient_evidence","track":"baseline","fixture":null,"description":"同比所需 2023 Q2 缺失，即使有 2024 金额也不能计算。","turns":[
+      {"question":"CVS 2024 Q2 的合并总营收比去年增长了多少？","expected":{"behavior":"abstain","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"CVS","year":2024,"quarter":2,"kind":"compare"}}}
+    ]},
+    {"id":"E14","category":"stale_memory","track":"baseline","fixture":"stale_memory","description":"过时 Memory 仅作历史线索，必须标记过时并重新检索。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"},"stale_memory":true}}
+    ]},
+    {"id":"E15","category":"tool_failure","track":"baseline","fixture":"search_failure","description":"人为注入 Search 异常；安全停止、保留失败阶段，不输出金额。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"error","value":null,"unit":null,"source":null,"tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"},"failure_stage":"tool_execution"}}
+    ]},
+    {"id":"E16","category":"tool_failure","track":"baseline","fixture":"calculate_failure","description":"Search 正常执行，再注入 Calculate 异常；不得编造计算结果。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收比去年增长了多少？","expected":{"behavior":"error","value":null,"unit":null,"source":null,"tools":["search_report","calculate"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"compare"},"failure_stage":"tool_execution"}}
+    ]},
+    {"id":"E17","category":"natural_language","track":"capability_probe","fixture":null,"description":"明确的中文期间表达应可回答；保留当前规则能力缺口，不降低 gold 标准。","turns":[
+      {"question":"请告诉我 CVS 在 2025 年第二季度的合并总营收。","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}}
+    ]},
+    {"id":"E18","category":"natural_language_followup","track":"capability_probe","fixture":null,"description":"去年同期金额与同比差额是不同意图；这里应查询 2024 Q2 金额。","turns":[
+      {"question":"CVS 2025 Q2 的合并总营收是多少？","expected":{"behavior":"answer","value":"98.9","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2025,"quarter":2,"kind":"search"}}},
+      {"question":"那去年同期呢？","expected":{"behavior":"answer","value":"91.2","unit":"十亿美元","source":"cvs_q2","tools":["search_report"],"query":{"company":"CVS","year":2024,"quarter":2,"kind":"search"}}}
+    ]}
+  ]
+}

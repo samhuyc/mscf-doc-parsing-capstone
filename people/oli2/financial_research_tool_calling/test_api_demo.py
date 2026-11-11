@@ -144,7 +144,12 @@ class AgentTests(unittest.TestCase):
 
     def test_insufficient_state_and_invalid_amount_format(self):
         final = dict(kind="insufficient", value=None, unit=None, citation=None)
-        self.assertEqual(self.run_fake_final(final), "证据不足，无法回答。")
+        # A search with returned evidence must not silently change its answer kind.
+        with self.assertRaises(agent.FinalValidationError) as stopped:
+            self.run_fake_final(final)
+        self.assertEqual(stopped.exception.rule, "kind_matches_task")
+        self.assertEqual(agent.render_answer(final, "insufficient", None, None), "证据不足，无法回答。")
+        self.assertEqual(agent.run_agent(MockClient("insufficient"), "insufficient"), "证据不足，无法回答。")
         for field, value in [("value", "98.9"), ("unit", "十亿美元"), ("citation", "S1")]:
             with self.subTest(field=field), self.assertRaises(ValidationError):
                 agent.FinancialResearchResult.model_validate({**final, field: value})
@@ -205,6 +210,82 @@ class AgentTests(unittest.TestCase):
                 self.assertEqual(agent.main(), 0)
             with patch("sys.argv", ["api_demo.py", "--live"]):
                 self.assertEqual(agent.main(), 1)
+
+    def test_smoke_cli_dry_run_without_key_access(self):
+        class ForbiddenEnvironment(dict):
+            def __getitem__(self, key):
+                if key == "OPENAI_API_KEY":
+                    raise AssertionError("Key read forbidden")
+                return super().__getitem__(key)
+            def get(self, key, default=None):
+                if key == "OPENAI_API_KEY":
+                    raise AssertionError("Key read forbidden")
+                return super().get(key, default)
+        with patch.object(agent.os, "environ", ForbiddenEnvironment()), \
+                patch("openai.OpenAI", side_effect=AssertionError("Live client forbidden")), \
+                patch("sys.argv", ["api_demo.py", "--scenario", "calculate", "--max-requests", "3"]):
+            self.assertEqual(agent.main(), 0)
+        output = self.output.getvalue()
+        self.assertIn("FAKE", output)
+        self.assertIn("Input=200, Output=40, Total=240", output)
+        self.assertIn('"value": "0.1"', output)
+
+    def test_smoke_cli_live_wiring_uses_only_fake_client_and_dummy_key(self):
+        client = MockClient("calculate")
+        with patch.object(agent.os, "environ", {"OPENAI_API_KEY": "offline-placeholder"}), \
+                patch("openai.OpenAI") as constructor, \
+                patch("sys.argv", ["api_demo.py", "--scenario", "calculate", "--live", "--confirm-paid-api"]):
+            constructor.return_value.__enter__.return_value = client
+            self.assertEqual(agent.main(), 0)
+        constructor.assert_called_once_with(api_key="offline-placeholder",
+            base_url="https://api.openai.com/v1", max_retries=0, timeout=30.0)
+        self.assertEqual(len(client.requests), 2)
+        for payload in client.requests:
+            self.assertEqual(payload["max_output_tokens"], 1024)
+            self.assertEqual(payload["service_tier"], "default")
+            self.assertEqual(payload["model"], "gpt-6.1-sol")
+        self.assertNotIn("offline-placeholder", self.output.getvalue())
+
+    def test_smoke_cli_stops_repeated_tool_calls_at_three_requests(self):
+        counter = []
+        def repeat(**payload):
+            counter.append(payload)
+            return tool_response("calculate", {"a": "0.3", "b": "0.2", "operation": "subtract"}, len(counter))
+        with patch.object(MockClient, "create", side_effect=repeat), \
+                patch("sys.argv", ["api_demo.py", "--scenario", "calculate"]):
+            self.assertEqual(agent.main(), 1)
+        self.assertEqual(len(counter), 3)
+        self.assertIn("总请求次数上限", self.output.getvalue())
+        with patch("openai.OpenAI") as constructor, \
+                patch("sys.argv", ["api_demo.py", "--max-requests", "4"]), \
+                patch("sys.stderr", io.StringIO()), self.assertRaises(SystemExit):
+            agent.main()
+        constructor.assert_not_called()
+
+    def test_sdk_credit_error_no_retry_with_offline_http_transport(self):
+        import httpx2
+        from openai import OpenAI
+        requests = []
+        def respond(request):
+            requests.append(request)
+            return httpx2.Response(429, json={"error": {
+                "message": "private error body must stay hidden",
+                "type": "insufficient_quota", "code": "credit_balance_exhausted"}})
+        # The actual SDK serializes requests into a local fake transport. No sockets.
+        with patch.object(agent.os, "environ", {"OPENAI_API_KEY": "offline-placeholder"}):
+            client = OpenAI(api_key="offline-placeholder", max_retries=0,
+                            base_url="https://api.openai.com/v1",
+                            http_client=httpx2.Client(transport=httpx2.MockTransport(respond)))
+            with patch("openai.OpenAI", return_value=client), \
+                    patch("sys.argv", ["api_demo.py", "--scenario", "calculate", "--live", "--confirm-paid-api"]):
+                self.assertEqual(agent.main(), 1)
+        self.assertEqual(len(requests), 1)
+        self.assertEqual(json.loads(requests[0].content)["model"], "gpt-6.1-sol")
+        output = self.output.getvalue()
+        self.assertIn("credit_balance_exhausted", output)
+        self.assertIn("费用未知", output)
+        self.assertNotIn("private error body", output)
+        self.assertNotIn("offline-placeholder", output)
 
 
 if __name__ == "__main__":

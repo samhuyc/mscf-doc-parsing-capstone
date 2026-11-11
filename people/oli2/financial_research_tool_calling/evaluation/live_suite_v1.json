@@ -1,0 +1,77 @@
+{
+  "schema_version": "1",
+  "suite_id": "llm_live_development_v1",
+  "dataset_sha256": "5ab2ab206d41b53115e41df389e38955848a73f074e4ffb6e153549c946dfcd7",
+  "scope": "Development / regression set; previously seen questions and added paraphrases. NOT independent out-of-sample.",
+  "caps": {
+    "requests": 32,
+    "total_tokens": 30000,
+    "requests_per_task": 4,
+    "output_tokens_per_request": 1024
+  },
+  "cases": [
+    {
+      "id": "L01",
+      "description": "直接 CVS 查询",
+      "frozen_case": "E01"
+    },
+    {
+      "id": "L02",
+      "description": "自然语言季度",
+      "frozen_case": "E17"
+    },
+    {
+      "id": "L03",
+      "description": "去年同期连续追问",
+      "frozen_case": "E18"
+    },
+    {
+      "id": "L04",
+      "description": "缺少期间后由用户澄清；执行 Search → Calculate",
+      "turns": [
+        {
+          "question": "CVS 的合并总营收增长了多少？",
+          "gold_ref": [
+            "E08",
+            0
+          ]
+        },
+        {
+          "question": "我指 2025 Q2 比 2024 Q2",
+          "gold_ref": [
+            "E03",
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "description": "CVS 与 UNH 两家公司歧义",
+      "frozen_case": "E09"
+    },
+    {
+      "id": "L06",
+      "description": "切换到资料不足的 Amazon",
+      "frozen_case": "E07"
+    },
+    {
+      "id": "L07",
+      "description": "资料不足的 2023 Q2",
+      "frozen_case": "E11"
+    },
+    {
+      "id": "L08",
+      "description": "同一查询的不同自然语言表达",
+      "turns": [
+        {
+          "question": "想了解 CVS 二〇二五年第二季的合并总收入，请给出金额及来源。",
+          "gold_ref": [
+            "E01",
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

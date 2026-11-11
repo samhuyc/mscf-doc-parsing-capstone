@@ -49,7 +49,7 @@ def version_record():
 
 def freeze(path=MANIFEST):
     if git('branch','--show-current') == 'main' or git('status','--porcelain','--untracked-files=all'):
-        raise ValueError('冻结需要独立分支上的干净本地 Commit；先保留并提交代码。')
+        raise ValueError('Freezing requires a clean local commit on a separate branch; preserve and commit the code first.')
     record = version_record()
     path = Path(path)
     path.parent.mkdir(parents=True,exist_ok=True)
@@ -61,10 +61,10 @@ def freeze(path=MANIFEST):
 
 def verify_frozen(path=MANIFEST):
     if git('status','--porcelain','--untracked-files=all'):
-        raise ValueError('代码工作区有变化，禁止按旧冻结版本调用付费 API。')
+        raise ValueError('The working tree has changed; paid API execution with the old freeze is prohibited.')
     saved = json.loads(Path(path).read_text(encoding='utf-8'))
     if saved != version_record():
-        raise ValueError('Commit、代码、工具、运行环境或 Dataset 与冻结记录不符。')
+        raise ValueError('Commit, code, tools, environment or dataset differs from the freeze manifest.')
     return saved
 
 
@@ -92,7 +92,7 @@ def run_evaluation(directory, *, live_client=None, frozen=None):
     report['fixed_version'] = frozen or version_record()
     report['scope'] += (' Final Integration v2: same CLI execution path. L05 explicit multi-company request '
         'is unsupported_capability, not ambiguity. Original clarify label is preserved; report the mismatch, do not inflate the score.')
-    report['limitations'].append('L05 冻结标签为 clarify；新范围分类为 unsupported。原评分照常计差异，人工范围审查单列，不改 Golden Label。')
+    report['limitations'].append('L05 has frozen label clarify but the new scope classification is unsupported. Preserve the scored mismatch and review scope separately; do not change the golden label.')
     report['integration_audit'] = [dict(case_id=t['case_id'],turn=t['turn'],category=t['observed']['category'],
         expected_scope_behavior='unsupported' if t['case_id']=='L05' else None,
         candidates=t['observed']['pending_companies']) for t in report['turns']]
@@ -107,10 +107,10 @@ def main(argv=None):
     parser.add_argument('--confirm-paid-api',action='store_true')
     args=parser.parse_args(argv)
     if args.freeze:
-        if args.live: raise ValueError('冻结与付费执行必须分开。')
+        if args.live: raise ValueError('Freezing and paid execution must be separate steps.')
         print(json.dumps(freeze(),ensure_ascii=False,indent=2)); return 0
     if args.live and not args.confirm_paid_api:
-        print('未确认付费，未读取密钥或调用 API。'); return 1
+        print('Paid execution was not confirmed; no key was read and no API was called.'); return 1
     stamp=datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
     directory=OUT/(('live_' if args.live else 'offline_')+stamp)
     for name in ('openai','httpx','httpx2','httpcore'):
@@ -133,5 +133,5 @@ def main(argv=None):
 if __name__=='__main__':
     try: code=main()
     except Exception:
-        print('配置或执行失败，安全停止；异常详情隐藏，未自动重试。'); code=1
+        print('Configuration or execution failed; stopped safely with error details hidden and no automatic retry.'); code=1
     raise SystemExit(code)

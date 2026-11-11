@@ -2,6 +2,7 @@
 import argparse
 from contextlib import redirect_stdout
 from dataclasses import replace
+from decimal import Decimal
 import io
 import json
 import logging
@@ -177,6 +178,98 @@ def offline_client(question):
     return IntegratedFakeClient(examples[question])
 
 
+ENGLISH_DEMO_QUESTIONS = (
+    "What was CVS's consolidated revenue in Q2 2025?",
+    "What about the same quarter last year?",
+    "How much did it increase year over year?",
+    "I mean Q2 2025 compared with Q2 2024.",
+)
+ENGLISH_CLARIFICATION = (
+    "Do you mean Q2 2025 versus Q2 2024, or Q2 2024 versus Q2 2023?"
+)
+
+
+def english_demo_fixtures():
+    """Scripted interpretations only. Amounts still come from the real local tools."""
+    return (
+        fixture(), fixture(year=2024),
+        {**fixture(), 'period': None, 'intent': 'compare', 'request_scope': 'ambiguous',
+         'needs_clarification': True, 'clarification_question': ENGLISH_CLARIFICATION},
+        fixture(intent='compare'),
+    )
+
+
+def english_demo_answer(result):
+    """Display already-validated task results without changing State, evidence or grading."""
+    if result.category == 'persistence_error':
+        return 'Local snapshot or memory storage failed. The session has stopped; no retry was attempted.'
+    if result.outcome == 'failed':
+        stages = {
+            'initialization': 'Task initialization failed',
+            'budget_check': 'The request or token budget could not accommodate another step',
+            'api_request': 'The response request failed or was blocked by the shared budget',
+            'response_validation': 'Response or usage validation failed',
+            'final_validation': 'Structured output or financial answer validation failed',
+            'tool_validation': 'Tool call validation failed',
+            'tool_execution': 'Tool execution or evidence validation failed',
+            'state_update': 'Task state update failed',
+        }
+        message = stages.get(result.state.failure_stage, 'The task failed')
+        return f'{message}. The session has stopped; no retry was attempted. Sensitive error details are omitted.'
+    if result.category == 'ambiguity':
+        # This fixed demo's third interpretation uses this exact English clarification.
+        return ENGLISH_CLARIFICATION
+    if result.category == 'insufficient_evidence':
+        return 'Insufficient evidence: the available reports do not support an answer.'
+    if result.category == 'unsupported_capability':
+        return ('Unsupported capability: this demo supports consolidated revenue for one company '
+                'and year-over-year changes in revenue amounts, not multi-company analysis or percentages.')
+    if result.category != 'answer' or result.state.status != 'completed' or result.query is None:
+        raise ValueError('No validated financial result is available for display.')
+    evidence, query = result.state.evidence, result.query
+    if query.kind == 'search':
+        amount = evidence[query.revenue_key]
+        answer = f'{query.company} Q{query.quarter} {query.year} consolidated revenue: ${amount} billion.'
+    else:
+        amount = Decimal(result.state.calculation)
+        direction = 'increase' if amount >= 0 else 'decrease'
+        answer = (f'Year-over-year {direction}: approximately ${abs(amount):f} billion '
+                  f'(Q{query.quarter} {query.year} versus Q{query.quarter} {query.year - 1}).\n'
+                  'Calculated from the rounded figures in the earnings presentation.')
+    return (f"{answer}\n[{evidence['citation']}] {evidence['source_title']}, PDF page {evidence['page']}\n"
+            f"{evidence['source_url']}")
+
+
+def run_english_demo():
+    """Offline presentation adapter; the underlying Agent and its safety checks are unchanged."""
+    print('OFFLINE DEMO: scripted Fake Responses with real local report retrieval and Decimal arithmetic.')
+    print('No live GPT requests, API key access, or API charges. Financial amounts are shown in USD billions.')
+    print('Limits: 4 requests per task; 32 requests and 30,000 tokens per session; 1,024 output tokens per request.')
+    print('Sanitized snapshots and verified research topics are saved locally; full conversations are not saved.')
+    app = None
+    try:
+        app = FinancialAgent()
+        for question, parsed in zip(ENGLISH_DEMO_QUESTIONS, english_demo_fixtures()):
+            print(f'\nUser: {question}')
+            result = app.ask(question, fake_client=IntegratedFakeClient(parsed))
+            print(f'Assistant [{result.category}]: {english_demo_answer(result)}')
+            print(json.dumps({'task_id': result.state.task_id, 'requests': result.state.api_request_count,
+                'tool_calls': result.state.tool_call_count, 'simulated_tokens': result.state.total_tokens}))
+            if app.stopped:
+                return 1
+        return 0
+    except Exception:
+        # Never echo arbitrary exception text, which may contain Chinese or credentials.
+        print('The offline demo could not complete. Execution has stopped; no retry was attempted. '
+              'Sensitive error details are omitted.')
+        return 1
+    finally:
+        if app is not None:
+            summary = app.summary()
+            summary['cost'] = {'usd': None, 'note': 'Simulated token usage is not a real API cost.'}
+            print('Session summary: ' + json.dumps(summary))
+
+
 class FinancialAgent:
     """One bounded process/session. No automatic retries, recovery, or previous evidence reuse."""
     def __init__(self, *, live_client=None, directory=STORAGE, caps=None, persist=True):
@@ -215,10 +308,17 @@ class FinancialAgent:
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--demo', action='store_true', help='Run the four fixed teaching questions')
+    demos = parser.add_mutually_exclusive_group()
+    demos.add_argument('--demo', action='store_true', help='Run the four fixed teaching questions')
+    demos.add_argument('--demo-en', action='store_true', help='Run the four English offline presentation questions')
     parser.add_argument('--live', action='store_true')
     parser.add_argument('--confirm-paid-api', action='store_true')
     args = parser.parse_args(argv)
+    if args.demo_en:
+        if args.live or args.confirm_paid_api:
+            print('--demo-en is offline only. Remove --live and --confirm-paid-api; no API key was read or request sent.')
+            return 1
+        return run_english_demo()
     if args.live and not args.confirm_paid_api:
         print('Live 需要 --confirm-paid-api；未读取密钥或发送请求。')
         return 1

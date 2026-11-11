@@ -27,11 +27,11 @@ DATASET = Path(__file__).with_name("dataset_v1.json")
 OUTPUT_DIR = Path(__file__).resolve().parents[1] / "artifacts" / "evaluation" / "v1"
 METRIC = "consolidated_total_revenue"
 DEFINITIONS = {
-    "answer_accuracy": "分母：gold 要求回答金额的轮次；分子：实际回答的金额、单位和查询条件全部正确。错误澄清/拒答计错。",
-    "tool_selection_accuracy": "分母：全部轮次；分子：Fake Model 实际请求的工具名称及顺序与 gold 完全一致。应澄清时必须为空。仅评估脚本驱动的工具流程。",
-    "citation_accuracy": "分母：gold 要求带来源财务答案的轮次；分子：用户答案及当前 Evidence 的引用编号、标题、页码和 URL 均匹配 gold。没有回答也计错。",
-    "abstention_accuracy": "分母：非故障注入轮次；分子：answer / abstain / clarify 决策正确。既惩罚该拒不拒，也惩罚可以回答却拒答或澄清。",
-    "execution_success": "分母：全部轮次；分子：返回 answer / abstain / clarify，且 State 未失败、无未捕获异常。预期工具故障仍计执行失败，但可通过该案例的安全停止要求。",
+    "answer_accuracy": "Denominator: turns requiring an amount. Numerator: correct amount, unit and query. Incorrect clarification or refusal counts as wrong.",
+    "tool_selection_accuracy": "Denominator: all turns. Numerator: Fake-requested tool names and order match gold, with no tools for clarification. This measures scripted orchestration only.",
+    "citation_accuracy": "Denominator: turns requiring sourced financial answers. Numerator: answer and current Evidence match citation ID, title, page and URL. Missing answers count wrong.",
+    "abstention_accuracy": "Denominator: turns without injected faults. Numerator: correct answer/abstain/clarify decision. Both unsupported answers and unnecessary refusal or clarification are penalized.",
+    "execution_success": "Denominator: all turns. Numerator: answer/abstain/clarify without failed State or uncaught exceptions. Injected faults count as execution failures but can pass safe-stop case requirements.",
 }
 
 
@@ -48,25 +48,25 @@ def load_dataset(path=DATASET):
     raw = path.read_text(encoding="utf-8")  # Normalize CRLF so a checkout does not change the lock.
     digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()
     if digest != Path(str(path) + ".sha256").read_text(encoding="ascii").strip():
-        raise EvaluationError("冻结 Dataset 的 SHA-256 不匹配；请创建新版本，不要覆盖 v1。")
+        raise EvaluationError("Frozen dataset SHA-256 mismatch; create a new version instead of overwriting v1.")
     data = json.loads(raw)
     if data.get("schema_version") != "1" or not 15 <= len(data.get("cases", [])) <= 20:
-        raise EvaluationError("Dataset 版本或案例数量无效。")
+        raise EvaluationError("Invalid dataset version or case count.")
     if len({case["id"] for case in data["cases"]}) != len(data["cases"]):
-        raise EvaluationError("Dataset 案例 ID 重复。")
+        raise EvaluationError("Duplicate dataset case IDs.")
     for case in data["cases"]:
         if case["fixture"] not in {None, "stale_memory", "search_failure", "calculate_failure"}:
-            raise EvaluationError("未知评估 fixture。")
+            raise EvaluationError("Unknown evaluation fixture.")
         for turn in case["turns"]:
             expected = turn["expected"]
             if expected["behavior"] not in {"answer", "abstain", "clarify", "error"}:
-                raise EvaluationError("未知 Expected Behavior。")
+                raise EvaluationError("Unknown expected behavior.")
             if expected["behavior"] == "answer":
                 Decimal(expected["value"])
                 if expected["source"] not in data["sources"] or expected["unit"] != "十亿美元":
-                    raise EvaluationError("财务 gold 缺少单位或来源。")
+                    raise EvaluationError("Financial gold is missing its unit or source.")
             elif any(expected[key] is not None for key in ("value", "unit", "source")):
-                raise EvaluationError("非回答轮次不能包含虚构金额或引用。")
+                raise EvaluationError("Non-answer turns must not contain invented amounts or citations.")
     return data, digest
 
 
@@ -219,7 +219,7 @@ def run_case(case, dataset):
             state = result.state if result else None
             query = result.query if result else None
             observed = {
-                "behavior": classify(result) if result else "error", "answer": result.answer if result else "未捕获异常，详情已隐藏。",
+                "behavior": classify(result) if result else "error", "answer": result.answer if result else "Unhandled exception; details are hidden.",
                 "query": {field: getattr(query, field) for field in ("company", "year", "quarter", "kind")} if query else None,
                 "state_status": state.status if state else None, "task_id": state.task_id if state else str(task_id),
                 "final_answer": state.final_answer if state else None, "evidence": deepcopy(state.evidence) if state else None,
@@ -240,7 +240,7 @@ def run_case(case, dataset):
 def evaluate(dataset, digest, case_ids=None):
     selected = [case for case in dataset["cases"] if case_ids is None or case["id"] in case_ids]
     if not selected or (case_ids is not None and set(case_ids) != {case["id"] for case in selected}):
-        raise EvaluationError("未知或空的案例选择。")
+        raise EvaluationError("Unknown or empty case selection.")
     # Guard the complete evaluation, including accidental client construction and network calls.
     with patch.object(socket.socket, "connect", side_effect=AssertionError("Network forbidden in evaluation")), \
             patch.object(socket, "create_connection", side_effect=AssertionError("Network forbidden in evaluation")), \
@@ -255,9 +255,9 @@ def evaluate(dataset, digest, case_ids=None):
         for turn in case["turns"]:
             if not turn["evaluation"]["passed"]:
                 actual = turn["observed"]["behavior"]
-                explanation = ("可回答且信息明确的问题被要求澄清；当前 Python 规则未覆盖该表达。"
+                explanation = ("An answerable, unambiguous question triggered clarification because the Python rules do not cover its wording."
                                if turn["expected"]["behavior"] == "answer" and actual == "clarify"
-                               else "实际行为未满足冻结 gold，请查看工具轨迹、金额、引用与失败阶段。")
+                               else "Observed behavior differs from frozen gold; inspect tools, amounts, citations and failure stage.")
                 failures.append({"case_id": case["id"], "turn": turn["turn"], "question": turn["question"],
                                  "failed_checks": turn["evaluation"]["failed_checks"], "analysis": explanation})
     return {
@@ -274,12 +274,12 @@ def evaluate(dataset, digest, case_ids=None):
         "simulated_token_usage": {key: sum(turn["observed"]["simulated_token_usage"][key] for turn in turns)
                                   for key in ("input_tokens", "output_tokens", "total_tokens")},
         "simulated_api_requests": sum(turn["observed"]["api_request_count"] for turn in turns),
-        "real_api_requests": 0, "cost_note": "Token Usage 全部来自 Fake Responses，不能换算为真实模型成本。",
-        "limitations": ["Fake Model 的工具策略预先写好，Tool Selection Accuracy 不是 GPT 的自主选择能力。",
-                        "仅有 CVS 简报两期四舍五入数值；没有 UNH/Amazon 财务 gold。",
-                        "18 个手工案例，不是随机样本或独立 holdout，不能推断一般任务成功率。",
-                        "金额 grader 依赖当前中文输出格式；改变输出格式应版本化 grader。",
-                        "两个工具故障是明确注入的实验条件，不是此次运行发现的生产故障。"],
+        "real_api_requests": 0, "cost_note": "All token Usage comes from Fake Responses and cannot be priced as real model cost.",
+        "limitations": ["Fake tool decisions are scripted; Tool Selection Accuracy does not measure autonomous GPT behavior.",
+                        "Only two rounded CVS presentation figures are available; there is no UNH/Amazon financial gold.",
+                        "The 18 manually authored cases are not a random sample or independent holdout and do not establish general task accuracy.",
+                        "The amount grader depends on the legacy Chinese answer format; changing that format requires a versioned grader.",
+                        "The two tool faults are explicit test injections, not production failures discovered in this run."],
         "failures": failures, "cases": cases,
     }
 
@@ -295,34 +295,34 @@ def render_report(report):
             actual, grade = turn["observed"], turn["evaluation"]
             rows.append(f"<tr><td>{case['id']}.{turn['turn']}</td><td>{esc(turn['question'])}</td>"
                         f"<td>{esc(turn['expected']['behavior'])} → {esc(actual['behavior'])}</td>"
-                        f"<td>{esc(', '.join(call['name'] for call in actual['tool_calls']) or '无')}</td>"
+                        f"<td>{esc(', '.join(call['name'] for call in actual['tool_calls']) or 'none')}</td>"
                         f"<td>{'PASS' if grade['passed'] else 'FAIL'}</td></tr>")
         details.append(f"<details><summary>{case['id']} · {esc(case['description'])}</summary>"
                        f"<pre>{esc(json.dumps(case, ensure_ascii=False, indent=2))}</pre></details>")
     failures = "".join(f"<li>{item['case_id']}.{item['turn']}：{esc(item['analysis'])}"
-                       f" 检查项：{esc(', '.join(item['failed_checks']))}</li>" for item in report["failures"]) or "<li>没有 gold 不匹配。</li>"
+                       f" Checks: {esc(', '.join(item['failed_checks']))}</li>" for item in report["failures"]) or "<li>No gold mismatches.</li>"
     limits = "".join(f"<li>{esc(item)}</li>" for item in report["limitations"])
-    return f"""<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Offline Agent Evaluation v1</title>
+    return f"""<!doctype html><html lang="en"><meta charset="utf-8"><title>Offline Agent Evaluation v1</title>
 <style>body{{font:16px/1.6 system-ui,sans-serif;max-width:1150px;margin:40px auto;padding:0 20px;color:#18212b}}
 table{{border-collapse:collapse;width:100%;margin:20px 0}}td,th{{border:1px solid #d6dce2;padding:9px;text-align:left}}
 th{{background:#edf1f5}}pre{{white-space:pre-wrap;overflow-wrap:anywhere;background:#f4f6f8;padding:16px;font-size:13px}}
 details{{border-top:1px solid #d6dce2;padding:12px 0}}small{{color:#536170}}</style>
 <h1>Financial Research Agent · Offline Evaluation v1</h1>
-<p>{report['case_count']} 个场景 / {report['turn_count']} 个评分轮次；通过 {report['passed_cases']}/{report['case_count']} 个场景。
+<p>{report['case_count']} scenarios / {report['turn_count']} scored turns; passed {report['passed_cases']}/{report['case_count']} scenarios.
 Baseline {report['tracks'].get('baseline', {}).get('passed', 0)}/{report['tracks'].get('baseline', {}).get('cases', 0)}；
 Capability probes {report['tracks'].get('capability_probe', {}).get('passed', 0)}/{report['tracks'].get('capability_probe', {}).get('cases', 0)}。</p>
-<p><strong>全部使用 Fake Responses + 本地工具，真实 API 请求为 0。</strong>{esc(report['cost_note'])}</p>
-<p>模拟请求 {report['simulated_api_requests']} 次；模拟 Usage：{esc(report['simulated_token_usage'])}。
-输入文件与冻结版本一致：{report['inputs_match_frozen']}。</p>
-<small>Dataset SHA-256：{report['dataset_sha256']}；固定评估时钟：{report['evaluation_clock']}（不是运行时间）。</small>
-<h2>总体指标</h2><table><tr><th>指标</th><th>分子/分母</th><th>百分比</th><th>适用范围与定义</th></tr>{metrics}</table>
-<h2>失败案例分析</h2><ul>{failures}</ul>
-<p>执行成功率会把注入的工具故障计为失败；正确安全停止仍可通过相应场景。N/A 项不进入相应指标分母。</p>
-<h2>逐题结果</h2><table><tr><th>场景.轮次</th><th>用户问题</th><th>预期 → 实际</th><th>工具请求顺序</th><th>结果</th></tr>{''.join(rows)}</table>
-<h2>局限性与评估层级</h2><ul>{limits}</ul>
-<p>Unit Testing 检查局部约束；本报告的 Offline Agent Evaluation 检查冻结任务的端到端表现；
-Real LLM Evaluation 才能衡量真实模型理解、工具选择、延迟与实际 Usage。本次未执行 Real LLM Evaluation。</p>
-<h2>逐场景轨迹</h2>{''.join(details)}</html>"""
+<p><strong>All cases use Fake Responses and local tools. Real API requests: 0.</strong>{esc(report['cost_note'])}</p>
+<p>Simulated requests: {report['simulated_api_requests']}; simulated Usage: {esc(report['simulated_token_usage'])}。
+Inputs match the frozen version: {report['inputs_match_frozen']}。</p>
+<small>Dataset SHA-256: {report['dataset_sha256']}; fixed evaluation clock: {report['evaluation_clock']} (not the execution time).</small>
+<h2>Overall metrics</h2><table><tr><th>Metric</th><th>Correct/eligible</th><th>Percentage</th><th>Scope and definition</th></tr>{metrics}</table>
+<h2>Failure analysis</h2><ul>{failures}</ul>
+<p>Execution success counts injected tool faults as failures; correct safe stopping can still pass the scenario. N/A items are excluded from metric denominators.</p>
+<h2>Per-turn results</h2><table><tr><th>Case.turn</th><th>User question</th><th>Expected -> observed</th><th>Requested tool order</th><th>Result</th></tr>{''.join(rows)}</table>
+<h2>Limitations and evaluation layers</h2><ul>{limits}</ul>
+<p>Unit Testing checks local contracts; this Offline Agent Evaluation checks end-to-end performance on frozen tasks;
+Real LLM Evaluation measures actual model understanding, tool selection, latency and Usage. No Real LLM Evaluation was performed in this run.</p>
+<h2>Per-scenario traces</h2>{''.join(details)}</html>"""
 
 
 def write_report(report, directory=OUTPUT_DIR):
@@ -347,13 +347,13 @@ def main():
         report = evaluate(dataset, digest)
         path = write_report(report, args.output)
     except (EvaluationError, OSError, ValueError, KeyError):
-        print("Evaluation 未完成：Dataset、运行文件或输出配置检查失败。未回显异常内容。")
+        print("Evaluation did not complete: dataset, runtime files or output configuration checks failed. Error details are hidden.")
         return 2
-    print(f"Offline Evaluation：{report['passed_cases']}/{report['case_count']} 场景通过，{report['turn_count']} 个评分轮次。")
+    print(f"Offline Evaluation: {report['passed_cases']}/{report['case_count']} scenarios passed; {report['turn_count']} scored turns.")
     for name, item in report["metrics"].items():
         print(f"{name}: {item['correct']}/{item['eligible']} = {item['percent']}%")
-    print(f"模拟 Usage：{report['simulated_token_usage']}；不是实际成本。真实 API 请求：0。")
-    print(f"Report：{path}")
+    print(f"Simulated Usage: {report['simulated_token_usage']}; not actual cost. Real API requests: 0.")
+    print(f"Report: {path}")
     return 1 if args.fail_on_failure and report["failures"] else 0
 
 

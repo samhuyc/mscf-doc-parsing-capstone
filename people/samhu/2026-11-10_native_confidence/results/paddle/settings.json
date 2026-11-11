@@ -1,0 +1,24 @@
+{
+  "engine": "paddle",
+  "config": {
+    "text_detection_model_name": "PP-OCRv5_mobile_det",
+    "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+    "use_doc_orientation_classify": false,
+    "use_doc_unwarping": false,
+    "use_textline_orientation": false,
+    "device": "cpu",
+    "cpu_threads": 4,
+    "enable_mkldnn": false,
+    "text_det_limit_side_len": 1280,
+    "text_det_limit_type": "max",
+    "text_rec_score_thresh": 0.0
+  },
+  "render_dpi": 200,
+  "versions": {
+    "paddleocr": "3.3.2",
+    "paddlepaddle": "3.2.2",
+    "paddlex": "3.3.13",
+    "pymupdf": "2.1"
+  },
+  "score_semantics": "Native recognition score of each detected line; not detection confidence or calibrated correctness"
+}

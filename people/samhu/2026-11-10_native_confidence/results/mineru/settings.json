@@ -1,0 +1,27 @@
+{
+  "engine": "mineru",
+  "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+  "processor_use_fast": true,
+  "config_sha256": "22097df08750242647a513043636a8dff16820a09757e9271e220bdea378df28",
+  "weight_sha256": "abf8681ca63b8dec7b67de257af47b821f179442f72998d0696ae2ed9232a5f0",
+  "versions": {
+    "mlx": "0.31.1",
+    "mlx-vlm": "0.3.9",
+    "mlx-lm": "0.28.3",
+    "transformers": "4.57.3",
+    "torch": "2.9.1",
+    "torchvision": "0.24.1",
+    "pymupdf": "2.1",
+    "pillow": "13.0.0"
+  },
+  "task": "full_page_text_recognition",
+  "prompt": "\nText Recognition:",
+  "max_tokens": 4096,
+  "temperature": 0.0,
+  "render_dpi": 150,
+  "max_image_side": 1536,
+  "repetition_penalty": null,
+  "logit_bias": null,
+  "probability_normalization": "Full backend log-probability vector re-normalized in FP32",
+  "score_semantics": "Unmodified decoder log-softmax of each emitted subword token; EOS excluded"
+}

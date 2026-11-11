@@ -1,0 +1,24 @@
+{
+  "review_status": "assistant_visual_spot_check_not_human_ground_truth",
+  "not_used_for_fitting_or_the_13_span_benchmark": true,
+  "cases": [
+    {
+      "document": "rolls_royce_2026h1_release",
+      "page": 25,
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "phrase": "Underlying operating profit/(loss)",
+      "source_embedded_text_occurrences": 2,
+      "generated_occurrences": 557,
+      "mean_token_confidence": 0.998729963748106,
+      "token_limit_reached": true,
+      "visual_check": "Two table rows carry this label in the rendered source; the generated output repeats it hundreds of times."
+    },
+    {
+      "document": "hippodrome_2025",
+      "page": 36,
+      "visual_check": "Source page contains prose, small tables and ruled lines; the generated tail contains hundreds of repeated underscore lines.",
+      "mean_token_confidence": 0.9968208573578926,
+      "token_limit_reached": true
+    }
+  ]
+}

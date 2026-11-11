@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Native confidence in document parsing · CMU / Barclays</title>
+<style>
+:root{--ink:#122d41;--muted:#526674;--accent:#007e88;--paper:#fff;--back:#f1f5f6;--line:#d9e3e7;--wash:#edf7f7;--warn:#8b481c}
+*{box-sizing:border-box}body{margin:0;background:var(--back);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.45}button,a{touch-action:manipulation}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}a{color:var(--accent)}
+.top{max-width:1240px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:20px 28px;gap:16px;font-size:14px}.brand{font-weight:700;letter-spacing:.025em}.tools{display:flex;gap:8px}.tools button{background:transparent;border:1px solid var(--line);border-radius:4px;padding:8px 12px;color:var(--ink)}
+main{max-width:1240px;margin:0 auto;padding:0 28px 100px}.slide{background:var(--paper);padding:32px 42px;min-height:650px;display:flex;flex-direction:column;border-top:5px solid var(--accent)}[hidden]{display:none!important}.eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:0 0 12px}h1,h2{letter-spacing:-.035em;line-height:1.1;margin:0 0 24px;font-size:43px;font-weight:700;max-width:980px}h1{font-size:55px;max-width:900px}h3{font-size:23px;line-height:1.2;margin:0 0 12px}p{margin:0 0 16px;font-size:20px}.lead{font-size:25px;max-width:920px}.muted,.small{color:var(--muted)}.small{font-size:15px;line-height:1.45}.foot{margin-top:auto;padding-top:24px;font-size:14px;color:var(--muted)}.takeaway{background:var(--wash);border-left:4px solid var(--accent);padding:15px 20px;margin-top:24px;font-size:21px}.columns{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:10px 0 20px}.thirds{grid-template-columns:repeat(3,1fr);gap:26px}.columns>div+div{border-left:1px solid var(--line);padding-left:26px}.formula{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:19px;padding:13px 0;margin:8px 0;color:var(--accent)}.step{font-size:40px;color:var(--accent);font-weight:700;margin:0 0 8px}.scope{display:flex;gap:32px;flex-wrap:wrap;margin:18px 0}.scope strong{font-size:33px;display:block}.scope span{font-size:16px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:20px;margin:4px 0 12px}th,td{padding:15px 18px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{font-size:15px;color:var(--muted);font-weight:400}td:first-child{font-weight:700}td.num{font-variant-numeric:tabular-nums;font-size:27px;font-weight:700;color:var(--accent)}.note{font-size:17px;color:var(--muted)}.method p{font-size:18px}.method .formula{font-size:17px;white-space:normal}.method .small{font-size:14px}.example{padding:14px 20px;background:var(--back);font-size:19px}.example strong{font-variant-numeric:tabular-nums}.facts{display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:24px;margin:16px 0 22px}.facts strong{display:block;font-size:49px;line-height:1.15;color:var(--accent);font-variant-numeric:tabular-nums}.facts span{font-size:17px;color:var(--muted)}blockquote{margin:0 0 12px;border-left:3px solid var(--line);padding:8px 18px;font-size:23px}.numbered{counter-reset:steps;list-style:none;padding:0;margin:0}.numbered li{counter-increment:steps;display:grid;grid-template-columns:40px 1fr;column-gap:14px;font-size:20px;margin:20px 0}.numbered li:before{content:counter(steps);color:var(--accent);font-size:27px;font-weight:700}.numbered strong{display:block}.numbered span{color:var(--muted);font-size:18px}.nav{position:fixed;bottom:0;left:0;right:0;background:rgba(241,245,246,.97);border-top:1px solid var(--line);padding:13px 28px;display:flex;justify-content:center;align-items:center;gap:16px}.nav button{border:0;border-radius:4px;min-width:42px;min-height:42px;background:transparent;color:var(--ink)}.nav button[aria-current="step"]{background:var(--ink);color:white}.nav button:disabled{opacity:.3;cursor:default}.pages{display:flex;gap:4px}.status{font-size:14px;min-width:45px;text-align:center}.all .slide{margin-bottom:28px;min-height:620px}.all main{padding-bottom:100px}details{font-size:14px;color:var(--muted);margin-top:18px}summary{cursor:pointer;width:fit-content}details ul{margin:12px 0;padding-left:20px}details li{margin:8px 0}details a{overflow-wrap:anywhere}.rank-label{font-size:14px;color:var(--muted);margin:0 0 6px}.tag{color:var(--warn);font-weight:700}.emphasis{color:var(--accent)}
+@media(min-width:1500px){.slide{min-height:710px;padding:50px 58px}}
+@media(max-width:800px){.top{padding:14px 18px}.brand{max-width:180px}main{padding:0 12px 95px}.slide{padding:28px 24px;min-height:650px}h1{font-size:39px}h2{font-size:33px}.lead{font-size:22px}.columns,.thirds{grid-template-columns:1fr;gap:18px}.columns>div+div{border-left:0;border-top:1px solid var(--line);padding:18px 0 0}.scope{gap:20px}.method p{font-size:18px}.facts{gap:10px}.facts strong{font-size:35px}.facts span{font-size:15px}th,td{padding:12px 8px;font-size:17px}td.num{font-size:23px}.nav{gap:4px;padding:10px 8px}.nav button{min-width:36px}.pages{gap:0}.status{display:none}.tools button{font-size:12px;padding:8px}.all .slide{min-height:0}.foot{padding-top:18px}}
+@media print{@page{size:A4 landscape;margin:10mm}body{background:white}.top,.nav,.tools{display:none!important}main{max-width:none;padding:0}.slide,.slide[hidden]{display:flex!important;border-top:3px solid var(--accent);margin:0!important;padding:7mm 9mm;min-height:0!important;height:188mm;break-after:page;page-break-after:always}.slide:last-child{break-after:auto;page-break-after:auto}h1{font-size:36pt}h2{font-size:28pt}p{font-size:15pt}.lead{font-size:19pt}.method p{font-size:13pt}.small,.foot,details{font-size:10pt}.formula{font-size:14pt}.takeaway{font-size:15pt;margin-top:12px}.facts strong{font-size:35pt}th,td{padding:9px 12px;font-size:14pt}td.num{font-size:20pt}.columns{gap:22px;margin:8px 0}.scope strong{font-size:24pt}.numbered li{margin:15px 0;font-size:15pt}.numbered span{font-size:13pt}details{display:none}.slide{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<header class="top"><div class="brand">CMU / Barclays capstone</div><div class="tools"><button id="overview" type="button" aria-pressed="false">View all</button><button id="print" type="button">Print / PDF</button></div></header>
+<main>
+<section class="slide" id="slide-1" aria-labelledby="title-1">
+<p class="eyebrow">1 / Research question</p>
+<h1 id="title-1">Can a parser’s confidence tell us when to trust its output?</h1>
+<p class="lead">The hypothesis: higher confidence from the model should correspond to more accurate transcription.</p>
+<div class="columns thirds">
+<div><div class="step">01</div><h3>Read native scores</h3><p>Capture the model’s own recognition certainty or token probabilities.</p></div>
+<div><div class="step">02</div><h3>Summarize a document</h3><p>Combine those local scores into a statistic that can rank documents.</p></div>
+<div><div class="step">03</div><h3>Check against truth</h3><p>Compare confidence with independently supplied reference text.</p></div>
+</div>
+<div class="scope"><div><strong>3 models</strong><span>Tesseract, PaddleOCR, MinerU</span></div><div><strong>6 PDFs / 140 pages</strong><span>Processed by each model</span></div><div><strong>13 draft snippets</strong><span>Current accuracy references</span></div></div>
+<p class="foot">Prototype scope: transcription confidence. The current references are assistant-authored drafts, not human-verified full-document ground truth.</p>
+</section>
+
+<section class="slide" id="slide-2" aria-labelledby="title-2" hidden>
+<p class="eyebrow">2 / Where confidence comes from</p>
+<h2 id="title-2">Each model exposes a different signal</h2>
+<div class="columns thirds method">
+<div><h3>Tesseract</h3><p class="emphasis">One score per recognized word</p><p>The engine converts internal word certainty <i>c</i> to a 0–100 score. We rescale it to 0–1.</p><div class="formula">s = clip(1 + c/20, 0, 1)</div><p><strong>Rationale:</strong> stronger recognition certainty should indicate fewer word errors.</p><p class="small">Engine-specific certainty. PyMuPDF renders the page; Tesseract recognizes the words.</p></div>
+<div><h3>PaddleOCR</h3><p class="emphasis">One score per recognized line</p><p>Average the selected character probabilities after removing decoder blanks and duplicates.</p><div class="formula">s = mean(p<sub>character</sub>)</div><p><strong>Rationale:</strong> consistently confident character choices should indicate a reliable line.</p><p class="small">PP-OCRv5 mobile. Averaging may hide uncertain characters.</p></div>
+<div><h3>MinerU recognition</h3><p class="emphasis">One probability per subword token</p><p>Apply softmax to decoder logits and read the probability of the emitted token.</p><div class="formula">p<sub>t</sub> = exp(z<sub>t</sub>) / ∑<sub>k</sub> exp(z<sub>k</sub>)</div><p><strong>Rationale:</strong> a more concentrated next-token prediction indicates greater model certainty.</p><p class="small">Depends on image and preceding output. Full-page recognition only, excluding layout parsing.</p></div>
+</div>
+<p class="takeaway">Scores come from model inference, with no prompt asking the model to rate itself.</p>
+<p class="foot">Native score scales differ across engines. A value of 0.95 does not yet establish 95% correctness.</p>
+</section>
+
+<section class="slide" id="slide-3" aria-labelledby="title-3" hidden>
+<p class="eyebrow">3 / From local scores to a document</p>
+<h2 id="title-3">Two summaries encode different assumptions</h2>
+<div class="columns">
+<div><h3>Character-weighted mean</h3><div class="formula">C = ∑ w<sub>i</sub>s<sub>i</sub> / ∑ w<sub>i</sub></div><p>Give longer output units more influence. Here, <i>w</i> is the number of characters in a word, line or decoded token.</p><p class="note"><strong>Reason to try it:</strong> summarize confidence over the amount of text produced.</p></div>
+<div><h3>Geometric mean</h3><div class="formula">G = exp(mean(log s<sub>i</sub>))</div><p>Give low scores a stronger effect than an arithmetic average. Each output unit has equal weight.</p><p class="note"><strong>Reason to try it:</strong> favor consistently confident output. A zero score makes this summary zero.</p></div>
+</div>
+<div class="example">Illustration with equal-length units: <strong>0.99, 0.99, 0.20</strong><br>Weighted mean: <strong>0.727</strong> &nbsp; &nbsp; Geometric mean: <strong>0.581</strong></div>
+<p class="takeaway">These are candidate document-quality indicators. Their relationship to actual correctness must be measured.</p>
+<p class="foot">Products shrink with document length. These averages can miss omissions and over-weight repetitive output.</p>
+</section>
+
+<section class="slide" id="slide-4" aria-labelledby="title-4" hidden>
+<p class="eyebrow">4 / Measured results</p>
+<h2 id="title-4">Aggregation changes the answer</h2>
+<p class="rank-label">Spearman rank correlation with reference-snippet character accuracy across six documents. +1 means the rankings agree perfectly; 0 means no monotonic association.</p>
+<table aria-label="Document confidence rank correlations"><thead><tr><th>Model</th><th>Weighted mean</th><th>Geometric mean</th></tr></thead><tbody>
+<tr><td>Tesseract</td><td class="num" data-rho="tesseract:character_weighted_mean">0.88</td><td class="num" data-rho="tesseract:geometric_mean">0.11</td></tr>
+<tr><td>PaddleOCR</td><td class="num" data-rho="paddle:character_weighted_mean">−0.15</td><td class="num" data-rho="paddle:geometric_mean">0.70</td></tr>
+<tr><td>MinerU recognition</td><td>Not measurable*</td><td>Not measurable*</td></tr>
+</tbody></table>
+<p class="note">*All six documents scored 100% on the selected MinerU reference snippets. There is no accuracy variation to rank.</p>
+<div class="takeaway"><strong>PaddleOCR’s weak correlation concerns the score method.</strong> Its snippet accuracy was 98.3–100%. The weighted mean did not rank those small differences reliably.</div>
+<p class="foot">The geometric mean is a promising alternative for PaddleOCR in this sample, but performs poorly for Tesseract. Six documents and 13 draft snippets cannot establish a universal winner. All five tested summaries remain in the full results.</p>
+</section>
+
+<section class="slide" id="slide-5" aria-labelledby="title-5" hidden>
+<p class="eyebrow">5 / What the references miss</p>
+<h2 id="title-5">MinerU can be confident while repeating an error</h2>
+<p>Matching all 13 snippets does not establish full-document correctness. Eight pages reached the generation limit outside those reference checks.</p>
+<blockquote>“Underlying operating profit/(loss)”</blockquote>
+<p class="small">Rolls-Royce release, page 25. Source-page text and a visual check confirm two table rows with this label.</p>
+<div class="facts"><div><strong>2</strong><span>Occurrences in the source</span></div><div><strong>557</strong><span>Occurrences in generated text</span></div><div><strong>99.9%</strong><span>Mean emitted-token probability on that page</span></div></div>
+<p class="takeaway">A model can be highly certain about continuing a repetitive sequence. That certainty can coexist with a bad transcription.</p>
+<p class="foot">Observation from the prototype’s full-page, greedy MinerU recognition configuration. It is not a benchmark of the complete MinerU parser. Token-limit flags remain separate from native confidence.</p>
+</section>
+
+<section class="slide" id="slide-6" aria-labelledby="title-6" hidden>
+<p class="eyebrow">6 / Research conclusion</p>
+<h2 id="title-6">Native confidence needs validation against correctness</h2>
+<ol class="numbered">
+<li><div><strong>Define the target: transcription accuracy.</strong><span>Review representative source pages, including numbers, difficult scans, omissions and the observed repetition failures.</span></div></li>
+<li><div><strong>Test aggregation on separate documents.</strong><span>Choose the summary before evaluating held-out documents or issuers. Check whether higher confidence reliably ranks better output.</span></div></li>
+<li><div><strong>Calibrate the magnitude only after that test.</strong><span>Fit a mapping from native scores to observed accuracy on a calibration set. Then test whether a predicted 95% corresponds to roughly 95% accuracy on unseen data.</span></div></li>
+</ol>
+<p class="takeaway"><strong>Current conclusion:</strong> native confidence is available and sometimes informative. The prototype has not yet established a calibrated document-level correctness score.</p>
+<details><summary>Evidence and scope</summary><ul>
+<li>Measured data: six documents from five issuers, 140 pages per engine, 13 assistant-authored draft snippets. Accuracy uses best-matching normalized text windows, which can be optimistic. No human-reviewed full-document references were available.</li>
+<li><a href="https://github.com/samhuyc/mscf-doc-parsing-capstone/blob/3c892d5fb8b4116f0d548b6b8df714653f411663/people/samhu/2026-11-10_native_confidence/results/REPORT.md">Full measured results</a> and <a href="https://github.com/samhuyc/mscf-doc-parsing-capstone/blob/3c892d5fb8b4116f0d548b6b8df714653f411663/people/samhu/2026-11-10_native_confidence/results/mineru/spot_checks.json">repetition source checks</a>.</li>
+<li><a href="https://github.com/tesseract-ocr/tesseract/blob/5.5.3/src/ccmain/ltrresultiterator.cpp#L85-L132">Tesseract confidence conversion</a>; <a href="https://github.com/PaddlePaddle/PaddleX/blob/v3.3.13/paddlex/inference/models/text_recognition/processors.py">PaddleOCR character-score aggregation</a>; <a href="https://github.com/ml-explore/mlx-vlm/blob/v0.3.9/mlx_vlm/generate.py">MLX decoder probabilities</a>.</li>
+<li>Models: Tesseract 5.5.3; PP-OCRv5 mobile; MinerU2.5-Pro-2605-1.2B. The prototype does not test table structure or field associations.</li>
+</ul></details>
+</section>
+</main>
+<nav class="nav" aria-label="Presentation navigation"><button id="prev" type="button" aria-label="Previous section">←</button><div class="pages" id="pages"></div><span class="status" id="status" aria-live="polite">1 / 6</span><button id="next" type="button" aria-label="Next section">→</button></nav>
+<script>
+(()=>{
+ const slides=[...document.querySelectorAll('.slide')], pages=document.getElementById('pages');
+ let current=Math.max(0,Math.min(slides.length-1,(Number(location.hash.slice(1))||1)-1)), all=false;
+ const buttons=slides.map((slide,i)=>{const b=document.createElement('button');b.type='button';b.textContent=i+1;b.setAttribute('aria-label',`Section ${i+1}: ${slide.querySelector('h1,h2').textContent}`);b.onclick=()=>{all=false;show(i)};pages.append(b);return b});
+ function show(i){current=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.hidden=!all&&n!==current);buttons.forEach((b,n)=>{if(!all&&n===current)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current')});document.body.classList.toggle('all',all);document.getElementById('overview').textContent=all?'Slide view':'View all';document.getElementById('overview').setAttribute('aria-pressed',String(all));document.getElementById('status').textContent=all?'All 6':`${current+1} / ${slides.length}`;document.getElementById('prev').disabled=all||current===0;document.getElementById('next').disabled=all||current===slides.length-1;history.replaceState(null,'',`#${current+1}`);window.scrollTo(0,0)}
+ document.getElementById('prev').onclick=()=>show(current-1);document.getElementById('next').onclick=()=>show(current+1);document.getElementById('overview').onclick=()=>{all=!all;show(current)};document.getElementById('print').onclick=()=>window.print();
+ document.addEventListener('keydown',e=>{if(all||e.altKey||e.ctrlKey||e.metaKey||['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName))return;if(e.key==='ArrowRight'||e.key==='PageDown'){e.preventDefault();show(current+1)}if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(current-1)}if(e.key==='Home'){e.preventDefault();show(0)}if(e.key==='End'){e.preventDefault();show(slides.length-1)}});
+ show(current);
+})();
+</script>
+</body>
+</html>

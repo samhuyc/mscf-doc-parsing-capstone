@@ -1,0 +1,4143 @@
+{
+  "protocol": "leave_one_issuer_group_out",
+  "folds": [
+    {
+      "held_out_group": "cvs_2025q2",
+      "signature": [
+        "mineru_ocr",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_ocr",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 2.730207608552226,
+        "b": 0.32880505875378147,
+        "mode": "sigmoid",
+        "baseline": 0.9183673469387755,
+        "n": 47,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 10,
+        "accuracy": 1.0,
+        "brier": 0.0056180785047430706,
+        "log_loss": 0.07791164270911025,
+        "ece": 0.07495384249485182,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 10,
+            "confidence": 0.9250461575051482,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9250461575051481,
+            "accepted": 10,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "cvs_2025q2",
+      "signature": [
+        "mineru_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.56434819146784,
+        "mode": "constant_one_class",
+        "baseline": 0.9896907216494846,
+        "n": 95,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 0,
+        "accuracy": null,
+        "brier": null,
+        "log_loss": null,
+        "ece": null,
+        "auroc": null,
+        "reliability": [],
+        "risk_coverage": []
+      }
+    },
+    {
+      "held_out_group": "cvs_2025q2",
+      "signature": [
+        "paddleocr_ppstructurev3",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "paddleocr_ppstructurev3",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 3.57475415469772,
+        "b": -0.9140380489414166,
+        "mode": "sigmoid",
+        "baseline": 0.7948717948717948,
+        "n": 76,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 10,
+        "accuracy": 1.0,
+        "brier": 0.015628961871290717,
+        "log_loss": 0.13354950305219435,
+        "ece": 0.12501584648071906,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 10,
+            "confidence": 0.8749841535192809,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.8749841535192809,
+            "accepted": 10,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "cvs_2025q2",
+      "signature": [
+        "pymupdf4llm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.0279586143776196,
+        "b": 2.4659068566929574,
+        "mode": "sigmoid",
+        "baseline": 0.954954954954955,
+        "n": 109,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 10,
+        "accuracy": 1.0,
+        "brier": 0.0012942486024785811,
+        "log_loss": 0.03663874279260748,
+        "ece": 0.0359756668107567,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 10,
+            "confidence": 0.9640243331892433,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9640243331892433,
+            "accepted": 10,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "cvs_2025q2",
+      "signature": [
+        "pymupdf4llm_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.1977719283621209,
+        "b": 2.2587603793311124,
+        "mode": "sigmoid",
+        "baseline": 0.9523809523809523,
+        "n": 103,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 10,
+        "accuracy": 1.0,
+        "brier": 0.0014846987397489262,
+        "log_loss": 0.03929377606123464,
+        "ece": 0.03853178869127327,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 10,
+            "confidence": 0.9614682113087267,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9614682113087268,
+            "accepted": 10,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "edf_2024",
+      "signature": [
+        "mineru_ocr",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_ocr",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 2.5187942325293884,
+        "b": 0.6605651072587895,
+        "mode": "sigmoid",
+        "baseline": 0.9272727272727272,
+        "n": 53,
+        "groups": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 4,
+        "accuracy": 1.0,
+        "brier": 0.0028735168760984356,
+        "log_loss": 0.053683788793945586,
+        "ece": 0.052189229327382125,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 4,
+            "confidence": 0.9478107706726179,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9600501014677371,
+            "accepted": 2,
+            "coverage": 0.5,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9355714398774987,
+            "accepted": 4,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "edf_2024",
+      "signature": [
+        "mineru_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.262679877041319,
+        "mode": "constant_one_class",
+        "baseline": 0.9861111111111112,
+        "n": 70,
+        "groups": [
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 25,
+        "accuracy": 1.0,
+        "brier": 0.00019290123456789987,
+        "log_loss": 0.01398624197473984,
+        "ece": 0.01388888888888884,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 25,
+            "confidence": 0.9861111111111112,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9861111111111112,
+            "accepted": 25,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "edf_2024",
+      "signature": [
+        "paddleocr_ppstructurev3",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "paddleocr_ppstructurev3",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 3.315208813525511,
+        "b": -0.48611496599628473,
+        "mode": "sigmoid",
+        "baseline": 0.8433734939759037,
+        "n": 81,
+        "groups": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 5,
+        "accuracy": 0.4,
+        "brier": 0.17888198556138366,
+        "log_loss": 0.4942661116459199,
+        "ece": 0.34877884534036807,
+        "auroc": 1.0,
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "confidence": 0.5441166768092078,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 2,
+            "confidence": 0.9442279018628915,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9442279018628915,
+            "accepted": 2,
+            "coverage": 0.4,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.5441166768092078,
+            "accepted": 5,
+            "coverage": 1.0,
+            "error_rate": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "edf_2024",
+      "signature": [
+        "pymupdf4llm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.2097640319331955,
+        "b": 2.168267767767728,
+        "mode": "sigmoid",
+        "baseline": 0.9479166666666666,
+        "n": 94,
+        "groups": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 25,
+        "accuracy": 1.0,
+        "brier": 0.002536170260666082,
+        "log_loss": 0.05133723883051546,
+        "ece": 0.05002413670319439,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 25,
+            "confidence": 0.9499758632968056,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9670108756344675,
+            "accepted": 2,
+            "coverage": 0.08,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9583566775617434,
+            "accepted": 4,
+            "coverage": 0.16,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9475553083822723,
+            "accepted": 25,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "edf_2024",
+      "signature": [
+        "pymupdf4llm_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.4633734714061375,
+        "b": 1.8656804933309745,
+        "mode": "sigmoid",
+        "baseline": 0.9444444444444444,
+        "n": 88,
+        "groups": [
+          "cvs_2025q2",
+          "hippodrome_2025",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 25,
+        "accuracy": 1.0,
+        "brier": 0.0033324211014026744,
+        "log_loss": 0.058938802275953196,
+        "ece": 0.057204028254763555,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 25,
+            "confidence": 0.9427959717452364,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9654121940920765,
+            "accepted": 2,
+            "coverage": 0.08,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9541908246229035,
+            "accepted": 4,
+            "coverage": 0.16,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9395568217238548,
+            "accepted": 25,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "hippodrome_2025",
+      "signature": [
+        "mineru_ocr",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_ocr",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 2.1131322750770196,
+        "b": 1.5268706262072285,
+        "mode": "sigmoid",
+        "baseline": 0.9393939393939394,
+        "n": 31,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 26,
+        "accuracy": 0.9230769230769231,
+        "brier": 0.06547013007842187,
+        "log_loss": 0.21811862983544955,
+        "ece": 0.042151199412330254,
+        "auroc": 0.9583333333333334,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 26,
+            "confidence": 0.9652281224892534,
+            "accuracy": 0.9230769230769231
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9744192840064981,
+            "accepted": 22,
+            "coverage": 0.8461538461538461,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9146767341444069,
+            "accepted": 26,
+            "coverage": 1.0,
+            "error_rate": 0.07692307692307693
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "hippodrome_2025",
+      "signature": [
+        "mineru_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.304065093204172,
+        "mode": "constant_one_class",
+        "baseline": 0.9866666666666667,
+        "n": 73,
+        "groups": [
+          "edf_2024",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 22,
+        "accuracy": 1.0,
+        "brier": 0.00017777777777777413,
+        "log_loss": 0.013423020332140547,
+        "ece": 0.013333333333333197,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 22,
+            "confidence": 0.9866666666666668,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9866666666666668,
+            "accepted": 22,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "hippodrome_2025",
+      "signature": [
+        "paddleocr_ppstructurev3",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "paddleocr_ppstructurev3",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 3.2284523341509446,
+        "b": -0.3173966849465525,
+        "mode": "sigmoid",
+        "baseline": 0.8333333333333334,
+        "n": 58,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 28,
+        "accuracy": 0.7857142857142857,
+        "brier": 0.08801220637122843,
+        "log_loss": 0.25847162955068886,
+        "ece": 0.17545060151580444,
+        "auroc": 1.0,
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 4,
+            "confidence": 0.5813441698706662,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "confidence": 0.7259129303665185,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 22,
+            "confidence": 0.9483902589896899,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9483902589896898,
+            "accepted": 22,
+            "coverage": 0.7857142857142857,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.7259129303665185,
+            "accepted": 24,
+            "coverage": 0.8571428571428571,
+            "error_rate": 0.08333333333333333
+          },
+          {
+            "threshold": 0.5813441698706662,
+            "accepted": 28,
+            "coverage": 1.0,
+            "error_rate": 0.21428571428571427
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "hippodrome_2025",
+      "signature": [
+        "pymupdf4llm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.1535513908629187,
+        "b": 2.222608609697932,
+        "mode": "sigmoid",
+        "baseline": 0.946236559139785,
+        "n": 91,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 28,
+        "accuracy": 1.0,
+        "brier": 0.002046047058841336,
+        "log_loss": 0.04291101235552952,
+        "ece": 0.04184660741951196,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 28,
+            "confidence": 0.958153392580488,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9669511114403169,
+            "accepted": 22,
+            "coverage": 0.7857142857142857,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9360776379784609,
+            "accepted": 24,
+            "coverage": 0.8571428571428571,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.920803816152443,
+            "accepted": 28,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "hippodrome_2025",
+      "signature": [
+        "pymupdf4llm_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.1535513908629187,
+        "b": 2.222608609697932,
+        "mode": "sigmoid",
+        "baseline": 0.946236559139785,
+        "n": 91,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "peterborough_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 22,
+        "accuracy": 1.0,
+        "brier": 0.0010922290350303546,
+        "log_loss": 0.0336073417455467,
+        "ece": 0.03304888855968313,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 22,
+            "confidence": 0.9669511114403169,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9669511114403169,
+            "accepted": 22,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "peterborough_2025",
+      "signature": [
+        "mineru_ocr",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_ocr",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 2.421702507980305,
+        "b": 0.8062598525231333,
+        "mode": "sigmoid",
+        "baseline": 0.9322033898305084,
+        "n": 57,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 0,
+        "accuracy": null,
+        "brier": null,
+        "log_loss": null,
+        "ece": null,
+        "auroc": null,
+        "reliability": [],
+        "risk_coverage": []
+      }
+    },
+    {
+      "held_out_group": "peterborough_2025",
+      "signature": [
+        "mineru_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.430816798843317,
+        "mode": "constant_one_class",
+        "baseline": 0.9882352941176471,
+        "n": 83,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 12,
+        "accuracy": 1.0,
+        "brier": 0.0001384083044982689,
+        "log_loss": 0.011834457647002796,
+        "ece": 0.0117647058823529,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 12,
+            "confidence": 0.9882352941176471,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9882352941176471,
+            "accepted": 12,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "peterborough_2025",
+      "signature": [
+        "paddleocr_ppstructurev3",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "paddleocr_ppstructurev3",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 3.5986259314080993,
+        "b": -0.7626320131879994,
+        "mode": "sigmoid",
+        "baseline": 0.8192771084337349,
+        "n": 81,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 5,
+        "accuracy": 0.8,
+        "brier": 0.13777308567879884,
+        "log_loss": 0.41453510063475435,
+        "ece": 0.07430647502622167,
+        "auroc": 1.0,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 5,
+            "confidence": 0.8743064750262217,
+            "accuracy": 0.8
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.8924743866534759,
+            "accepted": 4,
+            "coverage": 0.8,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8016348285172055,
+            "accepted": 5,
+            "coverage": 1.0,
+            "error_rate": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "peterborough_2025",
+      "signature": [
+        "pymupdf4llm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.682131227124226,
+        "mode": "constant_one_class",
+        "baseline": 0.9908256880733946,
+        "n": 107,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 12,
+        "accuracy": 0.6666666666666666,
+        "brier": 0.3273012933815896,
+        "log_loss": 1.5699270641463283,
+        "ece": 0.3241590214067278,
+        "auroc": 0.5,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 12,
+            "confidence": 0.9908256880733944,
+            "accuracy": 0.6666666666666666
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9908256880733944,
+            "accepted": 12,
+            "coverage": 1.0,
+            "error_rate": 0.3333333333333333
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "peterborough_2025",
+      "signature": [
+        "pymupdf4llm_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.624972813284272,
+        "mode": "constant_one_class",
+        "baseline": 0.9902912621359223,
+        "n": 101,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "rolls_royce"
+        ],
+        "sources": [
+          "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 12,
+        "accuracy": 0.6666666666666666,
+        "brier": 0.3269551010148616,
+        "log_loss": 1.551413779373455,
+        "ece": 0.3236245954692557,
+        "auroc": 0.5,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 12,
+            "confidence": 0.9902912621359223,
+            "accuracy": 0.6666666666666666
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9902912621359223,
+            "accepted": 12,
+            "coverage": 1.0,
+            "error_rate": 0.3333333333333333
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "rolls_royce",
+      "signature": [
+        "mineru_ocr",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_ocr",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 2.0686612037647785,
+        "b": 1.1744298748700697,
+        "mode": "sigmoid",
+        "baseline": 0.9285714285714286,
+        "n": 40,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025"
+        ],
+        "sources": [
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 17,
+        "accuracy": 0.9411764705882353,
+        "brier": 0.04188732855641518,
+        "log_loss": 0.14040371391883447,
+        "ece": 0.08421014622724607,
+        "auroc": 1.0,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "confidence": 0.8303573684701598,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 16,
+            "confidence": 0.962424055162936,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.962424055162936,
+            "accepted": 16,
+            "coverage": 0.9411764705882353,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8303573684701598,
+            "accepted": 17,
+            "coverage": 1.0,
+            "error_rate": 0.058823529411764705
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "rolls_royce",
+      "signature": [
+        "mineru_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "mineru_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 0.0,
+        "b": 4.0943445622220995,
+        "mode": "constant_one_class",
+        "baseline": 0.9836065573770492,
+        "n": 59,
+        "groups": [
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025"
+        ],
+        "sources": [
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 36,
+        "accuracy": 1.0,
+        "brier": 0.0002687449610319776,
+        "log_loss": 0.01652930195121047,
+        "ece": 0.016393442622950838,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 36,
+            "confidence": 0.9836065573770492,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9836065573770493,
+            "accepted": 36,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "rolls_royce",
+      "signature": [
+        "paddleocr_ppstructurev3",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "paddleocr_ppstructurev3",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 4.314138814344556,
+        "b": -1.7084562974624824,
+        "mode": "sigmoid",
+        "baseline": 0.78,
+        "n": 48,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025"
+        ],
+        "sources": [
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 38,
+        "accuracy": 0.868421052631579,
+        "brier": 0.08527660921495406,
+        "log_loss": 0.2861939766605146,
+        "ece": 0.1285336603202229,
+        "auroc": 0.9242424242424242,
+        "reliability": [
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 10,
+            "confidence": 0.30035067541353133,
+            "accuracy": 0.5
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 12,
+            "confidence": 0.8510493093786305,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 16,
+            "confidence": 0.9312264025720406,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9312264025720406,
+            "accepted": 16,
+            "coverage": 0.42105263157894735,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8510493093786307,
+            "accepted": 28,
+            "coverage": 0.7368421052631579,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.30035067541353133,
+            "accepted": 38,
+            "coverage": 1.0,
+            "error_rate": 0.13157894736842105
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "rolls_royce",
+      "signature": [
+        "pymupdf4llm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.2945835589063002,
+        "b": 1.9262844524213893,
+        "mode": "sigmoid",
+        "baseline": 0.935064935064935,
+        "n": 75,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025"
+        ],
+        "sources": [
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 44,
+        "accuracy": 1.0,
+        "brier": 0.0030721497381190964,
+        "log_loss": 0.05491245560773816,
+        "ece": 0.05330948876630304,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 44,
+            "confidence": 0.946690511233697,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9616120693686201,
+            "accepted": 16,
+            "coverage": 0.36363636363636365,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9508253102321458,
+            "accepted": 28,
+            "coverage": 0.6363636363636364,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9372054707288117,
+            "accepted": 36,
+            "coverage": 0.8181818181818182,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9201302369710629,
+            "accepted": 44,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "held_out_group": "rolls_royce",
+      "signature": [
+        "pymupdf4llm_vlm",
+        "parser_support_v1",
+        "pilot_associated_amount_v1",
+        "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+      ],
+      "model": {
+        "version": "confidence-v1",
+        "signature": [
+          "pymupdf4llm_vlm",
+          "parser_support_v1",
+          "pilot_associated_amount_v1",
+          "five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848"
+        ],
+        "a": 1.6809245082836048,
+        "b": 1.499158354095652,
+        "mode": "sigmoid",
+        "baseline": 0.9295774647887324,
+        "n": 69,
+        "groups": [
+          "cvs_2025q2",
+          "edf_2024",
+          "hippodrome_2025",
+          "peterborough_2025"
+        ],
+        "sources": [
+          "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+          "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+          "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+          "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4"
+        ],
+        "label_status": "draft_exploratory",
+        "deployment_validated": false
+      },
+      "held_out_metrics": {
+        "n": 44,
+        "accuracy": 1.0,
+        "brier": 0.004340076434403056,
+        "log_loss": 0.06410915108246346,
+        "ece": 0.061817547265912286,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 8,
+            "confidence": 0.8976634342257139,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 36,
+            "confidence": 0.9471866790692819,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9600778421489579,
+            "accepted": 16,
+            "coverage": 0.36363636363636365,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9450024021551182,
+            "accepted": 28,
+            "coverage": 0.6363636363636364,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9246807682811756,
+            "accepted": 36,
+            "coverage": 0.8181818181818182,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8976634342257139,
+            "accepted": 44,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "reports": {
+    "mineru_ocr / parser_support_v1 / pilot_associated_amount_v1 / five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848": {
+      "requested_fields": 133,
+      "scored_fields": 57,
+      "score_coverage": 0.42857142857142855,
+      "requested_field_accuracy": 0.40601503759398494,
+      "raw_diagnostic_as_probability": {
+        "n": 57,
+        "accuracy": 0.9473684210526315,
+        "brier": 0.027368421052631577,
+        "log_loss": 0.10096664698885996,
+        "ece": 0.05263157894736839,
+        "auroc": 0.9876543209876543,
+        "reliability": [
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 1,
+            "confidence": 0.2,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 4,
+            "confidence": 0.4,
+            "accuracy": 0.5
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 12,
+            "confidence": 0.8000000000000002,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 1.0,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 1.0,
+            "accepted": 40,
+            "coverage": 0.7017543859649122,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8,
+            "accepted": 52,
+            "coverage": 0.9122807017543859,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.4,
+            "accepted": 56,
+            "coverage": 0.9824561403508771,
+            "error_rate": 0.03571428571428571
+          },
+          {
+            "threshold": 0.2,
+            "accepted": 57,
+            "coverage": 1.0,
+            "error_rate": 0.05263157894736842
+          }
+        ]
+      },
+      "training_base_rate": {
+        "n": 57,
+        "accuracy": 0.9473684210526315,
+        "brier": 0.050609643736570516,
+        "log_loss": 0.2120281141557113,
+        "ece": 0.015741735290607406,
+        "auroc": 0.345679012345679,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 57,
+            "confidence": 0.9316266857620241,
+            "accuracy": 0.9473684210526315
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9393939393939394,
+            "accepted": 26,
+            "coverage": 0.45614035087719296,
+            "error_rate": 0.07692307692307693
+          },
+          {
+            "threshold": 0.9285714285714286,
+            "accepted": 43,
+            "coverage": 0.7543859649122807,
+            "error_rate": 0.06976744186046512
+          },
+          {
+            "threshold": 0.9272727272727272,
+            "accepted": 47,
+            "coverage": 0.8245614035087719,
+            "error_rate": 0.06382978723404255
+          },
+          {
+            "threshold": 0.9183673469387755,
+            "accepted": 57,
+            "coverage": 1.0,
+            "error_rate": 0.05263157894736842
+          }
+        ]
+      },
+      "held_out_calibrated": {
+        "n": 57,
+        "accuracy": 0.9473684210526315,
+        "brier": 0.04354355824648862,
+        "log_loss": 0.15880349288787296,
+        "ece": 0.022700642866677962,
+        "auroc": 0.9876543209876543,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "confidence": 0.8303573684701598,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 56,
+            "confidence": 0.95600751294767,
+            "accuracy": 0.9642857142857143
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9744192840064981,
+            "accepted": 22,
+            "coverage": 0.38596491228070173,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.962424055162936,
+            "accepted": 38,
+            "coverage": 0.6666666666666666,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9600501014677371,
+            "accepted": 40,
+            "coverage": 0.7017543859649122,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9355714398774987,
+            "accepted": 42,
+            "coverage": 0.7368421052631579,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9250461575051481,
+            "accepted": 52,
+            "coverage": 0.9122807017543859,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9146767341444069,
+            "accepted": 56,
+            "coverage": 0.9824561403508771,
+            "error_rate": 0.03571428571428571
+          },
+          {
+            "threshold": 0.8303573684701598,
+            "accepted": 57,
+            "coverage": 1.0,
+            "error_rate": 0.05263157894736842
+          }
+        ]
+      }
+    },
+    "mineru_vlm / parser_support_v1 / pilot_associated_amount_v1 / five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848": {
+      "requested_fields": 133,
+      "scored_fields": 95,
+      "score_coverage": 0.7142857142857143,
+      "requested_field_accuracy": 0.7142857142857143,
+      "raw_diagnostic_as_probability": {
+        "n": 95,
+        "accuracy": 1.0,
+        "brier": 0.09010526315789474,
+        "log_loss": 0.2874903279754723,
+        "ece": 0.21052631578947367,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 4,
+            "confidence": 0.2,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 33,
+            "confidence": 0.6,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 18,
+            "confidence": 0.8,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 1.0,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 1.0,
+            "accepted": 40,
+            "coverage": 0.42105263157894735,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8,
+            "accepted": 58,
+            "coverage": 0.6105263157894737,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.6,
+            "accepted": 91,
+            "coverage": 0.9578947368421052,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.2,
+            "accepted": 95,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      },
+      "training_base_rate": {
+        "n": 95,
+        "accuracy": 1.0,
+        "brier": 0.00021125642343620152,
+        "log_loss": 0.014547693249296896,
+        "ece": 0.014441010111263308,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 95,
+            "confidence": 0.9855589898887367,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9882352941176471,
+            "accepted": 12,
+            "coverage": 0.12631578947368421,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9866666666666667,
+            "accepted": 34,
+            "coverage": 0.35789473684210527,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9861111111111112,
+            "accepted": 59,
+            "coverage": 0.6210526315789474,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9836065573770492,
+            "accepted": 95,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      },
+      "held_out_calibrated": {
+        "n": 95,
+        "accuracy": 1.0,
+        "brier": 0.00021125642343619946,
+        "log_loss": 0.014547693249296828,
+        "ece": 0.014441010111263308,
+        "auroc": null,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 95,
+            "confidence": 0.9855589898887367,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9882352941176471,
+            "accepted": 12,
+            "coverage": 0.12631578947368421,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9866666666666668,
+            "accepted": 34,
+            "coverage": 0.35789473684210527,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9861111111111112,
+            "accepted": 59,
+            "coverage": 0.6210526315789474,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9836065573770493,
+            "accepted": 95,
+            "coverage": 1.0,
+            "error_rate": 0.0
+          }
+        ]
+      }
+    },
+    "paddleocr_ppstructurev3 / parser_support_v1 / pilot_associated_amount_v1 / five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848": {
+      "requested_fields": 133,
+      "scored_fields": 86,
+      "score_coverage": 0.6466165413533834,
+      "requested_field_accuracy": 0.5338345864661654,
+      "raw_diagnostic_as_probability": {
+        "n": 86,
+        "accuracy": 0.8255813953488372,
+        "brier": 0.06279069767441861,
+        "log_loss": 0.2147044940874024,
+        "ece": 0.09534883720930232,
+        "auroc": 0.9577464788732394,
+        "reliability": [
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 17,
+            "confidence": 0.2,
+            "accuracy": 0.29411764705882354
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 2,
+            "confidence": 0.4,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 1,
+            "confidence": 0.6,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 26,
+            "confidence": 0.8,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 1.0,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 1.0,
+            "accepted": 40,
+            "coverage": 0.46511627906976744,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8,
+            "accepted": 66,
+            "coverage": 0.7674418604651163,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.6,
+            "accepted": 67,
+            "coverage": 0.7790697674418605,
+            "error_rate": 0.014925373134328358
+          },
+          {
+            "threshold": 0.4,
+            "accepted": 69,
+            "coverage": 0.8023255813953488,
+            "error_rate": 0.043478260869565216
+          },
+          {
+            "threshold": 0.2,
+            "accepted": 86,
+            "coverage": 1.0,
+            "error_rate": 0.1744186046511628
+          }
+        ]
+      },
+      "training_base_rate": {
+        "n": 86,
+        "accuracy": 0.8255813953488372,
+        "brier": 0.14909897550603257,
+        "log_loss": 0.47950843605762467,
+        "ece": 0.10532405112399515,
+        "auroc": 0.3563380281690141,
+        "reliability": [
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 48,
+            "confidence": 0.7830982905982906,
+            "accuracy": 0.8958333333333334
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 38,
+            "confidence": 0.8328049038258297,
+            "accuracy": 0.7368421052631579
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.8433734939759037,
+            "accepted": 5,
+            "coverage": 0.05813953488372093,
+            "error_rate": 0.6
+          },
+          {
+            "threshold": 0.8333333333333334,
+            "accepted": 33,
+            "coverage": 0.38372093023255816,
+            "error_rate": 0.2727272727272727
+          },
+          {
+            "threshold": 0.8192771084337349,
+            "accepted": 38,
+            "coverage": 0.4418604651162791,
+            "error_rate": 0.2631578947368421
+          },
+          {
+            "threshold": 0.7948717948717948,
+            "accepted": 48,
+            "coverage": 0.5581395348837209,
+            "error_rate": 0.20833333333333334
+          },
+          {
+            "threshold": 0.78,
+            "accepted": 86,
+            "coverage": 1.0,
+            "error_rate": 0.1744186046511628
+          }
+        ]
+      },
+      "held_out_calibrated": {
+        "n": 86,
+        "accuracy": 0.8255813953488372,
+        "brier": 0.08656299887763337,
+        "log_loss": 0.27897764921446694,
+        "ece": 0.14441181687196417,
+        "auroc": 0.9413145539906104,
+        "reliability": [
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 10,
+            "confidence": 0.30035067541353133,
+            "accuracy": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 7,
+            "confidence": 0.565389529987184,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "confidence": 0.7259129303665185,
+            "accuracy": 0.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 27,
+            "confidence": 0.864220948995092,
+            "accuracy": 0.9629629629629629
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 0.9413165985662901,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9483902589896898,
+            "accepted": 22,
+            "coverage": 0.2558139534883721,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9442279018628915,
+            "accepted": 24,
+            "coverage": 0.27906976744186046,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.9312264025720406,
+            "accepted": 40,
+            "coverage": 0.46511627906976744,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8924743866534759,
+            "accepted": 44,
+            "coverage": 0.5116279069767442,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8749841535192809,
+            "accepted": 54,
+            "coverage": 0.627906976744186,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8510493093786307,
+            "accepted": 66,
+            "coverage": 0.7674418604651163,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8016348285172055,
+            "accepted": 67,
+            "coverage": 0.7790697674418605,
+            "error_rate": 0.014925373134328358
+          },
+          {
+            "threshold": 0.7259129303665185,
+            "accepted": 69,
+            "coverage": 0.8023255813953488,
+            "error_rate": 0.043478260869565216
+          },
+          {
+            "threshold": 0.5813441698706662,
+            "accepted": 73,
+            "coverage": 0.8488372093023255,
+            "error_rate": 0.0958904109589041
+          },
+          {
+            "threshold": 0.5441166768092078,
+            "accepted": 76,
+            "coverage": 0.8837209302325582,
+            "error_rate": 0.13157894736842105
+          },
+          {
+            "threshold": 0.30035067541353133,
+            "accepted": 86,
+            "coverage": 1.0,
+            "error_rate": 0.1744186046511628
+          }
+        ]
+      }
+    },
+    "pymupdf4llm / parser_support_v1 / pilot_associated_amount_v1 / five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848": {
+      "requested_fields": 133,
+      "scored_fields": 119,
+      "score_coverage": 0.8947368421052632,
+      "requested_field_accuracy": 0.8646616541353384,
+      "raw_diagnostic_as_probability": {
+        "n": 119,
+        "accuracy": 0.9663865546218487,
+        "brier": 0.11260504201680673,
+        "log_loss": 0.3458377444766861,
+        "ece": 0.22016806722689078,
+        "auroc": 0.875,
+        "reliability": [
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 4,
+            "confidence": 0.2,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 13,
+            "confidence": 0.4,
+            "accuracy": 0.7692307692307693
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 34,
+            "confidence": 0.6,
+            "accuracy": 0.9705882352941176
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 28,
+            "confidence": 0.8,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 1.0,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 1.0,
+            "accepted": 40,
+            "coverage": 0.33613445378151263,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8,
+            "accepted": 68,
+            "coverage": 0.5714285714285714,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.6,
+            "accepted": 102,
+            "coverage": 0.8571428571428571,
+            "error_rate": 0.00980392156862745
+          },
+          {
+            "threshold": 0.4,
+            "accepted": 115,
+            "coverage": 0.9663865546218487,
+            "error_rate": 0.034782608695652174
+          },
+          {
+            "threshold": 0.2,
+            "accepted": 119,
+            "coverage": 1.0,
+            "error_rate": 0.03361344537815126
+          }
+        ]
+      },
+      "training_base_rate": {
+        "n": 119,
+        "accuracy": 0.9663865546218487,
+        "brier": 0.03598475538397412,
+        "log_loss": 0.21124989322092735,
+        "ece": 0.018698695194385936,
+        "auroc": 0.034782608695652174,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 119,
+            "confidence": 0.9476878594274628,
+            "accuracy": 0.9663865546218487
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9908256880733946,
+            "accepted": 12,
+            "coverage": 0.10084033613445378,
+            "error_rate": 0.3333333333333333
+          },
+          {
+            "threshold": 0.954954954954955,
+            "accepted": 22,
+            "coverage": 0.18487394957983194,
+            "error_rate": 0.18181818181818182
+          },
+          {
+            "threshold": 0.9479166666666666,
+            "accepted": 47,
+            "coverage": 0.3949579831932773,
+            "error_rate": 0.0851063829787234
+          },
+          {
+            "threshold": 0.946236559139785,
+            "accepted": 75,
+            "coverage": 0.6302521008403361,
+            "error_rate": 0.05333333333333334
+          },
+          {
+            "threshold": 0.935064935064935,
+            "accepted": 119,
+            "coverage": 1.0,
+            "error_rate": 0.03361344537815126
+          }
+        ]
+      },
+      "held_out_calibrated": {
+        "n": 119,
+        "accuracy": 0.9663865546218487,
+        "brier": 0.03526408545584295,
+        "log_loss": 0.20257646690033787,
+        "ece": 0.010401465061095407,
+        "auroc": 0.034782608695652174,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 119,
+            "confidence": 0.9559850895607533,
+            "accuracy": 0.9663865546218487
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9908256880733944,
+            "accepted": 12,
+            "coverage": 0.10084033613445378,
+            "error_rate": 0.3333333333333333
+          },
+          {
+            "threshold": 0.9670108756344675,
+            "accepted": 14,
+            "coverage": 0.11764705882352941,
+            "error_rate": 0.2857142857142857
+          },
+          {
+            "threshold": 0.9669511114403169,
+            "accepted": 36,
+            "coverage": 0.3025210084033613,
+            "error_rate": 0.1111111111111111
+          },
+          {
+            "threshold": 0.9640243331892433,
+            "accepted": 46,
+            "coverage": 0.3865546218487395,
+            "error_rate": 0.08695652173913043
+          },
+          {
+            "threshold": 0.9616120693686201,
+            "accepted": 62,
+            "coverage": 0.5210084033613446,
+            "error_rate": 0.06451612903225806
+          },
+          {
+            "threshold": 0.9583566775617434,
+            "accepted": 64,
+            "coverage": 0.5378151260504201,
+            "error_rate": 0.0625
+          },
+          {
+            "threshold": 0.9508253102321458,
+            "accepted": 76,
+            "coverage": 0.6386554621848739,
+            "error_rate": 0.05263157894736842
+          },
+          {
+            "threshold": 0.9475553083822723,
+            "accepted": 97,
+            "coverage": 0.8151260504201681,
+            "error_rate": 0.041237113402061855
+          },
+          {
+            "threshold": 0.9372054707288117,
+            "accepted": 105,
+            "coverage": 0.8823529411764706,
+            "error_rate": 0.0380952380952381
+          },
+          {
+            "threshold": 0.9360776379784609,
+            "accepted": 107,
+            "coverage": 0.8991596638655462,
+            "error_rate": 0.037383177570093455
+          },
+          {
+            "threshold": 0.920803816152443,
+            "accepted": 111,
+            "coverage": 0.9327731092436975,
+            "error_rate": 0.036036036036036036
+          },
+          {
+            "threshold": 0.9201302369710629,
+            "accepted": 119,
+            "coverage": 1.0,
+            "error_rate": 0.03361344537815126
+          }
+        ]
+      }
+    },
+    "pymupdf4llm_vlm / parser_support_v1 / pilot_associated_amount_v1 / five_cached_pipelines_0baababc2652757982ae5898500a1c72409c4848": {
+      "requested_fields": 133,
+      "scored_fields": 113,
+      "score_coverage": 0.849624060150376,
+      "requested_field_accuracy": 0.8195488721804511,
+      "raw_diagnostic_as_probability": {
+        "n": 113,
+        "accuracy": 0.9646017699115044,
+        "brier": 0.08955752212389381,
+        "log_loss": 0.2910120219401852,
+        "ece": 0.1929203539823009,
+        "auroc": 0.9162844036697247,
+        "reliability": [
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 11,
+            "confidence": 0.4,
+            "accuracy": 0.7272727272727273
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 34,
+            "confidence": 0.6,
+            "accuracy": 0.9705882352941176
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 28,
+            "confidence": 0.8,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 40,
+            "confidence": 1.0,
+            "accuracy": 1.0
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 1.0,
+            "accepted": 40,
+            "coverage": 0.35398230088495575,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.8,
+            "accepted": 68,
+            "coverage": 0.6017699115044248,
+            "error_rate": 0.0
+          },
+          {
+            "threshold": 0.6,
+            "accepted": 102,
+            "coverage": 0.9026548672566371,
+            "error_rate": 0.00980392156862745
+          },
+          {
+            "threshold": 0.4,
+            "accepted": 113,
+            "coverage": 1.0,
+            "error_rate": 0.035398230088495575
+          }
+        ]
+      },
+      "training_base_rate": {
+        "n": 113,
+        "accuracy": 0.9646017699115044,
+        "brier": 0.038098223735056856,
+        "log_loss": 0.22090895762549326,
+        "ece": 0.020026296174060154,
+        "auroc": 0.03669724770642202,
+        "reliability": [
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 113,
+            "confidence": 0.9445754737374442,
+            "accuracy": 0.9646017699115044
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9902912621359223,
+            "accepted": 12,
+            "coverage": 0.10619469026548672,
+            "error_rate": 0.3333333333333333
+          },
+          {
+            "threshold": 0.9523809523809523,
+            "accepted": 22,
+            "coverage": 0.19469026548672566,
+            "error_rate": 0.18181818181818182
+          },
+          {
+            "threshold": 0.946236559139785,
+            "accepted": 44,
+            "coverage": 0.3893805309734513,
+            "error_rate": 0.09090909090909091
+          },
+          {
+            "threshold": 0.9444444444444444,
+            "accepted": 69,
+            "coverage": 0.6106194690265486,
+            "error_rate": 0.057971014492753624
+          },
+          {
+            "threshold": 0.9295774647887324,
+            "accepted": 113,
+            "coverage": 1.0,
+            "error_rate": 0.035398230088495575
+          }
+        ]
+      },
+      "held_out_calibrated": {
+        "n": 113,
+        "accuracy": 0.9646017699115044,
+        "brier": 0.03749213388491414,
+        "log_loss": 0.21277466669046954,
+        "ece": 0.012203283855432935,
+        "auroc": 0.03669724770642202,
+        "reliability": [
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 8,
+            "confidence": 0.8976634342257139,
+            "accuracy": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 105,
+            "confidence": 0.9565687757193369,
+            "accuracy": 0.9619047619047619
+          }
+        ],
+        "risk_coverage": [
+          {
+            "threshold": 0.9902912621359223,
+            "accepted": 12,
+            "coverage": 0.10619469026548672,
+            "error_rate": 0.3333333333333333
+          },
+          {
+            "threshold": 0.9669511114403169,
+            "accepted": 34,
+            "coverage": 0.3008849557522124,
+            "error_rate": 0.11764705882352941
+          },
+          {
+            "threshold": 0.9654121940920765,
+            "accepted": 36,
+            "coverage": 0.3185840707964602,
+            "error_rate": 0.1111111111111111
+          },
+          {
+            "threshold": 0.9614682113087268,
+            "accepted": 46,
+            "coverage": 0.40707964601769914,
+            "error_rate": 0.08695652173913043
+          },
+          {
+            "threshold": 0.9600778421489579,
+            "accepted": 62,
+            "coverage": 0.5486725663716814,
+            "error_rate": 0.06451612903225806
+          },
+          {
+            "threshold": 0.9541908246229035,
+            "accepted": 64,
+            "coverage": 0.5663716814159292,
+            "error_rate": 0.0625
+          },
+          {
+            "threshold": 0.9450024021551182,
+            "accepted": 76,
+            "coverage": 0.672566371681416,
+            "error_rate": 0.05263157894736842
+          },
+          {
+            "threshold": 0.9395568217238548,
+            "accepted": 97,
+            "coverage": 0.8584070796460177,
+            "error_rate": 0.041237113402061855
+          },
+          {
+            "threshold": 0.9246807682811756,
+            "accepted": 105,
+            "coverage": 0.9292035398230089,
+            "error_rate": 0.0380952380952381
+          },
+          {
+            "threshold": 0.8976634342257139,
+            "accepted": 113,
+            "coverage": 1.0,
+            "error_rate": 0.035398230088495575
+          }
+        ]
+      }
+    }
+  },
+  "deployment_validated": false,
+  "source_revision": "0baababc2652757982ae5898500a1c72409c4848",
+  "input_sha256": {
+    "people/samhu/2026-10-05_pilot_benchmark/benchmark.py": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
+    "people/samhu/2026-10-05_pilot_benchmark/labels.jsonl": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+    "people/samhu/2026-10-05_pilot_benchmark/documents.json": "6ea95cf4ab5966e6cf447c4dd9a860170b359b145dd9e76d94e5537833edf7e3",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/pages.json": "1a11f6f344b0731d2604e232d38284650157d69f771669444ea72fb5eef43ff1",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/run.json": "6f17bdc66417010137d6fe5d885c0ae190d71f3473d83947b4fe7d8db9e094bc",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_vlm/pages.json": "9d2d8368f365f34d7f8ad390084c4c3f9650bdd579902cf74b1ec03bc5a2d836",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_vlm/run.json": "0573d4fa081e0a0d90403f679d567855ace261a1bcd95311679bca45b4de7b5d",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/pages.json": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+    "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/run.json": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/cvs_2025q2/pymupdf4llm_vlm/pages.json": "e7576c02e32102561cdb9e9f818954d0d0834462e95bb4a01d062594f24a9795",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/cvs_2025q2/pymupdf4llm_vlm/run.json": "52da701f846d602db3dd6fa938880882aacb6a05c1b50984d45ebfe6756e8920",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/cvs_2025q2/paddleocr_ppstructurev3/pages.json": "23fd66d647edca46e69d8fc7fe83d8fa3ecc9cb661bd6fed7d906292882abf44",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/cvs_2025q2/paddleocr_ppstructurev3/run.json": "0f7c04f3d385cba565eeb56681782a3d5331cda455954e0669c776d7a04c4dae",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr/pages.json": "3dc4c35fbea5e9602cf13420c4f4919af6f976dfb9092513fd0a0197be01e1af",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr/run.json": "974952785052918e03e0c56ac7410b8a974b9cb24a47ae3b2d91d4ef3edd42d7",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_vlm/pages.json": "d4c588a42fded3fb27793d4aa4f791fab1fef5ab0be03d8f998da18bd8032e5d",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_vlm/run.json": "d35b3ac4fbb86d95ec012d69ecfafa2e2a4f4b35a3d1caa44188322683be8fe4",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/pages.json": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+    "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/run.json": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/edf_2024/pymupdf4llm_vlm/pages.json": "a9a81eb0d1707f1ced9ab4e6610e0f6300106b725f29192d0f504f1d6407078b",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/edf_2024/pymupdf4llm_vlm/run.json": "319580be647a45cb0f7e8d4ed10c2e1288b5363359497718586ee5d33018c54c",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/edf_2024/paddleocr_ppstructurev3/pages.json": "a1c85dcde7eeec12e13f82edcbad46b2f6c20470ad7701ab6a5dfad3423ed38a",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/edf_2024/paddleocr_ppstructurev3/run.json": "01b2e0ee1264dedb520c92bafa6d1cf9f4cf17fc8edde3da41c99ea39a51759f",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/pages.json": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/run.json": "0a83484b10bf855da06ecb862db3c5605536fffbaf590f746ca0b074bbd25e29",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_vlm/pages.json": "5d9fd8d9d5302dc6601250c861631e18bcf8301b920bcb5afc2d03dbc8f391b4",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_vlm/run.json": "51341277c5a2449957aef2a3930e64531b6c7a2d1d0cb86f87d48c58f7ee2634",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/pages.json": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+    "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/run.json": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/hippodrome_2025/pymupdf4llm_vlm/pages.json": "05fe7563945017f0af1ad83f007bbe05fa94988b5f48fd4660a01fb7d84ee290",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/hippodrome_2025/pymupdf4llm_vlm/run.json": "2632fa7455bd7674992ec63584e55f6191781d95d2586862580fbccb0afa045b",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/hippodrome_2025/paddleocr_ppstructurev3/pages.json": "b414c53046cb88cab7c2a614afbe045822a7f129fcf733da4c2123bbb1d1cbcf",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/hippodrome_2025/paddleocr_ppstructurev3/run.json": "763694ab1ac8a996eb41ce12a498c08d2ed06646dd13f310be43e988f2983753",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/pages.json": "f654fa50c560e1dca24a3a14d615463b3913ee432c372a3f158f1322fabf5532",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_ocr/run.json": "f6aac6723a6607b5f4ab3f88d58b9cad68173354cec589b669e11bb4c59a4836",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_vlm/pages.json": "1f111d12e364f57829cf89e94fa5a323a04ba2f6bc6960a9911abea47fa86568",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/mineru_vlm/run.json": "7637391b85f8d95b430b4e201d211092964bc9e3bb0574a7412d81ea8b223cc7",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/pages.json": "7a1ad44d3aa5014bcbe99e3bbb82bf6f69e6a22ea3a94a6c91bbe5e84208f2c7",
+    "people/samhu/2026-09-29_sponsor_samples/results/peterborough_2025/pymupdf4llm/run.json": "fe05de11e5150b9ab7c5e58c48a986bd50825199cb10c8fe43acf350b9739c47",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/peterborough_2025/pymupdf4llm_vlm/pages.json": "d46c554c8ee8b0d2d566aa162d8997a289f33d34f37cbf0509f3a048c4d983df",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/peterborough_2025/pymupdf4llm_vlm/run.json": "0a83fb9b2d7a84ae58f3201f012f7b2043f4437528795aa48544247f6c57fa74",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/peterborough_2025/paddleocr_ppstructurev3/pages.json": "ceb7ae0a8ba8d8a19a6adf116bf0e491e444941ce200248fadcf489d451463d1",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/peterborough_2025/paddleocr_ppstructurev3/run.json": "44f599b3bc25ce03f4aa96410a35b95c6c2a7730995c8e3dc1dec24ccb731988",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr/pages.json": "a5b507173a782b58b05defde753f166a62f17373aa726b6f3671bdb85ada5162",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr/run.json": "6347fd90720082a597dec6f4c9c40a2daa8d48162662454a35843e58bb8ad65a",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_vlm/pages.json": "b9f82ee401c2a328466b19d3e4c40b06122fabfdef8bca81b678c296ea2375e1",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_vlm/run.json": "e8da9d69eaf6f86366388e093313e63abe8783d9d2f7d15afb25b126b4dae524",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/run.json": "b0e760d28d7d2fb646833ee9b1b555e518e2d783676a4975691ea5fb49565717",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/pages.json": "24cf458fdbde6faee1a50cc742deda6259050a8a2f87f21b4dbd3ab5c013b197",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_presentation/pymupdf4llm_vlm/run.json": "356fbcb911e716796f233a4a67eb5aa7fce9af375e72fe99e85e14635f2ce09b",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_presentation/paddleocr_ppstructurev3/pages.json": "23e1c35b6ac54aae290b14fb670d3d572dd32a99828f2f5db2c044db2475f5e2",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_presentation/paddleocr_ppstructurev3/run.json": "94676e56684eee59d85042aa0d9ce2fed46db2aa12a35ed66173332bd78d85a7",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr/pages.json": "d09ff696dc2d26f54ead3aa9946831a1f04f0323b57d37d21720cb897406a797",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr/run.json": "8cdbd60f1bc38bf766ebcade4f7b7a95ac1cf999265288901bc87e586d064f6b",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm/pages.json": "c40ef050a55fdc3aae1c8168f473cae8181535431e7bc1e4b9d8f8a753f256b2",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_vlm/run.json": "607eb03850f806895e88a2891b11f7068870b4c03b47432c8173b9d8e516ea56",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/pages.json": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+    "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/run.json": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_release/pymupdf4llm_vlm/pages.json": "5291a92b16648d11866f0b38feac850874bd516298ff2201959e09595c209a44",
+    "people/samhu/2026-10-05_pilot_benchmark/results/parsed/rolls_royce_2026h1_release/pymupdf4llm_vlm/run.json": "bf75dfeefbe8a5254458de11297401ba4738a36d505e1c41cbb9fa959c2808f4",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_release/paddleocr_ppstructurev3/pages.json": "bfff73876242adf11c39413a4eb4a4a419bb79b6b569c595b87a97f0a951ce0b",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_release/paddleocr_ppstructurev3/run.json": "1848f491fac872424a6045c590e9e77247368bb68b1763845e282b112f36ee9e",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/cvs_2025q2/paddleocr_ppstructurev3/raw/page_006.json": "90c63c2e5dabecb010231dd605ab55ffe16113512fc2b25bbe2806d6a9ace755",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/edf_2024/paddleocr_ppstructurev3/raw/page_003.json": "0cac6264502846088f1766ab1db0f179e13b8052b236fdfc2fdb617a6465db76",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/edf_2024/paddleocr_ppstructurev3/raw/page_006.json": "8c39bd71b2f28a56b74bd51452d4ca61d43e5aa4a62c085696df5d294401c093",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/hippodrome_2025/paddleocr_ppstructurev3/raw/page_020.json": "3347c7e77e5d39785ed63637fa5274492438980e7d8d8aefb8382ad17470a22a",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/hippodrome_2025/paddleocr_ppstructurev3/raw/page_021.json": "da50f7e74477f435f4d1a39f234fc5a2f85799ab60f7a5b7d01fbf754e01874e",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/peterborough_2025/paddleocr_ppstructurev3/raw/page_002.json": "a37e253a476ad952fbbdd75513838cec41e5c5222db2ce86d5d0d149113532f1",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_presentation/paddleocr_ppstructurev3/raw/page_009.json": "31f8288d708107a314b25affb33341dfea7dcfb54181dbeb664e7974355ba5dc",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_release/paddleocr_ppstructurev3/raw/page_001.json": "8d23361295f9db08185974c6eeb63b8ccd8a143e6255828292f475daa92b3773",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_release/paddleocr_ppstructurev3/raw/page_013.json": "3d95e7440255ea2b8761c853ba3a8c0cb538b5b92ece800452614a8c20200208",
+    "people/mc8/2026-10-28_paddleocr/results/parsed/rolls_royce_2026h1_release/paddleocr_ppstructurev3/raw/page_017.json": "b57e406249ddbb08bc0eb9cd8c5a687967eadab711272ef611c60bbff3f72722"
+  },
+  "code_sha256": {
+    "confidence.py": "9cc465ec229d286f31b4bae45e948099450462eb58861e539852fc9b1c60ee28",
+    "benchmark_pilot.py": "04ff16fd85a5fbb14bee1a4a8e926134a8d046d58b99d529ca5eb593c55146c3"
+  },
+  "label_status": "draft_exploratory",
+  "scope": "Declared pilot table cells; amount/sign/suffix association, not all document content or currency/scale correctness",
+  "n_fields": 665,
+  "n_documents": 6,
+  "n_issuer_groups": 5,
+  "parser_roster": [
+    "mineru_ocr",
+    "mineru_vlm",
+    "pymupdf4llm",
+    "pymupdf4llm_vlm",
+    "paddleocr_ppstructurev3"
+  ],
+  "native_paddle_diagnostics": [
+    {
+      "document": "cvs_2025q2",
+      "page": 6,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 40,
+      "mean": 0.9575555503368378,
+      "minimum": 0.3395231068134308,
+      "geometric_mean": 0.943538505391417,
+      "calibrated": false
+    },
+    {
+      "document": "edf_2024",
+      "page": 3,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 138,
+      "mean": 0.9604127064779184,
+      "minimum": 0.1378811150789261,
+      "geometric_mean": 0.9389457168284786,
+      "calibrated": false
+    },
+    {
+      "document": "edf_2024",
+      "page": 6,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 38,
+      "mean": 0.9113107355017411,
+      "minimum": 0.0,
+      "geometric_mean": 0.0,
+      "calibrated": false
+    },
+    {
+      "document": "hippodrome_2025",
+      "page": 20,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 48,
+      "mean": 0.9855431144436201,
+      "minimum": 0.9022034406661987,
+      "geometric_mean": 0.9853900457119931,
+      "calibrated": false
+    },
+    {
+      "document": "hippodrome_2025",
+      "page": 21,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 84,
+      "mean": 0.9457976676168895,
+      "minimum": 0.29779741168022156,
+      "geometric_mean": 0.9296869595485023,
+      "calibrated": false
+    },
+    {
+      "document": "peterborough_2025",
+      "page": 2,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 55,
+      "mean": 0.9611129640178246,
+      "minimum": 0.061828188598155975,
+      "geometric_mean": 0.9291429658583746,
+      "calibrated": false
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "page": 9,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 77,
+      "mean": 0.9827435140485887,
+      "minimum": 0.8872051239013672,
+      "geometric_mean": 0.9824259550613167,
+      "calibrated": false
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "page": 1,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 91,
+      "mean": 0.9801394579174755,
+      "minimum": 0.8457192182540894,
+      "geometric_mean": 0.9798565951298946,
+      "calibrated": false
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "page": 13,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 88,
+      "mean": 0.8940546915612437,
+      "minimum": 0.0,
+      "geometric_mean": 0.0,
+      "calibrated": false
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "page": 17,
+      "scope": "all retained OCR lines on selected table page",
+      "count": 277,
+      "mean": 0.9107556860584645,
+      "minimum": 0.0,
+      "geometric_mean": 0.0,
+      "calibrated": false
+    }
+  ],
+  "parser_runs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "vlm_backend": {
+        "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+        "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+        "detector_limit_side_len": 960,
+        "versions": {
+          "mineru": "3.4.5",
+          "mineru-vl-utils": "1.2.1",
+          "mlx": "0.31.1",
+          "mlx-vlm": "0.3.9",
+          "torch": "2.14.0"
+        },
+        "prompt": "\nText Recognition:",
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "top_p": 0.01,
+        "top_k": 1,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 0.05
+      },
+      "status": "success"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "vlm_backend": {
+        "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+        "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+        "detector_limit_side_len": 960,
+        "versions": {
+          "mineru": "3.4.5",
+          "mineru-vl-utils": "1.2.1",
+          "mlx": "0.31.1",
+          "mlx-vlm": "0.3.9",
+          "torch": "2.14.0"
+        },
+        "prompt": "\nText Recognition:",
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "top_p": 0.01,
+        "top_k": 1,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 0.05
+      },
+      "status": "success"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "vlm_backend": {
+        "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+        "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+        "detector_limit_side_len": 960,
+        "versions": {
+          "mineru": "3.4.5",
+          "mineru-vl-utils": "1.2.1",
+          "mlx": "0.31.1",
+          "mlx-vlm": "0.3.9",
+          "torch": "2.14.0"
+        },
+        "prompt": "\nText Recognition:",
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "top_p": 0.01,
+        "top_k": 1,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 0.05
+      },
+      "status": "success"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "vlm_backend": {
+        "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+        "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+        "detector_limit_side_len": 960,
+        "versions": {
+          "mineru": "3.4.5",
+          "mineru-vl-utils": "1.2.1",
+          "mlx": "0.31.1",
+          "mlx-vlm": "0.3.9",
+          "torch": "2.14.0"
+        },
+        "prompt": "\nText Recognition:",
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "top_p": 0.01,
+        "top_k": 1,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 0.05
+      },
+      "status": "success"
+    },
+    {
+      "document": "peterborough_2025",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "vlm_backend": {
+        "model": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "model_snapshot": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "detector": "ch_PP-OCRv6_small_det_infer.safetensors",
+        "detector_sha256": "89a96a8adc4e9cd0c994098edc76022e496d35844392562b4694c8fbc583f2da",
+        "detector_limit_side_len": 960,
+        "versions": {
+          "mineru": "3.4.5",
+          "mineru-vl-utils": "1.2.1",
+          "mlx": "0.31.1",
+          "mlx-vlm": "0.3.9",
+          "torch": "2.14.0"
+        },
+        "prompt": "\nText Recognition:",
+        "max_new_tokens": 512,
+        "temperature": 0.0,
+        "top_p": 0.01,
+        "top_k": 1,
+        "presence_penalty": 1.0,
+        "frequency_penalty": 0.05
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "pipeline",
+        "method": "ocr",
+        "device": "cpu",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_vlm",
+      "versions": {
+        "mineru": "mineru, version 3.4.5"
+      },
+      "settings": {
+        "backend": "vlm-engine",
+        "method": "vlm",
+        "device": "auto (MLX on Apple Silicon)",
+        "formulas": false,
+        "tables": true,
+        "image_analysis": false
+      },
+      "model_config": {
+        "config_version": "1.3.2",
+        "model-source": "huggingface",
+        "models-dir": {
+          "pipeline": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--PDF-Extract-Kit-1.0/snapshots/ed6b654c018d742e65a17671e379c5e6ecc87ec9",
+          "vlm": "/Users/hu/Desktop/CMU MSCF/ML Capstone/pdf_parsing_toy/cache/huggingface/hub/models--opendatalab--MinerU2.5-Pro-2605-1.2B/snapshots/bff20d4ae2bf202df9f45284b4d43681555a97ed"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2",
+        "onnxruntime": "1.30.0"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "PyMuPDF bundled Tesseract",
+        "ocr_language": "eng",
+        "ocr_dpi": 300,
+        "layout": true,
+        "vlm": false,
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100,
+        "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm_vlm",
+      "versions": {
+        "pymupdf4llm": "1.28.2",
+        "pymupdf": "1.28.2",
+        "pymupdf-layout": "1.28.2"
+      },
+      "settings": {
+        "ocr": true,
+        "force_ocr": false,
+        "ocr_engine": "MinerU2.5-Pro VLM crop recognition",
+        "detector": "PP-OCRv6 detection only",
+        "layout": true,
+        "vlm": true,
+        "ocr_dpi": 300,
+        "ocr_language": "eng",
+        "table_output": "html",
+        "page_chunks": true,
+        "write_images": true,
+        "dpi": 100
+      },
+      "status": "success"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "paddleocr_ppstructurev3",
+      "versions": {
+        "paddleocr": "3.3.3",
+        "paddlex": "3.3.13",
+        "paddlepaddle": "3.0.0",
+        "pymupdf": "1.28.2",
+        "numpy": "1.26.4"
+      },
+      "settings": {
+        "device": "cpu",
+        "cpu_threads": 4,
+        "enable_mkldnn": false,
+        "text_detection_model_name": "PP-OCRv5_mobile_det",
+        "text_recognition_model_name": "PP-OCRv5_mobile_rec",
+        "text_det_limit_side_len": 1280,
+        "text_det_limit_type": "max",
+        "use_doc_orientation_classify": false,
+        "use_doc_unwarping": false,
+        "use_textline_orientation": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_seal_recognition": false,
+        "use_chart_recognition": false,
+        "render_dpi": 300,
+        "markdown_ignore_labels": []
+      },
+      "status": "success"
+    }
+  ],
+  "documents": [
+    {
+      "parser": "mineru_ocr",
+      "document": "cvs_2025q2",
+      "requested_fields": 10,
+      "scored_fields": 10,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9250461575051482,
+      "expected_requested_field_accuracy": 0.9250461575051482,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "mineru_ocr",
+      "document": "edf_2024",
+      "requested_fields": 25,
+      "scored_fields": 4,
+      "score_coverage": 0.16,
+      "mean_scored_field_probability": 0.9478107706726179,
+      "expected_requested_field_accuracy": 0.15164972330761886,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.16
+    },
+    {
+      "parser": "mineru_ocr",
+      "document": "hippodrome_2025",
+      "requested_fields": 28,
+      "scored_fields": 26,
+      "score_coverage": 0.9285714285714286,
+      "mean_scored_field_probability": 0.9652281224892534,
+      "expected_requested_field_accuracy": 0.8962832565971638,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.8571428571428571
+    },
+    {
+      "parser": "mineru_ocr",
+      "document": "peterborough_2025",
+      "requested_fields": 12,
+      "scored_fields": 0,
+      "score_coverage": 0.0,
+      "mean_scored_field_probability": null,
+      "expected_requested_field_accuracy": 0.0,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.0
+    },
+    {
+      "parser": "mineru_ocr",
+      "document": "rolls_royce_2026h1_presentation",
+      "requested_fields": 26,
+      "scored_fields": 16,
+      "score_coverage": 0.6153846153846154,
+      "mean_scored_field_probability": 0.962424055162936,
+      "expected_requested_field_accuracy": 0.5922609570233452,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6153846153846154
+    },
+    {
+      "parser": "mineru_ocr",
+      "document": "rolls_royce_2026h1_release",
+      "requested_fields": 32,
+      "scored_fields": 1,
+      "score_coverage": 0.03125,
+      "mean_scored_field_probability": 0.8303573684701598,
+      "expected_requested_field_accuracy": 0.025948667764692495,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.0
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "cvs_2025q2",
+      "requested_fields": 10,
+      "scored_fields": 0,
+      "score_coverage": 0.0,
+      "mean_scored_field_probability": null,
+      "expected_requested_field_accuracy": 0.0,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.0
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "edf_2024",
+      "requested_fields": 25,
+      "scored_fields": 25,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9861111111111112,
+      "expected_requested_field_accuracy": 0.9861111111111112,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "hippodrome_2025",
+      "requested_fields": 28,
+      "scored_fields": 22,
+      "score_coverage": 0.7857142857142857,
+      "mean_scored_field_probability": 0.9866666666666668,
+      "expected_requested_field_accuracy": 0.7752380952380954,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.7857142857142857
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "peterborough_2025",
+      "requested_fields": 12,
+      "scored_fields": 12,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9882352941176471,
+      "expected_requested_field_accuracy": 0.9882352941176471,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "rolls_royce_2026h1_presentation",
+      "requested_fields": 26,
+      "scored_fields": 16,
+      "score_coverage": 0.6153846153846154,
+      "mean_scored_field_probability": 0.9836065573770493,
+      "expected_requested_field_accuracy": 0.6052963430012611,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6153846153846154
+    },
+    {
+      "parser": "mineru_vlm",
+      "document": "rolls_royce_2026h1_release",
+      "requested_fields": 32,
+      "scored_fields": 20,
+      "score_coverage": 0.625,
+      "mean_scored_field_probability": 0.9836065573770492,
+      "expected_requested_field_accuracy": 0.6147540983606558,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.625
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "cvs_2025q2",
+      "requested_fields": 10,
+      "scored_fields": 10,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.8749841535192809,
+      "expected_requested_field_accuracy": 0.8749841535192809,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "edf_2024",
+      "requested_fields": 25,
+      "scored_fields": 5,
+      "score_coverage": 0.2,
+      "mean_scored_field_probability": 0.7041611668306813,
+      "expected_requested_field_accuracy": 0.14083223336613626,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.08
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "hippodrome_2025",
+      "requested_fields": 28,
+      "scored_fields": 28,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.8800638656424599,
+      "expected_requested_field_accuracy": 0.8800638656424599,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.7857142857142857
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "peterborough_2025",
+      "requested_fields": 12,
+      "scored_fields": 5,
+      "score_coverage": 0.4166666666666667,
+      "mean_scored_field_probability": 0.8743064750262217,
+      "expected_requested_field_accuracy": 0.36429436459425907,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.3333333333333333
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_presentation",
+      "requested_fields": 26,
+      "scored_fields": 21,
+      "score_coverage": 0.8076923076923077,
+      "mean_scored_field_probability": 0.7810178961057288,
+      "expected_requested_field_accuracy": 0.6308221468546271,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.8076923076923077
+    },
+    {
+      "parser": "paddleocr_ppstructurev3",
+      "document": "rolls_royce_2026h1_release",
+      "requested_fields": 32,
+      "scored_fields": 17,
+      "score_coverage": 0.53125,
+      "mean_scored_field_probability": 0.6890791229183073,
+      "expected_requested_field_accuracy": 0.3660732840503508,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.375
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "cvs_2025q2",
+      "requested_fields": 10,
+      "scored_fields": 10,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9640243331892433,
+      "expected_requested_field_accuracy": 0.9640243331892433,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "edf_2024",
+      "requested_fields": 25,
+      "scored_fields": 25,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9499758632968056,
+      "expected_requested_field_accuracy": 0.9499758632968056,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "hippodrome_2025",
+      "requested_fields": 28,
+      "scored_fields": 28,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.958153392580488,
+      "expected_requested_field_accuracy": 0.958153392580488,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "peterborough_2025",
+      "requested_fields": 12,
+      "scored_fields": 12,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9908256880733944,
+      "expected_requested_field_accuracy": 0.9908256880733944,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6666666666666666
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "rolls_royce_2026h1_presentation",
+      "requested_fields": 26,
+      "scored_fields": 16,
+      "score_coverage": 0.6153846153846154,
+      "mean_scored_field_probability": 0.9616120693686201,
+      "expected_requested_field_accuracy": 0.5917612734576123,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6153846153846154
+    },
+    {
+      "parser": "pymupdf4llm",
+      "document": "rolls_royce_2026h1_release",
+      "requested_fields": 32,
+      "scored_fields": 28,
+      "score_coverage": 0.875,
+      "mean_scored_field_probability": 0.9381639065851696,
+      "expected_requested_field_accuracy": 0.8208934182620233,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.875
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "cvs_2025q2",
+      "requested_fields": 10,
+      "scored_fields": 10,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9614682113087267,
+      "expected_requested_field_accuracy": 0.9614682113087267,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "edf_2024",
+      "requested_fields": 25,
+      "scored_fields": 25,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9427959717452364,
+      "expected_requested_field_accuracy": 0.9427959717452364,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 1.0
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "hippodrome_2025",
+      "requested_fields": 28,
+      "scored_fields": 22,
+      "score_coverage": 0.7857142857142857,
+      "mean_scored_field_probability": 0.9669511114403169,
+      "expected_requested_field_accuracy": 0.7597473018459633,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.7857142857142857
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "peterborough_2025",
+      "requested_fields": 12,
+      "scored_fields": 12,
+      "score_coverage": 1.0,
+      "mean_scored_field_probability": 0.9902912621359223,
+      "expected_requested_field_accuracy": 0.9902912621359223,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6666666666666666
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "rolls_royce_2026h1_presentation",
+      "requested_fields": 26,
+      "scored_fields": 16,
+      "score_coverage": 0.6153846153846154,
+      "mean_scored_field_probability": 0.9600778421489579,
+      "expected_requested_field_accuracy": 0.5908171336301279,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.6153846153846154
+    },
+    {
+      "parser": "pymupdf4llm_vlm",
+      "document": "rolls_royce_2026h1_release",
+      "requested_fields": 32,
+      "scored_fields": 28,
+      "score_coverage": 0.875,
+      "mean_scored_field_probability": 0.9256708016398763,
+      "expected_requested_field_accuracy": 0.8099619514348917,
+      "probability_all_correct": null,
+      "observed_requested_field_accuracy": 0.875
+    }
+  ],
+  "document_accuracy_prediction": {
+    "mineru_ocr": {
+      "n_documents": 6,
+      "mae": 0.028586140794583718
+    },
+    "mineru_vlm": {
+      "n_documents": 6,
+      "mae": 0.009410659878355099
+    },
+    "pymupdf4llm": {
+      "n_documents": 6,
+      "mae": 0.08828922600086177
+    },
+    "pymupdf4llm_vlm": {
+      "n_documents": 6,
+      "mae": 0.0891554877672018
+    },
+    "paddleocr_ppstructurev3": {
+      "n_documents": 6,
+      "mae": 0.08282592797054751
+    }
+  },
+  "hosted_calls": 0,
+  "parser_reruns": 0
+}

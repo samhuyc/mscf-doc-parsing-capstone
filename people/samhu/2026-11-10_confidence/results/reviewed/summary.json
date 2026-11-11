@@ -1,0 +1,54 @@
+{
+  "reports": {},
+  "folds": [],
+  "deployment_validated": false,
+  "source_revision": "0baababc2652757982ae5898500a1c72409c4848",
+  "input_sha256": {
+    "people/samhu/2026-10-05_pilot_benchmark/benchmark.py": "dbfacdaf88092125ed662f0e91d0257035650d2b5d096ae5f07a3290ff1d3dfe",
+    "people/samhu/2026-10-05_pilot_benchmark/labels.jsonl": "b5c0f220763e49786a14931b149cb2b485b7857cb8163563b13ffc23e72fdde3",
+    "people/samhu/2026-10-05_pilot_benchmark/documents.json": "6ea95cf4ab5966e6cf447c4dd9a860170b359b145dd9e76d94e5537833edf7e3"
+  },
+  "code_sha256": {
+    "confidence.py": "9cc465ec229d286f31b4bae45e948099450462eb58861e539852fc9b1c60ee28",
+    "benchmark_pilot.py": "04ff16fd85a5fbb14bee1a4a8e926134a8d046d58b99d529ca5eb593c55146c3"
+  },
+  "label_status": "reviewed_only",
+  "scope": "Declared pilot table cells; amount/sign/suffix association, not all document content or currency/scale correctness",
+  "n_fields": 0,
+  "n_documents": 0,
+  "n_issuer_groups": 0,
+  "parser_roster": [
+    "mineru_ocr",
+    "mineru_vlm",
+    "pymupdf4llm",
+    "pymupdf4llm_vlm",
+    "paddleocr_ppstructurev3"
+  ],
+  "native_paddle_diagnostics": [],
+  "parser_runs": [],
+  "documents": [],
+  "document_accuracy_prediction": {
+    "mineru_ocr": {
+      "n_documents": 0,
+      "mae": null
+    },
+    "mineru_vlm": {
+      "n_documents": 0,
+      "mae": null
+    },
+    "pymupdf4llm": {
+      "n_documents": 0,
+      "mae": null
+    },
+    "pymupdf4llm_vlm": {
+      "n_documents": 0,
+      "mae": null
+    },
+    "paddleocr_ppstructurev3": {
+      "n_documents": 0,
+      "mae": null
+    }
+  },
+  "hosted_calls": 0,
+  "parser_reruns": 0
+}

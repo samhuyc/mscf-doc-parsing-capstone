@@ -1,0 +1,4 @@
+# Only the cached pilot adapter needs these. confidence.py uses the standard library.
+beautifulsoup4==4.15.0
+markdown-it-py==4.0.0
+rapidfuzz==3.14.3

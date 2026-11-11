@@ -1,0 +1,258 @@
+[
+  {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "units": [
+      {
+        "token_id": 15666,
+        "text": "Second",
+        "score": 0.9990376720688809,
+        "log_probability": -0.0009627912659198046,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability",
+        "logit_dtype": "mlx.core.bfloat16",
+        "raw_selected_logit": 20.75,
+        "v1_posthoc_probability": 0.9990374778424019,
+        "top_alternatives": [
+          {
+            "token_id": 15666,
+            "text": "Second",
+            "logit": 20.75,
+            "log_probability": -0.0009627912659198046,
+            "probability": 0.9990376720688809
+          },
+          {
+            "token_id": 36975,
+            "text": "Third",
+            "logit": 12.25,
+            "log_probability": -8.50096321105957,
+            "probability": 0.00020327248038353148
+          },
+          {
+            "token_id": 10440,
+            "text": " Second",
+            "logit": 11.75,
+            "log_probability": -9.00096321105957,
+            "probability": 0.0001232909916284467
+          },
+          {
+            "token_id": 117430,
+            "text": "第二节",
+            "logit": 11.1875,
+            "log_probability": -9.56346321105957,
+            "probability": 7.024908947393294e-05
+          },
+          {
+            "token_id": 19589,
+            "text": "CV",
+            "logit": 10.5,
+            "log_probability": -10.25096321105957,
+            "probability": 3.5323460511199514e-05
+          }
+        ]
+      },
+      {
+        "token_id": 34394,
+        "text": " Quarter",
+        "score": 0.9993249926853417,
+        "log_probability": -0.0006752352346666157,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability",
+        "logit_dtype": "mlx.core.bfloat16",
+        "raw_selected_logit": 24.25,
+        "v1_posthoc_probability": 0.9993250160690268,
+        "top_alternatives": [
+          {
+            "token_id": 34394,
+            "text": " Quarter",
+            "logit": 24.25,
+            "log_probability": -0.0006752352346666157,
+            "probability": 0.9993249926853417
+          },
+          {
+            "token_id": 86608,
+            "text": "Quarter",
+            "logit": 16.5,
+            "log_probability": -7.750675201416016,
+            "probability": 0.00043045180076736343
+          },
+          {
+            "token_id": 1207,
+            "text": " Q",
+            "logit": 15.25,
+            "log_probability": -9.000675201416016,
+            "probability": 0.00012332650573695648
+          },
+          {
+            "token_id": 74383,
+            "text": " Quarterly",
+            "logit": 14.0625,
+            "log_probability": -10.188175201416016,
+            "probability": 3.761245917511733e-05
+          },
+          {
+            "token_id": 69084,
+            "text": " Quart",
+            "logit": 13.25,
+            "log_probability": -11.000675201416016,
+            "probability": 1.6690427584492743e-05
+          }
+        ]
+      },
+      {
+        "token_id": 220,
+        "text": " ",
+        "score": 0.999949298971157,
+        "log_probability": -5.070231418358162e-05,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability",
+        "logit_dtype": "mlx.core.bfloat16",
+        "raw_selected_logit": 24.125,
+        "v1_posthoc_probability": 0.9999493386194785,
+        "top_alternatives": [
+          {
+            "token_id": 220,
+            "text": " ",
+            "logit": 24.125,
+            "log_probability": -5.070231418358162e-05,
+            "probability": 0.999949298971157
+          },
+          {
+            "token_id": 17,
+            "text": "2",
+            "logit": 14.1875,
+            "log_probability": -9.93755054473877,
+            "probability": 4.8325531004353256e-05
+          },
+          {
+            "token_id": 25,
+            "text": ":",
+            "logit": 10.375,
+            "log_probability": -13.75005054473877,
+            "probability": 1.0676500445783588e-06
+          },
+          {
+            "token_id": 11,
+            "text": ",",
+            "logit": 9.1875,
+            "log_probability": -14.93755054473877,
+            "probability": 3.256148666099937e-07
+          },
+          {
+            "token_id": 320,
+            "text": " (",
+            "logit": 9.0,
+            "log_probability": -15.12505054473877,
+            "probability": 2.699442057321118e-07
+          }
+        ]
+      },
+      {
+        "token_id": 17,
+        "text": "2",
+        "score": 0.9999995182764702,
+        "log_probability": -4.817236458620755e-07,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability",
+        "logit_dtype": "mlx.core.bfloat16",
+        "raw_selected_logit": 29.125,
+        "v1_posthoc_probability": 0.9999995231630692,
+        "top_alternatives": [
+          {
+            "token_id": 17,
+            "text": "2",
+            "logit": 29.125,
+            "log_probability": -4.817236458620755e-07,
+            "probability": 0.9999995182764702
+          },
+          {
+            "token_id": 220,
+            "text": " ",
+            "logit": 14.4375,
+            "log_probability": -14.687500953674316,
+            "probability": 4.181184992059383e-07
+          },
+          {
+            "token_id": 18,
+            "text": "3",
+            "logit": 11.1875,
+            "log_probability": -17.9375,
+            "probability": 1.6212229047677827e-08
+          },
+          {
+            "token_id": 16,
+            "text": "1",
+            "logit": 11.125,
+            "log_probability": -18.0,
+            "probability": 1.522997974471263e-08
+          },
+          {
+            "token_id": 15,
+            "text": "0",
+            "logit": 10.375,
+            "log_probability": -18.75,
+            "probability": 7.194133030325383e-09
+          }
+        ]
+      },
+      {
+        "token_id": 15,
+        "text": "0",
+        "score": 0.9999979049381755,
+        "log_probability": -2.095064019158599e-06,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability",
+        "logit_dtype": "mlx.core.bfloat16",
+        "raw_selected_logit": 26.0,
+        "v1_posthoc_probability": 0.9999979734461775,
+        "top_alternatives": [
+          {
+            "token_id": 15,
+            "text": "0",
+            "logit": 26.0,
+            "log_probability": -2.095064019158599e-06,
+            "probability": 0.9999979049381755
+          },
+          {
+            "token_id": 48,
+            "text": "Q",
+            "logit": 12.25,
+            "log_probability": -13.750001907348633,
+            "probability": 1.067701973552941e-06
+          },
+          {
+            "token_id": 46,
+            "text": "O",
+            "logit": 11.375,
+            "log_probability": -14.625001907348633,
+            "probability": 4.450844011100084e-07
+          },
+          {
+            "token_id": 220,
+            "text": " ",
+            "logit": 10.6875,
+            "log_probability": -15.312501907348633,
+            "probability": 2.2380249174039673e-07
+          },
+          {
+            "token_id": 17,
+            "text": "2",
+            "logit": 10.375,
+            "log_probability": -15.625001907348633,
+            "probability": 1.6373740075447596e-07
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-"""Run PP-OCRv5 on every page, preserving native recognition-line scores."""
+"""Run PP-OCRv5 on every page, retaining native CTC character probabilities and line scores."""
 import argparse
 import importlib.metadata
 import os
@@ -23,7 +23,7 @@ def parse_result(result):
 
 def main():
     cli=argparse.ArgumentParser(description=__doc__)
-    cli.add_argument('--output',type=Path,default=ROOT/'runs/paddle')
+    cli.add_argument('--output',type=Path,default=ROOT/'runs/paddle_v2')
     cli.add_argument('--documents',nargs='+')
     cli.add_argument('--pages',nargs='+',type=int)
     args=cli.parse_args()
@@ -33,6 +33,8 @@ def main():
     import numpy as np
     import pymupdf
     from paddleocr import PaddleOCR
+    from paddlex.inference.models.text_recognition.processors import CTCLabelDecode
+    from score_probes import paddle_probe, attach_characters
     config=dict(text_detection_model_name='PP-OCRv5_mobile_det',
                 text_recognition_model_name='PP-OCRv5_mobile_rec',
                 use_doc_orientation_classify=False,use_doc_unwarping=False,
@@ -41,7 +43,8 @@ def main():
                 text_rec_score_thresh=0.0)
     settings={'engine':'paddle','config':config,'render_dpi':200,
               'versions':{k:importlib.metadata.version(k) for k in ('paddleocr','paddlepaddle','paddlex','pymupdf')},
-              'score_semantics':'Native recognition score of each detected line; not detection confidence or calibrated correctness'}
+              'score_semantics':'Selected CTC character probabilities before line averaging; not final-character marginals',
+              'instrumentation_version':2}
     previous=args.output/'settings.json'
     if previous.exists() and read(previous)!=settings:raise ValueError('Configuration changed; choose a new output directory')
     write(previous,settings)
@@ -68,11 +71,14 @@ def main():
                     try:
                         pix=page.get_pixmap(dpi=200,colorspace=pymupdf.csRGB,alpha=False)
                         rgb=np.frombuffer(pix.samples,dtype=np.uint8).reshape(pix.height,pix.width,3)
-                        predictions=list(model.predict(rgb[:,:,::-1].copy()))
-                        if len(predictions)!=1:raise ValueError('Expected one page result')
-                        units=parse_result(predictions[0])
+                        with paddle_probe(CTCLabelDecode) as evidence:
+                            predictions=list(model.predict(rgb[:,:,::-1].copy()))
+                            if len(predictions)!=1:raise ValueError('Expected one page result')
+                            units=parse_result(predictions[0])
+                            characters=attach_characters(units,evidence)
                         record.update(status='success',units=units,text='\n'.join(u['text'] for u in units),
-                                      width=pix.width,height=pix.height,confidence=summarize(units))
+                                      width=pix.width,height=pix.height,confidence_units=characters,
+                                      confidence=summarize(characters),legacy_line_confidence=summarize(units))
                     except Exception as exc:
                         record.update(status='failed',units=[],error=f'{type(exc).__name__}: {exc}')
                     record['seconds']=round(time.monotonic()-started,3)

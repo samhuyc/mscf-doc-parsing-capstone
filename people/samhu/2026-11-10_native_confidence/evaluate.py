@@ -197,7 +197,7 @@ def evaluate(run_roots,output,include_drafts=False,labels_path=None):
                 'selected_span_character_accuracy':max(0,1-sum(c['edit_errors'] for c in checks)/n_chars) if n_chars else None,
                 'selected_span_exact_accuracy':sum(c['exact'] for c in checks)/len(checks) if checks else None,
                 'reference_sha256':sha(labels_path)})
-        engine_docs=[d for d in document_rows if d['engine']==engine]
+        engine_docs=[d for d in document_rows if d['engine']==engine and d['successful_pages']==d['expected_pages']]
         accuracy=[d['selected_span_character_accuracy'] for d in engine_docs]
         correlations[engine]={}
         for name in ('character_weighted_mean','mean','geometric_mean','p10','fraction_below_0_90'):

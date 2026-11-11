@@ -1,0 +1,143 @@
+[
+  {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "units": [
+      {
+        "text": "S",
+        "token_id": 16197,
+        "timestep": 1,
+        "score": 0.9997767806053162,
+        "log_probability": -0.00022324431184098353,
+        "unit_kind": "character",
+        "score_kind": "ctc_selected_path_probability",
+        "top_alternatives": [
+          {
+            "token_id": 16197,
+            "text": "S",
+            "probability": 0.9997767806053162
+          },
+          {
+            "token_id": 16227,
+            "text": "s",
+            "probability": 0.00011145701864734292
+          },
+          {
+            "token_id": 16298,
+            "text": "Š",
+            "probability": 5.4261719924397767e-05
+          }
+        ],
+        "line_index": 0
+      },
+      {
+        "text": "e",
+        "token_id": 16213,
+        "timestep": 4,
+        "score": 0.999776303768158,
+        "log_probability": -0.00022372125557599076,
+        "unit_kind": "character",
+        "score_kind": "ctc_selected_path_probability",
+        "top_alternatives": [
+          {
+            "token_id": 16213,
+            "text": "e",
+            "probability": 0.999776303768158
+          },
+          {
+            "token_id": 16286,
+            "text": "ę",
+            "probability": 7.428183016600087e-05
+          },
+          {
+            "token_id": 16261,
+            "text": "é",
+            "probability": 5.284603321342729e-05
+          }
+        ],
+        "line_index": 0
+      },
+      {
+        "text": "c",
+        "token_id": 16211,
+        "timestep": 7,
+        "score": 0.9986205101013184,
+        "log_probability": -0.0013804422708311903,
+        "unit_kind": "character",
+        "score_kind": "ctc_selected_path_probability",
+        "top_alternatives": [
+          {
+            "token_id": 16211,
+            "text": "c",
+            "probability": 0.9986205101013184
+          },
+          {
+            "token_id": 16181,
+            "text": "C",
+            "probability": 0.0010616162326186895
+          },
+          {
+            "token_id": 16259,
+            "text": "ç",
+            "probability": 0.00015875938697718084
+          }
+        ],
+        "line_index": 0
+      },
+      {
+        "text": "o",
+        "token_id": 16223,
+        "timestep": 9,
+        "score": 0.9996021389961243,
+        "log_probability": -0.0003979401715641219,
+        "unit_kind": "character",
+        "score_kind": "ctc_selected_path_probability",
+        "top_alternatives": [
+          {
+            "token_id": 16223,
+            "text": "o",
+            "probability": 0.9996021389961243
+          },
+          {
+            "token_id": 16193,
+            "text": "O",
+            "probability": 0.00019791121303569525
+          },
+          {
+            "token_id": 16163,
+            "text": "0",
+            "probability": 6.160671910038218e-05
+          }
+        ],
+        "line_index": 0
+      },
+      {
+        "text": "n",
+        "token_id": 16222,
+        "timestep": 12,
+        "score": 0.9997486472129822,
+        "log_probability": -0.000251384381423932,
+        "unit_kind": "character",
+        "score_kind": "ctc_selected_path_probability",
+        "top_alternatives": [
+          {
+            "token_id": 16222,
+            "text": "n",
+            "probability": 0.9997486472129822
+          },
+          {
+            "token_id": 16192,
+            "text": "N",
+            "probability": 0.00014536880189552903
+          },
+          {
+            "token_id": 16412,
+            "text": "ｎ",
+            "probability": 5.520467311725952e-05
+          }
+        ],
+        "line_index": 0
+      }
+    ]
+  }
+]

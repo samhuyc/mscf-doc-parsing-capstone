@@ -1,0 +1,13 @@
+{
+  "engine": "tesseract",
+  "backend": "standalone_cli",
+  "version": "tesseract 5.5.3",
+  "pymupdf_version": "1.28.2",
+  "render_dpi": 300,
+  "psm": 3,
+  "language": "eng",
+  "tessdata_sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+  "forced_ocr_all_pages": true,
+  "native_pdf_text_used": false,
+  "score_semantics": "Native word confidence divided by 100; not calibrated correctness probability"
+}

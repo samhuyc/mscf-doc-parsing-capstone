@@ -26,7 +26,7 @@ def normalized_logprob(values, token, array_module):
     return float((flat[token]-normalizer).item()), float(normalizer.item())
 
 
-def collect_stream(stream, tokenizer, array_module=None):
+def collect_stream(stream, tokenizer, array_module=None, evidence=None):
     """MLX's final yield repeats the last token or carries EOS: count neither twice."""
     if array_module is None:
         import numpy as array_module
@@ -43,28 +43,40 @@ def collect_stream(stream, tokenizer, array_module=None):
             continue
         last_step = item.generation_tokens
         raw_logprob = float(item.logprobs.reshape(-1)[token].item())
-        logprob, correction = normalized_logprob(item.logprobs,token,array_module)
+        if evidence is None:
+            logprob, correction = normalized_logprob(item.logprobs,token,array_module)
+            details = {}
+        else:
+            details = evidence[item.generation_tokens-1]
+            if details['token_id'] != token:
+                raise ValueError('Logit evidence/token alignment failure')
+            logprob, correction = raw_logprob, 0.0
         if not math.isfinite(logprob) or logprob > 1e-5:
             raise ValueError('Invalid selected-token log-probability')
         tokens.append({'token_id':token,'text':tokenizer.decode([token]),
                        'score':math.exp(min(0,logprob)),'log_probability':logprob,
                        'backend_log_probability':raw_logprob,'log_normalization_correction':correction,
-                       'unit_kind':'subword_token','score_kind':'selected_token_softmax_probability'})
+                       'unit_kind':'subword_token','score_kind':'selected_token_softmax_probability', **details})
     return ''.join(chunks), tokens, stopped
 
 
 def main():
     cli=argparse.ArgumentParser(description=__doc__)
     cli.add_argument('--model',type=Path,required=True)
-    cli.add_argument('--output',type=Path,default=ROOT/'runs/mineru')
+    cli.add_argument('--output',type=Path,default=ROOT/'runs/mineru_v2')
     cli.add_argument('--documents',nargs='+')
     cli.add_argument('--pages',type=int,nargs='+')
     cli.add_argument('--max-tokens',type=int,default=4096)
+    cli.add_argument('--model-dtype',choices=('native','float32'),default='native',
+                     help='Optional full-weight FP32 diagnostic; use a separate output directory')
     args=cli.parse_args()
     os.environ.setdefault('HF_HUB_OFFLINE','1')
     import pymupdf
     from PIL import Image
     from mlx_vlm import load, stream_generate
+    import importlib
+    from score_probes import mineru_probe
+    generation_module = importlib.import_module('mlx_vlm.generate')
     import mlx.core as mx
     from safetensors import safe_open
     config=read(args.model/'config.json')
@@ -77,8 +89,11 @@ def main():
               'task':'full_page_text_recognition','prompt':'\nText Recognition:',
               'max_tokens':args.max_tokens,'temperature':0.0,'render_dpi':150,'max_image_side':1536,
               'repetition_penalty':None,'logit_bias':None,
-              'probability_normalization':'Full backend log-probability vector re-normalized in FP32',
+              'probability_normalization':'Original BF16 logits promoted before FP32 max-shift/log1p normalization',
+              'instrumentation_version':2,
               'score_semantics':'Unmodified decoder log-softmax of each emitted subword token; EOS excluded'}
+    if args.model_dtype=='float32':
+        settings['model_dtype_override']='float32'
     previous=args.output/'settings.json'
     if previous.exists() and read(previous)!=settings:raise ValueError('Configuration changed; choose new output directory')
     write(previous,settings)
@@ -94,6 +109,8 @@ def main():
         write(prepared/'config.json',config)
         print('Loading local MinerU model',flush=True)
         model,processor=load(str(prepared),use_fast=True)
+        if args.model_dtype=='float32':
+            model.set_dtype(mx.float32)
         tokenizer=processor.tokenizer
         prompt=processor.apply_chat_template([{'role':'user','content':[
             {'type':'image'},{'type':'text','text':settings['prompt']}]}],tokenize=False,add_generation_prompt=True)
@@ -119,9 +136,10 @@ def main():
                             pix=page.get_pixmap(dpi=150,colorspace=pymupdf.csRGB,alpha=False)
                             image=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
                             image.thumbnail((1536,1536),Image.Resampling.LANCZOS)
-                            stream=stream_generate(model,processor,prompt,image=[image],
-                                                   max_tokens=args.max_tokens,temperature=0.0)
-                            text,tokens,stopped=collect_stream(stream,tokenizer,mx)
+                            with mineru_probe(generation_module,mx,tokenizer) as evidence:
+                                stream=stream_generate(model,processor,prompt,image=[image],
+                                                       max_tokens=args.max_tokens,temperature=0.0)
+                                text,tokens,stopped=collect_stream(stream,tokenizer,mx,evidence)
                             record.update(status='success',text=text,confidence_units=tokens,
                                           units=[{'text':text,'score':None,'unit_kind':'page'}] if text.strip() else [],
                                           confidence=summarize(tokens),truncated=not stopped,

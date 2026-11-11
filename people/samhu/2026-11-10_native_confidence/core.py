@@ -38,7 +38,7 @@ def summarize(units):
     This still does not make scores comparable between different engines.
     """
     scored = [u for u in units if u.get('score') is not None and
-              (u.get('text', '').strip() or u.get('unit_kind') == 'subword_token')]
+              (u.get('text', '').strip() or u.get('unit_kind') in ('subword_token','character'))]
     for u in scored:
         p = u['score']
         if isinstance(p, bool) or not isinstance(p, (int, float)) or not math.isfinite(p) or not 0 <= p <= 1:

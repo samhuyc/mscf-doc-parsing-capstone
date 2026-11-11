@@ -28,10 +28,25 @@ def audit(run, output, allow_partial=False):
                 assert page['confidence']==summarize(units)
                 for unit in units:
                     if engine=='tesseract':assert unit['score']==unit['native_score']/100
-                    elif engine=='paddle':assert unit['score']==unit['native_score']
+                    elif engine=='paddle':
+                        if settings.get('instrumentation_version')==2:
+                            assert unit['unit_kind']=='character'
+                            assert unit['score']==unit['top_alternatives'][0]['probability']
+                            assert unit['text']==unit['top_alternatives'][0]['text']
+                        else:assert unit['score']==unit['native_score']
                     elif engine=='mineru':
                         assert math.isclose(unit['score'],math.exp(unit['log_probability']),abs_tol=1e-7)
-                        assert abs(unit['backend_log_probability']-unit['log_normalization_correction']-unit['log_probability'])<1e-5
+                        if settings.get('instrumentation_version')==2:
+                            selected=next(t for t in unit['top_alternatives'] if t['token_id']==unit['token_id'])
+                            assert selected['logit']==unit['raw_selected_logit']
+                            assert selected['log_probability']==unit['log_probability']
+                        else:
+                            assert abs(unit['backend_log_probability']-unit['log_normalization_correction']-unit['log_probability'])<1e-5
+                if engine=='paddle' and settings.get('instrumentation_version')==2:
+                    for line in page['units']:
+                        assert ''.join(c['text'] for c in line['characters'])==line['text']
+                        if line['characters']:
+                            assert abs(sum(c['score'] for c in line['characters'])/len(line['characters'])-line['score'])<1e-6
                 if not examples:
                     examples=[{'document':source['id'],'page':page['page'],'units':units[:5]}]
             pages.append(page)

@@ -1,0 +1,98 @@
+[
+  {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "units": [
+      {
+        "text": "Second",
+        "score": 0.96294044,
+        "native_score": 96.294044,
+        "score_kind": "tesseract_word_confidence_0_100",
+        "unit_kind": "word",
+        "bbox": [
+          264,
+          307,
+          550,
+          370
+        ],
+        "line_id": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "text": "Quarter",
+        "score": 0.94223511,
+        "native_score": 94.223511,
+        "score_kind": "tesseract_word_confidence_0_100",
+        "unit_kind": "word",
+        "bbox": [
+          576,
+          308,
+          862,
+          385
+        ],
+        "line_id": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "text": "2025",
+        "score": 0.94223511,
+        "native_score": 94.223511,
+        "score_kind": "tesseract_word_confidence_0_100",
+        "unit_kind": "word",
+        "bbox": [
+          887,
+          310,
+          1072,
+          370
+        ],
+        "line_id": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "text": "|",
+        "score": 0.9435389700000001,
+        "native_score": 94.353897,
+        "score_kind": "tesseract_word_confidence_0_100",
+        "unit_kind": "word",
+        "bbox": [
+          1165,
+          291,
+          1170,
+          382
+        ],
+        "line_id": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "text": "July",
+        "score": 0.85121727,
+        "native_score": 85.121727,
+        "score_kind": "tesseract_word_confidence_0_100",
+        "unit_kind": "word",
+        "bbox": [
+          1265,
+          307,
+          1415,
+          386
+        ],
+        "line_id": [
+          1,
+          1,
+          1
+        ]
+      }
+    ]
+  }
+]

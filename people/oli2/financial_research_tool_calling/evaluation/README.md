@@ -1,86 +1,55 @@
 # Offline Agent Evaluation v1
 
-在 Demo 目录的 PowerShell 运行：
+Run from the Demo directory in PowerShell:
 
 ```powershell
 .\.venv\Scripts\python.exe -B -X utf8 -m evaluation.runner
 .\.venv\Scripts\python.exe -B -X utf8 -m unittest discover -v
 ```
 
-第一条命令是端到端任务评估，不是 unittest。默认输出到 Git 忽略的
-`artifacts/evaluation/v1/`：`report.html`（总体指标、逐题结果、失败分析和展开轨迹）、
-`report.json`（机器可读结果）、`tool_traces.jsonl`（逐轮工具名/参数/结果/异常类型和模拟用量）。
-可以使用 `--output <目录>` 保存另一次报告。默认退出码 0 表示报告生成完成，不代表所有任务通过；
-`--fail-on-failure` 在任一 gold 不匹配时退出 1，配置或文件错误退出 2。
-没有 Live 选项；Runner 禁止网络连接及构造 OpenAI Client。
+The first command is end-to-end task evaluation, not unittest. Default Git-ignored output is `artifacts/evaluation/v1/`: `report.html` (metrics, per-turn results, error analysis, expandable traces), `report.json` (machine-readable results), and `tool_traces.jsonl` (tools, arguments, results, exception types, simulated Usage). Use `--output <directory>` for a separate report. Exit 0 means report generation completed, not that every case passed. `--fail-on-failure` returns 1 for a gold mismatch; configuration/file errors return 2. This runner has no Live option and blocks network connections and OpenAI client construction.
 
-## 先核对支持范围，再冻结 Dataset
+Documentation and report labels are English. Original Chinese dataset questions, gold labels, units, and raw observed answers remain unchanged. English descriptions below are explanatory translations, not replacement evaluation inputs. Later sections document historical evaluation stages; their plans and results belong to their respective code versions.
 
-人工检查了 `demo.py` 的表格抽取、固定 document filter、`api_demo.py` 的证据范围检查、
-Session 句式，以及真实索引的 Consolidated Results 表头、Total Revenues 行和来源 metadata。
-Gold 来源为公开 CVS Health 2025 Q2 Earnings Presentation，物理 PDF 第 6 页，
-Chunk `cvs_2025q2:section:d25757c94c9016b6ab4f`。
-表格金额为 2025 Q2 的 98.9、2024 Q2 的 91.2 十亿美元；差额 7.7 也按这些四舍五入数值计算。
-不能把它们当成以美元为单位的未四舍五入精确报表金额。
+## Verify tool coverage before freezing the dataset
 
-当前工具不能回答 UNH、Amazon、CVS 2023 Q2、CVS 2025 Q3 或缺失上一年数据的同比问题。
-这些案例的 value/unit/source 均为 null，评价的是正确拒答，不虚构财务 gold。
+Manual review covered `demo.py` table extraction and fixed document filter, `api_demo.py` evidence-scope checks, Session grammar, and the real index's Consolidated Results table, Total Revenues row, and source metadata.
 
-`dataset_v1.json` 冻结 18 个场景、25 个评分轮次，包含 16 个 baseline 场景和 2 个 capability probes。
-每轮都有明确的 Expected Behavior、金额/单位/来源或 null、工具顺序、查询条件；
-多轮场景的前置轮次同样评分，不隐藏 setup 的失败。
-两个 probe 是信息明确且有客观财务答案的中文表达；当前语法不支持它们也不能将 gold 改为澄清。
-这不是独立 holdout：案例是在阅读当前程序后人工编写，不能据此推断未知任务总体准确率。
+Gold comes from the public CVS Health 2025 Q2 Earnings Presentation, physical PDF page 6, chunk `cvs_2025q2:section:d25757c94c9016b6ab4f`. Reported revenue is 98.9 billion for Q2 2025 and 91.2 billion for Q2 2024; the 7.7 billion difference uses these rounded figures. These are not unrounded dollar-level financial-statement amounts.
 
-`.sha256` 校验文件以 UTF-8、LF 规范化后的文本计算，防止运行时悄悄改 gold。
-新增或改变标准应创建 dataset_v2 和新 lock，不覆盖 v1。程序不会从本次工具输出生成正确答案。
-报告记录 Dataset hash、代码指纹及本地索引/metadata 指纹；输入变化会明确显示
-`inputs_match_frozen=false`，仍运行评分，但不能当作同一环境的直接对照。
+Current tools cannot answer UNH, Amazon, CVS Q2 2023, CVS Q3 2025, or comparisons missing prior-year data. Such cases have null value/unit/source and test appropriate abstention rather than invented financial gold.
 
-## 五个指标的分母
+`dataset_v1.json` freezes 18 scenarios / 25 scored turns: 16 baseline cases and 2 capability probes. Every turn specifies behavior, amount/unit/source or null, tool sequence, and query conditions. Setup turns are scored too. The two probes have clear Chinese wording and objectively supported answers; a parser limitation does not justify changing their labels to clarification.
 
-全部以“轮次”为评分单位，N/A 不进入分母，也不算正确。
+This is not an independent holdout: cases were written after reviewing the program. Do not infer general accuracy on unseen tasks. The `.sha256` lock hashes normalized UTF-8/LF text. Changed standards require a new dataset version and lock, not replacement of v1. Gold is never generated from the current tool output. Reports include dataset, code, index, and metadata fingerprints. Input drift sets `inputs_match_frozen=false`; scoring can continue, but the result is not a same-environment comparison.
 
-- **Answer Accuracy**：gold 要求金额答案的轮次。金额（Decimal 比较）、单位、公司/期间/意图均正确才算对。
-  可回答问题被澄清或拒答仍计错，不从分母中移除。
-- **Tool Selection Accuracy**：全部轮次。实际 Fake Response 请求的工具名与顺序必须完全匹配 gold，
-  应澄清时必须没有工具请求。失败的工具尝试也计入序列；参数和结果单独记录，最终结果另行评分。
-- **Citation Accuracy**：gold 要求带来源财务答案的轮次。答案中的 Citation、标题、页码、URL，
-  以及本任务 Evidence 的相应字段都要匹配冻结来源。只出现 `[S1]` 不够，没回答也计错。
-- **Abstention Accuracy**：非工具故障注入轮次。answer/abstain/clarify 三种决策必须正确，
-  同时惩罚错误回答与不必要的拒答/澄清。它不是“拒答越多越好”的比例。
-- **执行成功率**：全部轮次。成功返回 answer/abstain/clarify 且没有任务失败或未捕获异常算成功。
-  注入故障导致的安全停止也计执行失败；故障案例仍可因为符合预期安全行为而整体 PASS。
+## Metric denominators
 
-“场景通过”要求该场景所有轮次满足行为、适用指标和额外检查（如过时标记、歧义候选、失败阶段）。
-它不是五个指标的平均数。报告单独展示 baseline 与 probes，避免把已知支持句式的通过率当成通用能力。
+All metrics use turns as the scoring unit. N/A turns are excluded, not counted correct.
 
-## 可重复与隔离
+- **Answer Accuracy:** turns whose gold requires an amount. Decimal value, unit, company/period/intent must all match. Incorrect clarification or refusal remains incorrect and stays in the denominator.
+- **Tool Selection Accuracy:** all turns. Actual Fake-requested tool names and order must exactly match gold, including no tools for clarification. Failed attempts count in the sequence. Arguments/results are logged separately; this measures scripted orchestration, not GPT autonomy.
+- **Citation Accuracy:** turns requiring sourced financial answers. The answer and current Evidence must match citation ID, title, page, and URL. Merely including `[S1]` is insufficient; missing answers count wrong.
+- **Abstention Accuracy:** all turns except injected tool failures. The answer/abstain/clarify decision must match gold. Both unsupported answers and unnecessary refusals/clarifications are penalized.
+- **Execution success:** all turns. Return answer/abstain/clarify without failed State or an uncaught exception. An injected tool failure still counts as an execution failure, even when the case passes its safe-stop requirement.
 
-每个场景新建 Session，Memory fixture 使用独立临时目录，退出后清理，不读取用户现有记忆或 Snapshot。
-固定评估时钟为 2026-11-10T12:00:00Z，过时 Memory 的核对时间为 2026-10-01。
-任务 ID 采用场景/轮次确定生成，仍保持各任务不同；报告不含墙钟时间或随机临时路径。
-相同代码、依赖和索引连续运行应得到字节一致的三个报告文件。
+A scenario passes only when every turn satisfies behavior, applicable metrics, and extra checks such as stale markers, ambiguity candidates, and failure stage. It is not the average of the five metrics. Baseline and probe results are reported separately.
 
-普通案例调用真实本地 Search 和 Calculate。只有 E15/E16 明确对相应工具注入异常，
-不替换正常案例的真实证据或计算值。记录 Tool Call、参数、结果及错误类型；
-不保存任意异常正文、HTTP 凭据或被重定向的控制台原文。
-Gold 只交给完成后的 grader；Agent/Fake Model 收到用户问题及正常上下文，不收到 expected 字段。
+## Reproducibility and isolation
 
-## 三种评估不能混为一谈
+Each scenario gets a new Session. Memory fixtures use isolated temporary directories that are cleaned afterward, never existing user Memory/Snapshots. The evaluation clock is fixed at `2026-11-10T12:00:00Z`; stale Memory was last checked on `2026-10-01`. Task IDs are deterministic per scenario/turn but distinct across tasks. Reports omit wall-clock times and random temporary paths. Identical code, dependencies, and index should produce byte-identical reports.
 
-**Unit Testing** 验证函数、Schema、预算和安全约束。原有 85 项测试保持不变，另加 grader 的测试。
+Normal cases use actual local Search and Calculate. Only E15/E16 inject their stated tool exceptions; normal financial data and calculations are not replaced. Traces store calls, arguments, results, and error types, excluding arbitrary exception bodies, HTTP credentials, and redirected raw console text. Gold is given only to the grader after execution; the Agent/Fake Model receives questions and normal context, not expected fields.
 
-**Offline Agent Evaluation** 运行冻结任务，测量当前规则解析、Session、Context、Memory、
-真实本地检索/计算以及答案验证如何共同表现。本框架就是这一层。
+## Three different evaluation layers
 
-**Real LLM Evaluation** 才能测量真实 GPT 对表达的理解、自主工具选择、真实 Usage、延迟和费用。
-本次未进行。Fake Model 的策略已预设，Tool Selection Accuracy 不能代表 GPT 的真实能力。
-所有 Token Usage 是模拟值，不能按真实模型价格换算费用。
+**Unit Testing** checks functions, schemas, budgets, and safety contracts. The original 85 tests were preserved at this lesson stage, with additional grader tests. Later stages added more tests.
 
-当前最值得改进的是用户问题解析：覆盖“2025 年第二季度”和“那去年同期呢？”这类清晰表达，
-特别区分“上一年同期金额”与“同比增加金额”。本轮只记录问题，不修改生产逻辑使指标变好。
+**Offline Agent Evaluation** runs frozen tasks through rules, Session, Context, Memory, real local tools, and final validation. This original runner measures that layer.
 
+**Real LLM Evaluation** is needed to measure GPT's interpretation, autonomous tool selection, actual Usage, latency, and cost. It was not performed in this original offline lesson. Fake tool choices are scripted, and simulated tokens must not be priced as real API costs.
+
+The baseline's main limitation was understanding clear expressions such as a natural-language quarter or "the same quarter last year," especially distinguishing a prior-year lookup from a year-over-year increase. The lesson recorded these limitations without changing production logic to improve scores.
 
 ## Real LLM Evaluation: small development suite
 
@@ -108,13 +77,13 @@ A suite-wide client wrapper counts every Understanding/Tool Loop request across 
 
 - L01 / E01: direct CVS 2025 Q2 revenue: 98.9, Search, source S1 page 6.
 - L02 / E17: natural Chinese quarter: same value and source.
-- L03 / E18: CVS 2025 Q2 followed by “那去年同期呢？”: 98.9 then 91.2; Search each turn.
-- L04 / development: “CVS 的合并总营收增长了多少？” needs period clarification;
-  “我指 2025 Q2 比 2024 Q2” then requires Search → Calculate, 7.7, S1 page 6.
+- L03 / E18: CVS 2025 Q2 followed by the original Chinese follow-up meaning "What about the same quarter last year?": 98.9 then 91.2; Search each turn.
+- L04 / development: a Chinese question meaning "How much did CVS consolidated revenue increase?" needs period clarification;
+  the correction meaning "I mean Q2 2025 compared with Q2 2024" then requires Search → Calculate, 7.7, S1 page 6.
 - L05 / E09: CVS and UNH in one question: clarify company, no financial tools.
 - L06 / E07: CVS then Amazon: answer CVS, Search then abstain for Amazon; no invented Amazon gold.
 - L07 / E11: CVS 2023 Q2: Search then abstain; no numerical gold.
-- L08 / development: “想了解 CVS 二〇二五年第二季的合并总收入，请给出金额及来源。”:
+- L08 / development: a Chinese paraphrase requesting CVS consolidated revenue for Q2 2025, with amount and source:
   same independently sourced 98.9 and S1 page 6 from E01.
 
 ### Scoring denominators

@@ -26,12 +26,12 @@ PRIOR_REPORT = OUT / "live_20261111T032436Z" / "report.json"
 REMAINING_TURNS = (("L05", 1), ("L06", 1), ("L06", 2), ("L07", 1), ("L08", 1))
 REMAINING_CAPS = dict(requests=14, total_tokens=16000, requests_per_task=4, output_tokens_per_request=1024)
 DEFINITIONS = {
-    "intent_understanding_accuracy": "分母全部计划轮次；正确识别公司、指标、期间、比较期间与意图，或正确判断需要澄清。",
-    "tool_selection_accuracy": "分母全部计划轮次；真实模型请求的工具名与顺序完全匹配，不代表工具参数一定正确。",
-    "numerical_accuracy": "分母 gold 要求金额答案的轮次；金额、单位、查询条件均正确；错澄清/拒答计错。",
-    "citation_accuracy": "分母 gold 要求财报答案的轮次；答案和当前 Evidence 的编号、来源、页码、URL 匹配。",
-    "clarification_appropriateness": "分母全部计划轮次；该澄清时澄清，不该澄清时不澄清；运行错误或未执行计错。",
-    "abstention_accuracy": "分母全部计划轮次；answer/abstain/clarify 三类行为匹配 gold，错误拒答和不必要澄清均计错。",
+    "intent_understanding_accuracy": "Denominator: all planned turns. Company, metric, period, comparison period and intent must match, or clarification must be correctly required.",
+    "tool_selection_accuracy": "Denominator: all planned turns. Requested tool names and order must match exactly; argument correctness is checked separately.",
+    "numerical_accuracy": "Denominator: turns requiring numerical answers. Amount, unit and query must match; unnecessary clarification or refusal is incorrect.",
+    "citation_accuracy": "Denominator: turns requiring financial answers. Answer and current Evidence must match citation ID, source, page and URL.",
+    "clarification_appropriateness": "Denominator: all planned turns. Clarify only when required; execution errors and unrun turns count as incorrect.",
+    "abstention_accuracy": "Denominator: all planned turns. Answer/abstain/clarify must match gold; unnecessary refusal or clarification is incorrect.",
 }
 PRICING = {"model": agent.MODEL, "tier": "default", "currency": "USD", "checked_date": "2026-11-10",
            "input_per_million": "2", "cached_per_million": "0.10", "cache_write_per_million": "2.50",
@@ -44,12 +44,12 @@ def load_suite(path=SUITE):
     raw = path.read_text(encoding="utf-8")
     suite_hash = hashlib.sha256(raw.encode()).hexdigest()
     if suite_hash != Path(str(path) + ".sha256").read_text(encoding="ascii").strip():
-        raise EvaluationError("Live suite 冻结文件校验失败。")
+        raise EvaluationError("Live suite integrity check failed.")
     suite = json.loads(raw)
     if suite["schema_version"] != "1" or suite["dataset_sha256"] != digest:
-        raise EvaluationError("Live suite 与原冻结 Dataset 不匹配。")
+        raise EvaluationError("Live suite does not match the original frozen dataset.")
     if not 6 <= len(suite["cases"]) <= 8:
-        raise EvaluationError("Live suite 需要 6–8 个场景。")
+        raise EvaluationError("The live suite requires 6-8 scenarios.")
     by_id = {case["id"]: case for case in dataset["cases"]}
     expanded = []
     for case in suite["cases"]:
@@ -62,7 +62,7 @@ def load_suite(path=SUITE):
     suite["cases"] = expanded
     fingerprints = {name: file_hash(REPO_ROOT / name) for name in dataset["pinned_inputs"]}
     if fingerprints != dataset["pinned_inputs"]:
-        raise EvaluationError("本地财报输入与冻结版本不一致，停止评估。")
+        raise EvaluationError("Local report inputs differ from the frozen version; evaluation stopped.")
     return suite, dataset, suite_hash
 
 
@@ -73,11 +73,11 @@ def select_remaining(suite, suite_hash, prior_path=None):
     if (prior.get("evaluation_type") != "real_llm_evaluation"
             or prior.get("dataset_sha256") != suite["dataset_sha256"]
             or prior.get("suite_sha256") != suite_hash):
-        raise EvaluationError("历史真实评估与冻结 Suite 不匹配，停止选择。")
+        raise EvaluationError("Historical live evaluation does not match the frozen suite; selection stopped.")
     pending = {(row["case_id"], row["turn"]): row for row in prior["turns"]
                if row["observed"]["behavior"] == "not_run" and not row["observed"]["executed"]}
     if set(pending) != set(REMAINING_TURNS):
-        raise EvaluationError("历史未执行轮次不是已批准的剩余 5 轮，停止选择。")
+        raise EvaluationError("Historical unrun turns do not match the approved five remaining turns; selection stopped.")
     selected = deepcopy(suite)
     selected["cases"] = [case for case in selected["cases"]
                          if case["id"] in {case_id for case_id, _ in REMAINING_TURNS}]
@@ -86,10 +86,10 @@ def select_remaining(suite, suite_hash, prior_path=None):
         for index, turn in enumerate(case["turns"], 1):
             key = (case["id"], index)
             if key not in pending or any(turn[field] != pending[key][field] for field in ("question", "expected")):
-                raise EvaluationError("剩余问题/Golden Label 或 Session 前置轮次不匹配。")
+                raise EvaluationError("Remaining questions, golden labels or Session prerequisites do not match.")
             selected_ids.append(key)
     if tuple(selected_ids) != REMAINING_TURNS:
-        raise EvaluationError("剩余轮次顺序不匹配。")
+        raise EvaluationError("Remaining-turn order does not match.")
     selected["caps"] = deepcopy(REMAINING_CAPS)
     selected["scope"] += " Remaining five turns only, current code version; NOT a combined multi-version score."
     selected["selection"] = {
@@ -122,11 +122,11 @@ class BudgetedClient:
         if (self.stopped or len(self.events) >= self.caps["requests"]
                 or self.total_tokens + estimate + payload["max_output_tokens"] > self.caps["total_tokens"]):
             self.stopped = True
-            raise agent.StopAgent("整组 Live Evaluation 请求或 Token 预算不足。")
+            raise agent.StopAgent("The evaluation request or token budget is insufficient.")
         if (payload["model"] != agent.MODEL or payload.get("service_tier") != "default"
                 or not 1 <= payload["max_output_tokens"] <= self.caps["output_tokens_per_request"]):
             self.stopped = True
-            raise agent.StopAgent("评估模型或输出上限不符合批准配置。")
+            raise agent.StopAgent("The model or output limit does not match the approved evaluation configuration.")
         event = {"request": len(self.events) + 1, "stage": payload["text"]["format"]["name"],
                  "usage": None, "understanding": None, "tool_calls": [], "error": None,
                  "estimated_input_tokens": estimate}
@@ -140,12 +140,12 @@ class BudgetedClient:
         usage = response.usage
         if usage is None:
             self.stopped = True
-            raise agent.StopAgent("API 未提供 Usage，停止整组评估；费用未知。")
+            raise agent.StopAgent("The API did not return Usage; the entire evaluation stopped and cost is unknown.")
         counts = [getattr(usage, key, None) for key in ("input_tokens", "output_tokens", "total_tokens")]
         if (any(type(value) is not int or value < 0 for value in counts)
                 or counts[0] + counts[1] != counts[2]):
             self.stopped = True
-            raise agent.StopAgent("Usage 计数不合法，停止后续请求；费用未知。")
+            raise agent.StopAgent("Usage counts are invalid; further requests stopped and cost is unknown.")
         event["usage"] = {key: getattr(usage, key) for key in ("input_tokens", "output_tokens", "total_tokens")}
         details = usage.input_tokens_details
         event["usage"].update(cached_tokens=getattr(details, "cached_tokens", None),
@@ -201,20 +201,20 @@ def grade(expected, observed, sources):
 
 def cost_estimate(events, live):
     if not live:
-        return {"usd": None, "note": "Fake Usage 不能换算为实际 API 费用。"}
+        return {"usd": None, "note": "Simulated Usage cannot be converted into actual API cost."}
     total = Decimal(0)
     for event in events:
         usage = event["usage"]
         if usage is None or usage["cached_tokens"] is None or usage["cache_write_tokens"] is None:
-            return {"usd": None, "note": "部分请求未返回完整 Usage，费用未知。"}
+            return {"usd": None, "note": "Some requests did not return complete Usage; cost is unknown."}
         ordinary = usage["input_tokens"] - usage["cached_tokens"] - usage["cache_write_tokens"]
         if ordinary < 0:
-            return {"usd": None, "note": "缓存用量口径不一致，不能可靠估算。"}
+            return {"usd": None, "note": "Cache usage counts are inconsistent; cost cannot be reliably estimated."}
         total += (Decimal(ordinary) * Decimal(PRICING["input_per_million"])
                   + Decimal(usage["cached_tokens"]) * Decimal(PRICING["cached_per_million"])
                   + Decimal(usage["cache_write_tokens"]) * Decimal(PRICING["cache_write_per_million"])
                   + Decimal(usage["output_tokens"]) * Decimal(PRICING["output_per_million"])) / 1000000
-    return {"usd": str(total), "note": "按已返回 Usage 和冻结 Standard 定价估算；以学校账单为准。"}
+    return {"usd": str(total), "note": "Estimated from returned Usage and frozen Standard rates; the school invoice is authoritative."}
 
 
 def evaluate(suite, dataset, suite_hash, *, live_client=None, fake_factory=None, caps=None,
@@ -254,7 +254,7 @@ def evaluate(suite, dataset, suite_hash, *, live_client=None, fake_factory=None,
                     "unsupported" if result and result.category == "unsupported_capability"
                     else classify(result) if result else "not_run"),
                     "category": result.category if result else None,
-                    "answer": result.answer if result else "前序错误或预算触发停止，未执行。",
+                    "answer": result.answer if result else "Not executed because a prior error or budget limit stopped the run.",
                     "query": {key: getattr(query, key) for key in ("company", "year", "quarter", "kind")} if query else None,
                     "understanding": next((event["understanding"] for event in events if event["stage"] == "financial_question"), None),
                     "tool_calls": calls, "evidence": state.evidence if state else None,
@@ -277,15 +277,15 @@ def evaluate(suite, dataset, suite_hash, *, live_client=None, fake_factory=None,
         if not checks:
             continue
         if not row["observed"]["executed"]:
-            analysis = "前序停止导致未执行：影响覆盖率，不能认定为模型理解错误。"
+            analysis = "Not run after an earlier stop: this reduces coverage but is not evidence of a model interpretation error."
         elif row["observed"]["failure_stage"] in {"api_request", "response_validation", "budget_check"}:
-            analysis = "先检查预算或 API 响应；运行失败与语义误解分开诊断。"
+            analysis = "Check budgets and API responses first; diagnose execution failures separately from semantic errors."
         elif "intent_understanding_accuracy" in checks:
-            analysis = "理解阶段与 gold 不符：检查指代期间、指标及是否存在不必要澄清。"
+            analysis = "Understanding differs from gold: inspect period references, metric selection and unnecessary clarification."
         elif "tool_selection_accuracy" in checks:
-            analysis = "理解后选择的工具顺序不符：核对 Search → Calculate 及是否提前作答。"
+            analysis = "Tool order differs after understanding: check Search -> Calculate and premature answers."
         else:
-            analysis = "核对工具结果、最终金额和来源；Schema 合法不代表事实正确。"
+            analysis = "Compare tool results, final amount and source; schema validity does not establish factual accuracy."
         failures.append({"case_id":row["case_id"],"turn":row["turn"],"checks":checks,
                          "stage":row["observed"]["failure_stage"],"analysis":analysis})
     return {"evaluation_type": "real_llm_evaluation" if live else "offline_runner_contract_check",
@@ -306,13 +306,13 @@ def evaluate(suite, dataset, suite_hash, *, live_client=None, fake_factory=None,
             "legacy_contract_failures": [{"case_id": row["case_id"], "turn": row["turn"],
                 "checks": row["evaluation"]["legacy_evaluation"]["failed_checks"]}
                 for row in rows if not row["evaluation"]["legacy_evaluation"]["passed"]],
-            "limitations": ["开发/回归集，含已用于调试的题目，不是独立 Out-of-sample Test。",
-                "未执行项仍计入计划分母并计错；同时报告覆盖率，避免提前停止抬高分数。",
-                "原冻结 gold 不变。legacy_evaluation 保留 pending_companies 等实现契约检查；新语义指标不依赖此 Python 字段。",
-                "Rule-based Offline Evaluation 的 18 场景/25轮报告独立保存，不能与本组直接比较总体百分比。",
-                "Fake contract check 只验证评估器；真实 GPT 能力必须看 real_llm_evaluation。",
-                "澄清指标衡量是否该澄清；不自动评分澄清措辞的语义质量，需人工核查所记录的问题。",
-                "按标准价的费用估算不是服务端美元硬限额；异常未返回 Usage 时费用未知。"]}
+            "limitations": ["Development/regression set including debugging questions, not an independent out-of-sample test.",
+                "Unrun items remain in planned denominators and count as incorrect; coverage is reported to avoid inflated scores after early stopping.",
+                "Frozen gold is unchanged. legacy_evaluation retains implementation checks such as pending_companies; semantic metrics do not depend on that Python field.",
+                "The 18-scenario/25-turn Rule-based Offline Evaluation is separate; its overall percentages are not directly comparable with this suite.",
+                "Fake contract checks validate the runner only; real GPT capability requires real_llm_evaluation results.",
+                "Clarification metrics assess whether clarification is appropriate, not the semantic quality of its wording; review recorded questions manually.",
+                "Standard-rate cost estimates are not server-enforced dollar limits; cost is unknown when failures return no Usage."]}
 
 
 def write_report(report, directory):
@@ -336,7 +336,7 @@ def main():
     parser.add_argument("--remaining", action="store_true", help="Only previously unexecuted L05-L08 (5 turns)")
     args = parser.parse_args()
     if args.live and not args.confirm_paid_api:
-        print("未确认付费，未读取密钥或发送请求。")
+        print("Paid execution was not confirmed; no key was read and no request was sent.")
         return 1
     for name in ("openai", "httpx", "httpx2", "httpcore"):
         logging.getLogger(name).disabled = True
@@ -361,6 +361,6 @@ if __name__ == "__main__":
     try:
         exit_code = main()
     except Exception:
-        print("评估配置或初始化失败，已停止；外部异常详情隐藏。")
+        print("Evaluation configuration or initialization failed; execution stopped and external error details are hidden.")
         exit_code = 1
     raise SystemExit(exit_code)

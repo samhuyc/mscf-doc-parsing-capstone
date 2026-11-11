@@ -142,7 +142,7 @@ def resolve_question(question: str, session: Session) -> ResearchQuery:
         kind = "search"
     else:
         # In particular, do not silently drop unknown companies, metrics, dates,
-        # instructions, comparison bases, or ambiguous pronouns such as 它们.
+        # instructions, comparison bases, or ambiguous plural pronouns such as "they".
         raise ClarificationNeeded(
             "问题存在歧义或超出当前句式。请明确公司 Ticker、季度（如 2025 Q2）、合并总营收，"
             "或询问‘那比去年增长了多少？’。"

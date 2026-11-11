@@ -1,0 +1,38 @@
+[
+  {
+    "document": "hippodrome_2025",
+    "page": 36,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9968208506674451,
+      "character_weighted_mean": 0.9976469225296549,
+      "geometric_mean": 0.9960192760326408,
+      "p10": 0.9996634325516623,
+      "fraction_below_0_90": 0.0068359375,
+      "minimum": 0.21387350052436885,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 25,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9987300145925938,
+      "character_weighted_mean": 0.9992238317941923,
+      "geometric_mean": 0.9984959086524487,
+      "p10": 0.9999326718863778,
+      "fraction_below_0_90": 0.00341796875,
+      "minimum": 0.4569467559457968,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "ng operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss"
+  }
+]

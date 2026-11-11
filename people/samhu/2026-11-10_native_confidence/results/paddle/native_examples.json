@@ -1,0 +1,133 @@
+[
+  {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "units": [
+      {
+        "text": "Second Quarter 2025 | July 31, 2025",
+        "score": 0.9425261616706848,
+        "native_score": 0.9425261616706848,
+        "score_kind": "paddle_native_recognition_score",
+        "unit_kind": "line",
+        "polygon": [
+          [
+            173,
+            194
+          ],
+          [
+            1165,
+            194
+          ],
+          [
+            1165,
+            260
+          ],
+          [
+            173,
+            260
+          ]
+        ]
+      },
+      {
+        "text": "vcVsHealth",
+        "score": 0.8756052255630493,
+        "native_score": 0.8756052255630493,
+        "score_kind": "paddle_native_recognition_score",
+        "unit_kind": "line",
+        "polygon": [
+          [
+            176,
+            415
+          ],
+          [
+            930,
+            424
+          ],
+          [
+            928,
+            529
+          ],
+          [
+            175,
+            520
+          ]
+        ]
+      },
+      {
+        "text": "Earnings",
+        "score": 0.9995309114456177,
+        "native_score": 0.9995309114456177,
+        "score_kind": "paddle_native_recognition_score",
+        "unit_kind": "line",
+        "polygon": [
+          [
+            173,
+            585
+          ],
+          [
+            703,
+            600
+          ],
+          [
+            700,
+            725
+          ],
+          [
+            170,
+            711
+          ]
+        ]
+      },
+      {
+        "text": "Conference Call",
+        "score": 0.9809051752090454,
+        "native_score": 0.9809051752090454,
+        "score_kind": "paddle_native_recognition_score",
+        "unit_kind": "line",
+        "polygon": [
+          [
+            175,
+            724
+          ],
+          [
+            827,
+            724
+          ],
+          [
+            827,
+            812
+          ],
+          [
+            175,
+            812
+          ]
+        ]
+      },
+      {
+        "text": "-",
+        "score": 0.9955341815948486,
+        "native_score": 0.9955341815948486,
+        "score_kind": "paddle_native_recognition_score",
+        "unit_kind": "line",
+        "polygon": [
+          [
+            1439,
+            915
+          ],
+          [
+            1888,
+            424
+          ],
+          [
+            2308,
+            825
+          ],
+          [
+            1859,
+            1317
+          ]
+        ]
+      }
+    ]
+  }
+]

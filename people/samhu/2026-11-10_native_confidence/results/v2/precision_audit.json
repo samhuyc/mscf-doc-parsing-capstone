@@ -1,0 +1,40 @@
+{
+  "paddle": {
+    "pages": 80,
+    "changed_text_pages": 0,
+    "units": 138644,
+    "exact_one": 0,
+    "mean": 0.9782257733186721,
+    "median": 0.9992037415504456,
+    "minimum": 0.10140204429626465,
+    "below_90": 8610,
+    "max_distribution_sum_error": 0.0004233121871948242
+  },
+  "mineru": {
+    "pages": 74,
+    "changed_text_pages": 0,
+    "units": 41181,
+    "exact_one": 0,
+    "mean": 0.9931621768491108,
+    "median": 0.9999913558559261,
+    "minimum": 0.05217805418900883,
+    "below_90": 748,
+    "backend_exact_one": 40259,
+    "v1_exact_one": 1295,
+    "mean_absolute_probability_change": 2.4498929833628533e-07,
+    "max_absolute_probability_change": 6.118542169786245e-05,
+    "comparison": "v1 and v2 normalization on the same newly captured original logits"
+  },
+  "float32_forward_check": {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "same_text": true,
+    "same_token_ids": true,
+    "native_mean": 0.9728977226256603,
+    "float32_mean": 0.9738725634663965,
+    "float32_logit_dtypes": [
+      "mlx.core.float32"
+    ],
+    "scope": "One-page diagnostic. Checkpoint weights cast from BF16 to FP32; original training precision cannot be recovered."
+  }
+}

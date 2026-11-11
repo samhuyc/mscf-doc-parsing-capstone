@@ -1,0 +1,146 @@
+[
+  {
+    "document": "hippodrome_2025",
+    "page": 36,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9968208573578926,
+      "character_weighted_mean": 0.9976468999633612,
+      "geometric_mean": 0.9960192840275358,
+      "p10": 0.9996632279915229,
+      "fraction_below_0_90": 0.0068359375,
+      "minimum": 0.21387199628288375,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n____\n"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 25,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.998729963748106,
+      "character_weighted_mean": 0.9992237838782423,
+      "geometric_mean": 0.9984958413087709,
+      "p10": 0.9999327704835214,
+      "fraction_below_0_90": 0.00341796875,
+      "minimum": 0.4569464835843873,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "ng operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss)\nUnderlying operating profit/(loss"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 27,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9981478682000521,
+      "character_weighted_mean": 0.9966908345725899,
+      "geometric_mean": 0.9978647105518644,
+      "p10": 0.9998430260128396,
+      "fraction_below_0_90": 0.005615234375,
+      "minimum": 0.4809518431883969,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "  £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m\n    £m"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 28,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9978802817006832,
+      "character_weighted_mean": 0.9974851362052127,
+      "geometric_mean": 0.9973845748043593,
+      "p10": 0.9994138341032329,
+      "fraction_below_0_90": 0.0048828125,
+      "minimum": 0.3837958675797486,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "efore\nfinancing\nProfit before\nfinancing\nTaxation\nRevenue\nProfit\nbefore\nfinancing\nProfit before\nfinancing\nTaxation\nRevenue\nProfit\nbefore\nfinancing\nProfit before\nfinancing\nTaxation\nRevenue\nProfit\nbefore"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 32,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9965140951990173,
+      "character_weighted_mean": 0.9973430375152411,
+      "geometric_mean": 0.9958248198046742,
+      "p10": 0.9983357515981828,
+      "fraction_below_0_90": 0.009033203125,
+      "minimum": 0.1829691116557672,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "sic\n        Diluted\n        Basic\n        Diluted\n        Basic\n        Diluted\n        Basic\n        Diluted\n        Basic\n        Diluted\n        Basic\n        Diluted\n        Basic\n        Diluted\n"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 33,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.996868116508082,
+      "character_weighted_mean": 0.9979631734756518,
+      "geometric_mean": 0.9959161429122846,
+      "p10": 0.9984268893972641,
+      "fraction_below_0_90": 0.00537109375,
+      "minimum": 0.1630660696695772,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n### Accounting Data\n"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 39,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9971035907709337,
+      "character_weighted_mean": 0.9967338491478441,
+      "geometric_mean": 0.9966541860483314,
+      "p10": 0.9990431889307747,
+      "fraction_below_0_90": 0.00732421875,
+      "minimum": 0.44038826561393307,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": "£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m\n£m"
+  },
+  {
+    "document": "rolls_royce_2026h1_release",
+    "page": 41,
+    "stop_reason": "token_limit",
+    "confidence": {
+      "returned_units": 4096,
+      "scored_units": 4096,
+      "mean": 0.9965389894539232,
+      "character_weighted_mean": 0.9959114504507502,
+      "geometric_mean": 0.9960240415748495,
+      "p10": 0.9965651407220687,
+      "fraction_below_0_90": 0.005859375,
+      "minimum": 0.3914939301219766,
+      "probability_document_correct": null,
+      "calibrated": false
+    },
+    "output_tail": ")\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19)\n(19"
+  }
+]

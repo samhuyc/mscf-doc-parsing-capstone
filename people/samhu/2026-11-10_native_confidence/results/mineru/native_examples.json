@@ -1,0 +1,58 @@
+[
+  {
+    "document": "cvs_2025q2",
+    "page": 1,
+    "units": [
+      {
+        "token_id": 15666,
+        "text": "Second",
+        "score": 0.9990374778424019,
+        "log_probability": -0.0009629856795072556,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0009629856795072556,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability"
+      },
+      {
+        "token_id": 34394,
+        "text": " Quarter",
+        "score": 0.9993250160690268,
+        "log_probability": -0.0006752118351869285,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 0.0006752118351869285,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability"
+      },
+      {
+        "token_id": 220,
+        "text": " ",
+        "score": 0.9999493386194785,
+        "log_probability": -5.066266385256313e-05,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 5.066266385256313e-05,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability"
+      },
+      {
+        "token_id": 17,
+        "text": "2",
+        "score": 0.9999995231630692,
+        "log_probability": -4.768370445162873e-07,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 4.768370445162873e-07,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability"
+      },
+      {
+        "token_id": 15,
+        "text": "0",
+        "score": 0.9999979734461775,
+        "log_probability": -2.0265558760002023e-06,
+        "backend_log_probability": 0.0,
+        "log_normalization_correction": 2.0265558760002023e-06,
+        "unit_kind": "subword_token",
+        "score_kind": "selected_token_softmax_probability"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "engine": "tesseract",
+    "successful_pages": 140,
+    "expected_pages": 140,
+    "scored_units": 49645,
+    "inference_seconds_sum": 269.431,
+    "truncated_pages": 0,
+    "failed_pages": 0
+  },
+  {
+    "engine": "paddle",
+    "successful_pages": 80,
+    "expected_pages": 140,
+    "scored_units": 138644,
+    "inference_seconds_sum": 1219.905,
+    "truncated_pages": 0,
+    "failed_pages": 0
+  },
+  {
+    "engine": "mineru",
+    "successful_pages": 74,
+    "expected_pages": 140,
+    "scored_units": 41181,
+    "inference_seconds_sum": 1329.454,
+    "truncated_pages": 2,
+    "failed_pages": 0
+  }
+]

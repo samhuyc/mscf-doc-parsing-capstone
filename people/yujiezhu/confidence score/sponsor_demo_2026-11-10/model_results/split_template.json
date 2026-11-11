@@ -1,0 +1,12 @@
+{
+  "train": [
+    "cvs_2025q2",
+    "edf_2024"
+  ],
+  "calibration": [
+    "hippodrome_2025"
+  ],
+  "test": [
+    "rolls_royce_2026h1"
+  ]
+}

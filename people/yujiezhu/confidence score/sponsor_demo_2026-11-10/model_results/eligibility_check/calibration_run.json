@@ -1,0 +1,12 @@
+{
+  "numeric": {
+    "status": "not_fitted",
+    "reason": "train: independently_reviewed_labels_required",
+    "confidence": null
+  },
+  "association": {
+    "status": "not_fitted",
+    "reason": "train: independently_reviewed_labels_required",
+    "confidence": null
+  }
+}

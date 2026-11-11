@@ -19,5 +19,33 @@
     "markdown_characters": 71152,
     "html_tables": 11,
     "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "04_extractbench",
+    "parsed_pages": 25,
+    "markdown_characters": 39782,
+    "html_tables": 23,
+    "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "05_extractbench",
+    "parsed_pages": 59,
+    "markdown_characters": 292771,
+    "html_tables": 56,
+    "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "06_extractbench",
+    "parsed_pages": 56,
+    "markdown_characters": 151387,
+    "html_tables": 22,
+    "interpretation": "Output inventory, not correctness metrics"
+  },
+  {
+    "local_id": "07_longextract",
+    "parsed_pages": 40,
+    "markdown_characters": 125661,
+    "html_tables": 60,
+    "interpretation": "Output inventory, not correctness metrics"
   }
 ]

@@ -1,0 +1,123 @@
+{
+  "inputs": [
+    {
+      "document": "cvs_2025q2",
+      "parser": "mineru_ocr",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/mineru_ocr/pages.json",
+      "export_sha256": "1a11f6f344b0731d2604e232d38284650157d69f771669444ea72fb5eef43ff1",
+      "snapshot_sha256": "04adb028eefb961d576f3545fbf74b4479559b842b87d34c8ad89c4f14546748",
+      "source_pdf_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a"
+    },
+    {
+      "document": "cvs_2025q2",
+      "parser": "pymupdf4llm",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/pages.json",
+      "export_sha256": "c404b60da115baf2b8dfe11245d4e2ff8cf9e6922b053f7376d669f552155fdc",
+      "snapshot_sha256": "6903cb364f1f21994e506756c718f930ca5e3e371fbae8b95836e1a9d3ff18fe",
+      "source_pdf_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "mineru_ocr",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/mineru_ocr/pages.json",
+      "export_sha256": "3dc4c35fbea5e9602cf13420c4f4919af6f976dfb9092513fd0a0197be01e1af",
+      "snapshot_sha256": "478ff59ae5b18bffc867408b9040d7fbc5a460c1d558eb7a248600a19b5499e3",
+      "source_pdf_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60"
+    },
+    {
+      "document": "edf_2024",
+      "parser": "pymupdf4llm",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/pages.json",
+      "export_sha256": "78f04865bd2fbb6eaa665dad43f5d0b90481a832f48a9c213280fef20b70bd00",
+      "snapshot_sha256": "2efface54a0fb5a1523326aab6013eae29d31d281b75d6d13e5b1d29ab10f195",
+      "source_pdf_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "mineru_ocr",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/mineru_ocr/pages.json",
+      "export_sha256": "09572996a978de3033fc7cf4d5176385973198cd5961be5586a776425d794123",
+      "snapshot_sha256": "3ddbf76386addce235de7416e912aaff8edf19e027b9a910ded5b5f444d71fc9",
+      "source_pdf_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224"
+    },
+    {
+      "document": "hippodrome_2025",
+      "parser": "pymupdf4llm",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/pages.json",
+      "export_sha256": "f910565748b8352f637eb081662b7f4cda75e40d0f3842742aaaa406dd63ce88",
+      "snapshot_sha256": "d990bc6a3bcd6dbddc103b37ce70607764e808fde2c4a7401126175eff82b8dd",
+      "source_pdf_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "mineru_ocr",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/mineru_ocr/pages.json",
+      "export_sha256": "a5b507173a782b58b05defde753f166a62f17373aa726b6f3671bdb85ada5162",
+      "snapshot_sha256": "b728d5cf53426b385388aa2ce19f98c2cb1fbd275d3db49860e180eda26d3fe8",
+      "source_pdf_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "parser": "pymupdf4llm",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_presentation/pymupdf4llm/pages.json",
+      "export_sha256": "b4ad1d94998206b2879244084095b24f868ba29cb40e771485e71089b8a358d4",
+      "snapshot_sha256": "54c6883dc3bc100ccb9b83b5f795ae14d5b99fba77b61d38720aa960b100eafe",
+      "source_pdf_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "mineru_ocr",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/mineru_ocr/pages.json",
+      "export_sha256": "d09ff696dc2d26f54ead3aa9946831a1f04f0323b57d37d21720cb897406a797",
+      "snapshot_sha256": "128e34ed500e847166b3e9b8edec1ca93e19b592e61b91079e86afbac4d4adbd",
+      "source_pdf_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "parser": "pymupdf4llm",
+      "source_path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/pages.json",
+      "export_sha256": "7c7b33fbc270537bc7241e59fb8aebcafaefa9df480f487b0494c337b9c80942",
+      "snapshot_sha256": "69507ed5e64d2957bd25c71752120a0e509c0aa4fd4af53338b784476b8c24c0",
+      "source_pdf_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904"
+    },
+    {
+      "document": "cvs_2025q2",
+      "source_image": "cvs_2025q2_006.png",
+      "image_sha256": "4140f131f38907ad1bfb332239c70bdbedb62809c7bb227942d9024b02f81ce1",
+      "source_url": "https://s206.q4cdn.com/752775519/files/doc_financials/2025/q2/2Q-2025-Earnings-Presentation.pdf"
+    },
+    {
+      "document": "edf_2024",
+      "source_image": "edf_2024_003.png",
+      "image_sha256": "b42af413be7f2d4342c208d445d2a13128367bc41ff9abff690b831b17e72a5a",
+      "source_url": "https://www.edfenergy.com/sites/default/files/2025-12/CSS-2024-Submission-Final.pdf"
+    },
+    {
+      "document": "hippodrome_2025",
+      "source_image": "hippodrome_2025_020.png",
+      "image_sha256": "c65d05a0e3b8ff9f7e67556a60087d611bae69477076dfb6e5f933c6aab0d495",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/05497987/filing-history/MzUyNzI0MTgyOGFkaXF6a2N4/document?format=pdf&download=0"
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "source_image": "rolls_royce_2026h1_presentation_009.png",
+      "image_sha256": "c0c4dd226bcfc5fef8365118909704928162db27f2cfe3f1639c575b9eb73539",
+      "source_url": "https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-presentation.pdf"
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "source_image": "rolls_royce_2026h1_release_013.png",
+      "image_sha256": "f15406701a619a44868ec61d4756e5a50956b8fd8e7551b95c344e051b03c6bc",
+      "source_url": "https://www.rolls-royce.com/~/media/Files/R/Rolls-Royce/documents/investors/rr-holdings-plc-2026-half-year-results-press-release.pdf"
+    },
+    {
+      "document": "peterborough_2025",
+      "source_image": "peterborough_2025_002.png",
+      "image_sha256": "8b4e480d4e1e87901a83ee3dad8f569da1c8ce54bc7a43a11f6c19d9e9d4d839",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/01814662/filing-history/MzQ5NTc4NzAxMWFkaXF6a2N4/document?format=pdf&download=0"
+    }
+  ],
+  "protocol_sha256": "6198c24828588c242206396c85d22af6fa4d528ed6985ab04e2ddf2f81863c37",
+  "review_labels_sha256": "0c405d2264e70ebc096de3f81c7683c489459c7c0f50752da8354f1119e14843",
+  "predictor_sha256": "3bf64a5dfb89e850c1654f26687c46791afb03004a054e75132ab7f01fb692f8"
+}

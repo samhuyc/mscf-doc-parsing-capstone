@@ -1,0 +1,63 @@
+{
+  "reviewer": "Codex assistant",
+  "human_verified": false,
+  "review_date": "2026-11-09",
+  "method": "Visually compared all listed source values, labels, headers and unit contexts with the existing source-page PNG renders and raw MinerU HTML. Each row expands to one annotation per value. Flags apply to each expanded annotation. Numeric correctness is distinct from usable structured-cell correctness. No source values are used by the prediction stage.",
+  "documents": {
+    "cvs_2025q2": {
+      "column_headers": ["2Q 2025", "2Q 2024"],
+      "rows": [
+        {"label":"Total Revenues", "values":["$98.9","$91.2"], "unit":"USD billions"},
+        {"label":"Adjusted Operating Income", "values":["$3.81","$3.74"], "unit":"USD billions"},
+        {"label":"GAAP Earnings per Share", "values":["$0.80","$1.41"], "unit":"USD per share"},
+        {"label":"Adjusted Earnings per Share", "values":["$1.81","$1.83"], "unit":"USD per share"},
+        {"label":"Cash Flow from Operations", "values":["$1.9","$3.1"], "unit":"USD billions"}
+      ],
+      "numeric_correct":true, "row_correct":true, "column_correct":true, "unit_correct":true,
+      "note":"All ten sampled cells retain the correct financial labels, periods and unit context."
+    },
+    "edf_2024": {
+      "column_headers":["Electricity supply / Domestic","Electricity supply / Non Domestic","Gas supply / Domestic","Gas supply / Non Domestic","Aggregate supply business"],
+      "rows":[
+        {"label":"Total revenue", "values":["3,037.1","8,674.9","1,693.1","126.6","13,531.6"], "unit":"GBP millions", "numeric_correct":true},
+        {"label":"Revenue from sale of electricity and gas / Other revenues", "values":[["3,037.1","0.0"],["8,674.9","0.0"],["1,693.1","0.0"],["126.6","0.0"],["13,531.6","0.0"]], "unit":"GBP millions per original row", "numeric_correct":false}
+      ],
+      "row_correct":false, "column_correct":true, "unit_correct":false,
+      "note":"MinerU joins three row labels and three unit strings into a shared cell. The first five numeric strings are right but lack a unique row/unit association. The next five concatenate values from two source rows, e.g. 3,037.10.0. These are association/merged-cell failures, not ten OCR digit errors."
+    },
+    "hippodrome_2025": {
+      "column_headers":["2025 £","2024 £"],
+      "rows":[
+        {"label":"Turnover", "values":["116,787,681","114,583,476"], "unit":"GBP"},
+        {"label":"Cost of sales", "values":["(49,553,722)","(49,669,638)"], "unit":"GBP"},
+        {"label":"Gross profit", "values":["67,233,959","64,913,838"], "unit":"GBP"},
+        {"label":"Administrative expenses", "values":["(61,723,344)","(56,732,754)"], "unit":"GBP"},
+        {"label":"Operating profit", "values":["5,510,615","8,181,084"], "unit":"GBP"}
+      ],
+      "numeric_correct":true, "row_correct":true, "column_correct":true, "unit_correct":true,
+      "note":"All ten sampled cells preserve their signs, financial rows, years and GBP units. Physical PDF page 20 has printed page number 18."
+    },
+    "rolls_royce_2026h1_presentation": {
+      "column_headers":["H1 2026","H1 2025","Organic Change1","Organic Change %1"],
+      "rows":[
+        {"label":"Revenue", "values":["11,279","9,057","2,310","26%"], "unit":["GBP millions","GBP millions","GBP millions, organic change","percent, organic change"]},
+        {"label":"Gross profit", "values":["3,397","2,572","839","33%"], "unit":["GBP millions","GBP millions","GBP millions, organic change","percent, organic change"]},
+        {"label":"Gross margin %", "values":["30.1%","28.4%"], "unit":"percent"}
+      ],
+      "numeric_correct":true, "row_correct":true, "column_correct":true, "unit_correct":true,
+      "note":"All ten sampled cells are correct. Organic change is not a simple subtraction of the two reported periods; no naive arithmetic rule is applied."
+    },
+    "rolls_royce_2026h1_release": {
+      "column_headers":["Half-year to 30 June 2026 £m","Half-year to 30 June 2025 £m"],
+      "rows":[
+        {"label":"Revenue", "values":["11,448","9,490"], "unit":"GBP millions"},
+        {"label":"Cost of sales", "values":["(8,021)","(6,563)"], "unit":"GBP millions"},
+        {"label":"Gross profit", "values":["3,427","2,927"], "unit":"GBP millions"},
+        {"label":"Commercial and administrative costs", "values":["(797)","(631)"], "unit":"GBP millions"},
+        {"label":"Research and development costs", "values":["(228)","(246)"], "unit":"GBP millions"}
+      ],
+      "numeric_correct":true, "row_correct":true, "column_correct":false, "unit_correct":true,
+      "note":"All ten numbers and row associations are right, but the primary export merges both period headers and units into a single colspan=3 cell. No unique per-column period binding is retained under this demo's strict structured-cell contract. This is unresolved header structure, not evidence that the numbers themselves are false."
+    }
+  }
+}

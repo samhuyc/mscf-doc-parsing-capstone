@@ -1,0 +1,71 @@
+{
+  "version": "sponsor-evidence-demo-v2",
+  "prepared_date": "2026-11-09",
+  "presentation_date": "2026-11-10",
+  "target": "A returned table value is usable as a structured financial cell: its numeric content/sign, row association, column association and unit context are correct and unambiguous in the exported table. Merged unresolved labels/headers fail this strict contract even when the digits are right.",
+  "primary_parser": "mineru_ocr",
+  "comparison_parser": "pymupdf4llm",
+  "sampling": "First ten nonempty value-position cells, in row-major order, in the first HTML table of each specified page. Header rows and leading label/note/unit columns are excluded using the explicit per-document configuration below. Malformed numeric cells remain in the sample. No values are corrected.",
+  "evidence_rule": "Stronger evidence requires a single numeric token, a unique corresponding row in the comparison table, an unmerged value cell, an unmerged primary row label, and agreement on normalized value, row label and per-column header path. Everything else is weaker evidence. No reference values or correctness labels enter this rule. Unit correctness is reviewed but not independently predicted by this baseline.",
+  "estimator": "No per-cell probability is estimated. Confidence is null for all cells. Report only evidence features/groups and observed reviewed counts. Previous add-one-smoothed group rates were withdrawn as confidence scores because their calibration and applicability to individual values were not established.",
+  "review": "Assistant visual review of existing source-page PNG renders; not independent human/expert ground truth. Original sponsor PDFs are not present in this checkout. Image provenance follows the prior source manifest and review artifacts.",
+  "validation": "Retrospective document-separated replay, not a blind prospective holdout. Existing parser reports and outputs were already inspected. Both related Rolls-Royce documents stay in the replay partition. Rules and labels are not tuned after the first scoring run. Individual cells in a document are correlated.",
+  "documents": [
+    {
+      "id": "cvs_2025q2",
+      "short": "CVS",
+      "page": 6,
+      "split": "development",
+      "header_rows": 1,
+      "value_start": 1,
+      "comparison_header_rows": 1,
+      "comparison_value_start": 1
+    },
+    {
+      "id": "edf_2024",
+      "short": "EDF",
+      "page": 3,
+      "split": "development",
+      "header_rows": 2,
+      "value_start": 2,
+      "comparison_header_rows": 2,
+      "comparison_value_start": 2
+    },
+    {
+      "id": "hippodrome_2025",
+      "short": "Hippodrome",
+      "page": 20,
+      "split": "development",
+      "header_rows": 1,
+      "value_start": 2,
+      "comparison_header_rows": 1,
+      "comparison_value_start": 2
+    },
+    {
+      "id": "rolls_royce_2026h1_presentation",
+      "short": "Rolls-Royce presentation",
+      "page": 9,
+      "split": "replay",
+      "header_rows": 1,
+      "value_start": 1,
+      "comparison_header_rows": 1,
+      "comparison_value_start": 1
+    },
+    {
+      "id": "rolls_royce_2026h1_release",
+      "short": "Rolls-Royce release",
+      "page": 13,
+      "split": "replay",
+      "header_rows": 2,
+      "value_start": 1,
+      "comparison_header_rows": 1,
+      "comparison_value_start": 2
+    }
+  ],
+  "abstention_example": {
+    "id": "peterborough_2025",
+    "page": 2,
+    "reason": "The primary table has one column containing mixed labels and numbers. The demo cannot emit separately bound financial cells, so it returns no probability and requests review. This example is separate from the 50-cell denominator."
+  },
+  "corrected_date": "2026-11-10"
+}

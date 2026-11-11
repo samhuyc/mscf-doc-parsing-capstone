@@ -1,5 +1,12 @@
 # MinerU benchmark pilot and confidence scoring
 
+**November 10 sponsor presentation:** see the
+[confidence demo](sponsor_demo_2026-11-10/README.md),
+[eight-slide PDF](sponsor_demo_2026-11-10/CONFIDENCE_DEMO.pdf), and
+[speaker notes](sponsor_demo_2026-11-10/SPEAKER_NOTES.md).
+It reports extraction evidence and reviewed sample counts. The earlier numerical
+confidence claims have been withdrawn; per-cell probabilities are not yet estimated.
+
 Research checked: October 28, 2026. The nine-document pilot is implemented and
 downloaded (611 pages). See the [live run report](results/mineru_cpu_v2/SUMMARY.md)
 for persisted completion states and scores; unfinished jobs are explicitly shown.

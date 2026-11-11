@@ -3,6 +3,8 @@ from copy import deepcopy
 import io
 import json
 import socket
+from pathlib import Path
+import tempfile
 import unittest
 from unittest.mock import patch
 
@@ -126,7 +128,15 @@ class OutputGuardrailTests(unittest.TestCase):
         self.assertEqual(diagnostic["structured_summary"]["extra_field_count"], 2)
         self.assertTrue(all(set(issue) == {"field", "type"} for issue in diagnostic["schema_issues"]))
 
-    def test_real_retest_context_does_not_restore_prior_state_or_evidence(self):
+    def test_retest_context_does_not_restore_prior_state_or_evidence(self):
+        folder = Path(self.enterContext(tempfile.TemporaryDirectory()))
+        path = folder/'synthetic_prior.json'
+        path.write_text(json.dumps({'turns':[
+            {'case_id':'L04', 'turn':1, 'question':'CVS 的合并总营收增长了多少？',
+             'observed':{'behavior':'clarify','task_id':'historical-test-task','evidence':{'amount':'999'}}},
+            {'case_id':'L04', 'turn':2, 'question':'我指 2025 Q2 比 2024 Q2'}]}), encoding='utf-8')
+        original = llm.compare_retest_context
+        self.enterContext(patch.object(llm, 'compare_retest_context', side_effect=lambda: original(path)))
         session, question = llm.compare_retest_context()
         self.assertEqual(question, "我指 2025 Q2 比 2024 Q2")
         self.assertEqual(session.recent_turns[0].question, "CVS 的合并总营收增长了多少？")

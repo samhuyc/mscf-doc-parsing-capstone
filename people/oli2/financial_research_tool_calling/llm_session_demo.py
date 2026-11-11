@@ -186,13 +186,13 @@ def demo_fixtures():
     return first, second, third
 
 
-def compare_retest_context():
+def compare_retest_context(path=None):
     """Reuse only the prior real user question/outcome; never old evidence or State.
 
     This is an explicit one-task replay, not task recovery or a new GPT-generated
     clarification. The user must approve its single paid run separately.
     """
-    path = Path(__file__).resolve().parent / "artifacts/evaluation/llm_live_v1/live_20261111T032436Z/report.json"
+    path = Path(path) if path is not None else Path(__file__).resolve().parent / "artifacts/evaluation/llm_live_v1/live_20261111T032436Z/report.json"
     report = json.loads(path.read_text(encoding="utf-8"))
     prior = next(row for row in report["turns"] if row["case_id"] == "L04" and row["turn"] == 1)
     failed = next(row for row in report["turns"] if row["case_id"] == "L04" and row["turn"] == 2)

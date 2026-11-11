@@ -112,10 +112,18 @@ Final Runner 调用与 CLI 相同的 `integrated_turn()`，每案例独立 Sessi
 .\.venv\Scripts\python.exe -B -X utf8 -m evaluation.final_runner --live --confirm-paid-api
 ```
 
-冻结记录位于 `artifacts/evaluation/final_integration_v1/frozen_version.json`，包括 Commit Hash、
-全部运行源码哈希、工具哈希、Retrieval 输入、SDK/Pydantic/Python 版本、模型配置、预算及
+当前冻结记录位于 `artifacts/evaluation/final_integration_v2/frozen_version.json`；v1 原样保留。
+记录包括 Commit Hash、全部运行源码哈希、工具定义与哈希、Retrieval 输入及其 Python 依赖代码、
+SDK/Pydantic/Python/tiktoken/markdown-it-py 版本、模型配置、预算及
 Dataset/Suite 版本。付费模式在读取密钥前验证工作区干净且冻结记录完全匹配。
 修改后不能偷偷沿用旧冻结版本；不会覆盖已有冻结记录和历史报告。
+
+工具返回值在进入 State 或发送给 GPT 之前，检查两期金额的有限十进制字符串格式，
+以及单位、Citation、来源标题、页码与 URL；字段损坏安全停止。金额仍由原有本地表格解析器提取，
+不会从评估 Golden Labels 读取。最终答案继续与本轮工具结果核对。
+完整回归中的历史重测/剩余轮次选择测试使用临时合成历史，不依赖被 Git 忽略的真实评估报告。
+`gpt-6.1-sol` 是官方当前提供的模型标识，本项目不能冻结服务端权重；记录同一模型名和配置
+并不保证不同日期的输出完全一致。Fake Responses 通过也不证明真实 GPT 的语义理解质量。
 
 预期约 28 次请求，硬性程序上限 32 次；每题最多 4 次，累计 Token Budget 30000，
 单次最多 1024 Output Tokens。按已核对 Standard 输入 $2 / 1M、输出 $10 / 1M，

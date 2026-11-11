@@ -195,6 +195,22 @@ class IntegrationTests(unittest.TestCase):
         self.assertIsNone(result.state.evidence)
         self.assertNotIn('98.9', result.answer)
 
+    def test_corrupt_retrieval_fields_stop_before_evidence_or_memory(self):
+        evidence = agent.search_report('CVS total revenues 2Q 2025 2Q 2024')
+        for field, value in [('revenue_2025_q2','NaN'), ('revenue_2024_q2',91.2),
+                             ('unit','百万美元'), ('citation','S9'), ('page',7),
+                             ('page',True), ('source_title','untrusted title'), ('source_url','https://example.com')]:
+            with self.subTest(field=field, value=value):
+                target = app.FinancialAgent(directory=self.directory/str(value).encode().hex())
+                with patch.object(agent, 'search_report', return_value={**evidence, field:value}):
+                    result = self.ask(target=target)
+                self.assertEqual(result.category,'failed')
+                self.assertEqual(result.state.failure_stage,'tool_execution')
+                self.assertEqual(result.state.api_request_count,2)
+                self.assertIsNone(result.state.evidence)
+                self.assertFalse((target.directory/'memory').exists())
+                self.assertTrue(target.stopped)
+
     def test_sessions_isolated_and_storage_corruption_stops(self):
         self.ask()
         other = app.FinancialAgent(directory=self.directory)

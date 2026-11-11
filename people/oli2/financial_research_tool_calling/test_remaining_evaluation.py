@@ -15,6 +15,18 @@ class RemainingEvaluationTests(unittest.TestCase):
     def setUp(self):
         self.enterContext(redirect_stdout(io.StringIO()))
         self.suite, self.dataset, self.digest = runner.load_suite()
+        # Synthetic interrupted history for selector tests; no ignored live artifacts required.
+        folder = Path(self.enterContext(tempfile.TemporaryDirectory()))
+        prior = dict(evaluation_type='real_llm_evaluation', dataset_sha256=self.suite['dataset_sha256'],
+                     suite_sha256=self.digest, turns=[])
+        for case in self.suite['cases']:
+            for index, turn in enumerate(case['turns'], 1):
+                pending = (case['id'], index) in runner.REMAINING_TURNS
+                prior['turns'].append(dict(case_id=case['id'], turn=index, **deepcopy(turn),
+                    observed=dict(executed=not pending, behavior='not_run' if pending else 'answer')))
+        path = folder/'synthetic_prior.json'
+        path.write_text(json.dumps(prior), encoding='utf-8')
+        self.enterContext(patch.object(runner, 'PRIOR_REPORT', path))
         self.remaining = runner.select_remaining(self.suite, self.digest)
 
     def test_selection_preserves_gold_order_and_keeps_two_turn_session(self):

@@ -66,9 +66,9 @@ def load_suite(path=SUITE):
     return suite, dataset, suite_hash
 
 
-def select_remaining(suite, suite_hash, prior_path=PRIOR_REPORT):
+def select_remaining(suite, suite_hash, prior_path=None):
     """Select whole, previously unexecuted Sessions. No State restore or gold edit."""
-    prior_path = Path(prior_path)
+    prior_path = Path(PRIOR_REPORT if prior_path is None else prior_path)
     prior = json.loads(prior_path.read_text(encoding="utf-8"))
     if (prior.get("evaluation_type") != "real_llm_evaluation"
             or prior.get("dataset_sha256") != suite["dataset_sha256"]

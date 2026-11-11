@@ -9,13 +9,14 @@ from pathlib import Path
 import subprocess
 import sys
 
-from demo import REPO_ROOT
+from demo import REPO_ROOT, CHUNKING_DIR
+from api_demo import MODEL, TOOL_DEFINITIONS
 from financial_agent import (ROOT, CAPS, IntegratedUnderstanding, IntegratedFakeClient,
                              integrated_turn)
 from evaluation.live_runner import load_suite, evaluate, write_report, file_hash, PRICING
 from evaluation.live_fixtures import client_for
 
-OUT = ROOT / 'artifacts' / 'evaluation' / 'final_integration_v1'
+OUT = ROOT / 'artifacts' / 'evaluation' / 'final_integration_v2'
 MANIFEST = OUT / 'frozen_version.json'
 
 
@@ -32,13 +33,16 @@ def source_hashes():
 
 def version_record():
     suite, dataset, digest = load_suite()
-    return dict(schema_version='1', commit=git('rev-parse','HEAD'), model='gpt-6.1-sol', caps=CAPS,
+    return dict(schema_version='1', commit=git('rev-parse','HEAD'), model=MODEL, caps=CAPS,
         dataset_version=dataset.get('dataset_id',dataset.get('schema_version')),
         dataset_sha256=suite['dataset_sha256'], suite_id=suite['suite_id'], suite_sha256=digest,
         source_hashes=source_hashes(), retrieval_inputs=dataset['pinned_inputs'],
+        retrieval_code={p.relative_to(REPO_ROOT).as_posix():file_hash(p)
+                        for p in sorted(CHUNKING_DIR.glob('*.py'))},
         tools={'search_report':file_hash(ROOT/'demo.py'),'calculate':file_hash(ROOT/'demo.py'),
-               'validation':file_hash(ROOT/'api_demo.py')},
-        runtime={'python':sys.version.split()[0],'openai':version('openai'),'pydantic':version('pydantic')},
+               'validation':file_hash(ROOT/'api_demo.py'), 'definitions':TOOL_DEFINITIONS},
+        runtime={'python':sys.version.split()[0], **{name:version(name) for name in
+                 ('openai','pydantic','tiktoken','markdown-it-py')}},
         model_settings={'reasoning':'low','service_tier':'default','store':False,'max_retries':0,'timeout_seconds':30},
         pricing=PRICING)
 
@@ -86,7 +90,7 @@ def run_evaluation(directory, *, live_client=None, frozen=None):
     report=evaluate(suite,dataset,digest,live_client=live_client,fake_factory=integrated_fixture,
         turn_runner=run,understanding_model=IntegratedUnderstanding)
     report['fixed_version'] = frozen or version_record()
-    report['scope'] += (' Final Integration v1: same CLI execution path. L05 explicit multi-company request '
+    report['scope'] += (' Final Integration v2: same CLI execution path. L05 explicit multi-company request '
         'is unsupported_capability, not ambiguity. Original clarify label is preserved; report the mismatch, do not inflate the score.')
     report['limitations'].append('L05 冻结标签为 clarify；新范围分类为 unsupported。原评分照常计差异，人工范围审查单列，不改 Golden Label。')
     report['integration_audit'] = [dict(case_id=t['case_id'],turn=t['turn'],category=t['observed']['category'],

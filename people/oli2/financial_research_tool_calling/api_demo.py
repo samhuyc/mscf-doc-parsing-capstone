@@ -32,6 +32,22 @@ EXPORT_FIELDS = (
 )
 
 
+class RetrievedEvidence(BaseModel):
+    """Validate the local tool boundary before evidence enters State or an API payload.
+
+    Amounts still come from the existing table extractor, never from labels or the LLM.
+    These source constraints describe this deliberately single-report implementation.
+    """
+    model_config = ConfigDict(strict=True, extra="forbid")
+    revenue_2025_q2: Annotated[str, Field(pattern=r"^[0-9]{1,16}(?:\.[0-9]{1,8})?$")]
+    revenue_2024_q2: Annotated[str, Field(pattern=r"^[0-9]{1,16}(?:\.[0-9]{1,8})?$")]
+    unit: Literal["十亿美元"]
+    citation: Literal["S1"]
+    source_title: Literal["CVS Health 2025 Q2 Earnings Presentation"]
+    page: Annotated[int, Field(ge=6, le=6)]
+    source_url: Literal[PUBLIC_REPORT]
+
+
 def schema(properties):
     return {"type": "object", "properties": properties,
             "required": list(properties), "additionalProperties": False}
@@ -256,9 +272,12 @@ def execute_tool(name, arguments, scenario, evidence, *, query=None):
         years = set(re.findall(r"20\d{2}", user_question + question))
         if result is None or not years.issubset({"2024", "2025"}):
             return None
-        if result["document_id"] != "cvs_2025q2" or result["source_url"] != PUBLIC_REPORT:
+        if not isinstance(result, dict) or result.get("document_id") != "cvs_2025q2" or result.get("source_url") != PUBLIC_REPORT:
             raise StopAgent("检索来源超出本 Demo 允许外传的公开财报范围。")
-        return {key: result[key] for key in EXPORT_FIELDS}
+        try:
+            return RetrievedEvidence.model_validate({key: result[key] for key in EXPORT_FIELDS}).model_dump()
+        except (KeyError, ValidationError):
+            raise StopAgent("检索证据的金额、单位或来源字段未通过校验。") from None
 
     if arguments["operation"] != "subtract":
         raise StopAgent("只允许 subtract 运算。")

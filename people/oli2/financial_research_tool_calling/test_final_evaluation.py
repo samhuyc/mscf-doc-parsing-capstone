@@ -47,6 +47,14 @@ class FinalEvaluationTests(unittest.TestCase):
         with patch.object(final,'git',return_value=''),patch.object(final,'version_record',return_value={'commit':'changed'}):
             with self.assertRaises(ValueError): final.verify_frozen(path)
 
+    def test_version_covers_transitive_retrieval_and_runtime(self):
+        record = final.version_record()
+        self.assertTrue(all(any(path.endswith('/'+name) for path in record['retrieval_code'])
+                            for name in ('retrieval.py','structure.py','chunker.py')))
+        self.assertIn('tiktoken',record['runtime'])
+        self.assertIn('markdown-it-py',record['runtime'])
+        self.assertEqual([tool['name'] for tool in record['tools']['definitions']],['search_report','calculate'])
+
     def test_freeze_is_append_only_and_live_needs_confirmation(self):
         path=self.folder/'version.json'
         with patch.object(final,'git',side_effect=lambda *a:'feature' if a[0]=='branch' else ''), patch.object(final,'version_record',return_value={'commit':'fixed'}):

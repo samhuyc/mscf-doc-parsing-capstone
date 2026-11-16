@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Financial table review</title>
+<style>
+:root {
+  font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:#18332d;
+  background:#f3f5f3;
+  --green:#1b6651;
+  --line:#d8e1dc;
+  --muted:#60716a
+}
+* {
+  box-sizing:border-box
+}
+body {
+  margin:0
+}
+button,input,textarea,select {
+  font:inherit
+}
+button,a.button {
+  cursor:pointer;
+  background:white;
+  border:1px solid #c9d6ce;
+  border-radius:7px;
+  padding:7px 12px;
+  color:#18332d;
+  text-decoration:none
+}
+button:hover,a.button:hover {
+  background:#e8f0eb
+}
+button:disabled {
+  cursor:default;
+  opacity:.45
+}
+button.primary {
+  background:var(--green);
+  border-color:var(--green);
+  color:white
+}
+button.primary:hover {
+  background:#124f3e
+}
+input,select,textarea {
+  border:1px solid #c9d6ce;
+  border-radius:5px;
+  padding:7px;
+  background:white;
+  color:inherit
+}
+header {
+  padding:18px 24px 14px;
+  background:#fff;
+  border-bottom:1px solid var(--line)
+}
+.top,.toolbar,.nav,.panehead,.actions {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap
+}
+.top {
+  justify-content:space-between
+}
+h1 {
+  font-size:23px;
+  letter-spacing:-.6px;
+  margin:0
+}
+h2 {
+  font-size:15px;
+  margin:0
+}
+p {
+  margin:6px 0
+}
+.muted,.small {
+  color:var(--muted)
+}
+.small {
+  font-size:12px
+}
+.nav {
+  margin-top:14px
+}
+.nav select {
+  min-width:280px;
+  max-width:45vw;
+  flex:1
+}
+.badge {
+  display:inline-block;
+  padding:4px 9px;
+  border-radius:20px;
+  background:#ecf0ed;
+  font-size:12px;
+  font-weight:600
+}
+.badge.verified {
+  background:#dbf1e4;
+  color:#1e6846
+}
+.badge.needs_attention {
+  background:#fff0d7;
+  color:#8d5b0b
+}
+.progress {
+  height:4px;
+  background:#e1e9e3;
+  margin-top:14px;
+  border-radius:4px;
+  overflow:hidden
+}
+.progress div {
+  height:100%;
+  background:var(--green);
+  transition:width .2s
+}
+.notice {
+  padding:10px 24px;
+  background:#fcf7e9;
+  border-bottom:1px solid #eee3c2;
+  color:#62542c;
+  font-size:13px
+}
+.workspace {
+  display:grid;
+  grid-template-columns:minmax(0,45fr) minmax(0,55fr);
+  gap:16px;
+  padding:16px 24px;
+  align-items:start
+}
+.pane {
+  background:white;
+  border:1px solid var(--line);
+  border-radius:10px;
+  overflow:hidden;
+  min-width:0
+}
+.panehead {
+  padding:13px 15px;
+  border-bottom:1px solid var(--line);
+  justify-content:space-between
+}
+.source {
+  position:sticky;
+  top:12px
+}
+.imagebox {
+  overflow:auto;
+  height:65vh;
+  background:#e9eeea;
+  padding:10px
+}
+.imagebox img {
+  display:block;
+  max-width:none;
+  height:auto;
+  background:white;
+  box-shadow:0 2px 12px #0001
+}
+.source-caption {
+  padding:9px 14px;
+  font-size:12px;
+  color:var(--muted)
+}
+.editor {
+  padding:14px
+}
+.context {
+  width:100%;
+  margin:5px 0 12px;
+  min-height:46px
+}
+.gridblock {
+  margin:5px 0 20px
+}
+.gridtools {
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
+  margin:7px 0
+}
+.gridtools button {
+  font-size:12px;
+  padding:5px 8px
+}
+.gridname {
+  font-weight:600;
+  max-width:180px;
+  border:1px solid transparent;
+  padding-left:0
+}
+.gridname:focus {
+  border-color:var(--line)
+}
+.gridwrap {
+  overflow:auto;
+  border:1px solid var(--line);
+  border-radius:6px;
+  max-height:60vh
+}
+table {
+  border-collapse:separate;
+  border-spacing:0;
+  width:100%;
+  table-layout:fixed
+}
+th {
+  font-size:11px;
+  background:#edf3ef;
+  color:#51685b;
+  position:sticky;
+  top:0;
+  z-index:2;
+  height:26px
+}
+th.rownum {
+  position:sticky;
+  left:0;
+  z-index:1;
+  width:36px
+}
+th.corner {
+  left:0;
+  z-index:3
+}
+td,th {
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line)
+}
+td {
+  padding:0;
+  vertical-align:top
+}
+td textarea {
+  display:block;
+  width:100%;
+  min-height:46px;
+  resize:vertical;
+  border:none;
+  border-radius:0;
+  padding:9px 8px;
+  font-size:13px;
+  line-height:1.35;
+  background:transparent
+}
+td textarea:focus {
+  outline:2px solid #2d8b6b;
+  outline-offset:-2px;
+  background:#f1faf5
+}
+tr.selected td {
+  background:#f6faf7
+}
+.gridtools .selectedlabel {
+  font-size:11px;
+  color:var(--muted)
+}
+.checks {
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:7px;
+  background:#f8fbf9
+}
+.checks label {
+  display:flex;
+  align-items:flex-start;
+  gap:9px;
+  margin:9px 0;
+  cursor:pointer
+}
+.checks input {
+  margin-top:4px;
+  accent-color:var(--green)
+}
+.reviewer {
+  width:180px
+}
+.notes {
+  display:block;
+  width:100%;
+  min-height:60px;
+  margin:6px 0 12px
+}
+.actions {
+  margin-top:13px;
+  justify-content:space-between
+}
+.statusline {
+  font-size:12px;
+  min-height:19px;
+  color:var(--muted)
+}
+.statusline.error {
+  color:#b02828;
+  font-weight:600
+}
+.statusline.ok {
+  color:#19643e
+}
+details {
+  margin:14px 0;
+  color:var(--muted);
+  font-size:12px
+}
+summary {
+  cursor:pointer
+}
+pre {
+  white-space:pre-wrap;
+  overflow-wrap:anywhere
+}
+.empty {
+  padding:40px
+}
+footer {
+  padding:0 24px 18px;
+  font-size:12px;
+  color:var(--muted);
+  overflow-wrap:anywhere
+}
+.sr {
+  position:absolute;
+  left:-9999px
+}
+@media(max-width:950px) {
+  .workspace {
+  grid-template-columns:1fr;
+  padding:12px
+}
+.source {
+  position:static
+}
+.imagebox {
+  height:42vh
+}
+.nav select {
+  max-width:100%;
+  min-width:200px
+}
+.top {
+  align-items:flex-start
+}
+header {
+  padding:15px
+}
+.notice {
+  padding:10px 15px
+}
+
+}
+:focus-visible {
+  outline:2px solid #237b59;
+  outline-offset:2px
+}
+</style>
+</head>
+<body>
+<header><div class="top"><div><h1>Financial table review</h1><p class="muted">Check the source. Correct the grid. Confirm the reference.</p></div><div class="toolbar"><span id="progressText" class="badge">Loading…</span><a class="button" href="/api/export" download>Export reviews</a></div></div>
+<div class="nav"><button id="prev" aria-label="Previous table">←</button><select id="tableSelect" aria-label="Choose a table"></select><button id="next" aria-label="Next table">→</button><span id="badge" class="badge"></span><button id="nextUnreviewed">Next unconfirmed</button></div><div class="progress"><div id="progressBar"></div></div></header>
+<div class="notice">Drafts come from MonkeyOCR, not verified ground truth. Check every cell against the image. <strong>A correct number in the wrong row or column is wrong.</strong></div>
+<main class="workspace">
+<section class="pane source"><div class="panehead"><h2>Source image</h2><div class="toolbar"><select id="imageMode" aria-label="Source view"><option value="crop">Table crop</option><option value="page">Full page</option></select><button id="zoomOut" aria-label="Zoom out">−</button><span id="zoomLabel" class="small">100%</span><button id="zoomIn" aria-label="Zoom in">+</button><button id="fit">Fit</button></div></div><div class="imagebox" id="imagebox"><img id="sourceImage" alt="Source financial table"></div><div class="source-caption" id="sourceCaption"></div></section>
+<section class="pane"><div class="panehead"><h2>Editable reference</h2><span class="small">Merged headers repeat across covered cells</span></div><div class="editor">
+<label for="context"><strong>Units / header context</strong> <span class="small">Optional clarification from the source</span></label><textarea id="context" class="context" placeholder="e.g. £ million; columns are H1 2026 and H1 2025"></textarea>
+<div class="small">Edit cells directly. Keep row labels, column headers, signs, units, blanks and dashes. Click a cell to insert or remove its row/column.</div><div id="grids"></div><button id="addGrid">+ Add subtable</button>
+<details><summary>Earlier numeric reference (not structure-verified)</summary><pre id="oldReference"></pre></details>
+<label for="notes"><strong>Review notes</strong></label><textarea id="notes" class="notes" placeholder="Record unclear values, missing headers or cropped content. Required when flagging."></textarea>
+<div class="checks"><strong>Confirm against the source image</strong><label><input type="checkbox" data-check="values">Values, signs, decimals and qualifiers are correct.</label><label><input type="checkbox" data-check="associations">Every value has the correct row label and column / period.</label><label><input type="checkbox" data-check="units">Headers, currency and units / scale are correct.</label><label><input type="checkbox" data-check="complete">The reference and crop are complete for this table; no missing rows, columns or required context.</label><label for="reviewer">Reviewer <input id="reviewer" class="reviewer" placeholder="Name or initials" autocomplete="name"></label></div>
+<div class="actions"><div class="toolbar"><button id="save">Save draft</button><button id="flag">Needs attention</button></div><button id="approve" class="primary">Confirm ground truth</button></div><p class="statusline" id="saveStatus" role="status" aria-live="polite">Loading saved reviews…</p>
+</div></section>
+</main><footer id="savePath"></footer>
+<script>
+'use strict';
+let session, index=0, current, dirty=false, timer=null, inFlight=null, zoom=100;
+let selectedCells={
+}
+;
+const $=id=>document.getElementById(id), clone=x=>JSON.parse(JSON.stringify(x));
+const labels={
+  unreviewed:'Not reviewed',draft:'Draft saved',verified:'Confirmed',needs_attention:'Needs attention'
+}
+;
+function message(text,error=false){
+  $('saveStatus').textContent=text;
+  $('saveStatus').className='statusline '+(error?'error':'ok')
+}
+function blankRecord(t){
+  return {
+    table_id:t.table_id,revision:0,status:'unreviewed',human_verified:false,grids:clone(t.grids),context:'',notes:'',reviewer:localStorage.getItem('financialReviewer')||'',checks:{
+      values:false,associations:false,units:false,complete:false
+    }
+  }
+}
+function updateProgress(){
+  const n=session.tables.filter(t=>session.reviews[t.table_id]?.human_verified).length;
+  $('progressText').textContent=`${n} / ${session.tables.length} confirmed`;
+  $('progressBar').style.width=`${100*n/session.tables.length}%`;
+  Array.from($('tableSelect').options).forEach((o,i)=>{
+    let t=session.tables[i];
+    o.textContent=`${i+1}. ${t.document.replaceAll('_',' ')} · p${t.page} · ${t.table_id.split('_').pop()} · ${labels[session.reviews[t.table_id]?.status||'unreviewed']}`
+  }
+  )
+}
+function updateBadge(){
+  const s=dirty?'draft':current.status;
+  $('badge').textContent=dirty?'Unsaved changes':labels[s];
+  $('badge').className='badge '+s;
+  updateApprove()
+}
+function updateApprove(){
+  $('approve').disabled=!!inFlight||!$('reviewer').value.trim()||!Array.from(document.querySelectorAll('[data-check]')).every(c=>c.checked)
+}
+function markDirty(resetChecks=true){
+  dirty=true;
+  current.human_verified=false;
+  current.status='draft';
+  if(resetChecks)document.querySelectorAll('[data-check]').forEach(c=>c.checked=false);
+  updateBadge();
+  message('Unsaved changes');
+  clearTimeout(timer);
+  timer=setTimeout(()=>save('save'),900)
+}
+function harvest(){
+  current.context=$('context').value;
+  current.notes=$('notes').value;
+  current.reviewer=$('reviewer').value;
+  current.checks=Object.fromEntries(Array.from(document.querySelectorAll('[data-check]')).map(c=>[c.dataset.check,c.checked]));
+  localStorage.setItem('financialReviewer',current.reviewer)
+}
+function showImage(){
+  const t=session.tables[index];
+  $('sourceImage').src=$('imageMode').value==='page'?t.page_url:t.crop_url;
+  $('sourceImage').style.width=zoom+'%';
+  $('zoomLabel').textContent=zoom+'%';
+  $('sourceImage').alt=`${t.document}, page ${t.page}, ${$('imageMode').value}`
+}
+function render(){
+  const t=session.tables[index];
+  current=clone(session.reviews[t.table_id]||blankRecord(t));
+  dirty=false;
+  selectedCells={
+  }
+  ;
+  $('tableSelect').value=index;
+  $('context').value=current.context;
+  $('notes').value=current.notes;
+  $('reviewer').value=current.reviewer||localStorage.getItem('financialReviewer')||'';
+  document.querySelectorAll('[data-check]').forEach(c=>c.checked=!!current.checks[c.dataset.check]);
+  $('sourceCaption').textContent=`${t.document.replaceAll('_',' ')} · Page ${t.page} · ${t.table_id.split('_').pop()}`;
+  $('oldReference').textContent=t.original_reference_text;
+  $('prev').disabled=index===0;
+  $('next').disabled=index===session.tables.length-1;
+  zoom=100;
+  showImage();
+  renderGrids();
+  updateBadge();
+  updateProgress();
+  message(current.revision?`Saved locally · revision ${current.revision}${current.reviewed_at?' · confirmed by '+current.reviewer:''}`:'Not reviewed. Edits save automatically.');
+  location.hash=t.table_id
+}
+function renderGrids(){
+  const host=$('grids');
+  host.replaceChildren();
+  current.grids.forEach((grid,gi)=>{
+    const block=document.createElement('div');
+    block.className='gridblock';
+    const tools=document.createElement('div');
+    tools.className='gridtools';
+    const name=document.createElement('input');
+    name.className='gridname';
+    name.value=grid.name;
+    name.setAttribute('aria-label',`Subtable ${gi+1} name`);
+    name.oninput=()=>{
+      grid.name=name.value;
+      markDirty()
+    }
+    ;
+    tools.append(name);
+    const chosen=()=>selectedCells[gi]||[0,0];
+    const op=(label,fn)=>{
+      const b=document.createElement('button');
+      b.textContent=label;
+      b.onclick=()=>{
+        fn(...chosen());
+        markDirty();
+        renderGrids()
+      }
+      ;
+      tools.append(b)
+    }
+    ;
+    op('+ Row',(r)=>grid.cells.splice(r+1,0,Array(grid.cells[0].length).fill('')));
+    op('+ Column',(_,c)=>grid.cells.forEach(row=>row.splice(c+1,0,'')));
+    op('− Row',(r)=>{
+      if(grid.cells.length>1&&confirm(`Remove row ${r+1}?`))grid.cells.splice(r,1);
+      selectedCells[gi]=[0,0]
+    }
+    );
+    op('− Column',(_,c)=>{
+      if(grid.cells[0].length>1&&confirm(`Remove column ${c+1}?`))grid.cells.forEach(row=>row.splice(c,1));
+      selectedCells[gi]=[0,0]
+    }
+    );
+    if(current.grids.length>1)op('Remove subtable',()=>{
+      if(confirm('Remove this entire subtable?'))current.grids.splice(gi,1)
+    }
+    );
+    const selected=document.createElement('span');
+    selected.className='selectedlabel';
+    let [sr,sc]=chosen();
+    selected.textContent=`Selected: R${sr+1} C${sc+1}`;
+    tools.append(selected);
+    block.append(tools);
+    const wrap=document.createElement('div');
+    wrap.className='gridwrap';
+    const table=document.createElement('table');
+    table.setAttribute('aria-label',grid.name);
+    const cols=document.createElement('colgroup');
+    for(let c=-1;
+    c<grid.cells[0].length;
+    c++){
+      let col=document.createElement('col');
+      col.style.width=c===-1?'36px':c===0?'190px':'112px';
+      cols.append(col)
+    }
+    table.append(cols);
+    const head=document.createElement('thead'),hr=document.createElement('tr');
+    const corner=document.createElement('th');
+    corner.className='corner';
+    hr.append(corner);
+    grid.cells[0].forEach((_,c)=>{
+      let th=document.createElement('th');
+      th.textContent='C'+(c+1);
+      hr.append(th)
+    }
+    );
+    head.append(hr);
+    table.append(head);
+    const body=document.createElement('tbody');
+    grid.cells.forEach((row,r)=>{
+      const tr=document.createElement('tr');
+      const label=document.createElement('th');
+      label.className='rownum';
+      label.textContent=r+1;
+      tr.append(label);
+      row.forEach((value,c)=>{
+        const td=document.createElement('td'),input=document.createElement('textarea');
+        input.value=value;
+        input.rows=Math.min(5,Math.max(2,Math.ceil(value.length/(c===0?25:13)),value.split('\n').length));
+        input.setAttribute('aria-label',`${grid.name}, row ${r+1}, column ${c+1}`);
+        input.oninput=()=>{
+          grid.cells[r][c]=input.value;
+          markDirty()
+        }
+        ;
+        input.onfocus=()=>{
+          selectedCells[gi]=[r,c];
+          selected.textContent=`Selected: R${r+1} C${c+1}`;
+          body.querySelectorAll('tr').forEach(x=>x.classList.remove('selected'));
+          tr.classList.add('selected')
+        }
+        ;
+        td.append(input);
+        tr.append(td)
+      }
+      );
+      body.append(tr)
+    }
+    );
+    table.append(body);
+    wrap.append(table);
+    block.append(wrap);
+    host.append(block)
+  }
+  )
+}
+async function save(action='save'){
+  clearTimeout(timer);
+  if(inFlight){
+    await inFlight;
+    if(action==='save'&&!dirty)return true;
+    return save(action)
+  }
+  if(action==='save'&&!dirty)return true;
+  harvest();
+  if(action==='approve'&&(!current.reviewer.trim()||!Object.values(current.checks).every(Boolean))){
+    message('Enter your name and complete all four checks.',true);
+    return false
+  }
+  if(action==='flag'&&!current.notes.trim()){
+    message('Add a note explaining what needs attention.',true);
+    $('notes').focus();
+    return false
+  }
+  const payload={
+    ...clone(current),action
+  }
+  , sent=JSON.stringify({
+    grids:current.grids,context:current.context,notes:current.notes,reviewer:current.reviewer
+  }
+  );
+  message('Saving…');
+  inFlight=(async()=>{
+    try{
+      const response=await fetch('/api/review',{
+        method:'POST',headers:{
+          'Content-Type':'application/json','X-Review-Token':session.token
+        }
+        ,body:JSON.stringify(payload)
+      }
+      );
+      const saved=await response.json();
+      if(!response.ok)throw Error(saved.error||'Save failed');
+      session.reviews[saved.table_id]=saved;
+      harvest();
+      const unchanged=sent===JSON.stringify({
+        grids:current.grids,context:current.context,notes:current.notes,reviewer:current.reviewer
+      }
+      );
+      current.revision=saved.revision;
+      if(unchanged){
+        dirty=false;
+        current.status=saved.status;
+        current.human_verified=saved.human_verified;
+        current.reviewed_at=saved.reviewed_at;
+        if(action==='approve'||action==='flag')document.querySelectorAll('[data-check]').forEach(c=>c.checked=!!saved.checks[c.dataset.check]);
+        message(saved.human_verified?'Confirmed and saved. Ready for the next table.':saved.status==='needs_attention'?'Flagged and saved. This table is excluded until resolved.':'Draft saved locally.')
+      }
+      else{
+        dirty=true;
+        message('Saving newer edits…');
+        timer=setTimeout(()=>save('save'),100)
+      }
+      updateProgress();
+      updateBadge();
+      return true
+    }
+    catch(error){
+      dirty=true;
+      message(error.message+' Changes remain in this tab.',true);
+      return false
+    }
+    finally{
+      inFlight=null;
+      updateApprove()
+    }
+  }
+  )();
+  updateApprove();
+  return inFlight;
+}
+async function navigate(next){
+  if(next<0||next>=session.tables.length)return;
+  const ok=await save();
+  if(!ok){
+    $('tableSelect').value=index;
+    return
+  }
+  if(dirty){
+    message('Wait for the latest edits to save.',true);
+    $('tableSelect').value=index;
+    return
+  }
+  index=next;
+  render()
+}
+$('context').oninput=()=>markDirty();
+$('notes').oninput=()=>markDirty(false);
+$('reviewer').oninput=()=>markDirty(false);
+document.querySelectorAll('[data-check]').forEach(c=>c.onchange=()=>{
+  if(current.human_verified){
+    markDirty();
+  }
+  else updateApprove()
+}
+);
+$('save').onclick=()=>save();
+$('approve').onclick=()=>save('approve');
+$('flag').onclick=()=>save('flag');
+$('prev').onclick=()=>navigate(index-1);
+$('next').onclick=()=>navigate(index+1);
+$('tableSelect').onchange=()=>navigate(Number($('tableSelect').value));
+$('nextUnreviewed').onclick=()=>{
+  for(let d=1;
+  d<=session.tables.length;
+  d++){
+    let n=(index+d)%session.tables.length;
+    if(!session.reviews[session.tables[n].table_id]?.human_verified){
+      navigate(n);
+      return
+    }
+  }
+  message('All 19 references are confirmed.')
+}
+;
+$('imageMode').onchange=()=>{
+  zoom=100;
+  showImage()
+}
+;
+$('zoomIn').onclick=()=>{
+  zoom=Math.min(500,zoom+25);
+  showImage()
+}
+;
+$('zoomOut').onclick=()=>{
+  zoom=Math.max(50,zoom-25);
+  showImage()
+}
+;
+$('fit').onclick=()=>{
+  zoom=100;
+  showImage()
+}
+;
+$('addGrid').onclick=()=>{
+  current.grids.push({
+    name:`Table ${current.grids.length+1}`,cells:[['Row label','Period / column'],['','']]
+  }
+  );
+  markDirty();
+  renderGrids()
+}
+;
+window.addEventListener('beforeunload',e=>{
+  if(dirty||inFlight){
+    e.preventDefault();
+    e.returnValue=''
+  }
+}
+);
+(async()=>{
+  try{
+    const r=await fetch('/api/session');
+    if(!r.ok)throw Error('Could not load review data');
+    session=await r.json();
+    session.tables.forEach((t,i)=>{
+      const o=document.createElement('option');
+      o.value=i;
+      $('tableSelect').append(o)
+    }
+    );
+    const selected=session.tables.findIndex(t=>t.table_id===location.hash.slice(1));
+    if(selected>=0)index=selected;
+    $('savePath').textContent='Saved on this Mac: '+session.save_path+' · Editing a confirmed table revokes its approval.';
+    render()
+  }
+  catch(e){
+    message(e.message,true)
+  }
+}
+)();
+</script></body></html>

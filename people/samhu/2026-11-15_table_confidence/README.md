@@ -26,3 +26,5 @@ Two MinerU outputs hit the token limit, both outside the 19-crop comparison.
 [Plot](results/sponsor_all/accuracy/confidence_vs_numeric_accuracy.png) · [Per-table results](results/sponsor_all/accuracy/pairs.csv) · [Statistics](results/sponsor_all/accuracy/tracking.json) · [Methods and commands](METHODS.md)
 
 Local interactive summary: `runs/sponsor_all/accuracy/report.html`.
+
+Manual review: run `python3 review_panel.py`, then open http://127.0.0.1:8766. Compare each source with its editable grid; correct row/column assignments before confirming. Reviews save locally, separately from the earlier numeric references.

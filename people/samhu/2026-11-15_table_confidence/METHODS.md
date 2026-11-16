@@ -48,3 +48,9 @@ work/extra-env/bin/python download_extra_models.py paddle_vl glm monkey
 ```
 
 Successful records resume only when hashes/settings match. Changed settings require a new output directory. `finish_local_comparison.py` resumes the saved MinerU run and finalizes the matched comparison. Reports retain reviews. Full local review: `runs/sponsor_all/report.html`; compact published evidence: `results/sponsor_all/`.
+
+## Human review
+
+`review_panel.py` serves the same 19 primary crops locally. MonkeyOCR supplies editable drafts, explicitly unverified; model-assisted annotation may bias comparison. Expanded merged headers retain column context. Confirm values, row/column associations, units and completeness against the source. Flag incomplete crops instead of approving them.
+
+Reviews and revision history save under `runs/sponsor_all/review/`. Only explicit confirmation sets `human_verified`; any edit revokes approval. Source/draft hashes prevent stale reuse. Existing numeric metrics remain unchanged until the new structure-aware evaluation is implemented. No human reviews are fabricated.

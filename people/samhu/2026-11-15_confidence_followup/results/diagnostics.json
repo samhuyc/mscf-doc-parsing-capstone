@@ -1,0 +1,912 @@
+{
+  "source_sha256": "50b7abbab5009418b8ff71fe3da04c1138824563bc7e7483639294e9beef6095",
+  "source": "2026-11-10_native_confidence/results/v2/page_evaluation.json",
+  "engines": {
+    "mineru": {
+      "baseline": {
+        "pages": 23,
+        "mean_page_error_proxy": 0.26255592258234056,
+        "micro_cer": 0.8535755645628257,
+        "truncated_pages": 1
+      },
+      "sensitivity": {
+        "all": {
+          "character_weighted_mean": {
+            "pages": 23,
+            "spearman": 0.20454545454545456
+          },
+          "geometric_mean": {
+            "pages": 23,
+            "spearman": 0.1551383399209486
+          },
+          "p10": {
+            "pages": 23,
+            "spearman": 0.12055335968379446
+          },
+          "fraction_below_0_90": {
+            "pages": 23,
+            "spearman": 0.15118577075098813
+          }
+        },
+        "exclude_truncated": {
+          "character_weighted_mean": {
+            "pages": 22,
+            "spearman": 0.37662337662337664
+          },
+          "geometric_mean": {
+            "pages": 22,
+            "spearman": 0.3201581027667984
+          },
+          "p10": {
+            "pages": 22,
+            "spearman": 0.28063241106719367
+          },
+          "fraction_below_0_90": {
+            "pages": 22,
+            "spearman": 0.3156408808582722
+          }
+        },
+        "omit_document:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.03636363636363636
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": -0.03636363636363636
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": -0.24545454545454545
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": -0.17272727272727273
+          }
+        },
+        "omit_document:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.0392156862745098
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": -0.08823529411764706
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": -0.01715686274509804
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": -0.051470588235294115
+          }
+        },
+        "omit_document:rolls_royce_2026h1_presentation": {
+          "character_weighted_mean": {
+            "pages": 21,
+            "spearman": 0.24545454545454545
+          },
+          "geometric_mean": {
+            "pages": 21,
+            "spearman": 0.18961038961038962
+          },
+          "p10": {
+            "pages": 21,
+            "spearman": 0.15454545454545454
+          },
+          "fraction_below_0_90": {
+            "pages": 21,
+            "spearman": 0.1961038961038961
+          }
+        },
+        "omit_document:rolls_royce_2026h1_release": {
+          "character_weighted_mean": {
+            "pages": 20,
+            "spearman": 0.3443609022556391
+          },
+          "geometric_mean": {
+            "pages": 20,
+            "spearman": 0.23007518796992482
+          },
+          "p10": {
+            "pages": 20,
+            "spearman": 0.22255639097744362
+          },
+          "fraction_below_0_90": {
+            "pages": 20,
+            "spearman": 0.23609022556390977
+          }
+        },
+        "omit_family:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.03636363636363636
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": -0.03636363636363636
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": -0.24545454545454545
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": -0.17272727272727273
+          }
+        },
+        "omit_family:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.0392156862745098
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": -0.08823529411764706
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": -0.01715686274509804
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": -0.051470588235294115
+          }
+        },
+        "omit_family:rolls_royce": {
+          "character_weighted_mean": {
+            "pages": 18,
+            "spearman": 0.44272445820433437
+          },
+          "geometric_mean": {
+            "pages": 18,
+            "spearman": 0.31475748194014447
+          },
+          "p10": {
+            "pages": 18,
+            "spearman": 0.30856553147574817
+          },
+          "fraction_below_0_90": {
+            "pages": 18,
+            "spearman": 0.33746130030959753
+          }
+        }
+      },
+      "selection": {
+        "character_weighted_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9911989695569499,
+            "pages": 12,
+            "mean_page_error_proxy": 0.21344399897252397,
+            "micro_cer": 1.014422369389257,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9758849958695295,
+            "pages": 19,
+            "mean_page_error_proxy": 0.2892819235595987,
+            "micro_cer": 0.8753369272237197,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9558355882477407,
+            "pages": 23,
+            "mean_page_error_proxy": 0.26255592258234056,
+            "micro_cer": 0.8535755645628257,
+            "truncated_pages": 1
+          }
+        ],
+        "geometric_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9821594663862947,
+            "pages": 12,
+            "mean_page_error_proxy": 0.21697206841008124,
+            "micro_cer": 0.9600298145905153,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9686727211276364,
+            "pages": 19,
+            "mean_page_error_proxy": 0.28928192355959875,
+            "micro_cer": 0.8753369272237197,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9221755718631032,
+            "pages": 23,
+            "mean_page_error_proxy": 0.26255592258234056,
+            "micro_cer": 0.8535755645628257,
+            "truncated_pages": 1
+          }
+        ],
+        "p10": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9935249505852906,
+            "pages": 12,
+            "mean_page_error_proxy": 0.16420707488210773,
+            "micro_cer": 0.960849949061272,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9150321554935491,
+            "pages": 19,
+            "mean_page_error_proxy": 0.28353413460236243,
+            "micro_cer": 0.8711836673980142,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.7725980747028761,
+            "pages": 23,
+            "mean_page_error_proxy": 0.26255592258234056,
+            "micro_cer": 0.8535755645628257,
+            "truncated_pages": 1
+          }
+        ],
+        "fraction_below_0_90": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.04198473282442748,
+            "pages": 12,
+            "mean_page_error_proxy": 0.20418988688411757,
+            "micro_cer": 0.9532382511105916,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.06666666666666667,
+            "pages": 19,
+            "mean_page_error_proxy": 0.28353413460236243,
+            "micro_cer": 0.8711836673980142,
+            "truncated_pages": 1
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.17073170731707318,
+            "pages": 23,
+            "mean_page_error_proxy": 0.26255592258234056,
+            "micro_cer": 0.8535755645628257,
+            "truncated_pages": 1
+          }
+        ]
+      }
+    },
+    "paddle": {
+      "baseline": {
+        "pages": 23,
+        "mean_page_error_proxy": 0.08624498268768294,
+        "micro_cer": 0.056673422119281995,
+        "truncated_pages": 0
+      },
+      "sensitivity": {
+        "all": {
+          "character_weighted_mean": {
+            "pages": 23,
+            "spearman": 0.36561264822134387
+          },
+          "geometric_mean": {
+            "pages": 23,
+            "spearman": 0.4268774703557312
+          },
+          "p10": {
+            "pages": 23,
+            "spearman": 0.16106719367588934
+          },
+          "fraction_below_0_90": {
+            "pages": 23,
+            "spearman": 0.30632411067193677
+          }
+        },
+        "exclude_truncated": {
+          "character_weighted_mean": {
+            "pages": 23,
+            "spearman": 0.36561264822134387
+          },
+          "geometric_mean": {
+            "pages": 23,
+            "spearman": 0.4268774703557312
+          },
+          "p10": {
+            "pages": 23,
+            "spearman": 0.16106719367588934
+          },
+          "fraction_below_0_90": {
+            "pages": 23,
+            "spearman": 0.30632411067193677
+          }
+        },
+        "omit_document:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.8090909090909091
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": 0.8090909090909091
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": 0.6363636363636364
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": 0.8
+          }
+        },
+        "omit_document:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.4068627450980392
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": 0.4583333333333333
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": 0.4068627450980392
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": 0.37254901960784315
+          }
+        },
+        "omit_document:rolls_royce_2026h1_presentation": {
+          "character_weighted_mean": {
+            "pages": 21,
+            "spearman": 0.22987012987012986
+          },
+          "geometric_mean": {
+            "pages": 21,
+            "spearman": 0.3142857142857143
+          },
+          "p10": {
+            "pages": 21,
+            "spearman": -0.023376623376623377
+          },
+          "fraction_below_0_90": {
+            "pages": 21,
+            "spearman": 0.16233766233766234
+          }
+        },
+        "omit_document:rolls_royce_2026h1_release": {
+          "character_weighted_mean": {
+            "pages": 20,
+            "spearman": 0.4330827067669173
+          },
+          "geometric_mean": {
+            "pages": 20,
+            "spearman": 0.46015037593984964
+          },
+          "p10": {
+            "pages": 20,
+            "spearman": 0.22255639097744362
+          },
+          "fraction_below_0_90": {
+            "pages": 20,
+            "spearman": 0.3218045112781955
+          }
+        },
+        "omit_family:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.8090909090909091
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": 0.8090909090909091
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": 0.6363636363636364
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": 0.8
+          }
+        },
+        "omit_family:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.4068627450980392
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": 0.4583333333333333
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": 0.4068627450980392
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": 0.37254901960784315
+          }
+        },
+        "omit_family:rolls_royce": {
+          "character_weighted_mean": {
+            "pages": 18,
+            "spearman": 0.2590299277605779
+          },
+          "geometric_mean": {
+            "pages": 18,
+            "spearman": 0.30856553147574817
+          },
+          "p10": {
+            "pages": 18,
+            "spearman": -0.013415892672858616
+          },
+          "fraction_below_0_90": {
+            "pages": 18,
+            "spearman": 0.12693498452012383
+          }
+        }
+      },
+      "selection": {
+        "character_weighted_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9797414553170457,
+            "pages": 12,
+            "mean_page_error_proxy": 0.0576664652147681,
+            "micro_cer": 0.0487475046686844,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9692678792822745,
+            "pages": 19,
+            "mean_page_error_proxy": 0.07685076173847862,
+            "micro_cer": 0.047614678899082566,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9267656078734318,
+            "pages": 23,
+            "mean_page_error_proxy": 0.08624498268768294,
+            "micro_cer": 0.056673422119281995,
+            "truncated_pages": 0
+          }
+        ],
+        "geometric_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9763939499079739,
+            "pages": 12,
+            "mean_page_error_proxy": 0.05125318333770972,
+            "micro_cer": 0.043093850284890954,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9635205274102204,
+            "pages": 19,
+            "mean_page_error_proxy": 0.05998710756582613,
+            "micro_cer": 0.04342834520981789,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9139838601796471,
+            "pages": 23,
+            "mean_page_error_proxy": 0.08624498268768294,
+            "micro_cer": 0.056673422119281995,
+            "truncated_pages": 0
+          }
+        ],
+        "p10": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9700531959533691,
+            "pages": 12,
+            "mean_page_error_proxy": 0.06197681004235431,
+            "micro_cer": 0.05491350226114421,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.934097945690155,
+            "pages": 19,
+            "mean_page_error_proxy": 0.08215130591660348,
+            "micro_cer": 0.0500195198126098,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.7453897595405579,
+            "pages": 23,
+            "mean_page_error_proxy": 0.08624498268768294,
+            "micro_cer": 0.056673422119281995,
+            "truncated_pages": 0
+          }
+        ],
+        "fraction_below_0_90": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.05387931034482758,
+            "pages": 12,
+            "mean_page_error_proxy": 0.06432835474288615,
+            "micro_cer": 0.04630321135175504,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.08884297520661157,
+            "pages": 19,
+            "mean_page_error_proxy": 0.05998710756582613,
+            "micro_cer": 0.04342834520981789,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.2261904761904762,
+            "pages": 23,
+            "mean_page_error_proxy": 0.08624498268768294,
+            "micro_cer": 0.056673422119281995,
+            "truncated_pages": 0
+          }
+        ]
+      }
+    },
+    "tesseract": {
+      "baseline": {
+        "pages": 23,
+        "mean_page_error_proxy": 0.20425508335287537,
+        "micro_cer": 0.16202229299363058,
+        "truncated_pages": 0
+      },
+      "sensitivity": {
+        "all": {
+          "character_weighted_mean": {
+            "pages": 23,
+            "spearman": 0.5345849802371542
+          },
+          "geometric_mean": {
+            "pages": 23,
+            "spearman": 0.2750778695058738
+          },
+          "p10": {
+            "pages": 23,
+            "spearman": 0.12055335968379446
+          },
+          "fraction_below_0_90": {
+            "pages": 23,
+            "spearman": 0.24802371541501977
+          }
+        },
+        "exclude_truncated": {
+          "character_weighted_mean": {
+            "pages": 23,
+            "spearman": 0.5345849802371542
+          },
+          "geometric_mean": {
+            "pages": 23,
+            "spearman": 0.2750778695058738
+          },
+          "p10": {
+            "pages": 23,
+            "spearman": 0.12055335968379446
+          },
+          "fraction_below_0_90": {
+            "pages": 23,
+            "spearman": 0.24802371541501977
+          }
+        },
+        "omit_document:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.5363636363636364
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": 0.6879288918430898
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": 0.5
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": 0.5272727272727272
+          }
+        },
+        "omit_document:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.4019607843137255
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": 0.004963161166574748
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": -0.056372549019607844
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": -0.058823529411764705
+          }
+        },
+        "omit_document:rolls_royce_2026h1_presentation": {
+          "character_weighted_mean": {
+            "pages": 21,
+            "spearman": 0.4935064935064935
+          },
+          "geometric_mean": {
+            "pages": 21,
+            "spearman": 0.27568293790345866
+          },
+          "p10": {
+            "pages": 21,
+            "spearman": 0.06103896103896104
+          },
+          "fraction_below_0_90": {
+            "pages": 21,
+            "spearman": 0.21818181818181817
+          }
+        },
+        "omit_document:rolls_royce_2026h1_release": {
+          "character_weighted_mean": {
+            "pages": 20,
+            "spearman": 0.512781954887218
+          },
+          "geometric_mean": {
+            "pages": 20,
+            "spearman": 0.3060693891695589
+          },
+          "p10": {
+            "pages": 20,
+            "spearman": 0.19849624060150375
+          },
+          "fraction_below_0_90": {
+            "pages": 20,
+            "spearman": 0.3744360902255639
+          }
+        },
+        "omit_family:cvs_2025q2": {
+          "character_weighted_mean": {
+            "pages": 11,
+            "spearman": 0.5363636363636364
+          },
+          "geometric_mean": {
+            "pages": 11,
+            "spearman": 0.6879288918430898
+          },
+          "p10": {
+            "pages": 11,
+            "spearman": 0.5
+          },
+          "fraction_below_0_90": {
+            "pages": 11,
+            "spearman": 0.5272727272727272
+          }
+        },
+        "omit_family:edf_2024": {
+          "character_weighted_mean": {
+            "pages": 17,
+            "spearman": 0.4019607843137255
+          },
+          "geometric_mean": {
+            "pages": 17,
+            "spearman": 0.004963161166574748
+          },
+          "p10": {
+            "pages": 17,
+            "spearman": -0.056372549019607844
+          },
+          "fraction_below_0_90": {
+            "pages": 17,
+            "spearman": -0.058823529411764705
+          }
+        },
+        "omit_family:rolls_royce": {
+          "character_weighted_mean": {
+            "pages": 18,
+            "spearman": 0.4674922600619195
+          },
+          "geometric_mean": {
+            "pages": 18,
+            "spearman": 0.340228235448389
+          },
+          "p10": {
+            "pages": 18,
+            "spearman": 0.14963880288957687
+          },
+          "fraction_below_0_90": {
+            "pages": 18,
+            "spearman": 0.38080495356037153
+          }
+        }
+      },
+      "selection": {
+        "character_weighted_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9455723462123039,
+            "pages": 12,
+            "mean_page_error_proxy": 0.19166555743875724,
+            "micro_cer": 0.13212738853503184,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.924297437961935,
+            "pages": 19,
+            "mean_page_error_proxy": 0.20147651912859793,
+            "micro_cer": 0.1599951282884053,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.8837157837878789,
+            "pages": 23,
+            "mean_page_error_proxy": 0.20425508335287537,
+            "micro_cer": 0.16202229299363058,
+            "truncated_pages": 0
+          }
+        ],
+        "geometric_mean": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.925462908177061,
+            "pages": 12,
+            "mean_page_error_proxy": 0.23003424927384863,
+            "micro_cer": 0.14267475263325885,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.0,
+            "pages": 23,
+            "mean_page_error_proxy": 0.20425508335287537,
+            "micro_cer": 0.16202229299363058,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.0,
+            "pages": 23,
+            "mean_page_error_proxy": 0.20425508335287537,
+            "micro_cer": 0.16202229299363058,
+            "truncated_pages": 0
+          }
+        ],
+        "p10": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.9299295,
+            "pages": 12,
+            "mean_page_error_proxy": 0.26608974935755936,
+            "micro_cer": 0.2408304039265106,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.84232643,
+            "pages": 19,
+            "mean_page_error_proxy": 0.20790039902367313,
+            "micro_cer": 0.16078210189885317,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": 0.38281769,
+            "pages": 23,
+            "mean_page_error_proxy": 0.20425508335287537,
+            "micro_cer": 0.16202229299363058,
+            "truncated_pages": 0
+          }
+        ],
+        "fraction_below_0_90": [
+          {
+            "requested_coverage": 0.5,
+            "actual_coverage": 0.5217391304347826,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.06896551724137931,
+            "pages": 12,
+            "mean_page_error_proxy": 0.26188731178936303,
+            "micro_cer": 0.20823313866941487,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 0.8,
+            "actual_coverage": 0.8260869565217391,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.12,
+            "pages": 19,
+            "mean_page_error_proxy": 0.19468466738688886,
+            "micro_cer": 0.1585269121813031,
+            "truncated_pages": 0
+          },
+          {
+            "requested_coverage": 1,
+            "actual_coverage": 1.0,
+            "missing_scores": 0,
+            "oriented_score_threshold": -0.21428571428571427,
+            "pages": 23,
+            "mean_page_error_proxy": 0.20425508335287537,
+            "micro_cer": 0.16202229299363058,
+            "truncated_pages": 0
+          }
+        ]
+      }
+    }
+  }
+}

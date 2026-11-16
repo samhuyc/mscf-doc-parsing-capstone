@@ -1,0 +1,23 @@
+{
+  "review_status": "Assistant visual observations, not independently verified labels",
+  "findings": [
+    {
+      "document": "hippodrome_2025",
+      "page": 36,
+      "issue": "missed_table",
+      "detail": "The bottom carrying-value reconciliation is visible in the source but was not detected as a table. Native confidence on detected regions cannot reveal this omission."
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "page": 9,
+      "issue": "merged_subtables",
+      "detail": "The retained large box groups three visually separated financial subtables. Nested-box suppression avoids duplicate scoring but does not separate these subtables."
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "page": 25,
+      "issue": "shared_header_outside_second_crop",
+      "detail": "The second detected table contains the 2025 rows, while division names and currency units are in the first region above it. The second crop alone is insufficient for reliable column association."
+    }
+  ]
+}

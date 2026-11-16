@@ -1,0 +1,30 @@
+{
+  "description": "Final reproducible adapter and installed backend source fingerprints; no installed package edits",
+  "files": {
+    "run_extra_models.py": "6a5e766a1a1d875a3835af0b62b60117cc70a97befb848fed5971bf9885dd716",
+    "extra_scores.py": "62863cbff989a2ebcd7eb8c6dd8ba9e43eb1dc31361b05ba87df73d757d4ca09",
+    "../2026-11-10_native_confidence/score_probes.py": "008db44d1002c3222221c01681ff6125bde7238974d6f94a3186d21666252b7a",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/generate/ar.py": "830e5b00d796d55fbffa3818df80c8d668009e0e98a2b02f6a5ebcd327ac5f6e",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/generate/dispatch.py": "d59a966e28be03e81b9ca9e5bcd05f78c92250ffe77c7e059099480a76271ede",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/utils.py": "d67f2f49bff354bad36cc4adebb375ad0bcee5fbca74976b5fcda29ef4e78c5e",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/prompt_utils.py": "e92a9fe00c473ceef3cc61e6e66df6108b59feb5f0318840e91f97373197d88b",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/__init__.py": "7ae5f454ea0c492472c0269ada21e6672df890c476f2f4547a9f1c6e472d67ae",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/config.py": "749024144de99a20cc65b22463f12f578e40eb9759d742db395cd214f91b7249",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/language.py": "4d7c53f36d806016cc149e1d61b84d4405888ab6227a71746bb24c991e7ae694",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/paddleocr_vl.py": "7e8dfe2eaa5a92f915def364c641c5e579a105a5262221e6a6577271acf6a2f8",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/processing_paddleocr_vl.py": "4713f34645dddb8feb31a4f94ea5be77aa7c6ecb7396971af57123058e8fd3d6",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/paddleocr_vl/vision.py": "6fc96d50c926e741d72aa9119c251eec6b0e40e45e416925a8a336bd789a8416",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/__init__.py": "7061b644c9621711382ee07ecf3d8062283649c16a343f1263131cb7f814f63c",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/config.py": "10b00c88a61a41b35b5c0673299547b1c7eb76924753f619242b9618d432a1e8",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/glm_ocr.py": "8309607098f6f1be4b99c5e70679e39edd06d90b98b1b6a0d88cad73acc90f85",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/language.py": "ba8540c973a9abbefc097a60736586d10d6ddc7f4a7a32b64a636c374cbd3236",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/processing.py": "3fe6b573e595dad21e589b1c368bcf6b2d2610bc56d0f20e2a30bfe56c736e32",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/glm_ocr/vision.py": "99267f981038b9f782f240037a742efbb5ee93071be345b25d9dcbbabdf457aa",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/__init__.py": "7cdd3b2cbcb9ab562a2cf24dfc7d513abfdef014f082284b132aeb3e47acd5dc",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/config.py": "82a86ebcbeee5ec75ff8299a3b90904eec60b383a62b0bf9aa3ce9e25936edf5",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/language.py": "8dbfeff9a89f7a03871bd92b11d1ce38c8bb4f50a5a9e1e6f5c483ed99428c58",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/processing_qwen2_5_vl.py": "b7d6a1956972f338839328403d7608d310edb37be614e715523e3aa27a88c101",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/qwen2_5_vl.py": "5f0c0f5928e248cb14746b59f961bb9b51181536130007db9065da065b331e13",
+    "work/extra-env/lib/python3.12/site-packages/mlx_vlm/models/qwen2_5_vl/vision.py": "44e24161bac315d17b9673e4778020fccf7d17207aa892bfe27d78e770a319fa"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "checked_date": "2026-11-15",
+  "local_hardware": "Apple M1 Pro, 16 GB unified memory",
+  "status": "PaddleOCR-VL, GLM and Monkey completed all eight shared-crop trials; DeepSeek excluded; no independent accuracy labels",
+  "memory_note": "16-bit weights alone require approximately 2 GB per billion parameters. Vision activations, decoder KV cache, runtime and OS memory are additional. Quantization changes logits and must be treated as a separate confidence experiment.",
+  "candidates": [
+    {
+      "name": "PaddleOCR-VL-1.6",
+      "engine": "paddle_vl",
+      "checkpoint_bytes": 1930433660,
+      "revision": "132c45f52c0a26ed5a6b2f6bd8e3985794cc27dd",
+      "source": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6",
+      "eligible_under_4gb": true,
+      "trial": {
+        "completed": 8,
+        "checkpoint_bytes": 1930433660,
+        "instrumented_seconds_range": [
+          2.283,
+          12.415
+        ],
+        "peak_mlx_gb_range": [
+          2.700049174,
+          2.938732466
+        ],
+        "content_summary_available": 8,
+        "first_crop_observer_equivalence_passed": true,
+        "all_reached_eos": true
+      }
+    },
+    {
+      "name": "GLM-OCR",
+      "engine": "glm",
+      "checkpoint_bytes": 2657427420,
+      "revision": "2e85a62840ccac27daa451df36c736c4636b8628",
+      "source": "https://huggingface.co/zai-org/GLM-OCR",
+      "eligible_under_4gb": true,
+      "trial": {
+        "completed": 8,
+        "checkpoint_bytes": 2657427420,
+        "instrumented_seconds_range": [
+          2.84,
+          24.991
+        ],
+        "peak_mlx_gb_range": [
+          3.17589093,
+          3.388090394
+        ],
+        "content_summary_available": 4,
+        "first_crop_observer_equivalence_passed": true,
+        "all_reached_eos": true
+      }
+    },
+    {
+      "name": "MonkeyOCR-pro-1.2B",
+      "engine": "monkey",
+      "checkpoint_bytes": 3825491581,
+      "revision": "2fb372630f0035daca81be6f0ca90c58bace1af4",
+      "source": "https://huggingface.co/echo840/MonkeyOCR-pro-1.2B",
+      "eligible_under_4gb": true,
+      "trial": {
+        "completed": 8,
+        "checkpoint_bytes": 3825491581,
+        "instrumented_seconds_range": [
+          5.13,
+          39.485
+        ],
+        "peak_mlx_gb_range": [
+          4.641540579,
+          4.807132989
+        ],
+        "content_summary_available": 8,
+        "first_crop_observer_equivalence_passed": true,
+        "all_reached_eos": true
+      }
+    },
+    {
+      "name": "DeepSeek-OCR-2",
+      "checkpoint_bytes": 6789159602,
+      "eligible_under_4gb": false,
+      "status": "Excluded at user request; not downloaded or tested",
+      "source": "https://huggingface.co/deepseek-ai/DeepSeek-OCR-2"
+    }
+  ],
+  "confidence_adapter_contract": {
+    "input": "Shared source crop and its SHA256; preserve engine-specific preprocessing and task prompt in settings",
+    "output": "Text, emitted token IDs, selected original logits/probabilities, alternatives where available, stop reason, wall time, and failures",
+    "policy": "No prompted self-confidence. Expose unmodified raw logits before any sampling processors; normalize in FP32 without changing greedy decoding. Separate markup-token summaries from content summaries when structure markup is emitted. Validate text equivalence with and without instrumentation. Do not claim raw scores are comparable across engines."
+  },
+  "size_note": "Counts include downloaded recognition checkpoint and configuration/tokenizer files. Monkey 1.2B naming does not describe all vision weights. User permits runtime memory above 4 GB."
+}

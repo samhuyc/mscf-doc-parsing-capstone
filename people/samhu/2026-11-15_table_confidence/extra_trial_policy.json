@@ -1,0 +1,14 @@
+{
+  "excluded": [
+    "deepseek"
+  ],
+  "reason": "User excludes DeepSeek and requests checkpoints smaller than approximately 4 GB",
+  "checkpoint_byte_limit": 4000000000,
+  "requested": [
+    "paddle_vl",
+    "glm",
+    "monkey"
+  ],
+  "memory_scope": "User clarified: limit applies to model files; extra running memory is acceptable",
+  "monkey": "Eligible: 3.81 GB weights; report runtime memory separately"
+}

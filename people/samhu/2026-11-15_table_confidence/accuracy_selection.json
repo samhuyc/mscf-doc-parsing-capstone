@@ -1,0 +1,26 @@
+{
+  "purpose": "Exploratory layout-diverse numeric transcription study, selected without confidence values; includes previously seen pilot examples, not held-out",
+  "primary": "Numeric multiset F1 on independently source-checked crop references; does not measure row/column association, units, or omitted tables",
+  "table_ids": [
+    "cvs_2025q2_p006_t01",
+    "cvs_2025q2_p007_t01",
+    "cvs_2025q2_p009_t01",
+    "cvs_2025q2_p009_t02",
+    "edf_2024_p003_t01",
+    "edf_2024_p006_t01",
+    "hippodrome_2025_p020_t01",
+    "hippodrome_2025_p021_t01",
+    "hippodrome_2025_p030_t01",
+    "hippodrome_2025_p036_t01",
+    "peterborough_2025_p002_t01",
+    "peterborough_2025_p008_t01",
+    "peterborough_2025_p009_t01",
+    "rolls_royce_2026h1_presentation_p009_t01",
+    "rolls_royce_2026h1_presentation_p016_t01",
+    "rolls_royce_2026h1_release_p001_t01",
+    "rolls_royce_2026h1_release_p013_t01",
+    "rolls_royce_2026h1_release_p017_t01",
+    "rolls_royce_2026h1_release_p025_t01",
+    "rolls_royce_2026h1_release_p025_t02"
+  ]
+}

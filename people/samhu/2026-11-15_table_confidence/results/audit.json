@@ -1,0 +1,28 @@
+{
+  "pages": 7,
+  "table_regions": 8,
+  "successful": {
+    "paddle": 8,
+    "tesseract": 8,
+    "mineru": 8,
+    "paddle_vl": 8,
+    "glm": 8,
+    "monkey": 8
+  },
+  "pending": {},
+  "failed": {},
+  "token_limit": {},
+  "hook_equivalence_checks_passed": {
+    "paddle": 1,
+    "mineru": 1,
+    "paddle_vl": 1,
+    "glm": 1,
+    "monkey": 1
+  },
+  "valid_embedded_images": 15,
+  "nested_detections_suppressed": 2,
+  "scores_recomputed_from_native_units": true,
+  "source_crop_hashes_verified": true,
+  "correctness_validated": false,
+  "browser_visual_preview": "Unavailable: local-file browser preview blocked; source crops visually inspected and HTML/image structure checked"
+}

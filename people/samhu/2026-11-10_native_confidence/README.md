@@ -1,5 +1,7 @@
 # Native OCR confidence prototype
 
+Latest follow-up: [shared table regions and native confidence](../2026-11-15_table_confidence/README.md), including the completed six-model, 103-crop run and matched 19-crop confidence–accuracy comparison.
+
 [Open the presentation](sponsor_brief.html) · [All 13 reference snippets and matched outputs](results/v2/snippet_examples.json)
 
 **Question:** Do probabilities from recognition help rank transcription quality?

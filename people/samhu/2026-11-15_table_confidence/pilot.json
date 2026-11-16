@@ -1,0 +1,11 @@
+{
+  "purpose": "Development pilot only; selected for financial-table layout variety, not held-out evaluation",
+  "pages": {
+    "cvs_2025q2": [6, 9],
+    "edf_2024": [3],
+    "hippodrome_2025": [36],
+    "peterborough_2025": [6],
+    "rolls_royce_2026h1_presentation": [9],
+    "rolls_royce_2026h1_release": [25]
+  }
+}

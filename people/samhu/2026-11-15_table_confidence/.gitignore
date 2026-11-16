@@ -1,0 +1,8 @@
+.venv/
+work/
+runs/
+__pycache__/
+*.log
+
+# Machine-specific migration receipt; retained locally.
+results/local_migration_audit.json

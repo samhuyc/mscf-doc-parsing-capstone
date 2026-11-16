@@ -1,0 +1,47 @@
+{
+  "documents": [
+    {
+      "document": "cvs_2025q2",
+      "pages": 12,
+      "table_regions": 6,
+      "pages_with_detected_tables": 5
+    },
+    {
+      "document": "edf_2024",
+      "pages": 6,
+      "table_regions": 2,
+      "pages_with_detected_tables": 2
+    },
+    {
+      "document": "hippodrome_2025",
+      "pages": 39,
+      "table_regions": 21,
+      "pages_with_detected_tables": 15
+    },
+    {
+      "document": "peterborough_2025",
+      "pages": 12,
+      "table_regions": 6,
+      "pages_with_detected_tables": 4
+    },
+    {
+      "document": "rolls_royce_2026h1_presentation",
+      "pages": 19,
+      "table_regions": 6,
+      "pages_with_detected_tables": 6
+    },
+    {
+      "document": "rolls_royce_2026h1_release",
+      "pages": 52,
+      "table_regions": 62,
+      "pages_with_detected_tables": 38
+    }
+  ],
+  "total_pages": 140,
+  "table_regions": 103,
+  "detector": "PP-DocLayout_plus-L",
+  "render_dpi": 200,
+  "completeness": "Detected candidates only; financial relevance and missed tables unreviewed",
+  "table_manifest": "tables.json",
+  "report": "report.html"
+}

@@ -1,0 +1,47 @@
+{
+  "paddle_vl": {
+    "completed": 8,
+    "checkpoint_bytes": 1930433660,
+    "instrumented_seconds_range": [
+      2.283,
+      12.415
+    ],
+    "peak_mlx_gb_range": [
+      2.700049174,
+      2.938732466
+    ],
+    "content_summary_available": 8,
+    "first_crop_observer_equivalence_passed": true,
+    "all_reached_eos": true
+  },
+  "glm": {
+    "completed": 8,
+    "checkpoint_bytes": 2657427420,
+    "instrumented_seconds_range": [
+      2.84,
+      24.991
+    ],
+    "peak_mlx_gb_range": [
+      3.17589093,
+      3.388090394
+    ],
+    "content_summary_available": 4,
+    "first_crop_observer_equivalence_passed": true,
+    "all_reached_eos": true
+  },
+  "monkey": {
+    "completed": 8,
+    "checkpoint_bytes": 3825491581,
+    "instrumented_seconds_range": [
+      5.13,
+      39.485
+    ],
+    "peak_mlx_gb_range": [
+      4.641540579,
+      4.807132989
+    ],
+    "content_summary_available": 8,
+    "first_crop_observer_equivalence_passed": true,
+    "all_reached_eos": true
+  }
+}

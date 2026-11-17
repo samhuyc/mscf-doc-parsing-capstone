@@ -1,0 +1,2350 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-16T17:31:30.999202+00:00",
+  "reference_sha256": "61b862fe7ae078ec019b582a81dfb378d0120fad0f85487e81c33c44ea38023e",
+  "human_review_snapshot_sha256": "6414f57c45d29453f60120669aa14905ef9a2dede67b4f60299a67141f3ccada",
+  "protocol": "Assistant visual review only. Preserve human reviews separately. Values in incorrect row/period/unit groups are wrong. Blank spacing is not a financial error. Detail/total columns within one year are not different periods.",
+  "summary": {
+    "reviewed_crops": 19,
+    "human_confirmed_at_start": 8,
+    "human_approved_with_material_corrections": [
+      "edf_2024_p006_t01",
+      "hippodrome_2025_p021_t01"
+    ],
+    "requires_recrop": [
+      "hippodrome_2025_p030_t01",
+      "peterborough_2025_p009_t01",
+      "rolls_royce_2026h1_release_p025_t02"
+    ],
+    "material_correction_ids": [
+      "edf_2024_p006_t01",
+      "hippodrome_2025_p021_t01",
+      "peterborough_2025_p002_t01",
+      "peterborough_2025_p008_t01",
+      "rolls_royce_2026h1_release_p001_t01",
+      "rolls_royce_2026h1_release_p013_t01",
+      "rolls_royce_2026h1_release_p025_t01"
+    ]
+  },
+  "reviews": {
+    "cvs_2025q2_p006_t01": {
+      "table_id": "cvs_2025q2_p006_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "5c1147c2c5c1c5ae45f4f7f74e6d7d1386b1005dc8d4f06066de3e03aa2f4729",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "draft_sha256": "4b51ab88b300789aec65c6e8568a32e65cecc1e6448c5ece5ea5be32932cd5e2",
+      "based_on_human_revision": 7,
+      "based_on_grid_sha256": "7fb64f1c099d0ba4eb01f426257e03771542073530b4d134d8ebd75f4e33ca1a",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "wrapped_labels"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "Quarter Results",
+              "Q2 2025",
+              "Q2 2024"
+            ],
+            [
+              "In billions, except per share amounts",
+              "",
+              ""
+            ],
+            [
+              "Total Revenues",
+              "$98.9",
+              "$91.2"
+            ],
+            [
+              "Adjusted Operating Income",
+              "$3.81",
+              "$3.74"
+            ],
+            [
+              "GAAP Earnings per Share",
+              "$0.80",
+              "$1.41"
+            ],
+            [
+              "Adjusted Earnings per Share",
+              "$1.81",
+              "$1.83"
+            ],
+            [
+              "Cash Flow from Operations",
+              "$1.9",
+              "$3.1"
+            ]
+          ]
+        }
+      ]
+    },
+    "cvs_2025q2_p007_t01": {
+      "table_id": "cvs_2025q2_p007_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "c938f9f043bf48f74a7d58850059e88d0ba7a45c4bb2cf13924acd598b5060c6",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "draft_sha256": "827a3747834e2f52e86850008188ef5b7ca81014c1325df30e4f0b4e1186f01a",
+      "based_on_human_revision": 1,
+      "based_on_grid_sha256": "2748e3db1c93c1934f1b95f2c5f539703955acc07aaf0fe940da5a208c318a0b",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "wrapped_labels"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "Full Year Guidance",
+              "Full Year 2025",
+              "Full Year 2025"
+            ],
+            [
+              "In billions, except per share amounts and tax rate",
+              "as of July 31, 2025",
+              "as of May 1, 2025"
+            ],
+            [
+              "Total Revenues",
+              "At least $391.5",
+              "At least $382.6"
+            ],
+            [
+              "Adjusted Operating Income",
+              "$13.77 to $13.94",
+              "$13.31 to $13.65"
+            ],
+            [
+              "GAAP Earnings per Share",
+              "$3.84 to $3.94",
+              "$4.23 to $4.43"
+            ],
+            [
+              "Adjusted Earnings per Share",
+              "$6.30 to $6.40",
+              "$6.00 to $6.20"
+            ],
+            [
+              "Cash Flow from Operations",
+              "At least $7.5",
+              "~$7.0"
+            ],
+            [
+              "Interest Expense",
+              "~$3.11",
+              "~$3.15"
+            ],
+            [
+              "Capital Expenditures",
+              "$2.9 to $3.1",
+              "$2.8 to $3.0"
+            ],
+            [
+              "Adjusted Effective Tax Rate",
+              "~25.7%",
+              "~25.9%"
+            ],
+            [
+              "Weighted Average\nDiluted Share Count",
+              "~1.270",
+              "~1.270"
+            ]
+          ]
+        }
+      ]
+    },
+    "cvs_2025q2_p009_t01": {
+      "table_id": "cvs_2025q2_p009_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "6af956948f54c3f32f5137bad89f46deafce8de855788c30f2d0120fca3fa626",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "draft_sha256": "faf3fdcb4639cc0eeada0affc2a6079d724b20529fe61cdd4bba4b0704865c80",
+      "based_on_human_revision": 8,
+      "based_on_grid_sha256": "69c7b43a2fc0e38d05efb9f1f802360f2fa74206714fa30507138a9373697f42",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "wrapped_labels"
+      ],
+      "context": "Commercial and Government are subrows of Total Medical Membership (millions); they are not monetary amounts.",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "Quarter Results",
+              "2Q 2025",
+              "2Q 2024"
+            ],
+            [
+              "In billions, except MBR and membership",
+              "",
+              ""
+            ],
+            [
+              "Total Revenues",
+              "$36.3",
+              "$32.5"
+            ],
+            [
+              "Adjusted Operating Income",
+              "$1.31",
+              "$0.94"
+            ],
+            [
+              "Total Medical Membership (millions)",
+              "26.7",
+              "27.0"
+            ],
+            [
+              "Commercial",
+              "18.8",
+              "18.8"
+            ],
+            [
+              "Government",
+              "7.9",
+              "8.2"
+            ],
+            [
+              "Medical Benefits Ratio (MBR)",
+              "89.9%",
+              "89.6%"
+            ]
+          ]
+        }
+      ]
+    },
+    "cvs_2025q2_p009_t02": {
+      "table_id": "cvs_2025q2_p009_t02",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "9fd25ffb4db736317db289ccbc506671a1007b5aadc0fe0fdddd28ca54437d82",
+      "source_sha256": "afb296de4f6f297cd1482c15179f6c7515663f56d33be5a471382567e9c7512a",
+      "draft_sha256": "e83f22aedd63f234af2a7777ea5556065bf13a2189b1bab1347d644aa0587708",
+      "based_on_human_revision": 1,
+      "based_on_grid_sha256": "a6124c6a118be18dccff8540007fb7d20cb26dba276256693e58cc780a88d5d2",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "wrapped_labels"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "Full Year Guidance",
+              "Full Year 2025",
+              "Full Year 2025"
+            ],
+            [
+              "In billions, except MBR and membership",
+              "as of July 31, 2025",
+              "as of May 1, 2025"
+            ],
+            [
+              "Total Revenues",
+              "At least $139.9",
+              "At least $138.0"
+            ],
+            [
+              "Adjusted Operating Income",
+              "$2.42 to $2.59",
+              "$1.91 to $2.25"
+            ],
+            [
+              "Total Medical Membership (millions)",
+              "~26.4",
+              "~26.4"
+            ],
+            [
+              "Medical Benefits Ratio (MBR)",
+              "~91.0% (at the low-end)",
+              "91.3% (at the low-end)"
+            ]
+          ]
+        }
+      ]
+    },
+    "edf_2024_p003_t01": {
+      "table_id": "edf_2024_p003_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "7da310723401e8320222005790a74d391519908292cff630ada1c96830a459df",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "draft_sha256": "ade33ebae5efc60b36e779b4ca7cdc43c6ca4c56c838885ab51109548e972bb4",
+      "based_on_human_revision": 31,
+      "based_on_grid_sha256": "0508fa6b8b9b92d760c79a13320ce5a328822425e1ba44f376b808864f6aa2cd",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Your corrected Electricity/Gas > Domestic/Non Domestic headers and separated rows match the image."
+      ],
+      "layout_tags": [
+        "multi_level_column_headers",
+        "multiple_semantic_rows_inside_ruled_block",
+        "row_hierarchy"
+      ],
+      "context": "Direct costs contains Transportation, Environmental/social obligations and Other direct costs. Volume: electricity TWh; gas million therms. WACO E/G: electricity £/MWh; gas p/therm. Other financial rows: £ million; Meter Points: thousands.",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "",
+              "Unit",
+              "Electricity supply",
+              "Electricity supply",
+              "Gas supply",
+              "Gas supply",
+              "Aggregate supply business"
+            ],
+            [
+              "",
+              "Unit",
+              "Domestic",
+              "Non Domestic",
+              "Domestic",
+              "Non Domestic",
+              "Aggregate supply business"
+            ],
+            [
+              "Total revenue ",
+              "£'M",
+              "3,037.1",
+              "8,674.9",
+              "1,693.1",
+              "126.6",
+              "13,531.6"
+            ],
+            [
+              "Revenue from sale of electricity and gas",
+              "£'M",
+              "3,037.1",
+              "8,674.9",
+              "1,693.1",
+              "126.6",
+              "13,531.6"
+            ],
+            [
+              "Other revenues",
+              "£'M",
+              "0.0",
+              "0.0",
+              "0.0",
+              "0.0",
+              "0.0"
+            ],
+            [
+              "Total operating costs ",
+              "£'M",
+              "2,862.2",
+              "8,482.2",
+              "1,777.7",
+              "116.2",
+              "13,238.2"
+            ],
+            [
+              "Direct fuel costs",
+              "£'M",
+              "1,065.1",
+              "4,556.2",
+              "1,046.1",
+              "72.1",
+              "6,739.4"
+            ],
+            [
+              "Direct costs ",
+              "£'M",
+              "1,373.0",
+              "3,713.3",
+              "459.9",
+              "24.0",
+              "5,570.2"
+            ],
+            [
+              "Transportation costs",
+              "£'M",
+              "649.4",
+              "1,807.3",
+              "385.4",
+              "18.7",
+              "2,860.8"
+            ],
+            [
+              "Environmental and social obligations costs",
+              "£'M",
+              "679.1",
+              "1,833.0",
+              "59.8",
+              "0.3",
+              "2,572.2"
+            ],
+            [
+              "Other direct costs",
+              "£'M",
+              "44.5",
+              "73.0",
+              "14.7",
+              "4.9",
+              "137.2"
+            ],
+            [
+              "Indirect costs",
+              "£'M",
+              "424.0",
+              "212.7",
+              "271.7",
+              "20.1",
+              "928.6"
+            ],
+            [
+              "EBITDA ",
+              "£'M",
+              "174.9",
+              "192.7",
+              "(84.6)",
+              "10.4",
+              "293.4"
+            ],
+            [
+              "Depreciation and amortisation",
+              "£'M",
+              "10.7",
+              "42.5",
+              "7.4",
+              "4.0",
+              "64.7"
+            ],
+            [
+              "EBIT",
+              "£'M",
+              "164.2",
+              "150.1",
+              "(92.0)",
+              "6.4",
+              "228.7"
+            ],
+            [
+              "Volume",
+              "TWh, m therms",
+              "10.5",
+              "34.5",
+              "863.9",
+              "61.6",
+              ""
+            ],
+            [
+              "WACOE/G",
+              "£/MWh, p/th",
+              "101.2",
+              "132.1",
+              "121.1",
+              "116.9",
+              ""
+            ],
+            [
+              "Meter Points",
+              "000s",
+              "3,113.3",
+              "556.2",
+              "2,168.0",
+              "52.6",
+              "5,890.1"
+            ]
+          ]
+        }
+      ]
+    },
+    "edf_2024_p006_t01": {
+      "table_id": "edf_2024_p006_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "578c15d739c1890fe4f1ef30936c744c9ef50fe0ab87c26448f42f95dbbd50bd",
+      "source_sha256": "c48c81daa0aac71dc51e1e586e2a78a36633f8ab88eeebecceb75419cf238c60",
+      "draft_sha256": "c6e48911ca97fb4850d46546d1c0ee6fa0afaa3c2f48f76b9addcc43cb1f7ec1",
+      "based_on_human_revision": 4,
+      "based_on_grid_sha256": "de20d6975489f5479a147a3b4bbc1a9fd538f5cd7b1276ecea87107384bab57a",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "Non-licensed activities was omitted: 120.6 revenue / 213.4 EBIT belongs to that row, not the Adjustments section heading."
+      ],
+      "layout_tags": [
+        "multiple_semantic_rows_inside_ruled_block",
+        "missing_row_label"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Reconciliation",
+          "cells": [
+            [
+              "Item",
+              "Unit",
+              "Revenue",
+              "EBIT"
+            ],
+            [
+              "EDF Supply CSS",
+              "£’m",
+              "13,531.6",
+              "228.7"
+            ],
+            [
+              "Adjustments:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Non-licensed activities",
+              "£’m",
+              "120.6",
+              "213.4"
+            ],
+            [
+              "Impairment of non-current assets",
+              "£’m",
+              "-",
+              "(25.9)"
+            ],
+            [
+              "Restructuring costs",
+              "£’m",
+              "-",
+              "(9.8)"
+            ],
+            [
+              "EDF Energy Customers Limited Statutory Accounts",
+              "£’m",
+              "13,652.2",
+              "406.4"
+            ]
+          ]
+        }
+      ]
+    },
+    "hippodrome_2025_p020_t01": {
+      "table_id": "hippodrome_2025_p020_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "b8a29fc575efad29feaec704bbb469719da5d7285c00aa99ef067c4103cbe460",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "draft_sha256": "f44912526e0af011ce8ca9bbc4da05799dff6f4c92a2c1e357bac5682ca7d56f",
+      "based_on_human_revision": 3,
+      "based_on_grid_sha256": "f1cf93549edc18b36245c3aac68c3e665a7b77208d14432a3f4d2b30a069c206",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "notes_column",
+        "wrapped_labels"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "",
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "",
+              "Notes",
+              "£",
+              "£"
+            ],
+            [
+              "Turnover",
+              "3",
+              "116,787,681",
+              "114,583,476"
+            ],
+            [
+              "Cost of sales",
+              "",
+              "(49,553,722)",
+              "(49,669,638)"
+            ],
+            [
+              "Gross profit",
+              "",
+              "67,233,959",
+              "64,913,838"
+            ],
+            [
+              "Administrative expenses",
+              "",
+              "(61,723,344)",
+              "(56,732,754)"
+            ],
+            [
+              "Operating profit",
+              "6",
+              "5,510,615",
+              "8,181,084"
+            ],
+            [
+              "Interest receivable and similar income",
+              "8",
+              "913,167",
+              "1,000,725"
+            ],
+            [
+              "Interest payable and similar expenses",
+              "9",
+              "(2,809,776)",
+              "(3,288,591)"
+            ],
+            [
+              "Other gains and losses",
+              "10",
+              "169,884",
+              "8,941,676"
+            ],
+            [
+              "Profit before taxation",
+              "",
+              "3,783,890",
+              "14,834,894"
+            ],
+            [
+              "Tax on profit",
+              "11",
+              "(1,056,033)",
+              "(2,349,942)"
+            ],
+            [
+              "Profit for the financial year",
+              "",
+              "2,727,857",
+              "12,484,952"
+            ]
+          ]
+        }
+      ]
+    },
+    "hippodrome_2025_p021_t01": {
+      "table_id": "hippodrome_2025_p021_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "db9796b7267ce50842970582da859c47277bb0fc4161ac2bb072bcf2c6836558",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "draft_sha256": "24d66b7033d8d185d58516385a9ec388f0a933154a363c2b94d672f96f6bf61b",
+      "based_on_human_revision": 30,
+      "based_on_grid_sha256": "5318ddd7cbdb89029c6a7c243adf38312cdfb0a98e6bd044fbcc8ad70197b6d7",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "There are two amount positions within each year: detail/workings and totals. Preserve both under the same year.",
+        "Restore Called up share capital; notes 24 and 25 belong in Notes, not an amount column.",
+        "Provisions for liabilities is a heading. Deferred tax is a positive detail followed by an unlabeled negative deduction."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "year_groups_with_detail_and_total_columns",
+        "row_hierarchy",
+        "shifted_cells"
+      ],
+      "context": "Columns C3/C4 are 2025 detail/total positions; C5/C6 are 2024 detail/total positions. These role names explain placement and are not extra printed periods. Blank subtotal labels stay blank. Layout position alone must not change the year association.",
+      "grids": [
+        {
+          "name": "Balance sheet",
+          "cells": [
+            [
+              "",
+              "Notes",
+              "2025",
+              "2025",
+              "2024",
+              "2024"
+            ],
+            [
+              "",
+              "",
+              "£",
+              "£",
+              "£",
+              "£"
+            ],
+            [
+              "Fixed assets",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Intangible assets",
+              "12",
+              "",
+              "292,280",
+              "",
+              "262,352"
+            ],
+            [
+              "Tangible assets",
+              "13",
+              "",
+              "49,022,342",
+              "",
+              "47,854,347"
+            ],
+            [
+              "Investments",
+              "14",
+              "",
+              "31,001",
+              "",
+              "31,001"
+            ],
+            [
+              "",
+              "",
+              "",
+              "49,345,623",
+              "",
+              "48,147,700"
+            ],
+            [
+              "Current assets",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Stocks",
+              "16",
+              "270,584",
+              "",
+              "294,487",
+              ""
+            ],
+            [
+              "Debtors",
+              "17",
+              "39,890,644",
+              "",
+              "26,258,481",
+              ""
+            ],
+            [
+              "Cash at bank and in hand",
+              "",
+              "24,768,430",
+              "",
+              "30,767,822",
+              ""
+            ],
+            [
+              "",
+              "",
+              "64,929,658",
+              "",
+              "57,320,790",
+              ""
+            ],
+            [
+              "Creditors: amounts falling due within one year",
+              "18",
+              "(32,716,196)",
+              "",
+              "(29,889,894)",
+              ""
+            ],
+            [
+              "Net current assets",
+              "",
+              "",
+              "32,213,462",
+              "",
+              "27,430,896"
+            ],
+            [
+              "Total assets less current liabilities",
+              "",
+              "",
+              "81,559,085",
+              "",
+              "75,578,596"
+            ],
+            [
+              "Creditors: amounts falling due after more than one year",
+              "19",
+              "",
+              "(36,104,541)",
+              "",
+              "(33,283,391)"
+            ],
+            [
+              "Provisions for liabilities",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Deferred tax liability",
+              "22",
+              "3,493,319",
+              "",
+              "3,061,837",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "(3,493,319)",
+              "",
+              "(3,061,837)"
+            ],
+            [
+              "Net assets",
+              "",
+              "",
+              "41,961,225",
+              "",
+              "39,233,368"
+            ],
+            [
+              "Capital and reserves",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Called up share capital",
+              "24",
+              "",
+              "9,662,983",
+              "",
+              "9,662,983"
+            ],
+            [
+              "Profit and loss reserves",
+              "25",
+              "",
+              "32,298,242",
+              "",
+              "29,570,385"
+            ],
+            [
+              "Total equity",
+              "",
+              "",
+              "41,961,225",
+              "",
+              "39,233,368"
+            ]
+          ]
+        }
+      ]
+    },
+    "hippodrome_2025_p030_t01": {
+      "table_id": "hippodrome_2025_p030_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "needs_recrop",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "27c1649e842f8ee823a607ab6392f4969570741a534c6b39190c4de7005c8a38",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "draft_sha256": "a91e4f2ad21297d1c542fc43601bfa66f11c3870dc9c979b6e89a3a407e5a11b",
+      "based_on_human_revision": 3,
+      "based_on_grid_sha256": "5bb7b388a2548e7e662745585387ffc0f631c1f94092d175231f87682d7b7716",
+      "requires_recrop": true,
+      "material_correction": true,
+      "findings": [
+        "Your crop concern is correct: every row label lies outside the crop.",
+        "The detector grouped three separate tables: staff counts, staff costs and directors’ remuneration. Full page inspected; recrop/split before rerunning all models."
+      ],
+      "layout_tags": [
+        "missing_row_labels",
+        "multiple_subtables",
+        "no_vertical_rules"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "2025 Number",
+              "2024 Number"
+            ],
+            [
+              "660",
+              "650"
+            ],
+            [
+              "43",
+              "38"
+            ],
+            [
+              "703",
+              "688"
+            ],
+            [
+              "",
+              ""
+            ],
+            [
+              "2025 £",
+              "2024 £"
+            ],
+            [
+              "24,304,579",
+              "22,728,385"
+            ],
+            [
+              "2,848,672",
+              "2,335,070"
+            ],
+            [
+              "683,546",
+              "695,312"
+            ],
+            [
+              "27,836,797",
+              "25,758,767"
+            ],
+            [
+              "",
+              ""
+            ],
+            [
+              "2025 £",
+              "2024 £"
+            ],
+            [
+              "579,963",
+              "522,953"
+            ],
+            [
+              "27,200",
+              "34,523"
+            ],
+            [
+              "",
+              ""
+            ],
+            [
+              "607,163",
+              "557,476"
+            ]
+          ]
+        }
+      ],
+      "recovered_grids_from_full_page": [
+        {
+          "name": "Employees",
+          "cells": [
+            [
+              "",
+              "2025 Number",
+              "2024 Number"
+            ],
+            [
+              "Gaming and hospitality staff",
+              "660",
+              "650"
+            ],
+            [
+              "Administrative staff",
+              "43",
+              "38"
+            ],
+            [
+              "Total",
+              "703",
+              "688"
+            ]
+          ]
+        },
+        {
+          "name": "Aggregate remuneration",
+          "cells": [
+            [
+              "",
+              "2025 £",
+              "2024 £"
+            ],
+            [
+              "Wages and salaries",
+              "24,304,579",
+              "22,728,385"
+            ],
+            [
+              "Social security costs",
+              "2,848,672",
+              "2,335,070"
+            ],
+            [
+              "Pension costs",
+              "683,546",
+              "695,312"
+            ],
+            [
+              "",
+              "27,836,797",
+              "25,758,767"
+            ]
+          ]
+        },
+        {
+          "name": "Directors remuneration",
+          "cells": [
+            [
+              "",
+              "2025 £",
+              "2024 £"
+            ],
+            [
+              "Remuneration for qualifying services",
+              "579,963",
+              "522,953"
+            ],
+            [
+              "Company pension contributions to defined contribution schemes",
+              "27,200",
+              "34,523"
+            ],
+            [
+              "",
+              "607,163",
+              "557,476"
+            ]
+          ]
+        }
+      ],
+      "full_page_inspected": true,
+      "evaluation_blocker": "The unchanged crop omits required context; do not score model associations against labels visible only on the full page."
+    },
+    "hippodrome_2025_p036_t01": {
+      "table_id": "hippodrome_2025_p036_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "1d23923d2115e7d0ccad6e9620d996416ec3d2c2a1c2a01b0ebbe1e631c36fb7",
+      "source_sha256": "59530854e9fd06e2dbfa5871e06586a7e5c4516cdb7bea42d38afcb88308a224",
+      "draft_sha256": "a29c16b259fd85c089b3d9a1c69d3f295cedaffafecf440d3e98003e091e35f9",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "0d8dc351cfdff0dc6c496f9406795287080639de446a2c5d6827e6d4b246d7f5",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Borrowings values and year associations match; removed an empty spacer row."
+      ],
+      "layout_tags": [
+        "no_vertical_rules"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "20 Borrowings",
+              "",
+              ""
+            ],
+            [
+              "",
+              "2025",
+              "2024"
+            ],
+            [
+              "",
+              "£",
+              "£"
+            ],
+            [
+              "Preference shares",
+              "35,813,158",
+              "33,173,266"
+            ],
+            [
+              "Payable after one year",
+              "35,813,158",
+              "33,173,266"
+            ]
+          ]
+        }
+      ]
+    },
+    "peterborough_2025_p002_t01": {
+      "table_id": "peterborough_2025_p002_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "cf99051e919fa6433879345ea36311955bbc90af2f9cd79c5c311fbd4eee76a8",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "draft_sha256": "7dfe8f1b037e3518170804d9828f0d5d71fd452e198e813492c7e9d71c49f59b",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "5e0f7312861ea7c21b51f3d7bc4d293ec5981825b29156ecd0c3d3c44a0d9115",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "2024 detail amounts were placed beneath a 2025 header. Restore detail/total positions for each year.",
+        "Remove the duplicated net-assets row; the source prints this amount once before Capital and reserves."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "year_groups_with_detail_and_total_columns",
+        "duplicate_row"
+      ],
+      "context": "C3/C4: 2025 detail/total; C5/C6: 2024 detail/total. The source prints one year heading for each pair. Empty amount positions are intentional.",
+      "grids": [
+        {
+          "name": "Balance sheet",
+          "cells": [
+            [
+              "",
+              "Note",
+              "2025",
+              "2025",
+              "2024",
+              "2024"
+            ],
+            [
+              "",
+              "",
+              "£",
+              "£",
+              "£",
+              "£"
+            ],
+            [
+              "Fixed assets",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Tangible assets",
+              "4",
+              "",
+              "967,756",
+              "",
+              "992,467"
+            ],
+            [
+              "Current assets",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Debtors: amounts falling due within one year",
+              "5",
+              "2,278,941",
+              "",
+              "4,936,255",
+              ""
+            ],
+            [
+              "Bank and cash balances",
+              "",
+              "2,751,541",
+              "",
+              "821,700",
+              ""
+            ],
+            [
+              "",
+              "",
+              "5,030,482",
+              "",
+              "5,757,955",
+              ""
+            ],
+            [
+              "Creditors: amounts falling due within one year",
+              "6",
+              "(504,045)",
+              "",
+              "(508,936)",
+              ""
+            ],
+            [
+              "Net current assets",
+              "",
+              "",
+              "4,526,437",
+              "",
+              "5,249,019"
+            ],
+            [
+              "Total assets less current liabilities",
+              "",
+              "",
+              "5,494,193",
+              "",
+              "6,241,486"
+            ],
+            [
+              "Creditors: amounts falling due after more than one year",
+              "7",
+              "",
+              "(1,009,237)",
+              "",
+              "(1,046,848)"
+            ],
+            [
+              "Net assets",
+              "",
+              "",
+              "4,484,956",
+              "",
+              "5,194,638"
+            ],
+            [
+              "Capital and reserves",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Called up share capital",
+              "",
+              "",
+              "130",
+              "",
+              "130"
+            ],
+            [
+              "Share premium account",
+              "",
+              "",
+              "40,698",
+              "",
+              "40,698"
+            ],
+            [
+              "Profit and loss account",
+              "",
+              "",
+              "4,444,128",
+              "",
+              "5,153,810"
+            ],
+            [
+              "",
+              "",
+              "",
+              "4,484,956",
+              "",
+              "5,194,638"
+            ]
+          ]
+        }
+      ]
+    },
+    "peterborough_2025_p008_t01": {
+      "table_id": "peterborough_2025_p008_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "c2b1587b30a1d7f539de245867764c4d04c87d4f44423292b2701bf9ea07f43c",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "draft_sha256": "e04eac4834f12714d00a73a494cd97a1970b99da3682855b4457f52f4daf53c4",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "647659d6c196f109ed8c27a2b1f8df07cb5fafd13793e011ba6836f08f9f61ce",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "Restore the missing At 31 March 2025 label on the accumulated-depreciation row (812,920; 205,239; 652,085; 24,276; 1,694,520)."
+      ],
+      "layout_tags": [
+        "no_vertical_rules",
+        "wrapped_labels",
+        "missing_row_label",
+        "row_hierarchy"
+      ],
+      "context": "Repeated dates are distinct rows under Cost, Depreciation and Net book value; keep those section associations.",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "",
+              "Freehold property",
+              "Plant and machinery",
+              "Fixtures and fittings",
+              "Computer equipment",
+              "Total"
+            ],
+            [
+              "",
+              "£",
+              "£",
+              "£",
+              "£",
+              "£"
+            ],
+            [
+              "Cost",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "At 1 April 2024",
+              "1,584,404",
+              "236,949",
+              "776,063",
+              "26,736",
+              "2,624,152"
+            ],
+            [
+              "Additions",
+              "-",
+              "-",
+              "37,138",
+              "986",
+              "38,124"
+            ],
+            [
+              "At 31 March 2025",
+              "1,584,404",
+              "236,949",
+              "813,201",
+              "27,722",
+              "2,662,276"
+            ],
+            [
+              "Depreciation",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "At 1 April 2024",
+              "781,232",
+              "199,643",
+              "627,408",
+              "23,402",
+              "1,631,685"
+            ],
+            [
+              "Charge for the year on owned assets",
+              "31,688",
+              "5,596",
+              "24,677",
+              "874",
+              "62,835"
+            ],
+            [
+              "At 31 March 2025",
+              "812,920",
+              "205,239",
+              "652,085",
+              "24,276",
+              "1,694,520"
+            ],
+            [
+              "Net book value",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "At 31 March 2025",
+              "771,484",
+              "31,710",
+              "161,116",
+              "3,446",
+              "967,756"
+            ],
+            [
+              "At 31 March 2024",
+              "803,172",
+              "37,306",
+              "148,655",
+              "3,334",
+              "992,467"
+            ]
+          ]
+        }
+      ]
+    },
+    "peterborough_2025_p009_t01": {
+      "table_id": "peterborough_2025_p009_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "needs_recrop",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "c09387fe69650dcf76cbabd3f0baeeafe62cc31ff979ac84ddd5df04efd3af3c",
+      "source_sha256": "cbe1b26b450976fe6c97ffc727170131547d414b9a117fcea24e7962644862b4",
+      "draft_sha256": "4c9c30577afe25d3b9f93532a36b1610e5c3369bd6019ed70137ffdbc25bab80",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "9ecd6ae5e330520e98436979072a4d6802d565bcfebc9f6983af951dfa5b2df7",
+      "requires_recrop": true,
+      "material_correction": true,
+      "findings": [
+        "The crop excludes all debtor row labels. The draft also invents an extra column / repeated year.",
+        "Full page inspected: expand leftward to include the Debtors labels before rerunning."
+      ],
+      "layout_tags": [
+        "missing_row_labels",
+        "no_vertical_rules"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "2025",
+              "2024",
+              ""
+            ],
+            [
+              "2025",
+              "£",
+              "£"
+            ],
+            [
+              "28,862",
+              "20,231",
+              ""
+            ],
+            [
+              "2,110,963",
+              "4,849,789",
+              ""
+            ],
+            [
+              "28",
+              "28",
+              ""
+            ],
+            [
+              "139,088",
+              "66,207",
+              ""
+            ],
+            [
+              "2,278,941",
+              "4,936,255",
+              ""
+            ]
+          ]
+        }
+      ],
+      "recovered_grids_from_full_page": [
+        {
+          "name": "Debtors",
+          "cells": [
+            [
+              "",
+              "2025 £",
+              "2024 £"
+            ],
+            [
+              "Trade debtors",
+              "28,862",
+              "20,231"
+            ],
+            [
+              "Other debtors",
+              "2,110,963",
+              "4,849,789"
+            ],
+            [
+              "Called up share capital not paid",
+              "28",
+              "28"
+            ],
+            [
+              "Prepayments and accrued income",
+              "139,088",
+              "66,207"
+            ],
+            [
+              "",
+              "2,278,941",
+              "4,936,255"
+            ]
+          ]
+        }
+      ],
+      "full_page_inspected": true,
+      "evaluation_blocker": "The unchanged crop omits required context; do not score model associations against labels visible only on the full page."
+    },
+    "rolls_royce_2026h1_presentation_p009_t01": {
+      "table_id": "rolls_royce_2026h1_presentation_p009_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "be9aa6e504983cb87af813b498224b8d6e8e3927a83798f260193d3131dd2e0b",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "draft_sha256": "f01ac798e962f6300edd00ea476c2a7fc30f60652eb88a38e57d7efb08d77846",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "844e5545d7860d02ef88abab1c199c52a499f73bc31e833a2905dbbde56fb8b1",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values match. Split the three visible subtables so their units and Change columns cannot be confused."
+      ],
+      "layout_tags": [
+        "multiple_subtables",
+        "different_units"
+      ],
+      "context": "Top table: £ million except margins. Middle: pence. Bottom: £ million except return on capital; changes marked pts are percentage points. Footnote 1 is a note marker.",
+      "grids": [
+        {
+          "name": "Underlying results (£m)",
+          "cells": [
+            [
+              "Underlying results £m",
+              "H1 2026",
+              "H1 2025",
+              "Organic Change1",
+              "Organic Change %1"
+            ],
+            [
+              "Revenue",
+              "11,279",
+              "9,057",
+              "2,310",
+              "26%"
+            ],
+            [
+              "Gross profit",
+              "3,397",
+              "2,572",
+              "839",
+              "33%"
+            ],
+            [
+              "Gross margin %",
+              "30.1%",
+              "28.4%",
+              "1.6pts",
+              ""
+            ],
+            [
+              "Operating profit",
+              "2,534",
+              "1,733",
+              "796",
+              "46%"
+            ],
+            [
+              "Operating margin %",
+              "22.5%",
+              "19.1%",
+              "3.1pts",
+              ""
+            ]
+          ]
+        },
+        {
+          "name": "Per share (pence)",
+          "cells": [
+            [
+              "pence",
+              "H1 2026",
+              "H1 2025",
+              "Change",
+              "Change %"
+            ],
+            [
+              "Basic earnings per share",
+              "22.17",
+              "15.74",
+              "6.43",
+              "41%"
+            ],
+            [
+              "Dividend per share",
+              "6.0",
+              "4.5",
+              "1.5",
+              "33%"
+            ]
+          ]
+        },
+        {
+          "name": "Cash and return on capital",
+          "cells": [
+            [
+              "£m",
+              "H1 2026",
+              "H1 2025",
+              "Change"
+            ],
+            [
+              "Free cash flow",
+              "1,964",
+              "1,582",
+              "382"
+            ],
+            [
+              "Net cash",
+              "2,136",
+              "1,084",
+              "1,052"
+            ],
+            [
+              "Return on capital",
+              "22.0%",
+              "16.9%",
+              "5.1pts"
+            ]
+          ]
+        }
+      ]
+    },
+    "rolls_royce_2026h1_presentation_p016_t01": {
+      "table_id": "rolls_royce_2026h1_presentation_p016_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "assistant_checked",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "24cf02113c646558ccebec7fca579fc3c4d9a6a8fc5299840f05ea87c8a49686",
+      "source_sha256": "eb86216db0aaa4679418059a3599f12c47952d3065c25cc66f588d76a3678971",
+      "draft_sha256": "386886f6ce74f61199b3c5f9fedbea3f8dae21477c6b4c4bdb9111cc9fbf99a4",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "c1f29ef717ecd4f0dc0ba5f31d47257f57db4a6ed03df126db01245cf3e47689",
+      "requires_recrop": false,
+      "material_correction": false,
+      "findings": [
+        "Values and row/column associations appear consistent with the source image."
+      ],
+      "layout_tags": [
+        "infographic_table",
+        "wrapped_qualifier"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "Large engine EFH",
+              "Towards the lower end of the range of 115-120% of 2019"
+            ],
+            [
+              "Total OE deliveries",
+              "550-600"
+            ],
+            [
+              "Total shop visits",
+              "1,480-1,550"
+            ]
+          ]
+        }
+      ]
+    },
+    "rolls_royce_2026h1_release_p001_t01": {
+      "table_id": "rolls_royce_2026h1_release_p001_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "af8e4d31218da45a2fea29035df356ea45f810b5adf2f9b6abab15eca5be189a",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "draft_sha256": "56d8c376734dc03cf9e38044be72a8fa384cb89bba3fb1ccfde8bb1bf053a16f",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "8e1d192282162b17e141192def975c167a15a2b023088e7fcc142e352d560e13",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "Restore £ million and separate Underlying/Statutory headers. Footnote 1 must not become part of the year.",
+        "Net cash belongs to 30 Jun 2026 and 31 Dec 2025; the draft places date labels in amount cells and shifts 2,136 / 1,895."
+      ],
+      "layout_tags": [
+        "multi_level_column_headers",
+        "multiple_subtables",
+        "shifted_cells"
+      ],
+      "context": "Bracketed numbers indicate printed superscript footnote markers, not part of years/amounts. Blank Underlying/Statutory cells are intentionally absent, not zeros.",
+      "grids": [
+        {
+          "name": "Performance (£ million unless stated)",
+          "cells": [
+            [
+              "£ million",
+              "Underlying",
+              "Underlying",
+              "Statutory",
+              "Statutory"
+            ],
+            [
+              "",
+              "H1 2026 [1]",
+              "H1 2025 [1]",
+              "H1 2026",
+              "H1 2025"
+            ],
+            [
+              "Revenue",
+              "11,279",
+              "9,057",
+              "11,448",
+              "9,490"
+            ],
+            [
+              "Operating profit",
+              "2,534",
+              "1,733",
+              "2,418",
+              "2,074"
+            ],
+            [
+              "Operating margin %",
+              "22.5%",
+              "19.1%",
+              "21.1%",
+              "21.9%"
+            ],
+            [
+              "Profit before taxation",
+              "2,495",
+              "1,689",
+              "1,931",
+              "4,841"
+            ],
+            [
+              "Basic earnings per share (pence) [2]",
+              "22.17",
+              "15.74",
+              "19.32",
+              "52.38"
+            ],
+            [
+              "Free cash flow",
+              "1,964",
+              "1,582",
+              "",
+              ""
+            ],
+            [
+              "Return on capital (%) [2,3]",
+              "22.0%",
+              "16.9%",
+              "",
+              ""
+            ],
+            [
+              "Net cash flow from operating activities",
+              "",
+              "",
+              "2,570",
+              "2,018"
+            ]
+          ]
+        },
+        {
+          "name": "Net cash (£ million)",
+          "cells": [
+            [
+              "",
+              "30 Jun 2026",
+              "31 Dec 2025"
+            ],
+            [
+              "Net cash",
+              "2,136",
+              "1,895"
+            ]
+          ]
+        }
+      ]
+    },
+    "rolls_royce_2026h1_release_p013_t01": {
+      "table_id": "rolls_royce_2026h1_release_p013_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "dd08ee6b091e3d0ff1836a3bef2b220f2fd45a512f9c1f14e0e2ca8cb9ce2e16",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "draft_sha256": "6fc39f750eb03a3420255e11e6a0e3dea0cda7343863654a8330806600562366",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "c202704bc2532cfdb3521e9480269c9a421f1059dd778dd6cf6e03029843e7ed",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "The 2026 header incorrectly spans the Notes column. Keep Notes separate from both year columns."
+      ],
+      "layout_tags": [
+        "notes_column",
+        "incorrect_header_span",
+        "row_hierarchy"
+      ],
+      "context": "Amount columns are £ million. Superscripts on row labels are footnotes, distinct from the Notes column. Keep Attributable to as the parent of Ordinary shareholders and NCI.",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "",
+              "",
+              "Half-year to 30 June 2026",
+              "Half-year to 30 June 2025"
+            ],
+            [
+              "",
+              "Notes",
+              "£m",
+              "£m"
+            ],
+            [
+              "Revenue",
+              "2",
+              "11,448",
+              "9,490"
+            ],
+            [
+              "Cost of sales1,2",
+              "",
+              "(8,021)",
+              "(6,563)"
+            ],
+            [
+              "Gross profit",
+              "2",
+              "3,427",
+              "2,927"
+            ],
+            [
+              "Commercial and administrative costs",
+              "2",
+              "(797)",
+              "(631)"
+            ],
+            [
+              "Research and development costs2",
+              "2, 3",
+              "(228)",
+              "(246)"
+            ],
+            [
+              "Share of results of joint ventures and associates",
+              "",
+              "16",
+              "24"
+            ],
+            [
+              "Operating profit",
+              "",
+              "2,418",
+              "2,074"
+            ],
+            [
+              "Gain arising on disposal of business3",
+              "",
+              "—",
+              "679"
+            ],
+            [
+              "Profit before financing and taxation",
+              "",
+              "2,418",
+              "2,753"
+            ],
+            [
+              "Financing income",
+              "4",
+              "197",
+              "2,342"
+            ],
+            [
+              "Financing costs",
+              "4",
+              "(684)",
+              "(254)"
+            ],
+            [
+              "Net financing (costs)/income4",
+              "",
+              "(487)",
+              "2,088"
+            ],
+            [
+              "Profit before taxation",
+              "",
+              "1,931",
+              "4,841"
+            ],
+            [
+              "Taxation",
+              "5",
+              "(316)",
+              "(433)"
+            ],
+            [
+              "Profit for the period",
+              "",
+              "1,615",
+              "4,408"
+            ],
+            [
+              "Attributable to:",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Ordinary shareholders",
+              "",
+              "1,613",
+              "4,416"
+            ],
+            [
+              "Non-controlling interests (NCI)",
+              "",
+              "2",
+              "(8)"
+            ],
+            [
+              "Profit for the period",
+              "",
+              "1,615",
+              "4,408"
+            ],
+            [
+              "Other comprehensive income/(expense) (OCI)",
+              "",
+              "20",
+              "(330)"
+            ],
+            [
+              "Total comprehensive income for the period",
+              "",
+              "1,635",
+              "4,078"
+            ]
+          ]
+        }
+      ]
+    },
+    "rolls_royce_2026h1_release_p025_t01": {
+      "table_id": "rolls_royce_2026h1_release_p025_t01",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "corrections_proposed",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "689a9ee1e75f0ec31f234d07c4b0798ec9953a38aa97e81927fab521dc882b0d",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "draft_sha256": "41ba6de5ff680ec2692aabac734742f67ddd3fd7bf4442b34a64e0b641dddcac",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "fc95fe5cc20c245ca2a8fa67f2420d3b4b58ca2949dffb978855b7f01a92a138",
+      "requires_recrop": false,
+      "material_correction": true,
+      "findings": [
+        "Each business has one amount column. Remove the five artificial blank columns and repeated group headers.",
+        "Restore All Other Businesses and the Total Underlying / £m header."
+      ],
+      "layout_tags": [
+        "wrapped_headers",
+        "artificial_columns",
+        "wrapped_labels"
+      ],
+      "context": "All six amount columns are £ million for H1 2026. Bracketed numbers represent footnotes; dashes stay dashes.",
+      "grids": [
+        {
+          "name": "Segment results",
+          "cells": [
+            [
+              "",
+              "Civil Aerospace",
+              "Defence",
+              "Power Systems",
+              "All Other Businesses [1]",
+              "Corporate and Inter-segment [2]",
+              "Total Underlying"
+            ],
+            [
+              "",
+              "£m",
+              "£m",
+              "£m",
+              "£m",
+              "£m",
+              "£m"
+            ],
+            [
+              "For the half-year ended 30 June 2026",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Underlying revenue from sale of original equipment",
+              "2,019",
+              "1,125",
+              "1,824",
+              "5",
+              "–",
+              "4,973"
+            ],
+            [
+              "Underlying revenue from aftermarket services",
+              "4,167",
+              "1,359",
+              "780",
+              "–",
+              "–",
+              "6,306"
+            ],
+            [
+              "Total underlying revenue",
+              "6,186",
+              "2,484",
+              "2,604",
+              "5",
+              "–",
+              "11,279"
+            ],
+            [
+              "Gross profit",
+              "1,857",
+              "639",
+              "901",
+              "–",
+              "–",
+              "3,397"
+            ],
+            [
+              "Commercial and administrative costs",
+              "(199)",
+              "(105)",
+              "(297)",
+              "–",
+              "(53)",
+              "(654)"
+            ],
+            [
+              "Research and development costs",
+              "(128)",
+              "(12)",
+              "(84)",
+              "–",
+              "–",
+              "(224)"
+            ],
+            [
+              "Share of results of joint ventures and associates",
+              "37",
+              "–",
+              "8",
+              "(30)",
+              "–",
+              "15"
+            ],
+            [
+              "Underlying operating profit/(loss)",
+              "1,567",
+              "522",
+              "528",
+              "(30)",
+              "(53)",
+              "2,534"
+            ]
+          ]
+        }
+      ]
+    },
+    "rolls_royce_2026h1_release_p025_t02": {
+      "table_id": "rolls_royce_2026h1_release_p025_t02",
+      "reviewer": "Codex assistant",
+      "human_verified": false,
+      "status": "needs_recrop",
+      "basis": "Direct visual inspection of the source crop; full-page image additionally inspected where noted.",
+      "image_sha256": "91ae303da476855db358a8505afa35ab91976041a5f3bee6208333b9976c0d94",
+      "source_sha256": "040d283d877f70dad0017f46cc3567734c8416b8a53956169d8d465bfa7f7904",
+      "draft_sha256": "959bc0848632aad6fa03d8d1cc48e25f089a28be53b8646d32ce25e8b148567b",
+      "based_on_human_revision": 0,
+      "based_on_grid_sha256": "b05db8673a19be596f5d1fb2999fde2a846571e960dfa8181aa3a0a93a7d7137",
+      "requires_recrop": true,
+      "material_correction": true,
+      "findings": [
+        "All six business column headers and units are outside this crop.",
+        "Full page confirms headers are shared with the 2026 table above. Reattach header context or recrop before rerunning all engines."
+      ],
+      "layout_tags": [
+        "missing_column_headers",
+        "shared_header_across_subtables",
+        "wrapped_labels"
+      ],
+      "context": "",
+      "grids": [
+        {
+          "name": "Table 1",
+          "cells": [
+            [
+              "For the half-year ended 30 June 2025",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Underlying revenue from sale of original\nequipment",
+              "1,478",
+              "1,000",
+              "1,381",
+              "6",
+              "-",
+              "3,865"
+            ],
+            [
+              "Underlying revenue from aftermarket services",
+              "3,308",
+              "1,223",
+              "661",
+              "-",
+              "-",
+              "5,192"
+            ],
+            [
+              "Total underlying revenue",
+              "4,786",
+              "2,223",
+              "2,042",
+              "6",
+              "-",
+              "9,057"
+            ],
+            [
+              "Gross profit/(loss)",
+              "1,477",
+              "462",
+              "635",
+              "-",
+              "(2)",
+              "2,572"
+            ],
+            [
+              "Commercial and administrative costs",
+              "(213)",
+              "(103)",
+              "(251)",
+              "(7)",
+              "(35)",
+              "(609)"
+            ],
+            [
+              "Research and development costs",
+              "(138)",
+              "(18)",
+              "(79)",
+              "(21)",
+              "-",
+              "(256)"
+            ],
+            [
+              "Share of results of joint ventures and\nassociates",
+              "67",
+              "1",
+              "8",
+              "(50)",
+              "-",
+              "26"
+            ],
+            [
+              "Underlying operating profit/(loss)",
+              "1,193",
+              "342",
+              "313",
+              "(78)",
+              "(37)",
+              "1,733"
+            ]
+          ]
+        }
+      ],
+      "recovered_grids_from_full_page": [
+        {
+          "name": "H1 2025 segment results",
+          "cells": [
+            [
+              "",
+              "Civil Aerospace",
+              "Defence",
+              "Power Systems",
+              "All Other Businesses [1]",
+              "Corporate and Inter-segment [2]",
+              "Total Underlying"
+            ],
+            [
+              "",
+              "£m",
+              "£m",
+              "£m",
+              "£m",
+              "£m",
+              "£m"
+            ],
+            [
+              "For the half-year ended 30 June 2025",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Underlying revenue from sale of original\nequipment",
+              "1,478",
+              "1,000",
+              "1,381",
+              "6",
+              "-",
+              "3,865"
+            ],
+            [
+              "Underlying revenue from aftermarket services",
+              "3,308",
+              "1,223",
+              "661",
+              "-",
+              "-",
+              "5,192"
+            ],
+            [
+              "Total underlying revenue",
+              "4,786",
+              "2,223",
+              "2,042",
+              "6",
+              "-",
+              "9,057"
+            ],
+            [
+              "Gross profit/(loss)",
+              "1,477",
+              "462",
+              "635",
+              "-",
+              "(2)",
+              "2,572"
+            ],
+            [
+              "Commercial and administrative costs",
+              "(213)",
+              "(103)",
+              "(251)",
+              "(7)",
+              "(35)",
+              "(609)"
+            ],
+            [
+              "Research and development costs",
+              "(138)",
+              "(18)",
+              "(79)",
+              "(21)",
+              "-",
+              "(256)"
+            ],
+            [
+              "Share of results of joint ventures and\nassociates",
+              "67",
+              "1",
+              "8",
+              "(50)",
+              "-",
+              "26"
+            ],
+            [
+              "Underlying operating profit/(loss)",
+              "1,193",
+              "342",
+              "313",
+              "(78)",
+              "(37)",
+              "1,733"
+            ]
+          ]
+        }
+      ],
+      "full_page_inspected": true,
+      "evaluation_blocker": "The unchanged crop omits required context; do not score model associations against labels visible only on the full page."
+    }
+  }
+}

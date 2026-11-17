@@ -22,7 +22,9 @@ def main():
     cli.add_argument('--root', type=Path, default=ROOT / 'runs/pilot_v2')
     cli.add_argument('--model', type=Path, default=NATIVE / 'work/mineru-model')
     cli.add_argument('--table-ids', nargs='+')
+    cli.add_argument('--task', choices=('text','table'), default='text')
     cli.add_argument('--report-every', type=int, default=1)
+    cli.add_argument('--no-report', action='store_true', help='Skip the legacy detector report for externally prepared crops')
     args = cli.parse_args()
     os.environ.update(HF_HUB_OFFLINE='1', TOKENIZERS_PARALLELISM='false')
     import mlx.core as mx
@@ -37,11 +39,12 @@ def main():
     selected = [t for t in bundle['tables'] if not args.table_ids or t['table_id'] in args.table_ids]
     if not selected or (args.table_ids and set(args.table_ids) != {t['table_id'] for t in selected}):
         cli.error('No tables or unknown table IDs')
-    folder = args.root / 'mineru'
-    settings = dict(engine='mineru', source_bundle_sha256=sha(args.root / 'tables.json'),
+    engine = 'mineru_table' if args.task == 'table' else 'mineru'
+    folder = args.root / engine
+    settings = dict(engine=engine, source_bundle_sha256=sha(args.root / 'tables.json'),
                     weight_sha256=sha(args.model / 'model.safetensors'),
                     config_sha256=sha(args.model / 'config.json'),
-                    prompt='\nText Recognition:', temperature=0.0, max_tokens=4096,
+                    prompt='\nTable Recognition:' if args.task == 'table' else '\nText Recognition:', temperature=0.0, max_tokens=4096,
                     max_image_side=1536, probability_normalization='original logits -> FP32 log-softmax',
                     hook_equivalence_check='first newly processed table, uninstrumented vs instrumented text and token IDs',
                     versions={k: importlib.metadata.version(k) for k in ('mlx', 'mlx-vlm', 'mlx-lm', 'transformers', 'torch', 'pillow')},
@@ -116,11 +119,12 @@ def main():
                 record.update(status='failed', error=f'{type(exc).__name__}: {exc}', confidence=table_summary([]))
             record['seconds'] = round(time.monotonic()-started, 3)
             write(output, record)
-            if args.report_every > 0 and (table_index == 1 or table_index % args.report_every == 0):
+            if not args.no_report and args.report_every > 0 and (table_index == 1 or table_index % args.report_every == 0):
                 build(args.root)
             print(table['table_id'], record['status'], record.get('stop_reason'), record['seconds'], record.get('error',''), flush=True)
             mx.clear_cache()
-    build(args.root)
+    if not args.no_report:
+        build(args.root)
     if failed:
         raise SystemExit(1)
 

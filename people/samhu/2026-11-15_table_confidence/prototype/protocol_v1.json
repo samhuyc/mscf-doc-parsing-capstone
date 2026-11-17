@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "started_utc": "2026-11-16T17:43:17Z",
+  "deadline_utc": "2026-11-16T23:43:17Z",
+  "objective": "Test whether native output probabilities identify financial transcription and table-association errors.",
+  "primary_signal": "Geometric mean native probability of tokens overlapping emitted numeric values, excluding markup; no reference used to select tokens.",
+  "secondary_signals": [
+    "all_token_geometric_mean",
+    "numeric_token_p10",
+    "numeric_cell_p10",
+    "structure_token_geometric_mean",
+    "structure_token_p10"
+  ],
+  "accuracy_targets": [
+    "numeric transcription F1",
+    "order-preserving cell-grid content F1",
+    "strict financial row-column-value correctness"
+  ],
+  "reference_policy": "Keep human confirmations unchanged; assistant corrections and public benchmark annotations retain distinct provenance. No inferred human approval.",
+  "cohorts": {
+    "sponsor": "Existing development data; repair three incomplete regions in a new run, splitting the three Hippodrome subtables. Original run remains immutable.",
+    "public_benchmark": "Deterministically sample 60 FinTabNet test tables before model output inspection, max two per issuer and <=250 cells. Official benchmark labels; model pretraining overlap unknown.",
+    "fresh_public": "Source-checked digital and real scanned tables from four newly downloaded reports, separate from benchmark data.",
+    "stress": "Optional image degradations grouped with their source issuer; report separately from natural documents."
+  },
+  "validation": "Within each model, hold out entire issuers. Fit calibration and choose any secondary signal using training issuers only. Compare prediction error with a training-mean baseline. Bootstrap issuers, not cells. Do not call retrospective development diagnostics untouched test results.",
+  "constraints": [
+    "Checkpoint files below 4 GB",
+    "One heavy recognizer at a time",
+    "Never fabricate unavailable confidence",
+    "No modification of native logits",
+    "No quality guarantee from token certainty",
+    "No destructive cleanup or automatic publication"
+  ],
+  "completion": "Usable local prototype with native evidence, structure-aware errors, held-out diagnostics, tests, and concise measured conclusions. Negative findings are valid."
+}

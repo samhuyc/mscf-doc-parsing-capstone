@@ -364,10 +364,11 @@ header {
 <body>
 <header><div class="top"><div><h1>Financial table review</h1><p class="muted">Check the source. Correct the grid. Confirm the reference.</p></div><div class="toolbar"><span id="progressText" class="badge">Loading…</span><a class="button" href="/api/export" download>Export reviews</a></div></div>
 <div class="nav"><button id="prev" aria-label="Previous table">←</button><select id="tableSelect" aria-label="Choose a table"></select><button id="next" aria-label="Next table">→</button><span id="badge" class="badge"></span><button id="nextUnreviewed">Next unconfirmed</button></div><div class="progress"><div id="progressBar"></div></div></header>
-<div class="notice">Drafts come from MonkeyOCR, not verified ground truth. Check every cell against the image. <strong>A correct number in the wrong row or column is wrong.</strong></div>
+<div class="notice">Drafts include OCR and assistant image review; only your confirmation is human verification. Check every cell against the image. <strong>A correct number in the wrong row or column is wrong.</strong></div>
 <main class="workspace">
 <section class="pane source"><div class="panehead"><h2>Source image</h2><div class="toolbar"><select id="imageMode" aria-label="Source view"><option value="crop">Table crop</option><option value="page">Full page</option></select><button id="zoomOut" aria-label="Zoom out">−</button><span id="zoomLabel" class="small">100%</span><button id="zoomIn" aria-label="Zoom in">+</button><button id="fit">Fit</button></div></div><div class="imagebox" id="imagebox"><img id="sourceImage" alt="Source financial table"></div><div class="source-caption" id="sourceCaption"></div></section>
 <section class="pane"><div class="panehead"><h2>Editable reference</h2><span class="small">Merged headers repeat across covered cells</span></div><div class="editor">
+<div id="assistantBox" class="checks" style="margin-bottom:14px" hidden><strong id="assistantTitle">Assistant image review</strong><ul id="assistantFindings"></ul><p id="assistantContext" class="small"></p><button id="applyAssistant">Use suggested corrections</button><p id="assistantHelp" class="small"></p></div>
 <label for="context"><strong>Units / header context</strong> <span class="small">Optional clarification from the source</span></label><textarea id="context" class="context" placeholder="e.g. £ million; columns are H1 2026 and H1 2025"></textarea>
 <div class="small">Edit cells directly. Keep row labels, column headers, signs, units, blanks and dashes. Click a cell to insert or remove its row/column.</div><div id="grids"></div><button id="addGrid">+ Add subtable</button>
 <details><summary>Earlier numeric reference (not structure-verified)</summary><pre id="oldReference"></pre></details>
@@ -393,29 +394,46 @@ function message(text,error=false){
 }
 function blankRecord(t){
   return {
-    table_id:t.table_id,revision:0,status:'unreviewed',human_verified:false,grids:clone(t.grids),context:'',notes:'',reviewer:localStorage.getItem('financialReviewer')||'',checks:{
+    table_id:t.table_id,revision:0,status:'unreviewed',human_verified:false,grids:clone(t.assistant_review&&!t.assistant_review.requires_recrop?t.assistant_review.grids:t.grids),context:t.assistant_review&&!t.assistant_review.requires_recrop?t.assistant_review.context:'',notes:'',reviewer:localStorage.getItem('financialReviewer')||'',checks:{
       values:false,associations:false,units:false,complete:false
     }
   }
 }
+function reviewState(t, record) {
+  const a=t.assistant_review;
+  if(a?.requires_recrop) return 'Needs recrop';
+  if(a?.material_correction && record?.human_verified && record.revision<=a.based_on_human_revision) return 'Recheck requested';
+  return labels[record?.status||'unreviewed'];
+}
+function assistantInfo() {
+  const a=session.tables[index].assistant_review;
+  $('assistantBox').hidden=!a;
+  if(!a)return;
+  $('assistantTitle').textContent=a.requires_recrop?'Incomplete crop — needs recrop':a.material_correction?'Assistant corrections':'Assistant image check';
+  $('assistantFindings').replaceChildren();
+  for(const text of a.findings){const li=document.createElement('li');li.textContent=text;$('assistantFindings').append(li)}
+  $('assistantContext').textContent=a.context||'';
+  $('applyAssistant').hidden=a.requires_recrop;
+  $('assistantHelp').textContent=a.requires_recrop?'Use Full page to inspect the missing context. Confirmation is blocked for this crop.':current.revision?'Your saved review is preserved. Applying suggestions saves a draft and removes approval.':'Source-checked suggestions are prefilled; they still need your confirmation.';
+}
 function updateProgress(){
-  const n=session.tables.filter(t=>session.reviews[t.table_id]?.human_verified).length;
-  $('progressText').textContent=`${n} / ${session.tables.length} confirmed`;
+  const n=session.tables.filter(t=>reviewState(t,session.reviews[t.table_id])==='Confirmed').length;
+  $('progressText').textContent=`${n} / ${session.tables.length} ready`;
   $('progressBar').style.width=`${100*n/session.tables.length}%`;
   Array.from($('tableSelect').options).forEach((o,i)=>{
     let t=session.tables[i];
-    o.textContent=`${i+1}. ${t.document.replaceAll('_',' ')} · p${t.page} · ${t.table_id.split('_').pop()} · ${labels[session.reviews[t.table_id]?.status||'unreviewed']}`
+    o.textContent=`${i+1}. ${t.document.replaceAll('_',' ')} · p${t.page} · ${t.table_id.split('_').pop()} · ${reviewState(t,session.reviews[t.table_id])}`
   }
   )
 }
 function updateBadge(){
   const s=dirty?'draft':current.status;
-  $('badge').textContent=dirty?'Unsaved changes':labels[s];
+  $('badge').textContent=dirty?'Unsaved changes':reviewState(session.tables[index],current);
   $('badge').className='badge '+s;
   updateApprove()
 }
 function updateApprove(){
-  $('approve').disabled=!!inFlight||!$('reviewer').value.trim()||!Array.from(document.querySelectorAll('[data-check]')).every(c=>c.checked)
+  $('approve').disabled=!!session.tables[index]?.assistant_review?.requires_recrop||!!inFlight||!$('reviewer').value.trim()||!Array.from(document.querySelectorAll('[data-check]')).every(c=>c.checked)
 }
 function markDirty(resetChecks=true){
   dirty=true;
@@ -452,7 +470,7 @@ function render(){
   $('context').value=current.context;
   $('notes').value=current.notes;
   $('reviewer').value=current.reviewer||localStorage.getItem('financialReviewer')||'';
-  document.querySelectorAll('[data-check]').forEach(c=>c.checked=!!current.checks[c.dataset.check]);
+  document.querySelectorAll('[data-check]').forEach(c=>c.checked=!!current.checks[c.dataset.check] && reviewState(t,current)!=='Recheck requested');
   $('sourceCaption').textContent=`${t.document.replaceAll('_',' ')} · Page ${t.page} · ${t.table_id.split('_').pop()}`;
   $('oldReference').textContent=t.original_reference_text;
   $('prev').disabled=index===0;
@@ -460,6 +478,7 @@ function render(){
   zoom=100;
   showImage();
   renderGrids();
+  assistantInfo();
   updateBadge();
   updateProgress();
   message(current.revision?`Saved locally · revision ${current.revision}${current.reviewed_at?' · confirmed by '+current.reviewer:''}`:'Not reviewed. Edits save automatically.');
@@ -675,12 +694,22 @@ $('context').oninput=()=>markDirty();
 $('notes').oninput=()=>markDirty(false);
 $('reviewer').oninput=()=>markDirty(false);
 document.querySelectorAll('[data-check]').forEach(c=>c.onchange=()=>{
-  if(current.human_verified){
+  if(current.human_verified && reviewState(session.tables[index],current)!=='Recheck requested'){
     markDirty();
   }
   else updateApprove()
 }
 );
+$('applyAssistant').onclick=()=>{
+  const a=session.tables[index].assistant_review;
+  if(!a||a.requires_recrop)return;
+  if(current.revision && !confirm('Replace the grid with the source-checked suggestion? Your previous review remains in revision history.'))return;
+  current.grids=clone(a.grids);
+  $('context').value=a.context||'';
+  markDirty();
+  renderGrids();
+  assistantInfo();
+};
 $('save').onclick=()=>save();
 $('approve').onclick=()=>save('approve');
 $('flag').onclick=()=>save('flag');
@@ -692,7 +721,7 @@ $('nextUnreviewed').onclick=()=>{
   d<=session.tables.length;
   d++){
     let n=(index+d)%session.tables.length;
-    if(!session.reviews[session.tables[n].table_id]?.human_verified){
+    if(reviewState(session.tables[n],session.reviews[session.tables[n].table_id])!=='Confirmed'){
       navigate(n);
       return
     }

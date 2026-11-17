@@ -1,0 +1,43 @@
+{
+  "updated_utc": "2026-11-16T19:34:48.372878+00:00",
+  "deadline_utc": "2026-11-16T23:43:17Z",
+  "phase": "Prototype and validation complete",
+  "completed": [
+    "763 evaluated outputs across 109 identical shared crops",
+    "Six models; seven task configurations including MinerU table",
+    "Native probabilities preserved; image hashes and token alignment audited",
+    "Row/column-aware metrics, official GriTS and text recall separated",
+    "Original frozen evaluation preserved; metric-v2 sensitivity disclosed",
+    "Round-two native header/label experiment frozen before 11-company final test",
+    "117 tests passed (72 prototype +45 existing); 36 additional v2 regression checks",
+    "New-crop GLM CLI smoke passed; live panel and figures visually checked",
+    "Original human reviews unchanged"
+  ],
+  "running": [],
+  "next": [
+    "Human-audit the two flagged final-test scoring cases",
+    "Improve header/units interpretation using audited references",
+    "Test any new calibration version on another untouched issuer cohort"
+  ],
+  "human_reviews": "Original file unchanged",
+  "fresh_outputs_inspected": true,
+  "development_outputs": 567,
+  "development_unique_crops": 81,
+  "development_audit": "pass",
+  "calibration_frozen_utc": "2026-11-16T18:53:50.202831+00:00",
+  "tests_passed": 117,
+  "round2_calibration_frozen": true,
+  "final_test_outputs": 77,
+  "final_test_issuers": 11,
+  "all_outputs": 763,
+  "unique_crops": 109,
+  "financial_crops": 105,
+  "measurement_issues": [
+    "fintabnet_test_02146",
+    "fintabnet_test_09879"
+  ],
+  "conclusion": "Native confidence is an experimental ranking signal; reliable prediction of parsing accuracy on unseen companies was not established. Both full11 and post-inspection9-case sensitivity remain inconclusive.",
+  "publication": "Included in the user-authorized GitHub update dated 2026-11-17; model weights and raw runs remain local.",
+  "panel": "http://127.0.0.1:8768",
+  "report": "results/native_prototype/SUMMARY.md"
+}

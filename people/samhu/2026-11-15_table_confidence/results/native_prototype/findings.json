@@ -1,0 +1,684 @@
+{
+  "created_utc": "2026-11-16T19:32:19.852237+00:00",
+  "counts": {
+    "unique_crops": 109,
+    "outputs": 763,
+    "financial_crops": 105,
+    "source_reports": 78,
+    "financial_issuers": 53,
+    "final_test_crops": 11,
+    "final_test_issuers": 11,
+    "configurations": 7,
+    "models": 6
+  },
+  "final_comparison": [
+    {
+      "engine": "paddle",
+      "name": "PP-OCR",
+      "n": 11,
+      "mean_fact_f1": null,
+      "mean_grits": null,
+      "mean_number_recall": 0.8471095671396877,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9703703088001954,
+      "prediction": null,
+      "median_recognition_seconds": 5.253
+    },
+    {
+      "engine": "tesseract",
+      "name": "Tesseract",
+      "n": 11,
+      "mean_fact_f1": null,
+      "mean_grits": null,
+      "mean_number_recall": 0.038582251082251086,
+      "numeric_coverage": 7,
+      "mean_native_numeric": 0.23146183818993973,
+      "prediction": null,
+      "median_recognition_seconds": 0.298
+    },
+    {
+      "engine": "paddle_vl",
+      "name": "PaddleOCR-VL",
+      "n": 11,
+      "mean_fact_f1": 0.8222402597402597,
+      "mean_grits": 0.9388645232714421,
+      "mean_number_recall": 1.0,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9900115950407514,
+      "prediction": {
+        "engine": "paddle_vl",
+        "method": "header_selected",
+        "feature": "native_number_p10",
+        "n": 11,
+        "issuers": 11,
+        "mse": 0.12183456808585363,
+        "baseline_mse": 0.10547994655796718,
+        "mse_gain": -0.016354621527886457,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.046079882305620816,
+          0.0061374670384668735
+        ],
+        "mae": 0.21868437774343374,
+        "baseline_mae": 0.19914744317480634,
+        "selection_counts": {
+          "native_number_p10": 11
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.7272727272727273,
+          "kept_mean_accuracy": 0.8258928571428571,
+          "all_mean_accuracy": 0.8222402597402597
+        },
+        "ranking": {
+          "n": 11,
+          "issuers": 11,
+          "mean_accuracy": 0.8222402597402597,
+          "mean_native": 0.9900115950407514,
+          "native_range": [
+            0.9144614734910759,
+            0.9999759860117945
+          ],
+          "spearman": 0.18952619181419758,
+          "spearman_issuer_bootstrap_95": [
+            -0.5302532342533123,
+            0.7053278933842967
+          ],
+          "error_auc_below_95": 0.5714285714285714,
+          "errors_below_95": 4,
+          "exact_tables": 7
+        },
+        "triage": {
+          "reviewed": 3,
+          "total": 11,
+          "errors": 4,
+          "caught": 1,
+          "error_capture": 0.25
+        }
+      },
+      "median_recognition_seconds": 4.196
+    },
+    {
+      "engine": "glm",
+      "name": "GLM-OCR",
+      "n": 11,
+      "mean_fact_f1": 0.7215367965367966,
+      "mean_grits": 0.9145961417686849,
+      "mean_number_recall": 0.9769350127783862,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9962417525835564,
+      "prediction": {
+        "engine": "glm",
+        "method": "header_selected",
+        "feature": "native_all",
+        "n": 11,
+        "issuers": 11,
+        "mse": 0.13050519158021356,
+        "baseline_mse": 0.125090772149206,
+        "mse_gain": -0.0054144194310075675,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.07998668428277111,
+          0.076946939675545
+        ],
+        "mae": 0.2748218655472253,
+        "baseline_mae": 0.2844219644696757,
+        "selection_counts": {
+          "native_all": 11
+        },
+        "training_threshold_triage": {
+          "kept": 9,
+          "coverage": 0.8181818181818182,
+          "kept_mean_accuracy": 0.792989417989418,
+          "all_mean_accuracy": 0.7215367965367966
+        },
+        "ranking": {
+          "n": 11,
+          "issuers": 11,
+          "mean_accuracy": 0.7215367965367966,
+          "mean_native": 0.9962417525835564,
+          "native_range": [
+            0.9753603147160294,
+            0.9999854472514287
+          ],
+          "spearman": 0.5582905262390825,
+          "spearman_issuer_bootstrap_95": [
+            -0.029411764705882353,
+            0.8211918484567018
+          ],
+          "error_auc_below_95": 0.7666666666666667,
+          "errors_below_95": 6,
+          "exact_tables": 4
+        },
+        "triage": {
+          "reviewed": 2,
+          "total": 11,
+          "errors": 6,
+          "caught": 2,
+          "error_capture": 0.3333333333333333
+        }
+      },
+      "median_recognition_seconds": 6.82
+    },
+    {
+      "engine": "monkey",
+      "name": "MonkeyOCR",
+      "n": 11,
+      "mean_fact_f1": 0.44164335664335663,
+      "mean_grits": 0.890962455270912,
+      "mean_number_recall": 0.8902231302833713,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9420302055522931,
+      "prediction": {
+        "engine": "monkey",
+        "method": "header_selected",
+        "feature": "native_all",
+        "n": 11,
+        "issuers": 11,
+        "mse": 0.10661047239126122,
+        "baseline_mse": 0.1351790163706846,
+        "mse_gain": 0.02856854397942341,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.07703651412383689,
+          0.13316719790644155
+        ],
+        "mae": 0.26298434586574504,
+        "baseline_mae": 0.30937714050649295,
+        "selection_counts": {
+          "native_all": 11
+        },
+        "training_threshold_triage": {
+          "kept": 10,
+          "coverage": 0.9090909090909091,
+          "kept_mean_accuracy": 0.48580769230769233,
+          "all_mean_accuracy": 0.44164335664335663
+        },
+        "ranking": {
+          "n": 11,
+          "issuers": 11,
+          "mean_accuracy": 0.44164335664335663,
+          "mean_native": 0.9420302055522931,
+          "native_range": [
+            0.6474134881062288,
+            0.9955408019679792
+          ],
+          "spearman": 0.32644765748163995,
+          "spearman_issuer_bootstrap_95": [
+            -0.4105117157363911,
+            0.8095933132509727
+          ],
+          "error_auc_below_95": 0.9,
+          "errors_below_95": 10,
+          "exact_tables": 1
+        },
+        "triage": {
+          "reviewed": 1,
+          "total": 11,
+          "errors": 10,
+          "caught": 1,
+          "error_capture": 0.1
+        }
+      },
+      "median_recognition_seconds": 10.022
+    },
+    {
+      "engine": "mineru",
+      "name": "MinerU text",
+      "n": 11,
+      "mean_fact_f1": null,
+      "mean_grits": null,
+      "mean_number_recall": 0.9756493506493507,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9927560835803934,
+      "prediction": null,
+      "median_recognition_seconds": 3.887
+    },
+    {
+      "engine": "mineru_table",
+      "name": "MinerU table",
+      "n": 11,
+      "mean_fact_f1": 0.8430735930735931,
+      "mean_grits": 0.9483326690995985,
+      "mean_number_recall": 0.9978094194961665,
+      "numeric_coverage": 11,
+      "mean_native_numeric": 0.9989367546064315,
+      "prediction": {
+        "engine": "mineru_table",
+        "method": "header_selected",
+        "feature": "native_label_p10",
+        "n": 11,
+        "issuers": 11,
+        "mse": 0.09126613418694078,
+        "baseline_mse": 0.10119425236106605,
+        "mse_gain": 0.009928118174125271,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.025603769381730784,
+          0.06198224504984808
+        ],
+        "mae": 0.20797521821301848,
+        "baseline_mae": 0.20732070176049233,
+        "selection_counts": {
+          "native_label_p10": 11
+        },
+        "training_threshold_triage": {
+          "kept": 7,
+          "coverage": 0.6363636363636364,
+          "kept_mean_accuracy": 0.9166666666666666,
+          "all_mean_accuracy": 0.8430735930735931
+        },
+        "ranking": {
+          "n": 11,
+          "issuers": 11,
+          "mean_accuracy": 0.8430735930735931,
+          "mean_native": 0.9989367546064315,
+          "native_range": [
+            0.9940203366611525,
+            0.9999622449766249
+          ],
+          "spearman": 0.6185901254591024,
+          "spearman_issuer_bootstrap_95": [
+            0.07557326773026919,
+            0.8346750651930225
+          ],
+          "error_auc_below_95": 0.875,
+          "errors_below_95": 3,
+          "exact_tables": 8
+        },
+        "triage": {
+          "reviewed": 4,
+          "total": 11,
+          "errors": 3,
+          "caught": 2,
+          "error_capture": 0.6666666666666666
+        }
+      },
+      "median_recognition_seconds": 4.832
+    }
+  ],
+  "measurement_audit": {
+    "utc": "2026-11-16T19:30:01.731428+00:00",
+    "status": "integrity_pass_with_measurement_limitations",
+    "outputs": 77,
+    "identical_model_inputs": true,
+    "native_probabilities_unchanged": true,
+    "human_reviews_unchanged": true,
+    "issues": {
+      "fintabnet_test_02146": {
+        "kind": "reference_and_scorer_defect",
+        "reason": "Source image contains “in millions of dollars, except ratios”; benchmark reference omits this caption. Frozen scorer also misclassifies the model caption/year row as body data. Financial F1 is not interpretable for this case.",
+        "source_checked": true
+      },
+      "fintabnet_test_09879": {
+        "kind": "header_interpretation_defect",
+        "reason": "Frozen scorer treats the 2014/2013 row beside “Foreign exchange” as body values. Year associations are not fully assessed; visible GLM section-label errors are nevertheless real.",
+        "source_checked": true
+      }
+    },
+    "policy": "Original sealed 11-table results remain untouched. This is a post-inspection exclusion sensitivity across all models, with the same frozen forecasts and cutoffs; not a new untouched test.",
+    "sensitivity": [
+      {
+        "engine": "paddle_vl",
+        "method": "numeric",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.017701275764366226,
+        "baseline_mse": 0.03386918658426167,
+        "mse_gain": 0.016167910819895444,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.013751207769161423,
+          0.06474347114506755
+        ],
+        "mae": 0.10898987876767409,
+        "baseline_mae": 0.1322913194358744,
+        "selection_counts": {
+          "native_numeric": 9
+        },
+        "training_threshold_triage": {
+          "kept": 6,
+          "coverage": 0.6666666666666666,
+          "kept_mean_accuracy": 0.9345238095238095,
+          "all_mean_accuracy": 0.8938492063492064
+        }
+      },
+      {
+        "engine": "paddle_vl",
+        "method": "original_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.044423933878574066,
+        "baseline_mse": 0.03386918658426167,
+        "mse_gain": -0.010554747294312395,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.040631971309511926,
+          0.01096311952732435
+        ],
+        "mae": 0.15616979501975237,
+        "baseline_mae": 0.1322913194358744,
+        "selection_counts": {
+          "native_number_p10": 9
+        },
+        "training_threshold_triage": {
+          "kept": 6,
+          "coverage": 0.6666666666666666,
+          "kept_mean_accuracy": 0.9345238095238095,
+          "all_mean_accuracy": 0.8938492063492064
+        }
+      },
+      {
+        "engine": "paddle_vl",
+        "method": "header_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.044423933878574066,
+        "baseline_mse": 0.03386918658426167,
+        "mse_gain": -0.010554747294312395,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.040631971309511926,
+          0.01096311952732435
+        ],
+        "mae": 0.15616979501975237,
+        "baseline_mae": 0.1322913194358744,
+        "selection_counts": {
+          "native_number_p10": 9
+        },
+        "training_threshold_triage": {
+          "kept": 6,
+          "coverage": 0.6666666666666666,
+          "kept_mean_accuracy": 0.9345238095238095,
+          "all_mean_accuracy": 0.8938492063492064
+        }
+      },
+      {
+        "engine": "glm",
+        "method": "numeric",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.04837004776636141,
+        "baseline_mse": 0.04436196212171972,
+        "mse_gain": -0.00400808564464169,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.032883277654011424,
+          0.021553267475704442
+        ],
+        "mae": 0.1754464251044986,
+        "baseline_mae": 0.19392834032182618,
+        "selection_counts": {
+          "native_numeric": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.8921130952380952,
+          "all_mean_accuracy": 0.8596560846560847
+        }
+      },
+      {
+        "engine": "glm",
+        "method": "original_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.07594201075237622,
+        "baseline_mse": 0.04436196212171972,
+        "mse_gain": -0.03158004863065649,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.09570725192812855,
+          0.012542166381272332
+        ],
+        "mae": 0.22336572484895334,
+        "baseline_mae": 0.19392834032182618,
+        "selection_counts": {
+          "native_all": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.8921130952380952,
+          "all_mean_accuracy": 0.8596560846560847
+        }
+      },
+      {
+        "engine": "glm",
+        "method": "header_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.07594201075237622,
+        "baseline_mse": 0.04436196212171972,
+        "mse_gain": -0.03158004863065649,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.09570725192812855,
+          0.012542166381272332
+        ],
+        "mae": 0.22336572484895334,
+        "baseline_mae": 0.19392834032182618,
+        "selection_counts": {
+          "native_all": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.8921130952380952,
+          "all_mean_accuracy": 0.8596560846560847
+        }
+      },
+      {
+        "engine": "monkey",
+        "method": "numeric",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.14474951829151497,
+        "baseline_mse": 0.1390601800725025,
+        "mse_gain": -0.0056893382190124865,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.12464680911303824,
+          0.10422327662344485
+        ],
+        "mae": 0.3166340366704102,
+        "baseline_mae": 0.322572060619047,
+        "selection_counts": {
+          "native_numeric": 9
+        },
+        "training_threshold_triage": {
+          "kept": 7,
+          "coverage": 0.7777777777777778,
+          "kept_mean_accuracy": 0.5425824175824175,
+          "all_mean_accuracy": 0.48423076923076924
+        }
+      },
+      {
+        "engine": "monkey",
+        "method": "original_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.11506647696371637,
+        "baseline_mse": 0.1390601800725025,
+        "mse_gain": 0.02399370310878613,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.09811124260757735,
+          0.13911153830787223
+        ],
+        "mae": 0.2636924538862196,
+        "baseline_mae": 0.322572060619047,
+        "selection_counts": {
+          "native_all": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.5447596153846154,
+          "all_mean_accuracy": 0.48423076923076924
+        }
+      },
+      {
+        "engine": "monkey",
+        "method": "header_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.11506647696371637,
+        "baseline_mse": 0.1390601800725025,
+        "mse_gain": 0.02399370310878613,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.09811124260757735,
+          0.13911153830787223
+        ],
+        "mae": 0.2636924538862196,
+        "baseline_mae": 0.322572060619047,
+        "selection_counts": {
+          "native_all": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.5447596153846154,
+          "all_mean_accuracy": 0.48423076923076924
+        }
+      },
+      {
+        "engine": "mineru_table",
+        "method": "numeric",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.024967626893971525,
+        "baseline_mse": 0.034476498989782105,
+        "mse_gain": 0.00950887209581058,
+        "mse_gain_issuer_bootstrap_95": [
+          0.0030453547899567286,
+          0.017973410261169758
+        ],
+        "mae": 0.10788078902509309,
+        "baseline_mae": 0.1422808577072684,
+        "selection_counts": {
+          "native_numeric": 9
+        },
+        "training_threshold_triage": {
+          "kept": 8,
+          "coverage": 0.8888888888888888,
+          "kept_mean_accuracy": 0.9821428571428571,
+          "all_mean_accuracy": 0.9193121693121693
+        }
+      },
+      {
+        "engine": "mineru_table",
+        "method": "original_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.03364257362982053,
+        "baseline_mse": 0.034476498989782105,
+        "mse_gain": 0.0008339253599615749,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.005396866605210281,
+          0.004289182722465968
+        ],
+        "mae": 0.13038570941012212,
+        "baseline_mae": 0.1422808577072684,
+        "selection_counts": {
+          "native_visible_p10": 9
+        },
+        "training_threshold_triage": {
+          "kept": 7,
+          "coverage": 0.7777777777777778,
+          "kept_mean_accuracy": 0.9795918367346939,
+          "all_mean_accuracy": 0.9193121693121693
+        }
+      },
+      {
+        "engine": "mineru_table",
+        "method": "header_selected",
+        "n": 9,
+        "issuers": 9,
+        "mse": 0.0472101810316348,
+        "baseline_mse": 0.034476498989782105,
+        "mse_gain": -0.012733682041852701,
+        "mse_gain_issuer_bootstrap_95": [
+          -0.0319346453973539,
+          0.0037108590661514024
+        ],
+        "mae": 0.1562814471654225,
+        "baseline_mae": 0.1422808577072684,
+        "selection_counts": {
+          "native_label_p10": 9
+        },
+        "training_threshold_triage": {
+          "kept": 6,
+          "coverage": 0.6666666666666666,
+          "kept_mean_accuracy": 0.9027777777777778,
+          "all_mean_accuracy": 0.9193121693121693
+        }
+      }
+    ]
+  },
+  "final_test_policy": {
+    "sealed_utc": "2026-11-16T19:20:02.886927+00:00",
+    "tables_sha256": "ccde2195423673222e6a514d578aa893d679320301f7ffd037d5edac2c5bf202",
+    "references_sha256": "fb4d86d0a12cc06a0d7f6d11dc2c186ce8d7aa3561b4896715086e76699894d0",
+    "calibrators_sha256": "15e9c62fe2d43f7a675afa37c3d73b0c1e04f317b35bd6b9da9c5e15078ff1c3",
+    "evaluator_sha256": "b1fab7304a0b48a7eeeabb9c1ec6c89a570aae7d2255604dc30e3393fa0879a4",
+    "development_issuers": [
+      "AMZN",
+      "BXP",
+      "CHD",
+      "CINF",
+      "DOV",
+      "EXPE",
+      "FMC",
+      "HAL",
+      "ISRG",
+      "IT",
+      "KEY",
+      "LH",
+      "MGM",
+      "MKC",
+      "MPC",
+      "NEE",
+      "NSC",
+      "NVR",
+      "OXY",
+      "PEP",
+      "PKI",
+      "PNR",
+      "PPL",
+      "ROK",
+      "SBAC",
+      "SYK",
+      "TDG",
+      "TSN",
+      "URI",
+      "VRSK",
+      "VRSN",
+      "WAB",
+      "WU",
+      "cvs",
+      "dyson",
+      "edf",
+      "harrods",
+      "hippodrome",
+      "nestle",
+      "peterborough",
+      "rolls_royce",
+      "unilever"
+    ],
+    "test_issuers": [
+      "ATO",
+      "DGX",
+      "JNPR",
+      "KMB",
+      "PHM",
+      "PXD",
+      "TEL",
+      "TMO",
+      "UNM",
+      "WDC",
+      "ZBRA"
+    ],
+    "requested_crops": 40,
+    "actual_crops": 11,
+    "selection_audit_sha256": "240d6d5dfeeec280dadc47712ac4c96688e82ae45f840f5a4834ec7ba922bf82",
+    "test_outputs_inspected": false
+  },
+  "original_audit": "pass",
+  "final_test_audit": "pass",
+  "important_limits": [
+    "Only 11 final test issuers; public benchmark pretraining overlap unknown.",
+    "Final sample fell short of 40 because public row retrieval returned 429/502 errors. Selection never used model outputs.",
+    "Financial fact F1 is sensitive to deterministic header, label and unit interpretation; GriTS and source inspection remain necessary.",
+    "Native token confidence cannot score omissions and does not guarantee a correct table.",
+    "First fresh17 became development in round2 after metric repairs; original and sensitivity results remain separate."
+  ]
+}

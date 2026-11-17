@@ -1,0 +1,327 @@
+{
+  "status": "pass",
+  "created_utc": "2026-11-16T19:14:01.851786+00:00",
+  "changes": [
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "tesseract",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle_vl",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": 0.6268656716417911,
+      "new": 1.0,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "glm",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": 0.9850746268656716,
+      "new": 1.0,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "monkey",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": 0.9850746268656716,
+      "new": 1.0,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru_table",
+      "table_id": "unilever_fy2025_release_p014_t01",
+      "old": 0.9552238805970149,
+      "new": 1.0,
+      "old_reference_facts": 34,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "tesseract",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle_vl",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": 0.9629629629629629,
+      "new": 1.0,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "glm",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": 0.0,
+      "new": 1.0,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "monkey",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": 0.9629629629629629,
+      "new": 1.0,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru_table",
+      "table_id": "unilever_fy2025_release_p014_t02",
+      "old": 0.8888888888888888,
+      "new": 1.0,
+      "old_reference_facts": 14,
+      "new_reference_facts": 12
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "tesseract",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle_vl",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": 0.9781021897810219,
+      "new": 1.0,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "glm",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": 0.9781021897810219,
+      "new": 1.0,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "monkey",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": 0.8321167883211679,
+      "new": 0.835820895522388,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru_table",
+      "table_id": "unilever_fy2025_release_p020_t01",
+      "old": 0.9781021897810219,
+      "new": 1.0,
+      "old_reference_facts": 69,
+      "new_reference_facts": 67
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "tesseract",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle_vl",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": 0.0,
+      "new": 1.0,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "glm",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": 1.0,
+      "new": 1.0,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "monkey",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": 0.39285714285714285,
+      "new": 0.0,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru_table",
+      "table_id": "dyson_2024_accounts_p028_t01",
+      "old": 1.0,
+      "new": 1.0,
+      "old_reference_facts": 29,
+      "new_reference_facts": 22
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "tesseract",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "paddle_vl",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": 0.0,
+      "new": 0.59375,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "glm",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": 1.0,
+      "new": 1.0,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "monkey",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": 0.2962962962962963,
+      "new": 0.0,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": null,
+      "new": null,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    },
+    {
+      "cohort": "fresh_public",
+      "engine": "mineru_table",
+      "table_id": "dyson_2024_accounts_p029_t01",
+      "old": 0.12195121951219512,
+      "new": 0.8888888888888888,
+      "old_reference_facts": 42,
+      "new_reference_facts": 32
+    }
+  ],
+  "original_pairs_sha256": "f381addea2d010de49c1eb7b24a480f491ad5f4012f2fb92063c8d23775566ca",
+  "original_calibrators_sha256": "771f207d310c6990323904c021ee58c22d9e03355d70d04707be94b6860f0ae8",
+  "original_metric_sha256": "a42ec141836a54f8d02bec1b6b9ae167a26020cf6a0091b74b9b6b800792796e",
+  "corrected_metric_sha256": "04ddd7897a3228f692c6f0eb57261195657dff7d92efc77b6e0b02c854c5bf9d",
+  "native_values_unchanged": true,
+  "policy": "Development labels rescored after fresh inspection. Features and cutoffs kept from original freeze. No fitting on fresh labels. Fresh results are post-inspection sensitivity, not untouched validation."
+}

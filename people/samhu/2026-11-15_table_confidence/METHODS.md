@@ -1,4 +1,6 @@
-# Methods and reproduction
+# Original sponsor-run methods
+
+Historical 19-crop experiment. For the expanded, calibrated prototype, see [current methods](prototype/METHODS.md).
 
 ## Inputs and layout
 
@@ -54,3 +56,5 @@ Successful records resume only when hashes/settings match. Changed settings requ
 `review_panel.py` serves the same 19 primary crops locally. MonkeyOCR supplies editable drafts, explicitly unverified; model-assisted annotation may bias comparison. Expanded merged headers retain column context. Confirm values, row/column associations, units and completeness against the source. Flag incomplete crops instead of approving them.
 
 Reviews and revision history save under `runs/sponsor_all/review/`. Only explicit confirmation sets `human_verified`; any edit revokes approval. Source/draft hashes prevent stale reuse. Existing numeric metrics remain unchanged until the new structure-aware evaluation is implemented. No human reviews are fabricated.
+
+Assistant visual reviews remain separate from human approvals. Unreviewed tables use corrected drafts; existing reviews show optional suggestions. Exports include `evaluation_status`: unresolved rechecks and incomplete crops are excluded even if an older approval exists. Full-page label recoveries are diagnostic only until those inputs are recropped and rerun consistently.

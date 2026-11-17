@@ -134,6 +134,17 @@ def load_dataset(run):
             bbox_px=table['bbox_px']))
     if set(selected) != {t['table_id'] for t in tables}:
         raise ValueError('Missing members of the fixed review cohort')
+    assistant_path = ROOT / 'assistant_table_review.json'
+    if assistant_path.exists():
+        assistant = json.loads(assistant_path.read_text())
+        if assistant['reference_sha256'] != digest_bytes(refs_path.read_bytes()):
+            raise ValueError('Assistant review references are stale')
+        for table in tables:
+            review = assistant['reviews'].get(table['table_id'])
+            if review:
+                if any(review[k] != table[k] for k in ('image_sha256', 'source_sha256', 'draft_sha256')):
+                    raise ValueError('Assistant review source mismatch')
+                table['assistant_review'] = review
     return tables, assets, digest_bytes(refs_path.read_bytes())
 
 
@@ -156,18 +167,32 @@ class ReviewStore:
 
     def default(self, tid):
         t = self.tables[tid]
+        a = t.get('assistant_review', {})
+        use_assistant = bool(a.get('grids')) and not a.get('requires_recrop')
         return dict(table_id=tid, revision=0, status='unreviewed', human_verified=False,
-            reviewer='', notes='', context='', checks={k: False for k in CHECKS},
-            grids=deepcopy(t['grids']), reviewed_at=None, updated_at=None,
-            draft_source='MonkeyOCR-pro-1.2B; model-assisted draft, not ground truth',
+            reviewer='', notes='', context=a.get('context', '') if use_assistant else '', checks={k: False for k in CHECKS},
+            grids=deepcopy(a['grids'] if use_assistant else t['grids']), reviewed_at=None, updated_at=None,
+            draft_source='Assistant source-image review of MonkeyOCR draft; not human verified' if use_assistant else 'MonkeyOCR-pro-1.2B; model-assisted draft, not ground truth',
             **{k: t[k] for k in ('image_sha256', 'source_sha256', 'draft_sha256')})
 
+    def evaluation_status(self, tid, record):
+        a = self.tables[tid].get('assistant_review', {})
+        if a.get('requires_recrop'):
+            return 'needs_recrop'
+        if a.get('material_correction') and record.get('human_verified') and record['revision'] <= a['based_on_human_revision']:
+            return 'needs_recheck'
+        return 'human_verified' if record.get('human_verified') else 'unverified'
+
     def snapshot(self):
+        statuses = {tid: self.evaluation_status(tid, self.records.get(tid, {})) for tid in self.tables}
         return dict(schema_version=1, reference_sha256=self.reference_sha,
             protocol='Source-verified cell grids. Values in a wrong row or column are incorrect. '
-                     'Only human_verified records may be used for evaluation. Merged headers are expanded.',
+                     'Require human_verified plus evaluation_status=human_verified; exclude unresolved rechecks and incomplete crops. Merged headers are expanded.',
             draft_bias_note='Drafts originate from MonkeyOCR; verify every cell against the source. '
                             'Model-assisted annotation can bias model comparison.',
+            evaluation_status=statuses,
+            evaluation_eligible_ids=[tid for tid, status in statuses.items() if status == 'human_verified'],
+            assistant_reviews={tid: deepcopy(t['assistant_review']) for tid, t in self.tables.items() if 'assistant_review' in t},
             reviews=deepcopy(self.records))
 
     def save(self, payload):
@@ -203,6 +228,8 @@ class ReviewStore:
             if not isinstance(checks, dict) or any(type(checks.get(k)) is not bool for k in CHECKS):
                 raise ValueError('Invalid review checks')
             if action == 'approve':
+                if self.tables[tid].get('assistant_review', {}).get('requires_recrop'):
+                    raise ValueError('This crop omits required labels or headers; recrop before confirming')
                 if not payload['reviewer'].strip():
                     raise ValueError('Enter your name or initials before confirming')
                 if not all(checks.values()) or set(checks) != set(CHECKS):

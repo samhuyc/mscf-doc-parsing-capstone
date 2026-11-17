@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "outputs": 77,
+  "unique_crops": 11,
+  "issuers": 11,
+  "issuer_overlap": [],
+  "metric_frozen_before_inference": true,
+  "all_native_units_aligned": true,
+  "source_refs_unchanged": true,
+  "missing_numeric_scores": 4,
+  "truncated": [],
+  "caveats": [
+    "Public benchmark pretraining overlap unknown.",
+    "Source annotations are public dataset labels, not human-approved references.",
+    "One crop per issuer; small sample."
+  ]
+}

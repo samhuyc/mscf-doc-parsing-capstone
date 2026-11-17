@@ -1,0 +1,56 @@
+{
+  "status": "development_source_audit",
+  "human_review_mutated": false,
+  "cases": [
+    {
+      "table_id": "cvs_2025q2_p006_t01",
+      "kind": "scorer_repair",
+      "finding": "Q2/2Q, escaped newlines, global scale inline versus separate row are equivalent."
+    },
+    {
+      "table_id": "edf_2024_p003_t01",
+      "kind": "reference_repair",
+      "finding": "Source reads WACO E/G; derived annotation corrects WACOE/G. Original human store unchanged."
+    },
+    {
+      "table_id": "rolls_royce_2026h1_presentation_p009_t01",
+      "kind": "scorer_and_reference_repair",
+      "finding": "Explicit source footnotes are annotations; repeated headers start three subtables."
+    },
+    {
+      "table_id": "rolls_royce_2026h1_release_p013_t01",
+      "kind": "reference_repair",
+      "finding": "Source superscripts restored as explicit annotations, not bare appended digits."
+    },
+    {
+      "table_id": "peterborough_2025_p002_t01",
+      "kind": "true_model_error",
+      "engine": "paddle_vl",
+      "finding": "Four 2024 values appear in a column without the 2024 header; native value probabilities remain very high."
+    },
+    {
+      "table_id": "fintabnet_test_02481",
+      "kind": "scorer_repair",
+      "finding": "Inline italic tags in public labels must not cause period headers to become data."
+    },
+    {
+      "table_id": "fintabnet_test_04552",
+      "kind": "true_model_error_and_notation_repair",
+      "engine": "paddle_vl",
+      "finding": "Grouped year spans and several numeric values are wrong; equivalent (11%) / (11)% notation is normalized."
+    },
+    {
+      "table_id": "fintabnet_test_05662",
+      "kind": "true_model_error",
+      "engine": "glm",
+      "finding": "June 30 becomes June 31; 470,009 becomes 470,099; 409,507 becomes 490,507. GriTS partial credit hides impact."
+    }
+  ],
+  "limitations": [
+    "Rule-based financial fact interpretation is not a universal table parser.",
+    "Strict row/header transcription can penalize harmless wording changes; GriTS is a complementary view.",
+    "Footnote content itself is outside financial-fact matching.",
+    "Global scale captions are retained, but full dimensional/unit reasoning is not implemented.",
+    "Benchmarks can overlap model pretraining; these labels are not independent human checks."
+  ]
+}

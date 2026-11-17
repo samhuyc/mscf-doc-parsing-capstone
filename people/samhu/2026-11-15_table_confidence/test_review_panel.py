@@ -87,6 +87,29 @@ class ReviewTests(unittest.TestCase):
         p = self.payload(); p['grids'] = [dict(name='Empty', cells=[['']])]
         with self.assertRaises(ValueError): self.store.save(p)
 
+    def test_assistant_draft_does_not_claim_human_review(self):
+        self.table['assistant_review'] = dict(grids=[dict(name='Corrected', cells=[['2025', '2024'], ['100', '90']])], context='Checked source', requires_recrop=False)
+        value = self.store.default('test')
+        self.assertEqual(value['grids'][0]['name'], 'Corrected')
+        self.assertFalse(value['human_verified'])
+        self.assertFalse(self.path.exists())
+
+    def test_incomplete_crop_cannot_be_approved(self):
+        self.table['assistant_review'] = dict(requires_recrop=True)
+        with self.assertRaisesRegex(ValueError, 'recrop'):
+            self.store.save(self.payload())
+
+    def test_human_approval_preserved_but_recheck_excluded(self):
+        approved = self.store.save(self.payload())
+        self.table['assistant_review'] = dict(material_correction=True, based_on_human_revision=approved['revision'])
+        snapshot = self.store.snapshot()
+        self.assertTrue(snapshot['reviews']['test']['human_verified'])
+        self.assertEqual(snapshot['evaluation_status']['test'], 'needs_recheck')
+        self.assertEqual(snapshot['evaluation_eligible_ids'], [])
+        p = dict(approved, action='approve')
+        self.store.save(p)
+        self.assertEqual(self.store.snapshot()['evaluation_eligible_ids'], ['test'])
+
     def test_source_data_never_mutated(self):
         p = self.payload(); p['grids'][0]['cells'][1][1] = '42'
         self.store.save(p)

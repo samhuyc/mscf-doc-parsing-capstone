@@ -1,0 +1,311 @@
+{
+  "utc": "2026-11-16T19:30:01.731428+00:00",
+  "status": "integrity_pass_with_measurement_limitations",
+  "outputs": 77,
+  "identical_model_inputs": true,
+  "native_probabilities_unchanged": true,
+  "human_reviews_unchanged": true,
+  "issues": {
+    "fintabnet_test_02146": {
+      "kind": "reference_and_scorer_defect",
+      "reason": "Source image contains “in millions of dollars, except ratios”; benchmark reference omits this caption. Frozen scorer also misclassifies the model caption/year row as body data. Financial F1 is not interpretable for this case.",
+      "source_checked": true
+    },
+    "fintabnet_test_09879": {
+      "kind": "header_interpretation_defect",
+      "reason": "Frozen scorer treats the 2014/2013 row beside “Foreign exchange” as body values. Year associations are not fully assessed; visible GLM section-label errors are nevertheless real.",
+      "source_checked": true
+    }
+  },
+  "policy": "Original sealed 11-table results remain untouched. This is a post-inspection exclusion sensitivity across all models, with the same frozen forecasts and cutoffs; not a new untouched test.",
+  "sensitivity": [
+    {
+      "engine": "paddle_vl",
+      "method": "numeric",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.017701275764366226,
+      "baseline_mse": 0.03386918658426167,
+      "mse_gain": 0.016167910819895444,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.013751207769161423,
+        0.06474347114506755
+      ],
+      "mae": 0.10898987876767409,
+      "baseline_mae": 0.1322913194358744,
+      "selection_counts": {
+        "native_numeric": 9
+      },
+      "training_threshold_triage": {
+        "kept": 6,
+        "coverage": 0.6666666666666666,
+        "kept_mean_accuracy": 0.9345238095238095,
+        "all_mean_accuracy": 0.8938492063492064
+      }
+    },
+    {
+      "engine": "paddle_vl",
+      "method": "original_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.044423933878574066,
+      "baseline_mse": 0.03386918658426167,
+      "mse_gain": -0.010554747294312395,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.040631971309511926,
+        0.01096311952732435
+      ],
+      "mae": 0.15616979501975237,
+      "baseline_mae": 0.1322913194358744,
+      "selection_counts": {
+        "native_number_p10": 9
+      },
+      "training_threshold_triage": {
+        "kept": 6,
+        "coverage": 0.6666666666666666,
+        "kept_mean_accuracy": 0.9345238095238095,
+        "all_mean_accuracy": 0.8938492063492064
+      }
+    },
+    {
+      "engine": "paddle_vl",
+      "method": "header_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.044423933878574066,
+      "baseline_mse": 0.03386918658426167,
+      "mse_gain": -0.010554747294312395,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.040631971309511926,
+        0.01096311952732435
+      ],
+      "mae": 0.15616979501975237,
+      "baseline_mae": 0.1322913194358744,
+      "selection_counts": {
+        "native_number_p10": 9
+      },
+      "training_threshold_triage": {
+        "kept": 6,
+        "coverage": 0.6666666666666666,
+        "kept_mean_accuracy": 0.9345238095238095,
+        "all_mean_accuracy": 0.8938492063492064
+      }
+    },
+    {
+      "engine": "glm",
+      "method": "numeric",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.04837004776636141,
+      "baseline_mse": 0.04436196212171972,
+      "mse_gain": -0.00400808564464169,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.032883277654011424,
+        0.021553267475704442
+      ],
+      "mae": 0.1754464251044986,
+      "baseline_mae": 0.19392834032182618,
+      "selection_counts": {
+        "native_numeric": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.8921130952380952,
+        "all_mean_accuracy": 0.8596560846560847
+      }
+    },
+    {
+      "engine": "glm",
+      "method": "original_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.07594201075237622,
+      "baseline_mse": 0.04436196212171972,
+      "mse_gain": -0.03158004863065649,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.09570725192812855,
+        0.012542166381272332
+      ],
+      "mae": 0.22336572484895334,
+      "baseline_mae": 0.19392834032182618,
+      "selection_counts": {
+        "native_all": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.8921130952380952,
+        "all_mean_accuracy": 0.8596560846560847
+      }
+    },
+    {
+      "engine": "glm",
+      "method": "header_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.07594201075237622,
+      "baseline_mse": 0.04436196212171972,
+      "mse_gain": -0.03158004863065649,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.09570725192812855,
+        0.012542166381272332
+      ],
+      "mae": 0.22336572484895334,
+      "baseline_mae": 0.19392834032182618,
+      "selection_counts": {
+        "native_all": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.8921130952380952,
+        "all_mean_accuracy": 0.8596560846560847
+      }
+    },
+    {
+      "engine": "monkey",
+      "method": "numeric",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.14474951829151497,
+      "baseline_mse": 0.1390601800725025,
+      "mse_gain": -0.0056893382190124865,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.12464680911303824,
+        0.10422327662344485
+      ],
+      "mae": 0.3166340366704102,
+      "baseline_mae": 0.322572060619047,
+      "selection_counts": {
+        "native_numeric": 9
+      },
+      "training_threshold_triage": {
+        "kept": 7,
+        "coverage": 0.7777777777777778,
+        "kept_mean_accuracy": 0.5425824175824175,
+        "all_mean_accuracy": 0.48423076923076924
+      }
+    },
+    {
+      "engine": "monkey",
+      "method": "original_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.11506647696371637,
+      "baseline_mse": 0.1390601800725025,
+      "mse_gain": 0.02399370310878613,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.09811124260757735,
+        0.13911153830787223
+      ],
+      "mae": 0.2636924538862196,
+      "baseline_mae": 0.322572060619047,
+      "selection_counts": {
+        "native_all": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.5447596153846154,
+        "all_mean_accuracy": 0.48423076923076924
+      }
+    },
+    {
+      "engine": "monkey",
+      "method": "header_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.11506647696371637,
+      "baseline_mse": 0.1390601800725025,
+      "mse_gain": 0.02399370310878613,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.09811124260757735,
+        0.13911153830787223
+      ],
+      "mae": 0.2636924538862196,
+      "baseline_mae": 0.322572060619047,
+      "selection_counts": {
+        "native_all": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.5447596153846154,
+        "all_mean_accuracy": 0.48423076923076924
+      }
+    },
+    {
+      "engine": "mineru_table",
+      "method": "numeric",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.024967626893971525,
+      "baseline_mse": 0.034476498989782105,
+      "mse_gain": 0.00950887209581058,
+      "mse_gain_issuer_bootstrap_95": [
+        0.0030453547899567286,
+        0.017973410261169758
+      ],
+      "mae": 0.10788078902509309,
+      "baseline_mae": 0.1422808577072684,
+      "selection_counts": {
+        "native_numeric": 9
+      },
+      "training_threshold_triage": {
+        "kept": 8,
+        "coverage": 0.8888888888888888,
+        "kept_mean_accuracy": 0.9821428571428571,
+        "all_mean_accuracy": 0.9193121693121693
+      }
+    },
+    {
+      "engine": "mineru_table",
+      "method": "original_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.03364257362982053,
+      "baseline_mse": 0.034476498989782105,
+      "mse_gain": 0.0008339253599615749,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.005396866605210281,
+        0.004289182722465968
+      ],
+      "mae": 0.13038570941012212,
+      "baseline_mae": 0.1422808577072684,
+      "selection_counts": {
+        "native_visible_p10": 9
+      },
+      "training_threshold_triage": {
+        "kept": 7,
+        "coverage": 0.7777777777777778,
+        "kept_mean_accuracy": 0.9795918367346939,
+        "all_mean_accuracy": 0.9193121693121693
+      }
+    },
+    {
+      "engine": "mineru_table",
+      "method": "header_selected",
+      "n": 9,
+      "issuers": 9,
+      "mse": 0.0472101810316348,
+      "baseline_mse": 0.034476498989782105,
+      "mse_gain": -0.012733682041852701,
+      "mse_gain_issuer_bootstrap_95": [
+        -0.0319346453973539,
+        0.0037108590661514024
+      ],
+      "mae": 0.1562814471654225,
+      "baseline_mae": 0.1422808577072684,
+      "selection_counts": {
+        "native_label_p10": 9
+      },
+      "training_threshold_triage": {
+        "kept": 6,
+        "coverage": 0.6666666666666666,
+        "kept_mean_accuracy": 0.9027777777777778,
+        "all_mean_accuracy": 0.9193121693121693
+      }
+    }
+  ]
+}

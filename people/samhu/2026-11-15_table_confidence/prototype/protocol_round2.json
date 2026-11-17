@@ -1,0 +1,19 @@
+{
+  "round": 2,
+  "created_utc": "2026-11-16T19:15:13.591485+00:00",
+  "status": "Before confirmatory selection and inference",
+  "development": "All 98 earlier crops; 94 financial. Earlier fresh17 are now explicitly development for this round.",
+  "test": "40 FinTabNet test tables, one per unseen issuer, excluding all prior issuers; seed20261117 and source-only geometry/financial filters. Benchmark pretraining overlap remains unknown.",
+  "new_signals": [
+    "native_header geometric mean",
+    "native_header p10",
+    "native_row_label geometric mean",
+    "native_row_label p10"
+  ],
+  "signals_policy": "Derived only from model output structure and original emitted-token probabilities. No reference selects tokens. Missing summaries remain missing.",
+  "primary": "Numeric native probability -> isotonic expected financial fact F1",
+  "secondary": "One native summary chosen by issuer-held-out training loss from the original eight plus four header/label summaries. No ensembles or fitted feature combinations.",
+  "validation": "Nested issuer-held-out development; freeze before confirmatory inference. Fixed training bottom20% review threshold; training-mean baseline. Evaluate all four structured model configurations on identical inputs.",
+  "metric": "table_structure_v2.py, repaired after first fresh inspection; source-backed formatting fixes. Preserve original frozen results and post-inspection sensitivity.",
+  "completion": "Report positive, negative and non-generalizing findings equally. Do not tune on confirmatory results."
+}

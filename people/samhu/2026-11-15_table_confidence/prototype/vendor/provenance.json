@@ -1,0 +1,7 @@
+{
+  "repository": "microsoft/table-transformer",
+  "commit": "ef21069f2a42254bbd049609f7d4bebc25abcf09",
+  "path": "src/grits.py",
+  "sha256": "75c13031657252c251f5d0b483aca2601e229a06d46e60d0aa3c739418f543d7",
+  "license_file": "LICENSE.table-transformer"
+}

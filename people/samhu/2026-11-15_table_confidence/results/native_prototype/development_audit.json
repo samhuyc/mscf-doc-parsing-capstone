@@ -1,0 +1,242 @@
+{
+  "created_utc": "2026-11-16T18:53:49.723830+00:00",
+  "status": "pass",
+  "mode": "development_only",
+  "expected_outputs": 567,
+  "successful_outputs": 567,
+  "coverage_counts": {
+    "('sponsor_development', 'paddle', 'success')": 16,
+    "('sponsor_development', 'tesseract', 'success')": 16,
+    "('sponsor_development', 'paddle_vl', 'success')": 16,
+    "('sponsor_development', 'glm', 'success')": 16,
+    "('sponsor_development', 'monkey', 'success')": 16,
+    "('sponsor_development', 'mineru', 'success')": 16,
+    "('repairs', 'paddle', 'success')": 5,
+    "('repairs', 'tesseract', 'success')": 5,
+    "('repairs', 'paddle_vl', 'success')": 5,
+    "('repairs', 'glm', 'success')": 5,
+    "('repairs', 'monkey', 'success')": 5,
+    "('repairs', 'mineru', 'success')": 5,
+    "('benchmark', 'paddle', 'success')": 60,
+    "('benchmark', 'tesseract', 'success')": 60,
+    "('benchmark', 'paddle_vl', 'success')": 60,
+    "('benchmark', 'glm', 'success')": 60,
+    "('benchmark', 'monkey', 'success')": 60,
+    "('benchmark', 'mineru', 'success')": 60,
+    "('benchmark', 'mineru_table', 'success')": 60,
+    "('sponsor_table_mode', 'mineru_table', 'success')": 21
+  },
+  "unique_input_images": 81,
+  "human_reviews_unchanged": true,
+  "human_review_sha256": "6414f57c45d29453f60120669aa14905ef9a2dede67b4f60299a67141f3ccada",
+  "native_feature_code_sha256": "707f7a4fd6c41719c5f1aa0fa54d8aebb0696c7524703354c29c7662b7e3096b",
+  "control_equivalence_records": [
+    {
+      "cohort": "sponsor_development",
+      "engine": "paddle",
+      "table_id": "cvs_2025q2_p006_t01"
+    },
+    {
+      "cohort": "sponsor_development",
+      "engine": "paddle_vl",
+      "table_id": "cvs_2025q2_p006_t01"
+    },
+    {
+      "cohort": "sponsor_development",
+      "engine": "glm",
+      "table_id": "cvs_2025q2_p006_t01"
+    },
+    {
+      "cohort": "sponsor_development",
+      "engine": "monkey",
+      "table_id": "cvs_2025q2_p006_t01"
+    },
+    {
+      "cohort": "sponsor_development",
+      "engine": "mineru",
+      "table_id": "cvs_2025q2_p006_t01"
+    },
+    {
+      "cohort": "repairs",
+      "engine": "paddle",
+      "table_id": "hippodrome_2025_p030_employees"
+    },
+    {
+      "cohort": "repairs",
+      "engine": "paddle_vl",
+      "table_id": "hippodrome_2025_p030_employees"
+    },
+    {
+      "cohort": "repairs",
+      "engine": "glm",
+      "table_id": "hippodrome_2025_p030_employees"
+    },
+    {
+      "cohort": "repairs",
+      "engine": "monkey",
+      "table_id": "hippodrome_2025_p030_employees"
+    },
+    {
+      "cohort": "repairs",
+      "engine": "mineru",
+      "table_id": "hippodrome_2025_p030_employees"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "paddle",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "paddle_vl",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "glm",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "monkey",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru_table",
+      "table_id": "fintabnet_test_04921"
+    },
+    {
+      "cohort": "sponsor_table_mode",
+      "engine": "mineru_table",
+      "table_id": "cvs_2025q2_p006_t01"
+    }
+  ],
+  "truncated_outputs": [
+    {
+      "cohort": "benchmark",
+      "engine": "monkey",
+      "table_id": "fintabnet_test_08733"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru",
+      "table_id": "fintabnet_test_08733"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru_table",
+      "table_id": "fintabnet_test_08733"
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru",
+      "table_id": "fintabnet_test_05144"
+    }
+  ],
+  "outputs_without_emitted_numbers": [
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_04921",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_00592",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_00593",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_01518",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_00852",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_06993",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_06808",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_06809",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_02812",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_05071",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "mineru",
+      "table_id": "fintabnet_test_04144",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_07549",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_02036",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_08363",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_04107",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    },
+    {
+      "cohort": "benchmark",
+      "engine": "tesseract",
+      "table_id": "fintabnet_test_04552",
+      "reason": "No emitted numeric tokens; native score is undefined, accuracy remains included."
+    }
+  ],
+  "errors": [],
+  "missing_or_failed": []
+}

@@ -1,0 +1,191 @@
+{
+  "checked_on": "2026-11-16",
+  "interpretation": "Public document collections and labeled datasets, rather than OCR software packages.",
+  "recommendation": "Use fresh issuer archives plus Companies House for sponsor-like documents; use FinTabNet.c for structure-scoring checks and DocLayNet for layout checks.",
+  "collections": [
+    {
+      "id": "companies_house",
+      "name": "Companies House filing histories",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "kind": "original_documents",
+      "use": "Best match for real scanned UK accounts; full filings, no cell ground truth.",
+      "access": "Public account PDFs from filing-history links. API is optional. Store stable filing URL rather than expiring redirected download URL.",
+      "caution": "Not every filing is scanned; inspect page text/image content. The separate bulk accounts product is XBRL, not a scan collection.",
+      "examples": [
+        {
+          "company": "Harrods Limited",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/00030209/filing-history?page=1"
+        },
+        {
+          "company": "Dyson Limited",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/02627406/filing-history?page=1"
+        },
+        {
+          "company": "Jaguar Land Rover Limited",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/01672070/filing-history"
+        }
+      ],
+      "documentation": "https://www.gov.uk/guidance/companies-house-data-products"
+    },
+    {
+      "id": "nestle_ir",
+      "name": "Nestlé investor publications and presentations",
+      "url": "https://www.nestle.com/investors/presentations",
+      "additional_url": "https://www.nestle.com/investors/publications",
+      "kind": "original_documents",
+      "use": "Strong match for sponsor slides: infographic KPIs, tables, multiple units and hierarchical headers.",
+      "access": "Public PDF links; a FY2025 presentation was downloaded and visually checked.",
+      "caution": "No independent cell labels. Treat document years from one issuer as one split group."
+    },
+    {
+      "id": "unilever_ir",
+      "name": "Unilever results archive",
+      "url": "https://www.unilever.com/investors/results-events/",
+      "kind": "original_documents",
+      "use": "Financial releases and presentations with parallel business/period groups.",
+      "access": "Public PDF links; FY2025 full announcement downloaded and visually checked.",
+      "caution": "No cell ground truth; follow issuer links for complete original reports."
+    },
+    {
+      "id": "annualreports",
+      "name": "AnnualReports.com",
+      "url": "https://www.annualreports.com/",
+      "kind": "document_directory",
+      "use": "Broader issuer/industry coverage for designed annual reports.",
+      "access": "Public browsing by issuer, exchange and industry; directory verified, no sample downloaded here.",
+      "caution": "Some reports are standardized filings. Prefer illustrated reports matching sponsor layouts; record original issuer and rights."
+    },
+    {
+      "id": "fintabnet_c",
+      "name": "FinTabNet.c",
+      "url": "https://huggingface.co/datasets/bsmock/FinTabNet.c",
+      "files_url": "https://huggingface.co/datasets/bsmock/FinTabNet.c/tree/main",
+      "kind": "annotated_benchmark",
+      "use": "Financial table structures and corrected oversegmentation; useful for testing row/column scoring.",
+      "access": "Author-hosted archives: structure 3.17 GB; PDF annotations 255 MB. File listing verified; not downloaded.",
+      "license_label": "CDLA-Permissive-2.0 (dataset card)",
+      "caution": "Annotations are automatically corrected and some cases removed. This is not evidence of real scan quality or a fresh model holdout; inspect sample labels and training overlap."
+    },
+    {
+      "id": "fintabnet_otsl",
+      "name": "FinTabNet OTSL",
+      "url": "https://huggingface.co/datasets/docling-project/FinTabNet_OTSL",
+      "kind": "annotated_benchmark",
+      "use": "Financial table images with cell content, HTML and OTSL structure; useful for merged-cell evaluation.",
+      "access": "Public Parquet splits and live sample viewer verified; not downloaded.",
+      "license_label": "Other; consult dataset card and original FinTabNet terms.",
+      "caution": "Shares the original FinTabNet data. Do not count it as an independent corpus alongside FinTabNet.c."
+    },
+    {
+      "id": "doclaynet",
+      "name": "DocLayNet financial_reports subset",
+      "url": "https://github.com/DS4SD/DocLayNet",
+      "kind": "layout_benchmark",
+      "use": "Human-annotated table/layout boxes to measure missed tables and crop completeness.",
+      "access": "Core 80,863 pages, 28 GiB; PDF/text extras 7.5 GiB. Filter doc_category=financial_reports. Documentation verified; not downloaded.",
+      "caution": "Layout labels are not cell/value ground truth. PNG rendering is not proof of a real scanned origin. Full dataset spans six document categories."
+    }
+  ],
+  "sample_downloads": [
+    {
+      "id": "nestle_fy2025_presentation",
+      "url": "https://www.nestle.com/sites/default/files/2026-02/full-year-results-investor-presentation-2025.pdf",
+      "path": "work/public_source_samples/nestle_fy2025_presentation.pdf",
+      "bytes": 5627290,
+      "sha256": "8a2cf14cb5176c2d5c7295ec22b4b66ef8a298194ce992ef1f22a6633f732ff1",
+      "downloaded": true,
+      "pages": 79,
+      "pages_with_text": 79,
+      "pages_with_raster_images": 79,
+      "document_type": "born_digital",
+      "visual_inspection": "79-page presentation. Inspected pages 20 and 70: infographic panels, financial tables, wrapped headers and mixed units.",
+      "visually_inspected_pdf_pages": [
+        20,
+        70
+      ],
+      "split": "development_source_probe",
+      "license": "Publisher terms; public access is not a blanket redistribution license."
+    },
+    {
+      "id": "unilever_fy2025_release",
+      "url": "https://www.unilever.com/files/ir-q4-2025-full-announcement.pdf",
+      "path": "work/public_source_samples/unilever_fy2025_release.pdf",
+      "bytes": 1214255,
+      "sha256": "0cabc5facc562ecd19c6e0436141e532ca6d9256d51498006c4cbdc289af6481",
+      "downloaded": true,
+      "pages": 33,
+      "pages_with_text": 33,
+      "pages_with_raster_images": 1,
+      "document_type": "born_digital",
+      "visual_inspection": "33-page results release. Inspected page 1: side-by-side Underlying and GAAP groups, multiple periods and footnotes.",
+      "visually_inspected_pdf_pages": [
+        1
+      ],
+      "split": "development_source_probe",
+      "license": "Publisher terms; public access is not a blanket redistribution license."
+    },
+    {
+      "id": "harrods_fy2025_accounts",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/00030209/filing-history/MzQ4Mzc5NDM2N2FkaXF6a2N4/document?download=0&format=pdf",
+      "path": "work/public_source_samples/harrods_fy2025_accounts.pdf",
+      "bytes": 2379219,
+      "sha256": "6732c08779460c9405c0abe01653bfef92213095099763040f933c8315ab6eaf",
+      "downloaded": true,
+      "pages": 53,
+      "pages_with_text": 0,
+      "pages_with_raster_images": 53,
+      "document_type": "image_only_scan",
+      "visual_inspection": "53 pages, no extractable text. Inspected pages 19 and 23: scan speckle and financial statements without vertical rules.",
+      "visually_inspected_pdf_pages": [
+        19,
+        23
+      ],
+      "split": "development_source_probe",
+      "license": "Publisher terms; public access is not a blanket redistribution license."
+    },
+    {
+      "id": "dyson_2024_accounts",
+      "url": "https://find-and-update.company-information.service.gov.uk/company/02627406/filing-history/MzQ4MzU0MTMzMWFkaXF6a2N4/document?download=0&format=pdf",
+      "path": "work/public_source_samples/dyson_2024_accounts.pdf",
+      "bytes": 1742633,
+      "sha256": "5186b0835cb7ea393d4c3b668bc8f415a64113e6875cccb701602bc16e2f1845",
+      "downloaded": true,
+      "pages": 48,
+      "pages_with_text": 0,
+      "pages_with_raster_images": 48,
+      "document_type": "image_only_scan",
+      "visual_inspection": "48 pages, no extractable text. Inspected cover and pages 15/22: scanned filing, degraded ruling and wrapped table text. Financial statement pages not yet specifically inspected.",
+      "visually_inspected_pdf_pages": [
+        1,
+        15,
+        22
+      ],
+      "split": "development_source_probe",
+      "license": "Publisher terms; public access is not a blanket redistribution license."
+    }
+  ],
+  "expansion_plan": {
+    "existing_sponsor_documents": 6,
+    "proposed_new_documents": 54,
+    "proposed_total": 60,
+    "strata": {
+      "results_presentations_and_releases": 18,
+      "designed_annual_or_segment_reports": 18,
+      "real_scanned_accounts": 18
+    },
+    "rules": [
+      "Count complete distinct documents, not table crops.",
+      "Group all reports and years from one issuer into the same split.",
+      "Tag borderless tables, wrapped labels, grouped headers, detail/total columns and multi-table crops.",
+      "Classify scanned/born-digital per page; label mixed documents explicitly.",
+      "Freeze test issuers before model comparisons; the four inspected source probes belong to development.",
+      "Keep official PDF URLs, retrieval dates, hashes and page-level provenance.",
+      "Public benchmarks remain separate because model training overlap may be unknown."
+    ]
+  },
+  "prior_to_expansion": [
+    "Resolve the three incomplete sponsor crops and rerun changed inputs consistently across all engines.",
+    "Use source-reviewed row/column/unit associations instead of numeric inventories.",
+    "Compare whole-table versus numeric/cell confidence on the same resolved cohort."
+  ]
+}

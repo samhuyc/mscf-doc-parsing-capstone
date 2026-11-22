@@ -1,0 +1,117 @@
+{
+  "export_date": "2026-11-22",
+  "owner": "mc8",
+  "scope": "300 completed development tables; seven configurations; no final-test evaluation",
+  "original_source_commit": "9e53e322821b5d9aea6bdcc170c0adfa56bcf039",
+  "byte_preserved_exports": {
+    "batch-progress.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-progress.json",
+      "sha256": "13de53aa9228bbbe1ef28e97c90dbf5eedf68184b09bd2825e28efaf5b86748e"
+    },
+    "batch-results/batch-01-metrics.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-01-metrics.json",
+      "sha256": "69a9a42bde86a5de4a6e62ac2efaa791cd6e107b39beaed75b80c6bc81aea599"
+    },
+    "batch-results/batch-01.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-01.json",
+      "sha256": "4eeab9b210fef7fcd81db9bbdae7bbed6ffabd6d462731555814800f536d43c6"
+    },
+    "batch-results/batch-01.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-01.md",
+      "sha256": "99648a103de7c84058c6f2231534ac2ff8c9d5cba08fffad1b0166c914ee62d6"
+    },
+    "batch-results/batch-02-metrics.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-02-metrics.json",
+      "sha256": "1fac8ad1fcec8dac5cae793b1696b79d7d92793c5e5e019de29f2f052fc7fe55"
+    },
+    "batch-results/batch-02.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-02.json",
+      "sha256": "22c9c5ff51f80862319fb5d76daa0dbf63513d02671d7cfd38109fbf065d6437"
+    },
+    "batch-results/batch-02.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-02.md",
+      "sha256": "f7ff56ed739a7020fecc1859654ab8ebe45129b3375a08b11f27f49103a0fd03"
+    },
+    "batch-results/batch-03-metrics.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03-metrics.json",
+      "sha256": "6370c09b7c3a0efb49a9b1f8063f9040a8b8b634ddc8a725694b42b103c4eae8"
+    },
+    "batch-results/batch-03-sam-comparison.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03-sam-comparison.md",
+      "sha256": "5d2fa630a5be2b4560606700ee946a3e5b45444d347b9d3f737cf125809c83ef"
+    },
+    "batch-results/batch-03.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03.json",
+      "sha256": "609b47500f06f9d0d29aeae38150cfb184c1901d1c0f63260826cff8e3119b05"
+    },
+    "batch-results/batch-03.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03.md",
+      "sha256": "92007077a9c9b0c9f4df2b38c97e694dd576f1d0c9fc0aafdae94a4d15dd3434"
+    },
+    "data_snapshot/seal.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/data/fintabnet_2000/seal.json",
+      "sha256": "6ee0fb806848656c6ef72a3fa8e5bad49a8fe61eb1b41276b3bd8d45713265da"
+    },
+    "data_snapshot/tables.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/data/fintabnet_2000/tables.json",
+      "sha256": "71084c937efa72c13abd7abe63c8be133729dd46ddad9a437303d40657b51d58"
+    },
+    "development/pairs.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/development/pairs.json",
+      "sha256": "baf5e045222ac73889e52115da15ada3a160039af5c5d2d9df4da5454f662642"
+    },
+    "development/summary.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/development/summary.json",
+      "sha256": "65bdf0b4fea4227821a19e69bd174e5d6f1feda1fd99f757af430e2389b11218"
+    },
+    "development/summary.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/development/summary.md",
+      "sha256": "3ccdd9ff0504f2e6c71b5bf2fc6aac9f96dfaa188fac37850f39229fa18e8f4a"
+    },
+    "presentation/confidence_results_summary_2026-11-18.pdf": {
+      "original_path": "outputs/presentation_2026-11-18/confidence_results_summary_2026-11-18.pdf",
+      "sha256": "29b621025f15c1e07a20894d9f326f2cefc8cfcc048bc6e4cd74ad8a3e5c7bf0"
+    },
+    "presentation/exploratory_development_forecasts.json": {
+      "original_path": "outputs/presentation_2026-11-18/exploratory_development_forecasts.json",
+      "sha256": "d1f3e633bbdc798fa9a35952584f7f8477c5360076d512cf32c179ae12281cb7"
+    },
+    "presentation/forecast_and_confidence_summary.md": {
+      "original_path": "outputs/presentation_2026-11-18/forecast_and_confidence_summary.md",
+      "sha256": "3f07c38b5e3783a26f021a0e39ae2638cb526054b32b6f74605649adef44c183"
+    },
+    "presentation/summary-provenance.json": {
+      "original_path": "outputs/presentation_2026-11-18/summary-provenance.json",
+      "sha256": "20192771188518720d79059c14bb140b1aa9beaa941b34d061ad87509d1e235f"
+    },
+    "presentation/summary-validation.json": {
+      "original_path": "outputs/presentation_2026-11-18/summary-validation.json",
+      "sha256": "c3377914df12e38419853d62c8d2ff1d6de4c9d33b585f98abc761a50707b218"
+    },
+    "report-verification.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/report-verification.json",
+      "sha256": "ea6fdab2de3a1a0ccdec798a433916972083115e240f899fab6d3e7999d2c9b0"
+    },
+    "summary-metrics.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/summary-metrics.json",
+      "sha256": "6370c09b7c3a0efb49a9b1f8063f9040a8b8b634ddc8a725694b42b103c4eae8"
+    },
+    "summary.json": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/summary.json",
+      "sha256": "609b47500f06f9d0d29aeae38150cfb184c1901d1c0f63260826cff8e3119b05"
+    },
+    "summary.md": {
+      "original_path": "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/summary.md",
+      "sha256": "92007077a9c9b0c9f4df2b38c97e694dd576f1d0c9fc0aafdae94a4d15dd3434"
+    }
+  },
+  "adapted_scripts": "presentation/compute_development_forecasts.py and build_summary.py have repository-relative paths to the exported snapshot. Published JSON/PDF and original local scripts are unchanged.",
+  "seal_note": "data_snapshot/seal.json is the original setup seal; its inference_started=false is historical setup metadata. Completed execution is established by the batch summaries and scored pairs.",
+  "omitted_local_artifacts": [
+    "raw token/logit records",
+    "model weights and binaries",
+    "Python environments",
+    "source images, annotations and references",
+    "unfinished inference beyond the scored 300-table prefix"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "mineru": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<__media__>\nText Recognition:<|im_end|>\n<|im_start|>assistant\n",
+  "paddle_vl": "<|begin_of_sentence|>User: <__media__>Table Recognition:\nAssistant:\n",
+  "glm": "[gMASK]<sop><|user|>\n<__media__>Table Recognition:<|assistant|>\n",
+  "monkey": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<__media__>This is the image of a table. Please output the table in html format.<|im_end|>\n<|im_start|>assistant\n",
+  "mineru_table": "<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n<__media__>\nTable Recognition:<|im_end|>\n<|im_start|>assistant\n"
+}

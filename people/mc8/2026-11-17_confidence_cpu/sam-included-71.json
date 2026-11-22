@@ -1,0 +1,641 @@
+[
+  {
+    "table_id": "fintabnet_test_00185",
+    "source_filename": "HAL.2007.page_89.pdf_125154.png",
+    "source_row": 185,
+    "issuer": "HAL",
+    "image_sha256": "6b60d99ce56b69507f71207665724c187ee5eee0d7445ac749386837e6973edf",
+    "source_sha256": "017bcc9350bcc59757a76b0852c959dec8a931426cfe0b2fbdc308fda807d090",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00186",
+    "source_filename": "HAL.2017.page_38.pdf_125232.png",
+    "source_row": 186,
+    "issuer": "HAL",
+    "image_sha256": "e42632b05fd7f37c3d548078a5ab11d483663fe911e50e01b3bad09284412b30",
+    "source_sha256": "28f747cea904a3431bc624c71db993338591dc74e93853f13834327e5fe980a1",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00334",
+    "source_filename": "DGX.2005.page_86.pdf_1458.png",
+    "source_row": 334,
+    "issuer": "DGX",
+    "image_sha256": "1d015e8048b016b3bd15f2867012503e02aa67e606b40c7b2f987057138245f4",
+    "source_sha256": "c3a459b5e1e6db8160886e18dc38621c5a14d75ffe569c6fe76bd8b5f47e3003",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00592",
+    "source_filename": "MKC.2013.page_53.pdf_58180.png",
+    "source_row": 592,
+    "issuer": "MKC",
+    "image_sha256": "5bd61f4f36809caff502f80fb4a30fd4cf74cd664edfc76cd6acaa3012962501",
+    "source_sha256": "faf988113d51f063592823519e118c55a727e493f7088b8d56679c4d083ad956",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00593",
+    "source_filename": "MKC.2015.page_33.pdf_58027.png",
+    "source_row": 593,
+    "issuer": "MKC",
+    "image_sha256": "56a032474efc6a5e177fece277d53f6bb5335e3c8743ea74a288d5f475aa6e2e",
+    "source_sha256": "9bb1ed6756ea3cb38af47b94a146a5d23ba95541bfafdd7abdbba389f8d9ccee",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00851",
+    "source_filename": "MPC.2013.page_31.pdf_2914.png",
+    "source_row": 851,
+    "issuer": "MPC",
+    "image_sha256": "bcecd1ecbc2048729910e580c9a70897c31517c485a0a38383b45b4063440556",
+    "source_sha256": "ed9d924c8fd0b7406ed4bd27f99574da1226e6afe99b17e5584e0752ede0172b",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_00852",
+    "source_filename": "MPC.2012.page_140.pdf_2773.png",
+    "source_row": 852,
+    "issuer": "MPC",
+    "image_sha256": "5a22361fab45e4512f5f34acb7da5f35caf59164583a81e416f712245d6557ac",
+    "source_sha256": "0d850925aa70b2ddcee4e3cc3035b7b6b5bda42b7b59251cbccd8e582562f05d",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_01221",
+    "source_filename": "PNR.2013.page_102.pdf_87257.png",
+    "source_row": 1221,
+    "issuer": "PNR",
+    "image_sha256": "4bba1dd54d1f090c893b43ba89d3ac911b0c31c277c0df5635282e38424b3a0c",
+    "source_sha256": "8680d5a55b4af8867dc4f880ac555c635796d9f192bf4803e8c7f19ca1fd21cc",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_01222",
+    "source_filename": "PNR.2012.page_118.pdf_87036.png",
+    "source_row": 1222,
+    "issuer": "PNR",
+    "image_sha256": "ec76fcbfc2d7e17587d076dac6fced62ce4a3d9288013e7f445dae13cec2d0b5",
+    "source_sha256": "3378ce843f5bba2dc655e9f3a20f6caedbb1813b99279263e705c44870435a6c",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_01518",
+    "source_filename": "KEY.2015.page_184.pdf_98340.png",
+    "source_row": 1518,
+    "issuer": "KEY",
+    "image_sha256": "b256f49d185f8250b10684cab4565b179fb6fcc499414f2257e75a701c0f0870",
+    "source_sha256": "7ca3ff6a8eeb9baac5e6d253115620f3fe633e65422dd6f3f7d5ee12babe28ca",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_01739",
+    "source_filename": "TMO.2015.page_22.pdf_38845.png",
+    "source_row": 1739,
+    "issuer": "TMO",
+    "image_sha256": "9c2a848be15dab849dd745fa899cb9e14718d255faf2e40417dbe23168bbab5b",
+    "source_sha256": "11124e3a989f27c9eaa5a839405705a94333b5e23cce3b76af73a6a915222ec6",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02035",
+    "source_filename": "DOV.2013.page_86.pdf_149426.png",
+    "source_row": 2035,
+    "issuer": "DOV",
+    "image_sha256": "58cc7a2b07c0604333120cce51e6f277850545a852b56a63780a10bfdb878e22",
+    "source_sha256": "033b5340cebf9036865d6c5b060702bf64886e6926518420313b3dcc5d9189fd",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02036",
+    "source_filename": "DOV.2008.page_73.pdf_149358.png",
+    "source_row": 2036,
+    "issuer": "DOV",
+    "image_sha256": "c9d19eabbd896da343d68feda352e887401d69c0519c4396ce53f7831b162254",
+    "source_sha256": "6939f61e39355afe6de264d25bd1fb309d30dcc95dd6489bc46bcc8cc0882da8",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02146",
+    "source_filename": "UNM.2007.page_53.pdf_45298.png",
+    "source_row": 2146,
+    "issuer": "UNM",
+    "image_sha256": "991f7690761c36e3c8a41567801ccc6587f46227067f397e9cb7724431d7da4a",
+    "source_sha256": "14cf0970d4391a1a3ff9a0a1ad18c804159648be41b58b108a001cb18ac1bb1c",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02257",
+    "source_filename": "JNPR.2007.page_183.pdf_110833.png",
+    "source_row": 2257,
+    "issuer": "JNPR",
+    "image_sha256": "4736d5f23bd7e917dbbe4b7b0db76ddc728bd31b12443be8426488f7824c019a",
+    "source_sha256": "6739cf0a9e308cfbd3fe6228d4e4b1f186b6f472d6af92ba637ce7f36b08095f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02479",
+    "source_filename": "WAB.2011.page_66.pdf_136234.png",
+    "source_row": 2479,
+    "issuer": "WAB",
+    "image_sha256": "3882af12d105e6379ddd4580a28223b7fc4b2ef9e2608d61ba70c89bf16bfd6a",
+    "source_sha256": "9ebde78fa2c1b09c8d150b1187dd3176e3e00e4593291b6c21ba05926fe7c3a7",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02481",
+    "source_filename": "WAB.2010.page_68.pdf_136530.png",
+    "source_row": 2481,
+    "issuer": "WAB",
+    "image_sha256": "730e8a09e42159a90c2a3b94c5b0363633bacad99b4c93a0fe902832fbb3c63b",
+    "source_sha256": "bca9dbc33a8f8d80299182c7724d0611ba541a0b1e8e346f08b4f7ba676dc9ec",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_02812",
+    "source_filename": "CHD.2007.page_46.pdf_147897.png",
+    "source_row": 2812,
+    "issuer": "CHD",
+    "image_sha256": "b75f931e8661b963f0a4333bcd51408aca32f9a36dd46a126bb45ed03c7e59aa",
+    "source_sha256": "2c7fa3834fb5656127368bbf787336bf903ba7c4cbed645aa8ecb8d6e068750f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03072",
+    "source_filename": "ROK.2010.page_49.pdf_14634.png",
+    "source_row": 3072,
+    "issuer": "ROK",
+    "image_sha256": "ce541654cdc9dc988673ecd406b5597528930bcaf8ad6e212d55e55f24317c13",
+    "source_sha256": "776443cc2d2ae1d23be7fbec1d0303942532b52f62d5b751cc218b3e73aa673f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03073",
+    "source_filename": "ROK.2012.page_79.pdf_14365.png",
+    "source_row": 3073,
+    "issuer": "ROK",
+    "image_sha256": "b9f6096878245d6385c627f8ff644eaa7ff13086f98f6b58c8c6c44f6563d966",
+    "source_sha256": "9c5dcf17dc9fd25c055e621c3dff7f6a00ad1f347da26150117661688f1c3a27",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03219",
+    "source_filename": "MGM.2012.page_54.pdf_22853.png",
+    "source_row": 3219,
+    "issuer": "MGM",
+    "image_sha256": "7f2e4c4752c6cc7bae15e86526bd9f4a1d9ed25c4bc130d99d8d77acc76084af",
+    "source_sha256": "1fe7bfb2992bfe4fe40c06f0fc5733982e968cf4ca6270565a9ffacca8f4d808",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03220",
+    "source_filename": "MGM.2012.page_62.pdf_22861.png",
+    "source_row": 3220,
+    "issuer": "MGM",
+    "image_sha256": "70251e2a15bd56986053d82cbeb862c9a3ddfad9f9c9886973481275d61cff14",
+    "source_sha256": "91dbb0b15868f62edd1086a10589426c48106c8c2f438bd085d3ee0b760dc622",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03404",
+    "source_filename": "WU.2015.page_204.pdf_68110.png",
+    "source_row": 3404,
+    "issuer": "WU",
+    "image_sha256": "745903a1ae8b3f648b432058695711901c0a1851af90c91637338590b78cb12c",
+    "source_sha256": "2dede4601306e97d8377f1eeb533ece5681acb05bae533d13aecdb0ad2c0837f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03478",
+    "source_filename": "WU.2011.page_150.pdf_67911.png",
+    "source_row": 3478,
+    "issuer": "WU",
+    "image_sha256": "b286e93a8c520b2504fc9f762c66f2df9414d114c1b4d3d92405b9958819ce7e",
+    "source_sha256": "36acdd50c68b18de96dcc03c5e45969a76b2cfb9e90d62b675f50299b27eab1e",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03737",
+    "source_filename": "PXD.2005.page_46.pdf_9952.png",
+    "source_row": 3737,
+    "issuer": "PXD",
+    "image_sha256": "98b81ddb7a007f1c7ef246e536769004308814467efc116e6d799c9551243530",
+    "source_sha256": "20487fd1a14214a10479eeef6f103ce704f44a4b2e37783c678eac2635a25b00",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_03922",
+    "source_filename": "WDC.2012.page_88.pdf_69209.png",
+    "source_row": 3922,
+    "issuer": "WDC",
+    "image_sha256": "fa653a4b76e8cfa45bad4b534fda82efd9c7b5c3c05b5d5a969d3620e5ec59da",
+    "source_sha256": "1bc9b88b83f87ea96cf9e4d5391285d43d3b66dd31b2b46f165e96277c534675",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04107",
+    "source_filename": "SYK.2015.page_34.pdf_136691.png",
+    "source_row": 4107,
+    "issuer": "SYK",
+    "image_sha256": "955d315d7d061ef2376e121a84d7463be705cea490b5225bb79685e53ff694f0",
+    "source_sha256": "6882e00bb44c247050e66220cbcf7df221f2809a579b89fb50ad475b22313701",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04144",
+    "source_filename": "SYK.2015.page_10.pdf_136653.png",
+    "source_row": 4144,
+    "issuer": "SYK",
+    "image_sha256": "bfd5a0da4f1f417157daf3b37b3bcb606f612bdacbdfd981bdeb6143026b0f84",
+    "source_sha256": "ffa4a57f66293ad63248591e32166266418f046d728a5860c5aef5eb2ecdaa4f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04292",
+    "source_filename": "AMZN.2004.page_32.pdf_61929.png",
+    "source_row": 4292,
+    "issuer": "AMZN",
+    "image_sha256": "8b9bd36484a919f1268170f5827f71133db985e8ce20707e23dfda2c8a519349",
+    "source_sha256": "62f0f703b9e7b668e5df192673e15be88cc1512dc598f6287ef870f3e3d1c7d7",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04551",
+    "source_filename": "IT.2012.page_93.pdf_78702.png",
+    "source_row": 4551,
+    "issuer": "IT",
+    "image_sha256": "e868cb49b7bdac8342bebe5d3c73ceab1a5049a49c99e64e719d71809ac01d60",
+    "source_sha256": "0cce2ad322acdd5f1f2e34a9aa7c1eb0caf94b0eab9694858f4c5df046d2cdfe",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04552",
+    "source_filename": "IT.2009.page_74.pdf_78635.png",
+    "source_row": 4552,
+    "issuer": "IT",
+    "image_sha256": "790e008bdbf7b828da0c195be0a352da0c85eb258a4c26358fb568d9e10591dd",
+    "source_sha256": "d8395a0a77d8b607a30fd1f74f0a3251c635993bac3e88cbc062470a368cff1e",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04662",
+    "source_filename": "VRSN.2007.page_57.pdf_90487.png",
+    "source_row": 4662,
+    "issuer": "VRSN",
+    "image_sha256": "423523e5054ffbedb96b74036a9b3fa8e413afc744567fd91a3706c82ddd1882",
+    "source_sha256": "2e126607e95ea5a83f87cc4cad8bcb647537f3c0bd5e5a23bb7c2e74a202a0dc",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_04921",
+    "source_filename": "PKI.2013.page_118.pdf_101029.png",
+    "source_row": 4921,
+    "issuer": "PKI",
+    "image_sha256": "eea406a1c982eadc46174a139a54971e811c6c4570630306ecdd2740246534d4",
+    "source_sha256": "3d42f17b07875ac8bdadbad2e6e5b1393b2692bb376905d85e8d1390b4307601",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05069",
+    "source_filename": "CINF.2013.page_44.pdf_140623.png",
+    "source_row": 5069,
+    "issuer": "CINF",
+    "image_sha256": "9f224aec0de6e122ae10b516441e3fcfcf26a6fadae4484a79e45f235aee8369",
+    "source_sha256": "c667c72748fe653e1c7cdc08f2f2ca0f845883d1dd253863c8e7ca6aedf7539e",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05071",
+    "source_filename": "CINF.2009.page_112.pdf_140383.png",
+    "source_row": 5071,
+    "issuer": "CINF",
+    "image_sha256": "670b967088d80febbccc05a3c809ab7f46717947e429b4c6b9ce0c4d0e2e53c7",
+    "source_sha256": "39feddf83d3e1a1aa4e258ddde38b1409450755aebdb09865c3bc1eada741c7b",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05144",
+    "source_filename": "PEP.2015.page_88.pdf_25287.png",
+    "source_row": 5144,
+    "issuer": "PEP",
+    "image_sha256": "7e3f45e0a7822fd20fb4f59ace7a4e31c145caceef90e71cc20f6d984bd0f065",
+    "source_sha256": "95add5b06b626152822381683f2996e60bbf5ac4952f7cde16f42450a0c45537",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05254",
+    "source_filename": "PEP.2013.page_158.pdf_25474.png",
+    "source_row": 5254,
+    "issuer": "PEP",
+    "image_sha256": "c765060f60397bab53d9e250fe05d1d475e1483cd64fd9fe1fa6eb80a350a069",
+    "source_sha256": "791c2b98ff53498d9f4761a5809b1d3f92f395b1ec40c9180c5cbdf95fda2ab9",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05661",
+    "source_filename": "EXPE.2008.page_113.pdf_116966.png",
+    "source_row": 5661,
+    "issuer": "EXPE",
+    "image_sha256": "a7931c3784cdcd0304e4454cb11b3366a259be72c63729516b9741e4a6b6a698",
+    "source_sha256": "cc9b083c8273b641c05652652f8e30b9d0e8977bafa7782c80d539686160511e",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05662",
+    "source_filename": "EXPE.2006.page_99.pdf_117028.png",
+    "source_row": 5662,
+    "issuer": "EXPE",
+    "image_sha256": "907e23b0f8f30c45f217a6f4dab604155751fad27a5a3442178ac656fb007dd3",
+    "source_sha256": "35f9395c06138dd37775fdad49350c7c0a4f6b337bee404e56f8b1a9284b3512",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05772",
+    "source_filename": "TEL.2012.page_89.pdf_50173.png",
+    "source_row": 5772,
+    "issuer": "TEL",
+    "image_sha256": "6be014794ad78b1a90628eda6aa87aeacaf4fc6c9309a20acb6b50bcfa6bc92b",
+    "source_sha256": "5fb591b07367c9a5750878539546c31806bf0b6cf8eed21e1575b076de655b47",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_05957",
+    "source_filename": "URI.2016.page_75.pdf_34824.png",
+    "source_row": 5957,
+    "issuer": "URI",
+    "image_sha256": "4eb2892ef575017ca8e6c0e48ad7fe0caa8aa78ae2969d8abb26526c56c6f394",
+    "source_sha256": "f42e9606bc3b1f66de09256520305f9096348e586f892a90d6d9ebb917ceed21",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06253",
+    "source_filename": "SBAC.2012.page_120.pdf_7943.png",
+    "source_row": 6253,
+    "issuer": "SBAC",
+    "image_sha256": "1708d6639cca712bb77203783a2e72c539f3a4974e4513d0812c19e3886eaa9e",
+    "source_sha256": "bf54f22fae20808132163457c434d5c2be33eea1d9c7e9cc9ca345616fd53fdf",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06254",
+    "source_filename": "SBAC.2012.page_28.pdf_7903.png",
+    "source_row": 6254,
+    "issuer": "SBAC",
+    "image_sha256": "86311af7acb948fde940d3aaa7a13a999a875350d9aa1ebda1e943e84962e8a1",
+    "source_sha256": "5057d86863c53ae3e40f27f285c72deb8dbc278328a86d7f4cd8c7b6b182cb21",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06475",
+    "source_filename": "VRSK.2011.page_68.pdf_105040.png",
+    "source_row": 6475,
+    "issuer": "VRSK",
+    "image_sha256": "17b930760b723461b1657185c26b733f568736fa8346f7051aaced07f628c15c",
+    "source_sha256": "2f87cf2f454edc83c70e8d035f9a26ce14538165701a7332ffd80de247a7b3e8",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06477",
+    "source_filename": "VRSK.2012.page_80.pdf_105164.png",
+    "source_row": 6477,
+    "issuer": "VRSK",
+    "image_sha256": "baacf0fb8583381a2d66082e99bbc57d06f7fbfed5625b279d29d7ae72d2fde4",
+    "source_sha256": "73c11480907581160c90b9d304e9f3367daf317beed10a6976bbd76c3b076883",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06808",
+    "source_filename": "PPL.2015.page_158.pdf_42805.png",
+    "source_row": 6808,
+    "issuer": "PPL",
+    "image_sha256": "4aafee0cd4683e229866be24936c2cd3113102ae65747fc94853e1263994f9f6",
+    "source_sha256": "8eb6e4e1b9b4766c9da4cdbe5afe912091c7b79e3f71603de83067e33358318b",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06809",
+    "source_filename": "PPL.2009.page_49.pdf_42691.png",
+    "source_row": 6809,
+    "issuer": "PPL",
+    "image_sha256": "0ac5a69e105b98a1e39937f45adbe44b23152fc89fc92d82667f1db59abc569c",
+    "source_sha256": "23efea9da629810f0c46aab9c82b92c33c5e45b0ea688f1c053122268d2a3291",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06993",
+    "source_filename": "ISRG.2003.page_66.pdf_102788.png",
+    "source_row": 6993,
+    "issuer": "ISRG",
+    "image_sha256": "4c9954a2c1ee03b3ea9166d320d18d016b4ebdfd0a9467d646473f0dd77e6c4f",
+    "source_sha256": "15dc916c805b00d1d9548c66fcda2b979786114715b4686c6603a8fcb7f59972",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_06994",
+    "source_filename": "ISRG.2009.page_82.pdf_102588.png",
+    "source_row": 6994,
+    "issuer": "ISRG",
+    "image_sha256": "1760767d2c35ea59eabecb7a8b64f2888b9be380ae5a26c4bee66624c88653a1",
+    "source_sha256": "2dd40948bf57ec7ac11dc457caa4d1990ab15d32581701e85cf3418ec3f3fcb1",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_07400",
+    "source_filename": "PHM.2018.page_24.pdf_127827.png",
+    "source_row": 7400,
+    "issuer": "PHM",
+    "image_sha256": "b41dc5058afa46afea06e8517734dfc2068fa3d8b5a41bb9c2182e26bfc13eee",
+    "source_sha256": "4765cdeeb98d15e45eaec053b55f0fd3a4e1f045f5e9f2e35c6e9c2a0d573189",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_07439",
+    "source_filename": "LH.2014.page_115.pdf_21569.png",
+    "source_row": 7439,
+    "issuer": "LH",
+    "image_sha256": "723b332bf8e6c58ab85bee1318426fbb7b7f6bac12b295c920fe4dff0dc807c3",
+    "source_sha256": "238b17ad1c5a6a95c194588fb79c03a1867a4d31cad7d3265463397f6c5dc752",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_07549",
+    "source_filename": "LH.2016.page_52.pdf_21706.png",
+    "source_row": 7549,
+    "issuer": "LH",
+    "image_sha256": "b76dc5f7f92997540d64724717a9e1d57238c1313b7bf69bebdd959addf177bb",
+    "source_sha256": "0d3903dd51bac1b510a7870812429ff97ecf596e40e4aeed4c6e2857a33d88dc",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_07845",
+    "source_filename": "ATO.2016.page_64.pdf_144256.png",
+    "source_row": 7845,
+    "issuer": "ATO",
+    "image_sha256": "7992641072bf1a5369e23222d418792edad99dd8aee4f73641ab2af077d8091f",
+    "source_sha256": "9ffac44be5827c162425b8c6a9074bf3d5cdac4f4824874b864b8bb97b2511ae",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_07919",
+    "source_filename": "KMB.2007.page_47.pdf_44184.png",
+    "source_row": 7919,
+    "issuer": "KMB",
+    "image_sha256": "e6eda9d77bf3ad8ea86777e2783b09f736967087b1477d8e75dcb5e3fcd22e72",
+    "source_sha256": "2eae2e6b103232145a1a89489a0e162c71455a71df1ddb03c52ffd7a3ccf3b6c",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08177",
+    "source_filename": "TDG.2016.page_106.pdf_65212.png",
+    "source_row": 8177,
+    "issuer": "TDG",
+    "image_sha256": "66d47045e71799f8628c66b4ee35aa8526e1a87ba779e29ec22e3aba82f48f35",
+    "source_sha256": "e5622d1b302040ccbb5888a46d5736f016804afafbd99ec943172a2b1833c021",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08362",
+    "source_filename": "NEE.2011.page_45.pdf_133657.png",
+    "source_row": 8362,
+    "issuer": "NEE",
+    "image_sha256": "d017fd11254bd3e0e25a4653fcaaed104f0a76144f623c321088a8a7e8a2eeb0",
+    "source_sha256": "7e1d36d1176b933820f492d12b7e4facb0e325ebe9aab847eb10250d1c73a800",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08363",
+    "source_filename": "NEE.2016.page_52.pdf_134079.png",
+    "source_row": 8363,
+    "issuer": "NEE",
+    "image_sha256": "da1d5ac48c77a6dbf0dcc461036040bf2fce17b7c3efc530f1c57dd50ac86e98",
+    "source_sha256": "1783280a4fbbed53b0b750412f3bb02cdd3f9db15cf36b8e2965f1d627f19a52",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08621",
+    "source_filename": "BXP.2006.page_118.pdf_57307.png",
+    "source_row": 8621,
+    "issuer": "BXP",
+    "image_sha256": "c7a05e4e06d3324e614ff28e1b4f45e9ea68b8d7b15bdb6ba9baecf995a2ac08",
+    "source_sha256": "de638952d31b1a433753dc9e3fa48c68c1a3def1679a83ebb371473706ab3f14",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08622",
+    "source_filename": "BXP.2007.page_91.pdf_56894.png",
+    "source_row": 8622,
+    "issuer": "BXP",
+    "image_sha256": "033fbb19df17cf34c76a8c6a6f6eeacf7614f022765e07700807a1c0e0749024",
+    "source_sha256": "1f70a0066cc019a316d83bf7514e5aa44d077f31b67e0e76c4cd2add7cfba2a5",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08732",
+    "source_filename": "KSU.2010.page_119.pdf_28203.png",
+    "source_row": 8732,
+    "issuer": "KSU",
+    "image_sha256": "10266be6bfbaa80643c604830328b26dbf0e68bc8b244353a6fbc63c104f9af5",
+    "source_sha256": "da505a340fab8b0dc0837cf9aaac63399d439b9b35eab700d8603398d2176b02",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_08733",
+    "source_filename": "KSU.2017.page_108.pdf_27986.png",
+    "source_row": 8733,
+    "issuer": "KSU",
+    "image_sha256": "617dc8793d53a93f8ffd1b64347acb39c1a88de42b6ed06e64808ad4003c07a1",
+    "source_sha256": "62732723dbc8df5f52d3f10ea19c1dc1fba8c3b75561fb1ec984996458bffe9f",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09028",
+    "source_filename": "NSC.2005.page_79.pdf_135705.png",
+    "source_row": 9028,
+    "issuer": "NSC",
+    "image_sha256": "2909d28d611cda045b371102e1507498c2ce280ec1d6f919dfaa4f41102268aa",
+    "source_sha256": "350621b5734584608d7147ede4dd4ee6cce53d60978a9c62da60d6a199ce8ebc",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09030",
+    "source_filename": "NSC.2018.page_36.pdf_135521.png",
+    "source_row": 9030,
+    "issuer": "NSC",
+    "image_sha256": "f3ad8c9b212b3c499954e2dcb34587347b9565c76a320ea0235707b6ad377554",
+    "source_sha256": "a76c543f238ac7024fa3d326d563c6b8f807cb7d79317f98348d223d657d3226",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09139",
+    "source_filename": "NVR.2009.page_24.pdf_22405.png",
+    "source_row": 9139,
+    "issuer": "NVR",
+    "image_sha256": "5f2e0314a0c00862ae766f45447a214ad142bb7de125872ecc64ad08f6c5baaa",
+    "source_sha256": "cdc672411fb3c71056e13ce4ecdf31d52866f6a4f091dcf3061bbde05cbc1480",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09140",
+    "source_filename": "NVR.2006.page_77.pdf_22674.png",
+    "source_row": 9140,
+    "issuer": "NVR",
+    "image_sha256": "86a64119d4f685134620ccf4e83b0583db6e519f125eacf7e605455d89c55ac8",
+    "source_sha256": "cfe58b7167c6cc93b3324a885f17d45b55b57601fd3b6ea5d7e31f480448cf6b",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09362",
+    "source_filename": "TSN.2010.page_71.pdf_145002.png",
+    "source_row": 9362,
+    "issuer": "TSN",
+    "image_sha256": "d4fa6f2e135c8dce03a47cb780ed729617ec68ddb59610a8d920b3fe135459fa",
+    "source_sha256": "71fbb74b4bb54c27f6e357f54bd6ad17f1b114ad9ac3343965803531c3851c05",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09472",
+    "source_filename": "FMC.2004.page_104.pdf_77252.png",
+    "source_row": 9472,
+    "issuer": "FMC",
+    "image_sha256": "552d863498d30348a80dd59d36e5b98a21de3155214490edd12b378285143bf0",
+    "source_sha256": "d598d2ca50f0d630967ffeceae500c8def759c5b70d68d080ba1e745942976c1",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09473",
+    "source_filename": "FMC.2016.page_66.pdf_77332.png",
+    "source_row": 9473,
+    "issuer": "FMC",
+    "image_sha256": "4b8edb360b19583c8e3b77a22636078e91a279f182d56d94adce80326358db15",
+    "source_sha256": "53692ccb584759d916c2db72374ffaf95c41f083019dc33af0b64c4e4e42ca22",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_09879",
+    "source_filename": "ZBRA.2014.page_31.pdf_235.png",
+    "source_row": 9879,
+    "issuer": "ZBRA",
+    "image_sha256": "11ac2fdc535598b85ff0c062fdc3b9da3218f027fbda6f534d2d719e9c02e464",
+    "source_sha256": "f795bfc7d67187acd293488f1eac35282163f6917d2cb4cc22d4f1a0a8d3d6c1",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_10212",
+    "source_filename": "OXY.2014.page_55.pdf_3189.png",
+    "source_row": 10212,
+    "issuer": "OXY",
+    "image_sha256": "93ee32d80186897f046b681604542ab060633ac270cd893d4da5020debb21fdd",
+    "source_sha256": "89280371f8222602e04ce0baea7a55ccece17648c656006656bd215b2b36998d",
+    "split": "development"
+  },
+  {
+    "table_id": "fintabnet_test_10213",
+    "source_filename": "OXY.2012.page_91.pdf_3151.png",
+    "source_row": 10213,
+    "issuer": "OXY",
+    "image_sha256": "43d0540e977fd12033c0a29773165b726fc87d19e3b9770c329e68954ed7c113",
+    "source_sha256": "0b3a5a61e2f3658e1e52f288de24ed5d92eb1d1cd4b30d33239bd422327b7565",
+    "split": "development"
+  }
+]

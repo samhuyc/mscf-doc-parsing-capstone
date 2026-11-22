@@ -1,0 +1,14 @@
+{
+  "pdf": "confidence_results_summary_2026-11-18.pdf",
+  "completed_tables": 300,
+  "financial_tables": 283,
+  "completed_outputs": 2100,
+  "pages": 3,
+  "forecast_results": "Exploratory nested leave-one-issuer-out development CV; final held-out forecasts unavailable",
+  "sources": {
+    "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03.json": "609b47500f06f9d0d29aeae38150cfb184c1901d1c0f63260826cff8e3119b05",
+    "github_repo/people/mc8/2026-11-17_confidence_cpu/runs/cpu_v1/batch-results/batch-03-metrics.json": "6370c09b7c3a0efb49a9b1f8063f9040a8b8b634ddc8a725694b42b103c4eae8",
+    "github_repo/people/samhu/2026-11-15_table_confidence/results/native_prototype/findings.json": "b3b4f57dca37fa7cb752eb89fd808a5ce38ab57d15635a1b6aeb2c3327866c4b",
+    "outputs/presentation_2026-11-18/exploratory_development_forecasts.json": "d1f3e633bbdc798fa9a35952584f7f8477c5360076d512cf32c179ae12281cb7"
+  }
+}

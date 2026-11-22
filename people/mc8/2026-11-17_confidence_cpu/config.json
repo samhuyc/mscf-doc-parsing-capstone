@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "name": "mc8_intel_fintabnet_2000_v1",
+  "sam_commit": "9e53e322821b5d9aea6bdcc170c0adfa56bcf039",
+  "seed": 20261117,
+  "tables": 2000,
+  "threads": 4,
+  "context": 8192,
+  "batch": 256,
+  "max_tokens": 4096,
+  "max_image_side": 1536,
+  "timeout_seconds_per_table": 3600,
+  "models": {
+    "mineru": {"repository": "opendatalab/MinerU2.5-Pro-2605-1.2B", "revision": "bff20d4ae2bf202df9f45284b4d43681555a97ed", "prefix": "", "prompt": "\nText Recognition:"},
+    "paddle_vl": {"repository": "PaddlePaddle/PaddleOCR-VL-1.6", "revision": "132c45f52c0a26ed5a6b2f6bd8e3985794cc27dd", "prefix": "", "prompt": "Table Recognition:"},
+    "glm": {"repository": "zai-org/GLM-OCR", "revision": "2e85a62840ccac27daa451df36c736c4636b8628", "prefix": "", "prompt": "Table Recognition:"},
+    "monkey": {"repository": "echo840/MonkeyOCR-pro-1.2B", "revision": "2fb372630f0035daca81be6f0ca90c58bace1af4", "prefix": "Recognition/", "prompt": "This is the image of a table. Please output the table in html format."}
+  },
+  "engines": ["tesseract", "paddle", "mineru", "paddle_vl", "glm", "monkey", "mineru_table"],
+  "dataset": {"repository": "docling-project/FinTabNet_OTSL", "config": "default", "split": "test", "include_all_sam_fintabnet": true, "development_table_fraction": 0.8, "test_issuer_selection": "all issuers absent from Sam's prior work", "max_tables_per_issuer": 100, "sam_prior_issuers_development_only": true},
+  "policy": {"decode": "greedy", "weight_format": "f16", "low_bit_quantization": false, "one_model_at_a_time": true, "automatic_inference": false, "automatic_calibration": false, "automatic_evaluation": false, "native_confidence_is_correctness_probability": false}
+}

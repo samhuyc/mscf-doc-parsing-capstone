@@ -1,0 +1,98 @@
+{
+  "mineru": {
+    "model-f16.gguf": {
+      "architecture": "qwen2vl",
+      "projector_type": null,
+      "tensor_count": 290,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 994155008,
+      "inspection": "metadata/descriptors only, no inference"
+    },
+    "mmproj-f16.gguf": {
+      "architecture": "clip",
+      "projector_type": "qwen2vl_merger",
+      "tensor_count": 520,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 1325099552,
+      "inspection": "metadata/descriptors only, no inference"
+    }
+  },
+  "paddle_vl": {
+    "model-f16.gguf": {
+      "architecture": "paddleocr",
+      "projector_type": null,
+      "tensor_count": 165,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 935767968,
+      "inspection": "metadata/descriptors only, no inference"
+    },
+    "mmproj-f16.gguf": {
+      "architecture": "clip",
+      "projector_type": "paddleocr",
+      "tensor_count": 443,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 880415008,
+      "inspection": "metadata/descriptors only, no inference"
+    }
+  },
+  "glm": {
+    "model-f16.gguf": {
+      "architecture": "glm4",
+      "projector_type": null,
+      "tensor_count": 179,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 1785774912,
+      "inspection": "metadata/descriptors only, no inference"
+    },
+    "mmproj-f16.gguf": {
+      "architecture": "clip",
+      "projector_type": "glm4v",
+      "tensor_count": 348,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 869017856,
+      "inspection": "metadata/descriptors only, no inference"
+    }
+  },
+  "monkey": {
+    "model-f16.gguf": {
+      "architecture": "qwen2vl",
+      "projector_type": null,
+      "tensor_count": 146,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 2478283904,
+      "inspection": "metadata/descriptors only, no inference"
+    },
+    "mmproj-f16.gguf": {
+      "architecture": "clip",
+      "projector_type": "qwen2.5vl_merger",
+      "tensor_count": 519,
+      "tensor_types": [
+        "F16",
+        "F32"
+      ],
+      "bytes": 1338428256,
+      "inspection": "metadata/descriptors only, no inference"
+    }
+  }
+}

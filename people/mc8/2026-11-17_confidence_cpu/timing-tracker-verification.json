@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-11-18T01:20:12.946400+00:00",
+  "synthetic_tests_passed": 19,
+  "python_syntax": "passed",
+  "existing_recognizer_settings_compatible": true,
+  "existing_engine_settings_checked": 7,
+  "model_inference_started_by_this_check": false,
+  "existing_outputs_preserved": true,
+  "observed_processed": 466,
+  "observed_failed": 0,
+  "source_sha256": {
+    "progress.py": "570c25f5e1b1199e577ba554e2fef71661a8667fc566c8c3ddcc5937ab69d901",
+    "pipeline.py": "34e329202fbcbfe3f4c7b7eaf1bc0fff5b7d5becd9b5205f1a9f73c4ff61f293",
+    "test_progress.py": "fd22981467e8924c04675e596f198aee8018ea0fe9ee4970f9e760c4d05efae3"
+  }
+}

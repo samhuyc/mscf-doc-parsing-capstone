@@ -1,0 +1,26 @@
+{
+  "original_json_files_checked": 5693,
+  "original_json_unchanged": true,
+  "reports": [
+    "summary.md",
+    "development/summary.md",
+    "batch-results/batch-01.md",
+    "batch-results/batch-02.md",
+    "batch-results/batch-03.md"
+  ],
+  "batch_03_counts": {
+    "unique_crops": 300,
+    "outputs": 2100,
+    "financial_crops": 283,
+    "no_financial_facts": 17,
+    "source_reports": 55,
+    "financial_issuers": 9,
+    "issuers": 9,
+    "final_test_crops": 0,
+    "final_test_issuers": 0,
+    "configurations": 7,
+    "models": 6
+  },
+  "no_inference_or_calibration_run": true,
+  "markdown_tables_valid": true
+}

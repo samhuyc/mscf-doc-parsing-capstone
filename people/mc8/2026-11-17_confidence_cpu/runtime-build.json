@@ -1,0 +1,12 @@
+{
+  "llama_revision": "52975342ff6b85127ff31930d39e36725fd08809",
+  "native_source_sha256": "1510fc014faeea8008093d6610cae5776bb3094bddfd248e59c40e3bc3949706",
+  "cmake_sha256": "87bd8562970456bf8b208b12b659f0a1827d9f5edd2bffd6dfa28665b1e7d036",
+  "binary_sha256": "e3e26161363223b839c6210c8931f8986185ed6af221a70f90986f797c7ba093",
+  "cpu_only": true,
+  "metal": false,
+  "accelerate": true,
+  "compiler": "/Library/Developer/CommandLineTools/usr/bin/clang++",
+  "sdk": "/Library/Developer/CommandLineTools/SDKs/MacOSX26.5.sdk",
+  "inference_run": false
+}

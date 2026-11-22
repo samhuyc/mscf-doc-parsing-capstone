@@ -1,0 +1,11 @@
+{
+  "pages": 3,
+  "all_source_hashes_unchanged": true,
+  "outer_issuer_maps_independently_refit": true,
+  "pearson_checked_against_numpy": true,
+  "auc_checked_by_pairwise_numpy_comparisons": true,
+  "pdf_text_and_page_bounds_verified": true,
+  "canonical_calibration_unchanged": true,
+  "pdf_sha256": "29b621025f15c1e07a20894d9f326f2cefc8cfcc048bc6e4cd74ad8a3e5c7bf0",
+  "scope": "Our MAE/MSE are exploratory nested issuer-held-out development CV; Sam CV and final-test results are labeled separately"
+}

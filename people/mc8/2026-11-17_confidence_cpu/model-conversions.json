@@ -1,0 +1,105 @@
+{
+  "mineru": {
+    "input": {
+      "source_config_sha256": "22097df08750242647a513043636a8dff16820a09757e9271e220bdea378df28",
+      "normalized_config_sha256": "0397cc0ee9def67828bf158aa4beee8343b1a36f236eb6e74d833dd7d34b2cd7",
+      "source_weights": {
+        "model.safetensors": "abf8681ca63b8dec7b67de257af47b821f179442f72998d0696ae2ed9232a5f0"
+      },
+      "llama_revision": "52975342ff6b85127ff31930d39e36725fd08809",
+      "model": {
+        "repository": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+        "revision": "bff20d4ae2bf202df9f45284b4d43681555a97ed",
+        "prefix": "",
+        "prompt": "\nText Recognition:"
+      },
+      "format": "f16",
+      "low_bit_quantization": false,
+      "conversion_only": true,
+      "inference_run": false
+    },
+    "model_sha256": "3a9d8d89ad8eda4907e1fe8162eae621a23e977d7884129e6a22e4ba30c71f3c",
+    "mmproj_sha256": "ff4133b3164e9f037ffa95b055b8da2b5c4ba1882195a50792dc53bfbd812fba",
+    "model_bytes": 994155008,
+    "mmproj_bytes": 1325099552
+  },
+  "paddle_vl": {
+    "input": {
+      "source_config_sha256": "ce7f4565f8b1db78532ad5d1b9ebe55c2139d49bd4cb04778b580a08a598f171",
+      "normalized_config_sha256": "ce7f4565f8b1db78532ad5d1b9ebe55c2139d49bd4cb04778b580a08a598f171",
+      "source_weights": {
+        "model.safetensors": "85a479d506a11e724e7285d395c551be69f41dbc16b6342d3cacfb189aed71db"
+      },
+      "llama_revision": "52975342ff6b85127ff31930d39e36725fd08809",
+      "model": {
+        "repository": "PaddlePaddle/PaddleOCR-VL-1.6",
+        "revision": "132c45f52c0a26ed5a6b2f6bd8e3985794cc27dd",
+        "prefix": "",
+        "prompt": "Table Recognition:"
+      },
+      "format": "f16",
+      "low_bit_quantization": false,
+      "conversion_only": true,
+      "inference_run": false
+    },
+    "model_sha256": "df951c5872a5f56a3020339fc2901e88edba4483faf2d28f9e2e4f20eadd0bb7",
+    "mmproj_sha256": "647c6fccfb6095c676b5c8599f0de4ba2790fde259e06d79ebf10dc0dbe2f51e",
+    "model_bytes": 935767968,
+    "mmproj_bytes": 880415008
+  },
+  "glm": {
+    "input": {
+      "source_config_sha256": "ad537817b2becde827cbb23569a1dd83a352ee64cc34ce751a4ef000ecce4b5f",
+      "normalized_config_sha256": "ad537817b2becde827cbb23569a1dd83a352ee64cc34ce751a4ef000ecce4b5f",
+      "source_weights": {
+        "model.safetensors": "a16eb0de98d199293371c560f95f83130d2a2c9612449df16839f08ff9498815"
+      },
+      "llama_revision": "52975342ff6b85127ff31930d39e36725fd08809",
+      "model": {
+        "repository": "zai-org/GLM-OCR",
+        "revision": "2e85a62840ccac27daa451df36c736c4636b8628",
+        "prefix": "",
+        "prompt": "Table Recognition:"
+      },
+      "format": "f16",
+      "low_bit_quantization": false,
+      "conversion_only": true,
+      "inference_run": false,
+      "tokenizer_config_adapter": {
+        "source_sha256": "95abd49942be9cdc6e2653528aed7b4c1cb9e180828421d3488ab38da3057016",
+        "adapted_sha256": "cf214dd78a40604b785e20691432766917c414a7fdd3bf7a67f9ef2d1f8c880b",
+        "change": "TokenizersBackend -> PreTrainedTokenizerFast; extra_special_tokens list -> additional_special_tokens; tokenizer.json unchanged",
+        "vocabulary_ids_verified_unchanged": true,
+        "encoding_checks": 3
+      }
+    },
+    "model_sha256": "948ac3ca954765c3c20b458a1e3855c5caa096dc564f21f46db42217ecc7fedc",
+    "mmproj_sha256": "67a9719e94fe873364f317254d481ed45fd3762461c6b42741a12cbe5cbf3c6c",
+    "model_bytes": 1785774912,
+    "mmproj_bytes": 869017856
+  },
+  "monkey": {
+    "input": {
+      "source_config_sha256": "860ff11870339f43935c8fed2cdc0a3d017771d2d408d0c33738fbf9a9cad145",
+      "normalized_config_sha256": "a6fc51c8c21b9f62a88f9dd489f7b4bb393ce98c62a775a55aaf24d0978e4ed8",
+      "source_weights": {
+        "model.safetensors": "bf7e21986c63a3646ca393ba36d2ea7706b7c8632c3d2de15f6e6569b671b39f"
+      },
+      "llama_revision": "52975342ff6b85127ff31930d39e36725fd08809",
+      "model": {
+        "repository": "echo840/MonkeyOCR-pro-1.2B",
+        "revision": "2fb372630f0035daca81be6f0ca90c58bace1af4",
+        "prefix": "Recognition/",
+        "prompt": "This is the image of a table. Please output the table in html format."
+      },
+      "format": "f16",
+      "low_bit_quantization": false,
+      "conversion_only": true,
+      "inference_run": false
+    },
+    "model_sha256": "d7ff64228e96d1e8fc35a7bc7107c7d9ccf899e8e3b9f3d7001ad9699460156a",
+    "mmproj_sha256": "1d04591960eb7d1e0cfa4fa441b292a7da894d53e2c4333a89c11d66f70959a3",
+    "model_bytes": 2478283904,
+    "mmproj_bytes": 1338428256
+  }
+}

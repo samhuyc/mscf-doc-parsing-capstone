@@ -1,0 +1,16 @@
+{
+  "people/samhu/2026-11-15_table_confidence/prototype/native_evidence.py": "707f7a4fd6c41719c5f1aa0fa54d8aebb0696c7524703354c29c7662b7e3096b",
+  "people/samhu/2026-11-15_table_confidence/prototype/header_evidence.py": "21f2e58b3218f1e0ebca7cc172bea9a7a685b30b1519ce989ec7f7f7fc17f8b8",
+  "people/samhu/2026-11-15_table_confidence/prototype/table_structure_v2.py": "04ddd7897a3228f692c6f0eb57261195657dff7d92efc77b6e0b02c854c5bf9d",
+  "people/samhu/2026-11-15_table_confidence/prototype/table_structure.py": "a42ec141836a54f8d02bec1b6b9ae167a26020cf6a0091b74b9b6b800792796e",
+  "people/samhu/2026-11-15_table_confidence/prototype/standard_metric.py": "6ae3cccc03f2db80a37641630959ac4bd3014336c1d1129e69885df84979f430",
+  "people/samhu/2026-11-15_table_confidence/prototype/calibration_round2.py": "c782cadf296ca5a2251186f76c344652a31a6de4a690af16f3314efd9a58038b",
+  "people/samhu/2026-11-15_table_confidence/prototype/vendor/grits.py": "75c13031657252c251f5d0b483aca2601e229a06d46e60d0aa3c739418f543d7",
+  "people/samhu/2026-11-15_table_confidence/numeric_accuracy.py": "2f964b870f03135573825ebe7b4a84add022a0b52735ca895169f65da5d619b1",
+  "people/samhu/2026-11-15_table_confidence/evaluate_table_accuracy.py": "75bb0c2f92112441f2c5e0608bbf36e8547d6835d1c6429b33bc100fd282998e",
+  "people/samhu/2026-11-15_table_confidence/regions.py": "77717513c457870212605225a4d0a472a7798ec20a69b1198add814e0cea515a",
+  "people/samhu/2026-11-15_table_confidence/run_tables.py": "787e2a9b48fcbb3177e32a4266ea7a44f21f118a15361d41cf9a06753c4f0ab1",
+  "people/samhu/2026-11-10_native_confidence/run_paddle.py": "6ff424cdad6ddb46c5c82a30556857c2f6a32e413b840e1d2a1fb9bb7bd210c4",
+  "people/samhu/2026-11-10_native_confidence/run_tesseract.py": "437844e2b5884562a3e5d31e6aeab95a3b02a227a72ee90ea01f12f607fefb97",
+  "people/samhu/2026-11-10_native_confidence/score_probes.py": "008db44d1002c3222221c01681ff6125bde7238974d6f94a3186d21666252b7a"
+}

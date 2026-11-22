@@ -1,0 +1,165 @@
+{
+  "completed_batches": 1,
+  "total_batches": 20,
+  "completed_tables": 100,
+  "total_tables": 2000,
+  "scored_outputs": 700,
+  "updated_utc": "2026-11-18T05:02:34.901118+00:00",
+  "engines": {
+    "tesseract": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 0,
+      "fact_f1": null,
+      "financial_value_recall": 0.04626034564055396,
+      "flagged_measurements": 0
+    },
+    "paddle": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 0,
+      "fact_f1": null,
+      "financial_value_recall": 0.8174611374782433,
+      "flagged_measurements": 0
+    },
+    "mineru": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 0,
+      "fact_f1": null,
+      "financial_value_recall": 0.8167002712151431,
+      "flagged_measurements": 0
+    },
+    "paddle_vl": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 93,
+      "fact_f1": 0.9006441009246268,
+      "financial_value_recall": 0.9897608829211215,
+      "flagged_measurements": 0
+    },
+    "glm": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 93,
+      "fact_f1": 0.5983302449855107,
+      "financial_value_recall": 0.8658911273925676,
+      "flagged_measurements": 0
+    },
+    "monkey": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 93,
+      "fact_f1": 0.4250911019908103,
+      "financial_value_recall": 0.7512761986570401,
+      "flagged_measurements": 0
+    },
+    "mineru_table": {
+      "planned": 100,
+      "statuses": {
+        "success": 100
+      },
+      "eligible_financial_tables": 93,
+      "fact_f1": 0.7728200863333479,
+      "financial_value_recall": 0.9677775810136982,
+      "flagged_measurements": 0
+    }
+  },
+  "splits": {
+    "development": {
+      "split": "development",
+      "engines": {
+        "tesseract": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 0,
+          "fact_f1": null,
+          "financial_value_recall": 0.04626034564055396,
+          "flagged_measurements": 0
+        },
+        "paddle": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 0,
+          "fact_f1": null,
+          "financial_value_recall": 0.8174611374782433,
+          "flagged_measurements": 0
+        },
+        "mineru": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 0,
+          "fact_f1": null,
+          "financial_value_recall": 0.8167002712151431,
+          "flagged_measurements": 0
+        },
+        "paddle_vl": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 93,
+          "fact_f1": 0.9006441009246268,
+          "financial_value_recall": 0.9897608829211215,
+          "flagged_measurements": 0
+        },
+        "glm": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 93,
+          "fact_f1": 0.5983302449855107,
+          "financial_value_recall": 0.8658911273925676,
+          "flagged_measurements": 0
+        },
+        "monkey": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 93,
+          "fact_f1": 0.4250911019908103,
+          "financial_value_recall": 0.7512761986570401,
+          "flagged_measurements": 0
+        },
+        "mineru_table": {
+          "planned": 100,
+          "statuses": {
+            "success": 100
+          },
+          "eligible_financial_tables": 93,
+          "fact_f1": 0.7728200863333479,
+          "financial_value_recall": 0.9677775810136982,
+          "flagged_measurements": 0
+        }
+      },
+      "reference_status": "Public labels; human audit pending",
+      "scored_tables": 100,
+      "total_split_tables": 1600,
+      "table_correctness_probability": null
+    }
+  },
+  "result_scope": "Cumulative completed batches; unrun tables excluded",
+  "development_results": "Descriptive development scores; not held-out validation",
+  "reference_status": "Public labels; human audit pending",
+  "table_correctness_probability": null
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "tables": 300,
+  "scored_outputs": 2100,
+  "financial_tables": 283,
+  "issuers": 9,
+  "source_reports": 55,
+  "byte_preserved_exports": 25,
+  "aggregate_metrics_recomputed": true,
+  "csv_matches_pairs": true,
+  "forecast_losses_and_baselines_recomputed": true,
+  "saved_fold_issuer_separation_verified": true,
+  "final_test_evaluated": false,
+  "inference_run_by_validation": false,
+  "existing_pipeline_tests_passed": 45
+}

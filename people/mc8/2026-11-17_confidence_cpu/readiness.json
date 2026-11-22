@@ -1,0 +1,26 @@
+{
+  "ready": true,
+  "checks": {
+    "paddlepaddle": "3.0.0",
+    "paddleocr": "3.3.2",
+    "paddlex": "3.3.13",
+    "pyarrow": "20.0.0",
+    "numpy": "1.26.4",
+    "Pillow": "12.3.0",
+    "native_cli_help": true,
+    "tesseract_cli_version": "tesseract 5.5.3",
+    "free_disk_gib": 73.1,
+    "tables": 2000,
+    "sam_original": 71,
+    "additional": 1929,
+    "development_issuers": 45,
+    "test_issuers": 5,
+    "sam_code_unchanged": true
+  },
+  "errors": [],
+  "full_hashes": true,
+  "inference_run": false,
+  "calibration_run": false,
+  "evaluation_run": false,
+  "execution_validation": "Not performed at user request; installation/build/static checks only"
+}

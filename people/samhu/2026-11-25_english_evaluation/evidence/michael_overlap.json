@@ -1,0 +1,32 @@
+{
+  "tables": {
+    "ft": [
+      "fintabnet_test_00185",
+      "fintabnet_test_00186",
+      "fintabnet_test_00592",
+      "fintabnet_test_00593",
+      "fintabnet_test_00851",
+      "fintabnet_test_00852",
+      "fintabnet_test_01221",
+      "fintabnet_test_01222",
+      "fintabnet_test_01518",
+      "fintabnet_test_02035",
+      "fintabnet_test_02036"
+    ],
+    "hold": [
+      "fintabnet_test_00334",
+      "fintabnet_test_01739",
+      "fintabnet_test_02146"
+    ]
+  },
+  "independent_hold": [
+    "fintabnet_test_09879",
+    "fintabnet_test_07919",
+    "fintabnet_test_07845",
+    "fintabnet_test_07400",
+    "fintabnet_test_02257",
+    "fintabnet_test_03922",
+    "fintabnet_test_03737",
+    "fintabnet_test_05772"
+  ]
+}

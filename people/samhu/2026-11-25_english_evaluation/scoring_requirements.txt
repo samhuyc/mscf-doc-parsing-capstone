@@ -1,0 +1,4 @@
+# Only needed for replay_saved.py and score_prediction.py.
+-r ../2026-09-20_evaluation/requirements.txt
+numpy
+lxml

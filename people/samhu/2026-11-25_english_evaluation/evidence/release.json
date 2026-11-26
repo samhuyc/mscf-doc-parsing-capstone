@@ -1,0 +1,34 @@
+{
+  "snapshot_et": "2026-11-25T21:56:49-05:00",
+  "models": {
+    "mineru_vlm": {
+      "name": "MinerU 2.5 Pro",
+      "pin": "opendatalab/MinerU2.5-Pro-2605-1.2B@bff20d4",
+      "cfg": "mineru 3.4.5 • end-to-end VLM"
+    },
+    "pymupdf": {
+      "name": "PyMuPDF4LLM + Tesseract",
+      "pin": "PyMuPDF4LLM 2.1",
+      "cfg": "Layout + Tesseract 300 dpi • end-to-end"
+    },
+    "paddle_vl": {
+      "name": "PaddleOCR-VL-1.6",
+      "pin": "PaddlePaddle/PaddleOCR-VL-1.6@132c45f5",
+      "cfg": "MLX crop recognition • Table Recognition:"
+    },
+    "glm": {
+      "name": "GLM-OCR",
+      "pin": "zai-org/GLM-OCR@2e85a628",
+      "cfg": "MLX crop recognition • Table Recognition:"
+    },
+    "monkey": {
+      "name": "MonkeyOCR-pro-1.2B",
+      "pin": "echo840/MonkeyOCR-pro-1.2B@2fb37263",
+      "cfg": "MLX crop recognition • This is the image of a table. Please output the table in html format."
+    }
+  },
+  "observations": 389,
+  "input_count": 105,
+  "published_predictions": 357,
+  "upstream_revision": "11f2a5a8b4cabb1f88a54c788d92941dd329e375"
+}

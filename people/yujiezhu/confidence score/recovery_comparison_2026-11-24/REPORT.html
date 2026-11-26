@@ -1,0 +1,128 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+    <title>Recovery comparison — 24 November 2026</title><style>
+    body{font:17px/1.55 system-ui,sans-serif;background:#f2f5f8;color:#172c3e;max-width:1180px;margin:35px auto;padding:0 24px}
+    h1{font-size:36px;line-height:1.15} h2{font-size:25px} a{color:#076e72} section,header{background:white;border-radius:12px;padding:25px;margin:22px 0}
+    table{border-collapse:collapse;width:100%;font-size:15px}td,th{padding:12px;text-align:left;border-bottom:1px solid #dce5eb}th{background:#e7f0f3}
+    .columns{display:grid;grid-template-columns:1fr 1fr;gap:20px}article{padding:18px;background:#f2f5f8;border-radius:8px;min-width:0}
+    pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}img{max-width:100%;max-height:1000px}.note{color:#895308}.stats{font-size:23px;font-weight:700;color:#087f75}
+    @media(max-width:750px){.columns{grid-template-columns:1fr}table{font-size:12px}td,th{padding:6px}}
+    @media print{details{display:block}section{break-inside:avoid}body{font-size:12px}}
+    </style><header><p>24 NOVEMBER 2026 · PRELIMINARY SOURCE-REVIEWED CASE STUDY</p><h1>Alternative parsing fully recovers 3 of 6 selected errors</h1>
+    <p class='stats'>8 records · 4 documents · 3 corrected · 0 new errors · 3 still need repair</p>
+    <p>MinerU OCR → saved PyMuPDF4LLM output. No fresh inference or new scoring model. <a href='UPDATE_SLIDES.pdf'>Two update slides</a> · <a href='comparison.csv'>CSV</a> · <a href='comparison.json'>Full evidence JSON</a></p>
+    <p class='note'>Scores are existing uncalibrated association model outputs, not correctness probabilities. Labels and this review are assistant-authored, not independently human-verified.</p></header>
+    <section><h2>Selection and correctness contract</h2><p>Correct numeric content, separately bound row and column, and usable unit context. Multiple source rows inside one HTML cell do not pass without a separate repair step.</p>
+    <p>Across all 50 existing records: 10 low-score errors, 0 low-score fully-correct records, 10 high-score errors and 30 high-score correct records (low &lt; 0.5; high ≥ 0.5). Selected A–D: four low-score errors; E–F: two high-score errors; G–H: two high-score correct controls.</p>
+    <p>There is no low-score fully-correct example to include. Some EDF numbers are numerically right with low association scores, but their associations are wrong; these are not false alarms for association. Three selected EDF records each combine two source values: 8 extraction records cover 11 source numeric values.</p>
+    <p>Selection uses already-known outcomes. Related cells share table-level errors. This comparison is illustrative, not a random sample, blind test, confidence calibration, or measured success rate on unseen documents. PyMuPDF4LLM also supplied agreement features in the existing model, so the alternative is not independent evidence for validating the score.</p></section>
+    <section><h2>Actual recovery comparison</h2><table><thead><tr><th>Sample</th><th>Association score</th><th>Original correct?</th><th>Retry correct?</th><th>Outcome</th></tr></thead><tbody><tr><td><a href='#A'>A — EDF total revenue</a></td><td>low / 0.0099</td><td>No</td><td>Yes</td><td>corrected</td></tr><tr><td><a href='#B'>B — EDF electricity / domestic</a></td><td>low / 0.0099</td><td>No</td><td>No</td><td>partial; still fails strict contract</td></tr><tr><td><a href='#C'>C — EDF electricity / non-domestic</a></td><td>low / 0.0099</td><td>No</td><td>No</td><td>partial; still fails strict contract</td></tr><tr><td><a href='#D'>D — EDF gas / domestic</a></td><td>low / 0.0099</td><td>No</td><td>No</td><td>partial; still fails strict contract</td></tr><tr><td><a href='#E'>E — Rolls-Royce revenue / 2026</a></td><td>high / 0.8837</td><td>No</td><td>Yes</td><td>corrected</td></tr><tr><td><a href='#F'>F — Rolls-Royce cost of sales / 2026</a></td><td>high / 0.8837</td><td>No</td><td>Yes</td><td>corrected</td></tr><tr><td><a href='#G'>G — CVS total revenues / 2Q 2025</a></td><td>high / 0.9661</td><td>Yes</td><td>Yes</td><td>retained</td></tr><tr><td><a href='#H'>H — Hippodrome turnover / 2025</a></td><td>high / 0.9661</td><td>Yes</td><td>Yes</td><td>retained</td></tr></tbody></table>
+    <p><b>Strict correctness: 2/8 → 5/8.</b> Three of six original errors become fully correct; the other three improve numeric readability but remain merged. No new errors among the two originally correct controls.</p>
+    <p><b>High scores did accompany incorrect associations:</b> both selected Rolls-Royce records score 0.8837 despite unresolved year bindings. Their digits are already correct. The five original numeric errors in the full dataset have no out-of-family numeric score; this experiment does not demonstrate a high-scoring wrong number.</p></section>
+    <section id='A'><h2>A — EDF total revenue</h2>
+        <p><code>edf_2024:01</code> · physical page 3 · association score 0.0099
+        · numeric score unavailable (failed training fold)</p>
+        <p><b>Reference:</b> 3,037.1 · Total revenue · Electricity supply / Domestic · GBP millions</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>3,037.1</b></p>
+        <p>Row: Total revenueRevenue from sale of electricity and gasOther revenues</p><p>Header: Electricity supply / Domestic</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;3,037.1&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>3,037.1</b></p>
+        <p>Row: Total revenue</p><p>Header: Electricity supply / Domestic</p><pre>&lt;td&gt;3,037.1&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: Yes;
+        separately usable unit context: Yes.<br>Fully correct? <b>Yes</b></p></article></div>
+        <p>Source p3: total revenue, electricity supply / domestic, GBP millions, 3,037.1. Original row label and unit span three concepts. Retry isolates Total revenue, its unit, and the two-level column header.</p><details><summary>Inspect original document page</summary><img src='assets/edf_2024_003.png' alt='Source page for EDF total revenue'></details>
+        <p>Saved page exports: <a href='assets/edf_2024_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/edf_2024_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='B'><h2>B — EDF electricity / domestic</h2>
+        <p><code>edf_2024:06</code> · physical page 3 · association score 0.0099
+        · numeric score unavailable (failed training fold)</p>
+        <p><b>Reference:</b> 3,037.1 / 0.0 · Revenue from sale of electricity and gas / Other revenues · Electricity supply / Domestic · GBP millions per original row</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>3,037.10.0</b></p>
+        <p>Row: Total revenueRevenue from sale of electricity and gasOther revenues</p><p>Header: Electricity supply / Domestic</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;3,037.10.0&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>3,037.1 ↵ 0.0</b></p>
+        <p>Row: Revenue from sale of electricity and gas Other revenues</p><p>Header: Electricity supply / Domestic</p><pre>&lt;td&gt;3,037.1&lt;br/&gt;0.0&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: No;
+        separately usable unit context: No.<br>Fully correct? <b>No</b></p></article></div>
+        <p>Source p3 shows separate revenue-from-sales and other-revenues rows: 3,037.1 and 0.0. Retry inserts an explicit HTML line break between the numbers, but both row labels and both units still occupy one cell. Numeric content improves; no separate financial records are produced.</p><details><summary>Inspect original document page</summary><img src='assets/edf_2024_003.png' alt='Source page for EDF electricity / domestic'></details>
+        <p>Saved page exports: <a href='assets/edf_2024_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/edf_2024_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='C'><h2>C — EDF electricity / non-domestic</h2>
+        <p><code>edf_2024:07</code> · physical page 3 · association score 0.0099
+        · numeric score unavailable (failed training fold)</p>
+        <p><b>Reference:</b> 8,674.9 / 0.0 · Revenue from sale of electricity and gas / Other revenues · Electricity supply / Non Domestic · GBP millions per original row</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>8,674.90.0</b></p>
+        <p>Row: Total revenueRevenue from sale of electricity and gasOther revenues</p><p>Header: Electricity supply / NonDomestic</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;8,674.90.0&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>8,674.9 ↵ 0.0</b></p>
+        <p>Row: Revenue from sale of electricity and gas Other revenues</p><p>Header: Electricity supply / Non Domestic</p><pre>&lt;td&gt;8,674.9&lt;br/&gt;0.0&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: No;
+        separately usable unit context: No.<br>Fully correct? <b>No</b></p></article></div>
+        <p>Source p3: revenue-from-sales 8,674.9; other revenues 0.0. Retry preserves both numbers with a line break, but the two rows and units remain bundled. It fails the same strict contract as B.</p><details><summary>Inspect original document page</summary><img src='assets/edf_2024_003.png' alt='Source page for EDF electricity / non-domestic'></details>
+        <p>Saved page exports: <a href='assets/edf_2024_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/edf_2024_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='D'><h2>D — EDF gas / domestic</h2>
+        <p><code>edf_2024:08</code> · physical page 3 · association score 0.0099
+        · numeric score unavailable (failed training fold)</p>
+        <p><b>Reference:</b> 1,693.1 / 0.0 · Revenue from sale of electricity and gas / Other revenues · Gas supply / Domestic · GBP millions per original row</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>1,693.10.0</b></p>
+        <p>Row: Total revenueRevenue from sale of electricity and gasOther revenues</p><p>Header: Gas supply / Domestic</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;1,693.10.0&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>1,693.1 ↵ 0.0</b></p>
+        <p>Row: Revenue from sale of electricity and gas Other revenues</p><p>Header: Gas supply / Domestic</p><pre>&lt;td&gt;1,693.1&lt;br/&gt;0.0&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: No;
+        separately usable unit context: No.<br>Fully correct? <b>No</b></p></article></div>
+        <p>Source p3: revenue-from-sales 1,693.1; other revenues 0.0. Retry preserves both numbers with a line break, but the two rows and units remain bundled. It fails the same strict contract as B.</p><details><summary>Inspect original document page</summary><img src='assets/edf_2024_003.png' alt='Source page for EDF gas / domestic'></details>
+        <p>Saved page exports: <a href='assets/edf_2024_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/edf_2024_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='E'><h2>E — Rolls-Royce revenue / 2026</h2>
+        <p><code>rolls_royce_2026h1_release:01</code> · physical page 13 · association score 0.8837
+        · numeric score 0.9958</p>
+        <p><b>Reference:</b> 11,448 · Revenue · Half-year to 30 June 2026 £m · GBP millions</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>11,448</b></p>
+        <p>Row: Revenue 2</p><p>Header: Half-year to Half-year to30 June 2026 30 June 2025Notes £m £m</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;11,448&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>11,448</b></p>
+        <p>Row: Revenue</p><p>Header: Half-year to 30 June 2026 £m</p><pre>&lt;td&gt;11,448&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: Yes;
+        separately usable unit context: Yes.<br>Fully correct? <b>Yes</b></p></article></div>
+        <p>Source physical p13: revenue 11,448 under half-year to 30 June 2026, GBP millions. Original numeric content is right but the shared header spans both years. Retry explicitly binds this number to 2026.</p><details><summary>Inspect original document page</summary><img src='assets/rolls_royce_2026h1_release_013.png' alt='Source page for Rolls-Royce revenue / 2026'></details>
+        <p>Saved page exports: <a href='assets/rolls_royce_2026h1_release_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/rolls_royce_2026h1_release_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='F'><h2>F — Rolls-Royce cost of sales / 2026</h2>
+        <p><code>rolls_royce_2026h1_release:03</code> · physical page 13 · association score 0.8837
+        · numeric score 0.9968</p>
+        <p><b>Reference:</b> (8,021) · Cost of sales · Half-year to 30 June 2026 £m · GBP millions</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>(8,021)</b></p>
+        <p>Row: Cost of sales 1, 2</p><p>Header: Half-year to Half-year to30 June 2026 30 June 2025Notes £m £m</p><pre>&lt;td colspan=&quot;1&quot; rowspan=&quot;1&quot;&gt;(8,021)&lt;/td&gt;</pre>
+        <p>Fully correct? <b>No</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>(8,021)</b></p>
+        <p>Row: Cost of sales 1, 2</p><p>Header: Half-year to 30 June 2026 £m</p><pre>&lt;td&gt;(8,021)&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: Yes;
+        separately usable unit context: Yes.<br>Fully correct? <b>Yes</b></p></article></div>
+        <p>Source physical p13: cost of sales (8,021) under half-year to 30 June 2026, GBP millions. Retry preserves the negative value and restores the separate 2026 header. The trailing 1, 2 in the label are source footnote markers.</p><details><summary>Inspect original document page</summary><img src='assets/rolls_royce_2026h1_release_013.png' alt='Source page for Rolls-Royce cost of sales / 2026'></details>
+        <p>Saved page exports: <a href='assets/rolls_royce_2026h1_release_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/rolls_royce_2026h1_release_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='G'><h2>G — CVS total revenues / 2Q 2025</h2>
+        <p><code>cvs_2025q2:01</code> · physical page 6 · association score 0.9661
+        · numeric score 0.9944</p>
+        <p><b>Reference:</b> $98.9 · Total Revenues · 2Q 2025 · USD billions</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>$98.9</b></p>
+        <p>Row: Total Revenues</p><p>Header: 2Q 2025</p><pre>&lt;td&gt;$98.9&lt;/td&gt;</pre>
+        <p>Fully correct? <b>Yes</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>$98.9</b></p>
+        <p>Row: Total Revenues</p><p>Header: 2Q 2025</p><pre>&lt;td&gt;$98.9&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: Yes;
+        separately usable unit context: Yes.<br>Fully correct? <b>Yes</b></p></article></div>
+        <p>Source p6: Total Revenues, 2Q 2025, $98.9 billion. Both parsers preserve the value, row and period; the retry retains &#x27;In billions, except per share amounts&#x27; despite surrounding OCR noise.</p><details><summary>Inspect original document page</summary><img src='assets/cvs_2025q2_006.png' alt='Source page for CVS total revenues / 2Q 2025'></details>
+        <p>Saved page exports: <a href='assets/cvs_2025q2_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/cvs_2025q2_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section id='H'><h2>H — Hippodrome turnover / 2025</h2>
+        <p><code>hippodrome_2025:01</code> · physical page 20 · association score 0.9661
+        · numeric score 0.9868</p>
+        <p><b>Reference:</b> 116,787,681 · Turnover · 2025 £ · GBP</p>
+        <div class='columns'><article><h3>Original: MinerU OCR</h3><p>Value: <b>116,787,681</b></p>
+        <p>Row: Turnover</p><p>Header: 2025 £</p><pre>&lt;td&gt;116,787,681&lt;/td&gt;</pre>
+        <p>Fully correct? <b>Yes</b></p></article>
+        <article><h3>Alternative: PyMuPDF4LLM</h3><p>Value: <b>116,787,681</b></p>
+        <p>Row: Turnover</p><p>Header: 2025 £</p><pre>&lt;td&gt;116,787,681&lt;/td&gt;</pre>
+        <p>Numeric content readable: Yes; association: Yes;
+        separately usable unit context: Yes.<br>Fully correct? <b>Yes</b></p></article></div>
+        <p>Source physical p20 (printed p18): Turnover 116,787,681 under 2025, GBP. Both parsers retain the number, row, year and currency.</p><details><summary>Inspect original document page</summary><img src='assets/hippodrome_2025_020.png' alt='Source page for Hippodrome turnover / 2025'></details>
+        <p>Saved page exports: <a href='assets/hippodrome_2025_mineru_ocr.json'>MinerU OCR</a> ·
+        <a href='assets/hippodrome_2025_pymupdf4llm.json'>PyMuPDF4LLM</a></p></section><section><h2>Runtime and provenance</h2><p>No fresh parser latency was measured. These are saved full-document PyMuPDF4LLM runtimes from Sam's September 30 runs; they are not per-cell retry times or measurements on this machine.</p>
+    <table><tr><th>Document</th><th>Pages</th><th>Historical full-document runtime</th></tr><tr><td>edf_2024</td><td>6</td><td>3.989 s</td></tr><tr><td>rolls_royce_2026h1_release</td><td>52</td><td>30.591 s</td></tr><tr><td>cvs_2025q2</td><td>12</td><td>8.071 s</td></tr><tr><td>hippodrome_2025</td><td>39</td><td>75.985 s</td></tr></table>
+    <p>Historical timing includes child-process startup; excludes downloads, export and scoring. Original PDFs are not copied into this comparison; the existing source-page renders were visually checked against the saved reference labels. Input hashes: <a href='provenance.json'>provenance.json</a>. Manual decisions: <a href='manual_review.json'>manual_review.json</a>.</p>
+    <p>The local evidence build took 0.190 seconds before report rendering. It is file processing time, not extraction latency.</p></section></html>

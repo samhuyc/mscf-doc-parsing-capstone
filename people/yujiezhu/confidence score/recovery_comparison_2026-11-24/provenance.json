@@ -1,0 +1,86 @@
+{
+  "review_date": "2026-11-24",
+  "inputs": [
+    {
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/cvs_2025q2/pymupdf4llm/run.json",
+      "sha256": "16d816d977b70d765c98cab8dd2908b4d2668efb1ebeb9a00f23e150a3c2beb9"
+    },
+    {
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/edf_2024/pymupdf4llm/run.json",
+      "sha256": "8f50320a52b492db7730da44c2a24edae48097d83aa30426eae5784362fee037"
+    },
+    {
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/hippodrome_2025/pymupdf4llm/run.json",
+      "sha256": "184548f254ff9f0485d04a4204a01e65cac4ac5f8450822d30cbbe21c24c7e65"
+    },
+    {
+      "path": "people/samhu/2026-09-29_sponsor_samples/results/rolls_royce_2026h1_release/pymupdf4llm/run.json",
+      "sha256": "ee87f0fef88dff37a458a6ee2cd14ce8db69c057a649d06da4a8339ce25574b8"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/recovery_comparison_2026-11-24/manual_review.json",
+      "sha256": "5f268700510f965a66fb4680032c7174bb30139f24f24801bd100970c98c3084"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/cvs_2025q2_006.png",
+      "sha256": "4140f131f38907ad1bfb332239c70bdbedb62809c7bb227942d9024b02f81ce1"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/cvs_2025q2_mineru_ocr.json",
+      "sha256": "04adb028eefb961d576f3545fbf74b4479559b842b87d34c8ad89c4f14546748"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/cvs_2025q2_pymupdf4llm.json",
+      "sha256": "6903cb364f1f21994e506756c718f930ca5e3e371fbae8b95836e1a9d3ff18fe"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/edf_2024_003.png",
+      "sha256": "b42af413be7f2d4342c208d445d2a13128367bc41ff9abff690b831b17e72a5a"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/edf_2024_mineru_ocr.json",
+      "sha256": "478ff59ae5b18bffc867408b9040d7fbc5a460c1d558eb7a248600a19b5499e3"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/edf_2024_pymupdf4llm.json",
+      "sha256": "2efface54a0fb5a1523326aab6013eae29d31d281b75d6d13e5b1d29ab10f195"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/hippodrome_2025_020.png",
+      "sha256": "c65d05a0e3b8ff9f7e67556a60087d611bae69477076dfb6e5f933c6aab0d495"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/hippodrome_2025_mineru_ocr.json",
+      "sha256": "3ddbf76386addce235de7416e912aaff8edf19e027b9a910ded5b5f444d71fc9"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/hippodrome_2025_pymupdf4llm.json",
+      "sha256": "d990bc6a3bcd6dbddc103b37ce70607764e808fde2c4a7401126175eff82b8dd"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/rolls_royce_2026h1_release_013.png",
+      "sha256": "f15406701a619a44868ec61d4756e5a50956b8fd8e7551b95c344e051b03c6bc"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/rolls_royce_2026h1_release_mineru_ocr.json",
+      "sha256": "128e34ed500e847166b3e9b8edec1ca93e19b592e61b91079e86afbac4d4adbd"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/assets/rolls_royce_2026h1_release_pymupdf4llm.json",
+      "sha256": "69507ed5e64d2957bd25c71752120a0e509c0aa4fd4af53338b784476b8c24c0"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/build_demo.py",
+      "sha256": "3bf64a5dfb89e850c1654f26687c46791afb03004a054e75132ab7f01fb692f8"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/model_results/diagnostics.json",
+      "sha256": "c640b4f2d596b04599fab4850bd03a79640bb0fc2fdc385423a7a0414e689103"
+    },
+    {
+      "path": "people/yujiezhu/confidence score/sponsor_demo_2026-11-10/reviewed_cells.json",
+      "sha256": "93111f960d60226fe0a3b34dc2ba0673167d92ffb0d5311430e49e78858bb59c"
+    }
+  ],
+  "generation": "No new parser calls; saved output replay with manual source review."
+}
